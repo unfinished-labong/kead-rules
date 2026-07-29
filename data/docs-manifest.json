@@ -1,9 +1,9 @@
 {
-  "collectedAt": "2026-07-29T07:50:33.107Z",
+  "collectedAt": "2026-07-29T08:02:12.829Z",
   "converterVersion": 4,
   "targets": 74,
   "converted": 74,
-  "reusedFromCache": 0,
+  "reusedFromCache": 74,
   "totalArticles": 3129,
   "totalSupplementArticles": 817,
   "needsOriginal": 924,
