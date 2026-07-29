@@ -17,8 +17,9 @@ const WANTED = new Set(['현행', '시행예정']);
 
 // 변환 로직을 바꿀 때마다 이 숫자를 올린다.
 // 값이 다르면 캐시를 통째로 버리고 다시 변환하므로, 사람이 파일을 지울 필요가 없다.
-// 2: 본칙·부칙 분리, 조문 시작 판정 강화
-const CONVERTER_VERSION = 2;
+// 2: 본칙·부칙 분리
+// 3: 조문 제목 괄호 종류 무관 인식, 조사 제외 방식으로 전환
+const CONVERTER_VERSION = 3;
 
 // ── 형식 판별: 확장자가 아니라 실제 바이트로 본다 ──
 export function sniffFormat(buf) {
@@ -69,9 +70,21 @@ export async function convertFile(file) {
 
 // ── 조문 단위로 다시 묶기 ──
 // kordoc 청크는 헤딩·본문이 섞여 있다. '제N조' 경계로 재정규화한다.
-// 줄 맨 앞의 "제N조(제목)" 또는 "제N조 " 만 조문 시작으로 본다.
-// "④ 제53조에 따라..." 처럼 조문을 인용하는 문장은 제외된다.
-const ART = /^제\s*(\d+)\s*조(?:의\s*(\d+))?\s*(?:\(([^)]*)\)|(?=[\s.:]|$))/;
+// 줄 맨 앞의 "제N조"를 조문 시작으로 본다.
+// 다만 바로 뒤에 한글이 붙으면 조사이므로("제53조에 따라") 제외한다.
+// 제목 괄호는 (), 【】, 「」, ［］ 등 문서마다 다르므로 종류를 가리지 않는다.
+const ART = /^제\s*(\d+)\s*조(?:의\s*(\d+))?(.*)$/;
+const TITLE = /^[(（【「[［<]\s*([^)）】」\]］>]*)/;
+const JOSA = /^[가-힣]/;   // 조사로 이어지면 조문 시작이 아니다
+
+export function matchArticle(line) {
+  const m = line.match(ART);
+  if (!m) return null;
+  const rest = m[3] ?? '';
+  if (JOSA.test(rest)) return null;
+  const t = rest.trimStart().match(TITLE);
+  return { no: m[1], sub: m[2] ?? null, title: t ? t[1].trim() || null : null };
+}
 
 export function toArticles(chunks) {
   const arts = [];
@@ -96,16 +109,17 @@ export function toArticles(chunks) {
         continue;
       }
 
-      const m = line.match(ART);
-      if (m) {
+      const a = matchArticle(line);
+      if (a) {
         push();
-        const no = m[2] ? `${m[1]}의${m[2]}` : m[1];
+        const no = a.sub ? `${a.no}의${a.sub}` : a.no;          // 중복 판정용
+        const label = `제${a.no}조${a.sub ? `의${a.sub}` : ''}`;  // 인용 표기용
         cur = {
           section,
           supplement,
           articleNo: no,
-          articleId: section === '본칙' ? `제${no}조` : `부칙${supplement ? `(${supplement})` : ''} 제${no}조`,
-          title: m[3] ?? null,
+          articleId: section === '본칙' ? label : `부칙${supplement ? `(${supplement})` : ''} ${label}`,
+          title: a.title,
           breadcrumb: c.breadcrumb ?? [],
           page: c.page ?? null,
           text: line,
@@ -161,6 +175,7 @@ async function main() {
   const targets = inventory.filter((i) => WANTED.has(i.status));
   const byKey = {};
   const failed = [];
+  const lowYield = [];
   const docs = [];
   let reused = 0;
 
@@ -218,6 +233,18 @@ async function main() {
         articles,
       };
 
+      // 자가 진단: 원문에 '제N조'가 많은데 인식된 조문이 적으면 표본을 남긴다
+      const rawLines = chunks.flatMap((c) => String(c.text ?? '').split('\n'));
+      const mentions = rawLines.filter((l) => /제\s*\d+\s*조/.test(l)).length;
+      if (mentions >= 10 && articles.filter((x) => x.articleNo).length < mentions * 0.2) {
+        lowYield.push({
+          doc: item.docName,
+          mentions,
+          recognized: articles.filter((x) => x.articleNo).length,
+          samples: rawLines.filter((l) => /제\s*\d+\s*조/.test(l)).slice(0, 5).map((l) => l.slice(0, 90)),
+        });
+      }
+
       await writeFile(outFile, JSON.stringify(doc, null, 2));
       byKey[att.key] = { docKey: item.docKey, sha256: doc.sha256, articles: doc.articleCount, supplements: doc.supplementCount };
       docs.push(doc);
@@ -257,6 +284,7 @@ async function main() {
         totalSupplementArticles: docs.reduce((s, d) => s + (d.supplementCount ?? 0), 0),
         needsOriginal: docs.reduce((s, d) => s + d.needsOriginalCount, 0),
         failed,
+        lowYield,
         mergeCandidates,
         byKey,
       },
