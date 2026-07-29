@@ -26,9 +26,35 @@ function asArray(v) {
   return Array.isArray(v) ? v : [v];
 }
 
+// 가운뎃점은 문서마다 표기가 달라(· ㆍ ‧ ∙ ・) 검색이 어긋난다. 비교할 땐 전부 지운다.
+const DOTS = /[·ㆍ‧∙・]/g;
+const HAS_DOT = /[·ㆍ‧∙・]/;   // /g 로 test()를 반복하면 lastIndex가 밀려 결과가 번갈아 나온다
+const norm = (x) => String(x ?? '').replace(DOTS, '').replace(/\s+/g, '');
+
+// 같은 이름의 가운뎃점 변형들을 만들어 차례로 시도한다.
+function queryVariants(name) {
+  const set = new Set([name]);
+  if (HAS_DOT.test(name)) {
+    set.add(name.replace(DOTS, 'ㆍ'));
+    set.add(name.replace(DOTS, '·'));
+    set.add(name.replace(DOTS, ''));
+    set.add(name.replace(DOTS, ' '));
+  }
+  return [...set];
+}
+
 // ── 목록 조회: 이름으로 현행본을 찾아 법령일련번호(MST)를 얻는다 ──
 async function findLatest(name, target) {
-  const url = `${BASE}/lawSearch.do?OC=${encodeURIComponent(OC)}&target=${target}&type=XML&display=100&query=${encodeURIComponent(name)}`;
+  for (const q of queryVariants(name)) {
+    const hit = await searchOnce(q, name, target);
+    if (hit) return hit;
+    await sleep(250);
+  }
+  return null;
+}
+
+async function searchOnce(query, name, target) {
+  const url = `${BASE}/lawSearch.do?OC=${encodeURIComponent(OC)}&target=${target}&type=XML&display=100&query=${encodeURIComponent(query)}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`목록조회 HTTP ${res.status}`);
   const doc = parser.parse(await res.text());
@@ -37,7 +63,6 @@ async function findLatest(name, target) {
   const rows = asArray(root?.law ?? root?.admrul ?? root?.AdmRul);
 
   // 이름이 정확히 일치하는 것 우선, 없으면 포함하는 것
-  const norm = (x) => String(x ?? '').replace(/\s+/g, '');
   const wanted = norm(name);
 
   const candidates = rows
