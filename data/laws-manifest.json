@@ -1,13 +1,13 @@
 {
-  "collectedAt": "2026-07-29T06:23:42.559Z",
-  "requested": 45,
-  "collected": 44,
-  "totalArticles": 1440,
+  "collectedAt": "2026-07-29T06:34:07.945Z",
+  "requested": 44,
+  "collected": 43,
+  "totalArticles": 1326,
   "failed": [
     {
-      "name": "고령자 고용환경개선자금 융자규정",
-      "target": "admrul",
-      "reason": "검색 결과 없음"
+      "name": "장애인고용촉진 및 직업재활법",
+      "target": "law",
+      "reason": "fetch failed"
     }
   ]
 }
