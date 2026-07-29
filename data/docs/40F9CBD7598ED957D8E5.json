@@ -11,313 +11,1893 @@
   "fileKey": "40F9CBD7598ED957D8E5",
   "fileUrl": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=40F9CBD7598ED957D8E5",
   "sha256": "92a01e59c64b79973ed815007564939e79ce0ec79ab25bb33f7ea0f7c09563e0",
-  "articleCount": 27,
-  "needsOriginalCount": 8,
+  "articleCount": 4,
+  "supplementCount": 0,
+  "needsOriginalCount": 3,
   "articles": [
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": null,
+      "articleId": null,
       "title": "머리말",
       "breadcrumb": [],
       "text": "**감사규정 시행규칙**",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": null,
+      "articleId": null,
       "title": "머리말",
       "breadcrumb": [],
-      "text": "제정 1991. 4. 3. 규칙 제 11호\n개정 1992. 7. 14. 규칙 제 25호\n개정 2000. 6. 5. 규칙 제132호\n개정 2001. 10. 24. 규칙 제146호\n개정 2004. 8. 27. 규칙 제179호\n개정 2007. 3. 14. 규칙 제217호\n전부개정 2008. 2. 15. 규칙 제236호\n개정 2009. 12. 2. 규칙 제294호\n개정 2011. 2. 24. 규칙 제343호\n개정 2014. 10. 31. 규칙 제449호\n개정 2015. 10. 30. 규칙 제469호\n개정 2023. 9. 25. 규칙 제762호\n개정 2025. 1. 22. 규칙 제827호",
+      "text": "제정 1991. 4. 3. 규칙 제 11호",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": null,
+      "articleId": null,
       "title": "머리말",
       "breadcrumb": [],
-      "text": "<table>\n<tr><th colspan=\"3\">감사규정시행규칙</th></tr>\n<tr><td>제1장</td><td>총칙</td></tr>\n<tr><td>제1조</td><td>목적</td></tr>\n<tr><td>제2조</td><td>감사준거</td></tr>\n<tr><td>제2장</td><td>감사계획과 실시</td></tr>\n<tr><td>제3조</td><td>감사계획의 통보</td></tr>\n<tr><td>제4조</td><td>감사실시 제외</td></tr>\n<tr><td>제5조</td><td>감사준비</td></tr>\n<tr><td>제6조</td><td>감사증거수집</td></tr>\n<tr><td>제7조</td><td>증거서류의 요구 등</td></tr>\n<tr><td>제8조</td><td>선행감사결과의 후속조치</td></tr>\n<tr><td>제9조</td><td>창고등의 봉인</td></tr>\n<tr><td>제10조</td><td>감사의 종결</td></tr>\n<tr><td>제3장</td><td>감사결과보고와 처리</td></tr>\n<tr><td>제11조</td><td>감사결과보고</td></tr>\n<tr><td>제12조</td><td>감사결과 보고의 원칙</td></tr>\n<tr><td>제13조</td><td>처분요구서 등 작성 및 시행</td></tr>\n<tr><td>제14조</td><td>감사처분의 종류</td></tr>\n<tr><td>제15조</td><td>감사처분기준</td></tr>\n<tr><td>제15조의2</td><td>수사기관이 수사한 비위사건 처리 기준</td></tr>\n<tr><td>제16조</td><td>처분요구사항의 집행 및 보고</td></tr>\n<tr><td>제17조</td><td>재조치요구</td></tr>\n<tr><td>제18조</td><td>이의신청</td></tr>\n<tr><td>제19조</td><td>이의신청의 처리</td></tr>\n<tr><td>제20조</td><td>재심사 요구와 처리</td></tr>\n<tr><td>제21조</td><td>직권 재심의[삭제, 2009.12.2.]</td></tr>\n<tr><td>제22조</td><td>감사결과기록부의 비치</td></tr>\n<tr><td>제23조</td><td>연간감사보고서의 작성</td></tr>\n<tr><td>제24조</td><td>감사업무지원</td></tr>\n<tr><td>제4장</td><td>일상감사</td></tr>\n<tr><td>제25조</td><td>일상감사의 대상과 범위</td></tr>\n<tr><td>제26조</td><td>일상감사절차와 결과처리</td></tr>\n<tr><td>제26조의2</td><td>일상감사의 효과</td></tr>\n<tr><td>제5장</td><td>보칙</td></tr>\n<tr><td>제27조</td><td>감사기초자료 제공</td></tr>\n<tr><td>제28조</td><td>외부감사</td></tr>\n<tr><td>제29조</td><td>감사환경의 전산화</td></tr>\n<tr><td>제30조</td><td>긴급보고</td></tr>\n<tr><td>제31조</td><td>직원격려</td></tr>\n<tr><td>제32조</td><td>대결[삭제, 2011.2.24.]</td></tr>\n<tr><td>제33조</td><td>감사심의기구 운영</td></tr>\n<tr><td>제34조</td><td>자율감사인 선임 및 제도 운영</td></tr>\n<tr><td>제34조의2</td><td>자율감사인의 권한 및 의무</td></tr>\n<tr><td>제35조</td><td>감사인의 회피</td></tr>\n<tr><td>제36조</td><td>감사결과 등 공개</td></tr>\n<tr><td>제37조</td><td>변상에 관한 사항의 준용</td></tr>\n<tr><td>제38조</td><td>경미한 사항</td></tr>\n</table>",
+      "text": "개정 1992. 7. 14. 규칙 제 25호",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2000. 6. 5. 규칙 제132호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2001. 10. 24. 규칙 제146호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2004. 8. 27. 규칙 제179호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2007. 3. 14. 규칙 제217호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "전부개정 2008. 2. 15. 규칙 제236호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2009. 12. 2. 규칙 제294호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2011. 2. 24. 규칙 제343호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2014. 10. 31. 규칙 제449호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2015. 10. 30. 규칙 제469호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2023. 9. 25. 규칙 제762호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2025. 1. 22. 규칙 제827호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<table>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><th colspan=\"3\">감사규정시행규칙</th></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제1장</td><td>총칙</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제1조</td><td>목적</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제2조</td><td>감사준거</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제2장</td><td>감사계획과 실시</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제3조</td><td>감사계획의 통보</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제4조</td><td>감사실시 제외</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제5조</td><td>감사준비</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제6조</td><td>감사증거수집</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제7조</td><td>증거서류의 요구 등</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제8조</td><td>선행감사결과의 후속조치</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제9조</td><td>창고등의 봉인</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제10조</td><td>감사의 종결</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제3장</td><td>감사결과보고와 처리</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제11조</td><td>감사결과보고</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제12조</td><td>감사결과 보고의 원칙</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제13조</td><td>처분요구서 등 작성 및 시행</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제14조</td><td>감사처분의 종류</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제15조</td><td>감사처분기준</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제15조의2</td><td>수사기관이 수사한 비위사건 처리 기준</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제16조</td><td>처분요구사항의 집행 및 보고</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제17조</td><td>재조치요구</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제18조</td><td>이의신청</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제19조</td><td>이의신청의 처리</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제20조</td><td>재심사 요구와 처리</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제21조</td><td>직권 재심의[삭제, 2009.12.2.]</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제22조</td><td>감사결과기록부의 비치</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제23조</td><td>연간감사보고서의 작성</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제24조</td><td>감사업무지원</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제4장</td><td>일상감사</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제25조</td><td>일상감사의 대상과 범위</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제26조</td><td>일상감사절차와 결과처리</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제26조의2</td><td>일상감사의 효과</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제5장</td><td>보칙</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제27조</td><td>감사기초자료 제공</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제28조</td><td>외부감사</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제29조</td><td>감사환경의 전산화</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제30조</td><td>긴급보고</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제31조</td><td>직원격려</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제32조</td><td>대결[삭제, 2011.2.24.]</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제33조</td><td>감사심의기구 운영</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제34조</td><td>자율감사인 선임 및 제도 운영</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제34조의2</td><td>자율감사인의 권한 및 의무</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제35조</td><td>감사인의 회피</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제36조</td><td>감사결과 등 공개</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제37조</td><td>변상에 관한 사항의 준용</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<tr><td>제38조</td><td>경미한 사항</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "</table>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
       "title": "머리말",
       "breadcrumb": [],
       "text": "제1장 총칙",
       "needsOriginal": false
     },
     {
-      "articleNo": "1",
-      "title": "목적",
-      "breadcrumb": [
-        "제1장 총칙"
-      ],
-      "page": 1,
-      "text": "**제1조(목적)** 이 규칙은 감사규정(이하 “규정”이라 한다)에서 위임한 사항과 시행에 필요한 사항을 정함을 목적으로 한다.\n\n**제2조(감사준거)** ➀ 감사인은 관계법령과 정관, 감사규정 등 내규, 감독기관의 명령, 지시 등에 준거하여 감사업무를 수행하여야한다. <개정 2011. 02. 24.>\n\n➁ 감사인은 제1항에 따라 감사업무를 수행할 때 규정 제25조의 감사기준이 감사결과에 상충되는 영향을 미치게 할 경우에는 다음 각 호의 사항을 감안한 합리적인 기준을 적용하여 공정하고 타당하게 처리하여야 한다.\n\n1. 관련법령이나 제도의 시행취지\n\n2. 감사대상기관의 의무\n\n3. 감사대상 업무의 목적, 수행여건과 환경\n\n4. 건전한 관행\n\n5. 전문가의 의견\n제2장 감사계획과 실시",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제1조(목적)** 이 규칙은 감사규정(이하 “규정”이라 한다)에서 위임한 사항과 시행에 필요한 사항을 정함을 목적으로 한다.",
       "needsOriginal": false
     },
     {
-      "articleNo": "3",
-      "title": "감사계획의 통보",
-      "breadcrumb": [
-        "제2장 감사계획과 실시"
-      ],
-      "page": 1,
-      "text": "**제3조(감사계획의 통보)** 규정 제19조에 따라 감사대상기관의 장에게 감사의 사전예고를 할 때에는 감사목적, 감사방향, 감사범위, 감사기간, 감사방법, 감사인 등 감사계획의 주요사항을 포함하여 통보하여야 한다. \n\n**제4조(감사실시 제외)** 규정 제18조의 연간감사계획 수립 시 감사대상기관이 다음 각 호에 해당되는 경우에는 당해연도 감사대상에서 제외할 수 있다. <개정 2011. 02. 24.>\n\n1. 외부기관으로부터 종합감사를 받은 기관\n\n2. 성과평가결과가 우수한 기관(부서)",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제2조(감사준거)** ➀ 감사인은 관계법령과 정관, 감사규정 등 내규, 감독기관의 명령, 지시 등에 준거하여 감사업무를 수행하여야한다. <개정 2011. 02. 24.>",
       "needsOriginal": false
     },
     {
-      "articleNo": "5",
-      "title": "감사준비",
-      "breadcrumb": [
-        "제2장 감사계획과 실시",
-        "2. 성과평가결과가 우수한 기관(부서)"
-      ],
-      "page": 1,
-      "text": "**제5조(감사준비)** ① 감사는 감사를 실시할 경우 규정 제12조에 따른 감사인으로 구성된 감사반을 편성·운영할 수 있으며, 감사반장은 감사반에 편성된 감사인 중에서 감사실장이 지명하는 사람으로 한다. <신설 2025. 1. 22.>\n② 감사인은 감사실시에 앞서 다음 각 호의 자료를 수집·분석하여 감사대상기관에서 발생 가능한 위법행위, 오류, 낭비 등의 성격․유형과 그것이 초래할 결과를 파악하고 대안을 탐색하는 등 사전준비를 충실히 하여야 한다.\n\n1. 관련 법령, 규정, 업무지침, 질의회시, 각종 지시사항\n\n2. 기능, 조직, 인력, 예산 등 일반현황\n\n3. 주요업무계획과 추진실적\n\n4. 성과평가편람과 성과평가결과보고\n\n5. 언론보도사항 등 여론\n\n6. 국회 논의사항\n\n7. 서면감사자료, 민원 및 정보사항 등 감사 자료의 분석결과\n\n8. 선행감사결과 처분(요구)의 집행상황\n\n9. 그밖에 감사와 관련하여 필요한 자료\n\n③ 감사인은 감사의 준비과정에서 감사대상기관과 관련 직원의 의견을 적극 수렴하여야 한다.\n\n④ 감사는 제2항에 따른 수집 자료와 제30조에 따른 보고 자료를 참고하여 다음 각 호에 해당하는 조치를 취할 수 있다. <개정 2011. 02. 24., 2025. 1. 22.>\n\n1. 중요한 사항에 대하여는 실지감사\n\n2. 사안이 경미하거나 그 처리방안이 명백한 경우에는 소관부서의 장에게 통보하여 필요한 조치를 취하게 하고 그 조치결과를 회보하게 한다.\n\n3. 기타 경미한 사항은 감사 자료를 활용하거나 불문처리 한다.",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "➁ 감사인은 제1항에 따라 감사업무를 수행할 때 규정 제25조의 감사기준이 감사결과에 상충되는 영향을 미치게 할 경우에는 다음 각 호의 사항을 감안한 합리적인 기준을 적용하여 공정하고 타당하게 처리하여야 한다.",
       "needsOriginal": false
     },
     {
-      "articleNo": "6",
-      "title": "감사증거수집",
-      "breadcrumb": [
-        "제2장 감사계획과 실시",
-        "3. 기타 경미한 사항은 감사 자료를 활용하거나 불문처리 한다."
-      ],
-      "page": 1,
-      "text": "**제6조(감사증거수집)** ① 감사인은 감사대상이 되는 사항의 진위와 적법·타당성에 관한 감사인의 판단을 객관적으로 뒷받침할 수 있는 감사증거를 다음 각 호의 원칙에 따라 수집하여 추가적인 감사나 법적 다툼이 발생하지 않도록 노력하여야 한다.\n1. 관련성 : 감사증거는 감사목적에 기여해야 한다.\n\n2. 신뢰성 : 감사증거는 믿을 수 있는 출처로부터 획득하여야 한다.\n\n3. 충분성 : 감사의 중요성에 따라 충분한 양의 감사증거를 수집하여야 한다.\n\n② 감사인은 증거인멸의 우려가 있는 경우에는 검증 등의 방법으로 즉시 감사증거를 확보하고 검증목적과 시기적으로 일치되는 감사증거를 수집하여야 한다.\n\n③ 감사인은 감사증거의 증거능력과 감사대상기관의 부담 등 증거수집의 비용을 감안하여 증거를 수집하여야 한다.\n\n④ 감사인은 수집된 증거에 대하여 그 출처와 근거를 명시하고 증거능력을 검증하여야 한다.\n\n⑤ 감사대상기관의 장 또는 관계직원은 규정 제8조 제1항과 제12조 제2항에 따라 감사실이 자료를 요구하면 성실하게 응하여야 하며, 정당한 사유 없이 이를 거부하거나 자료제출을 태만히 할 경우 감사는 감사결과 처분기준표에 따라 그에 상응하는 처분을 요구할 수 있다.",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 관련법령이나 제도의 시행취지",
       "needsOriginal": false
     },
     {
-      "articleNo": "7",
-      "title": "증거서류의 요구 등",
-      "breadcrumb": [
-        "제2장 감사계획과 실시",
-        "⑤ 감사대상기관의 장 또는 관계직원은 규정 제8조 제1항과 제12조 제2항에 따라 감사실이 자료를 요구하면 성실하게 응하여야 하며, 정당한 사유 없이 이를 거부하거나 자료제출을 태만히 할 경우 감사는 감사결과 처분기준표에 따라 그에 상응하는 처분을 요구할 수 있다."
-      ],
-      "page": 1,
-      "text": "**제7조(증거서류의 요구 등)** ① 규정 제8조 제1항에 따라 감사인은 감사결과를 증명하기 위하여 필요한 경우 관계직원으로부터 다음 각 호의 증거서류를 요구할 수 있다. <개정 2011. 02. 24.>\n1. 확인서(별지 제1호 서식)\n\n2. 경위서(별지 제2호 서식)\n\n3. 문답서(별지 제3호 서식)\n\n4. 관계서류\n\n② 감사는 감사결과 발견한 사무처리 내용 또는 책임한계가 불분명하거나 제도개선 사항 등 의견을 참고할 필요가 있다고 인정되는 사항에 대하여 소관부서의 장에게 질문서(별지 제4호 서식)를 발부할 수 있다. <개정 2025. 1. 22.>\n\n③ 제2항에 따라 질문서를 받은 소관부서의 장은 지정기일까지 이에 대한 답변서(별지 제5호)를 제출하여야 한다.\n\n④ 감사인은 제1항 및 제2항의 증거서류 요구 및 질문서 발부 시 규정 제28조의3의 적극행정면책제도에 대한 안내를 하여야 한다. <신설 2011. 02. 24.> <개정 2025. 1. 22.>",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 감사대상기관의 의무",
       "needsOriginal": false
     },
     {
-      "articleNo": "8",
-      "title": "선행감사결과의 후속조치",
-      "breadcrumb": [
-        "제2장 감사계획과 실시",
-        "④ 감사인은 제1항 및 제2항의 증거서류 요구 및 질문서 발부 시 규정 제28조의3의 적극행정면책제도에 대한 안내를 하여야 한다. <신설 2011. 02. 24.> <개정 2025. 1. 22.>"
-      ],
-      "page": 1,
-      "text": "**제8조(선행감사결과의 후속조치)** ① 감사인은 선행 감사 시 처분요구 또는 권고·통보한 사항에 대하여 적정한 조치를 하였는지 여부를 확인하여야 한다.\n② 감사인은 제1항의 확인결과 중요한 처분요구 또는 권고·통보한 사항의 조치가 미흡한 경우에는 이를 감사에게 보고하고, 감사는 감사처분 이행을 소홀히 한 경우에 그에 대한 처분요구를 할 수 있다.\n\n③ 감사인은 처분요구를 받은 자가 동일·유사 업무를 처리하면서 같은 위법·부당행위를 반복하는 경우에는 신분상 가중처분을 요구할 수 있다. <신설 2025. 1. 22.>",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 감사대상 업무의 목적, 수행여건과 환경",
       "needsOriginal": false
     },
     {
-      "articleNo": "9",
-      "title": "창고 등의 봉인",
-      "breadcrumb": [
-        "제2장 감사계획과 실시",
-        "③ 감사인은 처분요구를 받은 자가 동일·유사 업무를 처리하면서 같은 위법·부당행위를 반복하는 경우에는 신분상 가중처분을 요구할 수 있다. <신설 2025. 1. 22.>"
-      ],
-      "page": 1,
-      "text": "**제9조(창고 등의 봉인)** ① 감사인이 규정 제8조 제1항 제4호에 따라 봉인하고자 할 때에는 그 목적물 관리자등의 입회하에 봉인표시하고 봉인조서(별지 제6호 서식)를 작성하여야 한다.\n② 특별한 사유가 없는 경우 제1항에 따른 봉인은 24시간을 초과할 수 없다.",
-      "needsOriginal": true
-    },
-    {
-      "articleNo": "10",
-      "title": "감사의 종결",
-      "breadcrumb": [
-        "제2장 감사계획과 실시",
-        "② 특별한 사유가 없는 경우 제1항에 따른 봉인은 24시간을 초과할 수 없다."
-      ],
-      "page": 1,
-      "text": "**제10조(감사의 종결)** ① 실지감사는 특별한 사유가 없으면 계획된 기간 내에 종결하여야 한다. 다만 감사반장은 감사기간을 연장할 필요가 있다고 판단될 경우 감사에게 보고하고 감사의 지시에 따라 감사기간을 연장할 수 있다.\n② 감사반장은 감사효과 및 감사결과에 대한 신뢰도 제고를 위하여 실지감사 종료 후 감사대상기관 직원을 대상으로 감사결과에 대한 강평을 실시할 수 있다.\n<신설 2025. 1. 22.>\n제3장 감사결과보고와 처리",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "4. 건전한 관행",
       "needsOriginal": false
     },
     {
-      "articleNo": "11",
-      "title": "감사결과보고",
-      "breadcrumb": [
-        "제3장 감사결과보고와 처리"
-      ],
-      "page": 1,
-      "text": "**제11조(감사결과보고)** ① 감사인은 규정 제20조에 따라 감사보고서와 처분요구서로 구성된 감사결과보고서를 작성하여 감사에게 제출하여야 한다.\n\n② 감사보고서에는 다음 각 호의 사항을 기재하여야 한다.\n\n1. 감사기간\n\n2. 감사대상기관(부서)명\n\n3. 감사인의 직위․성명\n\n4. 감사경위\n\n5. 주요감사내용\n\n6. 감사에 관한 종합의견\n\n7. 감사결과 주요지적사항\n\n8. 애로 및 건의사항\n\n9. 현지조치 및 지도사항\n\n10. 그밖에 참고사항\n③「공공감사에 관한 법률」제26조에 따라 감사는 감사결과의 공개에 관한 사항을 ‘전부공개’, ‘부분공개’, ‘비공개’로 공개범위를 구분하여 결정하여야 하고, 이를 공단 홈페이지에 공개하여야 한다. <개정 2011. 02. 24.>\n\n**제12조(감사결과 보고의 원칙)** 감사인은 감사결과보고서를 다음 각 호의 원칙에 따라 작성하여 보고하여야 한다.\n1. 적시성 : 감사성과를 저해하거나 감사대상기관의 업무처리에 지장을 주지 않도록 적기에 작성되어야 한다.\n\n2. 완전성 : 감사목적 달성에 필요한 모든 정보를 포함하여야 한다.\n\n3. 간결성 : 전달하고자 하는 내용만을 간략, 명료하게 나타내고 필요이상으로 길거나 불필요한 반복을 피해야 한다.\n\n4. 논리성 : 논리적이고 이해하기 쉬어야하며 애매모호한 표현이나 일반화되지 않은 약어나 전문용어 등은 가급적 피해야 한다.\n\n5. 정확성 : 수집된 감사증거에 기초하여 정당성을 입증할 수 있도록 올바르게 기술하고 감사범위, 감사방법, 감사증거에 한계가 있는 경우에는 이를 명시하여야한다.\n\n6. 공정성 : 감사대상기관의 의견과 전문가의 자문 등을 충분히 감안하여 문제점을 과장하지 아니하고 편향되지 않은 시각으로 작성해야한다.",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "5. 전문가의 의견",
       "needsOriginal": false
     },
     {
-      "articleNo": "13",
-      "title": "처분요구서 등 작성 및 시행",
-      "breadcrumb": [
-        "제3장 감사결과보고와 처리",
-        "6. 공정성 : 감사대상기관의 의견과 전문가의 자문 등을 충분히 감안하여 문제점을 과장하지 아니하고 편향되지 않은 시각으로 작성해야한다."
-      ],
-      "page": 1,
-      "text": "**제13조(처분요구서 등 작성 및 시행)** ① 감사는 규정 제21조 제3항 제1호, 제2호, 제4호에 따라 처분요구를 할 때에는 감사결과 처분요구서(별지 제7호 서식)를, 같은 조․항의 제3호에 따라 징계를 요구할 때에는 징계(문책)처분요구서(별지 제8호 서식)를 작성하여 감사대상기관의 장에게 송부하여야 한다. <개정 2011. 02. 24.>\n② 감사는 감사결과에 따른 처분요구를 할 때 본부부서에 관한 사항은 이사장에게 하고, 소속기관에 관한 사항은 소속기관의 장에게 요구한다. <신설 2011. 02. 24.>\n\n③ 감사는 규정 제21조 제1항에 따라 감사대상기관에 감사결과를 통보하는 내용 중 개인의 처분이 경고 이상에 해당하는 경우에는 그 내용을 이사장에게 통보하여 인사자료로 활용할 수 있도록 하여야 한다. <신설 2011. 02. 24.>",
-      "needsOriginal": true
-    },
-    {
-      "articleNo": "14",
-      "title": "감사처분의 종류",
-      "breadcrumb": [
-        "제3장 감사결과보고와 처리",
-        "③ 감사는 규정 제21조 제1항에 따라 감사대상기관에 감사결과를 통보하는 내용 중 개인의 처분이 경고 이상에 해당하는 경우에는 그 내용을 이사장에게 통보하여 인사자료로 활용할 수 있도록 하여야 한다. <신설 2011. 02. 24.>"
-      ],
-      "page": 1,
-      "text": "**제14조(감사처분의 종류)** ① 감사는 감사결과 개별 지적사항에 대하여 규정 제21조 제3항 각 호에 적합한 처분을 선택적으로 적용하여야 한다.\n② 처분의 종류는 다음 각 호와 같으며, 2개 이상의 처분을 병과 할 수 있다. <개정 2011. 02. 24., 2025. 1. 22.>\n\n1. 변상판정 또는 변상명령 : 「회계 관계직원 등의 책임에 관한 법률」이 정하는 바에 따라 회계 관계직원 등에 대한 변상책임이 있다고 인정되는 경우\n\n2. 징계 또는 문책 : 공단 내규에 규정된 징계 또는 문책사유에 해당되는 경우\n\n3. 시정 : 감사결과 위법 또는 부당하여 추징·회수·보전·환급·추급 또는 원상복구 등이 필요하다고 인정되는 경우\n\n4. 경고 : 감사결과 위법 또는 부당하다고 인정되는 사실이 있으나 그 정도가 징계에 이르지 못할 정도로 경미하여 관련 직원 및 감사대상기관(부서)에 대한 제재가 필요한 경우\n\n5. 주의 : 감사결과 위법 또는 부당하다고 인정되는 사실이 있으나 그 정도가 징계 또는 경고에 이르지 못할 정도로 경미하여 관련 직원 및 감사대상기관(부서)에 대한 주의를 환기할 필요가 있는 경우\n\n6. 개선 : 감사결과 법령상·행정상 또는 제도상의 모순이나 불합리한 사항이 있다고 인정되는 경우\n\n7. 권고 : 감사결과 문제가 있다고 인정되는 사항에 대하여 대안을 제시하여 감사대상기관의 장 등으로 하여금 개선방안을 마련하게 할 필요가 있는 경우\n\n8. 통보 : 감사결과 특정인등의 비위사실이나 위법·부당사항 등을 다른 처분(요구)으로는 부적합하나 감사대상기관의 장 등에게 알릴 필요가 있다고 인정되는 경우\n\n9. 교육 : 감사결과 위법 또는 부당하게 처리한 업무와 관련된 규정 등의 교육이 필요하다고 인정되는 경우\n\n③ 감사는 제2항 제3호부터 제9호까지에 해당하는 사항 중 극히 경미하고 즉시 시정이 가능한 사항에 대하여 감사 중에 감사대상기관의 장에게 현지에서 시정조치요구 또는 지도를 할 수 있다. <개정 2025. 1. 22.>",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "제2장 감사계획과 실시",
       "needsOriginal": false
     },
     {
-      "articleNo": "15",
-      "title": "감사처분기준",
-      "breadcrumb": [
-        "제3장 감사결과보고와 처리",
-        "③ 감사는 제2항 제3호부터 제9호까지에 해당하는 사항 중 극히 경미하고 즉시 시정이 가능한 사항에 대하여 감사 중에 감사대상기관의 장에게 현지에서 시정조치요구 또는 지도를 할 수 있다. <개정 2025. 1. 22.>"
-      ],
-      "page": 1,
-      "text": "**제15조(감사처분기준)** ① 규정 제21조 제3항 및 제28조의3의 처분은 별표의 감사결과 처분기준표를 참고하여 처분수위를 결정할 수 있다. 다만, 별표에 열거되지 않은 사안에 대하여는 그 성질과 내용에 따라 가장 유사한 사안을 준용한다. <개정 2011. 02. 24., 2025. 1. 22.>\n② 제1항의 별표 처분기준을 적용하는 경우 위법․부당한 사안은 고의, 중과실, 경과실로 구분하되, 고의여부와 그 동기․방법, 업무의 성질, 성실하고 능동적인 업무처리, 또는 반복지적여부 등을 종합적으로 참작하여 그 처분을 면제․경감 또는 가중할 수 있다.\n\n③ 위법․부당한 사안에 대한 처분기준은 다음 각 호와 같다.\n\n1. 고의가 있는 중대사안은 중징계, 경미한 사안은 경징계\n\n2. 중과실이 있는 중대사안은 경징계 또는 경고, 경미한 사안은 경고 또는 주의\n\n3. 경과실인 경우에는 주의\n\n④ 감사는 직무관련성을 불문하고 금품이나 향응을 수수하여 견책 이상의 징계 처분을 받은 자에 대해서는 조사 및 회계․감사 직무 분야 근무를 영구히 배제하도록 요구할 수 있다. <개정 2015. 10. 30.>\n\n⑤ <삭제 2025. 1. 22.>",
-      "needsOriginal": true
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제3조(감사계획의 통보)** 규정 제19조에 따라 감사대상기관의 장에게 감사의 사전예고를 할 때에는 감사목적, 감사방향, 감사범위, 감사기간, 감사방법, 감사인 등 감사계획의 주요사항을 포함하여 통보하여야 한다.",
+      "needsOriginal": false
     },
     {
-      "articleNo": "15의2",
-      "title": "수사기관이 수사한 비위사건 처리 기준",
-      "breadcrumb": [
-        "제3장 감사결과보고와 처리",
-        "⑤ <삭제 2025. 1. 22.>"
-      ],
-      "page": 1,
-      "text": "**제15조의2(수사기관이 수사한 비위사건 처리 기준)** 감사는 직원의 성범죄 및 음주운전, 채용 관련 비위, 청렴의무위반(금품비위)에 대한 수사기관의 기소유예 결정 또는 공소제기 결정 통보를 접수하거나 인지한 때에는 특별한 사유가 없는 경우 지체없이 조사에 착수하여야 하며, 조사결과에 따라 비위의 정도 및 과실의 경중, 고의성 유무 등을 판단하여 처분을 요구하여야 한다. 다만, 혐의없음 또는 죄가안됨 등으로 통보 받은 경우 내부 종결처리 할 수 있다.\n\n[본조신설 2025. 1. 22.]\n\n**제16조(처분요구사항의 집행 및 보고)** ① 감사대상기관의 장은 감사결과 처분요구사항에 대하여 처분요구서를 받은 날로부터 1월 이내 또는 별도 지정된 기한 이내에 필요한 조치를 취하고 그 조치결과 통보서(별지 제10호 서식)를 감사에게 송부하여야 한다. <개정 2011. 02. 24., 2025. 1. 22.>\n1. 시정사항은 시정조치하고 주의 및 경고 관련자에게는 인사규정시행규칙 제104조에 따라 주의장 또는 경고장을 주어야 한다.\n\n2. 개선사항은 1월 이내 또는 지정된 기한 이내에 개선조치를 하여야 한다.\n\n② 처리기한 내에 조치가 완료되지 못할 부득이한 사정이 있을 때에는 조치결과를 통보할 때 조치연기내역서(별지 제14호)를 첨부하여 제출하여야 하며, 그 조치가 완료된 때에는 지체 없이 제1항에 따라 감사실로 조치결과를 통보하여야 한다.\n\n③ 감사는 감사결과 처분요구사항에 대하여 제1항 각 호의 통보서가 지정된 기한 내에 제출되지 아니할 때에는 집행독촉장(별지 제15호 서식)을 발부할 수 있다. <개정 2011. 02. 24.>\n\n④ 감사로부터 징계 요구를 받은 감사대상기관의 장은 인사규정 제7조, 인사규정시행규칙 제4조 및 제83조의 인사위원회에서 의결된 징계의 종류와 감사가 요구한 징계 종류가 다른 경우 처분대상자에게 인사위원회 의결내용을 통보하기 전에 감사에게 인사위원회 결과를 통보하여야 한다. <개정 2011. 02. 24.>\n\n⑤ 감사는 제4항의 통보받은 내용을 검토하여 규정 제22조 제2항에 따라 재조치 요구가 필요한 경우 이를 요구할 수 있다. <개정 2011. 02. 24. 2025. 1. 22.>\n\n⑥ 감사대상기관의 장은 감사가 처분요구한 건에 대한 조치결과 또는 제4항의 인사위원회 결과를 감사에게 통보할 때에는 다음 각 호의 자료를 첨부하여 감사에게 제출하여야 한다. <개정 2011. 02. 24.>\n\n1. 인사규정시행규칙 제8조의 회의록\n\n2. 인사규정시행규칙 제89조의 의결서\n\n3. 기타 처분요구사항에 대한 조치결과를 확인할 수 있는 관련 자료",
-      "needsOriginal": true
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제4조(감사실시 제외)** 규정 제18조의 연간감사계획 수립 시 감사대상기관이 다음 각 호에 해당되는 경우에는 당해연도 감사대상에서 제외할 수 있다. <개정 2011. 02. 24.>",
+      "needsOriginal": false
     },
     {
-      "articleNo": "17",
-      "title": "재조치 요구",
-      "breadcrumb": [
-        "제3장 감사결과보고와 처리",
-        "3. 기타 처분요구사항에 대한 조치결과를 확인할 수 있는 관련 자료"
-      ],
-      "page": 1,
-      "text": "**제17조(재조치 요구)** 감사는 규정 제22조 제2항에 따른 재조치 요구를 할 때에는 그 부합되지 않은 사유와 재조치할 내용을 통보하여야 한다. <개정 2025. 1. 22.>\n\n**제18조(이의신청)** 규정 제21조에 따른 처분요구에 대하여 이의신청을 하고자 하는 감사대상기관의 장(이하 “이의신청인”이라 한다)은 처분요구에 대한 이의신청 사유를 입증할 수 있는 증빙서류를 첨부하여 이의신청서(별지 제16서식)를 감사에게 제출하여야 한다. <개정 2009. 12. 02., 2011. 02. 24.>\n\n**제19조(이의신청의 처리)** 감사는 이의신청서를 접수하였을 경우 지체 없이 이를 심사하여 다음 각 호의 어느 하나에 해당하는 조치를 취하고 그 내용을 이의신청인에게 통보하여야 한다.\n1. 이의신청 기간이 경과하였거나 이의신청 대상자가 아닐 때에는 각하결정\n\n2. 원 처분 요구사항을 변경할 필요가 없다고 인정할 때에는 기각 결정\n\n3. 원 처분 요구사항을 변경할 필요가 있다고 인정할 때에는 변경 결정\n\n4. 원 처분 요구사항을 취소할 필요가 있다고 인정할 때에는 취소 결정",
-      "needsOriginal": true
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 외부기관으로부터 종합감사를 받은 기관",
+      "needsOriginal": false
     },
     {
-      "articleNo": "20",
-      "title": "재심사 요구와 처리",
-      "breadcrumb": [
-        "제3장 감사결과보고와 처리",
-        "4. 원 처분 요구사항을 취소할 필요가 있다고 인정할 때에는 취소 결정"
-      ],
-      "page": 1,
-      "text": "**제20조(재심사 요구와 처리)** ➀ 제19조에 따라 재요구를 받은 이의신청인이 다시 이의가 있을 때에는 재심사요구서(별지 제17호 서식)를 작성하여 감사에게 제출하여야 한다.\n② 감사는 제1항에 따라 재심사요구서를 받았을 경우에 제19조 및 규정 제22조 제4항에 따라 필요한 조치를 취하고, 규정 제22조 제5항에 해당하는 사안 중 감독기관의 지휘를 받아야 한다고 판단되는 사안에 대하여는 감독기관의 장에게 보고하여야 한다. <개정 2011. 02. 24.>\n\n③ 제1항에 따라 재심사 요구를 받은 감사는 특별한 사정이 없으면 재심사신청서를 접수한 날부터 2개월 이내에 처리하여야 한다. <신설 2025. 1. 22.>",
-      "needsOriginal": true
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 성과평가결과가 우수한 기관(부서)",
+      "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제5조(감사준비)** ① 감사는 감사를 실시할 경우 규정 제12조에 따른 감사인으로 구성된 감사반을 편성·운영할 수 있으며, 감사반장은 감사반에 편성된 감사인 중에서 감사실장이 지명하는 사람으로 한다. <신설 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 감사인은 감사실시에 앞서 다음 각 호의 자료를 수집·분석하여 감사대상기관에서 발생 가능한 위법행위, 오류, 낭비 등의 성격․유형과 그것이 초래할 결과를 파악하고 대안을 탐색하는 등 사전준비를 충실히 하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 관련 법령, 규정, 업무지침, 질의회시, 각종 지시사항",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 기능, 조직, 인력, 예산 등 일반현황",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 주요업무계획과 추진실적",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "4. 성과평가편람과 성과평가결과보고",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "5. 언론보도사항 등 여론",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "6. 국회 논의사항",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "7. 서면감사자료, 민원 및 정보사항 등 감사 자료의 분석결과",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "8. 선행감사결과 처분(요구)의 집행상황",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "9. 그밖에 감사와 관련하여 필요한 자료",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③ 감사인은 감사의 준비과정에서 감사대상기관과 관련 직원의 의견을 적극 수렴하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "④ 감사는 제2항에 따른 수집 자료와 제30조에 따른 보고 자료를 참고하여 다음 각 호에 해당하는 조치를 취할 수 있다. <개정 2011. 02. 24., 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 중요한 사항에 대하여는 실지감사",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 사안이 경미하거나 그 처리방안이 명백한 경우에는 소관부서의 장에게 통보하여 필요한 조치를 취하게 하고 그 조치결과를 회보하게 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 기타 경미한 사항은 감사 자료를 활용하거나 불문처리 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제6조(감사증거수집)** ① 감사인은 감사대상이 되는 사항의 진위와 적법·타당성에 관한 감사인의 판단을 객관적으로 뒷받침할 수 있는 감사증거를 다음 각 호의 원칙에 따라 수집하여 추가적인 감사나 법적 다툼이 발생하지 않도록 노력하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 관련성 : 감사증거는 감사목적에 기여해야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 신뢰성 : 감사증거는 믿을 수 있는 출처로부터 획득하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 충분성 : 감사의 중요성에 따라 충분한 양의 감사증거를 수집하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 감사인은 증거인멸의 우려가 있는 경우에는 검증 등의 방법으로 즉시 감사증거를 확보하고 검증목적과 시기적으로 일치되는 감사증거를 수집하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③ 감사인은 감사증거의 증거능력과 감사대상기관의 부담 등 증거수집의 비용을 감안하여 증거를 수집하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "④ 감사인은 수집된 증거에 대하여 그 출처와 근거를 명시하고 증거능력을 검증하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "⑤ 감사대상기관의 장 또는 관계직원은 규정 제8조 제1항과 제12조 제2항에 따라 감사실이 자료를 요구하면 성실하게 응하여야 하며, 정당한 사유 없이 이를 거부하거나 자료제출을 태만히 할 경우 감사는 감사결과 처분기준표에 따라 그에 상응하는 처분을 요구할 수 있다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제7조(증거서류의 요구 등)** ① 규정 제8조 제1항에 따라 감사인은 감사결과를 증명하기 위하여 필요한 경우 관계직원으로부터 다음 각 호의 증거서류를 요구할 수 있다. <개정 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 확인서(별지 제1호 서식)",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 경위서(별지 제2호 서식)",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 문답서(별지 제3호 서식)",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "4. 관계서류",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 감사는 감사결과 발견한 사무처리 내용 또는 책임한계가 불분명하거나 제도개선 사항 등 의견을 참고할 필요가 있다고 인정되는 사항에 대하여 소관부서의 장에게 질문서(별지 제4호 서식)를 발부할 수 있다. <개정 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③ 제2항에 따라 질문서를 받은 소관부서의 장은 지정기일까지 이에 대한 답변서(별지 제5호)를 제출하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "④ 감사인은 제1항 및 제2항의 증거서류 요구 및 질문서 발부 시 규정 제28조의3의 적극행정면책제도에 대한 안내를 하여야 한다. <신설 2011. 02. 24.> <개정 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제8조(선행감사결과의 후속조치)** ① 감사인은 선행 감사 시 처분요구 또는 권고·통보한 사항에 대하여 적정한 조치를 하였는지 여부를 확인하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 감사인은 제1항의 확인결과 중요한 처분요구 또는 권고·통보한 사항의 조치가 미흡한 경우에는 이를 감사에게 보고하고, 감사는 감사처분 이행을 소홀히 한 경우에 그에 대한 처분요구를 할 수 있다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③ 감사인은 처분요구를 받은 자가 동일·유사 업무를 처리하면서 같은 위법·부당행위를 반복하는 경우에는 신분상 가중처분을 요구할 수 있다. <신설 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제9조(창고 등의 봉인)** ① 감사인이 규정 제8조 제1항 제4호에 따라 봉인하고자 할 때에는 그 목적물 관리자등의 입회하에 봉인표시하고 봉인조서(별지 제6호 서식)를 작성하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 특별한 사유가 없는 경우 제1항에 따른 봉인은 24시간을 초과할 수 없다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제10조(감사의 종결)** ① 실지감사는 특별한 사유가 없으면 계획된 기간 내에 종결하여야 한다. 다만 감사반장은 감사기간을 연장할 필요가 있다고 판단될 경우 감사에게 보고하고 감사의 지시에 따라 감사기간을 연장할 수 있다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 감사반장은 감사효과 및 감사결과에 대한 신뢰도 제고를 위하여 실지감사 종료 후 감사대상기관 직원을 대상으로 감사결과에 대한 강평을 실시할 수 있다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "<신설 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "제3장 감사결과보고와 처리",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제11조(감사결과보고)** ① 감사인은 규정 제20조에 따라 감사보고서와 처분요구서로 구성된 감사결과보고서를 작성하여 감사에게 제출하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 감사보고서에는 다음 각 호의 사항을 기재하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 감사기간",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 감사대상기관(부서)명",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 감사인의 직위․성명",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "4. 감사경위",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "5. 주요감사내용",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "6. 감사에 관한 종합의견",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "7. 감사결과 주요지적사항",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "8. 애로 및 건의사항",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "9. 현지조치 및 지도사항",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "10. 그밖에 참고사항",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③「공공감사에 관한 법률」제26조에 따라 감사는 감사결과의 공개에 관한 사항을 ‘전부공개’, ‘부분공개’, ‘비공개’로 공개범위를 구분하여 결정하여야 하고, 이를 공단 홈페이지에 공개하여야 한다. <개정 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제12조(감사결과 보고의 원칙)** 감사인은 감사결과보고서를 다음 각 호의 원칙에 따라 작성하여 보고하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 적시성 : 감사성과를 저해하거나 감사대상기관의 업무처리에 지장을 주지 않도록 적기에 작성되어야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 완전성 : 감사목적 달성에 필요한 모든 정보를 포함하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 간결성 : 전달하고자 하는 내용만을 간략, 명료하게 나타내고 필요이상으로 길거나 불필요한 반복을 피해야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "4. 논리성 : 논리적이고 이해하기 쉬어야하며 애매모호한 표현이나 일반화되지 않은 약어나 전문용어 등은 가급적 피해야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "5. 정확성 : 수집된 감사증거에 기초하여 정당성을 입증할 수 있도록 올바르게 기술하고 감사범위, 감사방법, 감사증거에 한계가 있는 경우에는 이를 명시하여야한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "6. 공정성 : 감사대상기관의 의견과 전문가의 자문 등을 충분히 감안하여 문제점을 과장하지 아니하고 편향되지 않은 시각으로 작성해야한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제13조(처분요구서 등 작성 및 시행)** ① 감사는 규정 제21조 제3항 제1호, 제2호, 제4호에 따라 처분요구를 할 때에는 감사결과 처분요구서(별지 제7호 서식)를, 같은 조․항의 제3호에 따라 징계를 요구할 때에는 징계(문책)처분요구서(별지 제8호 서식)를 작성하여 감사대상기관의 장에게 송부하여야 한다. <개정 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 감사는 감사결과에 따른 처분요구를 할 때 본부부서에 관한 사항은 이사장에게 하고, 소속기관에 관한 사항은 소속기관의 장에게 요구한다. <신설 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③ 감사는 규정 제21조 제1항에 따라 감사대상기관에 감사결과를 통보하는 내용 중 개인의 처분이 경고 이상에 해당하는 경우에는 그 내용을 이사장에게 통보하여 인사자료로 활용할 수 있도록 하여야 한다. <신설 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제14조(감사처분의 종류)** ① 감사는 감사결과 개별 지적사항에 대하여 규정 제21조 제3항 각 호에 적합한 처분을 선택적으로 적용하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 처분의 종류는 다음 각 호와 같으며, 2개 이상의 처분을 병과 할 수 있다. <개정 2011. 02. 24., 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 변상판정 또는 변상명령 : 「회계 관계직원 등의 책임에 관한 법률」이 정하는 바에 따라 회계 관계직원 등에 대한 변상책임이 있다고 인정되는 경우",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 징계 또는 문책 : 공단 내규에 규정된 징계 또는 문책사유에 해당되는 경우",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 시정 : 감사결과 위법 또는 부당하여 추징·회수·보전·환급·추급 또는 원상복구 등이 필요하다고 인정되는 경우",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "4. 경고 : 감사결과 위법 또는 부당하다고 인정되는 사실이 있으나 그 정도가 징계에 이르지 못할 정도로 경미하여 관련 직원 및 감사대상기관(부서)에 대한 제재가 필요한 경우",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "5. 주의 : 감사결과 위법 또는 부당하다고 인정되는 사실이 있으나 그 정도가 징계 또는 경고에 이르지 못할 정도로 경미하여 관련 직원 및 감사대상기관(부서)에 대한 주의를 환기할 필요가 있는 경우",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "6. 개선 : 감사결과 법령상·행정상 또는 제도상의 모순이나 불합리한 사항이 있다고 인정되는 경우",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "7. 권고 : 감사결과 문제가 있다고 인정되는 사항에 대하여 대안을 제시하여 감사대상기관의 장 등으로 하여금 개선방안을 마련하게 할 필요가 있는 경우",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "8. 통보 : 감사결과 특정인등의 비위사실이나 위법·부당사항 등을 다른 처분(요구)으로는 부적합하나 감사대상기관의 장 등에게 알릴 필요가 있다고 인정되는 경우",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "9. 교육 : 감사결과 위법 또는 부당하게 처리한 업무와 관련된 규정 등의 교육이 필요하다고 인정되는 경우",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③ 감사는 제2항 제3호부터 제9호까지에 해당하는 사항 중 극히 경미하고 즉시 시정이 가능한 사항에 대하여 감사 중에 감사대상기관의 장에게 현지에서 시정조치요구 또는 지도를 할 수 있다. <개정 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제15조(감사처분기준)** ① 규정 제21조 제3항 및 제28조의3의 처분은 별표의 감사결과 처분기준표를 참고하여 처분수위를 결정할 수 있다. 다만, 별표에 열거되지 않은 사안에 대하여는 그 성질과 내용에 따라 가장 유사한 사안을 준용한다. <개정 2011. 02. 24., 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 제1항의 별표 처분기준을 적용하는 경우 위법․부당한 사안은 고의, 중과실, 경과실로 구분하되, 고의여부와 그 동기․방법, 업무의 성질, 성실하고 능동적인 업무처리, 또는 반복지적여부 등을 종합적으로 참작하여 그 처분을 면제․경감 또는 가중할 수 있다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③ 위법․부당한 사안에 대한 처분기준은 다음 각 호와 같다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 고의가 있는 중대사안은 중징계, 경미한 사안은 경징계",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 중과실이 있는 중대사안은 경징계 또는 경고, 경미한 사안은 경고 또는 주의",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 경과실인 경우에는 주의",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "④ 감사는 직무관련성을 불문하고 금품이나 향응을 수수하여 견책 이상의 징계 처분을 받은 자에 대해서는 조사 및 회계․감사 직무 분야 근무를 영구히 배제하도록 요구할 수 있다. <개정 2015. 10. 30.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "⑤ <삭제 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제15조의2(수사기관이 수사한 비위사건 처리 기준)** 감사는 직원의 성범죄 및 음주운전, 채용 관련 비위, 청렴의무위반(금품비위)에 대한 수사기관의 기소유예 결정 또는 공소제기 결정 통보를 접수하거나 인지한 때에는 특별한 사유가 없는 경우 지체없이 조사에 착수하여야 하며, 조사결과에 따라 비위의 정도 및 과실의 경중, 고의성 유무 등을 판단하여 처분을 요구하여야 한다. 다만, 혐의없음 또는 죄가안됨 등으로 통보 받은 경우 내부 종결처리 할 수 있다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "[본조신설 2025. 1. 22.]",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제16조(처분요구사항의 집행 및 보고)** ① 감사대상기관의 장은 감사결과 처분요구사항에 대하여 처분요구서를 받은 날로부터 1월 이내 또는 별도 지정된 기한 이내에 필요한 조치를 취하고 그 조치결과 통보서(별지 제10호 서식)를 감사에게 송부하여야 한다. <개정 2011. 02. 24., 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 시정사항은 시정조치하고 주의 및 경고 관련자에게는 인사규정시행규칙 제104조에 따라 주의장 또는 경고장을 주어야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 개선사항은 1월 이내 또는 지정된 기한 이내에 개선조치를 하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 처리기한 내에 조치가 완료되지 못할 부득이한 사정이 있을 때에는 조치결과를 통보할 때 조치연기내역서(별지 제14호)를 첨부하여 제출하여야 하며, 그 조치가 완료된 때에는 지체 없이 제1항에 따라 감사실로 조치결과를 통보하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③ 감사는 감사결과 처분요구사항에 대하여 제1항 각 호의 통보서가 지정된 기한 내에 제출되지 아니할 때에는 집행독촉장(별지 제15호 서식)을 발부할 수 있다. <개정 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "④ 감사로부터 징계 요구를 받은 감사대상기관의 장은 인사규정 제7조, 인사규정시행규칙 제4조 및 제83조의 인사위원회에서 의결된 징계의 종류와 감사가 요구한 징계 종류가 다른 경우 처분대상자에게 인사위원회 의결내용을 통보하기 전에 감사에게 인사위원회 결과를 통보하여야 한다. <개정 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "⑤ 감사는 제4항의 통보받은 내용을 검토하여 규정 제22조 제2항에 따라 재조치 요구가 필요한 경우 이를 요구할 수 있다. <개정 2011. 02. 24. 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "⑥ 감사대상기관의 장은 감사가 처분요구한 건에 대한 조치결과 또는 제4항의 인사위원회 결과를 감사에게 통보할 때에는 다음 각 호의 자료를 첨부하여 감사에게 제출하여야 한다. <개정 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 인사규정시행규칙 제8조의 회의록",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 인사규정시행규칙 제89조의 의결서",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 기타 처분요구사항에 대한 조치결과를 확인할 수 있는 관련 자료",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제17조(재조치 요구)** 감사는 규정 제22조 제2항에 따른 재조치 요구를 할 때에는 그 부합되지 않은 사유와 재조치할 내용을 통보하여야 한다. <개정 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제18조(이의신청)** 규정 제21조에 따른 처분요구에 대하여 이의신청을 하고자 하는 감사대상기관의 장(이하 “이의신청인”이라 한다)은 처분요구에 대한 이의신청 사유를 입증할 수 있는 증빙서류를 첨부하여 이의신청서(별지 제16서식)를 감사에게 제출하여야 한다. <개정 2009. 12. 02., 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제19조(이의신청의 처리)** 감사는 이의신청서를 접수하였을 경우 지체 없이 이를 심사하여 다음 각 호의 어느 하나에 해당하는 조치를 취하고 그 내용을 이의신청인에게 통보하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "1. 이의신청 기간이 경과하였거나 이의신청 대상자가 아닐 때에는 각하결정",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "2. 원 처분 요구사항을 변경할 필요가 없다고 인정할 때에는 기각 결정",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "3. 원 처분 요구사항을 변경할 필요가 있다고 인정할 때에는 변경 결정",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "4. 원 처분 요구사항을 취소할 필요가 있다고 인정할 때에는 취소 결정",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제20조(재심사 요구와 처리)** ➀ 제19조에 따라 재요구를 받은 이의신청인이 다시 이의가 있을 때에는 재심사요구서(별지 제17호 서식)를 작성하여 감사에게 제출하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "② 감사는 제1항에 따라 재심사요구서를 받았을 경우에 제19조 및 규정 제22조 제4항에 따라 필요한 조치를 취하고, 규정 제22조 제5항에 해당하는 사안 중 감독기관의 지휘를 받아야 한다고 판단되는 사안에 대하여는 감독기관의 장에게 보고하여야 한다. <개정 2011. 02. 24.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "③ 제1항에 따라 재심사 요구를 받은 감사는 특별한 사정이 없으면 재심사신청서를 접수한 날부터 2개월 이내에 처리하여야 한다. <신설 2025. 1. 22.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "21",
+      "articleId": "제21조",
       "title": "직권 재심의",
       "breadcrumb": [],
       "page": 1,
-      "text": "제21조(직권 재심의) 삭 제 <2009. 12. 02.>",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "22",
-      "title": "감사결과기록부의 비치",
-      "breadcrumb": [
-        "제21조(직권 재심의) 삭 제 <2009. 12. 02.>"
-      ],
-      "page": 1,
-      "text": "**제22조(감사결과기록부의 비치)** 감사는 감사결과 처분요구, 조치결과와 이의신청 및 재심사 요구사항과 그 처리전말 등을 부서별로 분류하여 감사결과처리부(별지 제18호 서식)에 등재하여야 한다. 다만 이를 감사원의 공공감사정보시스템에 등록한 것으로 대체할 수 있다. <개정 2011. 02. 24., 2025. 1. 22.>\n\n**제23조(연간감사보고서의 작성)** 감사는 규정 제26조의 연간감사보고서를 작성할 때에는 별지 제19호 및 제20호 서식에 의한다.\n\n**제24조(감사업무지원)** ① 감사는 업무수행 상 필요하다고 인정하는 경우 규정 제12조 제1항에 따라 다른 부서의 직원, 소속기관의 직원 및 외부 전문가를 감사기간 중 감사인으로 근무토록 요청할 수 있다. <개정 2011. 02. 24.>\n\n② 제1항에 따라 감사업무 수행에 동원하는 다른 부서 및 소속기관의 직원은 규정 제13조 제2항에 정한 결격사유가 없는 자로 선정하여야 한다.\n\n③ 규정 제8조 제2항에 따라 감사업무를 수행할 경우 전문적인 지식이나 기술이 필요한 사항에 대하여는 감사의 승인을 얻어 이와 관련된 전문가나 기술자에게 해당 사항에 관한 감사업무를 위촉하여 수행하게 할 수 있다. 다만, 이 경우 감사실 직원이 입회하여야 한다. <개정 2011. 02. 24., >\n제4장 일상감사",
+      "text": "제21조(직권 재심의) 삭 제 <2009. 12. 02.>\n**제22조(감사결과기록부의 비치)** 감사는 감사결과 처분요구, 조치결과와 이의신청 및 재심사 요구사항과 그 처리전말 등을 부서별로 분류하여 감사결과처리부(별지 제18호 서식)에 등재하여야 한다. 다만 이를 감사원의 공공감사정보시스템에 등록한 것으로 대체할 수 있다. <개정 2011. 02. 24., 2025. 1. 22.>\n**제23조(연간감사보고서의 작성)** 감사는 규정 제26조의 연간감사보고서를 작성할 때에는 별지 제19호 및 제20호 서식에 의한다.\n**제24조(감사업무지원)** ① 감사는 업무수행 상 필요하다고 인정하는 경우 규정 제12조 제1항에 따라 다른 부서의 직원, 소속기관의 직원 및 외부 전문가를 감사기간 중 감사인으로 근무토록 요청할 수 있다. <개정 2011. 02. 24.>\n② 제1항에 따라 감사업무 수행에 동원하는 다른 부서 및 소속기관의 직원은 규정 제13조 제2항에 정한 결격사유가 없는 자로 선정하여야 한다.\n③ 규정 제8조 제2항에 따라 감사업무를 수행할 경우 전문적인 지식이나 기술이 필요한 사항에 대하여는 감사의 승인을 얻어 이와 관련된 전문가나 기술자에게 해당 사항에 관한 감사업무를 위촉하여 수행하게 할 수 있다. 다만, 이 경우 감사실 직원이 입회하여야 한다. <개정 2011. 02. 24., >\n제4장 일상감사\n**제25조(일상감사의 대상과 범위)** ① 규정 제4조 제3호의 일상감사 대상과 범위는 다음 각 호와 같다. <개정 2009. 12. 02., 2011. 02. 24., 2023. 09. 25.> <개정 2025. 1. 22.>\n1. 법규의 제․개정 검토안\n2. 내규(규정, 규칙), 업무지침, 통첩지시, 질의회시 등의 제정․개정\n3. 사업계획(단위사업계획 포함)의 수립과 변경 및 예산편성에 관한 사항\n4. 소속기관 및 본부 각 부서의 주요 건의 및 요망사항에 대한 조치\n5. 매 건당 1천만원을 초과하는 지출결의서, 5백만원을 초과하는 가지급금 지급결의서 및 정산대체결의서. 다만 다음 각 호의 사항은 제외한다.\n가. 인건비\n나. 제세공과금, 공공요금\n다. 1백만원 미만의 판공비 및 업무추진비\n라. 공단 임직원에게 지급되는 각종 수당 및 여비\n마. 월정 고정경비, 직무수행에 따라 매월 정액으로 지급되는 경비\n바. 보조공학기기 중 단가계약을 체결한 후 계약한 단가에 따라 물품을 구입하는데 지출되는 비용\n사. 리스계약을 체결한 후 계약 내용에 따라 지출되는 경비\n아. 정기간행물을 연간 총액계약 체결한 후 인쇄물 발간에 따라 분할하여 청구되는 경비\n6. 단가계약 및 예정가격 3천만원을 초과하는 계약의 계획 수립·변경 및 계약의 체결·변경에 관한 사항\n7. 이사회 부의안건과 이사회 주관부서에 제출하는 안건\n8. 직제 및 정원관리에 관한 사항\n9. 직원의 채용계획 수립에 관한 사항\n10. 그밖에 감사가 필요하다고 인정하는 사항\n② 제1항의 일상감사 대상 건을 감사실에 회부할 때에는 감사에 소요되는 기간을 감안하여 충분한 시간적 여유를 두고 회부하여야 한다.\n➂ 제1항에도 불구하고 소속기관의 일상감사 대상과 범위는 예정가격 3천만원을 초과하는 계약의 계획 수립 및 변경, 계약체결 및 변경에 관한 사항으로 정한다. <개정 2025. 1. 22.>\n**제26조(일상감사절차와 결과처리)** ① 본부 각 부서 및 소속기관은 제25조에 따른 일상감사 대상서류를 최종결재권자의 결재에 앞서 감사실의 검토를 거쳐야 한다.\n② 감사실장은 제1항의 서류를 검토하기 위하여 필요하다고 인정되는 경우 소관부서의 장에게 보충자료 제출을 요구할 수 있으며, 시정이 필요하다고 인정되는 사항에 대하여는 소관부서의 장과 협의하여 사전에 필요한 조치를 취하게 할 수 있다.\n③ 제2항의 요구를 받은 소관부서의 장은 이에 협조하여야 한다.\n④ 제2항에 따라 감사실장은 감사의견서(별지 제21호 서식)에 검토내용 및 조치사항을 첨부하여 통보한다. 다만 회계관련 결의서는 이를 제외할 수 있다. <개정 2011.02.24.>\n⑤ 소관부서의 장은 통보 받은 감사의견서를 첨부하여 최종 결재권자의 결재를 득한 후 결재내용 또는 조치결과 사항을 지체 없이 감사실장에게 서면으로 통보하여야 한다.\n⑥ 제25조 제1항에 따른 일상감사 관계서류는 감사일지(별지 제22호 서식)에 등재하여야 한다. 다만, 전자문서시스템 또는 재무예산시스템을 통해 처리된 관계서류는 이를 생략할 수 있다. <개정 2025. 1. 22.>\n**제26조의2(일상감사의 효과)** ① 감사는 일상감사를 거쳐 확인된 사항에 대하여는 자체감사를 생략할 수 있다.\n② 소관부서는 일상감사를 거쳤다는 이유로 자체감사를 거부할 수 없고, 자체감사결과 지적된 위법․부당한 사항은 일상감사를 거쳤다는 사유로 면책되지 아니한다.\n③ 소관부서는 일상감사를 요청한 사항에 대하여 감사실의 검토를 받기 전까지는 집행행위를 할 수 없다. 다만, 긴급한 경우로써 사전에 감사와 협의를 거쳐 결재 이후에 일상감사를 실시하기로 한 사항은 제외한다.\n[본조신설 2025. 1. 22.]\n제5장 보칙\n**제27조(감사기초자료 제공)** 본부 실․국장은 다음 각 호의 사항이 있을 때에는 지체 없이 감사에게 그 내용을 통보하여 감사기초 자료로 활용하게 하여야 한다\n1. 소속기관에 규정․지침, 지시사항, 행정지시, 질의회시를 시달한 경우\n2. 업무수행과 관련하여 제도의 신설․개선․변경․폐지한 경우\n**제28조(외부감사)** 외부감사기관으로부터 공단이 감사를 받을 때는 감사가 총괄한다. 다만, 국정감사와 보안에 관한 감사는 그러하지 아니하다. <개정 2011. 02. 24.>\n**제29조(감사환경의 전산화)** 공단에서 개발되는 모든 전산시스템은 규정 제8조 제1항 제2호와 규정 제12조 제2항에 따라 감사실에서 접근할 수 있도록 설계되어야 하며, 운용 도중 필요에 따라 감사실에서 전산업무 담당 부서 또는 시스템 운영 소관부서에 사용권한을 요청하는 경우 각 부서는 그 사용권한을 제공하여야 한다.\n**제30조(긴급보고)** ① 규정 제20조 제3항에 따른 긴급 보고사항은 규정 제28조에 해당하는 사고와 감사실장이 필요하다고 인정하는 사항으로 한다.\n② 본부 실․국장 및 소속기관의 장은 규정 제28조에 해당하는 사고가 발생하였거나 발생할 우려가 있을 때 또는 감사처분요구 이외의 사항으로 징계에 관한 인사위원회를 개최하였을 때에는 그 경위를 즉시 감사에게 보고하여야 한다. <개정 2025. 1. 22.>\n③ <삭제 2025. 1. 22.>\n**제31조(직원격려)** 감사는 규정 제30조에 따른 포상 추천 외에 직원의 사기진작을 통한 업무능력 제고 환경을 조성하기 위하여 감사대상기관의 수감 직원 중 우수 직원을 발굴하여 격려할 수 있다. <개정 2011. 02 24.>",
       "needsOriginal": true
     },
     {
-      "articleNo": "25",
-      "title": "일상감사의 대상과 범위",
-      "breadcrumb": [
-        "제4장 일상감사"
-      ],
-      "page": 1,
-      "text": "**제25조(일상감사의 대상과 범위)** ① 규정 제4조 제3호의 일상감사 대상과 범위는 다음 각 호와 같다. <개정 2009. 12. 02., 2011. 02. 24., 2023. 09. 25.> <개정 2025. 1. 22.>\n\n1. 법규의 제․개정 검토안\n\n2. 내규(규정, 규칙), 업무지침, 통첩지시, 질의회시 등의 제정․개정\n\n3. 사업계획(단위사업계획 포함)의 수립과 변경 및 예산편성에 관한 사항\n\n4. 소속기관 및 본부 각 부서의 주요 건의 및 요망사항에 대한 조치\n\n5. 매 건당 1천만원을 초과하는 지출결의서, 5백만원을 초과하는 가지급금 지급결의서 및 정산대체결의서. 다만 다음 각 호의 사항은 제외한다.\n\n가. 인건비\n\n나. 제세공과금, 공공요금\n\n다. 1백만원 미만의 판공비 및 업무추진비\n\n라. 공단 임직원에게 지급되는 각종 수당 및 여비\n\n마. 월정 고정경비, 직무수행에 따라 매월 정액으로 지급되는 경비\n\n바. 보조공학기기 중 단가계약을 체결한 후 계약한 단가에 따라 물품을 구입하는데 지출되는 비용\n\n사. 리스계약을 체결한 후 계약 내용에 따라 지출되는 경비\n\n아. 정기간행물을 연간 총액계약 체결한 후 인쇄물 발간에 따라 분할하여 청구되는 경비\n\n6. 단가계약 및 예정가격 3천만원을 초과하는 계약의 계획 수립·변경 및 계약의 체결·변경에 관한 사항\n\n7. 이사회 부의안건과 이사회 주관부서에 제출하는 안건\n\n8. 직제 및 정원관리에 관한 사항\n\n9. 직원의 채용계획 수립에 관한 사항\n\n10. 그밖에 감사가 필요하다고 인정하는 사항\n\n② 제1항의 일상감사 대상 건을 감사실에 회부할 때에는 감사에 소요되는 기간을 감안하여 충분한 시간적 여유를 두고 회부하여야 한다.\n➂ 제1항에도 불구하고 소속기관의 일상감사 대상과 범위는 예정가격 3천만원을 초과하는 계약의 계획 수립 및 변경, 계약체결 및 변경에 관한 사항으로 정한다. <개정 2025. 1. 22.>\n\n**제26조(일상감사절차와 결과처리)** ① 본부 각 부서 및 소속기관은 제25조에 따른 일상감사 대상서류를 최종결재권자의 결재에 앞서 감사실의 검토를 거쳐야 한다.\n② 감사실장은 제1항의 서류를 검토하기 위하여 필요하다고 인정되는 경우 소관부서의 장에게 보충자료 제출을 요구할 수 있으며, 시정이 필요하다고 인정되는 사항에 대하여는 소관부서의 장과 협의하여 사전에 필요한 조치를 취하게 할 수 있다.\n\n③ 제2항의 요구를 받은 소관부서의 장은 이에 협조하여야 한다.\n\n④ 제2항에 따라 감사실장은 감사의견서(별지 제21호 서식)에 검토내용 및 조치사항을 첨부하여 통보한다. 다만 회계관련 결의서는 이를 제외할 수 있다. <개정 2011.02.24.>\n\n⑤ 소관부서의 장은 통보 받은 감사의견서를 첨부하여 최종 결재권자의 결재를 득한 후 결재내용 또는 조치결과 사항을 지체 없이 감사실장에게 서면으로 통보하여야 한다.\n\n⑥ 제25조 제1항에 따른 일상감사 관계서류는 감사일지(별지 제22호 서식)에 등재하여야 한다. 다만, 전자문서시스템 또는 재무예산시스템을 통해 처리된 관계서류는 이를 생략할 수 있다. <개정 2025. 1. 22.>",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "26의2",
-      "title": "일상감사의 효과",
-      "breadcrumb": [
-        "제4장 일상감사",
-        "⑥ 제25조 제1항에 따른 일상감사 관계서류는 감사일지(별지 제22호 서식)에 등재하여야 한다. 다만, 전자문서시스템 또는 재무예산시스템을 통해 처리된 관계서류는 이를 생략할 수 있다. <개정 2025. 1. 22.>"
-      ],
-      "page": 1,
-      "text": "**제26조의2(일상감사의 효과)** ① 감사는 일상감사를 거쳐 확인된 사항에 대하여는 자체감사를 생략할 수 있다.\n② 소관부서는 일상감사를 거쳤다는 이유로 자체감사를 거부할 수 없고, 자체감사결과 지적된 위법․부당한 사항은 일상감사를 거쳤다는 사유로 면책되지 아니한다.\n\n③ 소관부서는 일상감사를 요청한 사항에 대하여 감사실의 검토를 받기 전까지는 집행행위를 할 수 없다. 다만, 긴급한 경우로써 사전에 감사와 협의를 거쳐 결재 이후에 일상감사를 실시하기로 한 사항은 제외한다.\n[본조신설 2025. 1. 22.]\n제5장 보칙",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "27",
-      "title": "감사기초자료 제공",
-      "breadcrumb": [
-        "제5장 보칙"
-      ],
-      "page": 1,
-      "text": "**제27조(감사기초자료 제공)** 본부 실․국장은 다음 각 호의 사항이 있을 때에는 지체 없이 감사에게 그 내용을 통보하여 감사기초 자료로 활용하게 하여야 한다\n\n1. 소속기관에 규정․지침, 지시사항, 행정지시, 질의회시를 시달한 경우\n\n2. 업무수행과 관련하여 제도의 신설․개선․변경․폐지한 경우",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "28",
-      "title": "외부감사",
-      "breadcrumb": [
-        "제5장 보칙",
-        "2. 업무수행과 관련하여 제도의 신설․개선․변경․폐지한 경우"
-      ],
-      "page": 1,
-      "text": "**제28조(외부감사)** 외부감사기관으로부터 공단이 감사를 받을 때는 감사가 총괄한다. 다만, 국정감사와 보안에 관한 감사는 그러하지 아니하다. <개정 2011. 02. 24.>\n\n**제29조(감사환경의 전산화)** 공단에서 개발되는 모든 전산시스템은 규정 제8조 제1항 제2호와 규정 제12조 제2항에 따라 감사실에서 접근할 수 있도록 설계되어야 하며, 운용 도중 필요에 따라 감사실에서 전산업무 담당 부서 또는 시스템 운영 소관부서에 사용권한을 요청하는 경우 각 부서는 그 사용권한을 제공하여야 한다.\n\n**제30조(긴급보고)** ① 규정 제20조 제3항에 따른 긴급 보고사항은 규정 제28조에 해당하는 사고와 감사실장이 필요하다고 인정하는 사항으로 한다.\n② 본부 실․국장 및 소속기관의 장은 규정 제28조에 해당하는 사고가 발생하였거나 발생할 우려가 있을 때 또는 감사처분요구 이외의 사항으로 징계에 관한 인사위원회를 개최하였을 때에는 그 경위를 즉시 감사에게 보고하여야 한다. <개정 2025. 1. 22.>\n\n③ <삭제 2025. 1. 22.>",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "31",
-      "title": "직원격려",
-      "breadcrumb": [
-        "제5장 보칙",
-        "③ <삭제 2025. 1. 22.>"
-      ],
-      "page": 1,
-      "text": "**제31조(직원격려)** 감사는 규정 제30조에 따른 포상 추천 외에 직원의 사기진작을 통한 업무능력 제고 환경을 조성하기 위하여 감사대상기관의 수감 직원 중 우수 직원을 발굴하여 격려할 수 있다. <개정 2011. 02 24.>",
-      "needsOriginal": false
-    },
-    {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "32",
+      "articleId": "제32조",
       "title": "대결",
       "breadcrumb": [],
       "page": 1,
-      "text": "제32조(대결) 삭 제 <2011. 02. 24.>",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "33",
-      "title": "감사심의기구 운영",
-      "breadcrumb": [
-        "제32조(대결) 삭 제 <2011. 02. 24.>"
-      ],
-      "page": 1,
-      "text": "**제33조(감사심의기구 운영)** ① 감사심의위원회(이하 “위원회”라 한다)는 다음 사항을 심의한다.\n\n1. 규정 제22조 제3항 재심사 요구에 대한 심의\n\n2. 적극행정면책제도 운영규칙에 따른 면책의 심의\n\n3. 그 밖에 감사가 필요하다고 인정하는 사항\n\n② 위원회의 위원은 위원장을 포함하여 4인 이상 5인 이내의 위원으로 구성하며, 위원장은 감사실장으로 하고 위원은 인사규정시행규칙 제39조(별표 4)에 따른 가등급 내지 마등급에 속하는 본부 실․국장 및 소속기관의 장이나 자율감사인 중 감사가 지명하는 사람으로 한다. <개정 2025. 1. 22.>\n\n③ 감사는 회무의 기록 등 사무를 담당하는 간사 1명을 두며, 간사는 위원장이 따로 지명한다.\n\n④ 위원장은 위원회를 대표하며 위원회의 사무를 총괄하며, 제1항 제1호 및 제2호의 사유가 발생한 경우 15일 이내에 회의를 소집하여야 한다. <개정 2025. 1. 22.>\n\n⑤ 위원회의 위원은 규정 제37조를 준용하여 제척, 기피, 회피하여야 한다.\n\n⑥ 위원회의 의결은 출석위원 과반수의 찬성으로 의결하며, 동수인 경우 의결 여부는 위원장이 결정한다.\n\n⑦ 위원장은 위원회의 회의목적, 개최일시 및 장소를 회의개최 전일까지 위원에게 통보해야 하며, 위원장이 긴급을 요하는 사항이라고 인정할 때에는 위원회 개최를 서면결의로 부의할 수 있다.\n\n⑧ 위원장은 의결에 필요하다고 인정하는 경우에는 부의 안건에 관계되는 자를 출석하게 하여 의견을 청취하거나, 관계자료를 제출하게 할 수 있다.\n\n⑨ 위원회는 비공개로 진행하며, 참석한 위원은 심의 중 알게 된 내용을 일체 누설해서는 안 된다.\n[본조신설 2011. 02. 24.]\n\n**제34조(자율감사인 선임 및 제도 운영)** ① 소속기관장은 규정 제35조의 자율감사를 실시하기 위해 자율감사인 대상자를 감사에게 추천하여야 하며, 감사는 규정 제13조 제2항의 결격사유가 없는 자를 자율감사인으로 선임하여야 한다.\n② 소속기관장은 인사 또는 그 밖의 이유로 자율감사인이 그 직무를 수행할 수 없다고 판단되는 경우 이를 즉시 감사에게 보고하여야 한다.\n\n③ 감사는 자율감사제도의 운영에 관한 사항을 별도로 마련하여 운영할 수 있다.\n[본조신설 2011. 02. 24.] <개정 2025. 1. 22.>",
+      "text": "제32조(대결) 삭 제 <2011. 02. 24.>\n**제33조(감사심의기구 운영)** ① 감사심의위원회(이하 “위원회”라 한다)는 다음 사항을 심의한다.\n1. 규정 제22조 제3항 재심사 요구에 대한 심의\n2. 적극행정면책제도 운영규칙에 따른 면책의 심의\n3. 그 밖에 감사가 필요하다고 인정하는 사항\n② 위원회의 위원은 위원장을 포함하여 4인 이상 5인 이내의 위원으로 구성하며, 위원장은 감사실장으로 하고 위원은 인사규정시행규칙 제39조(별표 4)에 따른 가등급 내지 마등급에 속하는 본부 실․국장 및 소속기관의 장이나 자율감사인 중 감사가 지명하는 사람으로 한다. <개정 2025. 1. 22.>\n③ 감사는 회무의 기록 등 사무를 담당하는 간사 1명을 두며, 간사는 위원장이 따로 지명한다.\n④ 위원장은 위원회를 대표하며 위원회의 사무를 총괄하며, 제1항 제1호 및 제2호의 사유가 발생한 경우 15일 이내에 회의를 소집하여야 한다. <개정 2025. 1. 22.>\n⑤ 위원회의 위원은 규정 제37조를 준용하여 제척, 기피, 회피하여야 한다.\n⑥ 위원회의 의결은 출석위원 과반수의 찬성으로 의결하며, 동수인 경우 의결 여부는 위원장이 결정한다.\n⑦ 위원장은 위원회의 회의목적, 개최일시 및 장소를 회의개최 전일까지 위원에게 통보해야 하며, 위원장이 긴급을 요하는 사항이라고 인정할 때에는 위원회 개최를 서면결의로 부의할 수 있다.\n⑧ 위원장은 의결에 필요하다고 인정하는 경우에는 부의 안건에 관계되는 자를 출석하게 하여 의견을 청취하거나, 관계자료를 제출하게 할 수 있다.\n⑨ 위원회는 비공개로 진행하며, 참석한 위원은 심의 중 알게 된 내용을 일체 누설해서는 안 된다.\n[본조신설 2011. 02. 24.]\n**제34조(자율감사인 선임 및 제도 운영)** ① 소속기관장은 규정 제35조의 자율감사를 실시하기 위해 자율감사인 대상자를 감사에게 추천하여야 하며, 감사는 규정 제13조 제2항의 결격사유가 없는 자를 자율감사인으로 선임하여야 한다.\n② 소속기관장은 인사 또는 그 밖의 이유로 자율감사인이 그 직무를 수행할 수 없다고 판단되는 경우 이를 즉시 감사에게 보고하여야 한다.\n③ 감사는 자율감사제도의 운영에 관한 사항을 별도로 마련하여 운영할 수 있다.\n[본조신설 2011. 02. 24.] <개정 2025. 1. 22.>",
       "needsOriginal": true
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "34의2",
+      "articleId": "제34의2조",
       "title": "자율감사인의 권한 및 의무",
       "breadcrumb": [],
       "page": 1,
-      "text": "제34조의2(자율감사인의 권한 및 의무) ① 자율감사인의 권한은 다음 각 호와 같다.\n1. 소속기관의 예산집행에 대한 자체점검\n\n2. 소속기관의 직원복무에 대한 자체점검\n\n3. 감사가 요청하는 경우 종합감사 등 참여\n\n4. 채용, 면접 관련 입회 및 참관\n\n5. 그 밖에 감사가 필요하다고 인정하는 사항\n\n② 자율감사인은 제1항에 따른 점검결과 관련규정 위반 사항이 발견되는 경우 즉시 시정조치 하고 그 결과를 감사에게 보고하여야 한다. 다만, 발견된 위반사항이 중대하다고 판단되는 경우에는 즉시 감사에게 보고하여야 한다.\n\n③ 자율감사인은 직무를 수행함에 있어 다음 각호의 사항을 성실히 준수하여야 하며, 감사는 자율감사인이 의무를 위반한 행위를 한 경우 해당 자율감사인을 변경하는 등 필요한 조치를 할 수 있다.\n\n1. 관계법령과 기준을 성실히 준수하고, 관련 내규에 따라 직무를 수행할 것\n\n2. 직무 수행 중 지득한 기밀을 정당한 이유 없이 누설하지 않을 것\n[본조신설 2025. 1. 22.]\n\n**제35조(감사인의 회피)** ①감사담당자는 다음 각 호의 어느 하나에 해당하는 경우에는 감사부서의 장에게 보고하여야 한다. <개정 2025. 1. 22.>\n\n1.「한국장애인고용공단 공직자의 이해충돌 방지제도 운영지침」제3조에 해당하는 경우\n2. 감사담당자가 감사대상 업무의 의사결정과정에 직･간접적으로 관여한 경우\n\n② 감사부서의 장은 제1항에 따라 보고를 받은 경우 감사수행의 공정성을 해칠 영향이 크다고 판단될 때에는 일시적으로 업무를 재배정 할 수 있다.\n[본조신설 2014. 10. 31.]\n\n**제36조(감사 결과 등 공개)** ① 감사결과는 홈페이지를 통해 공개한다. 다만, 「공공기관의 정보공개에 관한 법률」 제9조제1항 각호의 어느 하나에 해당하는 정보는 공개하지 아니할 수 있다.\n② 감사는 예산담당부서장에게 예산낭비신고 및 조치결과 등을 사례집으로 발간하거나 홈페이지에 공개하도록 요구할 수 있다.\n\n③ 제1항 및 제2항에 따른 공개 시 공개대상에 포함되어 있는 이름․주민등록번호·직위 및 주소 등 특정인임을 식별할 수 있는 정보는 삭제하여야 한다.\n[본조신설 2014. 10. 31.]\n\n**제37조(변상에 관한 사항의 준용)** 규정 제21조 제3항 제3호의 변상 처분에 관한 사항은 「감사원법」을 따른다.\n\n[본조신설 2014. 10. 31.]\n\n**제38조(경미한 사항)** 규정 제21조 제2항 및 제7항의 경미한 사항이란 경고 이하의 처분을 말한다. 다만 감사가 이사회 및 감독기관에 보고가 필요한 사항이라고 판단한 사항에 대해서는 이를 보고할 수 있다.\n\n[본조신설 2014. 10. 31.]\n\n**부칙**\n\n이 규칙은 2008. 2. 15.부터 시행한다.\n\n**부칙**\n\n이 규칙은 2009. 12. 2.부터 시행한다.\n\n**부칙**",
+      "text": "제34조의2(자율감사인의 권한 및 의무) ① 자율감사인의 권한은 다음 각 호와 같다.\n1. 소속기관의 예산집행에 대한 자체점검\n2. 소속기관의 직원복무에 대한 자체점검\n3. 감사가 요청하는 경우 종합감사 등 참여\n4. 채용, 면접 관련 입회 및 참관\n5. 그 밖에 감사가 필요하다고 인정하는 사항\n② 자율감사인은 제1항에 따른 점검결과 관련규정 위반 사항이 발견되는 경우 즉시 시정조치 하고 그 결과를 감사에게 보고하여야 한다. 다만, 발견된 위반사항이 중대하다고 판단되는 경우에는 즉시 감사에게 보고하여야 한다.\n③ 자율감사인은 직무를 수행함에 있어 다음 각호의 사항을 성실히 준수하여야 하며, 감사는 자율감사인이 의무를 위반한 행위를 한 경우 해당 자율감사인을 변경하는 등 필요한 조치를 할 수 있다.\n1. 관계법령과 기준을 성실히 준수하고, 관련 내규에 따라 직무를 수행할 것\n2. 직무 수행 중 지득한 기밀을 정당한 이유 없이 누설하지 않을 것\n[본조신설 2025. 1. 22.]\n**제35조(감사인의 회피)** ①감사담당자는 다음 각 호의 어느 하나에 해당하는 경우에는 감사부서의 장에게 보고하여야 한다. <개정 2025. 1. 22.>\n1.「한국장애인고용공단 공직자의 이해충돌 방지제도 운영지침」제3조에 해당하는 경우\n2. 감사담당자가 감사대상 업무의 의사결정과정에 직･간접적으로 관여한 경우\n② 감사부서의 장은 제1항에 따라 보고를 받은 경우 감사수행의 공정성을 해칠 영향이 크다고 판단될 때에는 일시적으로 업무를 재배정 할 수 있다.\n[본조신설 2014. 10. 31.]\n**제36조(감사 결과 등 공개)** ① 감사결과는 홈페이지를 통해 공개한다. 다만, 「공공기관의 정보공개에 관한 법률」 제9조제1항 각호의 어느 하나에 해당하는 정보는 공개하지 아니할 수 있다.\n② 감사는 예산담당부서장에게 예산낭비신고 및 조치결과 등을 사례집으로 발간하거나 홈페이지에 공개하도록 요구할 수 있다.\n③ 제1항 및 제2항에 따른 공개 시 공개대상에 포함되어 있는 이름․주민등록번호·직위 및 주소 등 특정인임을 식별할 수 있는 정보는 삭제하여야 한다.\n[본조신설 2014. 10. 31.]\n**제37조(변상에 관한 사항의 준용)** 규정 제21조 제3항 제3호의 변상 처분에 관한 사항은 「감사원법」을 따른다.\n[본조신설 2014. 10. 31.]\n**제38조(경미한 사항)** 규정 제21조 제2항 및 제7항의 경미한 사항이란 경고 이하의 처분을 말한다. 다만 감사가 이사회 및 감독기관에 보고가 필요한 사항이라고 판단한 사항에 대해서는 이를 보고할 수 있다.\n[본조신설 2014. 10. 31.]\n**부칙**\n이 규칙은 2008. 2. 15.부터 시행한다.\n**부칙**\n이 규칙은 2009. 12. 2.부터 시행한다.\n**부칙**",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "1",
+      "articleId": "제1조",
       "title": "시행일",
       "breadcrumb": [],
       "page": 1,
-      "text": "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "2",
-      "title": "경과사항",
-      "breadcrumb": [
-        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다."
-      ],
-      "page": 1,
-      "text": "**제2조(경과사항)** 이 규칙 시행 이전에 마련된 ‘소속기관 자율감사제도의 운영’안은 제34조 제3항에 따라 마련된 것으로 본다.\n\n**부칙**\n\n이 규칙은 2014. 10. 31.부터 시행한다.\n\n**부칙**\n\n이 규칙은 2015. 10. 30.부터 시행한다.\n\n**부칙**\n\n이 규칙은 2023. 9. 25.부터 시행한다.\n\n**부칙**\n\n이 규칙은 2025. 1. 22.부터 시행한다.\n\n【 별 표 】<개정 2014. 10. 31., 2025. 1. 22.>\n감사결과 처분기준표\n<table>\n<tr><th rowspan=\"2\">처분기준<br>위법부당유형</th><th colspan=\"3\">고 의</th><th colspan=\"2\">중과실</th><th>경과실</th></tr>\n<tr><td>담당자</td><td>직 상</td><td>차상<br>(기관장포함)</td><td>담당자</td><td>직상</td><td>관련자</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td><일 반 공 통 사 항></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 문서관리 및 처리</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 허위보고 및 허위문서 작성</td><td>징계</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>나. 중요한 문서내용을 변조, 접수거부,<br>미접수 또는 파기</td><td>징계</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>다. 민원서류 접수일자 조작</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>-</td></tr>\n<tr><td>라. 보관문서 관리소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 문서지연 처리로 민원인 또는 공단에 손해를 끼친 경우</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>2. 감사 방해 및 감사 불성실</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 자료제출 또는 조사 요구 거부 및 증거 인멸·훼손</td><td>징계</td><td>-</td><td>-</td><td>경고</td><td>-</td><td>주의</td></tr>\n<tr><td>나. 기타 자료제출 태만 등 감사 수감 부적정</td><td>경고</td><td>-</td><td>-</td><td>경고</td><td>-</td><td>주의</td></tr>\n<tr><td>3. 감사처분 및 각종 지시․명령에 대한 이행 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 허위보고</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>-</td></tr>\n<tr><td>나. 정당한 이유 없이 불이행 및 이행소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 일상감사 누락(3회 이상)</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>4. 소송사무처리 부 적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 공단에 손해를 끼쳤을 때</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 처리소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 인사관리 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 정당한 이유 없이 전보제한 기간 위배</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 호봉 승급 불철저</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 인사서류관리 불철저</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 무자격자 채용</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 기타 인사 관련업무처리 부 적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>6. 증명서 발급관리 부 적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 허위 발급</td><td>징계</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>나. 착오 및 발급 지연</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>7. 보안업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 비밀문서 유출 ․분실</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 비밀문서 보관 불철저</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 보안점검 및 잠금장치 불철저</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8. 직인관리 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 도용(무단) 날인</td><td>징계</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>나. 관인분실 및 훼손</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>-</td></tr>\n<tr><td>9. 예산회계 및 기금관리업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 예산과목 임의 전용집행</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 예산의 부당지출</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 업무추진비 부당 사용</td><td>징계<br>(사용자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 허위계약서 작성</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 각종 계약업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>바. 기타 회계규정 위반</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>사. 관리자로서 의무를 태만히 하여<br>피해발생</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>10. 재산 및 물품관리업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 등기등록 미필</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 선량한 관리자로서 의무를 태만히 하여 도난, 망실, 훼손</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 재물조사 등 자산관리 업무소홀</td><td></td><td></td><td></td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 청사․관사 등 건물과 부대시설<br>운영관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>11. 복무기강</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 휴가, 출장 사용 부적정</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 출·퇴근 시간 미준수</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 유연근무(재택근무 포함) 소홀</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 시간외근무 부적정</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 겸직업무 부적정</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>바. 외부강의 등 신고 위반</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 외부강의 등 미신고</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>- 외부강의 등 대가기준 위반</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>- 외부강의 등 횟수 위반</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>- 외부강의 등 신고기한 미준수</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>사. 당직근무 부적정</td><td></td><td></td><td></td><td>경고<br>(당사자)</td><td>주의</td><td>주의</td></tr>\n<tr><td>아. 직원품위 손상 행위</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고<br>(주의)</td></tr>\n<tr><td>자. 공단의 명예 및 위계질서 문란행위</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 상사의 직무상 명령 불복종 또는 업무거부 및 업무방해</td><td>징계<br>(당사자)</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>(주의)</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>- 불법집회, 시위, 불온 유인물 배포 등 질서문란</td><td>징계<br>(당사자)</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>- 공단재물의 무단훼손 및 파괴</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>- 기타 공단 명예실추 및 위계질서 문란</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>(주의)</td><td></td><td></td><td></td></tr>\n<tr><td>12. 공직기강해이 및 부정부패 행위</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 금품향응수수</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td>징계</td></tr>\n<tr><td>나. 공금횡령유용</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td>징계</td></tr>\n<tr><td>다. 무사안일</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td>징계</td></tr>\n<tr><td>라. 기타 공직기강해이 및 부정부패 관련사항</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td>징계</td></tr>\n<tr><td>13. 민원업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 민원상담 및 응대 불친절</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 부당한 보완요구 및 반려</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 처리기한 경과</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>14. 연간 사업계획 및 주요업무</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 정당한 사유 없이 미이행</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 임의변경 등 업무처리 부적정</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>15. 각종 정보시스템 자료입력관리업무 소홀</td><td></td><td></td><td></td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>16. 부패·공익신고 방해</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 조사완료 전 피신고인 및 신고내용공개</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td></td><td></td><td></td></tr>\n<tr><td>나. 신고자 비밀보장 의무 위반</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td></td></tr>\n<tr><td>다. 신고자 불이익조치 금지 위반</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td></td><td></td><td></td></tr>\n<tr><td>라. 신고 방해 및 신고 취소 강요</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td></td><td></td><td></td></tr>\n<tr><td>17. 공공기관 정보공개 관련 부정행위</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 거짓정보 공개, 공개청구 정보 숨기기 등</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 불복절차 결과에 따른 정보공개 의무 불이행</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><고용촉진 및 직업재활></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 구인․구직업무 부적정</td><td>-</td><td>-</td><td>-</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>주의</td></tr>\n<tr><td>2. 취업알선․확정 부적정</td><td>징계</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 취업 후 적응지도 부적정</td><td>징계</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>4. 취업알선․확정결과 전산처리 부적정</td><td>징계</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고<br>(주의)</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 고용선진국 연수관련업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 장애인고용계획서 및 실시상황보고서 관련 업무소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>7. 고용의무이행지도 업무 소홀</td><td></td><td></td><td></td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8 장애인고용우수사업주 선정 및 <br>지원업무 소홀</td><td></td><td></td><td></td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>9. 중증장애인 지원고용(민간위탁 포함) 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>10. 취업성공패키지 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>11. 인턴제 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>12. 취업지원사업 공동수행 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>13. 취업알선비용 지원업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>14. 범부처 취업지원사업 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>15. 면접조사･의료･신체능력･심리･작업･현장･사업지원평가 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>16. 최저임금 적용제외 인가판정 관련 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>17. 고용지원 필요도 결정 사업 관리 및 운영 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>18. 직업능력평가 도구 개발 및 활용 보급 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>19. 근로장애인 전환지원사업 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>20. 장애학생 취업지원사업 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>21. 장애인 직무개발 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>22. 기타 고용촉진 및 직업재활사업 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><직 업 능 력 개 발></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 훈련 직종 개발 및 보급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 훈련 교과과정 및 설비 등의 기준 개발 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 훈련 시설 및 훈련장비 수급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 훈련 교수기법 개발 및 보급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>5. 학사관리시스템 운영 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 훈련기관 설립지원 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>7. 직업능력개발원 및 훈련센터 운영</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 세부 훈련계획 관리 및 훈련일지 작성 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 학생 모집 및 선발평가 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 직종선정 및 개인별 훈련계획 수립･업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 분야별 상담업무 및 적응지도 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>마. 직업기능 탐색 및 훈련지원프로그램 업무처리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>바. 훈련생 수료 업무처리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>사. 가입학, 휴·복학, 자퇴·제적 등 학사 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>아. 훈련생 학적 관리 및 출결 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>자. 중점지도 훈련생 선정 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>차. 훈련생 취업지원 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>카. 특별과정(직업체험 포함) 운영 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>타. 훈련재료 구입 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>파. 현장실습 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>하. 훈련생 생활지도 및 사례관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>거. 훈련장비 수급 관련 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>너. 훈련장비 활용 및 관리업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>더. 외부강사 위촉･복무관리･강사료 지급 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>러. 기타 직업능력개발원 및 훈련센터 운영업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8. 장애인 직업능력개발 훈련지원</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 훈련실시기관 지정 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 훈련생 선발승인 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 훈련비용 등 부당 지급</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 훈련기관 지도감독 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>마. 미제정 직종 승인 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>바. 훈련지원협의회 미운영 및 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>9. 기타 직업능력개발사업 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><기 능 경 기 대 회></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 기능경기대회(지방, 발달, 전국, 국제)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 위탁기관 선정 부적정</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 과제관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 선수선발 및 입상자선정 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 입상자 사후관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 기타 기능경기대회 관련 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><고 용 환 경 개 선></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 표준사업장 지원 대상자 선정 및 지원업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 표준사업장 인증 및 생산품 우선구매 지원업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 표준사업장 사후관리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 사업주에 대한 시설･장비 등 융자 및 지원 대상자 선정 및 융자･지원 업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>5. 사업주에 대한 시설･장비 등 융자 및 지원 대상자 사후관리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 고령자 고용환경개선자금 융자 대상자 선정 및 융자 업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>7. 장애물 없는 생활환경(BF) 인증 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8. 장애인고용관리비용 지원 대상자 선정 및 지원업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>9. 직업생활상담원 관리 및 지원 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>10. 직업생활상담원 양성 교육 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>11. 장애인근로자지원센터 운영･관리･지도･평가 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>12. 중증장애인 근로자 출･퇴근비용 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>13. 기타 고용환경개선사업 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><고용부담금, 고용장려금></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 고용부담금 징수사업 홍보 소홀</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 신고안내 등 징수사업홍보</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>2. 고용부담금 징수업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 부담금납부신고서 접수검토</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 고지서발부</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 적용누락 조사</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 적용시점 부당산정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 연계고용 부담금 감면 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>바. 근로자수 과소산정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>사. 체납처분 미실시 및 관련업무소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>아. 압류물건 부당 압류해제</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>자. 체납처분표 등 대장정리 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>차. 체납부담금 부당 결손처분</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>카. 징수불능 체납금 결손처분 미실시</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>타. 각종 연체금, 가산금 징수누락</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>파. 징수액보고 등 각종보고업무소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>3. 고용장려금 지급업무 처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>가. 고용장려금 지급업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 고용장려금 부정수급 예방 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 고용장려금 환수 채권 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 기타 고용부담금 및 고용장려금 관련업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 규제애로 건의사항 통합관리 및 사업실적 모니터링 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 기업성장응답센터 운영 관련 대외협력 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><보조공학기기 지원></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 보조공학기기 지원 사업</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 보조공학기기 지원 사업 관리･지도･평가 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 보조공학 상담, 평가 및 사후관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 보조공학기기 선정 및 계약 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 보조공학기기 지원 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>마. 보조공학 관련 기초조사 및 분석 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>바. 보조공학기기 제작 및 지원 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>사. 보조공학기기 개발 및 지원 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>아. 보조공학기기 품질인증 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>자. 보조공학기기 수리 및 반납기기 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>차. 보조공학전시장 운영 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>카. 보조공학센터 지도 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>타. 보조공학센터 운영 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>파. 보조공학박람회 개최･운영 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>하. 기타 보조공학기기지원 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><근로지원인 지원></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 근로지원인 지원 사업</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 근로지원인 지원사업 운영 및 관리･지도･평가 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 근로지원인 양성교육 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 근로지원인 시스템 운영 및 사후관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 근로지원인 지원 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>마 기타 근로지원인 지원 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><직장 내 장애인 인식개선 교육></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 직장 내 장애인 인식개선 교육 강사양성 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 직장 내 장애인 인식개선 교육기관 지정 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 직장 내 장애인 인식개선 교육교재 개발 및 보급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 직장 내 장애인 인식개선 교육 의무 이행지도 및 점검 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>5. 직장 내 장애인 인식개선 교육 민간위탁 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 기타 직장 내 장애인 인식개선 교육 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><장애인 고용컨설팅></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 장애인 고용컨설팅 실시 및 이행조치 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 장애인 고용컨설팅 관련 타 기관 연계･협력 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 명단공표 관련 고용의무이행지도 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4.. 명단공표 관리대장 입력 등 각종 보고 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>5. 기타 고용컨설팅 및 이행지도 운영 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><정 보 지 원></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 정보시스템의 기술적 관리 및 개발 지원</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 정보시스템, 공단 통신망, 전산장비 운영 관리 부적정</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 정보시스템 개발 지원 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 정보화사업 계획 수립 및 사전협의 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>3. 장애인고용업무시스템 및 경영지원시스템의 기술적 관리 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>4. 정보화사업 심의 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 정보보안 및 개인정보 보호 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>6. 기타 시스템 개발 및 운영 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><홍 보 협 력></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 작품현상 공모전 관련 업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 언론기관 협력, 대국민 장애인 인식개선 홍보 관련 업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 홍보물 개발·제작·배포 및 사내외보 발간 관련 업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 국제기구 협력사업 및 국외 자매결연기관 교류 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 국내･외 장애인 관련 단체 및 기관과의 협력 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>6. 국제회의 및 국외 홍보 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>7. 고용촉진대회 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8. 고용촉진캠페인 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>9. 사회공헌활동 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>10. 기타 홍보협력 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><연구개발․교육연수></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 연구개발</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 조사연구업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 연구 소홀 및 연구내용 미흡</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 조사 소홀 및 조사내용 미흡</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 연구개발과제 선정･평가 관련 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 알기 쉬운 자료 개발업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 연구 소홀 및 연구내용 미흡</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 조사 소홀 및 조사내용 미흡</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 알기 쉬운 자료 개발과제 선정･평가 관련 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 연구개발 지원업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 세미나 및 발표회 미개최 및 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 연구보고서 발간 관련 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 국내･외 장애인고용 학술세미나 개최 관련 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>징계</td><td>경고</td><td>주의</td></tr>\n<tr><td>- 국내･외 장애인고용 관련 정보 수집 및 보급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 정보자료실 운영 및 관리 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>2. 교육연수</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 교육연수 업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 교육교재 개발업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 연수실 운영 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 영상매체실 등 운영 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 교육시스템 개발 등 기타</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>3. 기타 연구개발 및 교육연수 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n</table>\n(별지 제1호 서식) <개정 2025. 1. 22.>\n\n**확   인   서**\n\n￭ 적극행정 면책제도 안내문\n\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n\n1. 제 목 :\n\n2. 관 련 :\n\n3. 내 용 :\n상기 사실을 확인함.\n\n20 . . .\n\n(관련자)\n\n담당자 직렬 직급 성명\n\n책임자 직렬 직급 성명\n\n(확인자)\n\n직위 성명 (인)\n\n(별지 제2호 서식) <개정 2025. 1. 22.>\n\n**경   위   서**\n\n￭ 적극행정 면책제도 안내문\n\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n\n소 속(주소)\n\n직 책\n\n성 명 생년월일\n\n제 목\n\n(경위내용)\n\n본인은 위와 같이 그 경위를 기록하고 서명날인 함.\n\n20 . . .\n\n위 (인)\n\n(별지 제3호 서식) <개정 2025. 1. 22.>\n\n**문   답   서**\n\n￭ 적극행정 면책제도 안내문\n\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n<table>\n<tr><th colspan=\"2\"></th></tr>\n<tr><td colspan=\"4\">소 속 직 급(직 위)</td></tr>\n<tr><td colspan=\"4\">성 명 생년월일</td></tr>\n<tr><td colspan=\"4\">위 자는 에 관하여 20 년 월 일</td></tr>\n<tr><td colspan=\"4\">에서 과(와) 별지와 같이 임의로 문답한다.</td></tr>\n<tr><td colspan=\"2\"></td></tr>\n<tr><td></td></tr>\n<tr><td></td></tr>\n<tr><td></td></tr>\n<tr><td colspan=\"4\">위의 문답서를 답변자에게 열람하게 하였던 바,</td></tr>\n<tr><td colspan=\"4\">답변한 대로 오기나 증감 변경할 것이 없다고 말하므로 간인한 후</td></tr>\n<tr><td colspan=\"4\">서명 날인케 하다.</td></tr>\n<tr><td colspan=\"4\">서기 20 년 월 일</td></tr>\n<tr><td colspan=\"4\">답변자 (인)</td></tr>\n<tr><td colspan=\"4\">조사자 (인)</td></tr>\n<tr><td colspan=\"4\">입회자 (인)</td></tr>\n<tr><td colspan=\"4\"></td></tr>\n</table>\n한국장애인고용공단\n\n(별지 제4호 서식) <개정 2025. 1. 22.>\n\n**질   문   서**\n\n￭ 적극행정 면책제도 안내문\n\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n제목 :\n수신 감사업무수행을 위하여 다음사항을 질문하오니 성실히 답변하여 주시기 바랍니다. - 답변 기한 : 20 년 월 일 20 년 월 일 한국장애인고용공단 감사\n(질문사항)\n(별지 제5호 서식)\n\n**답   변   서**\n제목 :\n수신 감사 상기 건명과 관련한 질문사항에 대하여 다음과 같이 답변합니다. 20 년 월 일 발신자명\n(답변사항)\n(별지 제6호 서식)\n\n**봉   인   조   서**\n\n한국장애인고용공단 감사규정 제8조 제1항 제4호에 따라 봉인함.\n\n봉인내용:\n\n20 . . .\n\n봉인실시자: 직 성 명 (인)\n\n봉인관리자: 직 성 명 (인)\n\n(경 고)\n\n이 봉인표시를 손상 또는 은닉하거나 기타의 방법으로 봉인표시의 효율을 해함을 엄금함.\n\n(별지 제7호 서식)\n\n**【 1 】**제 목\n<table>\n<tr><th>- 요 지 -</th></tr>\n<tr><td colspan=\"2\"></td></tr>\n</table>\n1. 처분대상자 [**처분종류]**\n\n2. 관 련\n\n3. 내 용\n\n4. 조치할 사항\n(별지 제8호 서식)\n\n**징 계 (문 책) 처 분 요 구 서**\n\n일련번호 :\n\n소 속 :\n\n직 급(위) :\n\n성 명 : (한문) (만 세)\n\n제 목 :\n\n(전 소속 및 직위․급)\n\n위의 사람은 그 직무를 수행할 때 다음과 같이 위법 부당한 일이 있었으므로 감사규정 제21조 제3항의 규정에 따라 징계(문책)처분을 요구한다.\n\n다 음\n\n위의 사람은 . . .부터 . . .까지 사이에 위의\n\n기관, 위의 직위에서 직제규정 제14조에 따라 업무를 담당하고 있는(던) 사람으로서 그 직무를 수행함에 있어, 하여야 함(할 수 없음)에도,\n\n하지 아니한(한) 사실이 있는 바, 이에 대하여 위의 사람은 라고 변명을 하나, 이므로 그 변명은 이유가 되지 아니한다.\n\n따라서 위 사람의 행위는 규정에 위배된 것으로서 에 해당한다.\n\n20 . . .\n\n한국장애인고용공단 감사\n\n(2인 이상이 해당되는 경우에도 사용가능)\n\n(별지 제9호 서식) 삭제[2011.02.24.]\n\n(별지 제10호 서식)\n\n**감사결과 처분요구사항 조치결과 통보서**\n<table>\n<tr><th rowspan=\"2\">처분요구<br>일 자<br>(문서번호)</th><th rowspan=\"2\">제 목</th><th rowspan=\"2\">처분종류</th><th rowspan=\"2\">관련자</th><th rowspan=\"2\">조치사항</th><th rowspan=\"2\">조치일</th><th colspan=\"2\">미결인 경우</th></tr>\n<tr><td>미결사유</td><td>완 료<br>예정일</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n(별지 제11호 서식) 삭제[2011.02.24.]\n\n(별지 제12호 서식) 삭제[2011.02.24.]\n\n(별지 제13호 서식) 삭제[2011.02.24.]\n\n(별지 제14호서식)\n\n**조 치 연 기 내 역 서**\n감 사 종 류 : 처 분 제 목 : 처분조치기한 : 처 분 종 류 :\n처분내용 연기사유 추진계획\n완료예정일 :\n조치 책임자(팀장) 직위 성명\n첨부서류\n(별지 제15호서식)\n\n**집  행  독  촉  장**\n<table>\n<tr><th colspan=\"5\">집행독촉</th><th colspan=\"4\">회 답</th></tr>\n<tr><td colspan=\"5\">감사 20 . . .<br>수신:<br>발신: 한국장애인고용공단 감사<br>다음 사항에 대한 처리를 독촉하니 20 . . .까지 그 집행전말을 회보하여 주기 바람.</td><td colspan=\"4\">20 . . .<br>수신: 한국장애인고용공단 감사<br>발신:<br>다음과 같이 회보합니다.<br>첨부: 집행한 것에 대한 증빙서류</td></tr>\n<tr><td rowspan=\"2\">부서명</td><td colspan=\"3\">요구사항</td><td colspan=\"3\">집행전말(20 . . 현재)</td><td rowspan=\"2\">미집행사유<br>(책임자)</td><td rowspan=\"2\">집행방안<br>(완료예정일)</td></tr>\n<tr><td>지적구분</td><td>지적건명</td><td>사건요지</td><td>집행기일</td><td>집행</td><td>미집행</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n(별지 제16호서식)\n\n**감사결과처분 요구사항에 대한 이의신청서**\n<table>\n<tr><th>처분요구일자</th><th></th><th>처분요구종류</th></tr>\n<tr><td colspan=\"4\">제 목 :</td></tr>\n<tr><td colspan=\"4\">처분요구요지</td></tr>\n<tr><td colspan=\"4\">이의신청사유<br>첨부: 관계증빙서류 사본 매. 끝.</td></tr>\n</table>\n20 . . .\n\n이의신청자 (인)\n\n한국장애인고용공단 감사 귀하\n\n(별지 제17호서식)\n\n**재 심 사  요 구 서**\n<table>\n<tr><th colspan=\"2\">원처분요구</th><th colspan=\"2\">이의신청</th></tr>\n<tr><td>일자</td><td>종류</td><td>일자</td><td>내용</td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n</table>\n제 목 :\n첨부: 관계증빙서류 사본 매. 끝.\n\\* 작성요령 : 1. 원처분요지 2. 이의신청사유 요지\n3. 이의신청에 대한 조치 요지 4. 재심사 요구사유\n20 . . .\n\n재심사 요구자 (인)\n\n한국장애인고용공단 감사 귀하\n\n(별지 제18호 서식)\n\n**감 사 결 과 처 리 부**\n\n부서명\n<table>\n<tr><th rowspan=\"2\">일련 번호</th><th rowspan=\"2\">구분</th><th rowspan=\"2\">발생<br>년도</th><th rowspan=\"2\">월일</th><th colspan=\"2\">처분요구</th><th rowspan=\"2\">제 목</th><th rowspan=\"2\">지적사항</th><th rowspan=\"2\">조치사항</th><th colspan=\"2\">관련자</th><th colspan=\"2\">완 결</th><th rowspan=\"2\">비고</th></tr>\n<tr><td>종류</td><td>일자</td><td>직․성명</td><td>신분상조치지시구분</td><td>일자및근거</td><td>확인</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n(별지 제19호 서식)\n\n**연 간 감 사 보 고 서**\n**1. 감사계획 대 실시에 대한 자체평가**\n\n**2. 주요 사고 사례별 원인분석**\n| 사례명 | 사고원인분석 | 개선방안 |\n| --- | --- | --- |\n|  |  |  |\n**3. 감사실시에 따른 운영 개선실적**\n| 업무명 | 개선요구내용 | 조치결과 |\n| --- | --- | --- |\n|  |  |  |\n**4. 감사결과 보고서(Ⅰ, Ⅱ, Ⅲ)**\n(별지 제20호 서식)\n\n**감 사 결 과 보 고 서 (Ⅰ)**\n<table>\n<tr><th rowspan=\"2\">구분</th><th rowspan=\"2\">감사종별 또는 감사기관</th><th colspan=\"2\">계획</th><th colspan=\"2\">실 적</th><th colspan=\"5\">행정상 조치</th></tr>\n<tr><td>대상 부서</td><td>실시 연인원</td><td>대상 부서</td><td>실시 연인원</td><td>계</td><td>시정</td><td>개선</td><td>주의</td><td>기타</td></tr>\n<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"7\">자체<br>감사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>종합감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>특정감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>복무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>일상감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"5\">외부<br>감사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>주무감독<br>부 처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>정부합동<br>감 사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>기 타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n**감사결과 보고서(Ⅱ)**\n<table>\n<tr><th colspan=\"2\" rowspan=\"3\">구 분</th><th colspan=\"12\">재정상조치(천원)</th><th colspan=\"14\">신분상조치(명)</th></tr>\n<tr><td colspan=\"2\">계</td><td colspan=\"2\">추 징</td><td colspan=\"2\">변상</td><td colspan=\"2\">회수</td><td colspan=\"2\">지급</td><td colspan=\"2\">기타</td><td colspan=\"2\">계</td><td colspan=\"2\">파 면</td><td colspan=\"2\">면 직</td><td colspan=\"2\">정 직</td><td colspan=\"2\">감 봉</td><td colspan=\"2\">견 책</td><td colspan=\"2\">경고</td></tr>\n<tr><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td></tr>\n<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"6\">자<br>체<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>종합<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>특정<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>복무<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"5\">외<br>부<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>주무<br>감독<br>부처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>정부<br>합동<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>기타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n**감사결과 보고서(Ⅲ)**\n<table>\n<tr><th colspan=\"2\" rowspan=\"3\">구 분</th><th colspan=\"18\">비위유형별지적사항</th><th colspan=\"6\">조치결과</th></tr>\n<tr><td colspan=\"2\">계</td><td colspan=\"6\">복무기강</td><td colspan=\"3\">행정관리</td><td colspan=\"3\">재산관리</td><td colspan=\"3\">독 직</td><td rowspan=\"2\">기타</td><td colspan=\"3\">완 결</td><td colspan=\"3\">미 결</td></tr>\n<tr><td>건수</td><td>금액</td><td>직장이탈</td><td>품위손상</td><td>보안 및 비 밀<br>누 설</td><td>직무유기및태만</td><td>감독소홀</td><td>직권남용</td><td>업무처리</td><td>공문서<br>위조</td><td>문서관리소홀</td><td>현금관리소홀</td><td>물자관리소홀</td><td>재산관리소홀</td><td>공금유용</td><td>공금횡령</td><td>증수뢰</td><td>건수</td><td>금액</td><td>인원</td><td>건수</td><td>금액</td><td>인원</td></tr>\n<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"6\">자<br>체<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>종합<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>특정<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>복무<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"5\">외<br>부<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>주무<br>감독<br>부처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>정부<br>합동<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>기타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n(별지 제21호 서식)\n<table>\n<tr><th colspan=\"6\">제호<br>감사의견서</th></tr>\n<tr><td>수 신</td><td></td><td>참 조</td><td></td><td>등록번호<br>및 일자</td></tr>\n<tr><td>제 목</td><td colspan=\"3\"></td><td>회신요구일<br>및 회신일</td></tr>\n<tr><td colspan=\"6\">감 사 의 견<br>1. 내 용<br>2. 조치방향<br>20 . . .<br>한국장애인고용공단 감사 (인)</td></tr>\n<tr><td colspan=\"6\">3. 조치결과(주관부서 기재란)<br>20 . . .<br>장 (인)</td></tr>\n</table>\n\\* 조치결과 기재요령\n1. 시정방향대로 조치하였을 경우 : 그 조치내용의 요지를 기재하여 즉시 \n감사실에 회송할 것.\n\n2. 시정방향대로 조치할 수 없는 경우: 그 사유를 기재하여 결재문건 \n상단에 첨부 결재후 결재(결정) 내용을 첨가하여 감사실에 회송할 것.\n(별지 제22호 서식)\n\n**감  사  일  지**\n<table>\n<tr><th rowspan=\"2\">일렬번호</th><th rowspan=\"2\">접수일자</th><th rowspan=\"2\">등록번호</th><th rowspan=\"2\">건명(내용요약)</th><th rowspan=\"2\">소관부서<br>(담당자)</th><th rowspan=\"2\">합의일시</th><th rowspan=\"2\">감사의견</th><th colspan=\"3\">결재</th></tr>\n<tr><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>",
-      "needsOriginal": false
+      "text": "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.\n**제2조(경과사항)** 이 규칙 시행 이전에 마련된 ‘소속기관 자율감사제도의 운영’안은 제34조 제3항에 따라 마련된 것으로 본다.\n**부칙**\n이 규칙은 2014. 10. 31.부터 시행한다.\n**부칙**\n이 규칙은 2015. 10. 30.부터 시행한다.\n**부칙**\n이 규칙은 2023. 9. 25.부터 시행한다.\n**부칙**\n이 규칙은 2025. 1. 22.부터 시행한다.\n【 별 표 】<개정 2014. 10. 31., 2025. 1. 22.>\n감사결과 처분기준표\n<table>\n<tr><th rowspan=\"2\">처분기준<br>위법부당유형</th><th colspan=\"3\">고 의</th><th colspan=\"2\">중과실</th><th>경과실</th></tr>\n<tr><td>담당자</td><td>직 상</td><td>차상<br>(기관장포함)</td><td>담당자</td><td>직상</td><td>관련자</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td><일 반 공 통 사 항></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 문서관리 및 처리</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 허위보고 및 허위문서 작성</td><td>징계</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>나. 중요한 문서내용을 변조, 접수거부,<br>미접수 또는 파기</td><td>징계</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>다. 민원서류 접수일자 조작</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>-</td></tr>\n<tr><td>라. 보관문서 관리소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 문서지연 처리로 민원인 또는 공단에 손해를 끼친 경우</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>2. 감사 방해 및 감사 불성실</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 자료제출 또는 조사 요구 거부 및 증거 인멸·훼손</td><td>징계</td><td>-</td><td>-</td><td>경고</td><td>-</td><td>주의</td></tr>\n<tr><td>나. 기타 자료제출 태만 등 감사 수감 부적정</td><td>경고</td><td>-</td><td>-</td><td>경고</td><td>-</td><td>주의</td></tr>\n<tr><td>3. 감사처분 및 각종 지시․명령에 대한 이행 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 허위보고</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>-</td></tr>\n<tr><td>나. 정당한 이유 없이 불이행 및 이행소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 일상감사 누락(3회 이상)</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>4. 소송사무처리 부 적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 공단에 손해를 끼쳤을 때</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 처리소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 인사관리 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 정당한 이유 없이 전보제한 기간 위배</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 호봉 승급 불철저</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 인사서류관리 불철저</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 무자격자 채용</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 기타 인사 관련업무처리 부 적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>6. 증명서 발급관리 부 적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 허위 발급</td><td>징계</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>나. 착오 및 발급 지연</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>7. 보안업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 비밀문서 유출 ․분실</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 비밀문서 보관 불철저</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 보안점검 및 잠금장치 불철저</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8. 직인관리 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 도용(무단) 날인</td><td>징계</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>나. 관인분실 및 훼손</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>-</td></tr>\n<tr><td>9. 예산회계 및 기금관리업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 예산과목 임의 전용집행</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 예산의 부당지출</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 업무추진비 부당 사용</td><td>징계<br>(사용자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 허위계약서 작성</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 각종 계약업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>바. 기타 회계규정 위반</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>사. 관리자로서 의무를 태만히 하여<br>피해발생</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>10. 재산 및 물품관리업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 등기등록 미필</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 선량한 관리자로서 의무를 태만히 하여 도난, 망실, 훼손</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 재물조사 등 자산관리 업무소홀</td><td></td><td></td><td></td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 청사․관사 등 건물과 부대시설<br>운영관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>11. 복무기강</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 휴가, 출장 사용 부적정</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 출·퇴근 시간 미준수</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 유연근무(재택근무 포함) 소홀</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 시간외근무 부적정</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 겸직업무 부적정</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>바. 외부강의 등 신고 위반</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 외부강의 등 미신고</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>- 외부강의 등 대가기준 위반</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>- 외부강의 등 횟수 위반</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>- 외부강의 등 신고기한 미준수</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>사. 당직근무 부적정</td><td></td><td></td><td></td><td>경고<br>(당사자)</td><td>주의</td><td>주의</td></tr>\n<tr><td>아. 직원품위 손상 행위</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고<br>(주의)</td></tr>\n<tr><td>자. 공단의 명예 및 위계질서 문란행위</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 상사의 직무상 명령 불복종 또는 업무거부 및 업무방해</td><td>징계<br>(당사자)</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>(주의)</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>- 불법집회, 시위, 불온 유인물 배포 등 질서문란</td><td>징계<br>(당사자)</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>- 공단재물의 무단훼손 및 파괴</td><td>징계<br>(당사자)</td><td>경고</td><td>주의</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td>- 기타 공단 명예실추 및 위계질서 문란</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>(주의)</td><td></td><td></td><td></td></tr>\n<tr><td>12. 공직기강해이 및 부정부패 행위</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 금품향응수수</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td>징계</td></tr>\n<tr><td>나. 공금횡령유용</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td>징계</td></tr>\n<tr><td>다. 무사안일</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td>징계</td></tr>\n<tr><td>라. 기타 공직기강해이 및 부정부패 관련사항</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td>징계</td></tr>\n<tr><td>13. 민원업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 민원상담 및 응대 불친절</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 부당한 보완요구 및 반려</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 처리기한 경과</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>14. 연간 사업계획 및 주요업무</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 정당한 사유 없이 미이행</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 임의변경 등 업무처리 부적정</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>15. 각종 정보시스템 자료입력관리업무 소홀</td><td></td><td></td><td></td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>16. 부패·공익신고 방해</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 조사완료 전 피신고인 및 신고내용공개</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td></td><td></td><td></td></tr>\n<tr><td>나. 신고자 비밀보장 의무 위반</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td>징계</td><td>징계<br>(경고)</td><td></td></tr>\n<tr><td>다. 신고자 불이익조치 금지 위반</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td></td><td></td><td></td></tr>\n<tr><td>라. 신고 방해 및 신고 취소 강요</td><td>징계</td><td>징계<br>(경고)</td><td>징계<br>(경고/<br>주의)</td><td></td><td></td><td></td></tr>\n<tr><td>17. 공공기관 정보공개 관련 부정행위</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 거짓정보 공개, 공개청구 정보 숨기기 등</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 불복절차 결과에 따른 정보공개 의무 불이행</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><고용촉진 및 직업재활></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 구인․구직업무 부적정</td><td>-</td><td>-</td><td>-</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>주의</td></tr>\n<tr><td>2. 취업알선․확정 부적정</td><td>징계</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 취업 후 적응지도 부적정</td><td>징계</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>4. 취업알선․확정결과 전산처리 부적정</td><td>징계</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고<br>(주의)</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 고용선진국 연수관련업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 장애인고용계획서 및 실시상황보고서 관련 업무소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>7. 고용의무이행지도 업무 소홀</td><td></td><td></td><td></td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8 장애인고용우수사업주 선정 및 <br>지원업무 소홀</td><td></td><td></td><td></td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>9. 중증장애인 지원고용(민간위탁 포함) 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>10. 취업성공패키지 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>11. 인턴제 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>12. 취업지원사업 공동수행 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>13. 취업알선비용 지원업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>14. 범부처 취업지원사업 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>15. 면접조사･의료･신체능력･심리･작업･현장･사업지원평가 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>16. 최저임금 적용제외 인가판정 관련 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>17. 고용지원 필요도 결정 사업 관리 및 운영 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>18. 직업능력평가 도구 개발 및 활용 보급 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>19. 근로장애인 전환지원사업 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>20. 장애학생 취업지원사업 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>21. 장애인 직무개발 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>22. 기타 고용촉진 및 직업재활사업 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><직 업 능 력 개 발></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 훈련 직종 개발 및 보급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 훈련 교과과정 및 설비 등의 기준 개발 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 훈련 시설 및 훈련장비 수급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 훈련 교수기법 개발 및 보급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>5. 학사관리시스템 운영 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 훈련기관 설립지원 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>7. 직업능력개발원 및 훈련센터 운영</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 세부 훈련계획 관리 및 훈련일지 작성 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 학생 모집 및 선발평가 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 직종선정 및 개인별 훈련계획 수립･업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 분야별 상담업무 및 적응지도 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>마. 직업기능 탐색 및 훈련지원프로그램 업무처리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>바. 훈련생 수료 업무처리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>사. 가입학, 휴·복학, 자퇴·제적 등 학사 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>아. 훈련생 학적 관리 및 출결 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>자. 중점지도 훈련생 선정 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>차. 훈련생 취업지원 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>카. 특별과정(직업체험 포함) 운영 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>타. 훈련재료 구입 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>파. 현장실습 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>하. 훈련생 생활지도 및 사례관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>거. 훈련장비 수급 관련 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>너. 훈련장비 활용 및 관리업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>더. 외부강사 위촉･복무관리･강사료 지급 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>러. 기타 직업능력개발원 및 훈련센터 운영업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8. 장애인 직업능력개발 훈련지원</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 훈련실시기관 지정 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 훈련생 선발승인 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 훈련비용 등 부당 지급</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 훈련기관 지도감독 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>마. 미제정 직종 승인 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>바. 훈련지원협의회 미운영 및 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>9. 기타 직업능력개발사업 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><기 능 경 기 대 회></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 기능경기대회(지방, 발달, 전국, 국제)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 위탁기관 선정 부적정</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 과제관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 선수선발 및 입상자선정 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 입상자 사후관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 기타 기능경기대회 관련 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><고 용 환 경 개 선></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 표준사업장 지원 대상자 선정 및 지원업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 표준사업장 인증 및 생산품 우선구매 지원업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 표준사업장 사후관리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 사업주에 대한 시설･장비 등 융자 및 지원 대상자 선정 및 융자･지원 업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>5. 사업주에 대한 시설･장비 등 융자 및 지원 대상자 사후관리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 고령자 고용환경개선자금 융자 대상자 선정 및 융자 업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>7. 장애물 없는 생활환경(BF) 인증 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8. 장애인고용관리비용 지원 대상자 선정 및 지원업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>9. 직업생활상담원 관리 및 지원 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>10. 직업생활상담원 양성 교육 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>11. 장애인근로자지원센터 운영･관리･지도･평가 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>12. 중증장애인 근로자 출･퇴근비용 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>13. 기타 고용환경개선사업 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><고용부담금, 고용장려금></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 고용부담금 징수사업 홍보 소홀</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 신고안내 등 징수사업홍보</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>2. 고용부담금 징수업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 부담금납부신고서 접수검토</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 고지서발부</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 적용누락 조사</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 적용시점 부당산정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 연계고용 부담금 감면 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>바. 근로자수 과소산정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>사. 체납처분 미실시 및 관련업무소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>아. 압류물건 부당 압류해제</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>자. 체납처분표 등 대장정리 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>차. 체납부담금 부당 결손처분</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>카. 징수불능 체납금 결손처분 미실시</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>타. 각종 연체금, 가산금 징수누락</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>파. 징수액보고 등 각종보고업무소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>3. 고용장려금 지급업무 처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>가. 고용장려금 지급업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 고용장려금 부정수급 예방 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 고용장려금 환수 채권 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 기타 고용부담금 및 고용장려금 관련업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 규제애로 건의사항 통합관리 및 사업실적 모니터링 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 기업성장응답센터 운영 관련 대외협력 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><보조공학기기 지원></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 보조공학기기 지원 사업</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 보조공학기기 지원 사업 관리･지도･평가 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 보조공학 상담, 평가 및 사후관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 보조공학기기 선정 및 계약 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 보조공학기기 지원 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>마. 보조공학 관련 기초조사 및 분석 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>바. 보조공학기기 제작 및 지원 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>사. 보조공학기기 개발 및 지원 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>아. 보조공학기기 품질인증 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>자. 보조공학기기 수리 및 반납기기 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>차. 보조공학전시장 운영 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>카. 보조공학센터 지도 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>타. 보조공학센터 운영 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>파. 보조공학박람회 개최･운영 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>하. 기타 보조공학기기지원 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><근로지원인 지원></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 근로지원인 지원 사업</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 근로지원인 지원사업 운영 및 관리･지도･평가 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 근로지원인 양성교육 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 근로지원인 시스템 운영 및 사후관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>라. 근로지원인 지원 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>마 기타 근로지원인 지원 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><직장 내 장애인 인식개선 교육></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 직장 내 장애인 인식개선 교육 강사양성 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 직장 내 장애인 인식개선 교육기관 지정 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 직장 내 장애인 인식개선 교육교재 개발 및 보급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 직장 내 장애인 인식개선 교육 의무 이행지도 및 점검 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>5. 직장 내 장애인 인식개선 교육 민간위탁 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>6. 기타 직장 내 장애인 인식개선 교육 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><장애인 고용컨설팅></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 장애인 고용컨설팅 실시 및 이행조치 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 장애인 고용컨설팅 관련 타 기관 연계･협력 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 명단공표 관련 고용의무이행지도 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4.. 명단공표 관리대장 입력 등 각종 보고 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>5. 기타 고용컨설팅 및 이행지도 운영 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td><정 보 지 원></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 정보시스템의 기술적 관리 및 개발 지원</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 정보시스템, 공단 통신망, 전산장비 운영 관리 부적정</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 정보시스템 개발 지원 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 정보화사업 계획 수립 및 사전협의 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>3. 장애인고용업무시스템 및 경영지원시스템의 기술적 관리 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>4. 정보화사업 심의 업무 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 정보보안 및 개인정보 보호 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>6. 기타 시스템 개발 및 운영 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><홍 보 협 력></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 작품현상 공모전 관련 업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>2. 언론기관 협력, 대국민 장애인 인식개선 홍보 관련 업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>3. 홍보물 개발·제작·배포 및 사내외보 발간 관련 업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>4. 국제기구 협력사업 및 국외 자매결연기관 교류 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>5. 국내･외 장애인 관련 단체 및 기관과의 협력 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>6. 국제회의 및 국외 홍보 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>7. 고용촉진대회 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>8. 고용촉진캠페인 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>9. 사회공헌활동 관련 업무 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>10. 기타 홍보협력 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td><연구개발․교육연수></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>1. 연구개발</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 조사연구업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 연구 소홀 및 연구내용 미흡</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 조사 소홀 및 조사내용 미흡</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 연구개발과제 선정･평가 관련 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>나. 알기 쉬운 자료 개발업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 연구 소홀 및 연구내용 미흡</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 조사 소홀 및 조사내용 미흡</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 알기 쉬운 자료 개발과제 선정･평가 관련 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>다. 연구개발 지원업무 부적정</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>- 세미나 및 발표회 미개최 및 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 연구보고서 발간 관련 소홀</td><td>-</td><td>-</td><td>-</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 국내･외 장애인고용 학술세미나 개최 관련 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>징계</td><td>경고</td><td>주의</td></tr>\n<tr><td>- 국내･외 장애인고용 관련 정보 수집 및 보급 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고<br>(징계)</td><td>주의<br>(경고)</td><td>주의</td></tr>\n<tr><td>- 정보자료실 운영 및 관리 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>2. 교육연수</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>가. 교육연수 업무처리 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>나. 교육교재 개발업무 부적정</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>다. 연수실 운영 및 관리 소홀</td><td>징계</td><td>경고</td><td>주의</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>라. 영상매체실 등 운영 소홀</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>마. 교육시스템 개발 등 기타</td><td>-</td><td>-</td><td>-</td><td>경고</td><td>주의</td><td>주의</td></tr>\n<tr><td>3. 기타 연구개발 및 교육연수 관련 업무 소홀</td><td>징계<br>(경고)</td><td>징계<br>(경고)</td><td>경고<br>(주의)</td><td>경고</td><td>주의</td><td>주의</td></tr>\n</table>\n(별지 제1호 서식) <개정 2025. 1. 22.>\n**확   인   서**\n￭ 적극행정 면책제도 안내문\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n1. 제 목 :\n2. 관 련 :\n3. 내 용 :\n상기 사실을 확인함.\n20 . . .\n(관련자)\n담당자 직렬 직급 성명\n책임자 직렬 직급 성명\n(확인자)\n직위 성명 (인)\n(별지 제2호 서식) <개정 2025. 1. 22.>\n**경   위   서**\n￭ 적극행정 면책제도 안내문\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n소 속(주소)\n직 책\n성 명 생년월일\n제 목\n(경위내용)\n본인은 위와 같이 그 경위를 기록하고 서명날인 함.\n20 . . .\n위 (인)\n(별지 제3호 서식) <개정 2025. 1. 22.>\n**문   답   서**\n￭ 적극행정 면책제도 안내문\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n<table>\n<tr><th colspan=\"2\"></th></tr>\n<tr><td colspan=\"4\">소 속 직 급(직 위)</td></tr>\n<tr><td colspan=\"4\">성 명 생년월일</td></tr>\n<tr><td colspan=\"4\">위 자는 에 관하여 20 년 월 일</td></tr>\n<tr><td colspan=\"4\">에서 과(와) 별지와 같이 임의로 문답한다.</td></tr>\n<tr><td colspan=\"2\"></td></tr>\n<tr><td></td></tr>\n<tr><td></td></tr>\n<tr><td></td></tr>\n<tr><td colspan=\"4\">위의 문답서를 답변자에게 열람하게 하였던 바,</td></tr>\n<tr><td colspan=\"4\">답변한 대로 오기나 증감 변경할 것이 없다고 말하므로 간인한 후</td></tr>\n<tr><td colspan=\"4\">서명 날인케 하다.</td></tr>\n<tr><td colspan=\"4\">서기 20 년 월 일</td></tr>\n<tr><td colspan=\"4\">답변자 (인)</td></tr>\n<tr><td colspan=\"4\">조사자 (인)</td></tr>\n<tr><td colspan=\"4\">입회자 (인)</td></tr>\n<tr><td colspan=\"4\"></td></tr>\n</table>\n한국장애인고용공단\n(별지 제4호 서식) <개정 2025. 1. 22.>\n**질   문   서**\n￭ 적극행정 면책제도 안내문\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n제목 :\n수신 감사업무수행을 위하여 다음사항을 질문하오니 성실히 답변하여 주시기 바랍니다. - 답변 기한 : 20 년 월 일 20 년 월 일 한국장애인고용공단 감사\n(질문사항)\n(별지 제5호 서식)\n**답   변   서**\n제목 :\n수신 감사 상기 건명과 관련한 질문사항에 대하여 다음과 같이 답변합니다. 20 년 월 일 발신자명\n(답변사항)\n(별지 제6호 서식)\n**봉   인   조   서**\n한국장애인고용공단 감사규정 제8조 제1항 제4호에 따라 봉인함.\n봉인내용:\n20 . . .\n봉인실시자: 직 성 명 (인)\n봉인관리자: 직 성 명 (인)\n(경 고)\n이 봉인표시를 손상 또는 은닉하거나 기타의 방법으로 봉인표시의 효율을 해함을 엄금함.\n(별지 제7호 서식)\n**【 1 】**제 목\n<table>\n<tr><th>- 요 지 -</th></tr>\n<tr><td colspan=\"2\"></td></tr>\n</table>\n1. 처분대상자 [**처분종류]**\n2. 관 련\n3. 내 용\n4. 조치할 사항\n(별지 제8호 서식)\n**징 계 (문 책) 처 분 요 구 서**\n일련번호 :\n소 속 :\n직 급(위) :\n성 명 : (한문) (만 세)\n제 목 :\n(전 소속 및 직위․급)\n위의 사람은 그 직무를 수행할 때 다음과 같이 위법 부당한 일이 있었으므로 감사규정 제21조 제3항의 규정에 따라 징계(문책)처분을 요구한다.\n다 음\n위의 사람은 . . .부터 . . .까지 사이에 위의\n기관, 위의 직위에서 직제규정 제14조에 따라 업무를 담당하고 있는(던) 사람으로서 그 직무를 수행함에 있어, 하여야 함(할 수 없음)에도,\n하지 아니한(한) 사실이 있는 바, 이에 대하여 위의 사람은 라고 변명을 하나, 이므로 그 변명은 이유가 되지 아니한다.\n따라서 위 사람의 행위는 규정에 위배된 것으로서 에 해당한다.\n20 . . .\n한국장애인고용공단 감사\n(2인 이상이 해당되는 경우에도 사용가능)\n(별지 제9호 서식) 삭제[2011.02.24.]\n(별지 제10호 서식)\n**감사결과 처분요구사항 조치결과 통보서**\n<table>\n<tr><th rowspan=\"2\">처분요구<br>일 자<br>(문서번호)</th><th rowspan=\"2\">제 목</th><th rowspan=\"2\">처분종류</th><th rowspan=\"2\">관련자</th><th rowspan=\"2\">조치사항</th><th rowspan=\"2\">조치일</th><th colspan=\"2\">미결인 경우</th></tr>\n<tr><td>미결사유</td><td>완 료<br>예정일</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n(별지 제11호 서식) 삭제[2011.02.24.]\n(별지 제12호 서식) 삭제[2011.02.24.]\n(별지 제13호 서식) 삭제[2011.02.24.]\n(별지 제14호서식)\n**조 치 연 기 내 역 서**\n감 사 종 류 : 처 분 제 목 : 처분조치기한 : 처 분 종 류 :\n처분내용 연기사유 추진계획\n완료예정일 :\n조치 책임자(팀장) 직위 성명\n첨부서류\n(별지 제15호서식)\n**집  행  독  촉  장**\n<table>\n<tr><th colspan=\"5\">집행독촉</th><th colspan=\"4\">회 답</th></tr>\n<tr><td colspan=\"5\">감사 20 . . .<br>수신:<br>발신: 한국장애인고용공단 감사<br>다음 사항에 대한 처리를 독촉하니 20 . . .까지 그 집행전말을 회보하여 주기 바람.</td><td colspan=\"4\">20 . . .<br>수신: 한국장애인고용공단 감사<br>발신:<br>다음과 같이 회보합니다.<br>첨부: 집행한 것에 대한 증빙서류</td></tr>\n<tr><td rowspan=\"2\">부서명</td><td colspan=\"3\">요구사항</td><td colspan=\"3\">집행전말(20 . . 현재)</td><td rowspan=\"2\">미집행사유<br>(책임자)</td><td rowspan=\"2\">집행방안<br>(완료예정일)</td></tr>\n<tr><td>지적구분</td><td>지적건명</td><td>사건요지</td><td>집행기일</td><td>집행</td><td>미집행</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n(별지 제16호서식)\n**감사결과처분 요구사항에 대한 이의신청서**\n<table>\n<tr><th>처분요구일자</th><th></th><th>처분요구종류</th></tr>\n<tr><td colspan=\"4\">제 목 :</td></tr>\n<tr><td colspan=\"4\">처분요구요지</td></tr>\n<tr><td colspan=\"4\">이의신청사유<br>첨부: 관계증빙서류 사본 매. 끝.</td></tr>\n</table>\n20 . . .\n이의신청자 (인)\n한국장애인고용공단 감사 귀하\n(별지 제17호서식)\n**재 심 사  요 구 서**\n<table>\n<tr><th colspan=\"2\">원처분요구</th><th colspan=\"2\">이의신청</th></tr>\n<tr><td>일자</td><td>종류</td><td>일자</td><td>내용</td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n</table>\n제 목 :\n첨부: 관계증빙서류 사본 매. 끝.\n\\* 작성요령 : 1. 원처분요지 2. 이의신청사유 요지\n3. 이의신청에 대한 조치 요지 4. 재심사 요구사유\n20 . . .\n재심사 요구자 (인)\n한국장애인고용공단 감사 귀하\n(별지 제18호 서식)\n**감 사 결 과 처 리 부**\n부서명\n<table>\n<tr><th rowspan=\"2\">일련 번호</th><th rowspan=\"2\">구분</th><th rowspan=\"2\">발생<br>년도</th><th rowspan=\"2\">월일</th><th colspan=\"2\">처분요구</th><th rowspan=\"2\">제 목</th><th rowspan=\"2\">지적사항</th><th rowspan=\"2\">조치사항</th><th colspan=\"2\">관련자</th><th colspan=\"2\">완 결</th><th rowspan=\"2\">비고</th></tr>\n<tr><td>종류</td><td>일자</td><td>직․성명</td><td>신분상조치지시구분</td><td>일자및근거</td><td>확인</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n(별지 제19호 서식)\n**연 간 감 사 보 고 서**\n**1. 감사계획 대 실시에 대한 자체평가**\n**2. 주요 사고 사례별 원인분석**\n| 사례명 | 사고원인분석 | 개선방안 |\n| --- | --- | --- |\n|  |  |  |\n**3. 감사실시에 따른 운영 개선실적**\n| 업무명 | 개선요구내용 | 조치결과 |\n| --- | --- | --- |\n|  |  |  |\n**4. 감사결과 보고서(Ⅰ, Ⅱ, Ⅲ)**\n(별지 제20호 서식)\n**감 사 결 과 보 고 서 (Ⅰ)**\n<table>\n<tr><th rowspan=\"2\">구분</th><th rowspan=\"2\">감사종별 또는 감사기관</th><th colspan=\"2\">계획</th><th colspan=\"2\">실 적</th><th colspan=\"5\">행정상 조치</th></tr>\n<tr><td>대상 부서</td><td>실시 연인원</td><td>대상 부서</td><td>실시 연인원</td><td>계</td><td>시정</td><td>개선</td><td>주의</td><td>기타</td></tr>\n<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"7\">자체<br>감사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>종합감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>특정감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>복무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>일상감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"5\">외부<br>감사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>주무감독<br>부 처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>정부합동<br>감 사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>기 타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n**감사결과 보고서(Ⅱ)**\n<table>\n<tr><th colspan=\"2\" rowspan=\"3\">구 분</th><th colspan=\"12\">재정상조치(천원)</th><th colspan=\"14\">신분상조치(명)</th></tr>\n<tr><td colspan=\"2\">계</td><td colspan=\"2\">추 징</td><td colspan=\"2\">변상</td><td colspan=\"2\">회수</td><td colspan=\"2\">지급</td><td colspan=\"2\">기타</td><td colspan=\"2\">계</td><td colspan=\"2\">파 면</td><td colspan=\"2\">면 직</td><td colspan=\"2\">정 직</td><td colspan=\"2\">감 봉</td><td colspan=\"2\">견 책</td><td colspan=\"2\">경고</td></tr>\n<tr><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td></tr>\n<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"6\">자<br>체<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>종합<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>특정<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>복무<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"5\">외<br>부<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>주무<br>감독<br>부처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>정부<br>합동<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>기타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n**감사결과 보고서(Ⅲ)**\n<table>\n<tr><th colspan=\"2\" rowspan=\"3\">구 분</th><th colspan=\"18\">비위유형별지적사항</th><th colspan=\"6\">조치결과</th></tr>\n<tr><td colspan=\"2\">계</td><td colspan=\"6\">복무기강</td><td colspan=\"3\">행정관리</td><td colspan=\"3\">재산관리</td><td colspan=\"3\">독 직</td><td rowspan=\"2\">기타</td><td colspan=\"3\">완 결</td><td colspan=\"3\">미 결</td></tr>\n<tr><td>건수</td><td>금액</td><td>직장이탈</td><td>품위손상</td><td>보안 및 비 밀<br>누 설</td><td>직무유기및태만</td><td>감독소홀</td><td>직권남용</td><td>업무처리</td><td>공문서<br>위조</td><td>문서관리소홀</td><td>현금관리소홀</td><td>물자관리소홀</td><td>재산관리소홀</td><td>공금유용</td><td>공금횡령</td><td>증수뢰</td><td>건수</td><td>금액</td><td>인원</td><td>건수</td><td>금액</td><td>인원</td></tr>\n<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"6\">자<br>체<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>종합<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>특정<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>복무<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"5\">외<br>부<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>주무<br>감독<br>부처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>정부<br>합동<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>기타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n(별지 제21호 서식)\n<table>\n<tr><th colspan=\"6\">제호<br>감사의견서</th></tr>\n<tr><td>수 신</td><td></td><td>참 조</td><td></td><td>등록번호<br>및 일자</td></tr>\n<tr><td>제 목</td><td colspan=\"3\"></td><td>회신요구일<br>및 회신일</td></tr>\n<tr><td colspan=\"6\">감 사 의 견<br>1. 내 용<br>2. 조치방향<br>20 . . .<br>한국장애인고용공단 감사 (인)</td></tr>\n<tr><td colspan=\"6\">3. 조치결과(주관부서 기재란)<br>20 . . .<br>장 (인)</td></tr>\n</table>\n\\* 조치결과 기재요령\n1. 시정방향대로 조치하였을 경우 : 그 조치내용의 요지를 기재하여 즉시\n감사실에 회송할 것.\n2. 시정방향대로 조치할 수 없는 경우: 그 사유를 기재하여 결재문건\n상단에 첨부 결재후 결재(결정) 내용을 첨가하여 감사실에 회송할 것.\n(별지 제22호 서식)\n**감  사  일  지**\n<table>\n<tr><th rowspan=\"2\">일렬번호</th><th rowspan=\"2\">접수일자</th><th rowspan=\"2\">등록번호</th><th rowspan=\"2\">건명(내용요약)</th><th rowspan=\"2\">소관부서<br>(담당자)</th><th rowspan=\"2\">합의일시</th><th rowspan=\"2\">감사의견</th><th colspan=\"3\">결재</th></tr>\n<tr><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>",
+      "needsOriginal": true
     }
   ]
 }

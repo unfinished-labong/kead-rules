@@ -11,111 +11,1381 @@
   "fileKey": "CF4A3EFAD8CFB81C8D2C",
   "fileUrl": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=CF4A3EFAD8CFB81C8D2C",
   "sha256": "124835eb8ea41ef85b35c7f5197765437b50d688626da2fb5b2ebec10e0d1134",
-  "articleCount": 84,
-  "needsOriginalCount": 8,
+  "articleCount": 16,
+  "supplementCount": 0,
+  "needsOriginalCount": 6,
   "articles": [
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": null,
+      "articleId": null,
       "title": "머리말",
       "breadcrumb": [],
-      "text": "정보화 업무처리규칙\n\n제정 : 2019.12.24. 규칙 제634호\n\n전부개정 : 2024. 8.19. 규칙 제793호",
+      "text": "정보화 업무처리규칙",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": null,
+      "articleId": null,
       "title": "머리말",
       "breadcrumb": [],
-      "text": "| 제1장 | 총칙 | 종전규칙조항 |\n| --- | --- | --- |\n| 제1조 | 목적 |  |\n| 제2조 | 적용 범위 |  |\n| 제3조 | 용어의 정의 |  |\n| 제2장 | 정보화사업 추진 |  |\n| 제1절 | 정보화사업의 계획수립 및 조정 |  |\n| 제4조 | 지능정보사회 실행계획 수립 |  |\n| 제5조 | 정보화사업의 발굴 |  |\n| 제6조 | 정보화사업의 사전협의·조정 |  |\n| 제2절 | 위원회의 구성 및 운영 |  |\n| 제7조 | 정보화추진위원회 설치 |  |\n| 제8조 | 위원회 구성 |  |\n| 제9조 | 위원회 심의·의결사항 |  |\n| 제10조 | 위원회 소집 |  |\n| 제11조 | 위원회 운영 |  |\n| 제12조 | 소관부서의 장 임무 |  |\n| 제13조 | 기술평가위원회 구성·운영 |  |\n| 제13조의2 | 기피 및 제척확인 |  |\n| 제14조 | 평가위원회 수당 |  |\n| 제3절 | 정보화사업 성과관리 및 평가 |  |\n| 제15조 | 정보화사업 성과계획 수립 |  |\n| 제16조 | 정보화사업 관리 |  |\n| 제17조 | 정보화사업 성과측정 |  |\n| 제18조 | 정보화사업 운영성과측정 |  |\n| 제19조 | 정보화사업 평가 |  |\n| 제3장 | 정보시스템 구축 및 관리 |  |\n| 제1절 | 정보시스템의 구축계획 수립 |  |\n| 제20조 | 정보시스템 구축 기본원칙 |  |\n| 제21조 | 하드웨어 및 상용소프트웨어 도입기준 |  |\n| 제22조 | 기술용역계약 수립 및 상호운용성 등 기술평가 |  |\n| 제23조 | 소프트웨어 설치없는 웹사이트 |  |\n| 제24조 | 보안성 검토 및 보안관리 |  |\n| 제25조 | 예산 및 사업대가 산정 |  |\n| 제26조 | 대기업인 소프트웨어사업자가 참여할 수 있는 사업금액의 하한 |  |\n| 제27조 | 상용소프트웨어 구매 |  |\n| 제28조 | 감리 |  |\n| 제2절 | 정보시스템의 발주 |  |\n| 제29조 | 웹사이트의 관리 |  |\n| 제29조의2 | 사용자 확인 |  |\n| 제29조의3 | 분할발주 |  |\n| 제29조의4 | 민간서비스 활용 |  |\n| 제30조 | 요구사항의 명확화 |  |\n| 제31조 | 소프트웨어사업 영향평가 |  |\n| 제32조 | 제안요청서 작성 |  |\n| 제33조 | 제안요청서 보안사항 등 |  |\n| 제34조 | 평가배점 |  |\n| 제35조 | 하도급 대금지급 등 |  |\n| 제36조 | 제안서 발표 |  |\n| 제37조 | 제안서 기술평가 기준 |  |\n| 제38조 | 제안요청서 사전공개 |  |\n| 제39조 | 사전공개 의견검토 등 |  |\n| 제40조 | 입찰공고 기간 |  |\n| 제3절 | 사업자 선정 및 가격협상 |  |\n| 제41조 | 평가위원회 구성 및 운영 |  |\n| 제42조 | 제안서 사전배포 |  |\n| 제43조 | 제안서 평가 |  |\n| 제44조 | 제안서 검토시간 |  |\n| 제45조 | 제안서 평가결과 공개 등 |  |\n| 제46조 | 기술 및 가격협상 절차 등 |  |\n| 제47조 | 장기계속계약 |  |\n| 제48조 | 계약정보 공개 |  |\n| 제4절 | 사업수행 |  |\n| 제49조 | 하도급 승인 신청 |  |\n| 제50조 | 하도급 승인 |  |\n| 제51조 | 착수 및 보고 |  |\n| 제52조 | 하도급 관리 |  |\n| 제53조 | 작업장소 등 |  |\n| 제54조 | 인력관리 |  |\n| 제55조 | 기술적용 계획 준수 |  |\n| 제56조 | 표준산출물 |  |\n| 제57조 | 과업내용의 변경 |  |\n| 제58조 | 과업내용의 변경절차 |  |\n| 제59조 | 과업변경 대가지급 |  |\n| 제60조 | 정보자원 통합관리 |  |\n| 제61조 | 정보시스템 등급제 |  |\n| 제62조 | 감리시행 |  |\n| 제5절 | 소프트웨어 개발보안 |  |\n| 제63조 | 소프트웨어 개발보안 원칙 |  |\n| 제64조 | 소프트웨어 개발보안 활동 |  |\n| 제65조 | 보안약점 진단기준 |  |\n| 제66조 | 보안약점 진단절차 |  |\n| 제6절 | 검사 및 운영 |  |\n| 제67조 | 지체상금 |  |\n| 제68조 | 검사 |  |\n| 제69조 | 운영 및 유지관리 |  |\n| 제70조 | 계약목적물 지식재산권 귀속 및 기술자료 임치 |  |\n| 제7절 | 정보시스템 운영 및 관리 |  |\n| 제71조 | 전산장비 등의 관리 |  |\n| 제72조 | 정보시스템 운영 |  |\n| 제73조 | 정보시스템 사용권한 신청 등 |  |\n| 제74조 | 외부기관시스템 연계 |  |\n| 제75조 | 정보시스템 운영관리 |  |\n| 제76조 | 전산장비 활용실태 조사 |  |\n| 제77조 | 전산장애처리 |  |\n| 제78조 | 정기점검 및 유지관리 |  |\n| 제79조 | 소모품 관리 |  |\n| 제4장 | 데이터 품질관리 |  |\n| 제1절 | 데이터 품질관리 추진 체계 |  |\n| 제80조 | 데이터 품질관리 목적 및 적용범위 |  |\n| 제81조 | 데이터 품질관리 기본 원칙 |  |\n| 제82조 | 데이터 품질 총괄 책임자 |  |\n| 제83조 | 데이터 품질 책임자 |  |\n| 제2절 | 데이터 품질관리 활동 |  |\n| 제84조 | 데이터 품질관리계획의 수립 |  |\n| 제85조 | 데이터 품질관리 가이드라인 수립 |  |\n| 제86조 | 데이터 품질진단 및 개선 |  |\n| 제87조 | 데이터 품질오류 관리 |  |\n| 제88조 | 데이터베이스 표준화 |  |\n| 제89조 | 연계데이터 품질관리 |  |\n| 제90조 | 데이터 품질관리 산출물 관리 |  |\n| 제91조 | 데이터 품질관리 교육 |  |\n| 제3절 | 공공데이터 관리 |  |\n| 제92조 | 공공데이터 제공 및 관리 |  |\n| 제5장 | 소프트웨어 관리 등 |  |\n| 제1절 | 소프트웨어 관리 |  |\n| 제93조 | 정품 소프트웨어의 사용 |  |\n| 제94조 | 불법복제의 금지 |  |\n| 제2절 | 전산교육 |  |\n| 제95조 | 주관부서 직원교육 |  |\n| 제96조 | 사용자 교육 |  |\n| 제6장 | 보칙 |  |\n| 제97조 | 해석 |  |\n| 부칙 |  |  |",
+      "text": "제정 : 2019.12.24. 규칙 제634호",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "전부개정 : 2024. 8.19. 규칙 제793호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제1장 | 총칙 | 종전규칙조항 |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| --- | --- | --- |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제1조 | 목적 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제2조 | 적용 범위 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제3조 | 용어의 정의 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제2장 | 정보화사업 추진 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제1절 | 정보화사업의 계획수립 및 조정 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제4조 | 지능정보사회 실행계획 수립 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제5조 | 정보화사업의 발굴 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제6조 | 정보화사업의 사전협의·조정 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제2절 | 위원회의 구성 및 운영 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제7조 | 정보화추진위원회 설치 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제8조 | 위원회 구성 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제9조 | 위원회 심의·의결사항 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제10조 | 위원회 소집 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제11조 | 위원회 운영 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제12조 | 소관부서의 장 임무 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제13조 | 기술평가위원회 구성·운영 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제13조의2 | 기피 및 제척확인 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제14조 | 평가위원회 수당 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제3절 | 정보화사업 성과관리 및 평가 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제15조 | 정보화사업 성과계획 수립 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제16조 | 정보화사업 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제17조 | 정보화사업 성과측정 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제18조 | 정보화사업 운영성과측정 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제19조 | 정보화사업 평가 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제3장 | 정보시스템 구축 및 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제1절 | 정보시스템의 구축계획 수립 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제20조 | 정보시스템 구축 기본원칙 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제21조 | 하드웨어 및 상용소프트웨어 도입기준 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제22조 | 기술용역계약 수립 및 상호운용성 등 기술평가 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제23조 | 소프트웨어 설치없는 웹사이트 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제24조 | 보안성 검토 및 보안관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제25조 | 예산 및 사업대가 산정 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제26조 | 대기업인 소프트웨어사업자가 참여할 수 있는 사업금액의 하한 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제27조 | 상용소프트웨어 구매 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제28조 | 감리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제2절 | 정보시스템의 발주 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제29조 | 웹사이트의 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제29조의2 | 사용자 확인 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제29조의3 | 분할발주 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제29조의4 | 민간서비스 활용 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제30조 | 요구사항의 명확화 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제31조 | 소프트웨어사업 영향평가 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제32조 | 제안요청서 작성 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제33조 | 제안요청서 보안사항 등 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제34조 | 평가배점 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제35조 | 하도급 대금지급 등 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제36조 | 제안서 발표 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제37조 | 제안서 기술평가 기준 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제38조 | 제안요청서 사전공개 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제39조 | 사전공개 의견검토 등 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제40조 | 입찰공고 기간 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제3절 | 사업자 선정 및 가격협상 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제41조 | 평가위원회 구성 및 운영 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제42조 | 제안서 사전배포 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제43조 | 제안서 평가 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제44조 | 제안서 검토시간 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제45조 | 제안서 평가결과 공개 등 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제46조 | 기술 및 가격협상 절차 등 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제47조 | 장기계속계약 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제48조 | 계약정보 공개 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제4절 | 사업수행 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제49조 | 하도급 승인 신청 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제50조 | 하도급 승인 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제51조 | 착수 및 보고 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제52조 | 하도급 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제53조 | 작업장소 등 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제54조 | 인력관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제55조 | 기술적용 계획 준수 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제56조 | 표준산출물 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제57조 | 과업내용의 변경 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제58조 | 과업내용의 변경절차 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제59조 | 과업변경 대가지급 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제60조 | 정보자원 통합관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제61조 | 정보시스템 등급제 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제62조 | 감리시행 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제5절 | 소프트웨어 개발보안 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제63조 | 소프트웨어 개발보안 원칙 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제64조 | 소프트웨어 개발보안 활동 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제65조 | 보안약점 진단기준 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제66조 | 보안약점 진단절차 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제6절 | 검사 및 운영 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제67조 | 지체상금 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제68조 | 검사 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제69조 | 운영 및 유지관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제70조 | 계약목적물 지식재산권 귀속 및 기술자료 임치 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제7절 | 정보시스템 운영 및 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제71조 | 전산장비 등의 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제72조 | 정보시스템 운영 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제73조 | 정보시스템 사용권한 신청 등 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제74조 | 외부기관시스템 연계 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제75조 | 정보시스템 운영관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제76조 | 전산장비 활용실태 조사 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제77조 | 전산장애처리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제78조 | 정기점검 및 유지관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제79조 | 소모품 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제4장 | 데이터 품질관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제1절 | 데이터 품질관리 추진 체계 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제80조 | 데이터 품질관리 목적 및 적용범위 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제81조 | 데이터 품질관리 기본 원칙 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제82조 | 데이터 품질 총괄 책임자 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제83조 | 데이터 품질 책임자 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제2절 | 데이터 품질관리 활동 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제84조 | 데이터 품질관리계획의 수립 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제85조 | 데이터 품질관리 가이드라인 수립 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제86조 | 데이터 품질진단 및 개선 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제87조 | 데이터 품질오류 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제88조 | 데이터베이스 표준화 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제89조 | 연계데이터 품질관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제90조 | 데이터 품질관리 산출물 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제91조 | 데이터 품질관리 교육 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제3절 | 공공데이터 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제92조 | 공공데이터 제공 및 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제5장 | 소프트웨어 관리 등 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제1절 | 소프트웨어 관리 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제93조 | 정품 소프트웨어의 사용 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제94조 | 불법복제의 금지 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제2절 | 전산교육 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제95조 | 주관부서 직원교육 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제96조 | 사용자 교육 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제6장 | 보칙 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 제97조 | 해석 |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "| 부칙 |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
       "title": "머리말",
       "breadcrumb": [],
       "text": "제1장 총칙",
       "needsOriginal": false
     },
     {
-      "articleNo": "1",
-      "title": "목적",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "**제1조(목적)** 이 규칙은 한국장애인고용공단(이하 “공단”이라 한다) 정보화 업무의 효율적 수행을 위하여 정보시스템의 개발·운영 등에 관한 사항을 규정함을 목적으로 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "2",
+      "articleId": "제2조",
+      "title": "적용 범위",
       "breadcrumb": [
         "제1장 총칙"
       ],
       "page": 1,
-      "text": "**제1조(목적)** 이 규칙은 한국장애인고용공단(이하 “공단”이라 한다) 정보화 업무의 효율적 수행을 위하여 정보시스템의 개발·운영 등에 관한 사항을 규정함을 목적으로 한다. \n\n제2조(적용 범위) 공단 정보화업무 운영 및 이용에 관련된 사항에 대해서는 관련법령 및 다른 규정에서 따로 정한 것을 제외하고는 이 규칙이 정하는 바에 따른다.",
+      "text": "제2조(적용 범위) 공단 정보화업무 운영 및 이용에 관련된 사항에 대해서는 관련법령 및 다른 규정에서 따로 정한 것을 제외하고는 이 규칙이 정하는 바에 따른다.",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "3",
+      "articleId": "제3조",
       "title": "용어의 정의",
       "breadcrumb": [],
       "page": 1,
-      "text": "제3조(용어의 정의) ① 이 규칙에서 사용하는 용어의 뜻은 다음과 같다.\n1. “정보”란 특정 목적을 위하여 광(光) 또는 전자적 방식으로 처리되어 부호, 문자, 음성, 음향 및 영상 등으로 표현된 모든 종류의 자료 또는 지식을 말한다.\n\n2. “정보화”란 정보를 수집·생산하고 체계적으로 가공·축적하여 유통·활용함으로써 장애인고용촉진 업무의 효율화를 도모하는 것을 말한다.\n\n3. “정보화사업”이란「전자정부법」제2조제13호의 규정에 따른 정보시스템을 기획·구축·운영·유지관리하거나 정보시스템감리, 전자정부사업관리의 위탁 등을 하기 위한 사업을 말한다.\n\n4. “사업계획서”란 정보화사업을 추진하기 위해 사업개요, 대상업무 현황, 사업추진계획, 사업내용, 소요예산 등을 구체화한 문서를 말한다.\n\n5. “기술참조모형”이란 정보시스템에서 업무를 지원하는 응용기능을 구현하기 위하여 필요한 정보기술 및 표준을 분류하고 정의한 체계를 말한다.\n\n6. “제안요청서”란 정보시스템을 구축하고자 하는 주관부서의 장 및 소관부서의 장이 입찰에 참가하고자 하는 자에게 제안서의 제출을 요청하기 위하여 교부하는 서류를 말한다.\n\n7. “제안서”란 입찰에 참가하고자 하는 자가 제안요청서 또는 입찰공고에 따라 작성하여 주관부서의 장 또는 소관부서의 장에게 제출하는 서류를 말한다.\n\n8. “하도급”이란 도급받은 소프트웨어사업의 전부 또는 일부를 도급하기 위하여 수급인이 제3자와 체결하는 계약을 말하며, 하도급 받은 사업을 재하도급하는 경우를 포함한다.\n\n9. “사전협의”란 주관부서의 장 및 소관부서의 장이 추진하고자 하는 정보화사업에 대해 중복성, 상호연계, 공동이용 등과 관련하여 사업발주 이전에 검토·협의하는 업무를 말한다.\n\n10. “유지관리”란 정보시스템 개발·구축 완료 후 기능변경, 추가, 보완, 폐기, 사용방법의 개선, 문서 보완 등의 정보시스템 개선에 필요한 제반활동을 의미한다. 단, 하자보수기간 경과 후에 발견된 정보시스템의 결함에 대한 보수도 포함한다.\n\n11. “감리”란 감리발주자 및 피감리인의 이해관계로부터 독립된 자가 정보시스템의 효율성을 향상시키고 안전성을 확보하기 위하여 제3자의 관점에서 정보시스템의 구축 및 운영 등에 관한 사항을 종합적으로 점검하고 문제점을 개선하도록 하는 것을 말한다.\n\n12. “정보기술아키텍처”란 일정한 기준과 절차에 따라 업무, 응용, 데이터, 기술, 보안 등 조직 전체의 구성요소들을 통합적으로 분석한 뒤 이들 간의 관계를 구조적으로 정리한 체제 및 이를 바탕으로 정보화 등을 통하여 구성요소들을 최적화하기 위한 방법을 말한다.\n\n13. “범정부 정보기술아키텍처 지원시스템”(이하 “범정부 EA포털”이라 한다)이란 행정안전부장관이 행정기관 등에서 정보기술아키텍처 관련 정보를 공동으로 활용할 수 있도록 구축‧운영하는 시스템을 말한다.\n\n14. “패키지 소프트웨어”란 문서작성용, 자료검색용, 그래픽용 등에 사용되는 사무자동화용 소프트웨어와 소프트웨어 개발업체에서 상업용으로 개발·판매하는 업무처리용 소프트웨어를 말한다.\n\n15. “소프트웨어 보안약점”이란 소프트웨어 결함, 오류 등으로 해킹 등 사이버공격을 유발할 가능성이 있는 잠재적인 보안취약점을 말한다.\n\n16. “소프트웨어 보안약점 진단도구(이하 \"진단도구\"라 한다)”란 개발과정에서 소스코드상의 소프트웨어 보안약점을 찾기 위하여 사용하는 도구를 말한다.\n\n17. “주관부서”란 공단 정보화사업을 총괄하는 본부 부서를 말한다.\n\n18. “소관부서”란 소관업무와 관련된 정보화사업 추진 및 전산장비를 설치 운영하고자 하는 본부 부서 및 각 소속기관 주무부서를 말한다.\n\n19. “직원등”이라 함은 본부 및 소속기관에 근무 중인 다음 각 목의 어느 하나에 해당하는 사람을 말한다.\n\n가. 공단 임직원(“인턴”을 포함한다)\n\n나. 대체근로자, 기간제 근로자 등 공단 업무 수행을 지원하는 자\n\n20. “사용자”란 본부 및 소속기관의 각 부서장으로부터 정보통신망 또는 정보시스템에 대한 접근 또는 사용 허가를 받은 자를 말한다.\n\n21. “정보통신망\"이란「전기통신기본법」제2조제2호에 따른 전기통신설비를 이용하거나 전기통신설비와 컴퓨터 및 컴퓨터의 이용기술을 활용하여 정보를 수집, 가공, 저장, 검색, 송수신하는 정보통신체제를 말한다.\n\n22. “정보시스템”이란 정보의 수집ㆍ가공ㆍ저장ㆍ검색ㆍ송신ㆍ수신 및 그 활용과 관련되는 기기와 소프트웨어의 조직화된 체계를 말한다.\n\n23. “휴대용 저장매체”라 함은 디스켓·CD·외장형 하드디스크·USB메모리 등 정보를 저장할 수 있는 것으로 PC·서버 등의 정보시스템과 분리할 수 있는 기억장치를 말한다.\n\n24. “정보보호” 또는 “정보보안”이란 정보시스템 및 정보통신망을 통해 수집, 가공, 저장, 검색, 송수신 되는 정보의 유출·위변조·훼손 등을 방지하기 위한 관리적·기술적 수단을 마련하는 일체의 행위로서 국가사이버안전관리규정 제2조제3호의 사이버안전을 포함한다.\n\n25. “전자문서”란 컴퓨터 등 정보처리 능력을 가진 장치에 의하여 전자적인 형태로 송·수신 또는 저장되는 정보를 말한다.\n\n26. “정보보호시스템”이란 정보의 수집·저장·검색·송·수신시 정보의 유출, 위·변조, 훼손 등을 방지하기 위한 하드웨어 및 소프트웨어를 말한다.\n\n27. “보안성 검토”란 중요자료를 안전하게 보호하기 위하여 보안취약요소 유무, 적절한 보안제품 도입여부 등을 종합적으로 검토하는 것을 말한다.\n\n28. “개인정보”란 살아 있는 개인에 관한 정보로서 성명, 주민등록번호 및 영상 등을 통하여 개인을 알아볼 수 있는 정보(해당 정보만으로는 특정 개인을 알아볼 수 없더라도 다른 정보와 쉽게 결합하여 알아볼 수 있는 것을 포함한다)를 말한다.\n\n29. “장애인고용업무시스템”(이하 “업무시스템”라 한다)이란 장애인 취업지원, 장애인 직업능력개발훈련, 장애인고용계획 및 실시상황보고·장애인고용부담금·장려금 업무, 그 밖에 장애인고용관련 업무처리 등을 위해 구축 운영하는 정보시스템을 말한다.\n\n30. “정보자산관리시스템”이란 공단 업무 수행을 위해 도입한 데스크톱, 노트북, 프린터, 복합기, 스캐너 등 전산장비를 효율적으로 관리하기 위해 운영하는 정보시스템을 말한다.\n\n31. \"공단 데이터“(이하 “데이터“라 한다)란 데이터베이스, 전자화된 파일 등 공단이 법령 등에서 정하는 목적을 위하여 생성 또는 취득하여 관리하고 있는 광(光) 또는 전자적 방식으로 처리된 자료 또는 정보를 말한다.\n\n32. “데이터베이스”란「국가정보화 기본법」제3조제1항에 따른 정보가 체계적으로 구조화되어 저장된 전자적 집합물을 말한다.\n\n33. \"데이터 품질”이란 공공데이터의 최신성, 정확성, 상호연계성 등을 확보하여 사용자에게 유용한 가치를 줄 수 있는 수준을 말한다.\n\n34. \"데이터 품질관리”란 데이터의 정합성 및 연계성을 확보하기 위한 목표 설정, 진단·개선 등 정보의 가치 제고를 위한 일련의 활동을 말한다.\n\n35. \"데이터사전\"이란 데이터 생성, 활용 및 운영 등에 필요한 용어의 표준을 정의함으로써 데이터 사용자 간의 명확한 의사소통을 지원하기 위해 정해진 구조에 따라 의미를 정의한 것을 말한다.\n\n36. \"메타데이터\"란 데이터베이스내 데이터의 체계적인 관리와 편리한 검색 및 활용을 위하여 데이터의 구조, 속성, 특성, 이력 및 용어 등이 표현된 자료를 말한다.\n\n37. \"데이터도메인“이란 데이터 값이 공통으로 갖는 데이터 형식과 허용되는 값의 영역을 정의 한 것을 말한다.\n\n38. \"표준화”란 코드, 용어, 데이터도메인, 메타데이터 등의 표준을 수립하여 데이터베이스에 일관되게 적용하는 일련의 활동을 말한다.\n\n39. \"표준용어”란 데이터 사용자간의 명확한 의사소통을 지원하기 위해 업무적으로 사용하고 있는 단어 및 단어의 조합으로 구성되는 용어의 표준을 정의한 것을 말한다.\n\n40. \"공통표준용어\"란 행정안전부 장관이 정하여 공공기관들의 업무 및 데이터베이스에 공동 활용하는 표준용어를 말한다.\n\n41. \"표준용어사전\"이란 표준용어와 공통표준용어의 집합을 말한다.\n\n42. \"행정코드\"란 각 공공기관이 업무내용을 일정기준에 의하여 간소하게 처리할 수 있도록 단순화하고, 유일성을 보장하기 위해 코드값과 코드값 의미를 1:1로 정하여 정보시스템 등에서 활용하고 있는 코드를 말한다.\n\n43. \"행정표준코드\"란 「행정기관의 코드표준화 추진지침」에 따라 행정안전부 장관이 공공기관의 업무에 필요한 행정코드를 표준으로 정하여 제정 고시한 행정코드를 말한다.\n\n44. \"연계데이터”란 정보시스템의 데이터를 데이터베이스나 파일 형태로 유관기관 간 송․수신하는 데이터를 말한다.\n\n② 이 규칙에서 사용하는 용어의 뜻은 이 규정에 특별히 정한 사항을 제외하고는 ｢전자정부법｣, ｢국가정보화 기본법｣, ｢공공데이터의 제공 및 이용 활성화에 관한 법률｣과 하위 법령 및 행정규칙에서 정하는 바에 따른다.\n제2장 정보화사업 추진\n제1절 정보화사업의 계획수립 및 조정",
+      "text": "제3조(용어의 정의) ① 이 규칙에서 사용하는 용어의 뜻은 다음과 같다.\n1. “정보”란 특정 목적을 위하여 광(光) 또는 전자적 방식으로 처리되어 부호, 문자, 음성, 음향 및 영상 등으로 표현된 모든 종류의 자료 또는 지식을 말한다.\n2. “정보화”란 정보를 수집·생산하고 체계적으로 가공·축적하여 유통·활용함으로써 장애인고용촉진 업무의 효율화를 도모하는 것을 말한다.\n3. “정보화사업”이란「전자정부법」제2조제13호의 규정에 따른 정보시스템을 기획·구축·운영·유지관리하거나 정보시스템감리, 전자정부사업관리의 위탁 등을 하기 위한 사업을 말한다.\n4. “사업계획서”란 정보화사업을 추진하기 위해 사업개요, 대상업무 현황, 사업추진계획, 사업내용, 소요예산 등을 구체화한 문서를 말한다.\n5. “기술참조모형”이란 정보시스템에서 업무를 지원하는 응용기능을 구현하기 위하여 필요한 정보기술 및 표준을 분류하고 정의한 체계를 말한다.\n6. “제안요청서”란 정보시스템을 구축하고자 하는 주관부서의 장 및 소관부서의 장이 입찰에 참가하고자 하는 자에게 제안서의 제출을 요청하기 위하여 교부하는 서류를 말한다.\n7. “제안서”란 입찰에 참가하고자 하는 자가 제안요청서 또는 입찰공고에 따라 작성하여 주관부서의 장 또는 소관부서의 장에게 제출하는 서류를 말한다.\n8. “하도급”이란 도급받은 소프트웨어사업의 전부 또는 일부를 도급하기 위하여 수급인이 제3자와 체결하는 계약을 말하며, 하도급 받은 사업을 재하도급하는 경우를 포함한다.\n9. “사전협의”란 주관부서의 장 및 소관부서의 장이 추진하고자 하는 정보화사업에 대해 중복성, 상호연계, 공동이용 등과 관련하여 사업발주 이전에 검토·협의하는 업무를 말한다.\n10. “유지관리”란 정보시스템 개발·구축 완료 후 기능변경, 추가, 보완, 폐기, 사용방법의 개선, 문서 보완 등의 정보시스템 개선에 필요한 제반활동을 의미한다. 단, 하자보수기간 경과 후에 발견된 정보시스템의 결함에 대한 보수도 포함한다.\n11. “감리”란 감리발주자 및 피감리인의 이해관계로부터 독립된 자가 정보시스템의 효율성을 향상시키고 안전성을 확보하기 위하여 제3자의 관점에서 정보시스템의 구축 및 운영 등에 관한 사항을 종합적으로 점검하고 문제점을 개선하도록 하는 것을 말한다.\n12. “정보기술아키텍처”란 일정한 기준과 절차에 따라 업무, 응용, 데이터, 기술, 보안 등 조직 전체의 구성요소들을 통합적으로 분석한 뒤 이들 간의 관계를 구조적으로 정리한 체제 및 이를 바탕으로 정보화 등을 통하여 구성요소들을 최적화하기 위한 방법을 말한다.\n13. “범정부 정보기술아키텍처 지원시스템”(이하 “범정부 EA포털”이라 한다)이란 행정안전부장관이 행정기관 등에서 정보기술아키텍처 관련 정보를 공동으로 활용할 수 있도록 구축‧운영하는 시스템을 말한다.\n14. “패키지 소프트웨어”란 문서작성용, 자료검색용, 그래픽용 등에 사용되는 사무자동화용 소프트웨어와 소프트웨어 개발업체에서 상업용으로 개발·판매하는 업무처리용 소프트웨어를 말한다.\n15. “소프트웨어 보안약점”이란 소프트웨어 결함, 오류 등으로 해킹 등 사이버공격을 유발할 가능성이 있는 잠재적인 보안취약점을 말한다.\n16. “소프트웨어 보안약점 진단도구(이하 \"진단도구\"라 한다)”란 개발과정에서 소스코드상의 소프트웨어 보안약점을 찾기 위하여 사용하는 도구를 말한다.\n17. “주관부서”란 공단 정보화사업을 총괄하는 본부 부서를 말한다.\n18. “소관부서”란 소관업무와 관련된 정보화사업 추진 및 전산장비를 설치 운영하고자 하는 본부 부서 및 각 소속기관 주무부서를 말한다.\n19. “직원등”이라 함은 본부 및 소속기관에 근무 중인 다음 각 목의 어느 하나에 해당하는 사람을 말한다.\n가. 공단 임직원(“인턴”을 포함한다)\n나. 대체근로자, 기간제 근로자 등 공단 업무 수행을 지원하는 자\n20. “사용자”란 본부 및 소속기관의 각 부서장으로부터 정보통신망 또는 정보시스템에 대한 접근 또는 사용 허가를 받은 자를 말한다.\n21. “정보통신망\"이란「전기통신기본법」제2조제2호에 따른 전기통신설비를 이용하거나 전기통신설비와 컴퓨터 및 컴퓨터의 이용기술을 활용하여 정보를 수집, 가공, 저장, 검색, 송수신하는 정보통신체제를 말한다.\n22. “정보시스템”이란 정보의 수집ㆍ가공ㆍ저장ㆍ검색ㆍ송신ㆍ수신 및 그 활용과 관련되는 기기와 소프트웨어의 조직화된 체계를 말한다.\n23. “휴대용 저장매체”라 함은 디스켓·CD·외장형 하드디스크·USB메모리 등 정보를 저장할 수 있는 것으로 PC·서버 등의 정보시스템과 분리할 수 있는 기억장치를 말한다.\n24. “정보보호” 또는 “정보보안”이란 정보시스템 및 정보통신망을 통해 수집, 가공, 저장, 검색, 송수신 되는 정보의 유출·위변조·훼손 등을 방지하기 위한 관리적·기술적 수단을 마련하는 일체의 행위로서 국가사이버안전관리규정 제2조제3호의 사이버안전을 포함한다.\n25. “전자문서”란 컴퓨터 등 정보처리 능력을 가진 장치에 의하여 전자적인 형태로 송·수신 또는 저장되는 정보를 말한다.\n26. “정보보호시스템”이란 정보의 수집·저장·검색·송·수신시 정보의 유출, 위·변조, 훼손 등을 방지하기 위한 하드웨어 및 소프트웨어를 말한다.\n27. “보안성 검토”란 중요자료를 안전하게 보호하기 위하여 보안취약요소 유무, 적절한 보안제품 도입여부 등을 종합적으로 검토하는 것을 말한다.\n28. “개인정보”란 살아 있는 개인에 관한 정보로서 성명, 주민등록번호 및 영상 등을 통하여 개인을 알아볼 수 있는 정보(해당 정보만으로는 특정 개인을 알아볼 수 없더라도 다른 정보와 쉽게 결합하여 알아볼 수 있는 것을 포함한다)를 말한다.\n29. “장애인고용업무시스템”(이하 “업무시스템”라 한다)이란 장애인 취업지원, 장애인 직업능력개발훈련, 장애인고용계획 및 실시상황보고·장애인고용부담금·장려금 업무, 그 밖에 장애인고용관련 업무처리 등을 위해 구축 운영하는 정보시스템을 말한다.\n30. “정보자산관리시스템”이란 공단 업무 수행을 위해 도입한 데스크톱, 노트북, 프린터, 복합기, 스캐너 등 전산장비를 효율적으로 관리하기 위해 운영하는 정보시스템을 말한다.\n31. \"공단 데이터“(이하 “데이터“라 한다)란 데이터베이스, 전자화된 파일 등 공단이 법령 등에서 정하는 목적을 위하여 생성 또는 취득하여 관리하고 있는 광(光) 또는 전자적 방식으로 처리된 자료 또는 정보를 말한다.\n32. “데이터베이스”란「국가정보화 기본법」제3조제1항에 따른 정보가 체계적으로 구조화되어 저장된 전자적 집합물을 말한다.\n33. \"데이터 품질”이란 공공데이터의 최신성, 정확성, 상호연계성 등을 확보하여 사용자에게 유용한 가치를 줄 수 있는 수준을 말한다.\n34. \"데이터 품질관리”란 데이터의 정합성 및 연계성을 확보하기 위한 목표 설정, 진단·개선 등 정보의 가치 제고를 위한 일련의 활동을 말한다.\n35. \"데이터사전\"이란 데이터 생성, 활용 및 운영 등에 필요한 용어의 표준을 정의함으로써 데이터 사용자 간의 명확한 의사소통을 지원하기 위해 정해진 구조에 따라 의미를 정의한 것을 말한다.\n36. \"메타데이터\"란 데이터베이스내 데이터의 체계적인 관리와 편리한 검색 및 활용을 위하여 데이터의 구조, 속성, 특성, 이력 및 용어 등이 표현된 자료를 말한다.\n37. \"데이터도메인“이란 데이터 값이 공통으로 갖는 데이터 형식과 허용되는 값의 영역을 정의 한 것을 말한다.\n38. \"표준화”란 코드, 용어, 데이터도메인, 메타데이터 등의 표준을 수립하여 데이터베이스에 일관되게 적용하는 일련의 활동을 말한다.\n39. \"표준용어”란 데이터 사용자간의 명확한 의사소통을 지원하기 위해 업무적으로 사용하고 있는 단어 및 단어의 조합으로 구성되는 용어의 표준을 정의한 것을 말한다.\n40. \"공통표준용어\"란 행정안전부 장관이 정하여 공공기관들의 업무 및 데이터베이스에 공동 활용하는 표준용어를 말한다.\n41. \"표준용어사전\"이란 표준용어와 공통표준용어의 집합을 말한다.\n42. \"행정코드\"란 각 공공기관이 업무내용을 일정기준에 의하여 간소하게 처리할 수 있도록 단순화하고, 유일성을 보장하기 위해 코드값과 코드값 의미를 1:1로 정하여 정보시스템 등에서 활용하고 있는 코드를 말한다.\n43. \"행정표준코드\"란 「행정기관의 코드표준화 추진지침」에 따라 행정안전부 장관이 공공기관의 업무에 필요한 행정코드를 표준으로 정하여 제정 고시한 행정코드를 말한다.\n44. \"연계데이터”란 정보시스템의 데이터를 데이터베이스나 파일 형태로 유관기관 간 송․수신하는 데이터를 말한다.\n② 이 규칙에서 사용하는 용어의 뜻은 이 규정에 특별히 정한 사항을 제외하고는 ｢전자정부법｣, ｢국가정보화 기본법｣, ｢공공데이터의 제공 및 이용 활성화에 관한 법률｣과 하위 법령 및 행정규칙에서 정하는 바에 따른다.\n제2장 정보화사업 추진\n제1절 정보화사업의 계획수립 및 조정\n**제4조(지능정보사회 실행계획 수립)** 주관부서의 장은 「지능정보화기본법」제7조에  따라 매년 지능정보사회 실행계획을 수립하여야 한다.\n**제5조(정보화사업의 발굴)** ① 소관부서의 장은 업무처리의 효율화를 위하여 소관업무에 대한 정보화 추진과제를 적극 발굴하여야 하며, 주관부서의 정보화 사업계획 등에 반영될 수 있도록 노력하여야 한다.\n② 주관부서의 장은 정보화 전략계획 및 정보화 시행계획에 포함되어 있는 정보화사업에 대하여 우선적으로 추진하여야 한다.\n③ 주관부서의 장은 이미 추진하였거나 현재 추진 중인 정보화 업무를 통합·연계하여 활용도를 제고하고, 소관부서에서 추진 중인 정보화사업을 적극 지원하여야 한다.\n**제6조(정보화사업의 사전협의·조정)** ① 소관부서의 장은 정보화사업의 체계적인 추진을 위하여 사업의 중복성, 상호연계, 공동이용, 타당성, 경제성, 기대효과 등을 주관부서의 장과 사전협의·조정하여야 한다.\n② 주관부서의 장은 정보화사업 추진 시 사업의 중복투자 방지, 정보의 공동이용 확산 등이 필요하다고 판단되는 경우에는 정보화추진위원회를 소집하여 협의하거나 조정할 수 있다.\n③ 주관부서 및 소관부서의 장은 정보화사업을 추진하려는 경우「전자정부법」 제67조 및「전자정부 성과관리 지침(행정안전부 고시)」에 따라 행정안전부장관과 사전협의를 하여야 하며, 사전협의 진행단계별 처리결과를 고용노동부장관에게 제출하여야 한다.\n④ 사전협의 대상사업은 예산과목 및 계약방식과 관계없이 공단이 추진하는 다음 각 호의 사업을 말한다.\n1. 정보시스템 구축을 목적으로 하는 ISP/BPR, ISP, ISMP 사업\n2. ISP 등의 결과에 따른 구축 사업\n3. 신규 홈페이지·모바일 앱 구축이 포함된 사업\n4. 사업유형과 상관없이 SW개발비가 2억원 이상인 사업\n5. 클라우드 전환사업\n⑤ 주관부서 및 소관부서의 장은「전자정부 성과관리 지침」제4조에 따라 사전협의 대상에서 제외되는 정보화사업을 추진하는 경우 고용노동부 장관과 사전에 협의하여야 한다. 다만, 다음 각 호에 해당하는 경우에는 사전협의 없이 추진할 수 있다.\n1. 사업금액이 10억원 미만인 계속사업\n2. 기능변경 요구사항이 유지관리 전체 규모의 7퍼센트 미만인 정보시스템 유지관리·운영 사업 및 노후장비 교체 사업\n3. 기능을 추가하지 않는 하드웨어, 상용 소프트웨어 구매·임대 설치 사업\n4. 기능을 추가하지 않는 회선 증설 추가 등의 통신 기반 구축 사업\n5. 기능을 추가하지 않는 콘텐츠 제작 사업\n6. 데이터베이스(DB)에 대한 품질검증 사업, 기능을 추가하지 않는 DB 구축 사업\n7. PMO 사업, 감리 사업\n6. 전자정부 서비스의 호환성 확보, 장애인·고령자 등의 접근성 향상 등 웹사이트 품질수준 제고를 위한 소프트웨어의 보완개발 사업\n7. 개인정보보호 및 정보시스템 보안 강화를 위한 사업\n8. 출연금, 보조금 등 고용노동부로부터 이전받은 수입액을 사용하지 않는 정보화사업\n9. 별도의 비용 없이 기관 자체 인력을 활용하여 소프트웨어를 직접 개발하는 사업 또는 외부 사업자의 서비스를 임대 활용하는 경우(이때, 업무처리용 소프트웨어레 대한 개발 또는 구매비용이 포함되지 않은 경우)\n10. 고용노동부 장관이 타 행정기관 등에 보급할 목적으로 개발한 표준행정정보시스템의 구매·설치 사업\n11. 외교·국방·통일·안보 등 국가사이버안전 관련 사업 등 국가안전보장에 관련된 사업\n12. 정보격차 해소, 국제협력 사업\n제2절 위원회의 구성 및 운영",
       "needsOriginal": false
     },
     {
-      "articleNo": "4",
-      "title": "지능정보사회 실행계획 수립",
-      "breadcrumb": [
-        "제1절 정보화사업의 계획수립 및 조정"
-      ],
-      "page": 1,
-      "text": "**제4조(지능정보사회 실행계획 수립)** 주관부서의 장은 「지능정보화기본법」제7조에  따라 매년 지능정보사회 실행계획을 수립하여야 한다.\n\n**제5조(정보화사업의 발굴)** ① 소관부서의 장은 업무처리의 효율화를 위하여 소관업무에 대한 정보화 추진과제를 적극 발굴하여야 하며, 주관부서의 정보화 사업계획 등에 반영될 수 있도록 노력하여야 한다.\n\n② 주관부서의 장은 정보화 전략계획 및 정보화 시행계획에 포함되어 있는 정보화사업에 대하여 우선적으로 추진하여야 한다.\n\n③ 주관부서의 장은 이미 추진하였거나 현재 추진 중인 정보화 업무를 통합·연계하여 활용도를 제고하고, 소관부서에서 추진 중인 정보화사업을 적극 지원하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "6",
-      "title": "정보화사업의 사전협의·조정",
-      "breadcrumb": [
-        "제1절 정보화사업의 계획수립 및 조정",
-        "③ 주관부서의 장은 이미 추진하였거나 현재 추진 중인 정보화 업무를 통합·연계하여 활용도를 제고하고, 소관부서에서 추진 중인 정보화사업을 적극 지원하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제6조(정보화사업의 사전협의·조정)** ① 소관부서의 장은 정보화사업의 체계적인 추진을 위하여 사업의 중복성, 상호연계, 공동이용, 타당성, 경제성, 기대효과 등을 주관부서의 장과 사전협의·조정하여야 한다.\n② 주관부서의 장은 정보화사업 추진 시 사업의 중복투자 방지, 정보의 공동이용 확산 등이 필요하다고 판단되는 경우에는 정보화추진위원회를 소집하여 협의하거나 조정할 수 있다.\n\n③ 주관부서 및 소관부서의 장은 정보화사업을 추진하려는 경우「전자정부법」 제67조 및「전자정부 성과관리 지침(행정안전부 고시)」에 따라 행정안전부장관과 사전협의를 하여야 하며, 사전협의 진행단계별 처리결과를 고용노동부장관에게 제출하여야 한다.\n\n④ 사전협의 대상사업은 예산과목 및 계약방식과 관계없이 공단이 추진하는 다음 각 호의 사업을 말한다.\n\n1. 정보시스템 구축을 목적으로 하는 ISP/BPR, ISP, ISMP 사업\n\n2. ISP 등의 결과에 따른 구축 사업\n\n3. 신규 홈페이지·모바일 앱 구축이 포함된 사업\n\n4. 사업유형과 상관없이 SW개발비가 2억원 이상인 사업\n\n5. 클라우드 전환사업\n\n⑤ 주관부서 및 소관부서의 장은「전자정부 성과관리 지침」제4조에 따라 사전협의 대상에서 제외되는 정보화사업을 추진하는 경우 고용노동부 장관과 사전에 협의하여야 한다. 다만, 다음 각 호에 해당하는 경우에는 사전협의 없이 추진할 수 있다.\n\n1. 사업금액이 10억원 미만인 계속사업\n\n2. 기능변경 요구사항이 유지관리 전체 규모의 7퍼센트 미만인 정보시스템 유지관리·운영 사업 및 노후장비 교체 사업\n\n3. 기능을 추가하지 않는 하드웨어, 상용 소프트웨어 구매·임대 설치 사업\n\n4. 기능을 추가하지 않는 회선 증설 추가 등의 통신 기반 구축 사업\n\n5. 기능을 추가하지 않는 콘텐츠 제작 사업\n\n6. 데이터베이스(DB)에 대한 품질검증 사업, 기능을 추가하지 않는 DB 구축 사업\n\n7. PMO 사업, 감리 사업\n\n6. 전자정부 서비스의 호환성 확보, 장애인·고령자 등의 접근성 향상 등 웹사이트 품질수준 제고를 위한 소프트웨어의 보완개발 사업\n\n7. 개인정보보호 및 정보시스템 보안 강화를 위한 사업\n\n8. 출연금, 보조금 등 고용노동부로부터 이전받은 수입액을 사용하지 않는 정보화사업\n\n9. 별도의 비용 없이 기관 자체 인력을 활용하여 소프트웨어를 직접 개발하는 사업 또는 외부 사업자의 서비스를 임대 활용하는 경우(이때, 업무처리용 소프트웨어레 대한 개발 또는 구매비용이 포함되지 않은 경우)\n\n10. 고용노동부 장관이 타 행정기관 등에 보급할 목적으로 개발한 표준행정정보시스템의 구매·설치 사업\n\n11. 외교·국방·통일·안보 등 국가사이버안전 관련 사업 등 국가안전보장에 관련된 사업\n\n12. 정보격차 해소, 국제협력 사업\n제2절 위원회의 구성 및 운영",
-      "needsOriginal": false
-    },
-    {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "7",
+      "articleId": "제7조",
       "title": "정보화추진위원회 설치",
       "breadcrumb": [
         "제2절 위원회의 구성 및 운영"
       ],
       "page": 1,
-      "text": "제7조(정보화추진위원회 설치) 공단 정보화사업 등 정보화촉진에 관한 사항을 심의하기 위하여 정보화추진위원회(이하 “위원회”라 한다)를 공단 본부에 둔다.\n\n**제8조(위원회 구성)** ① 위원회는 위원장 1명을 포함하여 5명이상 10명 이내의 위원으로 구성한다.\n\n② 위원장은 기획조정실장이 되며, 위원은 다음 각 호의 자로 한다. 다만, 위원장이 부득이한 사유로 그 직무를 수행할 수 없는 때에는 위원장이 지명하는 위원이 그 직무를 대행한다.\n\n1. 해당 정보화사업을 관장 또는 해당 사업과 관련 있는 본부 실(국)장\n\n2. 공단 정보화사업과 관련하여 위원장이 필요하다고 인정하는 내·외부 전문가\n\n③ 위원회의 사무를 처리하기 위하여 간사 1명을 둘 수 있으며, 간사는 주관부서의 장으로 한다.\n\n④ 위원회에 출석한 외부위원 및 전문가 등에게는 예산의 범위에서 제15조를 준용하여 수당을 지급할 수 있다.",
+      "text": "제7조(정보화추진위원회 설치) 공단 정보화사업 등 정보화촉진에 관한 사항을 심의하기 위하여 정보화추진위원회(이하 “위원회”라 한다)를 공단 본부에 둔다.\n**제8조(위원회 구성)** ① 위원회는 위원장 1명을 포함하여 5명이상 10명 이내의 위원으로 구성한다.\n② 위원장은 기획조정실장이 되며, 위원은 다음 각 호의 자로 한다. 다만, 위원장이 부득이한 사유로 그 직무를 수행할 수 없는 때에는 위원장이 지명하는 위원이 그 직무를 대행한다.\n1. 해당 정보화사업을 관장 또는 해당 사업과 관련 있는 본부 실(국)장\n2. 공단 정보화사업과 관련하여 위원장이 필요하다고 인정하는 내·외부 전문가\n③ 위원회의 사무를 처리하기 위하여 간사 1명을 둘 수 있으며, 간사는 주관부서의 장으로 한다.\n④ 위원회에 출석한 외부위원 및 전문가 등에게는 예산의 범위에서 제15조를 준용하여 수당을 지급할 수 있다.",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "9",
+      "articleId": "제9조",
       "title": "위원회 심의·의결사항",
       "breadcrumb": [],
       "page": 1,
-      "text": "제9조(위원회 심의·의결사항) ① 위원회는 다음 각 호의 사항을 심의·의결한다.\n1. 정보화 전략계획 및 시행계획의 수립·변경에 관한 사항\n\n2. 정보시스템 도입에 관한 사항\n\n3. 정보시스템의 외부 용역개발에 관한 사항\n\n4. 그 밖에 위원장이 필요하다고 인정하는 사항\n\n② 제1항의 규정에도 불구하고 다음 각 호에 해당하는 경우에는 위원회 심의·의결을 행하지 아니할 수 있다.\n\n1. 사업예산이 1억원 미만인 사업\n\n2. 개인용 컴퓨터, 프린터 등 행정사무정보처리용 장비 구입\n\n3. 소프트웨어, 하드웨어 등 정보시스템 유지관리 사업\n\n4. 서버, 네트워크, 스토리지 등 전산장비의 용량 증설\n\n5. 기존 운영 중인 정보시스템의 성능 및 기능 개선 사업\n\n③ 소관부서의 장은 제1항제2호 및 제3호에 따른 전산장비의 도입 또는 정보시스템의 외부 용역개발 추진 시 해당 비용의 합산금액이 1억원 이상인 경우에는 다음 각 호의 관련서류를 첨부하여 주관부서의 장에게 위원회 심의의뢰를 요청하여야 한다.\n\n1. 전산장비의 도입 또는 정보시스템 구축 기본 계획(요약본 포함)\n\n2. 산출내역서\n\n가. 전산장비 도입: 하드웨어 품목별 규격 및 사양 등 가격산출내역서\n\n나. 정보시스템 구축: 기능점수 방식에 따른 구축비용 산출내역서, 적정 사업기간 종합 산정서, 제20조에 따른 기술적용계획표",
+      "text": "제9조(위원회 심의·의결사항) ① 위원회는 다음 각 호의 사항을 심의·의결한다.\n1. 정보화 전략계획 및 시행계획의 수립·변경에 관한 사항\n2. 정보시스템 도입에 관한 사항\n3. 정보시스템의 외부 용역개발에 관한 사항\n4. 그 밖에 위원장이 필요하다고 인정하는 사항\n② 제1항의 규정에도 불구하고 다음 각 호에 해당하는 경우에는 위원회 심의·의결을 행하지 아니할 수 있다.\n1. 사업예산이 1억원 미만인 사업\n2. 개인용 컴퓨터, 프린터 등 행정사무정보처리용 장비 구입\n3. 소프트웨어, 하드웨어 등 정보시스템 유지관리 사업\n4. 서버, 네트워크, 스토리지 등 전산장비의 용량 증설\n5. 기존 운영 중인 정보시스템의 성능 및 기능 개선 사업\n③ 소관부서의 장은 제1항제2호 및 제3호에 따른 전산장비의 도입 또는 정보시스템의 외부 용역개발 추진 시 해당 비용의 합산금액이 1억원 이상인 경우에는 다음 각 호의 관련서류를 첨부하여 주관부서의 장에게 위원회 심의의뢰를 요청하여야 한다.\n1. 전산장비의 도입 또는 정보시스템 구축 기본 계획(요약본 포함)\n2. 산출내역서\n가. 전산장비 도입: 하드웨어 품목별 규격 및 사양 등 가격산출내역서\n나. 정보시스템 구축: 기능점수 방식에 따른 구축비용 산출내역서, 적정 사업기간 종합 산정서, 제20조에 따른 기술적용계획표",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "10",
+      "articleId": "제10조",
       "title": "위원회 소집",
       "breadcrumb": [
         "제9조(위원회 심의·의결사항) ① 위원회는 다음 각 호의 사항을 심의·의결한다.",
         "나. 정보시스템 구축: 기능점수 방식에 따른 구축비용 산출내역서, 적정 사업기간 종합 산정서, 제20조에 따른 기술적용계획표"
       ],
       "page": 1,
-      "text": "제10조(위원회 소집) ① 위원회의 회의는 위원장이나 재적위원 3분의 1 이상의 요구로 소집하고, 위원장은 그 회의의 의장이 되어 회의를 주관한다.\n② 위원장이 경미하거나 긴급하다고 인정하는 사항에 대해서는 서면으로 심의·의결할 수 있다.\n\n③ 위원장은 심의안건, 회의일시 및 장소를 회의개최 7일전까지 위원들에게 통보하여야 한다. 다만, 위원장이 긴급한 사항이라고 인정할 때에는 회의개최 전일까지 이 항에 규정한 내용을 통보하고 위원회를 소집할 수 있다.",
+      "text": "제10조(위원회 소집) ① 위원회의 회의는 위원장이나 재적위원 3분의 1 이상의 요구로 소집하고, 위원장은 그 회의의 의장이 되어 회의를 주관한다.\n② 위원장이 경미하거나 긴급하다고 인정하는 사항에 대해서는 서면으로 심의·의결할 수 있다.\n③ 위원장은 심의안건, 회의일시 및 장소를 회의개최 7일전까지 위원들에게 통보하여야 한다. 다만, 위원장이 긴급한 사항이라고 인정할 때에는 회의개최 전일까지 이 항에 규정한 내용을 통보하고 위원회를 소집할 수 있다.",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "11",
+      "articleId": "제11조",
       "title": "위원회 운영",
       "breadcrumb": [
         "제9조(위원회 심의·의결사항) ① 위원회는 다음 각 호의 사항을 심의·의결한다.",
         "③ 위원장은 심의안건, 회의일시 및 장소를 회의개최 7일전까지 위원들에게 통보하여야 한다. 다만, 위원장이 긴급한 사항이라고 인정할 때에는 회의개최 전일까지 이 항에 규정한 내용을 통보하고 위원회를 소집할 수 있다."
       ],
       "page": 1,
-      "text": "제11조(위원회 운영) ① 위원회 회의는 재적위원 과반수의 출석으로 개회하고, 출석위원 과반수의 찬성으로 의결하며, 가부동수 일 때는 위원장이 결정한다.\n② 위원회 의결은 승인, 조건부승인, 불승인으로 한다.\n\n③ 간사는 위원회 사무를 처리하며 심의의견 및 심의결과를 기록한 별지 제1호서식의 위원회 결의서를 작성·비치하여야 한다.",
-      "needsOriginal": false
+      "text": "제11조(위원회 운영) ① 위원회 회의는 재적위원 과반수의 출석으로 개회하고, 출석위원 과반수의 찬성으로 의결하며, 가부동수 일 때는 위원장이 결정한다.\n② 위원회 의결은 승인, 조건부승인, 불승인으로 한다.\n③ 간사는 위원회 사무를 처리하며 심의의견 및 심의결과를 기록한 별지 제1호서식의 위원회 결의서를 작성·비치하여야 한다.",
+      "needsOriginal": true
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "12",
+      "articleId": "제12조",
       "title": "소관부서의 장 임무",
       "breadcrumb": [
         "제9조(위원회 심의·의결사항) ① 위원회는 다음 각 호의 사항을 심의·의결한다.",
@@ -126,808 +1396,123 @@
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "13",
+      "articleId": "제13조",
       "title": "기술평가위원회 구성·운영",
       "breadcrumb": [
         "제9조(위원회 심의·의결사항) ① 위원회는 다음 각 호의 사항을 심의·의결한다.",
         "② 전산장비를 도입 및 설치 운영하고자 하는 소관부서의 장은 해당 전산장비의 설치를 완료한 날부터 1개월 이내에 그 설치결과(세부 산출내역 포함)를 주관부서의 장에게 통보하여야 한다."
       ],
       "page": 1,
-      "text": "제13조(기술평가위원회 구성·운영) ① 정보시스템을 구축하고자 하는 부서의 장(이하 “구축부서의 장”이라 한다)은 정보시스템의 도입 및 외부 사업자를 통한 용역개발 시 제안서 대한 기술평가가 필요한 경우 제안서 기술평가위원회(이하 “평가위원회”라 한다)를 구성·운영할 수 있다.\n② 제1항에 따른 평가위원회는 외부 위원을 과반수 이상으로 하며, 별표 1의 사업규모별 제안서 평가위원 수로 구성·운영할 수 있다.\n\n③ 위원장은 외부 위원 중에서 호선으로 정하며, 위원회의 원활한 운영 지원을 위하여 구축부서 직원을 간사로 둔다.\n\n④ 평가위원은 공단 부서장이상 직원, 중앙부처 소속공무원, 정보화 관련분야에 전문지식이 있는 대학교수, 유관 기관 전산관련 업무 5년 이상 수행자, 정보화 관련 경력 5년 이상 전문가 등으로 구성하며, 입찰참가자의 이해관계인 또는 관련자는 선정에서 제외하여야 한다.\n\n⑤ 외부 위원은 공단 정보화사업 평가위원 후보군(pool) 또는 한국정보화진흥원장이 구축·운영하는 정보화사업 제안서 평가위원 명부를 활용하여 선정할 수 있다.\n\n⑥ 그 밖의 평가위원회 운영에 관한 사항은 이 규칙에서 정한사항을 제외하고는「회계규정 시행규칙」제54조의5 등에서 정한 바에 따른다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "13의2",
-      "title": "기피 및 제척확인",
-      "breadcrumb": [
-        "제9조(위원회 심의·의결사항) ① 위원회는 다음 각 호의 사항을 심의·의결한다.",
-        "⑥ 그 밖의 평가위원회 운영에 관한 사항은 이 규칙에서 정한사항을 제외하고는「회계규정 시행규칙」제54조의5 등에서 정한 바에 따른다."
-      ],
-      "page": 1,
-      "text": "**제13조의2(기피 및 제척확인)** ① 기술평가 당일 위원장은 위원으로부터 기피신청을 받아 제2항에 해당하는 기피·제척 사유가 있는 경우에는 해당위원을 위원에서 제외한다.\n② 해당 부서에서 기피 및 제척 기준을 정하는 경우를 포함하여 다음 각호의 사항을 반영하여야 한다.\n\n1. 심사·평가 대상 사업과 관련하여 용역, 자문, 연구 등을 수행한 경우\n\n2. 심사·평가 대상 사업의 시행으로 인하여 이해당사자가 되는 경우(대리관계 포함)\n\n3. 최근 3년 이내 당해 심사·평가대상 업체에 재직한 경력이 있는 경우\n\n4. 소속단체나 학회 등이 특정업체로부터 지원받은 후원금이 심사 대상사업과 직접 관련이 있는 경우\n\n5. 기타 공정한 심사를 수행할 수 없다고 판단될 경우",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "14",
-      "title": "평가위원회 수당",
-      "breadcrumb": [
-        "제9조(위원회 심의·의결사항) ① 위원회는 다음 각 호의 사항을 심의·의결한다.",
-        "5. 기타 공정한 심사를 수행할 수 없다고 판단될 경우"
-      ],
-      "page": 1,
-      "text": "**제14조(평가위원회 수당)** 평가위원회에 출석한 외부위원 및 전문가 등에게는 예산의 범위에서 별표 2의「기술(제안서)평가업무 처리규정」(조달청지침)에 따른 평가수당 또는 공단「교육훈련규칙」강사료 지급기준에 따른 수당, 여비 및 그 밖에 필요한 경비를 지급할 수 있다. 다만, 공무원이 그 소관 업무와 직접적으로 관련되어 위원회에 출석하는 경우에는 그러하지 아니하다.\n제3절 정보화사업 성과관리 및 평가",
+      "text": "제13조(기술평가위원회 구성·운영) ① 정보시스템을 구축하고자 하는 부서의 장(이하 “구축부서의 장”이라 한다)은 정보시스템의 도입 및 외부 사업자를 통한 용역개발 시 제안서 대한 기술평가가 필요한 경우 제안서 기술평가위원회(이하 “평가위원회”라 한다)를 구성·운영할 수 있다.\n② 제1항에 따른 평가위원회는 외부 위원을 과반수 이상으로 하며, 별표 1의 사업규모별 제안서 평가위원 수로 구성·운영할 수 있다.\n③ 위원장은 외부 위원 중에서 호선으로 정하며, 위원회의 원활한 운영 지원을 위하여 구축부서 직원을 간사로 둔다.\n④ 평가위원은 공단 부서장이상 직원, 중앙부처 소속공무원, 정보화 관련분야에 전문지식이 있는 대학교수, 유관 기관 전산관련 업무 5년 이상 수행자, 정보화 관련 경력 5년 이상 전문가 등으로 구성하며, 입찰참가자의 이해관계인 또는 관련자는 선정에서 제외하여야 한다.\n⑤ 외부 위원은 공단 정보화사업 평가위원 후보군(pool) 또는 한국정보화진흥원장이 구축·운영하는 정보화사업 제안서 평가위원 명부를 활용하여 선정할 수 있다.\n⑥ 그 밖의 평가위원회 운영에 관한 사항은 이 규칙에서 정한사항을 제외하고는「회계규정 시행규칙」제54조의5 등에서 정한 바에 따른다.\n**제13조의2(기피 및 제척확인)** ① 기술평가 당일 위원장은 위원으로부터 기피신청을 받아 제2항에 해당하는 기피·제척 사유가 있는 경우에는 해당위원을 위원에서 제외한다.\n② 해당 부서에서 기피 및 제척 기준을 정하는 경우를 포함하여 다음 각호의 사항을 반영하여야 한다.\n1. 심사·평가 대상 사업과 관련하여 용역, 자문, 연구 등을 수행한 경우\n2. 심사·평가 대상 사업의 시행으로 인하여 이해당사자가 되는 경우(대리관계 포함)\n3. 최근 3년 이내 당해 심사·평가대상 업체에 재직한 경력이 있는 경우\n4. 소속단체나 학회 등이 특정업체로부터 지원받은 후원금이 심사 대상사업과 직접 관련이 있는 경우\n5. 기타 공정한 심사를 수행할 수 없다고 판단될 경우\n**제14조(평가위원회 수당)** 평가위원회에 출석한 외부위원 및 전문가 등에게는 예산의 범위에서 별표 2의「기술(제안서)평가업무 처리규정」(조달청지침)에 따른 평가수당 또는 공단「교육훈련규칙」강사료 지급기준에 따른 수당, 여비 및 그 밖에 필요한 경비를 지급할 수 있다. 다만, 공무원이 그 소관 업무와 직접적으로 관련되어 위원회에 출석하는 경우에는 그러하지 아니하다.\n제3절 정보화사업 성과관리 및 평가\n**제15조(정보화사업 성과계획 수립)** ① 소관부서의 장은 ｢전자정부 성과관리 지침｣ 제20조에 따른 성과관리대상 사업에 대해 성과목표 및 성과지표 등 성과계획이 포함된 사업계획을 수립한 후 주관부서의 장에게 제출하여야 한다.\n② 주관부서의 장은 제1항에 따른 성과계획을 행정안전부장관에게 제출하여야 하며, 제출한 성과계획이 변경되는 경우 그 내용을 통보하여야 한다.\n**제16조(정보화사업 관리)** ① 구축부서의 장은 해당 정보시스템 구축이 완료되면 용역을 수행한 외부 사업자 등이 개발한 프로그램 등을 무단으로 이용할 수 없도록 조치하여야 하며, 필요하면 계약조건에 소유권을 명시하여야 한다.\n② 구축부서의 장은 정보시스템 구축이 완료되면 최종산출물과 함께 주관부서의 장에게 완료를 통보하여야 한다.\n③ 구축부서의 장은 정보화사업을 추진함에 있어 사업계획 수립, 발주, 기술성 평가, 일정관리, 산출물관리, 품질관리, 감리, 검수 등 각 단계별 정보화사업 관련 규정에 따라 사업관리를 철저히 하여야 한다.\n**제17조(정보화사업 성과측정)** 주관부서 및 소관부서의 장은 제15조에 따른 성과계획에 포함된 사업에 대해 성과지표별 성과를 측정하여 정보자산관리시스템(IRM)에 등록‧관리하여야 한다.\n**제18조(정보화사업 운영성과측정)** 주관부서 및 소관부서의 장은 ｢전자정부 성과관리 지침｣에 따른 성과관리대상 사업 중 서비스 운영이 개시 된 시점으로부터 1년이 경과한 경우 해당 정보시스템에 대해 성과측정을 실시하여 정보자산관리시스템(IRM)에 등록‧관리하여야 한다.\n**제19조(정보화사업 평가)** ① 주관부서의 장은 전년도 정보화사업 추진 실적에 대해 다음 각 호의 사항을 포함하여 자체 평가를 실시할 수 있다.\n1. 사업추진 실적\n2. 성과지표의 수립 여부, 적정성 및 달성 현황\n3. 예산액, 집행액, 이월액 및 불용액 등 예산집행 현황\n4. 그 밖에 정보화사업 평가와 관련하여 필요하다고 인정되는 사항\n② 주관부서의 장은 소관부서의 정보화사업에 대해 평가를 실시하거나, 소관부서의 장으로 하여금 자체평가를 실시하게 한 후 그 결과를 제출하도록 요구할 수 있다.\n제3장 정보시스템 구축 및 관리\n제1절 정보시스템의 구축계획 수립\n**제20조(정보시스템의 구축 기본원칙)** ① 구축부서의 장은「전자정부법」및「행정기관 및 공공기관 정보시스템 구축·운영 지침」(행정안전부 고시)이 정하는 바에 따라 정보시스템이 효율적으로 구축될 수 있도록 추진하여야 한다.\n② 구축부서의 장은 정보시스템의 효율적 구축을 위하여 다음 각 호의 기본원칙을 준수하여야 한다.\n1. 정보기술아키텍처를 기반으로 정보시스템을 구축·운영하여야 한다.\n2. 정보시스템에 적용되는 기술은 표준화된 개방형 기술을 사용하는 것을 원칙으로 한다. 다만, 비표준의 폐쇄형 기술을 사용하는 경우에는 그 사유를 명시하여야 한다.\n3. 정보시스템 용역사업 추진 시「국가를 당사자로 하는 계약에 관한 법률」 및 같은 법 시행령과 공단「회계규정」및「회계규정 시행규칙」에 따라 계약을 체결하여야 한다.\n4. 정보시스템의 구축·운영 시 관련 법령 및 내규와 지침을 준수하여야 한다.\n5. 데이터는 신뢰성을 위한 무결성, 일치성 및 정보보안을 위한 기밀성, 가용성 등을 고려하여 구축하여야 한다.\n6.「소프트웨어사업 계약 및 관리감독에 관한 지침」(과학기술정보통신부고시) 에 따라 사업수행에 필요한 적정 사업기간을 산정하여야 한다.\n7. 주관부서의 장은 소관부서의 장에게 관련 제도를 자문하고, 준수현황을 관리할 수 있도록 소속 직원을 전담인력으로 지정하여 적극 협조하여야 한다.\n8. 구축부서의 장은 정보시스템을 고도화하거나 신규로 구축하는 경우 「공공데이터의 제공 및 이용 활성화에 관한 법률」에 따른 국민의 공공데이터 이용권을 보장할 수 있도록 「공공데이터 관리지침」을 준수하여야 한다.\n③ 정보시스템의 구축을 위한 개발용역은 구축부서의 장이 추진하며, 업무의 특수성 및 고도의 기술성 등을 고려하여 외부 사업자 등에게 용역사업을 실시할 수 있다. 다만, 소관부서의 장이 용역사업을 추진할 경우에는 다음 각 호의 사항에 대해 주관부서의 장과 사전에 협의하여야 한다.\n1. 개발대상 사업의 세부 사업계획\n2. 전산장비 구매내용\n3. 정보통신망 구성계획\n4. 소요예산 및 확보예산\n5. 보안대책 및 개발완료 후 운영방안\n6. 사업수행방법 등 그 밖의 용역수행에 관한 사항\n**제21조(하드웨어 및 상용소프트웨어 도입기준)** ① 구축부서의 장은 정보화사업에서 하드웨어 및 소프트웨어 등 정보자원을 교체 또는 신규 도입이 필요한 경우 「클라우드컴퓨팅 발전 및 이용자 보호에 관한 법률」제12조 및 제20조에 따라 클라우드 컴퓨팅 활용을 우선 검토하여야 한다.\n② 구축부서의 장은 정보화사업에서 하드웨어를 도입하는 경우 한국정보통신기술협회에서 정한 「정보시스템 하드웨어 규모산정 지침」을 기본으로 하되 정보시스템 용도를 고려하여 조정할 수 있다.\n③ 구축부서의 장은 정보화사업에서 소프트웨어를 개발하고자 하는 경우 전자정부표준개발프레임워크의 적용을 우선적으로 고려하여야 한다.\n④ 구축부서의 장은 정보화사업에서 하드웨어 및 상용소프트웨어를 도입하고자 하는 경우 다음 각 호의 제품을 확인하고 적용가능성을 검토하여 특별한 사유(개발 대비 비용이 높거나, 기능구현 또는 유지관리의 어려움 등)가 없으면 해당 제품을 우선 도입하여야 한다.\n1.「소프트웨어 진흥법」제20조에 따른 품질인증(GS인증) 1등급 제품\n2.「산업기술혁신 촉진법」제16조에 따른 신제품인증(NEP) 제품\n3.「산업기술혁신 촉진법」제15조의2에 따른 신기술인증(NET) 제품\n⑤ 구축부서의 장은 제4항 각 호의 제품 도입 시 중소기업자가 개발한 제품을 우선적으로 구매할 수 있도록 제안서 기술평가 기준에 평가항목으로 반영하여야 한다.\n**제22조(기술적용계획 수립 및 상호운용성 등 기술평가)** ① 구축부서의 장은 사업계획서 및 제안요청서 작성 시「행정기관 및 공공기관 정보시스템 구축·운영 지침」(이하 “구축·운영지침”이라 한다)에 따른 기술적용계획표를 작성하여야 한다. 다만, 공단의 기술참조모형 또는 사업의 특성에 따라 기술적용계획표 항목을 조정하여 사용할 수 있다.\n② 구축부서의 장은「전자정부법 시행령」제57조 및 제71조에 해당하는 정보화 사업을 추진하는 경우 사업계획서 확정 이전에「구축·운영지침」에 따른 상호운용성 등 기술평가를 수행하여야 한다.\n③ 구축부서의 장은 제2항 및 제20조제2항의 검토결과를 반영하여 사업계획서 및 제안요청서를 작성하여야 한다.\n④ 구축부서의 장은 사업자에게 제1항의 기술적용계획표가 포함된 제안서 및 사업수행계획서를 제출하게 하여야 한다. 다만, 사업자와 상호 협의하여 사업수행계획서내의 기술적용계획표는 수정할 수 있다.\n**제23조(소프트웨어 설치없는 웹사이트)** 구축부서의 장은 전자적 대민서비스를 구축할 때, 사용자가 별도의 소프트웨어 설치 없이 웹 브라우저만으로 서비스를 이용할 수 있도록 웹 표준기술을 사용하여 구축하여야 한다.\n**제24조(보안성 검토 및 보안관리)** ① 구축부서의 장은 정보시스템을 신·증설하는 경우 「정보보안 및 개인정보보호 업무처리규칙」제2절에 따른 보안성 검토 규정을 준수하여야 한다.\n② 구축부서의 장은「정보보안 및 개인정보보호 업무처리규칙」제13조부터 제41조까지 및 제44조, 제53조에 따라 정보화 사업 발주, 관리, 운영 등에 필요한 다음 각 호의 사항을 포함한 보안대책을 마련하고, 사업자가 준수하도록 하여야 한다.\n1. 외부 용역업체의 노트북 등에 대해 반입·반출을 제한\n2. 개발시스템과 운영시스템의 물리적 분리\n3. 운영시스템 접근에 필요한 작업용PC를 별도로 마련하여 외부 용역업체의 운영시스템 접근을 제한\n4. 외부 용역업체의 인터넷 사용 및 인가되지 않은 USB 등 휴대용 저장매체 사용을 제한\n5. 그 밖에 구축부서의 장이 보안관리가 필요하다고 판단되는 사항\n③ 구축부서의 장은 개인정보를 수집·처리·활용하여 시스템의 구축 또는 운영, 유지관리 등의 사업을 추진할 경우에는 개인정보가 분실·도난·누출·변조 또는 훼손되지 않도록 안전성 확보에 필요한 조치를 마련하여야 한다.\n④ 구축부서의 장은 전자적으로 처리할 수 있는 개인정보파일 및 개인정보처리시스템을 신규 구축·운용 또는 변경하려고 하는 경우,「개인정보 영향평가에 관한 고시」에 따라 개인정보 영향평가를 정보시스템 설계완료 전에 수행하여야 한다.\n**제25조(예산 및 사업대가 산정)** ① 구축부서의 장은 예산수립, 사업발주, 계약 등에 필요한 정보화사업의 원가 산정 시「소프트웨어 진흥법」과 같은 법 시행령 따라 「SW사업 대가산정 가이드」를 적용하여 산출하여야 한다.\n② 하드웨어 및 소프트웨어 구입비는 다음 각 호의 기준에 따라 산정한다.\n1. 조달품목인 경우 조달단가\n2. 조달품목이 아닌 경우 최근 도입가격, 또는 유사한 거래 실례가격\n3. 제1호, 제2호 외의 경우 3개 이상의 공급업체로부터 직접 받은 견적가격을 기준으로 한 적정가격\n③ 구축부서의 장은 예산수립 시 제41조, 제43조부터 제44조에 따른 제안서평가 관련 비용, 제53조에 따른 작업장소에 관한 비용을 포함하여 계상하여야 한다.\n**제26조(대기업인 소프트웨어사업자가 참여할 수 있는 사업금액의 하한)** ① 구축부서의 장은 중소소프트웨어사업자를 육성하고 참여를 확대하기 위하여 과학기술정보통신부장관이 고시한「중소 소프트웨어 사업자의 사업 참여 지원에 관한 지침」을 준수하여야 한다.\n② 구축부서의 장은 대기업인 소프트웨어사업자의 참여가 제한되는 사업인 경우 제안요청서, 제안안내서, 입찰공고문 등에「대기업참여제한사업」임을 명시하여야 한다.\n**제27조(상용소프트웨어 구매)** ① 구축부서의 장은「소프트웨어 진흥법」제54조에 따라 소프트웨어를 구매하는 경우에는 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」에서 정하는 바에 따른다.\n② 「소프트웨어 진흥법」제55조에 따라 소프트웨어에 대한 품질성능 평가시험을 실시하는 경우에는 과학기술정보통신부장관이 고시한 「소프트웨어 품질성능 평가시험에 관한 지침」에서 정하는 바에 따른다.\n**제28조(감리)** ① 구축부서의 장은 정보시스템의 특성 및 사업 규모 등이「전자정부법 시행령」제71조제1항에 따라 감리대상 사업에 해당하는 경우에는「전자정부법」제58조제1항에 따라 등록한 감리법인으로 하여금 정보시스템 감리를 하게 하여야 한다. 다만, 같은 법 시행령 제71조제2항의 경우에는 그러하지 아니한다.\n② 구축부서의 장은 제1항에 따라 감리를 하는 경우에는「전자정부법」제57조제5항에 따라서 행정안전부장관이 고시한「정보시스템 감리기준」을 준수하여야 한다.\n**제29조(웹사이트 관리)** ① 구축부서의 장은 웹사이트 구축·운영시 개발 품질관리에 관한 사항에 대하여 「전자정부 웹사이트 품질관리 지침」을 준수하여야 한다.\n② 구축부서의 장은 신규 웹사이트 구축 시 불필요한 웹사이트의 통·폐합 계획을 수립하여 운영 중인 웹사이트의 총량이 증가되지 않도록 하여야 한다.\n③ 제2항에도 불구하고 다음 각호의 웹사이트는 기존 웹사이트 통·폐합 없이 신설할 수 있다.\n1. 법령상 구축이 필요한 웹사이트\n2. 월 10만명 이상 사용이 예산되는 웹사이트\n3. 내부업무용 웹사이트\n4. 기관 대표 웹사이트\n5. 외국인 대상 웹사이트 등\n④ 구축부서의 장은 기존 운영 중인 웹사이트 중에서 이용빈도가 낮은 웹사이트를 유사 웹사이트에 통합하는 등 웹사이트 총량의 지속적인 감축을 위해 노력하여야 한다.\n**제29조의2(사용자 확인)** ① 구축부서의 장은 민원인 등의 본인 확인을 위하여 다양한 인증수단을 제공하는 통합인증 공통기반을 구축·운영할 수 있다.\n② 구축부서의 장은 「전자정부법」제10조에 따라 서비스 이용자를 확인하는 경우 특별한 사유 없는 한 다음 각호의 방법이 포함되도록 하여야 한다.\n1. 「전자정부법 시행령」제12조제4항에 따른 방법으로 민원인등의 신원을 확인하는데 공통적으로 적용되는 운영기반을 활용하는 방법\n2. 아이디를 이용하는 경우 제1항에 따른 통합인증 공통기반을 활용하는 방법\n**제29조의3(분할발주)** 구축부서의 장은 「소프트웨어 진흥법」제44조에 따라 상세한 요구사항을 작성하기 위하여 외부전문기관 등을 활용하거나 별도로 분석 또는 설계사업을 분할하여 발주할 수 있다.\n**제29조의4(민간서비스 활용)** 구축부서의 장은 「전자정부법」제21조제1항에 따라 전자정부서비스의 편의성과 효율성을 높이기 위하여 민간등의 서비스를 활용하는 경우 「민간서비스 활용을 통한 전자적 대민서비스 제공 등에 관한 규정(행정안전부 고시)」에 따른다.\n제2절 정보시스템의 발주\n**제30조(요구사항의 명확화)** 구축부서의 장은 제32조에 따라 제안요청서를 작성할 경우에는「소프트웨어 진흥법」제44조과 과학기술정보통신부장관이 고시한「소프트웨어사업 계약 및 관리감독에 관한 지침」제11조에 따라 요구사항을 상세하게 작성하여야 한다.\n**제31조(소프트웨어사업 영향평가)** 구축부서의 장은「소프트웨어 진흥법」제43조와 「소프트웨어사업 계약 및 관리감독에 관한 지침」제5조에 따라 소프트웨어사업 영향평가를 실시하는 경우에는 소프트웨어사업 영향평가 결과서를 작성하여야 한다.\n**제32조(제안요청서 작성)** ① 구축부서의 장은 협상에 의한 계약 또는 경쟁적 대화에 의한 계약체결방식으로 사업자를 선정하기 위하여 제안요청서를 작성하여야 한다.\n② 제안요청서에는 다음 각 호의 사항을 명시하여야 한다.\n1. 과업내용, 요구사항\n2. 계약조건\n3. 평가요소, 평가방법\n4. 제안서의 규격·제출방법·제본형태\n5. 제안서 보상에 관한 사항\n6. 사업자가 준수해야 하는 다음 각 목에 관한 사항\n가. 제35조에 따른 하도급 대금지급 등\n나. 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」 제19조에 따른 소프트웨어사업 하도급 계획서 제출 요청 및 하도급 계약 적정성 판단 세부기준\n다. 제23조제1항에 따른 기술적용계획표\n라. 제63조부터 제66조까지의 “소프트웨어 개발보안” 적용\n마. 제36조에 따른 사업관리자의 제안서 발표 의무화\n바. 제56조에 따른 표준산출물 작성 및 제출 등\n7. 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」제10조에 따른 적정사업기간 산정에 관한 사항\n8. 그 밖에 필요한 사항\n**제33조(제안요청서 보안사항 등)** 구축부서의 장은 제안요청서를 통해 공개될 경우 보안침해 사고 등이 우려되는 다음 각 호에 관한 사항은 제안요청서에서 제외될 수 있도록 검토하여야 한다. 단, 입찰에 참가하고자 하는 사업자의 요청이 있는 경우 제안서 작성에 필요하다고 판단되면 보안서약서를 받고 담당자 입회하에 가능한 범위에서 열람하게 할 수 있다.\n1. 정보시스템의 내·외부 IP 주소 현황\n2. 정보시스템의 제조사, 제품버전 등 도입현황 및 구성도\n3. 정보시스템의 환경파일 등 구성 정보\n4. 사용자 계정 및 패스워드 등 시스템 접근권한 정보\n5. 정보시스템 취약점분석 결과물\n6. 방화벽·침입방지시스템(IPS) 등 정보보호제품, 라우터·스위치 등 네트워크장비 도입현황 및 설정 정보\n7.「공공기관의 정보공개에 관한 법률」제9조제1항 단서에서 정한 비공개 대상\n8.「개인정보 보호법」제2조제1호에 따른 개인정보\n9.「보안업무규정」제4조의 비밀, 동 시행규칙 제16조제3항의 대외비\n10. 그 밖에 구축부서의 장이 공개가 불가하다고 판단한 자료\n**제34조(평가배점)** 구축부서의 장은 기술력이 우수한 사업자를 선정하여 정보화사업의 품질을 확보하기 위해「국가를 당사자로 하는 계약에 관한 법률 시행령(이하 “국가계약법 시행령”이라 한다)」제43조의2에 따라 협상에 의한 계약체결 방법을 우선적으로 적용하고, 기술능력평가 배점한도를 90점으로 한다. 다만, 다음 각 호의 어느 하나에 해당하는 정보화사업은 기술능력평가의 배점한도를 80점으로 할 수 있다.\n1. 추정가격 중 하드웨어의 비중이 50% 이상인 사업\n2. 추정가격이 1억 미만인 개발사업\n3. 그 밖에 구축부서의 장이 판단하여 필요한 경우\n**제35조(하도급 대금지급 등)** ① 구축부서의 장은 하도급자가 하도급 대금의 직접 지급을 원하는 경우 이해관계자(발주자, 원도급자, 하도급자 등) 간 합의서를 작성하고 하도급자에게 대금을 직접 지급하여야 한다. 다만, 원도급자가 특별한 사유로 인해 하도급 대금의 직접 지급에 합의하지 않는 경우 원도급자는 발주자로부터 선급금을 받은 날부터 15일 이내에 하도급자에게 선금을 현금으로 지급하고, 증빙서류를 발주자에게 제출하여야 한다.\n② 구축부서의 장은 하드웨어 또는 상용소프트웨어를 직접 제조하는 자가 아닌 하도급자를 통해 구매하는 경우 그 하도급자와 제조사 간 기술 또는 판매와 관련된 관계임을 입증할 수 있는 증명을 제안서에 포함하여 제출하도록 제안요청서에 명시하여야 한다.\n**제36조(제안서 발표)** 구축부서의 장은 사업의 특성상 제안서 발표를 실시하는 경우 사업관리자(PM)의 전문성, 사업 이해도 등을 종합적으로 평가하기 위해 사업관리자가 직접 제안서를 발표하도록 제안요청서에 명시하여야 한다.\n**제37조(제안서 기술평가 기준)** ① 제안서 기술평가를 위한 평가항목 및 배점한도, 평가방법 등은 과학기술정보통신부장관이 고시한「소프트웨어 기술성 평가기준 지침」에서 정하는 바에 따른다.\n② 구축부서의 장은 공동수급체 구성을 통한 입찰에 대하여는 제1항의 기준 중 “상생협력” 평가항목은「구축·운영지침」별표 1에 따라 평가하여야 한다.\n③ 구축부서의 장은 기술평가 변별력이 확보되도록 사업의 특성을 고려하여 최소 6개 이상의 평가항목을 상대평가 항목으로 지정하여야 한다.\n**제38조(제안요청서 사전공개)** ① 구축부서의 장은 입찰참여의 균등한 기회 제공을 통한 공정한 경쟁을 위하여 입찰공고 전에 제안요청서를 사전 공개·열람토록 하여 의견을 제시할 수 있도록 하여야 한다. 다만, 경쟁에 부칠 여유가 없거나, 수의계약 대상인 경우에는 사전공개 절차를 생략할 수 있다.\n② 사전공개 기간은 공개일로부터 5일간으로 하고, 조달청 “나라장터(www.g2b.go.kr)” 및 “공단 대표 홈페이지(www.kead.or.kr)” 등을 통해 다음 각 호의 사항을 공개하여야 한다. 다만, 긴급을 요하는 경우에는 3일간 공개할 수 있다.\n1. 사업명\n2. 발주(공고)기관\n3. 실수요기관\n4. 배정예산액\n5. 접수일시(의견등록마감일시)\n6. 담당자(전화번호)\n7. 납품기한\n8. 제안요청서\n9. 그 밖에 사전공개에 필요한 사항\n**제39조(사전공개 의견검토 등)** 구축부서의 장은 사전공개 결과 사업자 등으로부터 의견이 있을 때에는 적극 검토하여 그 결과를 의견제공자에게 통보하고, 수용한 의견은 제안요청서에 반영하여야 하며, 객관적이고 공정한 검토를 위하여 필요하다고 판단되는 경우 주관부서의 장에게 위원회 심의의뢰를 요청할 수 있다. 다만, 다음 각 호의 경우에는 위원회 심의를 생략할 수 있다.\n1. 사업자 등의 의견을 수용하여 제안요청서에 반영하는 경우\n2. 구축부서의 장이 자체 판단하여 의견검토가 가능한 경우",
       "needsOriginal": true
     },
     {
-      "articleNo": "15",
-      "title": "정보화사업 성과계획 수립",
-      "breadcrumb": [
-        "제3절 정보화사업 성과관리 및 평가"
-      ],
-      "page": 1,
-      "text": "**제15조(정보화사업 성과계획 수립)** ① 소관부서의 장은 ｢전자정부 성과관리 지침｣ 제20조에 따른 성과관리대상 사업에 대해 성과목표 및 성과지표 등 성과계획이 포함된 사업계획을 수립한 후 주관부서의 장에게 제출하여야 한다.\n\n② 주관부서의 장은 제1항에 따른 성과계획을 행정안전부장관에게 제출하여야 하며, 제출한 성과계획이 변경되는 경우 그 내용을 통보하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "16",
-      "title": "정보화사업 관리",
-      "breadcrumb": [
-        "제3절 정보화사업 성과관리 및 평가",
-        "② 주관부서의 장은 제1항에 따른 성과계획을 행정안전부장관에게 제출하여야 하며, 제출한 성과계획이 변경되는 경우 그 내용을 통보하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제16조(정보화사업 관리)** ① 구축부서의 장은 해당 정보시스템 구축이 완료되면 용역을 수행한 외부 사업자 등이 개발한 프로그램 등을 무단으로 이용할 수 없도록 조치하여야 하며, 필요하면 계약조건에 소유권을 명시하여야 한다.\n② 구축부서의 장은 정보시스템 구축이 완료되면 최종산출물과 함께 주관부서의 장에게 완료를 통보하여야 한다.\n\n③ 구축부서의 장은 정보화사업을 추진함에 있어 사업계획 수립, 발주, 기술성 평가, 일정관리, 산출물관리, 품질관리, 감리, 검수 등 각 단계별 정보화사업 관련 규정에 따라 사업관리를 철저히 하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "17",
-      "title": "정보화사업 성과측정",
-      "breadcrumb": [
-        "제3절 정보화사업 성과관리 및 평가",
-        "③ 구축부서의 장은 정보화사업을 추진함에 있어 사업계획 수립, 발주, 기술성 평가, 일정관리, 산출물관리, 품질관리, 감리, 검수 등 각 단계별 정보화사업 관련 규정에 따라 사업관리를 철저히 하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제17조(정보화사업 성과측정)** 주관부서 및 소관부서의 장은 제15조에 따른 성과계획에 포함된 사업에 대해 성과지표별 성과를 측정하여 정보자산관리시스템(IRM)에 등록‧관리하여야 한다.\n\n**제18조(정보화사업 운영성과측정)** 주관부서 및 소관부서의 장은 ｢전자정부 성과관리 지침｣에 따른 성과관리대상 사업 중 서비스 운영이 개시 된 시점으로부터 1년이 경과한 경우 해당 정보시스템에 대해 성과측정을 실시하여 정보자산관리시스템(IRM)에 등록‧관리하여야 한다.\n\n**제19조(정보화사업 평가)** ① 주관부서의 장은 전년도 정보화사업 추진 실적에 대해 다음 각 호의 사항을 포함하여 자체 평가를 실시할 수 있다.\n1. 사업추진 실적\n\n2. 성과지표의 수립 여부, 적정성 및 달성 현황\n\n3. 예산액, 집행액, 이월액 및 불용액 등 예산집행 현황\n\n4. 그 밖에 정보화사업 평가와 관련하여 필요하다고 인정되는 사항\n\n② 주관부서의 장은 소관부서의 정보화사업에 대해 평가를 실시하거나, 소관부서의 장으로 하여금 자체평가를 실시하게 한 후 그 결과를 제출하도록 요구할 수 있다.\n제3장 정보시스템 구축 및 관리\n제1절 정보시스템의 구축계획 수립",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "20",
-      "title": "정보시스템의 구축 기본원칙",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립"
-      ],
-      "page": 1,
-      "text": "**제20조(정보시스템의 구축 기본원칙)** ① 구축부서의 장은「전자정부법」및「행정기관 및 공공기관 정보시스템 구축·운영 지침」(행정안전부 고시)이 정하는 바에 따라 정보시스템이 효율적으로 구축될 수 있도록 추진하여야 한다.\n\n ② 구축부서의 장은 정보시스템의 효율적 구축을 위하여 다음 각 호의 기본원칙을 준수하여야 한다.\n\n1. 정보기술아키텍처를 기반으로 정보시스템을 구축·운영하여야 한다.\n\n2. 정보시스템에 적용되는 기술은 표준화된 개방형 기술을 사용하는 것을 원칙으로 한다. 다만, 비표준의 폐쇄형 기술을 사용하는 경우에는 그 사유를 명시하여야 한다.\n\n3. 정보시스템 용역사업 추진 시「국가를 당사자로 하는 계약에 관한 법률」 및 같은 법 시행령과 공단「회계규정」및「회계규정 시행규칙」에 따라 계약을 체결하여야 한다.\n\n4. 정보시스템의 구축·운영 시 관련 법령 및 내규와 지침을 준수하여야 한다.\n\n5. 데이터는 신뢰성을 위한 무결성, 일치성 및 정보보안을 위한 기밀성, 가용성 등을 고려하여 구축하여야 한다.\n6.「소프트웨어사업 계약 및 관리감독에 관한 지침」(과학기술정보통신부고시) 에 따라 사업수행에 필요한 적정 사업기간을 산정하여야 한다.\n7. 주관부서의 장은 소관부서의 장에게 관련 제도를 자문하고, 준수현황을 관리할 수 있도록 소속 직원을 전담인력으로 지정하여 적극 협조하여야 한다.\n\n8. 구축부서의 장은 정보시스템을 고도화하거나 신규로 구축하는 경우 「공공데이터의 제공 및 이용 활성화에 관한 법률」에 따른 국민의 공공데이터 이용권을 보장할 수 있도록 「공공데이터 관리지침」을 준수하여야 한다.\n\n③ 정보시스템의 구축을 위한 개발용역은 구축부서의 장이 추진하며, 업무의 특수성 및 고도의 기술성 등을 고려하여 외부 사업자 등에게 용역사업을 실시할 수 있다. 다만, 소관부서의 장이 용역사업을 추진할 경우에는 다음 각 호의 사항에 대해 주관부서의 장과 사전에 협의하여야 한다.\n\n1. 개발대상 사업의 세부 사업계획\n\n2. 전산장비 구매내용\n\n3. 정보통신망 구성계획\n\n4. 소요예산 및 확보예산\n\n5. 보안대책 및 개발완료 후 운영방안\n\n6. 사업수행방법 등 그 밖의 용역수행에 관한 사항",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "21",
-      "title": "하드웨어 및 상용소프트웨어 도입기준",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "6. 사업수행방법 등 그 밖의 용역수행에 관한 사항"
-      ],
-      "page": 1,
-      "text": "**제21조(하드웨어 및 상용소프트웨어 도입기준)** ① 구축부서의 장은 정보화사업에서 하드웨어 및 소프트웨어 등 정보자원을 교체 또는 신규 도입이 필요한 경우 「클라우드컴퓨팅 발전 및 이용자 보호에 관한 법률」제12조 및 제20조에 따라 클라우드 컴퓨팅 활용을 우선 검토하여야 한다.\n② 구축부서의 장은 정보화사업에서 하드웨어를 도입하는 경우 한국정보통신기술협회에서 정한 「정보시스템 하드웨어 규모산정 지침」을 기본으로 하되 정보시스템 용도를 고려하여 조정할 수 있다.\n\n③ 구축부서의 장은 정보화사업에서 소프트웨어를 개발하고자 하는 경우 전자정부표준개발프레임워크의 적용을 우선적으로 고려하여야 한다.\n\n④ 구축부서의 장은 정보화사업에서 하드웨어 및 상용소프트웨어를 도입하고자 하는 경우 다음 각 호의 제품을 확인하고 적용가능성을 검토하여 특별한 사유(개발 대비 비용이 높거나, 기능구현 또는 유지관리의 어려움 등)가 없으면 해당 제품을 우선 도입하여야 한다.\n1.「소프트웨어 진흥법」제20조에 따른 품질인증(GS인증) 1등급 제품\n\n2.「산업기술혁신 촉진법」제16조에 따른 신제품인증(NEP) 제품\n\n3.「산업기술혁신 촉진법」제15조의2에 따른 신기술인증(NET) 제품\n⑤ 구축부서의 장은 제4항 각 호의 제품 도입 시 중소기업자가 개발한 제품을 우선적으로 구매할 수 있도록 제안서 기술평가 기준에 평가항목으로 반영하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "22",
-      "title": "기술적용계획 수립 및 상호운용성 등 기술평가",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "⑤ 구축부서의 장은 제4항 각 호의 제품 도입 시 중소기업자가 개발한 제품을 우선적으로 구매할 수 있도록 제안서 기술평가 기준에 평가항목으로 반영하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제22조(기술적용계획 수립 및 상호운용성 등 기술평가)** ① 구축부서의 장은 사업계획서 및 제안요청서 작성 시「행정기관 및 공공기관 정보시스템 구축·운영 지침」(이하 “구축·운영지침”이라 한다)에 따른 기술적용계획표를 작성하여야 한다. 다만, 공단의 기술참조모형 또는 사업의 특성에 따라 기술적용계획표 항목을 조정하여 사용할 수 있다.\n② 구축부서의 장은「전자정부법 시행령」제57조 및 제71조에 해당하는 정보화 사업을 추진하는 경우 사업계획서 확정 이전에「구축·운영지침」에 따른 상호운용성 등 기술평가를 수행하여야 한다.\n\n③ 구축부서의 장은 제2항 및 제20조제2항의 검토결과를 반영하여 사업계획서 및 제안요청서를 작성하여야 한다.\n\n④ 구축부서의 장은 사업자에게 제1항의 기술적용계획표가 포함된 제안서 및 사업수행계획서를 제출하게 하여야 한다. 다만, 사업자와 상호 협의하여 사업수행계획서내의 기술적용계획표는 수정할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "23",
-      "title": "소프트웨어 설치없는 웹사이트",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "④ 구축부서의 장은 사업자에게 제1항의 기술적용계획표가 포함된 제안서 및 사업수행계획서를 제출하게 하여야 한다. 다만, 사업자와 상호 협의하여 사업수행계획서내의 기술적용계획표는 수정할 수 있다."
-      ],
-      "page": 1,
-      "text": "**제23조(소프트웨어 설치없는 웹사이트)** 구축부서의 장은 전자적 대민서비스를 구축할 때, 사용자가 별도의 소프트웨어 설치 없이 웹 브라우저만으로 서비스를 이용할 수 있도록 웹 표준기술을 사용하여 구축하여야 한다.\n\n**제24조(보안성 검토 및 보안관리)** ① 구축부서의 장은 정보시스템을 신·증설하는 경우 「정보보안 및 개인정보보호 업무처리규칙」제2절에 따른 보안성 검토 규정을 준수하여야 한다.\n② 구축부서의 장은「정보보안 및 개인정보보호 업무처리규칙」제13조부터 제41조까지 및 제44조, 제53조에 따라 정보화 사업 발주, 관리, 운영 등에 필요한 다음 각 호의 사항을 포함한 보안대책을 마련하고, 사업자가 준수하도록 하여야 한다.\n\n1. 외부 용역업체의 노트북 등에 대해 반입·반출을 제한\n\n2. 개발시스템과 운영시스템의 물리적 분리\n\n3. 운영시스템 접근에 필요한 작업용PC를 별도로 마련하여 외부 용역업체의 운영시스템 접근을 제한\n\n4. 외부 용역업체의 인터넷 사용 및 인가되지 않은 USB 등 휴대용 저장매체 사용을 제한\n\n5. 그 밖에 구축부서의 장이 보안관리가 필요하다고 판단되는 사항\n\n③ 구축부서의 장은 개인정보를 수집·처리·활용하여 시스템의 구축 또는 운영, 유지관리 등의 사업을 추진할 경우에는 개인정보가 분실·도난·누출·변조 또는 훼손되지 않도록 안전성 확보에 필요한 조치를 마련하여야 한다.\n\n④ 구축부서의 장은 전자적으로 처리할 수 있는 개인정보파일 및 개인정보처리시스템을 신규 구축·운용 또는 변경하려고 하는 경우,「개인정보 영향평가에 관한 고시」에 따라 개인정보 영향평가를 정보시스템 설계완료 전에 수행하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "25",
-      "title": "예산 및 사업대가 산정",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "④ 구축부서의 장은 전자적으로 처리할 수 있는 개인정보파일 및 개인정보처리시스템을 신규 구축·운용 또는 변경하려고 하는 경우,「개인정보 영향평가에 관한 고시」에 따라 개인정보 영향평가를 정보시스템 설계완료 전에 수행하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제25조(예산 및 사업대가 산정)** ① 구축부서의 장은 예산수립, 사업발주, 계약 등에 필요한 정보화사업의 원가 산정 시「소프트웨어 진흥법」과 같은 법 시행령 따라 「SW사업 대가산정 가이드」를 적용하여 산출하여야 한다.\n② 하드웨어 및 소프트웨어 구입비는 다음 각 호의 기준에 따라 산정한다.\n\n1. 조달품목인 경우 조달단가\n\n2. 조달품목이 아닌 경우 최근 도입가격, 또는 유사한 거래 실례가격\n\n3. 제1호, 제2호 외의 경우 3개 이상의 공급업체로부터 직접 받은 견적가격을 기준으로 한 적정가격\n\n③ 구축부서의 장은 예산수립 시 제41조, 제43조부터 제44조에 따른 제안서평가 관련 비용, 제53조에 따른 작업장소에 관한 비용을 포함하여 계상하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "26",
-      "title": "대기업인 소프트웨어사업자가 참여할 수 있는 사업금액의 하한",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "③ 구축부서의 장은 예산수립 시 제41조, 제43조부터 제44조에 따른 제안서평가 관련 비용, 제53조에 따른 작업장소에 관한 비용을 포함하여 계상하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제26조(대기업인 소프트웨어사업자가 참여할 수 있는 사업금액의 하한)** ① 구축부서의 장은 중소소프트웨어사업자를 육성하고 참여를 확대하기 위하여 과학기술정보통신부장관이 고시한「중소 소프트웨어 사업자의 사업 참여 지원에 관한 지침」을 준수하여야 한다.\n② 구축부서의 장은 대기업인 소프트웨어사업자의 참여가 제한되는 사업인 경우 제안요청서, 제안안내서, 입찰공고문 등에「대기업참여제한사업」임을 명시하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "27",
-      "title": "상용소프트웨어 구매",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "② 구축부서의 장은 대기업인 소프트웨어사업자의 참여가 제한되는 사업인 경우 제안요청서, 제안안내서, 입찰공고문 등에「대기업참여제한사업」임을 명시하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제27조(상용소프트웨어 구매)** ① 구축부서의 장은「소프트웨어 진흥법」제54조에 따라 소프트웨어를 구매하는 경우에는 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」에서 정하는 바에 따른다.\n② 「소프트웨어 진흥법」제55조에 따라 소프트웨어에 대한 품질성능 평가시험을 실시하는 경우에는 과학기술정보통신부장관이 고시한 「소프트웨어 품질성능 평가시험에 관한 지침」에서 정하는 바에 따른다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "28",
-      "title": "감리",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "② 「소프트웨어 진흥법」제55조에 따라 소프트웨어에 대한 품질성능 평가시험을 실시하는 경우에는 과학기술정보통신부장관이 고시한 「소프트웨어 품질성능 평가시험에 관한 지침」에서 정하는 바에 따른다."
-      ],
-      "page": 1,
-      "text": "**제28조(감리)** ① 구축부서의 장은 정보시스템의 특성 및 사업 규모 등이「전자정부법 시행령」제71조제1항에 따라 감리대상 사업에 해당하는 경우에는「전자정부법」제58조제1항에 따라 등록한 감리법인으로 하여금 정보시스템 감리를 하게 하여야 한다. 다만, 같은 법 시행령 제71조제2항의 경우에는 그러하지 아니한다.\n② 구축부서의 장은 제1항에 따라 감리를 하는 경우에는「전자정부법」제57조제5항에 따라서 행정안전부장관이 고시한「정보시스템 감리기준」을 준수하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "29",
-      "title": "웹사이트 관리",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "② 구축부서의 장은 제1항에 따라 감리를 하는 경우에는「전자정부법」제57조제5항에 따라서 행정안전부장관이 고시한「정보시스템 감리기준」을 준수하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제29조(웹사이트 관리)** ① 구축부서의 장은 웹사이트 구축·운영시 개발 품질관리에 관한 사항에 대하여 「전자정부 웹사이트 품질관리 지침」을 준수하여야 한다.\n② 구축부서의 장은 신규 웹사이트 구축 시 불필요한 웹사이트의 통·폐합 계획을 수립하여 운영 중인 웹사이트의 총량이 증가되지 않도록 하여야 한다.\n\n③ 제2항에도 불구하고 다음 각호의 웹사이트는 기존 웹사이트 통·폐합 없이 신설할 수 있다.\n\n1. 법령상 구축이 필요한 웹사이트\n\n2. 월 10만명 이상 사용이 예산되는 웹사이트\n\n3. 내부업무용 웹사이트\n\n4. 기관 대표 웹사이트\n\n5. 외국인 대상 웹사이트 등\n\n④ 구축부서의 장은 기존 운영 중인 웹사이트 중에서 이용빈도가 낮은 웹사이트를 유사 웹사이트에 통합하는 등 웹사이트 총량의 지속적인 감축을 위해 노력하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "29의2",
-      "title": "사용자 확인",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "④ 구축부서의 장은 기존 운영 중인 웹사이트 중에서 이용빈도가 낮은 웹사이트를 유사 웹사이트에 통합하는 등 웹사이트 총량의 지속적인 감축을 위해 노력하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제29조의2(사용자 확인)** ① 구축부서의 장은 민원인 등의 본인 확인을 위하여 다양한 인증수단을 제공하는 통합인증 공통기반을 구축·운영할 수 있다.\n② 구축부서의 장은 「전자정부법」제10조에 따라 서비스 이용자를 확인하는 경우 특별한 사유 없는 한 다음 각호의 방법이 포함되도록 하여야 한다.\n\n1. 「전자정부법 시행령」제12조제4항에 따른 방법으로 민원인등의 신원을 확인하는데 공통적으로 적용되는 운영기반을 활용하는 방법\n\n2. 아이디를 이용하는 경우 제1항에 따른 통합인증 공통기반을 활용하는 방법",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "29의3",
-      "title": "분할발주",
-      "breadcrumb": [
-        "제1절 정보시스템의 구축계획 수립",
-        "2. 아이디를 이용하는 경우 제1항에 따른 통합인증 공통기반을 활용하는 방법"
-      ],
-      "page": 1,
-      "text": "**제29조의3(분할발주)** 구축부서의 장은 「소프트웨어 진흥법」제44조에 따라 상세한 요구사항을 작성하기 위하여 외부전문기관 등을 활용하거나 별도로 분석 또는 설계사업을 분할하여 발주할 수 있다.\n\n**제29조의4(민간서비스 활용)** 구축부서의 장은 「전자정부법」제21조제1항에 따라 전자정부서비스의 편의성과 효율성을 높이기 위하여 민간등의 서비스를 활용하는 경우 「민간서비스 활용을 통한 전자적 대민서비스 제공 등에 관한 규정(행정안전부 고시)」에 따른다.\n제2절 정보시스템의 발주",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "30",
-      "title": "요구사항의 명확화",
-      "breadcrumb": [
-        "제2절 정보시스템의 발주"
-      ],
-      "page": 1,
-      "text": "**제30조(요구사항의 명확화)** 구축부서의 장은 제32조에 따라 제안요청서를 작성할 경우에는「소프트웨어 진흥법」제44조과 과학기술정보통신부장관이 고시한「소프트웨어사업 계약 및 관리감독에 관한 지침」제11조에 따라 요구사항을 상세하게 작성하여야 한다.\n\n**제31조(소프트웨어사업 영향평가)** 구축부서의 장은「소프트웨어 진흥법」제43조와 「소프트웨어사업 계약 및 관리감독에 관한 지침」제5조에 따라 소프트웨어사업 영향평가를 실시하는 경우에는 소프트웨어사업 영향평가 결과서를 작성하여야 한다.\n\n**제32조(제안요청서 작성)** ① 구축부서의 장은 협상에 의한 계약 또는 경쟁적 대화에 의한 계약체결방식으로 사업자를 선정하기 위하여 제안요청서를 작성하여야 한다.\n\n② 제안요청서에는 다음 각 호의 사항을 명시하여야 한다.\n\n1. 과업내용, 요구사항\n\n2. 계약조건\n\n3. 평가요소, 평가방법\n\n4. 제안서의 규격·제출방법·제본형태\n\n5. 제안서 보상에 관한 사항\n\n6. 사업자가 준수해야 하는 다음 각 목에 관한 사항\n\n가. 제35조에 따른 하도급 대금지급 등\n\n나. 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」 제19조에 따른 소프트웨어사업 하도급 계획서 제출 요청 및 하도급 계약 적정성 판단 세부기준\n\n다. 제23조제1항에 따른 기술적용계획표\n\n라. 제63조부터 제66조까지의 “소프트웨어 개발보안” 적용\n\n마. 제36조에 따른 사업관리자의 제안서 발표 의무화\n\n바. 제56조에 따른 표준산출물 작성 및 제출 등\n\n7. 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」제10조에 따른 적정사업기간 산정에 관한 사항\n\n8. 그 밖에 필요한 사항",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "33",
-      "title": "제안요청서 보안사항 등",
-      "breadcrumb": [
-        "제2절 정보시스템의 발주",
-        "8. 그 밖에 필요한 사항"
-      ],
-      "page": 1,
-      "text": "**제33조(제안요청서 보안사항 등)** 구축부서의 장은 제안요청서를 통해 공개될 경우 보안침해 사고 등이 우려되는 다음 각 호에 관한 사항은 제안요청서에서 제외될 수 있도록 검토하여야 한다. 단, 입찰에 참가하고자 하는 사업자의 요청이 있는 경우 제안서 작성에 필요하다고 판단되면 보안서약서를 받고 담당자 입회하에 가능한 범위에서 열람하게 할 수 있다.\n1. 정보시스템의 내·외부 IP 주소 현황\n\n2. 정보시스템의 제조사, 제품버전 등 도입현황 및 구성도\n\n3. 정보시스템의 환경파일 등 구성 정보\n\n4. 사용자 계정 및 패스워드 등 시스템 접근권한 정보\n\n5. 정보시스템 취약점분석 결과물\n\n6. 방화벽·침입방지시스템(IPS) 등 정보보호제품, 라우터·스위치 등 네트워크장비 도입현황 및 설정 정보\n7.「공공기관의 정보공개에 관한 법률」제9조제1항 단서에서 정한 비공개 대상\n\n8.「개인정보 보호법」제2조제1호에 따른 개인정보\n\n9.「보안업무규정」제4조의 비밀, 동 시행규칙 제16조제3항의 대외비\n10. 그 밖에 구축부서의 장이 공개가 불가하다고 판단한 자료",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "34",
-      "title": "평가배점",
-      "breadcrumb": [
-        "제2절 정보시스템의 발주",
-        "10. 그 밖에 구축부서의 장이 공개가 불가하다고 판단한 자료"
-      ],
-      "page": 1,
-      "text": "**제34조(평가배점)** 구축부서의 장은 기술력이 우수한 사업자를 선정하여 정보화사업의 품질을 확보하기 위해「국가를 당사자로 하는 계약에 관한 법률 시행령(이하 “국가계약법 시행령”이라 한다)」제43조의2에 따라 협상에 의한 계약체결 방법을 우선적으로 적용하고, 기술능력평가 배점한도를 90점으로 한다. 다만, 다음 각 호의 어느 하나에 해당하는 정보화사업은 기술능력평가의 배점한도를 80점으로 할 수 있다.\n1. 추정가격 중 하드웨어의 비중이 50% 이상인 사업\n\n2. 추정가격이 1억 미만인 개발사업\n\n3. 그 밖에 구축부서의 장이 판단하여 필요한 경우",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "35",
-      "title": "하도급 대금지급 등",
-      "breadcrumb": [
-        "제2절 정보시스템의 발주",
-        "3. 그 밖에 구축부서의 장이 판단하여 필요한 경우"
-      ],
-      "page": 1,
-      "text": "**제35조(하도급 대금지급 등)** ① 구축부서의 장은 하도급자가 하도급 대금의 직접 지급을 원하는 경우 이해관계자(발주자, 원도급자, 하도급자 등) 간 합의서를 작성하고 하도급자에게 대금을 직접 지급하여야 한다. 다만, 원도급자가 특별한 사유로 인해 하도급 대금의 직접 지급에 합의하지 않는 경우 원도급자는 발주자로부터 선급금을 받은 날부터 15일 이내에 하도급자에게 선금을 현금으로 지급하고, 증빙서류를 발주자에게 제출하여야 한다.\n② 구축부서의 장은 하드웨어 또는 상용소프트웨어를 직접 제조하는 자가 아닌 하도급자를 통해 구매하는 경우 그 하도급자와 제조사 간 기술 또는 판매와 관련된 관계임을 입증할 수 있는 증명을 제안서에 포함하여 제출하도록 제안요청서에 명시하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "36",
-      "title": "제안서 발표",
-      "breadcrumb": [
-        "제2절 정보시스템의 발주",
-        "② 구축부서의 장은 하드웨어 또는 상용소프트웨어를 직접 제조하는 자가 아닌 하도급자를 통해 구매하는 경우 그 하도급자와 제조사 간 기술 또는 판매와 관련된 관계임을 입증할 수 있는 증명을 제안서에 포함하여 제출하도록 제안요청서에 명시하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제36조(제안서 발표)** 구축부서의 장은 사업의 특성상 제안서 발표를 실시하는 경우 사업관리자(PM)의 전문성, 사업 이해도 등을 종합적으로 평가하기 위해 사업관리자가 직접 제안서를 발표하도록 제안요청서에 명시하여야 한다.\n\n**제37조(제안서 기술평가 기준)** ① 제안서 기술평가를 위한 평가항목 및 배점한도, 평가방법 등은 과학기술정보통신부장관이 고시한「소프트웨어 기술성 평가기준 지침」에서 정하는 바에 따른다.\n② 구축부서의 장은 공동수급체 구성을 통한 입찰에 대하여는 제1항의 기준 중 “상생협력” 평가항목은「구축·운영지침」별표 1에 따라 평가하여야 한다.\n\n③ 구축부서의 장은 기술평가 변별력이 확보되도록 사업의 특성을 고려하여 최소 6개 이상의 평가항목을 상대평가 항목으로 지정하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "38",
-      "title": "제안요청서 사전공개",
-      "breadcrumb": [
-        "제2절 정보시스템의 발주",
-        "③ 구축부서의 장은 기술평가 변별력이 확보되도록 사업의 특성을 고려하여 최소 6개 이상의 평가항목을 상대평가 항목으로 지정하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제38조(제안요청서 사전공개)** ① 구축부서의 장은 입찰참여의 균등한 기회 제공을 통한 공정한 경쟁을 위하여 입찰공고 전에 제안요청서를 사전 공개·열람토록 하여 의견을 제시할 수 있도록 하여야 한다. 다만, 경쟁에 부칠 여유가 없거나, 수의계약 대상인 경우에는 사전공개 절차를 생략할 수 있다.\n② 사전공개 기간은 공개일로부터 5일간으로 하고, 조달청 “나라장터(www.g2b.go.kr)” 및 “공단 대표 홈페이지(www.kead.or.kr)” 등을 통해 다음 각 호의 사항을 공개하여야 한다. 다만, 긴급을 요하는 경우에는 3일간 공개할 수 있다.\n\n1. 사업명\n\n2. 발주(공고)기관\n\n3. 실수요기관\n\n4. 배정예산액\n\n5. 접수일시(의견등록마감일시)\n\n6. 담당자(전화번호)\n\n7. 납품기한\n\n8. 제안요청서\n\n9. 그 밖에 사전공개에 필요한 사항",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "39",
-      "title": "사전공개 의견검토 등",
-      "breadcrumb": [
-        "제2절 정보시스템의 발주",
-        "9. 그 밖에 사전공개에 필요한 사항"
-      ],
-      "page": 1,
-      "text": "**제39조(사전공개 의견검토 등)** 구축부서의 장은 사전공개 결과 사업자 등으로부터 의견이 있을 때에는 적극 검토하여 그 결과를 의견제공자에게 통보하고, 수용한 의견은 제안요청서에 반영하여야 하며, 객관적이고 공정한 검토를 위하여 필요하다고 판단되는 경우 주관부서의 장에게 위원회 심의의뢰를 요청할 수 있다. 다만, 다음 각 호의 경우에는 위원회 심의를 생략할 수 있다.\n1. 사업자 등의 의견을 수용하여 제안요청서에 반영하는 경우\n\n2. 구축부서의 장이 자체 판단하여 의견검토가 가능한 경우",
-      "needsOriginal": false
-    },
-    {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "40",
+      "articleId": "제40조",
       "title": "입찰공고 기간",
       "breadcrumb": [],
       "page": 1,
-      "text": "제40조(입찰공고 기간) ① 입찰공고는「국가계약법 시행령」제35조에서 정한 바에 따른다.\n②「국가계약법 시행령」제35조제5항에 따라 다음 각 호의 어느 하나에 해당하는 경우에는 제안서 제출 마감일의 전날부터 기산하여 10일 전까지 공고할 수 있다.\n\n1. 「국가계약법 시행령」 제20조제2항에 따른 재공고입찰의 경우\n\n2. 다른 국가사업과 연계되어 일정조정을 위하여 불가피한 경우\n\n3. 긴급한 행사 또는 긴급한 재해예방·복구 등을 위하여 필요한 경우\n\n4. 그 밖에 제2호 및 제3호에 준하는 경우\n제3절 사업자 선정 및 가격협상",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "41",
-      "title": "평가위원회 구성 및 운영",
-      "breadcrumb": [
-        "제3절 사업자 선정 및 가격협상"
-      ],
-      "page": 1,
-      "text": "**제41조(평가위원회 구성 및 운영)** 구축부서의 장은 사업자를 선정하기 위해 제안서의 내용 및 그 밖에 평가사항 등 기술평가가 필요한 경우 제14조에 따라 평가위원회를 운영할 수 있다.\n\n**제42조(제안서 사전배포)** ① 구축부서의 장은 제안서의 내용에 대하여 평가위원의 상세한 검토가 필요하다고 판단되는 경우에는 제안서평가위원에게 제안서를 사전에 배포할 수 있다.\n\n② 제1항에 따라 제안서를 사전 배포하는 경우에는 제안서의 내용 등이 외부에 유출되지 않도록 보안서약서 징구 등 필요한 보안대책을 마련하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "43",
-      "title": "제안서 평가",
-      "breadcrumb": [
-        "제3절 사업자 선정 및 가격협상",
-        "② 제1항에 따라 제안서를 사전 배포하는 경우에는 제안서의 내용 등이 외부에 유출되지 않도록 보안서약서 징구 등 필요한 보안대책을 마련하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제43조(제안서 평가)** ① 구축부서의 장은 제안서의 평가에 있어서 필요한 서류가 첨부되어 있지 않거나 제출된 서류가 불명확하여 인지할 수 없는 경우에는 제안서 내용의 변경이 없는 경미한 사항에 한하여 기한을 정하여 보완을 요구하여야 한다.\n② 제1항에 따른 기한까지 보완 요구한 서류가 제출되지 아니한 경우에는 당초 제출된 서류만으로 평가하고, 당초 제출된 서류가 불명확하여 심사가 불가능한 경우에는 평가에서 제외한다.\n\n③ 평가위원회의 요청을 받은 경우 제안서를 제출한 자에게 보완자료 등 평가에 필요한 자료를 제출하게 할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "44",
-      "title": "제안서 검토시간",
-      "breadcrumb": [
-        "제3절 사업자 선정 및 가격협상",
-        "③ 평가위원회의 요청을 받은 경우 제안서를 제출한 자에게 보완자료 등 평가에 필요한 자료를 제출하게 할 수 있다."
-      ],
-      "page": 1,
-      "text": "**제44조(제안서 검토시간)** 제안서 평가를 위하여 평가위원에게 제안서를 사전 배포하지 않는 경우에는 입찰참가업체의 제안서발표 이전에 다음 각 호의 추정가격을 기준으로 평가위원에게 제안서 검토시간을 주어야 한다. 단, 입찰참가업체 수, 평가내용의 난이도 등을 고려하여 제안서 검토시간을 조정할 수 있다.\n1. 추정가격이 10억원 미만 60분이상\n\n2. 추정가격이 10억원 이상 50억원 미만 90분 이상\n\n3. 추정가격이 50억원 이상 200억원 미만 120분 이상",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "45",
-      "title": "제안서 평가결과 공개 등",
-      "breadcrumb": [
-        "제3절 사업자 선정 및 가격협상",
-        "3. 추정가격이 50억원 이상 200억원 미만 120분 이상"
-      ],
-      "page": 1,
-      "text": "**제45조(제안서 평가결과 공개 등)** 구축부서의 장은 추정가격이 20억원 이상인 사업의 제안서 평가 후 입찰 참여업체 평가순위, 획득점수 등의 평가결과는 다음 각 호의 내용에 따라 별지 제3호서식(사업 제안서평가 결과)으로 입찰참가업체에게 공개하여야 한다.\n1. 평가위원 실명은 비공개\n\n2. 과학기술정보통신부장관이 고시한「소프트웨어 기술성 평가기준 지침」별표 1 또는 별표 2의 평가부문별 점수",
+      "text": "제40조(입찰공고 기간) ① 입찰공고는「국가계약법 시행령」제35조에서 정한 바에 따른다.\n②「국가계약법 시행령」제35조제5항에 따라 다음 각 호의 어느 하나에 해당하는 경우에는 제안서 제출 마감일의 전날부터 기산하여 10일 전까지 공고할 수 있다.\n1. 「국가계약법 시행령」 제20조제2항에 따른 재공고입찰의 경우\n2. 다른 국가사업과 연계되어 일정조정을 위하여 불가피한 경우\n3. 긴급한 행사 또는 긴급한 재해예방·복구 등을 위하여 필요한 경우\n4. 그 밖에 제2호 및 제3호에 준하는 경우\n제3절 사업자 선정 및 가격협상\n**제41조(평가위원회 구성 및 운영)** 구축부서의 장은 사업자를 선정하기 위해 제안서의 내용 및 그 밖에 평가사항 등 기술평가가 필요한 경우 제14조에 따라 평가위원회를 운영할 수 있다.\n**제42조(제안서 사전배포)** ① 구축부서의 장은 제안서의 내용에 대하여 평가위원의 상세한 검토가 필요하다고 판단되는 경우에는 제안서평가위원에게 제안서를 사전에 배포할 수 있다.\n② 제1항에 따라 제안서를 사전 배포하는 경우에는 제안서의 내용 등이 외부에 유출되지 않도록 보안서약서 징구 등 필요한 보안대책을 마련하여야 한다.\n**제43조(제안서 평가)** ① 구축부서의 장은 제안서의 평가에 있어서 필요한 서류가 첨부되어 있지 않거나 제출된 서류가 불명확하여 인지할 수 없는 경우에는 제안서 내용의 변경이 없는 경미한 사항에 한하여 기한을 정하여 보완을 요구하여야 한다.\n② 제1항에 따른 기한까지 보완 요구한 서류가 제출되지 아니한 경우에는 당초 제출된 서류만으로 평가하고, 당초 제출된 서류가 불명확하여 심사가 불가능한 경우에는 평가에서 제외한다.\n③ 평가위원회의 요청을 받은 경우 제안서를 제출한 자에게 보완자료 등 평가에 필요한 자료를 제출하게 할 수 있다.\n**제44조(제안서 검토시간)** 제안서 평가를 위하여 평가위원에게 제안서를 사전 배포하지 않는 경우에는 입찰참가업체의 제안서발표 이전에 다음 각 호의 추정가격을 기준으로 평가위원에게 제안서 검토시간을 주어야 한다. 단, 입찰참가업체 수, 평가내용의 난이도 등을 고려하여 제안서 검토시간을 조정할 수 있다.\n1. 추정가격이 10억원 미만 60분이상\n2. 추정가격이 10억원 이상 50억원 미만 90분 이상\n3. 추정가격이 50억원 이상 200억원 미만 120분 이상\n**제45조(제안서 평가결과 공개 등)** 구축부서의 장은 추정가격이 20억원 이상인 사업의 제안서 평가 후 입찰 참여업체 평가순위, 획득점수 등의 평가결과는 다음 각 호의 내용에 따라 별지 제3호서식(사업 제안서평가 결과)으로 입찰참가업체에게 공개하여야 한다.\n1. 평가위원 실명은 비공개\n2. 과학기술정보통신부장관이 고시한「소프트웨어 기술성 평가기준 지침」별표 1 또는 별표 2의 평가부문별 점수\n**제46조(기술 및 가격협상 절차 등)** ① 협상적격자 및 협상순위의 선정, 협상적격자에 대한 통지, 협상절차, 협상내용과 범위, 협상기간, 가격의 협상, 협상결과 통보 등은「국가계약법 시행령」제43조에 따라서 계약을 체결하는 경우 기획재정부 계약예규「협상에 의한 계약체결 기준」제8조부터 제15조까지 정한 바에 따른다.\n② 사업자는 기술협상 시 과업내용의 변경으로 인해 하도급 대금 지급비율 변경이 필요한 경우 그 사유를 명시하여 구축부서의 장에게 승인을 요청하여야 한다.\n③ 구축부서의 장은 제2항의 요청을 받은 경우 하도급 대금 지급비율 변경의 적정성을 검토하고 그 결과를 기술협상 내용의 일부로 포함하여야 한다.\n④ 구축부서의 장은 기술협상 시 제35조제2항에 따라 사업자가 제출한 하도급자와 제조사의 기술 또는 판매와 관련된 증명의 적정성을 검토하여야 한다.\n**제47조(장기계속계약)** ① 구축부서의 장은 정보화사업 이행에 수년을 요하는 정보시스템 사업에 있어서는 「국가계약법」제21조제2항 및 같은 법 시행령 제69조제1항과 제3항부터 4항까지에 의하여 장기계속계약을 체결할 수 있다. 이 경우 각 회계연도 예산의 범위에서 해당 계약을 이행하게 하여야 한다.\n1. 사업수행기간 및 업무연속성 확보가 중요한 사업으로 다음 각 목의 요건을 모두 충족하는 정보시스템 구축사업\n가. 정보화전략계획(ISP)을 통하여 연차별 사업내용을 수립한 경우\n나. 연도별 계약결과물의 완성여부를 판단(검사)할 수 있는 경우\n2. 장기계속계약을 체결하는 제1호의사업에 대한 전자정부사업관리 위탁사업 또는 정보시스템 감리사업\n3. 정보시스템 운영 및 유지관리 사업\n② 제1항제3호에 따라 장기계속계약을 체결하고자 하는 경우에는 고용노동부장관의 승인을 얻어 단가에 대한 계약으로 체결할 수 있다. 그 밖에 제1항의 계약 체결에 관한 세부적인 사항은 「국가계약법 시행령」 제69조 등 관련 규정에 따른다.\n③ 구축부서의 장은 제1항에 따라 장기계속계약을 체결하는 경우에는 지속적인 유지관리 서비스의 품질확보를 위한 대책을 마련하고 시행하여야 한다.\n**제48조(계약정보 공개)**  ① 구축부서의 장은 정보화사업에 대해 기획재정부 계약예규 「용역계약 일반조건」제61조에 따라 다음 각 호의 사항을 “공단 대표 홈페이지”, “알리오시스템(www.alio.go.kr)” 등에 공개하여야 한다.\n1. 발주계획(사업명, 발주물량 또는 그 규모, 예산액을 포함한다)\n2. 입찰공고(국가를 당사자로 하는 계약에 관한 법률 시행령 제30조제2항에 따라 2인 이상으로부터 견적서를 제출받은 수의계약의 공고를 포함한다)\n3. 개찰의 결과\n4. 계약체결의 현황(하도급 현황을 포함한다)\n5. 과업내용 등 계약내용의 변경(입찰공고와 다른 조건으로 계약이 체결된 경우를 포함한다)에 관한 사항\n6. 감리·감독·검사의 현황\n7. 대가의 지급현황\n② 제1항에 따른 공단 대표 홈페이지의 경우 계약정보의 공개는 계약이행 완료일로부터 5년 이상 하여야 한다.\n제4절 사업수행\n**제49조(하도급 승인 신청)** ① 「소프트웨어 진흥법」제51조제5항에 따른 하도급 및 재하도급에 대한 승인 절차, 제출서류 등은 「소프트웨어 진흥법 시행규칙」제14조에서 정한 바에 따르며, 하도급 계약의 승인을 신청하는 사업자는 다음 각 호의 서류를 구축부서의 장에게 제출하여야 한다.\n1.「소프트웨어 진흥법 시행규칙」별지 제21호 서식에 따른「소프트웨어사업 하도급·재하도급 계약승인신청서」\n2.「하도급거래 공정화에 관한 법률」제3조의2 규정에 따른「소프트웨어사업 표준하도급계약서(안)」와 하도급되는 부문의 세부 산출내역서\n3. 하도급 사업수행계획서(세부 사업추진일정표 포함)\n4. 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」의 별지 제8호 서식에서 정한 자기평가표 및 해당 증빙서류\n② 사업자는 하도급 승인이 거절된 경우 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」 제21조제5항에 따라 7일 이내에 하도급 계약의 적정성 판단을 다시 요청할 수 있다.\n**제50조(하도급 승인)** ① 구축부서의 장은 제49조제1항제2호 세부 산출내역서의 하도급 대금 지급비율이 제35조 또는 제46조제3항에서 명시한 하도급 대금지급 비율보다 낮은 경우 하도급 승인을 거절하여야 한다.\n② 제49조제1항에 따른 신청을 받은 구축부서의 장은 과학기술정보통신부장관이 고시한「소프트웨어사업 계약 및 관리감독에 관한 지침」에 따라 하도급 또는 재하도급 계약의 적정성 여부를 검토하여 10일 이내에 그 승인 여부를 사업자에게 서면(전자문서를 포함한다.)으로 알려야 한다.\n③ 제2항에도 불구하고 하도급 계약의 적정성 판단에 상당한 시일이 요구되는 등 불가피한 사유가 있는 경우에는 통지기간을 한 차례만 연장할 수 있으며, 통지기간을 연장한 경우에는 통지예정 기한을 정하여 지체 없이 사업자에게 알려야 한다.\n④ 구축부서의 장이 사업자에게 제2항의 하도급 승인여부를 기간내에 통지하지 아니하거나 제3항에 따라 통지기간연장을 통지하지 아니한 경우에는 제49조제1항부터 제2항까지의 하도급을 승인한 것으로 본다.\n**제51조(착수 및 보고)** ① 사업자는 계약체결 후 10일 이내에 별지 제4호 서식의 정보화사업 착수계(사업수행계획서 포함)를 작성하여 구축부서의 장에게 제출하여야 한다. 단, 하도급 승인이 필요한 경우 하도급 승인을 받은 날로부터 3일 이내에 제출하여야 한다.\n② 제1항의 정보화사업 착수계는 제안요청서와 제안서, 기술협상 등을 근거로 작성하되 사업자의 의견이 있는 경우 구축부서의 장과 사전협의를 통하여 반영할 수 있다.\n③ 구축부서의 장은 제1항의 착수계를 검토하고, 제안요청서 및 계약서의 내용에 부합하지 않을 경우 보완을 요구할 수 있으며, 사업자는 보완을 요구받은 날로부터 7일 이내에 보완하여 제출하여야 한다.\n④ 구축부서의 장은 사업자가 제안한 사업내용, 이행방법, 이행일정 등에 대하여 착수보고회 개최를 요청할 수 있다.\n⑤ 구축부서의 장은 「소프트웨어 진흥법」제46조에 따른 소프트웨어 사업정보를 과학기술정보통신부장관이 요청한 바에 따라 제출하여야 한다.\n**제52조(하도급 관리)** ① 구축부서의 장은 계약상대자가 입찰 및 계약체결 시 제출한 소프트웨어 하도급 및 재하도급 계획서 등을 확인하여 다음 각 호의 제한 범위를 준수하도록 관리하여야 한다.\n1. 「소프트웨어 진흥법」 제51조제1항에 따라 전체 사업금액을 기준으로 100분의 50을 초과하여 하도급을 할 수 없다. 다만, 「소프트웨어 진흥법」 제51조제2항에 각 호에 해당하는 단순 물품의 구매·설치 및 유지관리 용역 등과 신기술 또는 전문기술이 필요한 경우에는 그러하지 아니하다.\n2. 「소프트웨어 진흥법 시행령」 제48조제2항에 따라 하도급받은 사업금액의 100분의 50을 초과하여 재하도급을 할 수 없다.\n② 구축부서의 장은 「소프트웨어 진흥법 시행규칙」제14조제3항에 따라서 하도급 또는 재하도급 계약의 준수여부를 확인하기 위하여 필요한 경우 하도급 또는 재하도급을 승인받은 자로 하여금 「소프트웨어 진흥법 시행규칙」 별지 제22호 서식의 소프트웨어사업 하도급계약 준수 실태 보고서에 따라 그 준수여부를 보고하게 할 수 있다.\n③ 구축부서의 장은 제50조에서 승인한 대로 하도급 또는 재하도급 계약이 이행되지 않은 경우에는 지체없이「하도급거래 공정화에 관한 법률」제25조에 따른 조치를 취하여 줄 것을 공정거래위원회에 요청하여야 한다.\n④ 구축부서의 장은 승인 없이 하도급을 하거나, 하도급조건을 하도급자에게 불리하게 변경한 경우 등은「국가를 당사자로 하는 계약에 관한 법률 시행규칙」 제76조에서 정한 세부기준에 따라 입찰참가자격을 제한하는 등 필요한 조치를 취하여야 한다.\n**제53조(작업장소 등)** ① 구축부서의 장과 사업자는 소프트웨어사업수행을 위하여 필요한 장소 및 설비, 그 밖의 작업환경(이하 \"작업장소 등\"이라 한다)을 상호 협의하여 정한다.\n② 구축부서의 장이 작업장소 등에 관한 비용을 사업예산 또는 예정가격에 계상하지 아니한 경우에는 구축부서의 장이 작업장소 등을 제공한다.\n③ 제2항의 사업예산 또는 예정가격 작성 시 다음 각 호의 근거에 따라 작업장소 등에 관한 비용을 계상한다.\n1. 기획재정부 계약예규「예정가격 작성기준」제11조제3항제9호에 해당하는 경비(지급임차료)\n2. 한국소프트웨어산업협회장이 공표한「SW사업 대가산정 가이드」에서 정의된 직접경비(현장운영비)\n④ 사업자는 당해 계약의 효율적 이행을 위해 필요한 경우 그 사유 및 기간 등을 정하여 구축부서의 장에게 승인을 받은 후 해당 사업에 투입되는 인력을 제1항의 작업장소 이외에서도 근무하게 할 수 있다.\n**제54조(인력관리)** 구축부서의 장은 제안요청서에 투입인력의 수와 기간에 의한 방식에 관한 요구사항을 명시할 수 없고, 사업을 추진함에 있어 투입인력별 투입기간을 관리할 수 없다. 단, 다음사항의 사업은 예외로 한다.\n1. 정보화전략계획수립, 업무재설계, 정보시스템 구축계획 수립, 정보보안컨설팅 등 컨설팅 성격의 사업\n2. 전자정부사업관리 위탁사업·감리용역사업\n3. DB 구축 및 자료 입력, 디지털콘텐츠 개발 서비스\n4. 관제, 고정비(투입공수방식 운영비) 방식의 유지관리 및 운영 사업 등 인력관리 성격의 사업\n**제55조(기술적용 계획 준수)** ① 사업자는 제23조제1항 또는 제23조제4항에 따른 기술적용계획표를 준수하여 사업을 추진하여야 한다.\n② 사업자는 사업 검사 및 최종감리 수행 시「구축·운영지침」별지 제1호 서식의 기술적용결과표를 작성하여 제출하여야 한다.\n**제56조(표준산출물)** ① 구축부서의 장은 운영, 유지관리 등에 필요한 표준산출물을 지정하여 사업자에게 제출을 요구할 수 있다.\n② 구축부서의 장은 제1항에 따른 산출물을 기관의 정보시스템을 이용하여 체계적으로 관리하고 운영·유지관리 또는 고도화 사업 등에 활용될 수 있도록 유지·관리하여야 한다.\n**제57조(과업내용의 변경)** ① 구축부서의 장은 기획재정부 계약예규「용역계약 일반조건」제16조에 따라 과업내용을 추가, 변경, 삭제할 수 있다.\n② 사업자는 제1항에 의하여 하도급 대금지급 비율 변경이 발생하는 경우 그 사유와 변경 전·후의 별지 제1호 서식(「용역계약 일반조건」)을 작성하여 구축부서의 장에게 검토를 요청하고 승인을 받아야 한다.\n**제58조(과업내용의 변경절차)** 구축부서의 장은 과업내용을 변경하는 경우「소프트웨어 진흥법」제50조, 기획재정부 계약예규「용역계약 일반조건」제53조의 절차를 준수하여야 한다.\n**제59조(과업변경 대가지급)** 제58조에 따라 과업내용을 변경한 경우 계약금액조정은「국가계약법 시행령」제65조제1항부터 제6항을 준용한다.\n**제60조(정보자원 통합관리)** ① 주관부서의 장은 공단에서 보유한 정보자원을「전자정부법」제47조제3항에 따른 정보자원관리시스템(www.irm.go.kr)에 등록하여야 한다.\n② 주관부서의 장은「전자정부법」제54조에서 규정한 정보자원의 현황 및 통계자료를 관리하기 위해 제1항의 시스템을 활용할 수 있다.\n**제61조(정보시스템 등급제)** ① 주관부서의 장은 소관 정보시스템에 대하여 중요도, 가용성 등에 따라 등급을 분류하고 등급별로 장애관리, 행정정보 관리, 보안관리 등을 수행하여야 한다.\n② 주관부서의 장은 제1항의 등급 분류 및 관리를 위한 기준을 정하여 제공할 수 있다. 다만, 보안관리에 관한 사항은 국가정보원장과 사전에 협의하여야 한다.\n**제62조(감리시행)** ① 구축부서의 장과 사업자는 단계별 감리수행결과보고서에 따라 시정조치를 수행하여야 한다.\n② 감리법인은 제23조제1항 또는 제23조제4항에서 작성된 기술적용계획표와 제55조제2항의 기술적용결과표의 준수여부를 확인하여 그 결과를 감리수행결과보고서에 기술하여야 한다.\n제5절 소프트웨어 개발보안\n**제63조(소프트웨어 개발보안 원칙)** ① 구축부서의 장이「전자정부법 시행령」제71조제1항에 해당하는 정보화사업을 추진할 때에는「구축·운영지침」별표 3의 소프트웨어 보안약점이 없도록 소프트웨어를 개발 또는 변경(이하 ‘소프트웨어 개발보안’이라 한다)하여야 한다. 다만,「전자정부법 시행령」제71조제1항에 해당하지 않는 정보화사업도 소프트웨어 개발보안을 적용할 수 있다.\n② 제1항에 따라 구축부서의 장이 정보화사업 추진 시 적용해야 할 소프트웨어 개발보안의 범위는 다음 각 호와 같다.\n1. 신규개발의 경우 : 설계단계 산출물 및 소스코드 전체\n2. 유지관리의 경우 : 유지관리로 인해 변경된 설계단계 산출물 및 소스코드 전체\n③ 제2항에 따라 소프트웨어 개발보안 적용 시 상용 소프트웨어는 제외한다.\n**제64조(소프트웨어 개발보안 활동)** ① 구축부서의 장은 제안서 평가 시 소프트웨어 개발보안을 위해 소프트웨어 보안약점 진단도구 사용 여부, 개발절차와 방법의 적절성, 제3항에 의한 교육계획의 적정성 등을 확인하고 평가에 반영할 수 있다.\n② 사업자는 제63조에 따라 소프트웨어 개발보안을 적용하는 경우 행정안전부장관이 국가정보원장과 협의하여 공지하는「소프트웨어 개발 보안가이드」를 참고할 수 있다.\n③ 사업자는 정보화사업 착수단계에서「소프트웨어 개발 보안가이드」등 소프트웨어 개발보안 관련 교육을 실시하고 이후 투입되는 인력은 개발에 투입하기 전 소프트웨어 개발보안 관련 교육을 실시하여야 한다.\n**제65조(보안약점 진단기준)** 행정기관등의 장은 소프트웨어 보안약점을 진단할 때 「구축·운영지침」별표 3의 소프트웨어 보안약점을 필수 진단항목으로 포함하여야 한다.\n**제66조(보안약점 진단절차)** ① 구축부서의 장은 정보화사업 감리를 수행하는 경우 감리법인으로 하여금 사업자가「구축·운영지침」별표 3의 소프트웨어 보안약점을 제거하였는지 진단하도록 하여야 한다.\n② 감리법인은 제1항에 따라 소프트웨어 보안약점을 진단할 경우 행정안전부장관이 고시한「정보시스템 감리기준」제10조제1항의 세부 검사항목에 소프트웨어 보안약점 제거 여부를 포함하여야 한다.\n③ 감리법인은 소프트웨어 보안약점을 진단할 경우 행정안전부장관이 고시한 「정보시스템 감리기준」제5조제3항에 따라 진단원을 우선적으로 배치할 수 있다.\n④ 감리법인이 소프트웨어 보안약점 진단과정에서 소프트웨어 보안약점 진단도구를 사용할 경우, 과학기술정보통신부장관이 고시한「정보보호시스템 평가·인증 지침」에 따라 국가보안기술연구소장이 인증한 보안약점 진단도구를 사용하여야 한다.\n⑤ 구축부서의 장은「전자정부법 시행령」제71조제1항에 해당하지 않는 정보화사업에 소프트웨어 개발보안을 적용할 경우에는 사업자로 하여금 보안약점을 진단·제거토록 하고 그 결과를 확인할 수 있다.\n제6절 검사 및 운영\n**제67조(지체상금)** 사업자는 계약서에 정한 용역수행 기한내에 용역을 완성하지 아니한 경우 지체상금 산출 및 공제, 지체일수 산정 등은 기획재정부 계약예규「용역계약 일반조건」제18조에서 정한 바에 따른다.\n**제68조(검사)** ① 구축부서의 장은 용역 사업자가 사업을 완료하면「국가계약법 시행령」제55조에 따라 검사를 하여야 한다.\n② 검사의 통지, 기한, 시정조치, 재검사 등에 관한 사항은 기획재정부 계약예규 「용역계약 일반조건」제20조에서 정한 바에 따른다.\n③ 구축부서의 장은 검사 시 다음 각 호를 확인하여야 한다.\n1. 제55조제1항에 따른 기술적용계획표와 제55조제2항에 따른 기술적용결과표의 준수여부\n2. 제62조제1항에 따른 감리수행결과보고서의 부적합 조치 여부\n**제69조(운영 및 유지관리)** ① 구축부서의 장은 정보시스템의 운영, 유지관리 등으로 인해 변경이 발생하는 경우 표준산출물과 일관성이 유지되도록 관리하여야 한다.\n② 주관부서의 장은 구축이 완료되어 서비스 운영이 개시된 시점으로부터 1년이 경과한 정보시스템에 대하여 행정안전부장관이 고시한「전자정부 성과관리 지침」에 따라 매년 운영 성과를 측정해야 한다.\n③ 사업자는 운영 및 유지관리를 수행하면서 반복적으로 수행하는 사항을 설명서 또는 안내서(매뉴얼)로 작성·관리하고, 구축부서의 장이 요구하는 경우 제공하여야 한다.\n**제70조(계약목적물의 지식재산권 귀속 및 기술자료 임치)** ① 계약목적물의 지식재산권 귀속 등에 관한 사항은 기획재정부 계약예규「용역계약 일반조건」제56조에서 정한 바에 따른다.\n② 사업자는 계약목적물의 사용을 보장하고 지식재산권을 보호하기 위해 사업자의 사업수행에 따른 계약목적물의 기술자료를 제3의 기관에 임치하여야 하며, 세부사항은 기획재정부 계약예규「용역계약 일반조건」제57조에서 정한 바에 따른다.\n제7절 정보시스템 운영 및 관리\n**제71조(전산장비 등의 관리)** ① 본부 각 실(국)장 및 소속기관장은 서버 등 전산장비를 운영하는 경우 항시 운용 가능한 상태로 유지·관리하여야 한다.\n② 본부 각 실(국)장 및 소속기관장은 통신회선 및 설비상태를 점검하여 통신망을 항시 운용 가능한 상태로 유지·관리하여야 한다.\n③ 본부 각 실(국)장 및 소속기관장은 전산장비를「자산관리규정」및「자산관리규정 시행규칙」에 따라 관리하여야 한다.\n④ 전산장비는 외부로 반출할 수 없다. 다만, 장비수리 등 부득이한 업무로 반․출입하는 경우에는「정보보안 및 개인정보보호 업무처리규칙」별지 제14호 서식의 전산장비 및 휴대용 저장매체 반․출입 대장을 이용하여 관리․통제하여야 한다.\n**제72조(정보시스템 운영)** ① 소관부서의 장은 효율적인 정보시스템 운영을 위하여 소관업무와 관련된 응용프로그램 개발에 따른 사용자 지침서(매뉴얼) 등을 작성하여 본부 각 실(국) 및 소속기관 등 사용 기관에 배포하여야 한다.\n② 구축부서의 장은 개발된 응용프로그램의 운영·관리를 위하여 개시하기 전에 반드시 시범운영 절차를 거쳐야 하며, 필요한 경우 사용자 교육을 실시하는 등 안정적인 운영을 위한 조치를 취하여야 한다.\n③ 소관부서의 장이 개발이 완료된 응용프로그램에 대해 수정·변경하고자 하는 경우에는 문서 또는 업무시스템의 작업의뢰서 관리를 통해 주관부서의 장에게 요청하여야 한다.\n④ 연구 및 업무수행 목적으로 전산자료를 이용하고자 하는 경우에는 문서 또는 업무시스템을 통해 요청하되, 반드시 본부 소관 사업부서의 장을 경유하여 주관부서의 장에게 전산자료의 추출 등을 요청하여야 하며, 해당 자료는 개인정보 보호 및 정보보안 등 관련 규정을 준수하여야 한다.",
       "needsOriginal": true
     },
     {
-      "articleNo": "46",
-      "title": "기술 및 가격협상 절차 등",
-      "breadcrumb": [
-        "제3절 사업자 선정 및 가격협상",
-        "2. 과학기술정보통신부장관이 고시한「소프트웨어 기술성 평가기준 지침」별표 1 또는 별표 2의 평가부문별 점수"
-      ],
-      "page": 1,
-      "text": "**제46조(기술 및 가격협상 절차 등)** ① 협상적격자 및 협상순위의 선정, 협상적격자에 대한 통지, 협상절차, 협상내용과 범위, 협상기간, 가격의 협상, 협상결과 통보 등은「국가계약법 시행령」제43조에 따라서 계약을 체결하는 경우 기획재정부 계약예규「협상에 의한 계약체결 기준」제8조부터 제15조까지 정한 바에 따른다.\n② 사업자는 기술협상 시 과업내용의 변경으로 인해 하도급 대금 지급비율 변경이 필요한 경우 그 사유를 명시하여 구축부서의 장에게 승인을 요청하여야 한다.\n\n③ 구축부서의 장은 제2항의 요청을 받은 경우 하도급 대금 지급비율 변경의 적정성을 검토하고 그 결과를 기술협상 내용의 일부로 포함하여야 한다.\n\n④ 구축부서의 장은 기술협상 시 제35조제2항에 따라 사업자가 제출한 하도급자와 제조사의 기술 또는 판매와 관련된 증명의 적정성을 검토하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "47",
-      "title": "장기계속계약",
-      "breadcrumb": [
-        "제3절 사업자 선정 및 가격협상",
-        "④ 구축부서의 장은 기술협상 시 제35조제2항에 따라 사업자가 제출한 하도급자와 제조사의 기술 또는 판매와 관련된 증명의 적정성을 검토하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제47조(장기계속계약)** ① 구축부서의 장은 정보화사업 이행에 수년을 요하는 정보시스템 사업에 있어서는 「국가계약법」제21조제2항 및 같은 법 시행령 제69조제1항과 제3항부터 4항까지에 의하여 장기계속계약을 체결할 수 있다. 이 경우 각 회계연도 예산의 범위에서 해당 계약을 이행하게 하여야 한다.\n1. 사업수행기간 및 업무연속성 확보가 중요한 사업으로 다음 각 목의 요건을 모두 충족하는 정보시스템 구축사업\n\n가. 정보화전략계획(ISP)을 통하여 연차별 사업내용을 수립한 경우\n\n나. 연도별 계약결과물의 완성여부를 판단(검사)할 수 있는 경우\n\n2. 장기계속계약을 체결하는 제1호의사업에 대한 전자정부사업관리 위탁사업 또는 정보시스템 감리사업\n\n3. 정보시스템 운영 및 유지관리 사업\n\n② 제1항제3호에 따라 장기계속계약을 체결하고자 하는 경우에는 고용노동부장관의 승인을 얻어 단가에 대한 계약으로 체결할 수 있다. 그 밖에 제1항의 계약 체결에 관한 세부적인 사항은 「국가계약법 시행령」 제69조 등 관련 규정에 따른다.\n\n③ 구축부서의 장은 제1항에 따라 장기계속계약을 체결하는 경우에는 지속적인 유지관리 서비스의 품질확보를 위한 대책을 마련하고 시행하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "48",
-      "title": "계약정보 공개",
-      "breadcrumb": [
-        "제3절 사업자 선정 및 가격협상",
-        "③ 구축부서의 장은 제1항에 따라 장기계속계약을 체결하는 경우에는 지속적인 유지관리 서비스의 품질확보를 위한 대책을 마련하고 시행하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제48조(계약정보 공개)**  ① 구축부서의 장은 정보화사업에 대해 기획재정부 계약예규 「용역계약 일반조건」제61조에 따라 다음 각 호의 사항을 “공단 대표 홈페이지”, “알리오시스템(www.alio.go.kr)” 등에 공개하여야 한다.\n1. 발주계획(사업명, 발주물량 또는 그 규모, 예산액을 포함한다)\n\n2. 입찰공고(국가를 당사자로 하는 계약에 관한 법률 시행령 제30조제2항에 따라 2인 이상으로부터 견적서를 제출받은 수의계약의 공고를 포함한다)\n\n3. 개찰의 결과\n\n4. 계약체결의 현황(하도급 현황을 포함한다)\n\n5. 과업내용 등 계약내용의 변경(입찰공고와 다른 조건으로 계약이 체결된 경우를 포함한다)에 관한 사항\n\n6. 감리·감독·검사의 현황\n\n7. 대가의 지급현황\n\n② 제1항에 따른 공단 대표 홈페이지의 경우 계약정보의 공개는 계약이행 완료일로부터 5년 이상 하여야 한다.\n제4절 사업수행",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "49",
-      "title": "하도급 승인 신청",
-      "breadcrumb": [
-        "제4절 사업수행"
-      ],
-      "page": 1,
-      "text": "**제49조(하도급 승인 신청)** ① 「소프트웨어 진흥법」제51조제5항에 따른 하도급 및 재하도급에 대한 승인 절차, 제출서류 등은 「소프트웨어 진흥법 시행규칙」제14조에서 정한 바에 따르며, 하도급 계약의 승인을 신청하는 사업자는 다음 각 호의 서류를 구축부서의 장에게 제출하여야 한다. \n\n1.「소프트웨어 진흥법 시행규칙」별지 제21호 서식에 따른「소프트웨어사업 하도급·재하도급 계약승인신청서」\n\n2.「하도급거래 공정화에 관한 법률」제3조의2 규정에 따른「소프트웨어사업 표준하도급계약서(안)」와 하도급되는 부문의 세부 산출내역서\n\n3. 하도급 사업수행계획서(세부 사업추진일정표 포함)\n\n4. 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」의 별지 제8호 서식에서 정한 자기평가표 및 해당 증빙서류\n\n② 사업자는 하도급 승인이 거절된 경우 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」 제21조제5항에 따라 7일 이내에 하도급 계약의 적정성 판단을 다시 요청할 수 있다.",
-      "needsOriginal": true
-    },
-    {
-      "articleNo": "50",
-      "title": "하도급 승인",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "② 사업자는 하도급 승인이 거절된 경우 과학기술정보통신부장관이 고시한 「소프트웨어사업 계약 및 관리감독에 관한 지침」 제21조제5항에 따라 7일 이내에 하도급 계약의 적정성 판단을 다시 요청할 수 있다."
-      ],
-      "page": 1,
-      "text": "**제50조(하도급 승인)** ① 구축부서의 장은 제49조제1항제2호 세부 산출내역서의 하도급 대금 지급비율이 제35조 또는 제46조제3항에서 명시한 하도급 대금지급 비율보다 낮은 경우 하도급 승인을 거절하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "49",
-      "title": null,
-      "breadcrumb": [
-        "제4절 사업수행"
-      ],
-      "page": 1,
-      "text": "② 제49조제1항에 따른 신청을 받은 구축부서의 장은 과학기술정보통신부장관이 고시한「소프트웨어사업 계약 및 관리감독에 관한 지침」에 따라 하도급 또는 재하도급 계약의 적정성 여부를 검토하여 10일 이내에 그 승인 여부를 사업자에게 서면(전자문서를 포함한다.)으로 알려야 한다.\n\n③ 제2항에도 불구하고 하도급 계약의 적정성 판단에 상당한 시일이 요구되는 등 불가피한 사유가 있는 경우에는 통지기간을 한 차례만 연장할 수 있으며, 통지기간을 연장한 경우에는 통지예정 기한을 정하여 지체 없이 사업자에게 알려야 한다.\n\n④ 구축부서의 장이 사업자에게 제2항의 하도급 승인여부를 기간내에 통지하지 아니하거나 제3항에 따라 통지기간연장을 통지하지 아니한 경우에는 제49조제1항부터 제2항까지의 하도급을 승인한 것으로 본다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "51",
-      "title": "착수 및 보고",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "④ 구축부서의 장이 사업자에게 제2항의 하도급 승인여부를 기간내에 통지하지 아니하거나 제3항에 따라 통지기간연장을 통지하지 아니한 경우에는 제49조제1항부터 제2항까지의 하도급을 승인한 것으로 본다."
-      ],
-      "page": 1,
-      "text": "**제51조(착수 및 보고)** ① 사업자는 계약체결 후 10일 이내에 별지 제4호 서식의 정보화사업 착수계(사업수행계획서 포함)를 작성하여 구축부서의 장에게 제출하여야 한다. 단, 하도급 승인이 필요한 경우 하도급 승인을 받은 날로부터 3일 이내에 제출하여야 한다.\n② 제1항의 정보화사업 착수계는 제안요청서와 제안서, 기술협상 등을 근거로 작성하되 사업자의 의견이 있는 경우 구축부서의 장과 사전협의를 통하여 반영할 수 있다.\n\n③ 구축부서의 장은 제1항의 착수계를 검토하고, 제안요청서 및 계약서의 내용에 부합하지 않을 경우 보완을 요구할 수 있으며, 사업자는 보완을 요구받은 날로부터 7일 이내에 보완하여 제출하여야 한다.\n\n④ 구축부서의 장은 사업자가 제안한 사업내용, 이행방법, 이행일정 등에 대하여 착수보고회 개최를 요청할 수 있다.\n\n⑤ 구축부서의 장은 「소프트웨어 진흥법」제46조에 따른 소프트웨어 사업정보를 과학기술정보통신부장관이 요청한 바에 따라 제출하여야 한다.",
-      "needsOriginal": true
-    },
-    {
-      "articleNo": "52",
-      "title": "하도급 관리",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "⑤ 구축부서의 장은 「소프트웨어 진흥법」제46조에 따른 소프트웨어 사업정보를 과학기술정보통신부장관이 요청한 바에 따라 제출하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제52조(하도급 관리)** ① 구축부서의 장은 계약상대자가 입찰 및 계약체결 시 제출한 소프트웨어 하도급 및 재하도급 계획서 등을 확인하여 다음 각 호의 제한 범위를 준수하도록 관리하여야 한다.\n1. 「소프트웨어 진흥법」 제51조제1항에 따라 전체 사업금액을 기준으로 100분의 50을 초과하여 하도급을 할 수 없다. 다만, 「소프트웨어 진흥법」 제51조제2항에 각 호에 해당하는 단순 물품의 구매·설치 및 유지관리 용역 등과 신기술 또는 전문기술이 필요한 경우에는 그러하지 아니하다.\n\n2. 「소프트웨어 진흥법 시행령」 제48조제2항에 따라 하도급받은 사업금액의 100분의 50을 초과하여 재하도급을 할 수 없다.\n\n② 구축부서의 장은 「소프트웨어 진흥법 시행규칙」제14조제3항에 따라서 하도급 또는 재하도급 계약의 준수여부를 확인하기 위하여 필요한 경우 하도급 또는 재하도급을 승인받은 자로 하여금 「소프트웨어 진흥법 시행규칙」 별지 제22호 서식의 소프트웨어사업 하도급계약 준수 실태 보고서에 따라 그 준수여부를 보고하게 할 수 있다.\n\n③ 구축부서의 장은 제50조에서 승인한 대로 하도급 또는 재하도급 계약이 이행되지 않은 경우에는 지체없이「하도급거래 공정화에 관한 법률」제25조에 따른 조치를 취하여 줄 것을 공정거래위원회에 요청하여야 한다.\n\n④ 구축부서의 장은 승인 없이 하도급을 하거나, 하도급조건을 하도급자에게 불리하게 변경한 경우 등은「국가를 당사자로 하는 계약에 관한 법률 시행규칙」 제76조에서 정한 세부기준에 따라 입찰참가자격을 제한하는 등 필요한 조치를 취하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "53",
-      "title": "작업장소 등",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "④ 구축부서의 장은 승인 없이 하도급을 하거나, 하도급조건을 하도급자에게 불리하게 변경한 경우 등은「국가를 당사자로 하는 계약에 관한 법률 시행규칙」 제76조에서 정한 세부기준에 따라 입찰참가자격을 제한하는 등 필요한 조치를 취하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제53조(작업장소 등)** ① 구축부서의 장과 사업자는 소프트웨어사업수행을 위하여 필요한 장소 및 설비, 그 밖의 작업환경(이하 \"작업장소 등\"이라 한다)을 상호 협의하여 정한다.\n② 구축부서의 장이 작업장소 등에 관한 비용을 사업예산 또는 예정가격에 계상하지 아니한 경우에는 구축부서의 장이 작업장소 등을 제공한다.\n\n③ 제2항의 사업예산 또는 예정가격 작성 시 다음 각 호의 근거에 따라 작업장소 등에 관한 비용을 계상한다.\n\n1. 기획재정부 계약예규「예정가격 작성기준」제11조제3항제9호에 해당하는 경비(지급임차료)\n\n2. 한국소프트웨어산업협회장이 공표한「SW사업 대가산정 가이드」에서 정의된 직접경비(현장운영비)\n\n④ 사업자는 당해 계약의 효율적 이행을 위해 필요한 경우 그 사유 및 기간 등을 정하여 구축부서의 장에게 승인을 받은 후 해당 사업에 투입되는 인력을 제1항의 작업장소 이외에서도 근무하게 할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "54",
-      "title": "인력관리",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "④ 사업자는 당해 계약의 효율적 이행을 위해 필요한 경우 그 사유 및 기간 등을 정하여 구축부서의 장에게 승인을 받은 후 해당 사업에 투입되는 인력을 제1항의 작업장소 이외에서도 근무하게 할 수 있다."
-      ],
-      "page": 1,
-      "text": "**제54조(인력관리)** 구축부서의 장은 제안요청서에 투입인력의 수와 기간에 의한 방식에 관한 요구사항을 명시할 수 없고, 사업을 추진함에 있어 투입인력별 투입기간을 관리할 수 없다. 단, 다음사항의 사업은 예외로 한다.\n1. 정보화전략계획수립, 업무재설계, 정보시스템 구축계획 수립, 정보보안컨설팅 등 컨설팅 성격의 사업\n\n2. 전자정부사업관리 위탁사업·감리용역사업\n\n3. DB 구축 및 자료 입력, 디지털콘텐츠 개발 서비스\n\n4. 관제, 고정비(투입공수방식 운영비) 방식의 유지관리 및 운영 사업 등 인력관리 성격의 사업",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "55",
-      "title": "기술적용 계획 준수",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "4. 관제, 고정비(투입공수방식 운영비) 방식의 유지관리 및 운영 사업 등 인력관리 성격의 사업"
-      ],
-      "page": 1,
-      "text": "**제55조(기술적용 계획 준수)** ① 사업자는 제23조제1항 또는 제23조제4항에 따른 기술적용계획표를 준수하여 사업을 추진하여야 한다.\n② 사업자는 사업 검사 및 최종감리 수행 시「구축·운영지침」별지 제1호 서식의 기술적용결과표를 작성하여 제출하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "56",
-      "title": "표준산출물",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "② 사업자는 사업 검사 및 최종감리 수행 시「구축·운영지침」별지 제1호 서식의 기술적용결과표를 작성하여 제출하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제56조(표준산출물)** ① 구축부서의 장은 운영, 유지관리 등에 필요한 표준산출물을 지정하여 사업자에게 제출을 요구할 수 있다.\n② 구축부서의 장은 제1항에 따른 산출물을 기관의 정보시스템을 이용하여 체계적으로 관리하고 운영·유지관리 또는 고도화 사업 등에 활용될 수 있도록 유지·관리하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "57",
-      "title": "과업내용의 변경",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "② 구축부서의 장은 제1항에 따른 산출물을 기관의 정보시스템을 이용하여 체계적으로 관리하고 운영·유지관리 또는 고도화 사업 등에 활용될 수 있도록 유지·관리하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제57조(과업내용의 변경)** ① 구축부서의 장은 기획재정부 계약예규「용역계약 일반조건」제16조에 따라 과업내용을 추가, 변경, 삭제할 수 있다.\n② 사업자는 제1항에 의하여 하도급 대금지급 비율 변경이 발생하는 경우 그 사유와 변경 전·후의 별지 제1호 서식(「용역계약 일반조건」)을 작성하여 구축부서의 장에게 검토를 요청하고 승인을 받아야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "58",
-      "title": "과업내용의 변경절차",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "② 사업자는 제1항에 의하여 하도급 대금지급 비율 변경이 발생하는 경우 그 사유와 변경 전·후의 별지 제1호 서식(「용역계약 일반조건」)을 작성하여 구축부서의 장에게 검토를 요청하고 승인을 받아야 한다."
-      ],
-      "page": 1,
-      "text": "**제58조(과업내용의 변경절차)** 구축부서의 장은 과업내용을 변경하는 경우「소프트웨어 진흥법」제50조, 기획재정부 계약예규「용역계약 일반조건」제53조의 절차를 준수하여야 한다.\n\n**제59조(과업변경 대가지급)** 제58조에 따라 과업내용을 변경한 경우 계약금액조정은「국가계약법 시행령」제65조제1항부터 제6항을 준용한다.\n\n**제60조(정보자원 통합관리)** ① 주관부서의 장은 공단에서 보유한 정보자원을「전자정부법」제47조제3항에 따른 정보자원관리시스템(www.irm.go.kr)에 등록하여야 한다.\n② 주관부서의 장은「전자정부법」제54조에서 규정한 정보자원의 현황 및 통계자료를 관리하기 위해 제1항의 시스템을 활용할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "61",
-      "title": "정보시스템 등급제",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "② 주관부서의 장은「전자정부법」제54조에서 규정한 정보자원의 현황 및 통계자료를 관리하기 위해 제1항의 시스템을 활용할 수 있다."
-      ],
-      "page": 1,
-      "text": "**제61조(정보시스템 등급제)** ① 주관부서의 장은 소관 정보시스템에 대하여 중요도, 가용성 등에 따라 등급을 분류하고 등급별로 장애관리, 행정정보 관리, 보안관리 등을 수행하여야 한다.\n② 주관부서의 장은 제1항의 등급 분류 및 관리를 위한 기준을 정하여 제공할 수 있다. 다만, 보안관리에 관한 사항은 국가정보원장과 사전에 협의하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "62",
-      "title": "감리시행",
-      "breadcrumb": [
-        "제4절 사업수행",
-        "② 주관부서의 장은 제1항의 등급 분류 및 관리를 위한 기준을 정하여 제공할 수 있다. 다만, 보안관리에 관한 사항은 국가정보원장과 사전에 협의하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제62조(감리시행)** ① 구축부서의 장과 사업자는 단계별 감리수행결과보고서에 따라 시정조치를 수행하여야 한다.\n② 감리법인은 제23조제1항 또는 제23조제4항에서 작성된 기술적용계획표와 제55조제2항의 기술적용결과표의 준수여부를 확인하여 그 결과를 감리수행결과보고서에 기술하여야 한다.\n제5절 소프트웨어 개발보안",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "63",
-      "title": "소프트웨어 개발보안 원칙",
-      "breadcrumb": [
-        "제5절 소프트웨어 개발보안"
-      ],
-      "page": 1,
-      "text": "**제63조(소프트웨어 개발보안 원칙)** ① 구축부서의 장이「전자정부법 시행령」제71조제1항에 해당하는 정보화사업을 추진할 때에는「구축·운영지침」별표 3의 소프트웨어 보안약점이 없도록 소프트웨어를 개발 또는 변경(이하 ‘소프트웨어 개발보안’이라 한다)하여야 한다. 다만,「전자정부법 시행령」제71조제1항에 해당하지 않는 정보화사업도 소프트웨어 개발보안을 적용할 수 있다.\n\n② 제1항에 따라 구축부서의 장이 정보화사업 추진 시 적용해야 할 소프트웨어 개발보안의 범위는 다음 각 호와 같다.\n\n1. 신규개발의 경우 : 설계단계 산출물 및 소스코드 전체\n\n2. 유지관리의 경우 : 유지관리로 인해 변경된 설계단계 산출물 및 소스코드 전체\n\n③ 제2항에 따라 소프트웨어 개발보안 적용 시 상용 소프트웨어는 제외한다.",
-      "needsOriginal": true
-    },
-    {
-      "articleNo": "64",
-      "title": "소프트웨어 개발보안 활동",
-      "breadcrumb": [
-        "제5절 소프트웨어 개발보안",
-        "③ 제2항에 따라 소프트웨어 개발보안 적용 시 상용 소프트웨어는 제외한다."
-      ],
-      "page": 1,
-      "text": "**제64조(소프트웨어 개발보안 활동)** ① 구축부서의 장은 제안서 평가 시 소프트웨어 개발보안을 위해 소프트웨어 보안약점 진단도구 사용 여부, 개발절차와 방법의 적절성, 제3항에 의한 교육계획의 적정성 등을 확인하고 평가에 반영할 수 있다.\n② 사업자는 제63조에 따라 소프트웨어 개발보안을 적용하는 경우 행정안전부장관이 국가정보원장과 협의하여 공지하는「소프트웨어 개발 보안가이드」를 참고할 수 있다.\n\n③ 사업자는 정보화사업 착수단계에서「소프트웨어 개발 보안가이드」등 소프트웨어 개발보안 관련 교육을 실시하고 이후 투입되는 인력은 개발에 투입하기 전 소프트웨어 개발보안 관련 교육을 실시하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "65",
-      "title": "보안약점 진단기준",
-      "breadcrumb": [
-        "제5절 소프트웨어 개발보안",
-        "③ 사업자는 정보화사업 착수단계에서「소프트웨어 개발 보안가이드」등 소프트웨어 개발보안 관련 교육을 실시하고 이후 투입되는 인력은 개발에 투입하기 전 소프트웨어 개발보안 관련 교육을 실시하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제65조(보안약점 진단기준)** 행정기관등의 장은 소프트웨어 보안약점을 진단할 때 「구축·운영지침」별표 3의 소프트웨어 보안약점을 필수 진단항목으로 포함하여야 한다.\n\n**제66조(보안약점 진단절차)** ① 구축부서의 장은 정보화사업 감리를 수행하는 경우 감리법인으로 하여금 사업자가「구축·운영지침」별표 3의 소프트웨어 보안약점을 제거하였는지 진단하도록 하여야 한다.\n② 감리법인은 제1항에 따라 소프트웨어 보안약점을 진단할 경우 행정안전부장관이 고시한「정보시스템 감리기준」제10조제1항의 세부 검사항목에 소프트웨어 보안약점 제거 여부를 포함하여야 한다.\n\n③ 감리법인은 소프트웨어 보안약점을 진단할 경우 행정안전부장관이 고시한 「정보시스템 감리기준」제5조제3항에 따라 진단원을 우선적으로 배치할 수 있다.\n\n④ 감리법인이 소프트웨어 보안약점 진단과정에서 소프트웨어 보안약점 진단도구를 사용할 경우, 과학기술정보통신부장관이 고시한「정보보호시스템 평가·인증 지침」에 따라 국가보안기술연구소장이 인증한 보안약점 진단도구를 사용하여야 한다.\n\n⑤ 구축부서의 장은「전자정부법 시행령」제71조제1항에 해당하지 않는 정보화사업에 소프트웨어 개발보안을 적용할 경우에는 사업자로 하여금 보안약점을 진단·제거토록 하고 그 결과를 확인할 수 있다.\n제6절 검사 및 운영",
-      "needsOriginal": true
-    },
-    {
-      "articleNo": "67",
-      "title": "지체상금",
-      "breadcrumb": [
-        "제6절 검사 및 운영"
-      ],
-      "page": 1,
-      "text": "**제67조(지체상금)** 사업자는 계약서에 정한 용역수행 기한내에 용역을 완성하지 아니한 경우 지체상금 산출 및 공제, 지체일수 산정 등은 기획재정부 계약예규「용역계약 일반조건」제18조에서 정한 바에 따른다.\n\n**제68조(검사)** ① 구축부서의 장은 용역 사업자가 사업을 완료하면「국가계약법 시행령」제55조에 따라 검사를 하여야 한다.\n\n② 검사의 통지, 기한, 시정조치, 재검사 등에 관한 사항은 기획재정부 계약예규 「용역계약 일반조건」제20조에서 정한 바에 따른다.\n\n③ 구축부서의 장은 검사 시 다음 각 호를 확인하여야 한다.\n\n1. 제55조제1항에 따른 기술적용계획표와 제55조제2항에 따른 기술적용결과표의 준수여부\n\n2. 제62조제1항에 따른 감리수행결과보고서의 부적합 조치 여부",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "69",
-      "title": "운영 및 유지관리",
-      "breadcrumb": [
-        "제6절 검사 및 운영",
-        "2. 제62조제1항에 따른 감리수행결과보고서의 부적합 조치 여부"
-      ],
-      "page": 1,
-      "text": "**제69조(운영 및 유지관리)** ① 구축부서의 장은 정보시스템의 운영, 유지관리 등으로 인해 변경이 발생하는 경우 표준산출물과 일관성이 유지되도록 관리하여야 한다.\n② 주관부서의 장은 구축이 완료되어 서비스 운영이 개시된 시점으로부터 1년이 경과한 정보시스템에 대하여 행정안전부장관이 고시한「전자정부 성과관리 지침」에 따라 매년 운영 성과를 측정해야 한다.\n\n③ 사업자는 운영 및 유지관리를 수행하면서 반복적으로 수행하는 사항을 설명서 또는 안내서(매뉴얼)로 작성·관리하고, 구축부서의 장이 요구하는 경우 제공하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "70",
-      "title": "계약목적물의 지식재산권 귀속 및 기술자료 임치",
-      "breadcrumb": [
-        "제6절 검사 및 운영",
-        "③ 사업자는 운영 및 유지관리를 수행하면서 반복적으로 수행하는 사항을 설명서 또는 안내서(매뉴얼)로 작성·관리하고, 구축부서의 장이 요구하는 경우 제공하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제70조(계약목적물의 지식재산권 귀속 및 기술자료 임치)** ① 계약목적물의 지식재산권 귀속 등에 관한 사항은 기획재정부 계약예규「용역계약 일반조건」제56조에서 정한 바에 따른다.\n② 사업자는 계약목적물의 사용을 보장하고 지식재산권을 보호하기 위해 사업자의 사업수행에 따른 계약목적물의 기술자료를 제3의 기관에 임치하여야 하며, 세부사항은 기획재정부 계약예규「용역계약 일반조건」제57조에서 정한 바에 따른다.\n제7절 정보시스템 운영 및 관리",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "71",
-      "title": "전산장비 등의 관리",
-      "breadcrumb": [
-        "제7절 정보시스템 운영 및 관리"
-      ],
-      "page": 1,
-      "text": "**제71조(전산장비 등의 관리)** ① 본부 각 실(국)장 및 소속기관장은 서버 등 전산장비를 운영하는 경우 항시 운용 가능한 상태로 유지·관리하여야 한다.\n\n② 본부 각 실(국)장 및 소속기관장은 통신회선 및 설비상태를 점검하여 통신망을 항시 운용 가능한 상태로 유지·관리하여야 한다.\n\n③ 본부 각 실(국)장 및 소속기관장은 전산장비를「자산관리규정」및「자산관리규정 시행규칙」에 따라 관리하여야 한다.\n\n④ 전산장비는 외부로 반출할 수 없다. 다만, 장비수리 등 부득이한 업무로 반․출입하는 경우에는「정보보안 및 개인정보보호 업무처리규칙」별지 제14호 서식의 전산장비 및 휴대용 저장매체 반․출입 대장을 이용하여 관리․통제하여야 한다.",
-      "needsOriginal": true
-    },
-    {
-      "articleNo": "72",
-      "title": "정보시스템 운영",
-      "breadcrumb": [
-        "제7절 정보시스템 운영 및 관리",
-        "④ 전산장비는 외부로 반출할 수 없다. 다만, 장비수리 등 부득이한 업무로 반․출입하는 경우에는「정보보안 및 개인정보보호 업무처리규칙」별지 제14호 서식의 전산장비 및 휴대용 저장매체 반․출입 대장을 이용하여 관리․통제하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제72조(정보시스템 운영)** ① 소관부서의 장은 효율적인 정보시스템 운영을 위하여 소관업무와 관련된 응용프로그램 개발에 따른 사용자 지침서(매뉴얼) 등을 작성하여 본부 각 실(국) 및 소속기관 등 사용 기관에 배포하여야 한다.\n② 구축부서의 장은 개발된 응용프로그램의 운영·관리를 위하여 개시하기 전에 반드시 시범운영 절차를 거쳐야 하며, 필요한 경우 사용자 교육을 실시하는 등 안정적인 운영을 위한 조치를 취하여야 한다.\n\n③ 소관부서의 장이 개발이 완료된 응용프로그램에 대해 수정·변경하고자 하는 경우에는 문서 또는 업무시스템의 작업의뢰서 관리를 통해 주관부서의 장에게 요청하여야 한다.\n\n④ 연구 및 업무수행 목적으로 전산자료를 이용하고자 하는 경우에는 문서 또는 업무시스템을 통해 요청하되, 반드시 본부 소관 사업부서의 장을 경유하여 주관부서의 장에게 전산자료의 추출 등을 요청하여야 하며, 해당 자료는 개인정보 보호 및 정보보안 등 관련 규정을 준수하여야 한다.",
-      "needsOriginal": false
-    },
-    {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "73",
+      "articleId": "제73조",
       "title": "정보시스템 사용권한 신청 등",
       "breadcrumb": [
         "제7절 정보시스템 운영 및 관리",
         "④ 연구 및 업무수행 목적으로 전산자료를 이용하고자 하는 경우에는 문서 또는 업무시스템을 통해 요청하되, 반드시 본부 소관 사업부서의 장을 경유하여 주관부서의 장에게 전산자료의 추출 등을 요청하여야 하며, 해당 자료는 개인정보 보호 및 정보보안 등 관련 규정을 준수하여야 한다."
       ],
       "page": 1,
-      "text": "제73조(정보시스템 사용권한 신청 등) ① 공단 직원등의 정보시스템 사용권한은 본부 및 소속기관의 각 소속 부서장에게 승인(사용업무 및 보안서약 등)을 득한 후, 업무시스템을 통해 사용권한을 부여받거나 전자문서를 통해 주관부서에 신청하여 사용권한을 부여받아야 한다.\n② 본부 및 소속기관의 각 부서장은 신청자별 업무상 필요한 최소한의 권한을 부여하고 업무분장이 변경된 경우, 정보시스템 사용권한을 재승인 부여하는 등 권한이 부여되지 않은 업무는 사용하지 못하도록 하여야 한다.\n\n③ 본부 및 소속기관의 각 부서장은 정보시스템 사용권한의 적절성 및 오․남용 여부 등을 수시로 점검하여야 하며, 제1항에 따라 권한을 부여받은 사용자는 자기 책임 하에 정보시스템을 사용하고 처리된 작업에 대해서는 모든 책임이 있다.\n\n④ 주관부서의 장은 직원 퇴직, 휴직, 전보 등 인사 발령이 시행된 때에는 이전에 부여된 정보시스템 사용권한을 해지하여야 한다.\n\n⑤ 공단이외 타 기관 직원의 정보시스템 사용 권한 허가는 공단과 업무 위탁계약 등 타당한 사유로 인한 경우에 한하며, 해당 업무를 관할하는 부서장이 제1항 및 제2항에 준하여 사용권한을 부여(보안서약 확인 포함)하고 수시 점검하여야 한다. 또한 해당 사유가 종료되는 즉시 사용권한을 해지하여야 한다.",
+      "text": "제73조(정보시스템 사용권한 신청 등) ① 공단 직원등의 정보시스템 사용권한은 본부 및 소속기관의 각 소속 부서장에게 승인(사용업무 및 보안서약 등)을 득한 후, 업무시스템을 통해 사용권한을 부여받거나 전자문서를 통해 주관부서에 신청하여 사용권한을 부여받아야 한다.\n② 본부 및 소속기관의 각 부서장은 신청자별 업무상 필요한 최소한의 권한을 부여하고 업무분장이 변경된 경우, 정보시스템 사용권한을 재승인 부여하는 등 권한이 부여되지 않은 업무는 사용하지 못하도록 하여야 한다.\n③ 본부 및 소속기관의 각 부서장은 정보시스템 사용권한의 적절성 및 오․남용 여부 등을 수시로 점검하여야 하며, 제1항에 따라 권한을 부여받은 사용자는 자기 책임 하에 정보시스템을 사용하고 처리된 작업에 대해서는 모든 책임이 있다.\n④ 주관부서의 장은 직원 퇴직, 휴직, 전보 등 인사 발령이 시행된 때에는 이전에 부여된 정보시스템 사용권한을 해지하여야 한다.\n⑤ 공단이외 타 기관 직원의 정보시스템 사용 권한 허가는 공단과 업무 위탁계약 등 타당한 사유로 인한 경우에 한하며, 해당 업무를 관할하는 부서장이 제1항 및 제2항에 준하여 사용권한을 부여(보안서약 확인 포함)하고 수시 점검하여야 한다. 또한 해당 사유가 종료되는 즉시 사용권한을 해지하여야 한다.",
       "needsOriginal": false
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "74",
+      "articleId": "제74조",
       "title": "외부기관시스템 연계",
       "breadcrumb": [
         "제7절 정보시스템 운영 및 관리",
         "⑤ 공단이외 타 기관 직원의 정보시스템 사용 권한 허가는 공단과 업무 위탁계약 등 타당한 사유로 인한 경우에 한하며, 해당 업무를 관할하는 부서장이 제1항 및 제2항에 준하여 사용권한을 부여(보안서약 확인 포함)하고 수시 점검하여야 한다. 또한 해당 사유가 종료되는 즉시 사용권한을 해지하여야 한다."
       ],
       "page": 1,
-      "text": "제74조(외부기관시스템 연계) 본부 각 실(국)장 및 소속기관장은 외부기관에서 통신회선을 통하여 공단 전산장비와 연결하고자 하는 경우 반드시 주관부서의 장과 협의하여야 한다.\n\n**제75조(정보시스템 운영관리)** ① 본부 각 실(국)장 및 소속기관장은 효율적인 정보시스템 운영을 위하여 정보시스템 업무 담당자(정·부)를 지정하여야 한다.\n② 업무 담당자의 임무는 다음 각 호와 같다.\n\n1. 정보시스템 관리대장(「정보보안 및 개인정보보호 업무처리규칙」별지 제10호 서식) 작성 및 관리\n\n2. 개발이 완료된 정보관련 업무의 인수·운영\n\n3. 소속직원에 대한 정보업무처리 실무교육(조작요령 등)\n\n4. 주관부서(또는 위원회)와의 업무협의\n\n5. 정품 소프트웨어 사용, 소프트웨어의 관리에 관한 실태점검\n\n6. 불법복제 소프트웨어 등에 대한 폐기 등 조치\n\n7. 그 밖의 정보화에 관련된 업무\n\n③ 제2항제5호 및 제6호에서 규정하고 있는 소프트웨어의 효율적인 관리를 위하여 주관부서의 장은 보직 발령과 동시에「공공기관의 소프트웨어 관리에 관한 규정」제3조에 따른 소프트웨어 관리책임자가 된다.",
-      "needsOriginal": false
+      "text": "제74조(외부기관시스템 연계) 본부 각 실(국)장 및 소속기관장은 외부기관에서 통신회선을 통하여 공단 전산장비와 연결하고자 하는 경우 반드시 주관부서의 장과 협의하여야 한다.\n**제75조(정보시스템 운영관리)** ① 본부 각 실(국)장 및 소속기관장은 효율적인 정보시스템 운영을 위하여 정보시스템 업무 담당자(정·부)를 지정하여야 한다.\n② 업무 담당자의 임무는 다음 각 호와 같다.\n1. 정보시스템 관리대장(「정보보안 및 개인정보보호 업무처리규칙」별지 제10호 서식) 작성 및 관리\n2. 개발이 완료된 정보관련 업무의 인수·운영\n3. 소속직원에 대한 정보업무처리 실무교육(조작요령 등)\n4. 주관부서(또는 위원회)와의 업무협의\n5. 정품 소프트웨어 사용, 소프트웨어의 관리에 관한 실태점검\n6. 불법복제 소프트웨어 등에 대한 폐기 등 조치\n7. 그 밖의 정보화에 관련된 업무\n③ 제2항제5호 및 제6호에서 규정하고 있는 소프트웨어의 효율적인 관리를 위하여 주관부서의 장은 보직 발령과 동시에「공공기관의 소프트웨어 관리에 관한 규정」제3조에 따른 소프트웨어 관리책임자가 된다.",
+      "needsOriginal": true
     },
     {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "76",
+      "articleId": "제76조",
       "title": "전산장비 등 활용실태 조사",
       "breadcrumb": [
         "제7절 정보시스템 운영 및 관리",
         "③ 제2항제5호 및 제6호에서 규정하고 있는 소프트웨어의 효율적인 관리를 위하여 주관부서의 장은 보직 발령과 동시에「공공기관의 소프트웨어 관리에 관한 규정」제3조에 따른 소프트웨어 관리책임자가 된다."
       ],
       "page": 1,
-      "text": "제76조(전산장비 등 활용실태 조사) ① 주관부서의 장은 본부 각 실(국) 및 소속기관에서 보유하고 있는 전산장비 및 소프트웨어 활용실태를 점검할 수 있다.\n② 본부 각 실(국)장 및 소속기관장은 보유하고 있는 전산장비 상세 내역을 정보자산관리시스템에 항시 등록 및 현행화하여야 하며, 취득한 소프트웨어의 현황 관리를 위해「공공기관의 소프트웨어 관리에 관한 규정」제5조에 따른 소프트웨어의 관리 대장 등을 작성․보관하여야 한다.",
+      "text": "제76조(전산장비 등 활용실태 조사) ① 주관부서의 장은 본부 각 실(국) 및 소속기관에서 보유하고 있는 전산장비 및 소프트웨어 활용실태를 점검할 수 있다.\n② 본부 각 실(국)장 및 소속기관장은 보유하고 있는 전산장비 상세 내역을 정보자산관리시스템에 항시 등록 및 현행화하여야 하며, 취득한 소프트웨어의 현황 관리를 위해「공공기관의 소프트웨어 관리에 관한 규정」제5조에 따른 소프트웨어의 관리 대장 등을 작성․보관하여야 한다.\n**제77조(전산장애처리)** 본부 각 실(국)장 및 소속기관장은 전산장비 및 통신회선에 장애가 발생하면 즉시 전산장비 유지·보수기관에 통보하는 등 회복에 필요한 조치를 하여야 한다.",
       "needsOriginal": false
     },
     {
-      "articleNo": "77",
-      "title": "전산장애처리",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "78",
+      "articleId": "제78조",
+      "title": "정기점검 및 유지관리",
       "breadcrumb": [
         "제7절 정보시스템 운영 및 관리",
         "② 본부 각 실(국)장 및 소속기관장은 보유하고 있는 전산장비 상세 내역을 정보자산관리시스템에 항시 등록 및 현행화하여야 하며, 취득한 소프트웨어의 현황 관리를 위해「공공기관의 소프트웨어 관리에 관한 규정」제5조에 따른 소프트웨어의 관리 대장 등을 작성․보관하여야 한다."
       ],
       "page": 1,
-      "text": "**제77조(전산장애처리)** 본부 각 실(국)장 및 소속기관장은 전산장비 및 통신회선에 장애가 발생하면 즉시 전산장비 유지·보수기관에 통보하는 등 회복에 필요한 조치를 하여야 한다.\n\n제78조(정기점검 및 유지관리) 본부 각 실(국) 및 소속기관장은 정보시스템 및 전산장비에 대한 유지관리 계약에 따라 해당 유지관리기관이 전산장비의 정기점검 및 유지관리를 실시하는 경우에는 해당 내용을 기록·유지하여야 한다.\n\n제79조(소모품 관리) 본부 각 실(국) 및 소속기관의 전산소모품 관리담당자는 전산처리에 필요한 각종 소모품의 적정량을 항시 유지하여야 하며 부족품의 구매요구 등 필요한 조치를 취하여야 한다.\n제4장 데이터 품질관리\n제1절 데이터 품질관리 추진 체계",
+      "text": "제78조(정기점검 및 유지관리) 본부 각 실(국) 및 소속기관장은 정보시스템 및 전산장비에 대한 유지관리 계약에 따라 해당 유지관리기관이 전산장비의 정기점검 및 유지관리를 실시하는 경우에는 해당 내용을 기록·유지하여야 한다.",
       "needsOriginal": false
     },
     {
-      "articleNo": "80",
-      "title": "데이터 품질관리 목적 및 적용범위",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "79",
+      "articleId": "제79조",
+      "title": "소모품 관리",
       "breadcrumb": [
-        "제1절 데이터 품질관리 추진 체계"
+        "제7절 정보시스템 운영 및 관리",
+        "② 본부 각 실(국)장 및 소속기관장은 보유하고 있는 전산장비 상세 내역을 정보자산관리시스템에 항시 등록 및 현행화하여야 하며, 취득한 소프트웨어의 현황 관리를 위해「공공기관의 소프트웨어 관리에 관한 규정」제5조에 따른 소프트웨어의 관리 대장 등을 작성․보관하여야 한다."
       ],
       "page": 1,
-      "text": "**제80조(데이터 품질관리 목적 및 적용범위)** ① 제4장은 「공공데이터의 제공 및 이용 활성화에 관한 법률」제22조와 ｢공공데이터관리지침(행정안전부 고시)｣ 및 ｢고용노동부 데이터 품질관리지침(고용노동부 훈령)｣에 따라 공단 데이터 품질관리에 관한 사항을 규정함으로써 장애인고용업무의 신뢰성 증진과 고객 만족도 향상에 이바지함을 목적으로 한다.\n\n② 제4장은 공단에서 생성 및 취득하여 관리하는 데이터의 안정적 품질관리 및 적정한 품질 수준 확보를 위해 수행하는 데이터 품질관리 업무에 적용한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "81",
-      "title": "데이터 품질관리 기본 원칙",
-      "breadcrumb": [
-        "제1절 데이터 품질관리 추진 체계",
-        "② 제4장은 공단에서 생성 및 취득하여 관리하는 데이터의 안정적 품질관리 및 적정한 품질 수준 확보를 위해 수행하는 데이터 품질관리 업무에 적용한다."
-      ],
-      "page": 1,
-      "text": "**제81조(데이터 품질관리 기본 원칙)** 공단은 데이터 품질관리를 위하여 다음 각 호의 사항이 실현되도록 하여야 한다.\n1. 데이터는 의사결정 지원을 위한 핵심 자산으로 인식되어야 하며, 생명주기에 따라 최신성, 정확성, 상호운용성이 확보되도록 운영 관리되어야 한다.\n\n2. 데이터표준, 데이터구조, 데이터 값 등 데이터 품질요소에 대한 품질관리 노력을 지속적으로 수행하여야 한다.\n\n3. 비공개데이터의 외부 유출 및 오남용이 방지되도록 안전하게 관리되어야 한다.\n\n4. 데이터 품질수준은 정량적으로 측정이 가능해야 하며, 지속적으로 관리되어야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "82",
-      "title": "데이터 품질관리 총괄 책임자",
-      "breadcrumb": [
-        "제1절 데이터 품질관리 추진 체계",
-        "4. 데이터 품질수준은 정량적으로 측정이 가능해야 하며, 지속적으로 관리되어야 한다."
-      ],
-      "page": 1,
-      "text": "**제82조(데이터 품질관리 총괄 책임자)** 본부 기획조정실장은 보직 발령과 동시에 데이터 품질관리 총괄 책임자가 되며, 다음 각 호의 데이터 품질관리 실무를 총괄한다.\n1. 중장기 데이터 품질관리 계획의 수립 및 시행\n\n2. 연간 데이터 품질관리 계획의 수립 및 시행\n\n3. 데이터 품질관리 가이드라인 수립 및 시행\n\n4. 데이터 표준적용 및 최신화\n\n5. 데이터 산출물 작성 및 관리\n\n6. 데이터 품질점검 및 개선\n\n7. 데이터 품질관리를 위한 교육\n\n8. 그 밖에 데이터 품질관리에 관한 사항",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "83",
-      "title": "데이터 품질관리 책임자",
-      "breadcrumb": [
-        "제1절 데이터 품질관리 추진 체계",
-        "8. 그 밖에 데이터 품질관리에 관한 사항"
-      ],
-      "page": 1,
-      "text": "**제83조(데이터 품질관리 책임자)** ① 총괄책임자는 데이터 품질관리를 체계적이고 지속적으로 수행하기 위해 주관부서의 장을 데이터 품질관리 책임자로 지정한다.\n② 데이터 품질관리 책임자와 데이터 품질관리 실무담당자는 총괄책임자의 지시에 따라 제82조 각 호에 따른 데이터 품질관리 실무를 수행한다.\n\n③ 데이터 품질관리 책임자는 별표3에 따른 데이터 품질지표를 설정하고 설정된 지표에 대한 추진실적을 관리한다.\n제2절 데이터 품질관리 활동",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "84",
-      "title": "데이터 품질관리계획의 수립",
-      "breadcrumb": [
-        "제2절 데이터 품질관리 활동"
-      ],
-      "page": 1,
-      "text": "**제84조(데이터 품질관리계획의 수립)** ① 데이터 품질관리 책임자는 데이터 품질관리의 효율적 추진을 위하여 다음 각 호의 항목을 포함한 데이터 품질관리계획을 수립하여야 한다.\n\n1. 데이터 품질관리 목표\n\n2. 데이터 품질관리 추진체계(조직 구성 및 역할, 절차 등)\n\n3. 중점 데이터 품질관리 대상 데이터베이스 선정\n\n4. 데이터 품질진단 및 개선 계획\n\n5. 데이터 표준 적용 계획\n\n6. 연계데이터 품질확보 방안\n\n7. 데이터 변경에 따른 문서 현행화 및 이해관계자에게 변경사항의 통지에 관한 사항\n\n8. 그 밖에 데이터 품질관리를 위해 필요한 사항\n\n② 공단은 수립된 데이터 품질관리계획을 고용노동부장관에게 제출하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "85",
-      "title": "데이터 품질관리 가이드라인 수립",
-      "breadcrumb": [
-        "제2절 데이터 품질관리 활동",
-        "② 공단은 수립된 데이터 품질관리계획을 고용노동부장관에게 제출하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제85조(데이터 품질관리 가이드라인 수립)** ① 데이터 품질관리 책임자는 품질관리 기준 마련을 위하여 데이터 품질관리 가이드라인을 수립하여야 한다.\n② 데이터 품질관리 책임자는 데이터 품질관리 계획 또는 데이터 품질관리 가이드라인 수립 시 고용노동부 데이터 품질관리 가이드라인을 참조할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "86",
-      "title": "데이터 품질진단 및 개선",
-      "breadcrumb": [
-        "제2절 데이터 품질관리 활동",
-        "② 데이터 품질관리 책임자는 데이터 품질관리 계획 또는 데이터 품질관리 가이드라인 수립 시 고용노동부 데이터 품질관리 가이드라인을 참조할 수 있다."
-      ],
-      "page": 1,
-      "text": "**제86조(데이터 품질진단 및 개선)** ① 데이터 품질관리 책임자는 데이터 품질진단 추진계획을 수립하고 별표3의 데이터 품질 지표를 활용하여 데이터 품질수준을 연1회 정기적으로 점검하여야 한다.\n② 품질진단 추진계획은 특별한 변동이 없을 시, 전년 기준으로 작성할 수 있으며 데이터 품질진단 결과 개선이 필요한 경우, 데이터 품질 개선계획을 수립하여 시행하여야 한다.\n\n③ 공단은 데이터 품질진단 추진계획과 데이터 품질 개선계획 및 동 계획의 실행결과를 고용노동부장관에게 제출하여야 한다.",
+      "text": "제79조(소모품 관리) 본부 각 실(국) 및 소속기관의 전산소모품 관리담당자는 전산처리에 필요한 각종 소모품의 적정량을 항시 유지하여야 하며 부족품의 구매요구 등 필요한 조치를 취하여야 한다.\n제4장 데이터 품질관리\n제1절 데이터 품질관리 추진 체계\n**제80조(데이터 품질관리 목적 및 적용범위)** ① 제4장은 「공공데이터의 제공 및 이용 활성화에 관한 법률」제22조와 ｢공공데이터관리지침(행정안전부 고시)｣ 및 ｢고용노동부 데이터 품질관리지침(고용노동부 훈령)｣에 따라 공단 데이터 품질관리에 관한 사항을 규정함으로써 장애인고용업무의 신뢰성 증진과 고객 만족도 향상에 이바지함을 목적으로 한다.\n② 제4장은 공단에서 생성 및 취득하여 관리하는 데이터의 안정적 품질관리 및 적정한 품질 수준 확보를 위해 수행하는 데이터 품질관리 업무에 적용한다.\n**제81조(데이터 품질관리 기본 원칙)** 공단은 데이터 품질관리를 위하여 다음 각 호의 사항이 실현되도록 하여야 한다.\n1. 데이터는 의사결정 지원을 위한 핵심 자산으로 인식되어야 하며, 생명주기에 따라 최신성, 정확성, 상호운용성이 확보되도록 운영 관리되어야 한다.\n2. 데이터표준, 데이터구조, 데이터 값 등 데이터 품질요소에 대한 품질관리 노력을 지속적으로 수행하여야 한다.\n3. 비공개데이터의 외부 유출 및 오남용이 방지되도록 안전하게 관리되어야 한다.\n4. 데이터 품질수준은 정량적으로 측정이 가능해야 하며, 지속적으로 관리되어야 한다.\n**제82조(데이터 품질관리 총괄 책임자)** 본부 기획조정실장은 보직 발령과 동시에 데이터 품질관리 총괄 책임자가 되며, 다음 각 호의 데이터 품질관리 실무를 총괄한다.\n1. 중장기 데이터 품질관리 계획의 수립 및 시행\n2. 연간 데이터 품질관리 계획의 수립 및 시행\n3. 데이터 품질관리 가이드라인 수립 및 시행\n4. 데이터 표준적용 및 최신화\n5. 데이터 산출물 작성 및 관리\n6. 데이터 품질점검 및 개선\n7. 데이터 품질관리를 위한 교육\n8. 그 밖에 데이터 품질관리에 관한 사항\n**제83조(데이터 품질관리 책임자)** ① 총괄책임자는 데이터 품질관리를 체계적이고 지속적으로 수행하기 위해 주관부서의 장을 데이터 품질관리 책임자로 지정한다.\n② 데이터 품질관리 책임자와 데이터 품질관리 실무담당자는 총괄책임자의 지시에 따라 제82조 각 호에 따른 데이터 품질관리 실무를 수행한다.\n③ 데이터 품질관리 책임자는 별표3에 따른 데이터 품질지표를 설정하고 설정된 지표에 대한 추진실적을 관리한다.\n제2절 데이터 품질관리 활동\n**제84조(데이터 품질관리계획의 수립)** ① 데이터 품질관리 책임자는 데이터 품질관리의 효율적 추진을 위하여 다음 각 호의 항목을 포함한 데이터 품질관리계획을 수립하여야 한다.\n1. 데이터 품질관리 목표\n2. 데이터 품질관리 추진체계(조직 구성 및 역할, 절차 등)\n3. 중점 데이터 품질관리 대상 데이터베이스 선정\n4. 데이터 품질진단 및 개선 계획\n5. 데이터 표준 적용 계획\n6. 연계데이터 품질확보 방안\n7. 데이터 변경에 따른 문서 현행화 및 이해관계자에게 변경사항의 통지에 관한 사항\n8. 그 밖에 데이터 품질관리를 위해 필요한 사항\n② 공단은 수립된 데이터 품질관리계획을 고용노동부장관에게 제출하여야 한다.\n**제85조(데이터 품질관리 가이드라인 수립)** ① 데이터 품질관리 책임자는 품질관리 기준 마련을 위하여 데이터 품질관리 가이드라인을 수립하여야 한다.\n② 데이터 품질관리 책임자는 데이터 품질관리 계획 또는 데이터 품질관리 가이드라인 수립 시 고용노동부 데이터 품질관리 가이드라인을 참조할 수 있다.\n**제86조(데이터 품질진단 및 개선)** ① 데이터 품질관리 책임자는 데이터 품질진단 추진계획을 수립하고 별표3의 데이터 품질 지표를 활용하여 데이터 품질수준을 연1회 정기적으로 점검하여야 한다.\n② 품질진단 추진계획은 특별한 변동이 없을 시, 전년 기준으로 작성할 수 있으며 데이터 품질진단 결과 개선이 필요한 경우, 데이터 품질 개선계획을 수립하여 시행하여야 한다.\n③ 공단은 데이터 품질진단 추진계획과 데이터 품질 개선계획 및 동 계획의 실행결과를 고용노동부장관에게 제출하여야 한다.\n**제87조(데이터 품질오류 관리)** ① 데이터 품질관리 책임자는 다음 각 호의 어느 하나에 해당하는 데이터 품질오류 신고를 받은 경우 이를 신속히 처리하여야 한다.\n1. 직원, 민원인 등을 통해 오류 데이터를 신고 받은 경우\n2. 행정안전부 공공데이터 포털에 신고한 데이터의 품질오류에 대한 시정요구를 받은 경우\n② 데이터 품질관리 책임자는 데이터 품질오류를 확인한 경우 해당 데이터 오류를 직접 수정하거나 해당 데이터의 소관부서의 장에 수정을 요청할 수 있다.\n③ 수정을 요청한 데이터 품질오류의 경우, 특별한 사정이 없는 한 오류사항을 수정해야 하며, 이에 따른 신고 및 처리결과를 관리하여야 한다.\n**제88조(데이터베이스 표준화)** ① 주관부서 및 소관부서의 장은 데이터베이스 표준화를 추진함에 있어 다음 각 호의 항목을 작성하여 관리한다.\n1. 코드정의서의 작성·관리\n2. 데이터사전의 작성·관리\n② 제1항제1호의 코드정의서는 행정표준코드를 준수하여 작성하여야 하며, 행정표준코드에 존재하지 않는 경우 코드정의서를 추가로 작성하고「행정기관의 코드표준화 추진지침」에 따라 표준코드로 등록하여야 한다.\n③ 제1항제2호의 데이터사전은 표준용어사전에 등재된 공통표준용어를 우선적으로 사용하여야 하며, 표준용어사전에 제공하지 않는 용어에 한하여 표준용어정의서를 추가하고, 표준용어사전에 등록하여야 한다.\n④ 구축부서의 장은 정보시스템 설계·구축시 제1항의 코드정의서 및 데이터사전을 준수하여야 한다.\n⑤ 데이터베이스 표준화에 관한 사항은「공공기관의 데이터베이스 표준화지침(행정안전부 고시)」에 따른다.\n**제89조(연계데이터 품질관리)** ① 소관부서의 장은 데이터 연계 시 정보 공유 및 활용을 위해 연계데이터에 대해 데이터목록, 제공·활용기관, 연계방법 등을 작성·관리하여야 하며, 연계데이터의 정합성이 항시 유지되도록 관리하여야 한다.\n② 소관부서의 장은 데이터 송·수신에 따른 상호연관성 및 일관성 유지 및 검증을 위한 관련 연계관리요소를 연계기관과 합의하여 결정하여야 한다.\n③ 주관부서의 장 및 소관부서의 장은 타 기관에 제공하거나 타 기관으로부터 제공받아 활용 중인 연계데이터의 정합성 확보를 위해 연계데이터 목록을 작성 관리하여야 하며, 다음 각 호의 관리요소를 포함하여야 한다.\n1. 연계데이터 정의\n2. 연계데이터 세부항목 정의\n3. 연계데이터 세부항목 출처\n4. 연계데이터 오너십(제공기관 및 활용기관 등) 정의\n5. 그 밖에 연계데이터 목록관리에 필요한 사항\n**제90조(데이터 품질관리 산출물 관리)** ① 주관부서 및 소관부서의 장은 소관 데이터 품질의 효율적인 관리를 위해 ｢고용노동부 데이터 품질관리지침｣ 제16조제2항에 따라 지정한 품질관리 산출물을 작성하고 최신의 상태로 유지하여야 한다.\n② 구축부서의 장은 정보화사업을 발주할 경우 제안요청서 등에 사업자가 제출해야 할 데이터 품질관리 관련 산출물을 명시하여야 한다. 단, 패키지나 솔루션 형태의 정보시스템 구축으로 데이터 품질관리 관련 산출물 작성이 불가능한 경우에는 제안요청서 등에 명시하지 않을 수 있다.\n**제91조(데이터 품질관리 교육)** 데이터 품질관리 총괄책임자는 다음 각 호의 업무를 수행하는 자에 대하여 데이터 품질관리 교육을 실시할 수 있다.\n1. 데이터 품질관리 책임자\n2. 데이터 품질관리 실무자\n3. 개별 정보시스템 운영담당자\n4. 부서별 데이터 품질관리 실무자\n5. 그 밖에 데이터 품질관리 교육이 필요하다고 인정되는 대상자\n제3절 공공데이터 관리\n**제92조(공공데이터 제공 및 관리)** ① ｢공공데이터의 제공 및 이용 활성화에 관한 법률｣ 제17조에 따른 제공대상 공공데이터를 보유하고 있는 소관부서의 장은 데이터가 최신성, 정확성, 상호연계성이 유지되도록 하여야 하며, 해당 데이터를 공공데이터 포털에 등록하거나 연계하여 제공하여야 한다.\n② 주관부서의 장은 제1항에 따른 공공데이터 제공 실태에 대해 수시로 점검할 수 있으며, 해당 데이터 소관 부서의 장에게 점검결과에 따른 시정을 요구할 수 있다.\n③ 공공데이터 제공 및 관리에 관한 사항은 ｢공공데이터 관리지침(행정안전부 고시)｣에 따른다.\n제5장 소프트웨어 관리 등\n제1절 소프트웨어 관리\n**제93조(정품 소프트웨어의 사용)** 소프트웨어는 반드시 다음 각 호에 해당하는 정품 소프트웨어를 사용하여야 한다.\n1.「저작권법」제45조에 따라 저작권자로부터 전부를 양도받아 사용되는 프로그램\n2.「저작권법」제46조에 따라 저작권자로부터 사용이 허락된 이용방법 및 조건의 범위 안에서 사용하는 프로그램",
       "needsOriginal": true
     },
     {
-      "articleNo": "87",
-      "title": "데이터 품질오류 관리",
-      "breadcrumb": [
-        "제2절 데이터 품질관리 활동",
-        "③ 공단은 데이터 품질진단 추진계획과 데이터 품질 개선계획 및 동 계획의 실행결과를 고용노동부장관에게 제출하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제87조(데이터 품질오류 관리)** ① 데이터 품질관리 책임자는 다음 각 호의 어느 하나에 해당하는 데이터 품질오류 신고를 받은 경우 이를 신속히 처리하여야 한다.\n1. 직원, 민원인 등을 통해 오류 데이터를 신고 받은 경우\n\n2. 행정안전부 공공데이터 포털에 신고한 데이터의 품질오류에 대한 시정요구를 받은 경우\n\n② 데이터 품질관리 책임자는 데이터 품질오류를 확인한 경우 해당 데이터 오류를 직접 수정하거나 해당 데이터의 소관부서의 장에 수정을 요청할 수 있다.\n\n③ 수정을 요청한 데이터 품질오류의 경우, 특별한 사정이 없는 한 오류사항을 수정해야 하며, 이에 따른 신고 및 처리결과를 관리하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "88",
-      "title": "데이터베이스 표준화",
-      "breadcrumb": [
-        "제2절 데이터 품질관리 활동",
-        "③ 수정을 요청한 데이터 품질오류의 경우, 특별한 사정이 없는 한 오류사항을 수정해야 하며, 이에 따른 신고 및 처리결과를 관리하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제88조(데이터베이스 표준화)** ① 주관부서 및 소관부서의 장은 데이터베이스 표준화를 추진함에 있어 다음 각 호의 항목을 작성하여 관리한다.\n1. 코드정의서의 작성·관리\n\n2. 데이터사전의 작성·관리\n\n② 제1항제1호의 코드정의서는 행정표준코드를 준수하여 작성하여야 하며, 행정표준코드에 존재하지 않는 경우 코드정의서를 추가로 작성하고「행정기관의 코드표준화 추진지침」에 따라 표준코드로 등록하여야 한다.\n\n③ 제1항제2호의 데이터사전은 표준용어사전에 등재된 공통표준용어를 우선적으로 사용하여야 하며, 표준용어사전에 제공하지 않는 용어에 한하여 표준용어정의서를 추가하고, 표준용어사전에 등록하여야 한다.\n\n④ 구축부서의 장은 정보시스템 설계·구축시 제1항의 코드정의서 및 데이터사전을 준수하여야 한다.\n\n⑤ 데이터베이스 표준화에 관한 사항은「공공기관의 데이터베이스 표준화지침(행정안전부 고시)」에 따른다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "89",
-      "title": "연계데이터 품질관리",
-      "breadcrumb": [
-        "제2절 데이터 품질관리 활동",
-        "⑤ 데이터베이스 표준화에 관한 사항은「공공기관의 데이터베이스 표준화지침(행정안전부 고시)」에 따른다."
-      ],
-      "page": 1,
-      "text": "**제89조(연계데이터 품질관리)** ① 소관부서의 장은 데이터 연계 시 정보 공유 및 활용을 위해 연계데이터에 대해 데이터목록, 제공·활용기관, 연계방법 등을 작성·관리하여야 하며, 연계데이터의 정합성이 항시 유지되도록 관리하여야 한다.\n② 소관부서의 장은 데이터 송·수신에 따른 상호연관성 및 일관성 유지 및 검증을 위한 관련 연계관리요소를 연계기관과 합의하여 결정하여야 한다.\n\n③ 주관부서의 장 및 소관부서의 장은 타 기관에 제공하거나 타 기관으로부터 제공받아 활용 중인 연계데이터의 정합성 확보를 위해 연계데이터 목록을 작성 관리하여야 하며, 다음 각 호의 관리요소를 포함하여야 한다. \n1. 연계데이터 정의\n2. 연계데이터 세부항목 정의 \n3. 연계데이터 세부항목 출처\n4. 연계데이터 오너십(제공기관 및 활용기관 등) 정의\n5. 그 밖에 연계데이터 목록관리에 필요한 사항",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "90",
-      "title": "데이터 품질관리 산출물 관리",
-      "breadcrumb": [
-        "제2절 데이터 품질관리 활동",
-        "③ 주관부서의 장 및 소관부서의 장은 타 기관에 제공하거나 타 기관으로부터 제공받아 활용 중인 연계데이터의 정합성 확보를 위해 연계데이터 목록을 작성 관리하여야 하며, 다음 각 호의 관리요소를 포함하여야 한다. \n1. 연계데이터 정의\n2. 연계데이터 세부항목 정의 \n3. 연계데이터 세부항목 출처\n4. 연계데이터 오너십(제공기관 및 활용기관 등) 정의\n5. 그 밖에 연계데이터 목록관리에 필요한 사항"
-      ],
-      "page": 1,
-      "text": "**제90조(데이터 품질관리 산출물 관리)** ① 주관부서 및 소관부서의 장은 소관 데이터 품질의 효율적인 관리를 위해 ｢고용노동부 데이터 품질관리지침｣ 제16조제2항에 따라 지정한 품질관리 산출물을 작성하고 최신의 상태로 유지하여야 한다.\n② 구축부서의 장은 정보화사업을 발주할 경우 제안요청서 등에 사업자가 제출해야 할 데이터 품질관리 관련 산출물을 명시하여야 한다. 단, 패키지나 솔루션 형태의 정보시스템 구축으로 데이터 품질관리 관련 산출물 작성이 불가능한 경우에는 제안요청서 등에 명시하지 않을 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "91",
-      "title": "데이터 품질관리 교육",
-      "breadcrumb": [
-        "제2절 데이터 품질관리 활동",
-        "② 구축부서의 장은 정보화사업을 발주할 경우 제안요청서 등에 사업자가 제출해야 할 데이터 품질관리 관련 산출물을 명시하여야 한다. 단, 패키지나 솔루션 형태의 정보시스템 구축으로 데이터 품질관리 관련 산출물 작성이 불가능한 경우에는 제안요청서 등에 명시하지 않을 수 있다."
-      ],
-      "page": 1,
-      "text": "**제91조(데이터 품질관리 교육)** 데이터 품질관리 총괄책임자는 다음 각 호의 업무를 수행하는 자에 대하여 데이터 품질관리 교육을 실시할 수 있다.\n1. 데이터 품질관리 책임자\n 2. 데이터 품질관리 실무자\n 3. 개별 정보시스템 운영담당자\n\n4. 부서별 데이터 품질관리 실무자\n\n5. 그 밖에 데이터 품질관리 교육이 필요하다고 인정되는 대상자\n제3절 공공데이터 관리",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "92",
-      "title": "공공데이터 제공 및 관리",
-      "breadcrumb": [
-        "제3절 공공데이터 관리"
-      ],
-      "page": 1,
-      "text": "**제92조(공공데이터 제공 및 관리)** ① ｢공공데이터의 제공 및 이용 활성화에 관한 법률｣ 제17조에 따른 제공대상 공공데이터를 보유하고 있는 소관부서의 장은 데이터가 최신성, 정확성, 상호연계성이 유지되도록 하여야 하며, 해당 데이터를 공공데이터 포털에 등록하거나 연계하여 제공하여야 한다.\n\n② 주관부서의 장은 제1항에 따른 공공데이터 제공 실태에 대해 수시로 점검할 수 있으며, 해당 데이터 소관 부서의 장에게 점검결과에 따른 시정을 요구할 수 있다.\n\n③ 공공데이터 제공 및 관리에 관한 사항은 ｢공공데이터 관리지침(행정안전부 고시)｣에 따른다.\n제5장 소프트웨어 관리 등\n제1절 소프트웨어 관리",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "93",
-      "title": "정품 소프트웨어의 사용",
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "94",
+      "articleId": "제94조",
+      "title": "불법복제의 금지",
       "breadcrumb": [
         "제1절 소프트웨어 관리"
       ],
       "page": 1,
-      "text": "**제93조(정품 소프트웨어의 사용)** 소프트웨어는 반드시 다음 각 호에 해당하는 정품 소프트웨어를 사용하여야 한다.\n\n1.「저작권법」제45조에 따라 저작권자로부터 전부를 양도받아 사용되는 프로그램\n\n2.「저작권법」제46조에 따라 저작권자로부터 사용이 허락된 이용방법 및 조건의 범위 안에서 사용하는 프로그램\n\n제94조(불법복제의 금지) ① 제93조에 따른 정품 소프트웨어가 아닌 소프트웨어를 사용하여서는 아니 된다.\n\n② 정품 소프트웨어 1본을 구입하여 여러 대의 PC에 설치·사용하여서는 아니 된다.\n\n③ 공개 소프트웨어 중 저작권자가 소프트웨어를 정식으로 보급하기 전에 사용자로 하여금 일정기간 무료로 이용하도록 허가한 평가판(Share Ware)의 경우에는 회사 등 단체에서의 사용을 허용한 경우에만 사용이 가능하며, 이 경우 정보화 업무 운영 주관부서의 사전검토 후 무료 이용이 가능한 기간 내에서 사용하여야 한다.\n\n④ 공개 소프트웨어 중 평가판 및 제작자가 소프트웨어를 무료로 이용하는 것을 허락한 소프트웨어인 무료이용판(Free Ware) 이용에 있어 저작권자가 개인이 이용하는 경우는 허락하지만, 회사 등 단체에서의 사용을 금지하였을 경우에는 이를 사용하여서는 아니 된다.\n\n⑤ 평가판 및 무료이용판을 저작자의 허락 없이 통신망을 통하여 배포하여서는 아니 된다.\n제2절 전산교육",
+      "text": "제94조(불법복제의 금지) ① 제93조에 따른 정품 소프트웨어가 아닌 소프트웨어를 사용하여서는 아니 된다.\n② 정품 소프트웨어 1본을 구입하여 여러 대의 PC에 설치·사용하여서는 아니 된다.\n③ 공개 소프트웨어 중 저작권자가 소프트웨어를 정식으로 보급하기 전에 사용자로 하여금 일정기간 무료로 이용하도록 허가한 평가판(Share Ware)의 경우에는 회사 등 단체에서의 사용을 허용한 경우에만 사용이 가능하며, 이 경우 정보화 업무 운영 주관부서의 사전검토 후 무료 이용이 가능한 기간 내에서 사용하여야 한다.\n④ 공개 소프트웨어 중 평가판 및 제작자가 소프트웨어를 무료로 이용하는 것을 허락한 소프트웨어인 무료이용판(Free Ware) 이용에 있어 저작권자가 개인이 이용하는 경우는 허락하지만, 회사 등 단체에서의 사용을 금지하였을 경우에는 이를 사용하여서는 아니 된다.\n⑤ 평가판 및 무료이용판을 저작자의 허락 없이 통신망을 통하여 배포하여서는 아니 된다.\n제2절 전산교육\n**제95조(주관부서 직원교육)** ① 주관부서의 장은 정보화 업무분야에 대한 전문지식을 함양하기 위하여 소속직원을 대상으로 별도의 정보화 교육을 실시할 수 있다.\n② 전산시설의 신규 도입 시에는 주관부서 담당직원에 대한 교육을 실시하여 운영에 차질이 없도록 하여야 하며, 공급업체의 교육이 필요한 경우에는 이를 구매계약조건에 명시하여야 한다.\n**제96조(사용자 교육)** 소관부서의 장은 전산개발된 정보시스템을 업무에 효과적으로 활용하기 위하여 소관 업무교육에 포함하여 정보시스템 사용자 교육을 지속적으로 실시하여야 한다.\n제5장 보칙\n**제97조(해석)** 정보화업무 운영 및 이용과 관련된 사항의 해석은 원칙적으로 소관부서의 장이 행하고, 해석상 이견이 있을 경우에는 최종적으로 주관부서의 장이 행한다.\n**부칙**",
       "needsOriginal": false
     },
     {
-      "articleNo": "95",
-      "title": "주관부서 직원교육",
-      "breadcrumb": [
-        "제2절 전산교육"
-      ],
-      "page": 1,
-      "text": "**제95조(주관부서 직원교육)** ① 주관부서의 장은 정보화 업무분야에 대한 전문지식을 함양하기 위하여 소속직원을 대상으로 별도의 정보화 교육을 실시할 수 있다. \n\n② 전산시설의 신규 도입 시에는 주관부서 담당직원에 대한 교육을 실시하여 운영에 차질이 없도록 하여야 하며, 공급업체의 교육이 필요한 경우에는 이를 구매계약조건에 명시하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "96",
-      "title": "사용자 교육",
-      "breadcrumb": [
-        "제2절 전산교육",
-        "② 전산시설의 신규 도입 시에는 주관부서 담당직원에 대한 교육을 실시하여 운영에 차질이 없도록 하여야 하며, 공급업체의 교육이 필요한 경우에는 이를 구매계약조건에 명시하여야 한다."
-      ],
-      "page": 1,
-      "text": "**제96조(사용자 교육)** 소관부서의 장은 전산개발된 정보시스템을 업무에 효과적으로 활용하기 위하여 소관 업무교육에 포함하여 정보시스템 사용자 교육을 지속적으로 실시하여야 한다.\n제5장 보칙",
-      "needsOriginal": false
-    },
-    {
-      "articleNo": "97",
-      "title": "해석",
-      "breadcrumb": [
-        "제5장 보칙"
-      ],
-      "page": 1,
-      "text": "**제97조(해석)** 정보화업무 운영 및 이용과 관련된 사항의 해석은 원칙적으로 소관부서의 장이 행하고, 해석상 이견이 있을 경우에는 최종적으로 주관부서의 장이 행한다.\n\n**부칙**",
-      "needsOriginal": false
-    },
-    {
+      "section": "본칙",
+      "supplement": null,
       "articleNo": "1",
+      "articleId": "제1조",
       "title": "시행일",
       "breadcrumb": [],
       "page": 1,
-      "text": "제1조(시행일) 이 규칙은 2024. 8. 19.부터 시행한다.\n[별표 1] (제13조제2항 관련)\n\n사업규모별 제안서 평가위원 수\n| 사업예산액 | 1억원 미만 | 1억원이상 ～ 50억원 미만 | 50억원 이상 |\n| --- | --- | --- | --- |\n| 위원수 | 8명 이하 | 8명 이상 | 9명 이상 |\n[별표 2] (제14조 관련)\n\n평가위원 수당\n| 예산액 | 50억 미만 | 50억∼100억 미만 | 100억 이상 |\n| --- | --- | --- | --- |\n| 평가수당 | 25만원 | 35만원 | 40만원 |\n[별표 3] (제83조 관련)\n\n데이터 품질지표\n| 지표 | 지표 정의 | 세부 지표 |\n| --- | --- | --- |\n| 준비성 | 데이터 품질관리를 위해 기본적으로 관리해야 하는 요소들에 대하여 정의하고, 이에 대해 지속적인 활동을 통해 최신화하고 있는지를 측정하는 지표 | • 관리지표<br>• 내용충실 |\n| 완전성 | 데이터베이스를 구축함에 있어 논리적인 설계와 물리적인 구조를 업무요건에 맞게 데이터가 저장되도록 설계·구축되었는지를 측정하는 지표 | • 논리모델<br>• 식별자<br>• 물리구조<br>• 속성의미 |\n| 일관성 | 엔티티의 속성이 정의된 표준(표준 용어, 코드, 도메인)을 준수하고 있는지와 속성의 중복 사용 또는 데이터 연계에 일관성이 유지되고 있는지를 측정하는 지표 | • 속성<br>• 표준<br>• 중복값<br>• 연계값 |\n| 정확성 | 사전 품질 확보를 위해 데이터 입력 단계에 오류를 방지하기 위한 방법이나 로직 등의 조치 수준과 실제 입력된 값이 업무규칙에 맞게 저장되어 있는지를 측정하는 지표 | • 입력값<br>• 업무규칙 |\n| 유효성 | 저장된 데이터가 정의된 기준에 맞게 유효한 정보의 범위와 형식으로 되어 있는 수준, 상호 참조관계에 대한 무결성 확보 수준, 가동된 값이 산출식에 의해 원천값이 추적되는지에 대한 관리 수준 등을 측정하는 지표 | • 범위·형식<br>• 참조관계<br>• 계산식 |\n| 보안성 | 지속적인 품질 확보를 위해 운영되는 데이터의 생성관리 주체가 누구인지에 대한 관리 수준, 권한에 따른 데이터 접근 관리수준, 정보 서비스의 중단 최소화를 위한 DB 보완관리 등의 수준을 측정하는 지표 | • 오너쉽<br>• 접근제한<br>• DB보호 |\n| 적시성 | 사용자가 만족하는 수준의 응답시간으로 프로그램 성능이 확보 되었는지, 정보 요구사항 접수로부터 수집·처리되어 제공되기까지의 작업시간이 최소화 관리되며 요구된 정보가 최신의 것인가에 대한 수준을 측정하는 지표 | • 응답시간<br>• 데이터제공<br>• 최신값 |\n| 유용성 | 사용자가 만족하는 수준의 충분한 정보가 제공되고 있는가, 정보에 접근이 사용자의 편의성이 확보되었는가, 그래서 사용자가 정보를 유용하게 활용하고 있는가에 대한 수준을 측정하는 지표 | • 충분<br>• 접근<br>• 활용 |\n[별지 제1호서식]\n<table>\n<tr><th colspan=\"5\">정보화추진위원회 결의서</th></tr>\n<tr><td colspan=\"5\">심의안건 :</td></tr>\n<tr><td rowspan=\"2\">심의요청부서<br>(기관)</td><td rowspan=\"2\">심의요청사유</td><td>심의요청내용</td><td rowspan=\"2\">심의의견</td><td rowspan=\"2\">심의결과</td></tr>\n<tr><td>사업명,기기명(수량)</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td colspan=\"5\">위 안건에 대하여 의결사항을 명확히 하기 위하여「정보화업무운영 및 이용에 관한 규칙」제12조에 따라 위와 같이 서명함.<br>년 월 일<br>소 속 : 위 원 : (서명)</td></tr>\n</table>\n※ “심의결과”는 승인, 조건부 승인, 불승인으로 기재하여 주시기 바랍니다.\n[별지 제2호서식]\n<table>\n<tr><th colspan=\"9\">하도급 대금지급 비율 명세서</th></tr>\n<tr><td colspan=\"4\">원도급자</td><td colspan=\"5\">하도급자</td></tr>\n<tr><td>사업명</td><td colspan=\"3\"></td><td colspan=\"2\">하도급<br>사업명</td><td colspan=\"3\"></td></tr>\n<tr><td>회사명</td><td colspan=\"3\"></td><td colspan=\"2\">회사명</td><td colspan=\"3\"></td></tr>\n<tr><td rowspan=\"2\">사업기간</td><td colspan=\"3\" rowspan=\"2\"></td><td colspan=\"2\">하도급<br>기간</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">하도급<br>지급대금</td><td colspan=\"3\">원</td></tr>\n<tr><td rowspan=\"7\">하도급 지급<br>대금 세부내역</td><td>①구 분</td><td>②SW 월 노임단가</td><td colspan=\"2\">③투입<br>인력(MM)</td><td colspan=\"2\">④MM당 하도급 대가</td><td>⑤지급금액<br>(③x④)</td><td>⑥지급<br>비율</td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td><td rowspan=\"5\"></td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td>합 계</td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td><td></td></tr>\n<tr><td colspan=\"9\">상기와 같이 합의하였음을 확인합니다.<br>년 월 일<br>(원도급자) 직인<br>(하도급자) 직인</td></tr>\n<tr><td colspan=\"9\">첨부서류 : 하도급 부문 산출 내역서</td></tr>\n</table>\n① 구분 : 소프트웨어산업진흥법 제2조 5항에서 정한 소프트웨어 기술자\n\n② SW 월노임단가 : SW산업협회에서 공표하는 일노임단가 × 근무일수\n\n④ M/M당 도급 대가 : 원도급자가 하도급자에게 지급하는 직접인건비 + 제경비 + 기술료\n\n⑥ 지급비율 : ∑지급급액 ÷ ∑(SW 월노임단가 × 투입인력)\n[별지 제3호서식]\n\nOOO사업 제안서평가 결과\n**□ 평가위원 : OOO 위원**\n\n**□ 평가점수**\n<table>\n<tr><th rowspan=\"2\">평가부문</th><th colspan=\"4\">입찰참가업체</th><th rowspan=\"2\">비 고</th></tr>\n<tr><td>A</td><td>B</td><td>C</td><td>.....</td></tr>\n<tr><td>XX부문</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>YY부문</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>∶</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>∶</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>∶</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>∶</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>합 계</td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n[별지 제4호서식]\n<table>\n<tr><th colspan=\"4\">정보화사업 착수계</th></tr>\n<tr><td>사업명</td><td colspan=\"3\"></td></tr>\n<tr><td>계약번호</td><td></td><td>계약년월일</td><td>년월일</td></tr>\n<tr><td>계약금액</td><td colspan=\"3\"></td></tr>\n<tr><td>계약수행기간</td><td colspan=\"3\">년월일~년월일</td></tr>\n<tr><td colspan=\"4\">위의 사업의 착수계와 붙임서류를 제출합니다.<br>년 월 일<br>붙임 : 1. 사업책임자계 1부<br>2. 사업수행계획서 1부<br>3. 청렴서약서 1부<br>4. 보안서약서(업체 대표자용, 업체 직원용) 1부<br>사 업 자 직인<br>oooo장 귀하</td></tr>\n</table>\n\\* 보안서약서는「정보보안 및 개인정보보호 업무처리규칙」 별지 제1호, 제2호 서식 활용\n<table>\n<tr><th colspan=\"4\">사업책임자계</th></tr>\n<tr><td>사업명</td><td colspan=\"3\"></td></tr>\n<tr><td>계약번호</td><td></td><td>계약금액</td></tr>\n<tr><td>계약수행기간</td><td colspan=\"3\">년월일～년월일</td></tr>\n<tr><td colspan=\"4\">위의 사업에 대하여 당사의 사업책임자를 아래와 같이 선정하고,<br>계약업무에 관한 일체의 업무를 위임 하였기에 책임자계를 제출합니다.<br>사업책임자<br>성 명 : 인<br>직 위 :<br>년 월 일<br>사 업 자 직인<br>oooo장 귀하</td></tr>\n</table>\n청렴 서약서\n당사는「부패 없는 투명한 기업경영과 공정한 행정」이 사회발전과 국가 경쟁력에 중요한 관건이 됨을 깊이 인식하며, 국제적으로도 OECD뇌물방지 협약이 발효되었고 부패기업 및 국가에 대한 제재가 강화되는 추세에 맞추어 청렴계약 취지에 적극 호응하여 공단의 모든 공사, 물품 및 용역 등의 입찰에 참여할 때 당사 및 하도급업체(하도급업체와 직ㆍ간접적으로 업무를 수행하는 자를 포함)의 임직원과 대리인은\n**1. 입찰가격의 유지나 특정인의 낙찰을 위한 담합을 하거나 다른 업체와 협정, 결의, 합의하여 입찰의 자유경쟁을 부당하게 저해하는 일체의 불공정한 행위를 않겠습니다.**\n**2. 입찰, 낙찰, 계약체결 또는 계약이행과정(준공 이후도 포함)에서 관계 직원에게 직ㆍ간접적으로 금품ㆍ향응 등의 부당한 이익을 제공하지 않겠으며, 그러한 사실이 드러날 경우에는 계약체결 이전의 경우에는 낙찰자 결정 취소, 계약이행 전에는 계약취소, 계약이행 이후에는 해당 계약의 전부 또는 일부계약을 해제 또는 해지하여도 감수하겠습니다.**\n**3. 회사 임ㆍ직원이 관계 직원에게 금품, 향응 등을 제공하거나 담합 등 불공정 행위를 하지 않도록 하는 회사윤리강령과 내부비리 제보자에 대해서도 일체의 불이익처분을 하지 않는 사규를 제정토록 노력하겠습니다.**\n위 청렴계약 서약은 상호신뢰를 바탕으로 한 약속으로서 반드시 지킬 것이며, 낙찰자로 결정될 시 본 서약내용을 그대로 계약특수조건으로 계약하여 이행하고, 입찰참가자격 제한, 계약해지 등의 조치와 관련하여 당사가 손해배상을 청구하거나 당사를 배제하는 입찰에 관하여 민ㆍ형사상 어떠한 이의도 제기하지 않을 것을 서약합니다.\n년 월 일\n서 약 자 : ○○○회사 대표 ○○○ (서명 또는 인)\n○○○ 장 귀하\n[별지 제5호서식]\n\n정보화사업 평가위원 개인정보 수집․이용 동의서\n<table>\n<tr><th></th><th rowspan=\"2\">< 개인정보 수집․이용에 관한 안내 ></th></tr>\n<tr><td></td></tr>\n<tr><td colspan=\"3\">① (수집․이용 목적)<br>한국장애인고용공단 정보화사업 평가위원 인력풀 등록을 위한 인적사항이며, 정보화사업 평가위원 선정을 위한 목적 외로 사용하지 아니합니다.<br>② (수집항목)<br>이력사항〔성명, 직장명, 부서명(학과명), 직위, 전화번호(H.P), e-mail, 전문분야〕<br>③ (개인정보의 보유 및 이용 기간)<br>수집된 정보는 한국장애인고용공단 정보화사업 평가위원 선정을 위해 사용되며, 공공기록물 관리에 관한 법률 시행령 제26조(보존기간)의 보존기간별 책정 기준에 따라 행정업무의 참고 또는 사실의 증명을 위하여 3년간 보존합니다.<br>④ (동의 거부권리 안내)<br>본 개인정보 수집․이용에 대한 동의를 거부할 수 있으며, 동의하지 않을 경우에는 평가위원으로 추천될 수 없습니다.<br>위 사항을 숙지하고 개인정보 수집․이용목적 및 개인정보 보유기간에 동의하십니까?<br>□ 동의함 □ 동의하지 않음</td></tr>\n<tr><td colspan=\"3\">20 . . .<br>(소속) (성명) (서명 또는 날인)<br>한국장애인고용공단 이사장 귀하</td></tr>\n</table>",
-      "needsOriginal": false
+      "text": "제1조(시행일) 이 규칙은 2024. 8. 19.부터 시행한다.\n[별표 1] (제13조제2항 관련)\n사업규모별 제안서 평가위원 수\n| 사업예산액 | 1억원 미만 | 1억원이상 ～ 50억원 미만 | 50억원 이상 |\n| --- | --- | --- | --- |\n| 위원수 | 8명 이하 | 8명 이상 | 9명 이상 |\n[별표 2] (제14조 관련)\n평가위원 수당\n| 예산액 | 50억 미만 | 50억∼100억 미만 | 100억 이상 |\n| --- | --- | --- | --- |\n| 평가수당 | 25만원 | 35만원 | 40만원 |\n[별표 3] (제83조 관련)\n데이터 품질지표\n| 지표 | 지표 정의 | 세부 지표 |\n| --- | --- | --- |\n| 준비성 | 데이터 품질관리를 위해 기본적으로 관리해야 하는 요소들에 대하여 정의하고, 이에 대해 지속적인 활동을 통해 최신화하고 있는지를 측정하는 지표 | • 관리지표<br>• 내용충실 |\n| 완전성 | 데이터베이스를 구축함에 있어 논리적인 설계와 물리적인 구조를 업무요건에 맞게 데이터가 저장되도록 설계·구축되었는지를 측정하는 지표 | • 논리모델<br>• 식별자<br>• 물리구조<br>• 속성의미 |\n| 일관성 | 엔티티의 속성이 정의된 표준(표준 용어, 코드, 도메인)을 준수하고 있는지와 속성의 중복 사용 또는 데이터 연계에 일관성이 유지되고 있는지를 측정하는 지표 | • 속성<br>• 표준<br>• 중복값<br>• 연계값 |\n| 정확성 | 사전 품질 확보를 위해 데이터 입력 단계에 오류를 방지하기 위한 방법이나 로직 등의 조치 수준과 실제 입력된 값이 업무규칙에 맞게 저장되어 있는지를 측정하는 지표 | • 입력값<br>• 업무규칙 |\n| 유효성 | 저장된 데이터가 정의된 기준에 맞게 유효한 정보의 범위와 형식으로 되어 있는 수준, 상호 참조관계에 대한 무결성 확보 수준, 가동된 값이 산출식에 의해 원천값이 추적되는지에 대한 관리 수준 등을 측정하는 지표 | • 범위·형식<br>• 참조관계<br>• 계산식 |\n| 보안성 | 지속적인 품질 확보를 위해 운영되는 데이터의 생성관리 주체가 누구인지에 대한 관리 수준, 권한에 따른 데이터 접근 관리수준, 정보 서비스의 중단 최소화를 위한 DB 보완관리 등의 수준을 측정하는 지표 | • 오너쉽<br>• 접근제한<br>• DB보호 |\n| 적시성 | 사용자가 만족하는 수준의 응답시간으로 프로그램 성능이 확보 되었는지, 정보 요구사항 접수로부터 수집·처리되어 제공되기까지의 작업시간이 최소화 관리되며 요구된 정보가 최신의 것인가에 대한 수준을 측정하는 지표 | • 응답시간<br>• 데이터제공<br>• 최신값 |\n| 유용성 | 사용자가 만족하는 수준의 충분한 정보가 제공되고 있는가, 정보에 접근이 사용자의 편의성이 확보되었는가, 그래서 사용자가 정보를 유용하게 활용하고 있는가에 대한 수준을 측정하는 지표 | • 충분<br>• 접근<br>• 활용 |\n[별지 제1호서식]\n<table>\n<tr><th colspan=\"5\">정보화추진위원회 결의서</th></tr>\n<tr><td colspan=\"5\">심의안건 :</td></tr>\n<tr><td rowspan=\"2\">심의요청부서<br>(기관)</td><td rowspan=\"2\">심의요청사유</td><td>심의요청내용</td><td rowspan=\"2\">심의의견</td><td rowspan=\"2\">심의결과</td></tr>\n<tr><td>사업명,기기명(수량)</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td colspan=\"5\">위 안건에 대하여 의결사항을 명확히 하기 위하여「정보화업무운영 및 이용에 관한 규칙」제12조에 따라 위와 같이 서명함.<br>년 월 일<br>소 속 : 위 원 : (서명)</td></tr>\n</table>\n※ “심의결과”는 승인, 조건부 승인, 불승인으로 기재하여 주시기 바랍니다.\n[별지 제2호서식]\n<table>\n<tr><th colspan=\"9\">하도급 대금지급 비율 명세서</th></tr>\n<tr><td colspan=\"4\">원도급자</td><td colspan=\"5\">하도급자</td></tr>\n<tr><td>사업명</td><td colspan=\"3\"></td><td colspan=\"2\">하도급<br>사업명</td><td colspan=\"3\"></td></tr>\n<tr><td>회사명</td><td colspan=\"3\"></td><td colspan=\"2\">회사명</td><td colspan=\"3\"></td></tr>\n<tr><td rowspan=\"2\">사업기간</td><td colspan=\"3\" rowspan=\"2\"></td><td colspan=\"2\">하도급<br>기간</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">하도급<br>지급대금</td><td colspan=\"3\">원</td></tr>\n<tr><td rowspan=\"7\">하도급 지급<br>대금 세부내역</td><td>①구 분</td><td>②SW 월 노임단가</td><td colspan=\"2\">③투입<br>인력(MM)</td><td colspan=\"2\">④MM당 하도급 대가</td><td>⑤지급금액<br>(③x④)</td><td>⑥지급<br>비율</td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td><td rowspan=\"5\"></td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td></td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td>합 계</td><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td><td></td></tr>\n<tr><td colspan=\"9\">상기와 같이 합의하였음을 확인합니다.<br>년 월 일<br>(원도급자) 직인<br>(하도급자) 직인</td></tr>\n<tr><td colspan=\"9\">첨부서류 : 하도급 부문 산출 내역서</td></tr>\n</table>\n① 구분 : 소프트웨어산업진흥법 제2조 5항에서 정한 소프트웨어 기술자\n② SW 월노임단가 : SW산업협회에서 공표하는 일노임단가 × 근무일수\n④ M/M당 도급 대가 : 원도급자가 하도급자에게 지급하는 직접인건비 + 제경비 + 기술료\n⑥ 지급비율 : ∑지급급액 ÷ ∑(SW 월노임단가 × 투입인력)\n[별지 제3호서식]\nOOO사업 제안서평가 결과\n**□ 평가위원 : OOO 위원**\n**□ 평가점수**\n<table>\n<tr><th rowspan=\"2\">평가부문</th><th colspan=\"4\">입찰참가업체</th><th rowspan=\"2\">비 고</th></tr>\n<tr><td>A</td><td>B</td><td>C</td><td>.....</td></tr>\n<tr><td>XX부문</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>YY부문</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>∶</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>∶</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>∶</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>∶</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>합 계</td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n[별지 제4호서식]\n<table>\n<tr><th colspan=\"4\">정보화사업 착수계</th></tr>\n<tr><td>사업명</td><td colspan=\"3\"></td></tr>\n<tr><td>계약번호</td><td></td><td>계약년월일</td><td>년월일</td></tr>\n<tr><td>계약금액</td><td colspan=\"3\"></td></tr>\n<tr><td>계약수행기간</td><td colspan=\"3\">년월일~년월일</td></tr>\n<tr><td colspan=\"4\">위의 사업의 착수계와 붙임서류를 제출합니다.<br>년 월 일<br>붙임 : 1. 사업책임자계 1부<br>2. 사업수행계획서 1부<br>3. 청렴서약서 1부<br>4. 보안서약서(업체 대표자용, 업체 직원용) 1부<br>사 업 자 직인<br>oooo장 귀하</td></tr>\n</table>\n\\* 보안서약서는「정보보안 및 개인정보보호 업무처리규칙」 별지 제1호, 제2호 서식 활용\n<table>\n<tr><th colspan=\"4\">사업책임자계</th></tr>\n<tr><td>사업명</td><td colspan=\"3\"></td></tr>\n<tr><td>계약번호</td><td></td><td>계약금액</td></tr>\n<tr><td>계약수행기간</td><td colspan=\"3\">년월일～년월일</td></tr>\n<tr><td colspan=\"4\">위의 사업에 대하여 당사의 사업책임자를 아래와 같이 선정하고,<br>계약업무에 관한 일체의 업무를 위임 하였기에 책임자계를 제출합니다.<br>사업책임자<br>성 명 : 인<br>직 위 :<br>년 월 일<br>사 업 자 직인<br>oooo장 귀하</td></tr>\n</table>\n청렴 서약서\n당사는「부패 없는 투명한 기업경영과 공정한 행정」이 사회발전과 국가 경쟁력에 중요한 관건이 됨을 깊이 인식하며, 국제적으로도 OECD뇌물방지 협약이 발효되었고 부패기업 및 국가에 대한 제재가 강화되는 추세에 맞추어 청렴계약 취지에 적극 호응하여 공단의 모든 공사, 물품 및 용역 등의 입찰에 참여할 때 당사 및 하도급업체(하도급업체와 직ㆍ간접적으로 업무를 수행하는 자를 포함)의 임직원과 대리인은\n**1. 입찰가격의 유지나 특정인의 낙찰을 위한 담합을 하거나 다른 업체와 협정, 결의, 합의하여 입찰의 자유경쟁을 부당하게 저해하는 일체의 불공정한 행위를 않겠습니다.**\n**2. 입찰, 낙찰, 계약체결 또는 계약이행과정(준공 이후도 포함)에서 관계 직원에게 직ㆍ간접적으로 금품ㆍ향응 등의 부당한 이익을 제공하지 않겠으며, 그러한 사실이 드러날 경우에는 계약체결 이전의 경우에는 낙찰자 결정 취소, 계약이행 전에는 계약취소, 계약이행 이후에는 해당 계약의 전부 또는 일부계약을 해제 또는 해지하여도 감수하겠습니다.**\n**3. 회사 임ㆍ직원이 관계 직원에게 금품, 향응 등을 제공하거나 담합 등 불공정 행위를 하지 않도록 하는 회사윤리강령과 내부비리 제보자에 대해서도 일체의 불이익처분을 하지 않는 사규를 제정토록 노력하겠습니다.**\n위 청렴계약 서약은 상호신뢰를 바탕으로 한 약속으로서 반드시 지킬 것이며, 낙찰자로 결정될 시 본 서약내용을 그대로 계약특수조건으로 계약하여 이행하고, 입찰참가자격 제한, 계약해지 등의 조치와 관련하여 당사가 손해배상을 청구하거나 당사를 배제하는 입찰에 관하여 민ㆍ형사상 어떠한 이의도 제기하지 않을 것을 서약합니다.\n년 월 일\n서 약 자 : ○○○회사 대표 ○○○ (서명 또는 인)\n○○○ 장 귀하\n[별지 제5호서식]\n정보화사업 평가위원 개인정보 수집․이용 동의서\n<table>\n<tr><th></th><th rowspan=\"2\">< 개인정보 수집․이용에 관한 안내 ></th></tr>\n<tr><td></td></tr>\n<tr><td colspan=\"3\">① (수집․이용 목적)<br>한국장애인고용공단 정보화사업 평가위원 인력풀 등록을 위한 인적사항이며, 정보화사업 평가위원 선정을 위한 목적 외로 사용하지 아니합니다.<br>② (수집항목)<br>이력사항〔성명, 직장명, 부서명(학과명), 직위, 전화번호(H.P), e-mail, 전문분야〕<br>③ (개인정보의 보유 및 이용 기간)<br>수집된 정보는 한국장애인고용공단 정보화사업 평가위원 선정을 위해 사용되며, 공공기록물 관리에 관한 법률 시행령 제26조(보존기간)의 보존기간별 책정 기준에 따라 행정업무의 참고 또는 사실의 증명을 위하여 3년간 보존합니다.<br>④ (동의 거부권리 안내)<br>본 개인정보 수집․이용에 대한 동의를 거부할 수 있으며, 동의하지 않을 경우에는 평가위원으로 추천될 수 없습니다.<br>위 사항을 숙지하고 개인정보 수집․이용목적 및 개인정보 보유기간에 동의하십니까?<br>□ 동의함 □ 동의하지 않음</td></tr>\n<tr><td colspan=\"3\">20 . . .<br>(소속) (성명) (서명 또는 날인)<br>한국장애인고용공단 이사장 귀하</td></tr>\n</table>",
+      "needsOriginal": true
     }
   ]
 }

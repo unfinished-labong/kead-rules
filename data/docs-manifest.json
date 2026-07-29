@@ -1,382 +1,458 @@
 {
-  "collectedAt": "2026-07-29T07:06:01.387Z",
+  "collectedAt": "2026-07-29T07:23:51.837Z",
+  "converterVersion": 2,
   "targets": 74,
   "converted": 74,
-  "reusedFromCache": 74,
-  "totalArticles": 3063,
-  "needsOriginal": 483,
+  "reusedFromCache": 0,
+  "totalArticles": 1749,
+  "totalSupplementArticles": 488,
+  "needsOriginal": 597,
   "failed": [],
   "mergeCandidates": [],
   "byKey": {
     "75A2F72214D608B3A92E": {
       "docKey": "특정업무직운영지원직직원관리규칙",
       "sha256": "a5a9c22c98ba74bc24699d351cf3024d916ce376ff5b487fce778e4e63a50000",
-      "articles": 43
+      "articles": 39,
+      "supplements": 7
     },
     "010F2FE05F2D5AA7B60A": {
       "docKey": "특정업무직사업지원직직원관리규칙",
       "sha256": "9772fb29060761d29e669f20067962c239dc81a359ea9c357567a540e570247c",
-      "articles": 43
+      "articles": 39,
+      "supplements": 7
     },
     "85A937EF862323A77638": {
       "docKey": "직제규정시행규칙",
       "sha256": "e3b8ff569cd179e794e14221e17bb067760a75b1b4b397f5af2d0723c0767f8b",
-      "articles": 41
+      "articles": 10,
+      "supplements": 38
     },
     "11B49897367ABC769DAA": {
       "docKey": "회계규정시행규칙",
       "sha256": "47034a83ba34bab0a830474ac13cfaf0a93f41a33a1542c823e554475906a52b",
-      "articles": 195
+      "articles": 193,
+      "supplements": 40
     },
     "4C58000C81FA2505BA10": {
       "docKey": "고용부담금적용징수관리업무처리규칙",
       "sha256": "e198dee220c5ce469c0c0504ee34fdd9f6cab0ee0969a0aa4dd0591ef8d7f390",
-      "articles": 139
+      "articles": 131,
+      "supplements": 35
     },
     "60F0EA7051F11EE45F34": {
       "docKey": "보조공학기기지원업무처리규칙",
       "sha256": "8b7190b08795b0f9df72d70c3e4026a300867de21f1c4118329cc60c5fc081de",
-      "articles": 90
+      "articles": 32,
+      "supplements": 0
     },
     "B18B6CACAA6E66D8D6DC": {
       "docKey": "보수규정",
       "sha256": "46ee8c9a54b046d1b2a2e4e01471de7a2a5adeb7553e7301f3c3b11654e105a0",
-      "articles": 82
+      "articles": 59,
+      "supplements": 78
     },
     "2E3B95B6344CCBA0B60E": {
       "docKey": "인사규정시행규칙",
       "sha256": "744ad389e4070438f9ea35ee7be10c6d7e030aec38b3b4e0790f011761ed9293",
-      "articles": 155
+      "articles": 159,
+      "supplements": 30
     },
     "30FEB5DF6EEA71C9E5A1": {
       "docKey": "자산관리규정시행규칙",
       "sha256": "2eec8d7c2da7c6c10e5f90746282ad1d5652e7927f309926d6fefb4ec67dd5f4",
-      "articles": 95
+      "articles": 111,
+      "supplements": 6
     },
     "24862015EEE4087FF16C": {
       "docKey": "직업능력개발원훈련센터운영업무처리규칙",
       "sha256": "6ca3fa1ff90e44d2fc9ad023416d8179c82e880e7993e09eadca93ce6a3ef871",
-      "articles": 68
+      "articles": 62,
+      "supplements": 10
     },
     "D1D68B57C1D6F83F51FE": {
       "docKey": "부패행위신고접수처리신고자보호등에관한운영규칙",
       "sha256": "8b21396ceb6f9b3c8c7bd7a4997a039eabd39f0b90e81135b5889ddc407b1878",
-      "articles": 21
+      "articles": 25,
+      "supplements": 0
     },
     "62E2A5F25020943FF415": {
       "docKey": "공익신고처리신고자보호등에관한운영규칙",
       "sha256": "3ac5b927f8d12d06691ce19069c3905107f48437dd93b4c51379ea313267b8ba",
-      "articles": 31
+      "articles": 34,
+      "supplements": 2
     },
     "E730106AD03F9F2E582A": {
       "docKey": "위임전결업무처리규칙",
       "sha256": "84ababd18a857f7ababa684aea8bd5b58ec81127303a961597a39e17174772e6",
-      "articles": 46
+      "articles": 13,
+      "supplements": 34
     },
     "B85730677B7A807CE545": {
       "docKey": "기간제근로자관리규칙",
       "sha256": "fe01c5aa13e4a557ef48449881b430792914f8b0ba91d5bd3f10a8ba92ec5922",
-      "articles": 43
+      "articles": 41,
+      "supplements": 3
     },
     "F63746CFCA96B988BCEE": {
       "docKey": "특정업무직운영지원직직원관리규칙",
       "sha256": "4abb3b3bacef7d45294dc0168da8ebe882f1f791f78d4cab0684b12757b08d2f",
-      "articles": 42
+      "articles": 39,
+      "supplements": 6
     },
     "BEB825AC9BA8482AF6E6": {
       "docKey": "특정업무직사업지원직직원관리규칙",
       "sha256": "75e37d13108885956e70c1478c15ba9d1c721a520edd693ef7a25cae6d54b612",
-      "articles": 42
+      "articles": 39,
+      "supplements": 6
     },
     "21FE875CFD5B9C268798": {
       "docKey": "장애인취업지원업무처리규칙",
       "sha256": "35388dc08072427e4a7027d565c05cb49d05a38a01c04b8609d4afbf599224e6",
-      "articles": 90
+      "articles": 4,
+      "supplements": 0
     },
     "8C264826791E53B35BEC": {
       "docKey": "임금피크제운영규정시행규칙",
       "sha256": "7adb151e530c87bc5325b1025913daf9b405a1847f2dc4e8efdb662f5da778d4",
-      "articles": 8
+      "articles": 7,
+      "supplements": 2
     },
     "8E1A8C1DE6D346F6D844": {
       "docKey": "장애인고용장려금지급업무처리규칙",
       "sha256": "b9556f26a1b4c51f3e28feaf463f6a06341870532f42803e92ff311f721f4909",
-      "articles": 14
+      "articles": 0,
+      "supplements": 0
     },
     "25F100905ACD7F2C2272": {
       "docKey": "성과연봉제시행규칙",
       "sha256": "19fe225116b22da36a90d2e948c30ee97705d35537baf704ae78adbe6cc6f023",
-      "articles": 28
+      "articles": 5,
+      "supplements": 5
     },
     "2351DC583E2854E5D97F": {
       "docKey": "보수규정시행규칙",
       "sha256": "5b3af5c3d024ac3f78c07751f756b3134e1db789ca64dfa0fe65dab4f774d0c8",
-      "articles": 20
+      "articles": 8,
+      "supplements": 13
     },
     "6778510E486840695E49": {
       "docKey": "자산관리규정",
       "sha256": "870b021716ef1ae217d0b3d8d3df504e74612ca961f370b756f09056cc85256b",
-      "articles": 29
+      "articles": 40,
+      "supplements": 0
     },
     "845050E6EB87D1BEE587": {
       "docKey": "인사규정",
       "sha256": "3334f88815f608364484c20c910c79d21aae8aae29f611065adc94d531d60a41",
-      "articles": 66
+      "articles": 12,
+      "supplements": 8
     },
     "287A89CBF5E86FEA017F": {
       "docKey": "직제규정",
       "sha256": "9e3ca6fcfc3ccdc693d4fe8d9647e3247d0fb45cf7a7bb5f4f4f9c3dbec02f3d",
-      "articles": 23
+      "articles": 3,
+      "supplements": 5
     },
     "AF18561587D1105D58BC": {
       "docKey": "장애인직업생활상담원양성연수규칙",
       "sha256": "bb456169a1ca4ee0fb6f686ae1eef0e1d3fef55e152786adc1f46ca5af1aee7d",
-      "articles": 17
+      "articles": 2,
+      "supplements": 5
     },
     "542B6C65E4015C46DEBD": {
       "docKey": "직무관리규칙",
       "sha256": "da62bfc4a8b609dcc4c28ad1220772349c2c36176de42b23e60c43f57e2e36cc",
-      "articles": 15
+      "articles": 4,
+      "supplements": 2
     },
     "F72704B04A5A14EFB351": {
       "docKey": "근로지원인지원업무처리규칙",
       "sha256": "0e94c5d8d0423318114004598f7d3cc224b1f214f3e6790c58f9d17ab8f8c9b1",
-      "articles": 74
+      "articles": 61,
+      "supplements": 41
     },
     "11D022BB49E012E182BA": {
       "docKey": "장애인표준사업장에대한지원업무처리규칙",
       "sha256": "6e7c3457dc9b8bd9ab666281266e4534cee747290dd538245a0ffc2a271d3eb6",
-      "articles": 104
+      "articles": 42,
+      "supplements": 0
     },
     "AAC8050DA6761086DEEC": {
       "docKey": "회계감사인선임위원회운영규칙",
       "sha256": "d716e3fe1f2f9c4f8eafc21edb4bb08978960ced7fb5a5ad2201bb3137ba079c",
-      "articles": 20
+      "articles": 5,
+      "supplements": 0
     },
     "7ED22E09C5D97D9847C7": {
       "docKey": "한시조직관리규칙",
       "sha256": "7a5d792a02e412f3ed54b9f54d6042685f0afe5cf9aafc3927c8fbe5f9d68625",
-      "articles": 7
+      "articles": 2,
+      "supplements": 0
     },
     "5B89EF08A3B2F837F338": {
       "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
       "sha256": "6365359d21dd4171edfbfffa82c086689ca6cdd1e30eb2177bc013a235f9d200",
-      "articles": 25
+      "articles": 9,
+      "supplements": 0
     },
     "4E4EB0F5CC2356223464": {
       "docKey": "내부통제운영규칙",
       "sha256": "864d20ac77627cbd1230fbc392eec27aa7afbb2346c48f4e5a4e30c462e675df",
-      "articles": 25
+      "articles": 17,
+      "supplements": 0
     },
     "0B28F02CE3751792BB06": {
       "docKey": "기록물관리규칙",
       "sha256": "0a6de007a1cc57fd7ade72f8d5703cc48375c8e9c65f97410a380480c3d85548",
-      "articles": 39
+      "articles": 7,
+      "supplements": 0
     },
     "3BEFC934E036B57F2309": {
       "docKey": "사무관리규칙",
       "sha256": "a598ac559db0ffb7d9d1dd61f32f02394999d03782d821b4cb27cb054a99bc08",
-      "articles": 39
+      "articles": 7,
+      "supplements": 0
     },
     "BB2E83BA397A19DBB7F7": {
       "docKey": "안전보건관리규정시행규칙",
       "sha256": "22a1a35a536c73ea34d546f23e5e718ec34aa2f77180d30808a8261dc679906e",
-      "articles": 70
+      "articles": 2,
+      "supplements": 4
     },
     "FAF3728763D46962B694": {
       "docKey": "직장내장애인인식개선교육업무처리규칙",
       "sha256": "aa7e3bf2c92095dfdb1a242bcf2dd04239ea5a98d71f3d61b4ce56187f9e31c7",
-      "articles": 44
+      "articles": 45,
+      "supplements": 3
     },
     "58D26C1F0842F2731321": {
       "docKey": "임금피크제운영규정",
       "sha256": "0c2469cfed7ae7a5c262e292df5d3fd974279f05186c9c88521e413f1939906a",
-      "articles": 9
+      "articles": 11,
+      "supplements": 0
     },
     "826401A794EF2742290E": {
       "docKey": "복무규정",
       "sha256": "cd0d867e26a81fe45a32f7257efb2684b545ab2ba5ba4a551bdeb31dcda2b84a",
-      "articles": 51
+      "articles": 60,
+      "supplements": 19
     },
     "F2FED015F58F9876D1B8": {
       "docKey": "상임임원복무등에관한규정",
       "sha256": "a25bfe3c60ffd10b7e4dea76ac5993264df5e9450802dce1a9a3297148ed2f23",
-      "articles": 16
+      "articles": 18,
+      "supplements": 2
     },
     "928BB70C5FC3126071DA": {
       "docKey": "연계고용부담금감면업무처리규칙",
       "sha256": "b987f6d355a48810bcabb898f877c43db97b4f84c732371052e918762986e6f6",
-      "articles": 7
+      "articles": 0,
+      "supplements": 0
     },
     "DC630A40B0B74D0AB3AA": {
       "docKey": "중증장애인근로자출퇴근교통비지원업무처리규칙",
       "sha256": "4c285efc2c438e4ef8a4258d84b208a342c1adbf04359891aa5122429b4ccfc5",
-      "articles": 25
+      "articles": 3,
+      "supplements": 0
     },
     "72D3D11DDBD9FFBE759A": {
       "docKey": "장애인직업능력평가사자격관리운영규칙",
       "sha256": "a4a828469942891715310daef2ad8c04e11716cf026f86f59675eec376ca50ca",
-      "articles": 31
+      "articles": 7,
+      "supplements": 0
     },
     "03B2FE04D9CE0B849DDC": {
       "docKey": "사업주장애인에대한융자지원업무처리규칙",
       "sha256": "ed7ba53533d8cffcc043a7cc706d2935e32dad51331971123ac9f4dba9991b24",
-      "articles": 108
+      "articles": 99,
+      "supplements": 46
     },
     "40F9CBD7598ED957D8E5": {
       "docKey": "감사규정시행규칙",
       "sha256": "92a01e59c64b79973ed815007564939e79ce0ec79ab25bb33f7ea0f7c09563e0",
-      "articles": 27
+      "articles": 4,
+      "supplements": 0
     },
     "0C45A2D2559E57AD8456": {
       "docKey": "장애인기능경기대회업무처리규칙",
       "sha256": "418d0130e6ba6ecf386418700393376885f9024e1e217efdab2ff16ca312e82f",
-      "articles": 95
+      "articles": 17,
+      "supplements": 0
     },
     "1217E7A4DCEBD74C12A6": {
       "docKey": "교육훈련규칙",
       "sha256": "dc444e83b4cd10cab5e357fabaee864be3c58e725a5b464601411be9bc814c19",
-      "articles": 41
+      "articles": 24,
+      "supplements": 0
     },
     "927BCE170B693E5B6C94": {
       "docKey": "여비규칙",
       "sha256": "9aced032522e3e1e1d4705d35555a92073fb738466d30ae742ba0f2638483e8b",
-      "articles": 39
+      "articles": 17,
+      "supplements": 9
     },
     "894E2FBA36873E9E9686": {
       "docKey": "업무추진비류지급처리규칙",
       "sha256": "fd3738d82c912e196ec5f2df5a57bf919a243e2057c165d981a252fb0e662e11",
-      "articles": 14
+      "articles": 10,
+      "supplements": 0
     },
     "2FE9520E8C9ECF9ACAC7": {
       "docKey": "직장운동경기부운영규정",
       "sha256": "30cfb2578913f71d68f4c942adb6b64a1f8de14e2bba709fa002229018e79f34",
-      "articles": 25
+      "articles": 28,
+      "supplements": 0
     },
     "CCF2314BEC5AE848EC16": {
       "docKey": "임원추천위원회운영규정",
       "sha256": "4662094546ebf1652fd7f5eaf7497cc0abeb6bb0d2c90da3d2e8a648a7ba8a91",
-      "articles": 16
+      "articles": 2,
+      "supplements": 0
     },
     "34ADD3EB93A75C1AD424": {
       "docKey": "한국장애인고용공단정관",
       "sha256": "ec1c8228d6909ddbacfac5bd6910534dbb77d08c589d4fc12ce3ebaf47102d87",
-      "articles": 44
+      "articles": 9,
+      "supplements": 6
     },
     "EA588788D7384D409E7C": {
       "docKey": "국외출장연수규칙",
       "sha256": "e20ad807ffe730f45cba5e01ebbd5b7cd742e615b86db94eb7df640d984c66df",
-      "articles": 29
+      "articles": 9,
+      "supplements": 0
     },
     "8F053259179AA2009C84": {
       "docKey": "윤리강령",
       "sha256": "6d605a5fa09d6ffc86e67ddbdd4faf24b229891d8199ea74964c8360408212f1",
-      "articles": 12
+      "articles": 2,
+      "supplements": 0
     },
     "FAA497D5E569C0AFA356": {
       "docKey": "자문위원회운영업무처리규칙",
       "sha256": "d1e5bcebe3b882732fdd004f892ec62cf0446b0536a392655ed43bc6f0a59a52",
-      "articles": 7
+      "articles": 2,
+      "supplements": 0
     },
     "C86D0AFACA9DECD28CBD": {
       "docKey": "경영공시업무처리규칙",
       "sha256": "cec15d43befb7cdcedff64f5f7f6f6a68d4eff12efac4c9ea51b97c9b87c8d33",
-      "articles": 10
+      "articles": 2,
+      "supplements": 0
     },
     "034D8E3BE2932F74FBFD": {
       "docKey": "고용개발원운영규칙",
       "sha256": "cdb0a35b285c5cfbc4542a05002f255cd9a80a46b1cb6c3f245887a992dc4264",
-      "articles": 47
+      "articles": 4,
+      "supplements": 0
     },
     "F1EA9ED46FA0CB192BDD": {
       "docKey": "임원직무청렴계약에관한규칙",
       "sha256": "484f5e0df0908701652da61baed660d123d46b37e56d774449241c2a0fc09048",
-      "articles": 29
+      "articles": 18,
+      "supplements": 0
     },
     "95EC30A7B44F60A02580": {
       "docKey": "한국장애인고용공단임직원행동강령",
       "sha256": "ff03ea182bcc26391c5dc90b487731f74d95e7cccc4657bd5184f26c5f757550",
-      "articles": 66
+      "articles": 30,
+      "supplements": 0
     },
     "51A5891C93E87690D772": {
       "docKey": "한국장애인고용공단공직자의이해충돌방지제도운영지침",
       "sha256": "a9d65b614d1c21997c2e84ba8d6a768f35c54c9c710e36ab4459d0ff623726de",
-      "articles": 16
+      "articles": 1,
+      "supplements": 4
     },
     "9BDEA6C382F04072E8F2": {
       "docKey": "직장운동경기부운영규칙",
       "sha256": "8f2e9e1ca3614628c43a958b244ba5dd3ddd0711f8f984d5867d17bf7f8a0c47",
-      "articles": 28
+      "articles": 8,
+      "supplements": 2
     },
     "F5A59B01290A0404994A": {
       "docKey": "정보공개업무처리규칙",
       "sha256": "5383cca176054cb69f5378910feb81eec828c22c85a92f9464f97d7d0550e850",
-      "articles": 19
+      "articles": 4,
+      "supplements": 0
     },
     "353DE87AECA1DD5B56FB": {
       "docKey": "직장내괴롭힘예방대응업무처리규칙",
       "sha256": "6ac1131620967406d3ec5638d3f777f8fff012186d0e53a1470345d9e519cf7d",
-      "articles": 19
+      "articles": 5,
+      "supplements": 0
     },
     "426F5ECFF55132D4D391": {
       "docKey": "영상정보처리기기설치운영규칙",
       "sha256": "a437b595165fc345e9fbb6740d5f498c0584a809057f74f5c89a556d3a0c6842",
-      "articles": 16
+      "articles": 1,
+      "supplements": 0
     },
     "CF4A3EFAD8CFB81C8D2C": {
       "docKey": "정보화업무처리규칙",
       "sha256": "124835eb8ea41ef85b35c7f5197765437b50d688626da2fb5b2ebec10e0d1134",
-      "articles": 84
+      "articles": 16,
+      "supplements": 0
     },
     "F81F1D687198B24CEF28": {
       "docKey": "성희롱스토킹2차피해방지폭력예방업무처리규칙",
       "sha256": "40d93ea49d71e5483fa24405fd848edf7920d71887b0f9809aef62261850d11e",
-      "articles": 14
+      "articles": 1,
+      "supplements": 2
     },
     "6D7E7DCB4063A65E2906": {
       "docKey": "성과관리운영규칙",
       "sha256": "8863e871474dbff3de1b0e6c40a39b49b7c0b32d07b868d0bb9f369b0ef942d7",
-      "articles": 24
+      "articles": 4,
+      "supplements": 0
     },
     "7528EDFC57C5330F124B": {
       "docKey": "장애인직업능력개발훈련지원업무처리규칙",
       "sha256": "351419093cb3df0a663db38a372db07c7126a2f03355d65e3530e6f57f30873f",
-      "articles": 41
+      "articles": 5,
+      "supplements": 0
     },
     "B9B1135DFDB4EF1D393F": {
       "docKey": "감사규정",
       "sha256": "3c26b12d0f89de00b8b17c873d4f1c49122bf48287c46626b256e11afebd597b",
-      "articles": 23
+      "articles": 4,
+      "supplements": 0
     },
     "45ACB5EFA595F8AEBA23": {
       "docKey": "기업성장응답센터운영규칙",
       "sha256": "a16143622ff35ef10128cfe09f2c62da6323cb3ebe8d716403d2edb80ea73d3f",
-      "articles": 10
+      "articles": 3,
+      "supplements": 1
     },
     "3B151B98A55D48485D8D": {
       "docKey": "퇴직금규정",
       "sha256": "da002fcb4dcace085d7e3b6cfaa54842720211de4c7e7c3ddb068c083c43e19b",
-      "articles": 9
+      "articles": 1,
+      "supplements": 7
     },
     "B4D64E82F9BF51630709": {
       "docKey": "신분증규칙",
       "sha256": "bfc1429b6dc19453c5332cfe836f5d9c479fb04101bb97f29dd5147ff1616aee",
-      "articles": 7
+      "articles": 3,
+      "supplements": 0
     },
     "E26E13C08F094A932D2B": {
       "docKey": "소송업무처리규칙",
       "sha256": "234724a316a9babe6f259a3e2ddaa974b03990ee942437e88b47c07fad8d6a7c",
-      "articles": 42
+      "articles": 5,
+      "supplements": 0
     },
     "4DCD63BAAFEBD9C2D97D": {
       "docKey": "안전사고에관한임원문책규정",
       "sha256": "453584cb846284c1aa5faecc1d69a2cc6e257552ca1bc95590fe9cc2038192cf",
-      "articles": 6
+      "articles": 2,
+      "supplements": 0
     },
     "9323435EDDC4A8996C3E": {
       "docKey": "장애물없는생활환경인증등에관한업무처리규칙",
       "sha256": "d3281708f1da2d67c012497a23820a6786866549b8b6cf2618f25b7c742912f4",
-      "articles": 24
+      "articles": 2,
+      "supplements": 0
     }
   }
 }
