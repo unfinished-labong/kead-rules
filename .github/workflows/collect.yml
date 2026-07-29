@@ -29,6 +29,9 @@ jobs:
           LAW_OC: ${{ secrets.LAW_OC }}
         run: node fetch-law.js
 
+      - name: 첨부 변환
+        run: node fetch-docs.js
+
       - name: 결과 커밋
         run: |
           git config user.name  "github-actions[bot]"
