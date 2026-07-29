@@ -32,6 +32,9 @@ jobs:
       - name: 첨부 변환
         run: node fetch-docs.js
 
+      - name: 검색 인덱스 생성
+        run: node build-index.js
+
       - name: 결과 커밋
         run: |
           git config user.name  "github-actions[bot]"
