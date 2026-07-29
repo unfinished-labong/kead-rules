@@ -3,14 +3,16 @@
 // 실행: node collect.js  (결과: data/inventory.json)
 
 import * as cheerio from 'cheerio';
-import { writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 
 const BASE = 'https://www.kead.or.kr';
 
 export const BOARDS = [
-  { id: 'plaw',      name: '법령고시',       path: '/bbs/plaw/bbsPage.do?adt1CodeArr=1,2&menuId=MENU0795' },
-  { id: 'dislaw',    name: '장애인관련법령', path: '/bbs/plaw/bbsPage.do?adt1Code=3&menuId=MENU0796' },
-  { id: 'innerlaw',  name: '내부규정',       path: '/bbs/innerlaw/bbsPage.do?menuId=MENU0797' },
+  { id: 'innerlaw', name: '내부규정', path: '/bbs/innerlaw/bbsPage.do?menuId=MENU0797' },
+  // 법령고시·장애인관련법령 게시판은 fetch-law.js(법제처 OPEN API)가 대체한다.
+  // 게시판 사본은 제목 표기가 제각각이라 현행 판정이 불가능했다.
+  // { id: 'plaw',   name: '법령고시',       path: '/bbs/plaw/bbsPage.do?adt1CodeArr=1,2&menuId=MENU0795' },
+  // { id: 'dislaw', name: '장애인관련법령', path: '/bbs/plaw/bbsPage.do?adt1Code=3&menuId=MENU0796' },
 ];
 
 // ── 제목 파싱 ────────────────────────────────────────────────
@@ -66,7 +68,9 @@ export function parseTitle(raw) {
 export function normalizeDocName(name) {
   let s = name;
   s = s.replace(/[「」『』《》〈〉\[\]【】]/g, ' ');
-  s = s.replace(/\([^)]*\)/g, ' ');
+  // 괄호 안에 숫자가 있으면 호수·날짜 같은 메타로 보고 제거,
+  // 숫자가 없으면 문서를 구분하는 이름의 일부이므로 남긴다. 예: 특정업무직(운영지원직)
+  s = s.replace(/\(([^)]*)\)/g, (m, inner) => (/\d/.test(inner) ? ' ' : inner));
   s = s.replace(/[·ㆍ‧∙・,]/g, '');
   s = s.replace(/(19|20)\d{2}\s*년도?/g, ' ');
   s = s.replace(/`?\d{2}\s*년/g, ' ');
@@ -83,10 +87,8 @@ export function normalizeDocName(name) {
 // 정규화로도 못 합쳐지는 것들. 왼쪽을 오른쪽으로 취급한다.
 // 첫 실행 후 manifest.json의 groupPreview를 보고 필요한 만큼 추가하면 된다.
 export const ALIAS = {
-  '장애인고용촉진직업재활법시행규': '장애인고용촉진직업재활법시행규칙',
-  '부담기초액': '장애인고용부담기초액',
-  '장애인고용부담금의부담기초액': '장애인고용부담기초액',
-  '연계고용에따른부담금감면기준': '연계고용부담금감면기준',
+  // 정규화로도 안 합쳐지는 것만 여기에 적는다. 왼쪽(정규화된 키)을 오른쪽으로 취급한다.
+  // manifest.json의 groupPreview를 보고 필요할 때 추가하면 된다.
 };
 
 // ── 버전 판정 ────────────────────────────────────────────────
@@ -201,7 +203,19 @@ async function collectBoard(board, maxPages = 20) {
   return all;
 }
 
+// 폐지된 규정 목록. retired.json 에 정규화된 문서키를 적어두면 '폐지'로 표시한다.
+// 게시판에는 폐지 표시가 없으므로 사람이 판단해 넣어야 한다.
+async function loadRetired() {
+  try {
+    const raw = await readFile('retired.json', 'utf-8');
+    return new Set(JSON.parse(raw).map((x) => (typeof x === 'string' ? x : x.key)));
+  } catch {
+    return new Set();
+  }
+}
+
 async function main() {
+  const retired = await loadRetired();
   const items = [];
   for (const b of BOARDS) {
     try {
@@ -212,6 +226,7 @@ async function main() {
   }
 
   classifyVersions(items);
+  for (const it of items) if (retired.has(it.docKey)) it.status = '폐지';
 
   const manifest = {
     collectedAt: new Date().toISOString(),
