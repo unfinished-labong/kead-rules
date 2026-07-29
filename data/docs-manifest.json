@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-07-29T06:51:07.689Z",
+  "collectedAt": "2026-07-29T07:06:01.387Z",
   "targets": 74,
   "converted": 74,
-  "reusedFromCache": 0,
+  "reusedFromCache": 74,
   "totalArticles": 3063,
   "needsOriginal": 483,
   "failed": [],
