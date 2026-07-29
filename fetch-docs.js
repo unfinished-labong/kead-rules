@@ -15,6 +15,11 @@ const OUT = 'data/docs';
 // 변환 대상 상태. 연혁·폐지는 받지 않는다.
 const WANTED = new Set(['현행', '시행예정']);
 
+// 변환 로직을 바꿀 때마다 이 숫자를 올린다.
+// 값이 다르면 캐시를 통째로 버리고 다시 변환하므로, 사람이 파일을 지울 필요가 없다.
+// 2: 본칙·부칙 분리, 조문 시작 판정 강화
+const CONVERTER_VERSION = 2;
+
 // ── 형식 판별: 확장자가 아니라 실제 바이트로 본다 ──
 export function sniffFormat(buf) {
   const b = Buffer.from(buf.subarray(0, 8));
@@ -64,36 +69,61 @@ export async function convertFile(file) {
 
 // ── 조문 단위로 다시 묶기 ──
 // kordoc 청크는 헤딩·본문이 섞여 있다. '제N조' 경계로 재정규화한다.
-const ART = /제\s*(\d+)\s*조(?:의\s*(\d+))?\s*(?:\(([^)]*)\))?/;
+// 줄 맨 앞의 "제N조(제목)" 또는 "제N조 " 만 조문 시작으로 본다.
+// "④ 제53조에 따라..." 처럼 조문을 인용하는 문장은 제외된다.
+const ART = /^제\s*(\d+)\s*조(?:의\s*(\d+))?\s*(?:\(([^)]*)\)|(?=[\s.:]|$))/;
 
 export function toArticles(chunks) {
   const arts = [];
   let cur = null;
+  let section = '본칙';
+  let supplement = null;
+
+  const push = () => { if (cur) arts.push(cur); cur = null; };
+  const mark = (t) => /<img|\[중첩 테이블|별표|별지/.test(t);
+
+  // 부칙 헤딩이 앞 조문과 같은 청크에 붙어 오는 경우가 있어 줄 단위로 훑는다.
   for (const c of chunks) {
-    const text = String(c.text ?? '').replace(/^#+\s*/, '').trim();
-    if (!text) continue;
-    const m = text.match(ART);
-    const startsArticle = m && text.indexOf(m[0]) <= 2;
-    if (startsArticle) {
-      if (cur) arts.push(cur);
-      cur = {
-        articleNo: m[2] ? `${m[1]}의${m[2]}` : m[1],
-        title: m[3] ?? null,
-        breadcrumb: c.breadcrumb ?? [],
-        page: c.page ?? null,
-        text,
-        needsOriginal: /<img|\[중첩 테이블|별표|별지/.test(text),
-      };
-    } else if (cur) {
-      cur.text += '\n' + text;
-      if (/<img|\[중첩 테이블/.test(text)) cur.needsOriginal = true;
-    } else {
-      // 제1조 앞의 제정·개정 이력 등은 머리말로 따로 보관
-      arts.push({ articleNo: null, title: '머리말', breadcrumb: [], text, needsOriginal: false });
-      cur = null;
+    for (const lineRaw of String(c.text ?? '').split('\n')) {
+      const line = lineRaw.replace(/^#+\s*/, '').trim();
+      if (!line) continue;
+
+      const sup = line.match(/^부\s*칙\s*(?:[(<[]([^)\]>]*)[)\]>])?\s*$/);
+      if (sup) {
+        push();
+        section = '부칙';
+        supplement = (sup[1] ?? '').replace(/\s+/g, ' ').trim() || null;
+        continue;
+      }
+
+      const m = line.match(ART);
+      if (m) {
+        push();
+        const no = m[2] ? `${m[1]}의${m[2]}` : m[1];
+        cur = {
+          section,
+          supplement,
+          articleNo: no,
+          articleId: section === '본칙' ? `제${no}조` : `부칙${supplement ? `(${supplement})` : ''} 제${no}조`,
+          title: m[3] ?? null,
+          breadcrumb: c.breadcrumb ?? [],
+          page: c.page ?? null,
+          text: line,
+          needsOriginal: mark(line),
+        };
+      } else if (cur) {
+        cur.text += '\n' + line;
+        if (mark(line)) cur.needsOriginal = true;
+      } else {
+        arts.push({
+          section, supplement, articleNo: null, articleId: null,
+          title: section === '본칙' ? '머리말' : '부칙 본문',
+          breadcrumb: [], text: line, needsOriginal: false,
+        });
+      }
     }
   }
-  if (cur) arts.push(cur);
+  push();
   return arts;
 }
 
@@ -117,7 +147,12 @@ async function main() {
   const inventory = JSON.parse(await readFile('data/inventory.json', 'utf-8'));
   let prev = {};
   try {
-    prev = JSON.parse(await readFile('data/docs-manifest.json', 'utf-8')).byKey ?? {};
+    const pm = JSON.parse(await readFile('data/docs-manifest.json', 'utf-8'));
+    if (pm.converterVersion === CONVERTER_VERSION) {
+      prev = pm.byKey ?? {};
+    } else {
+      console.log(`변환기 버전이 ${pm.converterVersion ?? '없음'} → ${CONVERTER_VERSION} 으로 바뀌어 캐시를 버립니다.`);
+    }
   } catch {}
 
   await mkdir(TMP, { recursive: true });
@@ -177,15 +212,16 @@ async function main() {
         fileKey: att.key,
         fileUrl: att.url,
         sha256: createHash('sha256').update(buf).digest('hex'),
-        articleCount: articles.filter((a) => a.articleNo).length,
+        articleCount: articles.filter((a) => a.articleNo && a.section === '본칙').length,
+        supplementCount: articles.filter((a) => a.articleNo && a.section === '부칙').length,
         needsOriginalCount: articles.filter((a) => a.needsOriginal).length,
         articles,
       };
 
       await writeFile(outFile, JSON.stringify(doc, null, 2));
-      byKey[att.key] = { docKey: item.docKey, sha256: doc.sha256, articles: doc.articleCount };
+      byKey[att.key] = { docKey: item.docKey, sha256: doc.sha256, articles: doc.articleCount, supplements: doc.supplementCount };
       docs.push(doc);
-      console.log(`OK  ${item.docName} · ${fmt} · 조문 ${doc.articleCount}`);
+      console.log(`OK  ${item.docName} · ${fmt} · 본칙 ${doc.articleCount} · 부칙 ${doc.supplementCount}`);
       await new Promise((r) => setTimeout(r, 600));
     } catch (e) {
       failed.push({ doc: item.docName, file: att.name, reason: e.message });
@@ -197,7 +233,7 @@ async function main() {
   const sigs = docs.map((d) => ({
     key: d.docKey,
     name: d.docName,
-    sh: shingles(d.articles.map((a) => a.text).join(' ')),
+    sh: shingles(d.articles.filter((a) => a.section === '본칙').map((a) => a.text).join(' ')),
   }));
   const mergeCandidates = [];
   for (let i = 0; i < sigs.length; i++)
@@ -213,10 +249,12 @@ async function main() {
     JSON.stringify(
       {
         collectedAt: new Date().toISOString(),
+        converterVersion: CONVERTER_VERSION,
         targets: targets.length,
         converted: docs.length,
         reusedFromCache: reused,
         totalArticles: docs.reduce((s, d) => s + d.articleCount, 0),
+        totalSupplementArticles: docs.reduce((s, d) => s + (d.supplementCount ?? 0), 0),
         needsOriginal: docs.reduce((s, d) => s + d.needsOriginalCount, 0),
         failed,
         mergeCandidates,
