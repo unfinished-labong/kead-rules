@@ -11,7 +11,7 @@
   "fileKey": "11B49897367ABC769DAA",
   "fileUrl": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=11B49897367ABC769DAA",
   "sha256": "47034a83ba34bab0a830474ac13cfaf0a93f41a33a1542c823e554475906a52b",
-  "articleCount": 193,
+  "articleCount": 194,
   "supplementCount": 40,
   "needsOriginalCount": 54,
   "articles": [
@@ -2667,7 +2667,22 @@
         "제3장 결산"
       ],
       "page": 1,
-      "text": "제10조(결산지침) 규정 제26조제2항의 결산지침에는 다음 각 호의 사항이 포함되어야한다.\n1. 결산에 관한 방침과 절차\n2. 결산정리에 관한 사항\n3. 회계단위별 결산보고 일정\n4. 결산 시 제규정 준수사항\n5. 그 밖에 결산에 필요한 사항\n제10조의2＜삭제＞",
+      "text": "제10조(결산지침) 규정 제26조제2항의 결산지침에는 다음 각 호의 사항이 포함되어야한다.\n1. 결산에 관한 방침과 절차\n2. 결산정리에 관한 사항\n3. 회계단위별 결산보고 일정\n4. 결산 시 제규정 준수사항\n5. 그 밖에 결산에 필요한 사항",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "10의2",
+      "articleId": "제10조의2",
+      "title": null,
+      "breadcrumb": [
+        "제3장 결산",
+        "제10조(결산지침) 규정 제26조제2항의 결산지침에는 다음 각 호의 사항이 포함되어야한다.",
+        "5. 그 밖에 결산에 필요한 사항"
+      ],
+      "page": 1,
+      "text": "제10조의2＜삭제＞",
       "needsOriginal": false
     },
     {
@@ -2935,7 +2950,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "29의2",
-      "articleId": "제29의2조",
+      "articleId": "제29조의2",
       "title": "제재부가금 부과 등 기록·관리",
       "breadcrumb": [
         "제4장 회계처리 절차 및 장부",
@@ -3032,7 +3047,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "35의2",
-      "articleId": "제35의2조",
+      "articleId": "제35조의2",
       "title": "다른 법령과의 관계",
       "breadcrumb": [
         "제1절 통칙",
@@ -3046,7 +3061,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "35의3",
-      "articleId": "제35의3조",
+      "articleId": "제35조의3",
       "title": "안전보건 수준 평가 반영",
       "breadcrumb": [
         "제1절 통칙",
@@ -3060,7 +3075,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "35의4",
-      "articleId": "제35의4조",
+      "articleId": "제35조의4",
       "title": "계약단계 안전보건 확보 조치의 반영",
       "breadcrumb": [
         "제1절 통칙",
@@ -3074,7 +3089,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "35의5",
-      "articleId": "제35의5조",
+      "articleId": "제35조의5",
       "title": "청렴·공정계약",
       "breadcrumb": [
         "제1절 통칙",
@@ -3129,7 +3144,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "38의2",
-      "articleId": "제38의2조",
+      "articleId": "제38조의2",
       "title": "사회적 경제기업 등에 대한 우대",
       "breadcrumb": [
         "제2절 계약절차 및 방법",
@@ -3157,7 +3172,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "39의2",
-      "articleId": "제39의2조",
+      "articleId": "제39조의2",
       "title": "견적서 제출생략",
       "breadcrumb": [
         "제2절 계약절차 및 방법"
@@ -3269,7 +3284,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "46의2",
-      "articleId": "제46의2조",
+      "articleId": "제46조의2",
       "title": "수의계약 관련 정보의 공개",
       "breadcrumb": [
         "제2절 계약절차 및 방법",
@@ -3396,7 +3411,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "54의2",
-      "articleId": "제54의2조",
+      "articleId": "제54조의2",
       "title": "협상에 의한 계약체결",
       "breadcrumb": [
         "제4절 예정가격 및 입찰",
@@ -3411,7 +3426,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "54의3",
-      "articleId": "제54의3조",
+      "articleId": "제54조의3",
       "title": "제안서평가위원회 구성",
       "breadcrumb": [
         "제4절 예정가격 및 입찰",
@@ -3426,7 +3441,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "54의4",
-      "articleId": "제54의4조",
+      "articleId": "제54조의4",
       "title": "평가위원의 위촉 및 수당지급",
       "breadcrumb": [
         "제4절 예정가격 및 입찰",
@@ -3441,7 +3456,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "54의5",
-      "articleId": "제54의5조",
+      "articleId": "제54조의5",
       "title": "평가위원회 운영 등",
       "breadcrumb": [
         "제4절 예정가격 및 입찰",
@@ -3456,7 +3471,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "54의6",
-      "articleId": "제54의6조",
+      "articleId": "제54조의6",
       "title": "추가협상",
       "breadcrumb": [
         "제4절 예정가격 및 입찰",
@@ -3471,7 +3486,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "54의7",
-      "articleId": "제54의7조",
+      "articleId": "제54조의7",
       "title": "회의록 작성 및 공개",
       "breadcrumb": [
         "제4절 예정가격 및 입찰",
@@ -3486,7 +3501,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "54의8",
-      "articleId": "제54의8조",
+      "articleId": "제54조의8",
       "title": "제안서 평가방법",
       "breadcrumb": [
         "제4절 예정가격 및 입찰"
@@ -3514,7 +3529,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "55의2",
-      "articleId": "제55의2조",
+      "articleId": "제55조의2",
       "title": "재공고입찰과 수의계약",
       "breadcrumb": [
         "제4절 예정가격 및 입찰",
@@ -3674,7 +3689,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "65의2",
-      "articleId": "제65의2조",
+      "articleId": "제65조의2",
       "title": "계약체결 시 제출서류 등",
       "breadcrumb": [
         "제4절 예정가격 및 입찰"
@@ -3687,7 +3702,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "65의3",
-      "articleId": "제65의3조",
+      "articleId": "제65조의3",
       "title": "비밀유지계약",
       "breadcrumb": [
         "제4절 예정가격 및 입찰",
@@ -4210,7 +4225,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "102의2",
-      "articleId": "제102의2조",
+      "articleId": "제102조의2",
       "title": "대가의 조정",
       "breadcrumb": [
         "제7절 대금지급",
@@ -4265,7 +4280,7 @@
       "section": "본칙",
       "supplement": null,
       "articleNo": "105의1",
-      "articleId": "제105의1조",
+      "articleId": "제105조의1",
       "title": "순공사원가 기준 낙찰배제",
       "breadcrumb": [
         "제8절 공사입찰",
