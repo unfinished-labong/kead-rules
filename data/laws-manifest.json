@@ -1,13 +1,7 @@
 {
-  "collectedAt": "2026-07-29T06:34:07.945Z",
+  "collectedAt": "2026-07-29T06:47:59.663Z",
   "requested": 44,
-  "collected": 43,
-  "totalArticles": 1326,
-  "failed": [
-    {
-      "name": "장애인고용촉진 및 직업재활법",
-      "target": "law",
-      "reason": "fetch failed"
-    }
-  ]
+  "collected": 44,
+  "totalArticles": 1440,
+  "failed": []
 }
