@@ -1,12 +1,12 @@
 {
-  "collectedAt": "2026-07-29T08:02:12.829Z",
-  "converterVersion": 4,
+  "collectedAt": "2026-07-29T08:15:05.086Z",
+  "converterVersion": 5,
   "targets": 74,
   "converted": 74,
-  "reusedFromCache": 74,
+  "reusedFromCache": 0,
   "totalArticles": 3129,
-  "totalSupplementArticles": 817,
-  "needsOriginal": 924,
+  "totalSupplementArticles": 685,
+  "needsOriginal": 1616,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
@@ -33,19 +33,19 @@
       "docKey": "회계규정시행규칙",
       "sha256": "47034a83ba34bab0a830474ac13cfaf0a93f41a33a1542c823e554475906a52b",
       "articles": 194,
-      "supplements": 40
+      "supplements": 27
     },
     "4C58000C81FA2505BA10": {
       "docKey": "고용부담금적용징수관리업무처리규칙",
       "sha256": "e198dee220c5ce469c0c0504ee34fdd9f6cab0ee0969a0aa4dd0591ef8d7f390",
       "articles": 131,
-      "supplements": 35
+      "supplements": 21
     },
     "60F0EA7051F11EE45F34": {
       "docKey": "보조공학기기지원업무처리규칙",
       "sha256": "8b7190b08795b0f9df72d70c3e4026a300867de21f1c4118329cc60c5fc081de",
       "articles": 68,
-      "supplements": 40
+      "supplements": 23
     },
     "B18B6CACAA6E66D8D6DC": {
       "docKey": "보수규정",
@@ -111,7 +111,7 @@
       "docKey": "장애인취업지원업무처리규칙",
       "sha256": "35388dc08072427e4a7027d565c05cb49d05a38a01c04b8609d4afbf599224e6",
       "articles": 148,
-      "supplements": 37
+      "supplements": 25
     },
     "8C264826791E53B35BEC": {
       "docKey": "임금피크제운영규정시행규칙",
@@ -171,7 +171,7 @@
       "docKey": "근로지원인지원업무처리규칙",
       "sha256": "0e94c5d8d0423318114004598f7d3cc224b1f214f3e6790c58f9d17ab8f8c9b1",
       "articles": 61,
-      "supplements": 49
+      "supplements": 5
     },
     "11D022BB49E012E182BA": {
       "docKey": "장애인표준사업장에대한지원업무처리규칙",
@@ -267,7 +267,7 @@
       "docKey": "사업주장애인에대한융자지원업무처리규칙",
       "sha256": "ed7ba53533d8cffcc043a7cc706d2935e32dad51331971123ac9f4dba9991b24",
       "articles": 99,
-      "supplements": 46
+      "supplements": 36
     },
     "40F9CBD7598ED957D8E5": {
       "docKey": "감사규정시행규칙",
@@ -351,7 +351,7 @@
       "docKey": "임원직무청렴계약에관한규칙",
       "sha256": "484f5e0df0908701652da61baed660d123d46b37e56d774449241c2a0fc09048",
       "articles": 10,
-      "supplements": 20
+      "supplements": 4
     },
     "95EC30A7B44F60A02580": {
       "docKey": "한국장애인고용공단임직원행동강령",
@@ -441,7 +441,7 @@
       "docKey": "소송업무처리규칙",
       "sha256": "234724a316a9babe6f259a3e2ddaa974b03990ee942437e88b47c07fad8d6a7c",
       "articles": 54,
-      "supplements": 8
+      "supplements": 2
     },
     "4DCD63BAAFEBD9C2D97D": {
       "docKey": "안전사고에관한임원문책규정",

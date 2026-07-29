@@ -13,7 +13,7 @@
   "sha256": "d1e5bcebe3b882732fdd004f892ec62cf0446b0536a392655ed43bc6f0a59a52",
   "articleCount": 9,
   "supplementCount": 0,
-  "needsOriginalCount": 2,
+  "needsOriginalCount": 6,
   "articles": [
     {
       "section": "본칙",
@@ -242,434 +242,64 @@
       "needsOriginal": false
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제1호 서식] <신설 2010.4.22>",
-      "needsOriginal": false
+      "annexTitle": "[별지 제1호 서식] <신설 2010.4.22>",
+      "title": "[별지 제1호 서식] <신설 2010.4.22>",
+      "breadcrumb": [
+        "제9조 (보고 등) ① 삭 제 <2010.4.22>",
+        "② 위원회를 구성한 본부 실․국장 및 고용개발원장은 자문 실적을 별지 제4호 서식에 따라 작성하여 상반기 실적은 7월 10일, 하반기 실적은 다음연도 1월 10일까지 기획조정실에 제출해야 한다. <신설 2007.12.3., 2010.4.22., 2019.07.19>"
+      ],
+      "page": 1,
+      "text": "[별지 제1호 서식] <신설 2010.4.22>\n<table>\n<tr><th colspan=\"3\" rowspan=\"2\">자문위원회 구성 신청서</th><th>처리기한</th></tr>\n<tr><td>10일이내</td></tr>\n<tr><td colspan=\"2\">① 신청구분</td><td colspan=\"2\">□ 신규 □ 변경 □ 해지</td></tr>\n<tr><td colspan=\"2\">② 소속</td><td colspan=\"2\"></td></tr>\n<tr><td rowspan=\"3\">③신청내용</td><td>자문위원회 명칭</td><td colspan=\"2\"></td></tr>\n<tr><td>구성인원 (명)</td><td colspan=\"2\"></td></tr>\n<tr><td>구성(신규, 변경, 해지) 사유</td><td colspan=\"2\"></td></tr>\n<tr><td colspan=\"4\">「자문위원회 운영업무 처리규칙」 제 3조에 따라 위와 같이 자문위원회 구성(신규․변경․해지)을 신청 합니다.<br>20 년 월 일<br>〇〇〇실(국)장<br>첨부서류 : 자문위원 추천서 1부.【별지 제2호 서식】</td></tr>\n</table>",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
+      "annexTitle": "[별지 제2호 서식] <신설 2010.4.22>",
+      "title": "[별지 제2호 서식] <신설 2010.4.22>",
+      "breadcrumb": [
+        "제9조 (보고 등) ① 삭 제 <2010.4.22>",
+        "② 위원회를 구성한 본부 실․국장 및 고용개발원장은 자문 실적을 별지 제4호 서식에 따라 작성하여 상반기 실적은 7월 10일, 하반기 실적은 다음연도 1월 10일까지 기획조정실에 제출해야 한다. <신설 2007.12.3., 2010.4.22., 2019.07.19>"
+      ],
+      "page": 1,
+      "text": "[별지 제2호 서식] <신설 2010.4.22>\n자문위원 추천서\n□ 소속 :\n□ 자문위원회 명칭 :\n| 연번 | 성 명<br>(생년월일,성별) | 학 력 | 주 요 경 력<br>(최근 경력순 5개 내외) | 추천사유 | 비 고 |\n| --- | --- | --- | --- | --- | --- |\n| 1 | 홍길동<br>(‘50.3.1,성별) | ○○고등학교(졸업년도)<br>○○대 ○○과(상동)<br>○○대 ○○학박사(상동) | ○○대 ○○과 교수<br>(연도.월 부터\\~까지)<br>○○대 ○○과 부교수 | 대상자를 추천하게 된 사유를 간략히 기재함(50자 내외) |  |\n|  |  |  |  |  |  |\n|  |  |  |  |  |  |\n|  |  |  |  |  |  |\n|  |  |  |  |  |  |\n|  |  |  |  |  |  |\n|  |  |  |  |  |  |",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"3\" rowspan=\"2\">자문위원회 구성 신청서</th><th>처리기한</th></tr>",
-      "needsOriginal": false
+      "annexTitle": "[별지 제3호 서식] <개정 2010.4.22>",
+      "title": "[별지 제3호 서식] <개정 2010.4.22>",
+      "breadcrumb": [
+        "제9조 (보고 등) ① 삭 제 <2010.4.22>",
+        "□ 자문위원회 명칭 :"
+      ],
+      "page": 1,
+      "text": "[별지 제3호 서식] <개정 2010.4.22>\n제 호\n위 촉 장\n소 속\n직 책\n성 명\n귀하를 한국장애인고용공단\n○○○○자문위원으로 위촉합니다.\n(위촉기간 : . . . ～ . . . )\n20 년 월 일\n한국장애인고용공단이사장 (인)",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>10일이내</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">① 신청구분</td><td colspan=\"2\">□ 신규 □ 변경 □ 해지</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">② 소속</td><td colspan=\"2\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"3\">③신청내용</td><td>자문위원회 명칭</td><td colspan=\"2\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>구성인원 (명)</td><td colspan=\"2\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>구성(신규, 변경, 해지) 사유</td><td colspan=\"2\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">「자문위원회 운영업무 처리규칙」 제 3조에 따라 위와 같이 자문위원회 구성(신규․변경․해지)을 신청 합니다.<br>20 년 월 일<br>〇〇〇실(국)장<br>첨부서류 : 자문위원 추천서 1부.【별지 제2호 서식】</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제2호 서식] <신설 2010.4.22>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "자문위원 추천서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "□ 소속 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "□ 자문위원회 명칭 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 연번 | 성 명<br>(생년월일,성별) | 학 력 | 주 요 경 력<br>(최근 경력순 5개 내외) | 추천사유 | 비 고 |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| --- | --- | --- | --- | --- | --- |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 1 | 홍길동<br>(‘50.3.1,성별) | ○○고등학교(졸업년도)<br>○○대 ○○과(상동)<br>○○대 ○○학박사(상동) | ○○대 ○○과 교수<br>(연도.월 부터\\~까지)<br>○○대 ○○과 부교수 | 대상자를 추천하게 된 사유를 간략히 기재함(50자 내외) |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "|  |  |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "|  |  |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "|  |  |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "|  |  |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "|  |  |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "|  |  |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제3호 서식] <개정 2010.4.22>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "제 호",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "위 촉 장",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "소 속",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "직 책",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "성 명",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "귀하를 한국장애인고용공단",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "○○○○자문위원으로 위촉합니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(위촉기간 : . . . ～ . . . )",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "20 년 월 일",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단이사장 (인)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제4호 서식] <개정 2010.4.22>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "자문위원 활용실적",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "□ 소속 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "□ 자문위원회 명칭 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 일자 | 자문위원명 | 방법\\* | 자문 내용(간략히 기재) | 비고 |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| --- | --- | --- | --- | --- |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 0.0 | 홍길동 | 소집 | 장애인고용 장려금 제도(장애인 고용장려금 지급기준 변경 등 고시변경 사항) 안내 | 기업지원부 |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "\\* 방법 : 소집, 방문, 유선, 이메일, 서신, 기타 중 택일",
-      "needsOriginal": false
+      "annexTitle": "[별지 제4호 서식] <개정 2010.4.22>",
+      "title": "[별지 제4호 서식] <개정 2010.4.22>",
+      "breadcrumb": [
+        "제9조 (보고 등) ① 삭 제 <2010.4.22>",
+        "□ 자문위원회 명칭 :"
+      ],
+      "page": 1,
+      "text": "[별지 제4호 서식] <개정 2010.4.22>\n자문위원 활용실적\n□ 소속 :\n□ 자문위원회 명칭 :\n| 일자 | 자문위원명 | 방법\\* | 자문 내용(간략히 기재) | 비고 |\n| --- | --- | --- | --- | --- |\n| 0.0 | 홍길동 | 소집 | 장애인고용 장려금 제도(장애인 고용장려금 지급기준 변경 등 고시변경 사항) 안내 | 기업지원부 |\n\\* 방법 : 소집, 방문, 유선, 이메일, 서신, 기타 중 택일",
+      "needsOriginal": true
     }
   ]
 }

@@ -13,7 +13,7 @@
   "sha256": "92a01e59c64b79973ed815007564939e79ce0ec79ab25bb33f7ea0f7c09563e0",
   "articleCount": 41,
   "supplementCount": 2,
-  "needsOriginalCount": 11,
+  "needsOriginalCount": 33,
   "articles": [
     {
       "section": "본칙",
@@ -4024,2454 +4024,333 @@
       "needsOriginal": false
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제1호 서식) <개정 2025. 1. 22.>",
-      "needsOriginal": false
+      "annexTitle": "(별지 제1호 서식) <개정 2025. 1. 22.>",
+      "title": "(별지 제1호 서식) <개정 2025. 1. 22.>",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다."
+      ],
+      "page": 1,
+      "text": "(별지 제1호 서식) <개정 2025. 1. 22.>\n확   인   서\n￭ 적극행정 면책제도 안내문\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n1. 제 목 :\n2. 관 련 :\n3. 내 용 :\n상기 사실을 확인함.\n20 . . .\n(관련자)\n담당자 직렬 직급 성명\n책임자 직렬 직급 성명\n(확인자)\n직위 성명 (인)",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "확   인   서",
-      "needsOriginal": false
+      "annexTitle": "(별지 제2호 서식) <개정 2025. 1. 22.>",
+      "title": "(별지 제2호 서식) <개정 2025. 1. 22.>",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "3. 내 용 :"
+      ],
+      "page": 1,
+      "text": "(별지 제2호 서식) <개정 2025. 1. 22.>\n경   위   서\n￭ 적극행정 면책제도 안내문\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n소 속(주소)\n직 책\n성 명 생년월일\n제 목\n(경위내용)\n본인은 위와 같이 그 경위를 기록하고 서명날인 함.\n20 . . .\n위 (인)",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "￭ 적극행정 면책제도 안내문",
-      "needsOriginal": false
+      "annexTitle": "(별지 제3호 서식) <개정 2025. 1. 22.>",
+      "title": "(별지 제3호 서식) <개정 2025. 1. 22.>",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "3. 내 용 :"
+      ],
+      "page": 1,
+      "text": "(별지 제3호 서식) <개정 2025. 1. 22.>\n문   답   서\n￭ 적극행정 면책제도 안내문\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n<table>\n<tr><th colspan=\"2\"></th></tr>\n<tr><td colspan=\"4\">소 속 직 급(직 위)</td></tr>\n<tr><td colspan=\"4\">성 명 생년월일</td></tr>\n<tr><td colspan=\"4\">위 자는 에 관하여 20 년 월 일</td></tr>\n<tr><td colspan=\"4\">에서 과(와) 별지와 같이 임의로 문답한다.</td></tr>\n<tr><td colspan=\"2\"></td></tr>\n<tr><td></td></tr>\n<tr><td></td></tr>\n<tr><td></td></tr>\n<tr><td colspan=\"4\">위의 문답서를 답변자에게 열람하게 하였던 바,</td></tr>\n<tr><td colspan=\"4\">답변한 대로 오기나 증감 변경할 것이 없다고 말하므로 간인한 후</td></tr>\n<tr><td colspan=\"4\">서명 날인케 하다.</td></tr>\n<tr><td colspan=\"4\">서기 20 년 월 일</td></tr>\n<tr><td colspan=\"4\">답변자 (인)</td></tr>\n<tr><td colspan=\"4\">조사자 (인)</td></tr>\n<tr><td colspan=\"4\">입회자 (인)</td></tr>\n<tr><td colspan=\"4\"></td></tr>\n</table>\n한국장애인고용공단",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”",
-      "needsOriginal": false
+      "annexTitle": "(별지 제4호 서식) <개정 2025. 1. 22.>",
+      "title": "(별지 제4호 서식) <개정 2025. 1. 22.>",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "3. 내 용 :"
+      ],
+      "page": 1,
+      "text": "(별지 제4호 서식) <개정 2025. 1. 22.>\n질   문   서\n￭ 적극행정 면책제도 안내문\n“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”\n제목 :\n수신 감사업무수행을 위하여 다음사항을 질문하오니 성실히 답변하여 주시기 바랍니다. - 답변 기한 : 20 년 월 일 20 년 월 일 한국장애인고용공단 감사\n(질문사항)",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "1. 제 목 :",
-      "needsOriginal": false
+      "annexTitle": "(별지 제5호 서식)",
+      "title": "(별지 제5호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "3. 내 용 :"
+      ],
+      "page": 1,
+      "text": "(별지 제5호 서식)\n답   변   서\n제목 :\n수신 감사 상기 건명과 관련한 질문사항에 대하여 다음과 같이 답변합니다. 20 년 월 일 발신자명\n(답변사항)",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "2. 관 련 :",
-      "needsOriginal": false
+      "annexTitle": "(별지 제6호 서식)",
+      "title": "(별지 제6호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "3. 내 용 :"
+      ],
+      "page": 1,
+      "text": "(별지 제6호 서식)\n봉   인   조   서\n한국장애인고용공단 감사규정 제8조 제1항 제4호에 따라 봉인함.\n봉인내용:\n20 . . .\n봉인실시자: 직 성 명 (인)\n봉인관리자: 직 성 명 (인)\n(경 고)\n이 봉인표시를 손상 또는 은닉하거나 기타의 방법으로 봉인표시의 효율을 해함을 엄금함.",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "3. 내 용 :",
-      "needsOriginal": false
+      "annexTitle": "(별지 제7호 서식)",
+      "title": "(별지 제7호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "3. 내 용 :"
+      ],
+      "page": 1,
+      "text": "(별지 제7호 서식)\n【 1 】제 목\n<table>\n<tr><th>- 요 지 -</th></tr>\n<tr><td colspan=\"2\"></td></tr>\n</table>\n1. 처분대상자 [처분종류]\n2. 관 련\n3. 내 용\n4. 조치할 사항",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "상기 사실을 확인함.",
-      "needsOriginal": false
+      "annexTitle": "(별지 제8호 서식)",
+      "title": "(별지 제8호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 1,
+      "text": "(별지 제8호 서식)\n징 계 (문 책) 처 분 요 구 서\n일련번호 :\n소 속 :\n직 급(위) :\n성 명 : (한문) (만 세)\n제 목 :\n(전 소속 및 직위․급)\n위의 사람은 그 직무를 수행할 때 다음과 같이 위법 부당한 일이 있었으므로 감사규정 제21조 제3항의 규정에 따라 징계(문책)처분을 요구한다.\n다 음\n위의 사람은 . . .부터 . . .까지 사이에 위의\n기관, 위의 직위에서 직제규정 제14조에 따라 업무를 담당하고 있는(던) 사람으로서 그 직무를 수행함에 있어, 하여야 함(할 수 없음)에도,\n하지 아니한(한) 사실이 있는 바, 이에 대하여 위의 사람은 라고 변명을 하나, 이므로 그 변명은 이유가 되지 아니한다.\n따라서 위 사람의 행위는 규정에 위배된 것으로서 에 해당한다.\n20 . . .\n한국장애인고용공단 감사\n(2인 이상이 해당되는 경우에도 사용가능)",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "20 . . .",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(관련자)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "담당자 직렬 직급 성명",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "책임자 직렬 직급 성명",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(확인자)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "직위 성명 (인)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제2호 서식) <개정 2025. 1. 22.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "경   위   서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "￭ 적극행정 면책제도 안내문",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "소 속(주소)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "직 책",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "성 명 생년월일",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "제 목",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(경위내용)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "본인은 위와 같이 그 경위를 기록하고 서명날인 함.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "20 . . .",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "위 (인)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제3호 서식) <개정 2025. 1. 22.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "문   답   서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "￭ 적극행정 면책제도 안내문",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"2\"></th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">소 속 직 급(직 위)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">성 명 생년월일</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">위 자는 에 관하여 20 년 월 일</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">에서 과(와) 별지와 같이 임의로 문답한다.</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">위의 문답서를 답변자에게 열람하게 하였던 바,</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">답변한 대로 오기나 증감 변경할 것이 없다고 말하므로 간인한 후</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">서명 날인케 하다.</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">서기 20 년 월 일</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">답변자 (인)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">조사자 (인)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">입회자 (인)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제4호 서식) <개정 2025. 1. 22.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "질   문   서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "￭ 적극행정 면책제도 안내문",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "“감사대상기관에서는 감사결과 지적사항이 감사규정 제28조의3 및 「적극행정 면책제도 운영규칙」에 규정된 면책대상에 해당된다고 판단될 경우 동 규칙에서 정한 소정의 절차와 서식에 따라 감사실장에게 면책신청을 할 수 있습니다.”",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "제목 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "수신 감사업무수행을 위하여 다음사항을 질문하오니 성실히 답변하여 주시기 바랍니다. - 답변 기한 : 20 년 월 일 20 년 월 일 한국장애인고용공단 감사",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(질문사항)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제5호 서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "답   변   서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "제목 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "수신 감사 상기 건명과 관련한 질문사항에 대하여 다음과 같이 답변합니다. 20 년 월 일 발신자명",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(답변사항)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제6호 서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "봉   인   조   서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단 감사규정 제8조 제1항 제4호에 따라 봉인함.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "봉인내용:",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "20 . . .",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "봉인실시자: 직 성 명 (인)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "봉인관리자: 직 성 명 (인)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(경 고)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "이 봉인표시를 손상 또는 은닉하거나 기타의 방법으로 봉인표시의 효율을 해함을 엄금함.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제7호 서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "【 1 】제 목",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th>- 요 지 -</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "1. 처분대상자 [처분종류]",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "2. 관 련",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "3. 내 용",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "4. 조치할 사항",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제8호 서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "징 계 (문 책) 처 분 요 구 서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "일련번호 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "소 속 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "직 급(위) :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "성 명 : (한문) (만 세)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "제 목 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(전 소속 및 직위․급)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "위의 사람은 그 직무를 수행할 때 다음과 같이 위법 부당한 일이 있었으므로 감사규정 제21조 제3항의 규정에 따라 징계(문책)처분을 요구한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "다 음",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "위의 사람은 . . .부터 . . .까지 사이에 위의",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "기관, 위의 직위에서 직제규정 제14조에 따라 업무를 담당하고 있는(던) 사람으로서 그 직무를 수행함에 있어, 하여야 함(할 수 없음)에도,",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "하지 아니한(한) 사실이 있는 바, 이에 대하여 위의 사람은 라고 변명을 하나, 이므로 그 변명은 이유가 되지 아니한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "따라서 위 사람의 행위는 규정에 위배된 것으로서 에 해당한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "20 . . .",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단 감사",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(2인 이상이 해당되는 경우에도 사용가능)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
+      "annexTitle": "(별지 제9호 서식) 삭제[2011.02.24.]",
+      "title": "(별지 제9호 서식) 삭제[2011.02.24.]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 1,
       "text": "(별지 제9호 서식) 삭제[2011.02.24.]",
-      "needsOriginal": false
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제10호 서식)",
-      "needsOriginal": false
+      "annexTitle": "(별지 제10호 서식)",
+      "title": "(별지 제10호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 1,
+      "text": "(별지 제10호 서식)\n감사결과 처분요구사항 조치결과 통보서\n<table>\n<tr><th rowspan=\"2\">처분요구<br>일 자<br>(문서번호)</th><th rowspan=\"2\">제 목</th><th rowspan=\"2\">처분종류</th><th rowspan=\"2\">관련자</th><th rowspan=\"2\">조치사항</th><th rowspan=\"2\">조치일</th><th colspan=\"2\">미결인 경우</th></tr>\n<tr><td>미결사유</td><td>완 료<br>예정일</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "감사결과 처분요구사항 조치결과 통보서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th rowspan=\"2\">처분요구<br>일 자<br>(문서번호)</th><th rowspan=\"2\">제 목</th><th rowspan=\"2\">처분종류</th><th rowspan=\"2\">관련자</th><th rowspan=\"2\">조치사항</th><th rowspan=\"2\">조치일</th><th colspan=\"2\">미결인 경우</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>미결사유</td><td>완 료<br>예정일</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
+      "annexTitle": "(별지 제11호 서식) 삭제[2011.02.24.]",
+      "title": "(별지 제11호 서식) 삭제[2011.02.24.]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 3,
       "text": "(별지 제11호 서식) 삭제[2011.02.24.]",
-      "needsOriginal": false
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
+      "annexTitle": "(별지 제12호 서식) 삭제[2011.02.24.]",
+      "title": "(별지 제12호 서식) 삭제[2011.02.24.]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 3,
       "text": "(별지 제12호 서식) 삭제[2011.02.24.]",
-      "needsOriginal": false
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
+      "annexTitle": "(별지 제13호 서식) 삭제[2011.02.24.]",
+      "title": "(별지 제13호 서식) 삭제[2011.02.24.]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 3,
       "text": "(별지 제13호 서식) 삭제[2011.02.24.]",
-      "needsOriginal": false
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제14호서식)",
-      "needsOriginal": false
+      "annexTitle": "(별지 제14호서식)",
+      "title": "(별지 제14호서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 3,
+      "text": "(별지 제14호서식)\n조 치 연 기 내 역 서\n감 사 종 류 : 처 분 제 목 : 처분조치기한 : 처 분 종 류 :\n처분내용 연기사유 추진계획\n완료예정일 :\n조치 책임자(팀장) 직위 성명\n첨부서류",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "조 치 연 기 내 역 서",
-      "needsOriginal": false
+      "annexTitle": "(별지 제15호서식)",
+      "title": "(별지 제15호서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 3,
+      "text": "(별지 제15호서식)\n집  행  독  촉  장\n<table>\n<tr><th colspan=\"5\">집행독촉</th><th colspan=\"4\">회 답</th></tr>\n<tr><td colspan=\"5\">감사 20 . . .<br>수신:<br>발신: 한국장애인고용공단 감사<br>다음 사항에 대한 처리를 독촉하니 20 . . .까지 그 집행전말을 회보하여 주기 바람.</td><td colspan=\"4\">20 . . .<br>수신: 한국장애인고용공단 감사<br>발신:<br>다음과 같이 회보합니다.<br>첨부: 집행한 것에 대한 증빙서류</td></tr>\n<tr><td rowspan=\"2\">부서명</td><td colspan=\"3\">요구사항</td><td colspan=\"3\">집행전말(20 . . 현재)</td><td rowspan=\"2\">미집행사유<br>(책임자)</td><td rowspan=\"2\">집행방안<br>(완료예정일)</td></tr>\n<tr><td>지적구분</td><td>지적건명</td><td>사건요지</td><td>집행기일</td><td>집행</td><td>미집행</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "감 사 종 류 : 처 분 제 목 : 처분조치기한 : 처 분 종 류 :",
-      "needsOriginal": false
+      "annexTitle": "(별지 제16호서식)",
+      "title": "(별지 제16호서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 3,
+      "text": "(별지 제16호서식)\n감사결과처분 요구사항에 대한 이의신청서\n<table>\n<tr><th>처분요구일자</th><th></th><th>처분요구종류</th></tr>\n<tr><td colspan=\"4\">제 목 :</td></tr>\n<tr><td colspan=\"4\">처분요구요지</td></tr>\n<tr><td colspan=\"4\">이의신청사유<br>첨부: 관계증빙서류 사본 매. 끝.</td></tr>\n</table>\n20 . . .\n이의신청자 (인)\n한국장애인고용공단 감사 귀하",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "처분내용 연기사유 추진계획",
-      "needsOriginal": false
+      "annexTitle": "(별지 제17호서식)",
+      "title": "(별지 제17호서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 조치할 사항"
+      ],
+      "page": 3,
+      "text": "(별지 제17호서식)\n재 심 사  요 구 서\n<table>\n<tr><th colspan=\"2\">원처분요구</th><th colspan=\"2\">이의신청</th></tr>\n<tr><td>일자</td><td>종류</td><td>일자</td><td>내용</td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n</table>\n제 목 :\n첨부: 관계증빙서류 사본 매. 끝.\n\\* 작성요령 : 1. 원처분요지 2. 이의신청사유 요지\n3. 이의신청에 대한 조치 요지 4. 재심사 요구사유\n20 . . .\n재심사 요구자 (인)\n한국장애인고용공단 감사 귀하",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "완료예정일 :",
-      "needsOriginal": false
+      "annexTitle": "(별지 제18호 서식)",
+      "title": "(별지 제18호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "3. 이의신청에 대한 조치 요지 4. 재심사 요구사유"
+      ],
+      "page": 3,
+      "text": "(별지 제18호 서식)\n감 사 결 과 처 리 부\n부서명\n<table>\n<tr><th rowspan=\"2\">일련 번호</th><th rowspan=\"2\">구분</th><th rowspan=\"2\">발생<br>년도</th><th rowspan=\"2\">월일</th><th colspan=\"2\">처분요구</th><th rowspan=\"2\">제 목</th><th rowspan=\"2\">지적사항</th><th rowspan=\"2\">조치사항</th><th colspan=\"2\">관련자</th><th colspan=\"2\">완 결</th><th rowspan=\"2\">비고</th></tr>\n<tr><td>종류</td><td>일자</td><td>직․성명</td><td>신분상조치지시구분</td><td>일자및근거</td><td>확인</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "조치 책임자(팀장) 직위 성명",
-      "needsOriginal": false
+      "annexTitle": "(별지 제19호 서식)",
+      "title": "(별지 제19호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "3. 이의신청에 대한 조치 요지 4. 재심사 요구사유"
+      ],
+      "page": 5,
+      "text": "(별지 제19호 서식)\n연 간 감 사 보 고 서\n1. 감사계획 대 실시에 대한 자체평가\n2. 주요 사고 사례별 원인분석\n| 사례명 | 사고원인분석 | 개선방안 |\n| --- | --- | --- |\n|  |  |  |\n3. 감사실시에 따른 운영 개선실적\n| 업무명 | 개선요구내용 | 조치결과 |\n| --- | --- | --- |\n|  |  |  |\n4. 감사결과 보고서(Ⅰ, Ⅱ, Ⅲ)",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "첨부서류",
-      "needsOriginal": false
+      "annexTitle": "(별지 제20호 서식)",
+      "title": "(별지 제20호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 감사결과 보고서(Ⅰ, Ⅱ, Ⅲ)"
+      ],
+      "page": 5,
+      "text": "(별지 제20호 서식)\n감 사 결 과 보 고 서 (Ⅰ)\n<table>\n<tr><th rowspan=\"2\">구분</th><th rowspan=\"2\">감사종별 또는 감사기관</th><th colspan=\"2\">계획</th><th colspan=\"2\">실 적</th><th colspan=\"5\">행정상 조치</th></tr>\n<tr><td>대상 부서</td><td>실시 연인원</td><td>대상 부서</td><td>실시 연인원</td><td>계</td><td>시정</td><td>개선</td><td>주의</td><td>기타</td></tr>\n<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"7\">자체<br>감사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>종합감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>특정감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>복무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>일상감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"5\">외부<br>감사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>주무감독<br>부 처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>정부합동<br>감 사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>기 타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n감사결과 보고서(Ⅱ)\n<table>\n<tr><th colspan=\"2\" rowspan=\"3\">구 분</th><th colspan=\"12\">재정상조치(천원)</th><th colspan=\"14\">신분상조치(명)</th></tr>\n<tr><td colspan=\"2\">계</td><td colspan=\"2\">추 징</td><td colspan=\"2\">변상</td><td colspan=\"2\">회수</td><td colspan=\"2\">지급</td><td colspan=\"2\">기타</td><td colspan=\"2\">계</td><td colspan=\"2\">파 면</td><td colspan=\"2\">면 직</td><td colspan=\"2\">정 직</td><td colspan=\"2\">감 봉</td><td colspan=\"2\">견 책</td><td colspan=\"2\">경고</td></tr>\n<tr><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td></tr>\n<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"6\">자<br>체<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>종합<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>특정<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>복무<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"5\">외<br>부<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>주무<br>감독<br>부처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>정부<br>합동<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>기타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n감사결과 보고서(Ⅲ)\n<table>\n<tr><th colspan=\"2\" rowspan=\"3\">구 분</th><th colspan=\"18\">비위유형별지적사항</th><th colspan=\"6\">조치결과</th></tr>\n<tr><td colspan=\"2\">계</td><td colspan=\"6\">복무기강</td><td colspan=\"3\">행정관리</td><td colspan=\"3\">재산관리</td><td colspan=\"3\">독 직</td><td rowspan=\"2\">기타</td><td colspan=\"3\">완 결</td><td colspan=\"3\">미 결</td></tr>\n<tr><td>건수</td><td>금액</td><td>직장이탈</td><td>품위손상</td><td>보안 및 비 밀<br>누 설</td><td>직무유기및태만</td><td>감독소홀</td><td>직권남용</td><td>업무처리</td><td>공문서<br>위조</td><td>문서관리소홀</td><td>현금관리소홀</td><td>물자관리소홀</td><td>재산관리소홀</td><td>공금유용</td><td>공금횡령</td><td>증수뢰</td><td>건수</td><td>금액</td><td>인원</td><td>건수</td><td>금액</td><td>인원</td></tr>\n<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"6\">자<br>체<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>종합<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>특정<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>복무<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"5\">외<br>부<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>주무<br>감독<br>부처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>정부<br>합동<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>기타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제15호서식)",
-      "needsOriginal": false
+      "annexTitle": "(별지 제21호 서식)",
+      "title": "(별지 제21호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "4. 감사결과 보고서(Ⅰ, Ⅱ, Ⅲ)"
+      ],
+      "page": 7,
+      "text": "(별지 제21호 서식)\n<table>\n<tr><th colspan=\"6\">제호<br>감사의견서</th></tr>\n<tr><td>수 신</td><td></td><td>참 조</td><td></td><td>등록번호<br>및 일자</td></tr>\n<tr><td>제 목</td><td colspan=\"3\"></td><td>회신요구일<br>및 회신일</td></tr>\n<tr><td colspan=\"6\">감 사 의 견<br>1. 내 용<br>2. 조치방향<br>20 . . .<br>한국장애인고용공단 감사 (인)</td></tr>\n<tr><td colspan=\"6\">3. 조치결과(주관부서 기재란)<br>20 . . .<br>장 (인)</td></tr>\n</table>\n\\* 조치결과 기재요령\n1. 시정방향대로 조치하였을 경우 : 그 조치내용의 요지를 기재하여 즉시\n감사실에 회송할 것.\n2. 시정방향대로 조치할 수 없는 경우: 그 사유를 기재하여 결재문건\n상단에 첨부 결재후 결재(결정) 내용을 첨가하여 감사실에 회송할 것.",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "집  행  독  촉  장",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"5\">집행독촉</th><th colspan=\"4\">회 답</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"5\">감사 20 . . .<br>수신:<br>발신: 한국장애인고용공단 감사<br>다음 사항에 대한 처리를 독촉하니 20 . . .까지 그 집행전말을 회보하여 주기 바람.</td><td colspan=\"4\">20 . . .<br>수신: 한국장애인고용공단 감사<br>발신:<br>다음과 같이 회보합니다.<br>첨부: 집행한 것에 대한 증빙서류</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"2\">부서명</td><td colspan=\"3\">요구사항</td><td colspan=\"3\">집행전말(20 . . 현재)</td><td rowspan=\"2\">미집행사유<br>(책임자)</td><td rowspan=\"2\">집행방안<br>(완료예정일)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>지적구분</td><td>지적건명</td><td>사건요지</td><td>집행기일</td><td>집행</td><td>미집행</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제16호서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "감사결과처분 요구사항에 대한 이의신청서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th>처분요구일자</th><th></th><th>처분요구종류</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">제 목 :</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">처분요구요지</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">이의신청사유<br>첨부: 관계증빙서류 사본 매. 끝.</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "20 . . .",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "이의신청자 (인)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단 감사 귀하",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제17호서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "재 심 사  요 구 서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"2\">원처분요구</th><th colspan=\"2\">이의신청</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>일자</td><td>종류</td><td>일자</td><td>내용</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "제 목 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "첨부: 관계증빙서류 사본 매. 끝.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "\\* 작성요령 : 1. 원처분요지 2. 이의신청사유 요지",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "3. 이의신청에 대한 조치 요지 4. 재심사 요구사유",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "20 . . .",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "재심사 요구자 (인)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단 감사 귀하",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제18호 서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "감 사 결 과 처 리 부",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "부서명",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th rowspan=\"2\">일련 번호</th><th rowspan=\"2\">구분</th><th rowspan=\"2\">발생<br>년도</th><th rowspan=\"2\">월일</th><th colspan=\"2\">처분요구</th><th rowspan=\"2\">제 목</th><th rowspan=\"2\">지적사항</th><th rowspan=\"2\">조치사항</th><th colspan=\"2\">관련자</th><th colspan=\"2\">완 결</th><th rowspan=\"2\">비고</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>종류</td><td>일자</td><td>직․성명</td><td>신분상조치지시구분</td><td>일자및근거</td><td>확인</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제19호 서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "연 간 감 사 보 고 서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "1. 감사계획 대 실시에 대한 자체평가",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "2. 주요 사고 사례별 원인분석",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 사례명 | 사고원인분석 | 개선방안 |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| --- | --- | --- |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "|  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "3. 감사실시에 따른 운영 개선실적",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 업무명 | 개선요구내용 | 조치결과 |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| --- | --- | --- |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "|  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "4. 감사결과 보고서(Ⅰ, Ⅱ, Ⅲ)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제20호 서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "감 사 결 과 보 고 서 (Ⅰ)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th rowspan=\"2\">구분</th><th rowspan=\"2\">감사종별 또는 감사기관</th><th colspan=\"2\">계획</th><th colspan=\"2\">실 적</th><th colspan=\"5\">행정상 조치</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>대상 부서</td><td>실시 연인원</td><td>대상 부서</td><td>실시 연인원</td><td>계</td><td>시정</td><td>개선</td><td>주의</td><td>기타</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"7\">자체<br>감사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>종합감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>특정감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>복무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>일상감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"5\">외부<br>감사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>주무감독<br>부 처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>정부합동<br>감 사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>기 타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "감사결과 보고서(Ⅱ)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"2\" rowspan=\"3\">구 분</th><th colspan=\"12\">재정상조치(천원)</th><th colspan=\"14\">신분상조치(명)</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">계</td><td colspan=\"2\">추 징</td><td colspan=\"2\">변상</td><td colspan=\"2\">회수</td><td colspan=\"2\">지급</td><td colspan=\"2\">기타</td><td colspan=\"2\">계</td><td colspan=\"2\">파 면</td><td colspan=\"2\">면 직</td><td colspan=\"2\">정 직</td><td colspan=\"2\">감 봉</td><td colspan=\"2\">견 책</td><td colspan=\"2\">경고</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>건수</td><td>금액</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td><td>2급<br>이상</td><td>3급<br>이하</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"6\">자<br>체<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>종합<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>특정<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>복무<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"5\">외<br>부<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>주무<br>감독<br>부처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>정부<br>합동<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>기타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "감사결과 보고서(Ⅲ)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"2\" rowspan=\"3\">구 분</th><th colspan=\"18\">비위유형별지적사항</th><th colspan=\"6\">조치결과</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">계</td><td colspan=\"6\">복무기강</td><td colspan=\"3\">행정관리</td><td colspan=\"3\">재산관리</td><td colspan=\"3\">독 직</td><td rowspan=\"2\">기타</td><td colspan=\"3\">완 결</td><td colspan=\"3\">미 결</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>건수</td><td>금액</td><td>직장이탈</td><td>품위손상</td><td>보안 및 비 밀<br>누 설</td><td>직무유기및태만</td><td>감독소홀</td><td>직권남용</td><td>업무처리</td><td>공문서<br>위조</td><td>문서관리소홀</td><td>현금관리소홀</td><td>물자관리소홀</td><td>재산관리소홀</td><td>공금유용</td><td>공금횡령</td><td>증수뢰</td><td>건수</td><td>금액</td><td>인원</td><td>건수</td><td>금액</td><td>인원</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">합 계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"6\">자<br>체<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>종합<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>특정<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>성과감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>재무감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>복무<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"5\">외<br>부<br>감<br>사</td><td>계</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>주무<br>감독<br>부처</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>감사원</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>정부<br>합동<br>감사</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>기타</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제21호 서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"6\">제호<br>감사의견서</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>수 신</td><td></td><td>참 조</td><td></td><td>등록번호<br>및 일자</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>제 목</td><td colspan=\"3\"></td><td>회신요구일<br>및 회신일</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"6\">감 사 의 견<br>1. 내 용<br>2. 조치방향<br>20 . . .<br>한국장애인고용공단 감사 (인)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"6\">3. 조치결과(주관부서 기재란)<br>20 . . .<br>장 (인)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "\\* 조치결과 기재요령",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "1. 시정방향대로 조치하였을 경우 : 그 조치내용의 요지를 기재하여 즉시",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "감사실에 회송할 것.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "2. 시정방향대로 조치할 수 없는 경우: 그 사유를 기재하여 결재문건",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "상단에 첨부 결재후 결재(결정) 내용을 첨가하여 감사실에 회송할 것.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제22호 서식)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "감  사  일  지",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th rowspan=\"2\">일렬번호</th><th rowspan=\"2\">접수일자</th><th rowspan=\"2\">등록번호</th><th rowspan=\"2\">건명(내용요약)</th><th rowspan=\"2\">소관부서<br>(담당자)</th><th rowspan=\"2\">합의일시</th><th rowspan=\"2\">감사의견</th><th colspan=\"3\">결재</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
+      "annexTitle": "(별지 제22호 서식)",
+      "title": "(별지 제22호 서식)",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2011.02.24.부터 시행한다.",
+        "2. 시정방향대로 조치할 수 없는 경우: 그 사유를 기재하여 결재문건 \n상단에 첨부 결재후 결재(결정) 내용을 첨가하여 감사실에 회송할 것."
+      ],
+      "page": 8,
+      "text": "(별지 제22호 서식)\n감  사  일  지\n<table>\n<tr><th rowspan=\"2\">일렬번호</th><th rowspan=\"2\">접수일자</th><th rowspan=\"2\">등록번호</th><th rowspan=\"2\">건명(내용요약)</th><th rowspan=\"2\">소관부서<br>(담당자)</th><th rowspan=\"2\">합의일시</th><th rowspan=\"2\">감사의견</th><th colspan=\"3\">결재</th></tr>\n<tr><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>",
+      "needsOriginal": true
     }
   ]
 }

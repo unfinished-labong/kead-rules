@@ -13,7 +13,7 @@
   "sha256": "fd3738d82c912e196ec5f2df5a57bf919a243e2057c165d981a252fb0e662e11",
   "articleCount": 8,
   "supplementCount": 12,
-  "needsOriginalCount": 7,
+  "needsOriginalCount": 9,
   "articles": [
     {
       "section": "본칙",
@@ -470,7 +470,35 @@
       "title": "시행일",
       "breadcrumb": [],
       "page": 1,
-      "text": "제1조(시행일) 이 규칙은 2025. 1. 1.부터 시행한다.\n[별표] (삭제) <개정 2016.12.29., 2017.2.14., 2017.9.28., 2018.9.17., 2018.12.28., 2020.12.29., 2022.01.10., 삭제 2024.12.27.>\n[별지 제1호 서식]\n업무추진비 지출품의서\n<table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담 당</th><th colspan=\"2\">팀 장</th><th colspan=\"2\">국(실) 장</th><th>이 사</th></tr>\n<tr><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td colspan=\"7\">신청부서 : 국(실) 팀</td></tr>\n<tr><td colspan=\"7\">금 액 : 원정 (￦ )</td></tr>\n<tr><td colspan=\"7\">적 요</td></tr>\n<tr><td colspan=\"7\"></td></tr>\n<tr><td colspan=\"7\">상기와 같이 업무추진비를 청구하니 지출하여 주시기 바랍니다.<br>년 월 일<br>청 구 자 직 급 :<br>성 명 : (인)</td></tr>\n<tr><td colspan=\"3\">계정과목</td><td colspan=\"2\" rowspan=\"5\">첨<br>부<br>서<br>류</td><td colspan=\"2\" rowspan=\"5\"></td></tr>\n<tr><td colspan=\"3\">관</td></tr>\n<tr><td colspan=\"3\">항</td></tr>\n<tr><td colspan=\"3\">세 항</td></tr>\n<tr><td colspan=\"3\">목</td></tr>\n</table>\n[별지 제2호 서식]\n지 급 확 인 서\n일 금 : 원 (￦ )\n내 역 :\n위의 금액을 조로 지급하였음을 확인함\n년월일\n사용자 (인)",
+      "text": "제1조(시행일) 이 규칙은 2025. 1. 1.부터 시행한다.\n[별표] (삭제) <개정 2016.12.29., 2017.2.14., 2017.9.28., 2018.9.17., 2018.12.28., 2020.12.29., 2022.01.10., 삭제 2024.12.27.>",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제1호 서식]",
+      "title": "[별지 제1호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2025. 1. 1.부터 시행한다."
+      ],
+      "page": 1,
+      "text": "[별지 제1호 서식]\n업무추진비 지출품의서\n<table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담 당</th><th colspan=\"2\">팀 장</th><th colspan=\"2\">국(실) 장</th><th>이 사</th></tr>\n<tr><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td colspan=\"7\">신청부서 : 국(실) 팀</td></tr>\n<tr><td colspan=\"7\">금 액 : 원정 (￦ )</td></tr>\n<tr><td colspan=\"7\">적 요</td></tr>\n<tr><td colspan=\"7\"></td></tr>\n<tr><td colspan=\"7\">상기와 같이 업무추진비를 청구하니 지출하여 주시기 바랍니다.<br>년 월 일<br>청 구 자 직 급 :<br>성 명 : (인)</td></tr>\n<tr><td colspan=\"3\">계정과목</td><td colspan=\"2\" rowspan=\"5\">첨<br>부<br>서<br>류</td><td colspan=\"2\" rowspan=\"5\"></td></tr>\n<tr><td colspan=\"3\">관</td></tr>\n<tr><td colspan=\"3\">항</td></tr>\n<tr><td colspan=\"3\">세 항</td></tr>\n<tr><td colspan=\"3\">목</td></tr>\n</table>",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제2호 서식]",
+      "title": "[별지 제2호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2025. 1. 1.부터 시행한다."
+      ],
+      "page": 2,
+      "text": "[별지 제2호 서식]\n지 급 확 인 서\n일 금 : 원 (￦ )\n내 역 :\n위의 금액을 조로 지급하였음을 확인함\n년월일\n사용자 (인)",
       "needsOriginal": true
     }
   ]

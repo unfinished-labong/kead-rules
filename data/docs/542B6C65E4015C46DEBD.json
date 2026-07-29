@@ -13,7 +13,7 @@
   "sha256": "da62bfc4a8b609dcc4c28ad1220772349c2c36176de42b23e60c43f57e2e36cc",
   "articleCount": 15,
   "supplementCount": 2,
-  "needsOriginalCount": 3,
+  "needsOriginalCount": 5,
   "articles": [
     {
       "section": "본칙",
@@ -258,7 +258,49 @@
       "title": "경과조치",
       "breadcrumb": [],
       "page": 1,
-      "text": "제2조(경과조치) 이 규칙 시행이전에 처리한 사항은 이 규칙에 의하여 시행된 것으로 본다.\n[별표 1] 직무조정요청서(제4조제3항 관련)\n<table>\n<tr><th colspan=\"4\">부서명 :</th><th colspan=\"4\">작성일자 : . . .</th></tr>\n<tr><td rowspan=\"2\">구 분</td><td colspan=\"4\">조정내용</td><td colspan=\"3\">소요인력 변동</td></tr>\n<tr><td>직무명</td><td>소속</td><td colspan=\"2\">조정 사유 및 주요 내용</td><td>현행</td><td>조정</td><td>증감</td></tr>\n<tr><td>직무<br>신설</td><td></td><td></td><td colspan=\"2\"></td><td></td><td></td><td></td></tr>\n<tr><td>직무<br>폐지</td><td></td><td></td><td colspan=\"2\"></td><td></td><td></td><td></td></tr>\n<tr><td>직무<br>내용<br>변경</td><td></td><td></td><td colspan=\"2\"></td><td></td><td></td><td></td></tr>\n</table>\n[별지 제1호서식]\n직무관리심의위원회 서면결의서\n한국장애인고용공단 「직무관리규칙」 제14조에 따라 직무관리심의위원회에 부의함이 없이 문서로써 위원의 동의를 구하고자 하오니 검토 후 동의여부를 기표하여 주시기 바랍니다.\n안건명 :\n| 구 분 | 가 | 부 | 서 명 |\n| --- | --- | --- | --- |\n| 위원장 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n위 기록의 명확을 기하기 위하여 상기와 같이 서명함\n20년월일\n<table>\n<tr><th>재 적</th><th></th><th></th><th>간 사</th></tr>\n<tr><td>가</td><td></td><td></td><td rowspan=\"2\"></td></tr>\n<tr><td>부</td><td></td><td></td></tr>\n</table>\n[별지 제2호서식]\n년    월     일\n제    회  직무관리심의위원회 의사록\n한국장애인고용공단\n제  회 직무관리심의위원회 결과보고\n1. 일 시 :\n2. 장 소 :\n3. 참석위원\nㅇ 위원장 ○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\nㅇ 위 원 ○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\nㅇ 간 사 ○ ○ ○ (소속 및 직책) (인)\n※ 재적위원 ○명중 ○명 참석\n4. 회의결과\n| 구분 | 안건명 | 회의결과 | 비 고 |\n| --- | --- | --- | --- |\n| 의<br>결<br>안<br>건 |  |  |  |\n| 기<br>타<br>안<br>건 |  |  |  |",
+      "text": "제2조(경과조치) 이 규칙 시행이전에 처리한 사항은 이 규칙에 의하여 시행된 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별표 1] 직무조정요청서(제4조제3항 관련)",
+      "title": "[별표 1] 직무조정요청서(제4조제3항 관련)",
+      "breadcrumb": [
+        "제2조(경과조치) 이 규칙 시행이전에 처리한 사항은 이 규칙에 의하여 시행된 것으로 본다."
+      ],
+      "page": 1,
+      "text": "[별표 1] 직무조정요청서(제4조제3항 관련)\n<table>\n<tr><th colspan=\"4\">부서명 :</th><th colspan=\"4\">작성일자 : . . .</th></tr>\n<tr><td rowspan=\"2\">구 분</td><td colspan=\"4\">조정내용</td><td colspan=\"3\">소요인력 변동</td></tr>\n<tr><td>직무명</td><td>소속</td><td colspan=\"2\">조정 사유 및 주요 내용</td><td>현행</td><td>조정</td><td>증감</td></tr>\n<tr><td>직무<br>신설</td><td></td><td></td><td colspan=\"2\"></td><td></td><td></td><td></td></tr>\n<tr><td>직무<br>폐지</td><td></td><td></td><td colspan=\"2\"></td><td></td><td></td><td></td></tr>\n<tr><td>직무<br>내용<br>변경</td><td></td><td></td><td colspan=\"2\"></td><td></td><td></td><td></td></tr>\n</table>",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제1호서식]",
+      "title": "[별지 제1호서식]",
+      "breadcrumb": [
+        "제2조(경과조치) 이 규칙 시행이전에 처리한 사항은 이 규칙에 의하여 시행된 것으로 본다."
+      ],
+      "page": 1,
+      "text": "[별지 제1호서식]\n직무관리심의위원회 서면결의서\n한국장애인고용공단 「직무관리규칙」 제14조에 따라 직무관리심의위원회에 부의함이 없이 문서로써 위원의 동의를 구하고자 하오니 검토 후 동의여부를 기표하여 주시기 바랍니다.\n안건명 :\n| 구 분 | 가 | 부 | 서 명 |\n| --- | --- | --- | --- |\n| 위원장 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n| ㅇㅇㅇ위원 |  |  |  |\n위 기록의 명확을 기하기 위하여 상기와 같이 서명함\n20년월일\n<table>\n<tr><th>재 적</th><th></th><th></th><th>간 사</th></tr>\n<tr><td>가</td><td></td><td></td><td rowspan=\"2\"></td></tr>\n<tr><td>부</td><td></td><td></td></tr>\n</table>",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제2호서식]",
+      "title": "[별지 제2호서식]",
+      "breadcrumb": [
+        "제2조(경과조치) 이 규칙 시행이전에 처리한 사항은 이 규칙에 의하여 시행된 것으로 본다."
+      ],
+      "page": 1,
+      "text": "[별지 제2호서식]\n년    월     일\n제    회  직무관리심의위원회 의사록\n한국장애인고용공단\n제  회 직무관리심의위원회 결과보고\n1. 일 시 :\n2. 장 소 :\n3. 참석위원\nㅇ 위원장 ○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\nㅇ 위 원 ○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\n○ ○ ○ (소속 및 직책) (인)\nㅇ 간 사 ○ ○ ○ (소속 및 직책) (인)\n※ 재적위원 ○명중 ○명 참석\n4. 회의결과\n| 구분 | 안건명 | 회의결과 | 비 고 |\n| --- | --- | --- | --- |\n| 의<br>결<br>안<br>건 |  |  |  |\n| 기<br>타<br>안<br>건 |  |  |  |",
       "needsOriginal": true
     }
   ]

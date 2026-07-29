@@ -1,23 +1,7 @@
 {
-  "collectedAt": "2026-07-29T08:02:12.523Z",
+  "collectedAt": "2026-07-29T08:11:42.776Z",
   "requested": 44,
-  "collected": 41,
-  "totalArticles": 1389,
-  "failed": [
-    {
-      "name": "장애인기업활동 촉진법",
-      "target": "law",
-      "reason": "목록조회 HTTP 404"
-    },
-    {
-      "name": "장애인ㆍ고령자 등 주거약자 지원에 관한 법률",
-      "target": "law",
-      "reason": "목록조회 HTTP 404"
-    },
-    {
-      "name": "장애인 고용부담금의 부담기초액",
-      "target": "admrul",
-      "reason": "목록조회 HTTP 404"
-    }
-  ]
+  "collected": 44,
+  "totalArticles": 1440,
+  "failed": []
 }

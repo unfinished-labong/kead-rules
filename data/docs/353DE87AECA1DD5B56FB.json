@@ -13,7 +13,7 @@
   "sha256": "6ac1131620967406d3ec5638d3f777f8fff012186d0e53a1470345d9e519cf7d",
   "articleCount": 21,
   "supplementCount": 3,
-  "needsOriginalCount": 4,
+  "needsOriginalCount": 13,
   "articles": [
     {
       "section": "본칙",
@@ -342,7 +342,156 @@
       "title": "시행일",
       "breadcrumb": [],
       "page": 1,
-      "text": "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.\n[별지 제1호 서식]\n<table>\n<tr><th colspan=\"12\">직장 내 괴롭힘 상담사건 접수대장</th></tr>\n<tr><td rowspan=\"3\">접수<br>번호</td><td colspan=\"2\">접수</td><td colspan=\"2\">신청인</td><td rowspan=\"3\">고충<br>내용</td><td colspan=\"4\">처리결과</td><td colspan=\"2\">담당자</td></tr>\n<tr><td rowspan=\"2\">접수일자</td><td rowspan=\"2\">접수방법</td><td rowspan=\"2\">성명</td><td rowspan=\"2\">소속</td><td>상담<br>종결</td><td colspan=\"3\">괴롭힘 정식사건으로 접수</td><td rowspan=\"2\">이름</td><td rowspan=\"2\">확인</td></tr>\n<tr><td>일자</td><td>종결<br>사유</td><td>처리일자<br>및 결과</td><td>신청인<br>회신일자</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류.\n[별지 제2호 서식]\n<table>\n<tr><th colspan=\"4\" rowspan=\"2\"></th><th colspan=\"2\">접수번호</th></tr>\n<tr><td colspan=\"2\">담당자</td></tr>\n<tr><td colspan=\"6\">직장 내 괴롭힘 사건 접수신청서</td></tr>\n<tr><td rowspan=\"12\">당사자</td><td rowspan=\"4\">신청인</td><td rowspan=\"2\">성명<br>(성별)</td><td colspan=\"2\" rowspan=\"2\"></td><td>소속</td></tr>\n<tr><td>직급</td></tr>\n<tr><td>연락처</td><td colspan=\"4\"></td></tr>\n<tr><td>(e-mail)</td><td colspan=\"4\"></td></tr>\n<tr><td rowspan=\"4\">대리인<br>※ 대리인이 신청하는 경우</td><td rowspan=\"2\">성명<br>(성별)</td><td colspan=\"2\" rowspan=\"2\"></td><td>소속</td></tr>\n<tr><td>직급</td></tr>\n<tr><td>연락처</td><td colspan=\"4\"></td></tr>\n<tr><td>(e-mail)</td><td colspan=\"4\"></td></tr>\n<tr><td rowspan=\"4\">피신청인<br>(행위자)</td><td rowspan=\"2\">성명<br>(성별)</td><td colspan=\"2\" rowspan=\"2\"></td><td>소속</td></tr>\n<tr><td>직급</td></tr>\n<tr><td>연락처</td><td colspan=\"4\"></td></tr>\n<tr><td>(e-mail)</td><td colspan=\"4\"></td></tr>\n<tr><td>신 청<br>취 지</td><td colspan=\"6\">※ 6하원칙에 의해 문제가 되는 행위, 지속성의 여부, 목격자 혹은 증인의 유무 등을 기록합니다.</td></tr>\n<tr><td>요구사항</td><td colspan=\"6\">1. 괴롭힘의 행위자와 격리( )2. 괴롭힘에 대한 사과와 재발방지 조치( )<br>3. 징계 등 인사조치( ) 4. 기타( )</td></tr>\n<tr><td colspan=\"7\">위 신청인은 직장 내 괴롭힘 고충 사건의 조사를 신청합니다.<br>년 월 일<br>신청인 (서명 또는 인)<br>한국장애인고용공단 이사장 귀하</td></tr>\n</table>\n[별지 제3호 서식]\n<table>\n<tr><th colspan=\"6\" rowspan=\"2\"></th><th>접수<br>번호</th></tr>\n<tr><td>담당자</td></tr>\n<tr><td colspan=\"8\">직장 내 괴롭힘 상담일지</td></tr>\n<tr><td rowspan=\"2\">괴롭힘<br>고충상담원<br>(담당자)</td><td>상담방법</td><td colspan=\"6\">※ 상담일시, 장소 및 유선, e-mail 등 접수방법 기재</td></tr>\n<tr><td>성명</td><td colspan=\"6\"></td></tr>\n<tr><td rowspan=\"4\">피상담자<br>(상담신청인)</td><td rowspan=\"2\">성명<br>(성별)</td><td colspan=\"2\" rowspan=\"2\"></td><td>소속</td><td colspan=\"3\"></td></tr>\n<tr><td>직급</td><td colspan=\"3\"></td></tr>\n<tr><td>연락처</td><td colspan=\"6\"></td></tr>\n<tr><td>(e-mail)</td><td colspan=\"6\"></td></tr>\n<tr><td>상 담<br>신 청<br>요 지</td><td colspan=\"7\">※ 상담을 신청한 이유, 요구사항 등을 6하 원칙에 의해 기재</td></tr>\n<tr><td>상 담<br>내 용</td><td colspan=\"7\"></td></tr>\n<tr><td rowspan=\"4\">처 리<br>결 과</td><td rowspan=\"2\">상담<br>종결</td><td>종결<br>일자</td><td colspan=\"5\"></td></tr>\n<tr><td>종결<br>사유</td><td colspan=\"5\"></td></tr>\n<tr><td rowspan=\"2\">괴롭힘<br>사건<br>접수</td><td>조치<br>결과</td><td colspan=\"5\"></td></tr>\n<tr><td>회신<br>일자</td><td colspan=\"5\"></td></tr>\n<tr><td colspan=\"8\">작성일자 :<br>작 성 자 :<br>확 인 자 :</td></tr>\n</table>\n[별지 제4호 서식]\n직장 내 괴롭힘 상담결과보고서\n◯◯년 접수번호 ◯◯호 직장 내 괴롭힘 사건의 상담결과를 다음과 같이 보고합니다.\n1. 신청인 인적사항\n2. 피신청인 인적사항\n3. 피해 주장사실 요지\n4. 조사결과\n5. 처리의견\n년 월 일\n보고자 (서명 또는 인)\n[별지 제5-1호 서식]\n<table>\n<tr><th>서약서<br>성명 :<br>생년월일 :<br>은(는) 피신고인으로서 아래의 사항을 지킬 것을 서약합니다.<br>① 조사위원회 조사 절차에 성실히 협조.<br>② 사건 내용 및 신고인 신상 정보에 관한 비밀유지<br>③ 조사 기간 중 신고인 및 증인에 대한 사적 접촉 금지.<br>④ 신고인 및 주변인에 대한 보복 행위 금지.<br>※ 조사과정은 사실 확인을 위한 절차입니다. 피신고인은 조사위원회의 조사절차를 통해 가해사실이 확인되기 전까지는 피신고인의 신분을 유지하며 해당인의 인적사항 및 사건에 대한 비밀이 보장됩니다.<br>년 월 일 성명 : (인/서명)<br><table>\n<tr><th>▣ 피신고인은 조사 과정에서 다음과 같은 권리를 갖습니다.<br>1. 조사위원회에 출석하여 진술할 수 있습니다.<br>2. 진술서, 소견서 등 관련 자료를 조사위원회에 제출할 수 있습니다.<br>3. 구두 진술이 불가능할 경우 대리인과 동반출석하거나 서면제출로 대체할 수 있습니다.<br>4. 조사 절차 및 그 결과에 대한 정보를 제공받을 수 있습니다.</th></tr>\n</table></th></tr>\n</table>\n[별지 제5-2호 서식]\n<table>\n<tr><th>서약서<br>성명 :<br>생년월일 :<br>은(는) 신고인으로서 아래의 사항을 지킬 것을 서약합니다.<br>① 사건 내용 및 피신고인, 신고조사자, 목격자 등의 신상 정보에 관한 비밀유지.<br>② 조사 기간 중 피신고인에 대한 사적 접촉 금지.<br>※ 신고인의 인적사항 및 사건에 대한 비밀이 보장됩니다.<br>년 월 일 성명 : (인/서명)<br><table>\n<tr><th>▣ 신고인은 조사 과정에서 다음과 같은 권리를 갖습니다.<br>1. 진술서, 소견서 등 관련 자료를 제출할 수 있습니다.<br>2. 구두 진술이 불가능할 경우 대리인과 동반출석하거나 서면제출로 대체할 수 있습니다.<br>3. 조사 절차 및 그 결과에 대한 정보를 제공받을 수 있습니다.</th></tr>\n</table></th></tr>\n</table>\n[별지 제5-3호 서식]\n서 약 서\n성명 :\n생년월일 :\n은(는) 조사자로서 아래의 사항을 지킬 것을 서약합니다.\n직장 내 괴롭힘 관련 본 사건 내용 및 신고인, 피신고인, 목격자, 참고인 등의 신상 정보에 관한 비밀유지.\n년 월 일 성명 : (인/서명)\n[별지 제6-1호 서식]\n직장 내 괴롭힘 사건 조사결과 보고서(조사자)\n◯◯년 접수번호 ◯◯호 직장 내 괴롭힘 사건의 조사 결과를\n다음과 같이 보고합니다.\n1. 신청인 인적사항\n2. 피신청인 인적사항\n3. 피해 주장사실 요지\n4. 조사결과\n5. 처리의견\n년 월 일\n조사위원 (서명 또는 인)\n[별지 제6-2호 서식]\n직장 내 괴롭힘 사건 조사결과 보고서(조사위원회용)\n1. 기본 정보\n- 신고 접수 일자 및 담당 상담원\n- 신고인 및 피신고인 인적 사항\n- 담당 조사위원 명단\n2. 조사 및 사건 개요\n- 조사 및 사건 개요\n- 면접 개요\n- 검토 자료 목록 및 개요\n3. 조사위원회의 판단과 처리의견\n- 사실관계에 대한 판단 및 근거\n- 결론 및 처리 의견\n4. 조사위원회 의결안 집행 계획\n5. 기타(참고사항)\n위의 조사 보고서 내용이 사실임을 동의합니다.\n조사위원장 (인)\n조사위원 (인) (인) (인) (인)\n한국장애인고용공단 직장 내 괴롭힘 조사위원장\n[별지 제7호 서식]\n합 의 서\n신 고 인: ◯◯◯\n피신고인: △△△\n본 합의서는 직장 내 괴롭힘 사건의 처리에 대한 당사자 간의 합의에 관한 사안입니다.\n합의내용 ① △△△이 작성한 각서의 이행\n② ◯◯◯에 대한 개인적 연락 및 접촉 금지\n③\n④\n△△△는 이 사건의 처리에 관한 위의 합의 내용에 동의합니다. 본인의 행위를 인정하고 이를 반성하며, 이후 사건의 재발방지 및 비밀유지를 서약합니다. 이 합의가 이행되지 않을 경우 민형사상 책임은 물론 어떠한 처벌이라도 달게 받을 것을 서약합니다.\n◯◯◯는 이 사건의 처리에 관한 위의 합의 내용으로 사건을 종결하는 것에 동의합니다. 이 합의가 이행된다면 사건의 비밀유지 및 추후 본 사건에 대한 다른 방법으로의 문제제기를 하지 않을 것을 서약합니다.\n0000년 월 일\n△△△ (서명)\n◯◯◯ (서명)\n상담원 (서명)",
+      "text": "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제1호 서식]",
+      "title": "[별지 제1호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다."
+      ],
+      "page": 1,
+      "text": "[별지 제1호 서식]\n<table>\n<tr><th colspan=\"12\">직장 내 괴롭힘 상담사건 접수대장</th></tr>\n<tr><td rowspan=\"3\">접수<br>번호</td><td colspan=\"2\">접수</td><td colspan=\"2\">신청인</td><td rowspan=\"3\">고충<br>내용</td><td colspan=\"4\">처리결과</td><td colspan=\"2\">담당자</td></tr>\n<tr><td rowspan=\"2\">접수일자</td><td rowspan=\"2\">접수방법</td><td rowspan=\"2\">성명</td><td rowspan=\"2\">소속</td><td>상담<br>종결</td><td colspan=\"3\">괴롭힘 정식사건으로 접수</td><td rowspan=\"2\">이름</td><td rowspan=\"2\">확인</td></tr>\n<tr><td>일자</td><td>종결<br>사유</td><td>처리일자<br>및 결과</td><td>신청인<br>회신일자</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n</table>\n※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류.",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제2호 서식]",
+      "title": "[별지 제2호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+        "※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류."
+      ],
+      "page": 1,
+      "text": "[별지 제2호 서식]\n<table>\n<tr><th colspan=\"4\" rowspan=\"2\"></th><th colspan=\"2\">접수번호</th></tr>\n<tr><td colspan=\"2\">담당자</td></tr>\n<tr><td colspan=\"6\">직장 내 괴롭힘 사건 접수신청서</td></tr>\n<tr><td rowspan=\"12\">당사자</td><td rowspan=\"4\">신청인</td><td rowspan=\"2\">성명<br>(성별)</td><td colspan=\"2\" rowspan=\"2\"></td><td>소속</td></tr>\n<tr><td>직급</td></tr>\n<tr><td>연락처</td><td colspan=\"4\"></td></tr>\n<tr><td>(e-mail)</td><td colspan=\"4\"></td></tr>\n<tr><td rowspan=\"4\">대리인<br>※ 대리인이 신청하는 경우</td><td rowspan=\"2\">성명<br>(성별)</td><td colspan=\"2\" rowspan=\"2\"></td><td>소속</td></tr>\n<tr><td>직급</td></tr>\n<tr><td>연락처</td><td colspan=\"4\"></td></tr>\n<tr><td>(e-mail)</td><td colspan=\"4\"></td></tr>\n<tr><td rowspan=\"4\">피신청인<br>(행위자)</td><td rowspan=\"2\">성명<br>(성별)</td><td colspan=\"2\" rowspan=\"2\"></td><td>소속</td></tr>\n<tr><td>직급</td></tr>\n<tr><td>연락처</td><td colspan=\"4\"></td></tr>\n<tr><td>(e-mail)</td><td colspan=\"4\"></td></tr>\n<tr><td>신 청<br>취 지</td><td colspan=\"6\">※ 6하원칙에 의해 문제가 되는 행위, 지속성의 여부, 목격자 혹은 증인의 유무 등을 기록합니다.</td></tr>\n<tr><td>요구사항</td><td colspan=\"6\">1. 괴롭힘의 행위자와 격리( )2. 괴롭힘에 대한 사과와 재발방지 조치( )<br>3. 징계 등 인사조치( ) 4. 기타( )</td></tr>\n<tr><td colspan=\"7\">위 신청인은 직장 내 괴롭힘 고충 사건의 조사를 신청합니다.<br>년 월 일<br>신청인 (서명 또는 인)<br>한국장애인고용공단 이사장 귀하</td></tr>\n</table>",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제3호 서식]",
+      "title": "[별지 제3호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+        "※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류."
+      ],
+      "page": 1,
+      "text": "[별지 제3호 서식]\n<table>\n<tr><th colspan=\"6\" rowspan=\"2\"></th><th>접수<br>번호</th></tr>\n<tr><td>담당자</td></tr>\n<tr><td colspan=\"8\">직장 내 괴롭힘 상담일지</td></tr>\n<tr><td rowspan=\"2\">괴롭힘<br>고충상담원<br>(담당자)</td><td>상담방법</td><td colspan=\"6\">※ 상담일시, 장소 및 유선, e-mail 등 접수방법 기재</td></tr>\n<tr><td>성명</td><td colspan=\"6\"></td></tr>\n<tr><td rowspan=\"4\">피상담자<br>(상담신청인)</td><td rowspan=\"2\">성명<br>(성별)</td><td colspan=\"2\" rowspan=\"2\"></td><td>소속</td><td colspan=\"3\"></td></tr>\n<tr><td>직급</td><td colspan=\"3\"></td></tr>\n<tr><td>연락처</td><td colspan=\"6\"></td></tr>\n<tr><td>(e-mail)</td><td colspan=\"6\"></td></tr>\n<tr><td>상 담<br>신 청<br>요 지</td><td colspan=\"7\">※ 상담을 신청한 이유, 요구사항 등을 6하 원칙에 의해 기재</td></tr>\n<tr><td>상 담<br>내 용</td><td colspan=\"7\"></td></tr>\n<tr><td rowspan=\"4\">처 리<br>결 과</td><td rowspan=\"2\">상담<br>종결</td><td>종결<br>일자</td><td colspan=\"5\"></td></tr>\n<tr><td>종결<br>사유</td><td colspan=\"5\"></td></tr>\n<tr><td rowspan=\"2\">괴롭힘<br>사건<br>접수</td><td>조치<br>결과</td><td colspan=\"5\"></td></tr>\n<tr><td>회신<br>일자</td><td colspan=\"5\"></td></tr>\n<tr><td colspan=\"8\">작성일자 :<br>작 성 자 :<br>확 인 자 :</td></tr>\n</table>",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제4호 서식]",
+      "title": "[별지 제4호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+        "※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류."
+      ],
+      "page": 1,
+      "text": "[별지 제4호 서식]\n직장 내 괴롭힘 상담결과보고서\n◯◯년 접수번호 ◯◯호 직장 내 괴롭힘 사건의 상담결과를 다음과 같이 보고합니다.\n1. 신청인 인적사항\n2. 피신청인 인적사항\n3. 피해 주장사실 요지\n4. 조사결과\n5. 처리의견\n년 월 일\n보고자 (서명 또는 인)",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제5-1호 서식]",
+      "title": "[별지 제5-1호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+        "※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류."
+      ],
+      "page": 1,
+      "text": "[별지 제5-1호 서식]\n<table>\n<tr><th>서약서<br>성명 :<br>생년월일 :<br>은(는) 피신고인으로서 아래의 사항을 지킬 것을 서약합니다.<br>① 조사위원회 조사 절차에 성실히 협조.<br>② 사건 내용 및 신고인 신상 정보에 관한 비밀유지<br>③ 조사 기간 중 신고인 및 증인에 대한 사적 접촉 금지.<br>④ 신고인 및 주변인에 대한 보복 행위 금지.<br>※ 조사과정은 사실 확인을 위한 절차입니다. 피신고인은 조사위원회의 조사절차를 통해 가해사실이 확인되기 전까지는 피신고인의 신분을 유지하며 해당인의 인적사항 및 사건에 대한 비밀이 보장됩니다.<br>년 월 일 성명 : (인/서명)<br><table>\n<tr><th>▣ 피신고인은 조사 과정에서 다음과 같은 권리를 갖습니다.<br>1. 조사위원회에 출석하여 진술할 수 있습니다.<br>2. 진술서, 소견서 등 관련 자료를 조사위원회에 제출할 수 있습니다.<br>3. 구두 진술이 불가능할 경우 대리인과 동반출석하거나 서면제출로 대체할 수 있습니다.<br>4. 조사 절차 및 그 결과에 대한 정보를 제공받을 수 있습니다.</th></tr>\n</table></th></tr>\n</table>",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제5-2호 서식]",
+      "title": "[별지 제5-2호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+        "※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류."
+      ],
+      "page": 1,
+      "text": "[별지 제5-2호 서식]\n<table>\n<tr><th>서약서<br>성명 :<br>생년월일 :<br>은(는) 신고인으로서 아래의 사항을 지킬 것을 서약합니다.<br>① 사건 내용 및 피신고인, 신고조사자, 목격자 등의 신상 정보에 관한 비밀유지.<br>② 조사 기간 중 피신고인에 대한 사적 접촉 금지.<br>※ 신고인의 인적사항 및 사건에 대한 비밀이 보장됩니다.<br>년 월 일 성명 : (인/서명)<br><table>\n<tr><th>▣ 신고인은 조사 과정에서 다음과 같은 권리를 갖습니다.<br>1. 진술서, 소견서 등 관련 자료를 제출할 수 있습니다.<br>2. 구두 진술이 불가능할 경우 대리인과 동반출석하거나 서면제출로 대체할 수 있습니다.<br>3. 조사 절차 및 그 결과에 대한 정보를 제공받을 수 있습니다.</th></tr>\n</table></th></tr>\n</table>",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제5-3호 서식]",
+      "title": "[별지 제5-3호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+        "※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류."
+      ],
+      "page": 1,
+      "text": "[별지 제5-3호 서식]\n서 약 서\n성명 :\n생년월일 :\n은(는) 조사자로서 아래의 사항을 지킬 것을 서약합니다.\n직장 내 괴롭힘 관련 본 사건 내용 및 신고인, 피신고인, 목격자, 참고인 등의 신상 정보에 관한 비밀유지.\n년 월 일 성명 : (인/서명)",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제6-1호 서식]",
+      "title": "[별지 제6-1호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+        "※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류."
+      ],
+      "page": 1,
+      "text": "[별지 제6-1호 서식]\n직장 내 괴롭힘 사건 조사결과 보고서(조사자)\n◯◯년 접수번호 ◯◯호 직장 내 괴롭힘 사건의 조사 결과를\n다음과 같이 보고합니다.\n1. 신청인 인적사항\n2. 피신청인 인적사항\n3. 피해 주장사실 요지\n4. 조사결과\n5. 처리의견\n년 월 일\n조사위원 (서명 또는 인)",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제6-2호 서식]",
+      "title": "[별지 제6-2호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+        "※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류."
+      ],
+      "page": 1,
+      "text": "[별지 제6-2호 서식]\n직장 내 괴롭힘 사건 조사결과 보고서(조사위원회용)\n1. 기본 정보\n- 신고 접수 일자 및 담당 상담원\n- 신고인 및 피신고인 인적 사항\n- 담당 조사위원 명단\n2. 조사 및 사건 개요\n- 조사 및 사건 개요\n- 면접 개요\n- 검토 자료 목록 및 개요\n3. 조사위원회의 판단과 처리의견\n- 사실관계에 대한 판단 및 근거\n- 결론 및 처리 의견\n4. 조사위원회 의결안 집행 계획\n5. 기타(참고사항)\n위의 조사 보고서 내용이 사실임을 동의합니다.\n조사위원장 (인)\n조사위원 (인) (인) (인) (인)\n한국장애인고용공단 직장 내 괴롭힘 조사위원장",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제7호 서식]",
+      "title": "[별지 제7호 서식]",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024년 08월 29일부터 시행한다.",
+        "※ 이메일이나 서면으로 괴롭힘 사건 제출 시 정식 사건 접수로 원칙. 다만 정식 사건 접수 전 상담을 원한다는 의사표시를 분명히 한 경우에는 상담 사건으로 분류."
+      ],
+      "page": 1,
+      "text": "[별지 제7호 서식]\n합 의 서\n신 고 인: ◯◯◯\n피신고인: △△△\n본 합의서는 직장 내 괴롭힘 사건의 처리에 대한 당사자 간의 합의에 관한 사안입니다.\n합의내용 ① △△△이 작성한 각서의 이행\n② ◯◯◯에 대한 개인적 연락 및 접촉 금지\n③\n④\n△△△는 이 사건의 처리에 관한 위의 합의 내용에 동의합니다. 본인의 행위를 인정하고 이를 반성하며, 이후 사건의 재발방지 및 비밀유지를 서약합니다. 이 합의가 이행되지 않을 경우 민형사상 책임은 물론 어떠한 처벌이라도 달게 받을 것을 서약합니다.\n◯◯◯는 이 사건의 처리에 관한 위의 합의 내용으로 사건을 종결하는 것에 동의합니다. 이 합의가 이행된다면 사건의 비밀유지 및 추후 본 사건에 대한 다른 방법으로의 문제제기를 하지 않을 것을 서약합니다.\n0000년 월 일\n△△△ (서명)\n◯◯◯ (서명)\n상담원 (서명)",
       "needsOriginal": true
     }
   ]

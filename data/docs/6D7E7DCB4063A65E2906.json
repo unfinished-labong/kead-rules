@@ -13,7 +13,7 @@
   "sha256": "8863e871474dbff3de1b0e6c40a39b49b7c0b32d07b868d0bb9f369b0ef942d7",
   "articleCount": 25,
   "supplementCount": 0,
-  "needsOriginalCount": 1,
+  "needsOriginalCount": 4,
   "articles": [
     {
       "section": "본칙",
@@ -469,484 +469,49 @@
       "needsOriginal": false
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제1호 서식]",
-      "needsOriginal": false
+      "annexTitle": "[별지 제1호 서식]",
+      "title": "[별지 제1호 서식]",
+      "breadcrumb": [
+        "제22조(평가결과의 활용) ① 이사장은 평가결과를 다음 각 호의 사항에 반영할 수 있다.",
+        "② 평가주관부서장은 성과평가 수용도를 정기적으로 조사하고 이를 통해 도출된 개선의견의 적정성을 검토하여 성과관리제도 개선에 반영함으로써 피평가자의 수용도 제고를 위해 노력하여야 한다."
+      ],
+      "page": 1,
+      "text": "[별지 제1호 서식]\n<table>\n<tr><th colspan=\"5\">○○○○년도 제○차 성과평가위원회 서면결의서</th></tr>\n<tr><td>심의안건</td><td>심의근거</td><td>주요내용</td><td>심의결과</td><td>의견</td></tr>\n<tr><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td colspan=\"5\">위 안건에 대하여 의결사항을 명확히 하기 위하여 아래와 같이 서명함.<br>년 월 일<br>직 위: 위 원: (서명)</td></tr>\n</table>\n※ ‘심의결과’는 원안승인, 조건부승인(의견 기재), 불승인으로 기재",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
+      "annexTitle": "[별지 제2호 서식]",
+      "title": "[별지 제2호 서식]",
+      "breadcrumb": [
+        "제22조(평가결과의 활용) ① 이사장은 평가결과를 다음 각 호의 사항에 반영할 수 있다.",
+        "※ ‘심의결과’는 원안승인, 조건부승인(의견 기재), 불승인으로 기재"
+      ],
+      "page": 1,
+      "text": "[별지 제2호 서식]\n<table>\n<tr><th colspan=\"3\">○○○○년도 제○차 성과평가위원회 심의의결서</th></tr>\n<tr><td>안건번호</td><td>안건명</td><td>심의결과</td></tr>\n<tr><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td></tr>\n<tr><td colspan=\"3\">위 결의를 명확히 하기 위하여 아래와 같이 서명함.<br>년월일<br><table>\n<tr><th>위원장</th><th></th><th>직 위</th><th></th><th>(서명)</th></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>\n</table></td></tr>\n</table>",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"5\">○○○○년도 제○차 성과평가위원회 서면결의서</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>심의안건</td><td>심의근거</td><td>주요내용</td><td>심의결과</td><td>의견</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"5\">위 안건에 대하여 의결사항을 명확히 하기 위하여 아래와 같이 서명함.<br>년 월 일<br>직 위: 위 원: (서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "※ ‘심의결과’는 원안승인, 조건부승인(의견 기재), 불승인으로 기재",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제2호 서식]",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"3\">○○○○년도 제○차 성과평가위원회 심의의결서</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>안건번호</td><td>안건명</td><td>심의결과</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"3\">위 결의를 명확히 하기 위하여 아래와 같이 서명함.<br>년월일<br><table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th>위원장</th><th></th><th>직 위</th><th></th><th>(서명)</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>위 원</td><td></td><td>직 위</td><td></td><td>(서명)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제3호 서식]",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "이의신청서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th rowspan=\"2\">평가대상<br>(부서)</th><th rowspan=\"2\">성과지표(KPI)<br>(관리코드)</th><th rowspan=\"2\">배 점</th><th colspan=\"4\">평가결과</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">지표관리부서<br>산출 결과</td><td colspan=\"2\">평가대상(부서)<br>산출 결과</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"2\"></td><td rowspan=\"2\"></td><td rowspan=\"2\"></td><td>목 표</td><td>실 적</td><td>목 표</td><td>실 적</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"7\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>이의신청<br>내 역</td><td colspan=\"6\">□ 평가결과 기재<br>○<br>-<br>․</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>이의신청<br>사 유</td><td colspan=\"6\">□ 이의신청 내용기재<br>○<br>-<br>․</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>첨부서류</td><td colspan=\"6\">관련증빙서류 사본 매</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"7\">「성과관리운영규칙」제20조제2항의 규정에 따라 위와 같이 성과평가에 대한 이의를 신청합니다.<br>년 월 일<br>평가대상(부서)(부･처･실명)장 (서명 또는 날인)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
+      "annexTitle": "[별지 제3호 서식]",
+      "title": "[별지 제3호 서식]",
+      "breadcrumb": [
+        "제22조(평가결과의 활용) ① 이사장은 평가결과를 다음 각 호의 사항에 반영할 수 있다.",
+        "※ ‘심의결과’는 원안승인, 조건부승인(의견 기재), 불승인으로 기재"
+      ],
+      "page": 1,
+      "text": "[별지 제3호 서식]\n이의신청서\n<table>\n<tr><th rowspan=\"2\">평가대상<br>(부서)</th><th rowspan=\"2\">성과지표(KPI)<br>(관리코드)</th><th rowspan=\"2\">배 점</th><th colspan=\"4\">평가결과</th></tr>\n<tr><td colspan=\"2\">지표관리부서<br>산출 결과</td><td colspan=\"2\">평가대상(부서)<br>산출 결과</td></tr>\n<tr><td rowspan=\"2\"></td><td rowspan=\"2\"></td><td rowspan=\"2\"></td><td>목 표</td><td>실 적</td><td>목 표</td><td>실 적</td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td colspan=\"7\"></td></tr>\n<tr><td>이의신청<br>내 역</td><td colspan=\"6\">□ 평가결과 기재<br>○<br>-<br>․</td></tr>\n<tr><td>이의신청<br>사 유</td><td colspan=\"6\">□ 이의신청 내용기재<br>○<br>-<br>․</td></tr>\n<tr><td>첨부서류</td><td colspan=\"6\">관련증빙서류 사본 매</td></tr>\n<tr><td colspan=\"7\">「성과관리운영규칙」제20조제2항의 규정에 따라 위와 같이 성과평가에 대한 이의를 신청합니다.<br>년 월 일<br>평가대상(부서)(부･처･실명)장 (서명 또는 날인)</td></tr>\n</table>",
+      "needsOriginal": true
     }
   ]
 }

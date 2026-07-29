@@ -13,7 +13,7 @@
   "sha256": "e20ad807ffe730f45cba5e01ebbd5b7cd742e615b86db94eb7df640d984c66df",
   "articleCount": 27,
   "supplementCount": 2,
-  "needsOriginalCount": 4,
+  "needsOriginalCount": 6,
   "articles": [
     {
       "section": "본칙",
@@ -778,364 +778,34 @@
       "needsOriginal": false
     },
     {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
+      "section": "별표",
+      "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
+      "annexTitle": "(별지 제1호 서식) <삭제 2013. 9. 10.>",
+      "title": "(별지 제1호 서식) <삭제 2013. 9. 10.>",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2009. 2. 6.부터 시행한다.",
+        "○ 이해관계자가 부담하는 국외출장․연수의 경우 과도한 여행경비 전가요인을 차단하기 위하여 항공운임 및 숙박비는 「여비규칙」에서 정한 범위 내로 하여야 함"
+      ],
+      "page": 2,
       "text": "(별지 제1호 서식) <삭제 2013. 9. 10.>",
-      "needsOriginal": false
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
+      "section": "별표",
+      "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제2호 서식) <개정 2013. 9. 10.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "서약서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "소 속:",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "직 급(위):",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "성 명:",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "생년월일:",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "위 본인은 한국장애인고용공단에서 실시하는 국외출장․연수 대상자로서 다음 사항을 성실히 이행할 것을 서약합니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "1. 교육훈련 기간 중 한국장애인고용공단의 직원으로서 품위를 유지하고, 성실하게 교육훈련에 임하여 장애인고용 향상에 이바지 하겠습니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "2. 교육훈련 기간 중 교육훈련규칙 제10조 및 국외출장․연수규칙 제18조의 규정 등 제반규정과 지시사항을 준수하고, 소정의 교육훈련을 성실히 이수하여 소기의 목적을 달성하겠으며, 복귀명령을 받은 때에는 언제든지 이에 따르겠습니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "3. 교육훈련을 받은 후 교육훈련규칙 제22조의 규정에 의한 복무의무를 이행하며, 같은 규칙 제21조의 규정에 의한 소요경비의 반납사유가 발생할 경우 이를 성실히 이행하겠습니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "20 . . .",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "신청인(인)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단이사장귀하",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제3호 서식) <개정 2013. 9. 10., 개정 2017. 1. 19., 개정 2018. 10. 10.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "국외출장․연수 결과 보고서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th>소 속</th><th></th><th>직․성명</th><th></th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>출장․연수국가</td><td></td><td>출장․연수기관</td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>출장․연수일정</td><td></td><td>출장․연수비용</td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">1. 출장․연수개요<br>(연수목적 및 연수국가 일반현황 등을 개조식으로 기술)<br>2. 출장․연수내용<br>(연수받은 내용을 단원별로 구분하여 구체적으로 기술)<br>3. 출장․연수성과<br>(새로운 정보․기술 및 지식 습득내용을 구체적으로 기술)<br>4. 기타의견 및 참고사항<br>5. 첨부자료<br>○ 국외출장·연수계획서<br>○ 출장·연수 증빙자료(항공권 및 열차·버스 승차권, 숙박비 영수증, 활동증빙 사진, 수집한 자료, 명함사본 , 면담자 연락처 및 전자우편주소 등)<br>※ 국외출장연수정보시스템에 게재할 경우 첨부자료를 통한 개인정보 노출 주의<br>위와 같이 국외출장․연수결과를 보고합니다.<br>20 . . .<br>한국장애인고용공단 이사장 귀하</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "※ 계획서와 결과보고서의 총용량을 20MB 이내로 작성",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "(별지 제4호 서식) <개정 2017.1.19., 개정 2018. 10. 10.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "국외출장․연수 결과보고 요약문",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th>1. 제목<br>(국외 출장·연수의 목적 및 성격을 가장 잘 드러낼 수 있는 용어 사용)<br>2. 출장(연수)자<br>(출장자 전원의 소속기관·부서·성명 기재)<br>3. 출장(연수)개요<br>ㅇ 출장(연수)시기 또는 기간 :<br>ㅇ 출장(연수)지 및 방문기관(기관형태, 설립년도, 주요업무, 기능, 면담자의 연락처 및 전자우편주소 등 포함)<br>-<br>-<br>4. 수행사항<br>ㅇ<br>ㅇ<br>ㅇ<br>※ 수행내용은 보고서 전문의 내용 중 핵심사항 위주로 간결하게 작성<br>5. 소요예산<br><table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th>총경비</th><th>항공운임</th><th>체재비</th><th>기 타(교육비·등록비 등)</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table></th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "※ 작성요령",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "- 제목, 내용 모두 한글로 작성(영어는 병기)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "- 내용은 주요내용 위주로 개조식으로 작성",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "- 요약문 작성분량은 A4용지 1매 원칙",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제816호, 2024. 12. 23.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "- 웹페이지 게시용 작성양식이므로 특수문자 등 사용불가",
-      "needsOriginal": false
+      "annexTitle": "(별지 제2호 서식) <개정 2013. 9. 10.>",
+      "title": "(별지 제2호 서식) <개정 2013. 9. 10.>",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2009. 2. 6.부터 시행한다.",
+        "○ 이해관계자가 부담하는 국외출장․연수의 경우 과도한 여행경비 전가요인을 차단하기 위하여 항공운임 및 숙박비는 「여비규칙」에서 정한 범위 내로 하여야 함"
+      ],
+      "page": 2,
+      "text": "(별지 제2호 서식) <개정 2013. 9. 10.>\n서약서\n소 속:\n직 급(위):\n성 명:\n생년월일:\n위 본인은 한국장애인고용공단에서 실시하는 국외출장․연수 대상자로서 다음 사항을 성실히 이행할 것을 서약합니다.\n1. 교육훈련 기간 중 한국장애인고용공단의 직원으로서 품위를 유지하고, 성실하게 교육훈련에 임하여 장애인고용 향상에 이바지 하겠습니다.\n2. 교육훈련 기간 중 교육훈련규칙 제10조 및 국외출장․연수규칙 제18조의 규정 등 제반규정과 지시사항을 준수하고, 소정의 교육훈련을 성실히 이수하여 소기의 목적을 달성하겠으며, 복귀명령을 받은 때에는 언제든지 이에 따르겠습니다.\n3. 교육훈련을 받은 후 교육훈련규칙 제22조의 규정에 의한 복무의무를 이행하며, 같은 규칙 제21조의 규정에 의한 소요경비의 반납사유가 발생할 경우 이를 성실히 이행하겠습니다.\n20 . . .\n신청인(인)\n한국장애인고용공단이사장귀하\n(별지 제3호 서식) <개정 2013. 9. 10., 개정 2017. 1. 19., 개정 2018. 10. 10.>\n국외출장․연수 결과 보고서\n<table>\n<tr><th>소 속</th><th></th><th>직․성명</th><th></th></tr>\n<tr><td>출장․연수국가</td><td></td><td>출장․연수기관</td><td></td></tr>\n<tr><td>출장․연수일정</td><td></td><td>출장․연수비용</td><td></td></tr>\n<tr><td colspan=\"4\">1. 출장․연수개요<br>(연수목적 및 연수국가 일반현황 등을 개조식으로 기술)<br>2. 출장․연수내용<br>(연수받은 내용을 단원별로 구분하여 구체적으로 기술)<br>3. 출장․연수성과<br>(새로운 정보․기술 및 지식 습득내용을 구체적으로 기술)<br>4. 기타의견 및 참고사항<br>5. 첨부자료<br>○ 국외출장·연수계획서<br>○ 출장·연수 증빙자료(항공권 및 열차·버스 승차권, 숙박비 영수증, 활동증빙 사진, 수집한 자료, 명함사본 , 면담자 연락처 및 전자우편주소 등)<br>※ 국외출장연수정보시스템에 게재할 경우 첨부자료를 통한 개인정보 노출 주의<br>위와 같이 국외출장․연수결과를 보고합니다.<br>20 . . .<br>한국장애인고용공단 이사장 귀하</td></tr>\n</table>\n※ 계획서와 결과보고서의 총용량을 20MB 이내로 작성\n(별지 제4호 서식) <개정 2017.1.19., 개정 2018. 10. 10.>\n국외출장․연수 결과보고 요약문\n<table>\n<tr><th>1. 제목<br>(국외 출장·연수의 목적 및 성격을 가장 잘 드러낼 수 있는 용어 사용)<br>2. 출장(연수)자<br>(출장자 전원의 소속기관·부서·성명 기재)<br>3. 출장(연수)개요<br>ㅇ 출장(연수)시기 또는 기간 :<br>ㅇ 출장(연수)지 및 방문기관(기관형태, 설립년도, 주요업무, 기능, 면담자의 연락처 및 전자우편주소 등 포함)<br>-<br>-<br>4. 수행사항<br>ㅇ<br>ㅇ<br>ㅇ<br>※ 수행내용은 보고서 전문의 내용 중 핵심사항 위주로 간결하게 작성<br>5. 소요예산<br><table>\n<tr><th>총경비</th><th>항공운임</th><th>체재비</th><th>기 타(교육비·등록비 등)</th></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n</table></th></tr>\n</table>\n※ 작성요령\n- 제목, 내용 모두 한글로 작성(영어는 병기)\n- 내용은 주요내용 위주로 개조식으로 작성\n- 요약문 작성분량은 A4용지 1매 원칙\n- 웹페이지 게시용 작성양식이므로 특수문자 등 사용불가",
+      "needsOriginal": true
     }
   ]
 }

@@ -13,7 +13,7 @@
   "sha256": "864d20ac77627cbd1230fbc392eec27aa7afbb2346c48f4e5a4e30c462e675df",
   "articleCount": 27,
   "supplementCount": 0,
-  "needsOriginalCount": 2,
+  "needsOriginalCount": 5,
   "articles": [
     {
       "section": "본칙",
@@ -414,254 +414,49 @@
       "needsOriginal": false
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제1호서식]",
-      "needsOriginal": false
+      "annexTitle": "[별지 제1호서식]",
+      "title": "[별지 제1호서식]",
+      "breadcrumb": [
+        "제5장 보 칙",
+        "② 총괄부서는 부패위험이 높은 부서 및 사업의 담당자와 관리자 등을 대상으로 맞춤형 교육을 실시할 수 있다."
+      ],
+      "page": 1,
+      "text": "[별지 제1호서식]\n<table>\n<tr><th>내부통제위원회 서면 심의·의결서</th></tr>\n<tr><td>다음의 안건을 「내부통제 운영규칙」제16조에 따라 심의·의결 하고자 합니다.<br>1. 회의명:<br>2. 회의일시(의결기한):<br>3. 안건별 의결내용<br><table>\n<tr><th rowspan=\"2\">안건명(심의항목)</th><th colspan=\"2\">의결내용</th><th rowspan=\"2\">의결사유 또는 의견</th></tr>\n<tr><td>찬성</td><td>반대</td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n</table><br>부의 안건에 대하여 위와 같이 심의합니다.<br>년월일<br>내부통제위원회 위원 (인 또는 서명)<br>내부통제위원회 위원장 귀하</td></tr>\n</table>\n주) 동의여부는 해당란에 ○표함.",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
+      "annexTitle": "[별지 제2호서식]",
+      "title": "[별지 제2호서식]",
+      "breadcrumb": [
+        "제5장 보 칙",
+        "② 총괄부서는 부패위험이 높은 부서 및 사업의 담당자와 관리자 등을 대상으로 맞춤형 교육을 실시할 수 있다."
+      ],
+      "page": 1,
+      "text": "[별지 제2호서식]\n대리인 선임서\n본 위원은 「내부통제 운영규칙」제16조에 따라 아래 대리인에게 내부통제 위원회 회의에 참석하여 심의·의결견을 행사할 수 있도록 권한을 위임하고자 합니다. - 아 래 - 1. 대리인 인적사항 ○ 성명 : ○ 생년월일 : ○ 소속기관 및 직위 : 2. 대리권의 범위 ○ 내부통제위원회 회의안건 관련 보고, 청취 및 심의·의결 등 권한 일체 년 월 일 내부통제위원회 위원 (인 또는 서명) 내부통제위원회 위원장 귀하",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
+      "section": "별표",
       "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th>내부통제위원회 서면 심의·의결서</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>다음의 안건을 「내부통제 운영규칙」제16조에 따라 심의·의결 하고자 합니다.<br>1. 회의명:<br>2. 회의일시(의결기한):<br>3. 안건별 의결내용<br><table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th rowspan=\"2\">안건명(심의항목)</th><th colspan=\"2\">의결내용</th><th rowspan=\"2\">의결사유 또는 의견</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>찬성</td><td>반대</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td></td><td></td><td></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table><br>부의 안건에 대하여 위와 같이 심의합니다.<br>년월일<br>내부통제위원회 위원 (인 또는 서명)<br>내부통제위원회 위원장 귀하</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "주) 동의여부는 해당란에 ○표함.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제2호서식]",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "대리인 선임서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "본 위원은 「내부통제 운영규칙」제16조에 따라 아래 대리인에게 내부통제 위원회 회의에 참석하여 심의·의결견을 행사할 수 있도록 권한을 위임하고자 합니다. - 아 래 - 1. 대리인 인적사항 ○ 성명 : ○ 생년월일 : ○ 소속기관 및 직위 : 2. 대리권의 범위 ○ 내부통제위원회 회의안건 관련 보고, 청취 및 심의·의결 등 권한 일체 년 월 일 내부통제위원회 위원 (인 또는 서명) 내부통제위원회 위원장 귀하",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제3호서식]",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"2\">제 척</th><th rowspan=\"2\"></th><th rowspan=\"3\">신청서</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">기 피</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">회 피</td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>①신청인</td><td colspan=\"3\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>②심의안건</td><td colspan=\"3\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>③신청취지</td><td colspan=\"3\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>④신청이유</td><td colspan=\"3\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"4\">위와 같이 신청합니다.<br>년 월 일<br>신청인 (인 또는 서명)<br>내부통제위원회 위원장 귀하</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
+      "annexTitle": "[별지 제3호서식]",
+      "title": "[별지 제3호서식]",
+      "breadcrumb": [
+        "제5장 보 칙",
+        "② 총괄부서는 부패위험이 높은 부서 및 사업의 담당자와 관리자 등을 대상으로 맞춤형 교육을 실시할 수 있다."
+      ],
+      "page": 1,
+      "text": "[별지 제3호서식]\n<table>\n<tr><th colspan=\"2\">제 척</th><th rowspan=\"2\"></th><th rowspan=\"3\">신청서</th></tr>\n<tr><td colspan=\"2\">기 피</td></tr>\n<tr><td colspan=\"2\">회 피</td><td></td></tr>\n<tr><td>①신청인</td><td colspan=\"3\"></td></tr>\n<tr><td>②심의안건</td><td colspan=\"3\"></td></tr>\n<tr><td>③신청취지</td><td colspan=\"3\"></td></tr>\n<tr><td>④신청이유</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"4\">위와 같이 신청합니다.<br>년 월 일<br>신청인 (인 또는 서명)<br>내부통제위원회 위원장 귀하</td></tr>\n</table>",
+      "needsOriginal": true
     }
   ]
 }

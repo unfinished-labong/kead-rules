@@ -13,7 +13,7 @@
   "sha256": "cdb0a35b285c5cfbc4542a05002f255cd9a80a46b1cb6c3f245887a992dc4264",
   "articleCount": 76,
   "supplementCount": 0,
-  "needsOriginalCount": 4,
+  "needsOriginalCount": 8,
   "articles": [
     {
       "section": "본칙",
@@ -1675,604 +1675,64 @@
       "needsOriginal": false
     },
     {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
+      "section": "별표",
+      "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제2호 서식]",
-      "needsOriginal": false
+      "annexTitle": "[별지 제2호 서식]",
+      "title": "[별지 제2호 서식]",
+      "breadcrumb": [
+        "제5장 보칙 <신설 2012. 8. 3.>",
+        "③ 원장은 연구과제 수행을 위하여 시범사업을 실시하는 경우 그 사업의 내용을 고려하여 사업 참여자에게 「장애인취업지원 업무처리규칙」등 공단의 관련 내규를 준용하여 보상금 등을 지급할 수 있다."
+      ],
+      "page": 1,
+      "text": "[별지 제2호 서식]\n제 - 호\n수 료 증\n연수과정명 :\n연 수 기 간 : ( 시간)\n성 명 :\n생 년 월 일 :\n위 사람은 한국장애인고용공단 고용개발원에서\n실시한 상기 연수과정을 이수하였기에 이 증서를\n수여합니다.\n년 월 일\n한국장애인고용공단 고용개발원장 직인",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
+      "section": "별표",
+      "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "제 - 호",
-      "needsOriginal": false
+      "annexTitle": "[별지 제3호 서식] <개정 2016.6.23., 2019.10.31.>",
+      "title": "[별지 제3호 서식] <개정 2016.6.23., 2019.10.31.>",
+      "breadcrumb": [
+        "제5장 보칙 <신설 2012. 8. 3.>",
+        "③ 원장은 연구과제 수행을 위하여 시범사업을 실시하는 경우 그 사업의 내용을 고려하여 사업 참여자에게 「장애인취업지원 업무처리규칙」등 공단의 관련 내규를 준용하여 보상금 등을 지급할 수 있다."
+      ],
+      "page": 1,
+      "text": "[별지 제3호 서식] <개정 2016.6.23., 2019.10.31.>\n수 료 확 인 서\n<table>\n<tr><th rowspan=\"2\">인적<br>사항</th><th>성명</th><th></th><th>생년월일(성별)</th><th colspan=\"2\">(남, 여)</th></tr>\n<tr><td>주소</td><td colspan=\"4\"></td></tr>\n<tr><td rowspan=\"3\">수료<br>사항</td><td colspan=\"2\">과정명</td><td colspan=\"2\">연수기간</td><td>이수시간</td></tr>\n<tr><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td>용도</td><td colspan=\"2\"></td><td colspan=\"2\">통수:</td><td></td></tr>\n</table>\n위와 같이 수료 확인서를  교부받고자 신청하오니 발급하여 주시기 바랍니다.\n년    월    일\n신 청 인               (인)\n※ 동 신청은 담당직원 이메일을 통한 인터넷 신청이 가능합니다.\n------------------------------------------------\n위 사실과 상이 없음을 확인함.\n년    월    일\n한국장애인고용공단 고용개발원장",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
+      "section": "별표",
+      "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "수 료 증",
-      "needsOriginal": false
+      "annexTitle": "[별지 제4호 서식] <개정 2012.3.23.>",
+      "title": "[별지 제4호 서식] <개정 2012.3.23.>",
+      "breadcrumb": [
+        "제5장 보칙 <신설 2012. 8. 3.>",
+        "※ 동 신청은 담당직원 이메일을 통한 인터넷 신청이 가능합니다."
+      ],
+      "page": 1,
+      "text": "[별지 제4호 서식] <개정 2012.3.23.>\n자료반납 요청서\n| 순서 | 등록번호 | 자료명 | 대출일시 | 반납일시 |\n| --- | --- | --- | --- | --- |\n| 1 |  |  |  |  |\n| 2 |  |  |  |  |\n| 3 |  |  |  |  |\n| 4 |  |  |  |  |\n| 5 |  |  |  |  |\n| 6 |  |  |  |  |\n| 7 |  |  |  |  |\n| 8 |  |  |  |  |\n| 9 |  |  |  |  |\n| 10 |  |  |  |  |\n( )께서 대출받은 상기자료의 반납기한이 ( )일 경과하였으니 년 월 일까지 반납해주시기 바랍니다.\n년월일\n한국장애인고용공단 고용개발원장",
+      "needsOriginal": true
     },
     {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
+      "section": "별표",
+      "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "연수과정명 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "연 수 기 간 : ( 시간)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "성 명 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "생 년 월 일 :",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "위 사람은 한국장애인고용공단 고용개발원에서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "실시한 상기 연수과정을 이수하였기에 이 증서를",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "수여합니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "년 월 일",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단 고용개발원장 직인",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제3호 서식] <개정 2016.6.23., 2019.10.31.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "수 료 확 인 서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th rowspan=\"2\">인적<br>사항</th><th>성명</th><th></th><th>생년월일(성별)</th><th colspan=\"2\">(남, 여)</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>주소</td><td colspan=\"4\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"3\">수료<br>사항</td><td colspan=\"2\">과정명</td><td colspan=\"2\">연수기간</td><td>이수시간</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>용도</td><td colspan=\"2\"></td><td colspan=\"2\">통수:</td><td></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "위와 같이 수료 확인서를  교부받고자 신청하오니 발급하여 주시기 바랍니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "년    월    일",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "신 청 인               (인)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "※ 동 신청은 담당직원 이메일을 통한 인터넷 신청이 가능합니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "------------------------------------------------",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "위 사실과 상이 없음을 확인함.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "년    월    일",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단 고용개발원장",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제4호 서식] <개정 2012.3.23.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "자료반납 요청서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 순서 | 등록번호 | 자료명 | 대출일시 | 반납일시 |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| --- | --- | --- | --- | --- |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 1 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 2 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 3 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 4 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 5 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 6 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 7 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 8 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 9 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "| 10 |  |  |  |  |",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "( )께서 대출받은 상기자료의 반납기한이 ( )일 경과하였으니 년 월 일까지 반납해주시기 바랍니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "년월일",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "한국장애인고용공단 고용개발원장",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별지 제5호 서식] <개정 2016.6.23.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "위탁과제 결과 활용신청서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th>이 름</th><th></th><th>소속<br>및 직위</th><th colspan=\"3\"></th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>연락처</td><td colspan=\"2\">전화:<br>휴대폰:</td><td colspan=\"3\">E-mail: @</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>활용대상<br>위탁과제</td><td colspan=\"3\"></td><td>수행<br>연도</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>활용방법</td><td colspan=\"5\">□ 언론보도 □ 학술지 논문투고<br>□ 학술대회 발표 □ 기타( )</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>활용내용<br>(연구제목)</td><td colspan=\"5\"></td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"6\">귀 원에서 수주하여 본인이 수행한 위탁과제 결과를 위와 같이 활용하고자 하오니 승인하여 주시기 바랍니다. 아울러 상기 명시한 목적 이외에는 위탁과제 결과를 사용하지 않을 것임을 서약합니다.<br>20년월일<br>신청인(인)<br>한국장애인고용공단 고용개발원장 귀하</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "\\*본 신청서를 작성하여 서명한 후 팩스(050-3470-0901)로 보내주시기 바랍니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "\\*\\*자료를 활용하여 그 결과가 발표된 경우에는 wona@kead.or.kr로 알려주시기 바랍니다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "규칙 제803호",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "※ 동 신청은 담당직원 이메일을 통한 인터넷 신청이 가능합니다.",
-      "needsOriginal": false
+      "annexTitle": "[별지 제5호 서식] <개정 2016.6.23.>",
+      "title": "[별지 제5호 서식] <개정 2016.6.23.>",
+      "breadcrumb": [
+        "제5장 보칙 <신설 2012. 8. 3.>",
+        "※ 동 신청은 담당직원 이메일을 통한 인터넷 신청이 가능합니다."
+      ],
+      "page": 1,
+      "text": "[별지 제5호 서식] <개정 2016.6.23.>\n위탁과제 결과 활용신청서\n<table>\n<tr><th>이 름</th><th></th><th>소속<br>및 직위</th><th colspan=\"3\"></th></tr>\n<tr><td>연락처</td><td colspan=\"2\">전화:<br>휴대폰:</td><td colspan=\"3\">E-mail: @</td></tr>\n<tr><td>활용대상<br>위탁과제</td><td colspan=\"3\"></td><td>수행<br>연도</td></tr>\n<tr><td>활용방법</td><td colspan=\"5\">□ 언론보도 □ 학술지 논문투고<br>□ 학술대회 발표 □ 기타( )</td></tr>\n<tr><td>활용내용<br>(연구제목)</td><td colspan=\"5\"></td></tr>\n<tr><td colspan=\"6\">귀 원에서 수주하여 본인이 수행한 위탁과제 결과를 위와 같이 활용하고자 하오니 승인하여 주시기 바랍니다. 아울러 상기 명시한 목적 이외에는 위탁과제 결과를 사용하지 않을 것임을 서약합니다.<br>20년월일<br>신청인(인)<br>한국장애인고용공단 고용개발원장 귀하</td></tr>\n</table>\n\\*본 신청서를 작성하여 서명한 후 팩스(050-3470-0901)로 보내주시기 바랍니다.\n\\*\\*자료를 활용하여 그 결과가 발표된 경우에는 wona@kead.or.kr로 알려주시기 바랍니다.\n※ 동 신청은 담당직원 이메일을 통한 인터넷 신청이 가능합니다.",
+      "needsOriginal": true
     }
   ]
 }
