@@ -19,7 +19,8 @@ const WANTED = new Set(['현행', '시행예정']);
 // 값이 다르면 캐시를 통째로 버리고 다시 변환하므로, 사람이 파일을 지울 필요가 없다.
 // 2: 본칙·부칙 분리
 // 3: 조문 제목 괄호 종류 무관 인식, 조사 제외 방식으로 전환
-const CONVERTER_VERSION = 3;
+// 4: 볼드(**) 등 마크다운 표시 제거 후 판정
+const CONVERTER_VERSION = 4;
 
 // ── 형식 판별: 확장자가 아니라 실제 바이트로 본다 ──
 export function sniffFormat(buf) {
@@ -98,7 +99,13 @@ export function toArticles(chunks) {
   // 부칙 헤딩이 앞 조문과 같은 청크에 붙어 오는 경우가 있어 줄 단위로 훑는다.
   for (const c of chunks) {
     for (const lineRaw of String(c.text ?? '').split('\n')) {
-      const line = lineRaw.replace(/^#+\s*/, '').trim();
+      // 헤딩(###), 볼드(**), 인용(>) 표시를 걷어낸 뒤 판정한다.
+      // 같은 문서 안에서도 조문마다 표시가 다르게 나오는 경우가 많다.
+      const line = lineRaw
+        .replace(/^\s*[#>]+\s*/, '')
+        .replace(/^\s*(?:\*\*|__|\*|_)+\s*/, '')
+        .replace(/\*\*/g, '')
+        .trim();
       if (!line) continue;
 
       const sup = line.match(/^부\s*칙\s*(?:[(<[]([^)\]>]*)[)\]>])?\s*$/);
@@ -235,13 +242,15 @@ async function main() {
 
       // 자가 진단: 원문에 '제N조'가 많은데 인식된 조문이 적으면 표본을 남긴다
       const rawLines = chunks.flatMap((c) => String(c.text ?? '').split('\n'));
-      const mentions = rawLines.filter((l) => /제\s*\d+\s*조/.test(l)).length;
+      // 목차 표(<tr>, | ... |)는 조문이 아니므로 진단 분모에서 뺀다
+      const bodyLines = rawLines.filter((l) => !/^\s*(<tr|\||<\/)/.test(l));
+      const mentions = bodyLines.filter((l) => /제\s*\d+\s*조/.test(l)).length;
       if (mentions >= 10 && articles.filter((x) => x.articleNo).length < mentions * 0.2) {
         lowYield.push({
           doc: item.docName,
           mentions,
           recognized: articles.filter((x) => x.articleNo).length,
-          samples: rawLines.filter((l) => /제\s*\d+\s*조/.test(l)).slice(0, 5).map((l) => l.slice(0, 90)),
+          samples: bodyLines.filter((l) => /제\s*\d+\s*조/.test(l)).slice(0, 5).map((l) => l.slice(0, 90)),
         });
       }
 
