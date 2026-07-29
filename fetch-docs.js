@@ -20,7 +20,8 @@ const WANTED = new Set(['현행', '시행예정']);
 // 2: 본칙·부칙 분리
 // 3: 조문 제목 괄호 종류 무관 인식, 조사 제외 방식으로 전환
 // 4: 볼드(**) 등 마크다운 표시 제거 후 판정
-const CONVERTER_VERSION = 4;
+// 5: 별표·별지를 별도 구간으로 분리, 조문 길이 상한
+const CONVERTER_VERSION = 5;
 
 // ── 형식 판별: 확장자가 아니라 실제 바이트로 본다 ──
 export function sniffFormat(buf) {
@@ -78,6 +79,16 @@ const ART = /^제\s*(\d+)\s*조(?:의\s*(\d+))?(.*)$/;
 const TITLE = /^[(（【「[［<]\s*([^)）】」\]］>]*)/;
 const JOSA = /^[가-힣]/;   // 조사로 이어지면 조문 시작이 아니다
 
+// 별표·별지·서식 시작 줄. 문서 끝에 몰려 있어 그냥 두면 직전 조문에 통째로 붙는다.
+// "별표 1과 같다" 같은 본문 문장과 구분하려고 짧은 제목 줄만 인정한다.
+const ANNEX = /^[[<(（]?\s*(별표|별지|서식)\s*\d*/;
+export function isAnnexHeading(line) {
+  return line.length <= 40 && ANNEX.test(line) && !/[다함음임됨]\.?$/.test(line);
+}
+
+// 한 조문이 지나치게 길면 변환이 어긋난 것이다. 잘라내고 표시해 둔다.
+const MAX_LEN = 12000;
+
 export function matchArticle(line) {
   const m = line.match(ART);
   if (!m) return null;
@@ -93,7 +104,17 @@ export function toArticles(chunks) {
   let section = '본칙';
   let supplement = null;
 
-  const push = () => { if (cur) arts.push(cur); cur = null; };
+  const push = () => {
+    if (cur) {
+      if (cur.text.length > MAX_LEN) {
+        cur.text = cur.text.slice(0, MAX_LEN);
+        cur.truncated = true;
+        cur.needsOriginal = true;
+      }
+      arts.push(cur);
+    }
+    cur = null;
+  };
   const mark = (t) => /<img|\[중첩 테이블|별표|별지/.test(t);
 
   // 부칙 헤딩이 앞 조문과 같은 청크에 붙어 오는 경우가 있어 줄 단위로 훑는다.
@@ -108,6 +129,20 @@ export function toArticles(chunks) {
         .trim();
       if (!line) continue;
 
+      if (isAnnexHeading(line)) {
+        push();
+        section = '별표';
+        supplement = null;
+        // 별표 하나가 통째로 의미 단위다. 이어지는 줄을 여기에 모은다.
+        cur = {
+          section, supplement, articleNo: null, articleId: null,
+          annexTitle: line,
+          title: line, breadcrumb: c.breadcrumb ?? [], page: c.page ?? null,
+          text: line, needsOriginal: true,
+        };
+        continue;
+      }
+
       const sup = line.match(/^부\s*칙\s*(?:[(<[]([^)\]>]*)[)\]>])?\s*$/);
       if (sup) {
         push();
@@ -116,7 +151,7 @@ export function toArticles(chunks) {
         continue;
       }
 
-      const a = matchArticle(line);
+      const a = section === '별표' ? null : matchArticle(line);
       if (a) {
         push();
         const no = a.sub ? `${a.no}의${a.sub}` : a.no;          // 중복 판정용
