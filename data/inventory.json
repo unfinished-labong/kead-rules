@@ -19,6 +19,7 @@
     "effectiveDate": "2026-07-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행규칙(고용노동부령 제474호, 시행: 2026.7.1.)",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "현행"
   },
   {
@@ -41,6 +42,7 @@
     "effectiveDate": "2026-05-12",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행규칙(고용노동부령 제466호, 시행: 2026.5.12.)",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -63,6 +65,7 @@
     "effectiveDate": "2026-05-12",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(대통령령 제36286호, 시행: 2026.5.12.)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "현행"
   },
   {
@@ -85,6 +88,7 @@
     "effectiveDate": "2027-01-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(대통령령 제36118호, 시행: 2027.1.1.)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "시행예정"
   },
   {
@@ -102,6 +106,7 @@
     "effectiveDate": "2025-11-07",
     "dateKind": "개정",
     "raw": "장애인 고용의무 불이행 명단공표제도 운영규정(고용노동부훈령 제566호, `25.11.7.개정)",
+    "docKey": "장애인고용의무불이행명단공표제도운영규정",
     "status": "현행"
   },
   {
@@ -119,6 +124,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 고용부담금의 부담기초액(2026년)",
+    "docKey": "장애인고용부담기초액",
     "status": "현행"
   },
   {
@@ -141,6 +147,7 @@
     "effectiveDate": "2025-12-30",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행규칙(고용노동부령 제458호, 시행: 2025.12.30.)",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -163,6 +170,7 @@
     "effectiveDate": "2026-01-02",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(대통령령 제35990호, 시행: 2026.1.2.)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -185,6 +193,7 @@
     "effectiveDate": "2025-11-11",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 (법률 제21138호, 시행: 2025.11.11.)",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "현행"
   },
   {
@@ -207,6 +216,7 @@
     "effectiveDate": "2025-10-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행규칙(고용노동부령 제453호, 시행: 2025.10.1.)",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -224,6 +234,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용장려금 지급기준(고용노동부 고시 제2025-32호)",
+    "docKey": "장애인고용장려금지급기준",
     "status": "현행"
   },
   {
@@ -246,6 +257,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "[법령] 장애물 없는 생활환경(BF) 인증제도 관련 법령집, 건축물 인증지표",
+    "docKey": "법령장애물없는생활환경인증제도관련법령집건축물인증지표",
     "status": "현행"
   },
   {
@@ -268,6 +280,7 @@
     "effectiveDate": "2025-01-31",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(대통령령 제35228호, 시행: 2025.1.31.)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -285,7 +298,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 고용부담금의 부담기초액(2025년)",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -302,6 +316,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "연계고용에 따른 부담금 감면기준(고용노동부 고시 제2024-100호)",
+    "docKey": "연계고용부담금감면기준",
     "status": "현행"
   },
   {
@@ -324,6 +339,7 @@
     "effectiveDate": "2024-06-12",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행규칙(고용노동부령 제416호, 시행: 2024.6.12.)",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -346,6 +362,7 @@
     "effectiveDate": "2024-05-28",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(대통령령 제34533호, 시행: 2024.5.28.)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -363,7 +380,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "연계고용에 따른 부담금 감면기준(고용노동부 고시 제2024-23호)",
-    "status": "현행"
+    "docKey": "연계고용부담금감면기준",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -390,6 +408,7 @@
     "effectiveDate": "2024-01-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행규칙(고용노동부령 제403호, 시행:2024.1.1.)",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -407,7 +426,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 고용부담금의 부담기초액(2024년)",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -424,7 +444,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "연계고용에 따른 부담금 감면기준",
-    "status": "현행"
+    "docKey": "연계고용부담금감면기준",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -451,6 +472,7 @@
     "effectiveDate": "2024-01-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(대통령령 제33759호, 시행: 2024.1.1.)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -468,6 +490,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "직장 내 장애인 인식개선 교육 규정",
+    "docKey": "직장내장애인인식개선교육규정",
     "status": "현행"
   },
   {
@@ -485,6 +508,7 @@
     "effectiveDate": "2023-01-01",
     "dateKind": "시행",
     "raw": "장애인 직업능력개발훈련 지원규정(고용노동부고시 제2023-2호, 시행일 2023. 1. 1)",
+    "docKey": "장애인직업능력개발훈련지원규정",
     "status": "현행"
   },
   {
@@ -502,6 +526,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "사업주 및 장애인 등에 대한 융자·지원규정",
+    "docKey": "사업주장애인등에대한융자지원규정",
     "status": "현행"
   },
   {
@@ -519,6 +544,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 표준사업장에 대한 지원규정",
+    "docKey": "장애인표준사업장에대한지원규정",
     "status": "현행"
   },
   {
@@ -536,6 +562,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "공공기관의 장애인 표준사업장 생산품의 구매목표 비율",
+    "docKey": "공공기관의장애인표준사업장생산품의구매목표비율",
     "status": "현행"
   },
   {
@@ -553,7 +580,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2023년 부담기초액 고시",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -570,7 +598,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용장려금 지급기준",
-    "status": "현행"
+    "docKey": "장애인고용장려금지급기준",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -597,6 +626,7 @@
     "effectiveDate": "2022-07-12",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행규칙(고용노동부령 제360호, 시행: 2022.7.12)",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -624,6 +654,7 @@
     "effectiveDate": "2022-07-12",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(대통령령 제32795호, 시행: 2022.7.12)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -646,7 +677,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "사업주 및 장애인 등에 대한 융자지원규정(고시)",
-    "status": "현행"
+    "docKey": "사업주장애인등에대한융자지원규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -668,7 +700,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "[법령] 장애물 없는 생활환경 인증제도 관련 법령집, 건축물 인증지표",
-    "status": "현행"
+    "docKey": "법령장애물없는생활환경인증제도관련법령집건축물인증지표",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -695,7 +728,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법 시행규칙",
-    "status": "현행"
+    "docKey": "장애인고용촉진직업재활법시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -722,7 +756,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법 시행령",
-    "status": "현행"
+    "docKey": "장애인고용촉진직업재활법시행령",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -739,6 +774,7 @@
     "effectiveDate": "2021-12-28",
     "dateKind": null,
     "raw": "명단공표제도 운영규정 개정 안내(고용노동부훈령 제2021-389호 21.12.28.)",
+    "docKey": "명단공표제도운영규정개정안내",
     "status": "현행"
   },
   {
@@ -761,6 +797,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -778,7 +815,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2022년 장애인고용 부담기초액",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -800,6 +838,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -822,6 +861,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 기능경기 대회 등 운영에 관한 규정(고용노동부고시 제2021-18호)",
+    "docKey": "장애인기능경기대회등운영에관한규정",
     "status": "현행"
   },
   {
@@ -839,6 +879,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 직업능력개발훈련 지원규정",
+    "docKey": "장애인직업능력개발훈련지원규정",
     "status": "연혁"
   },
   {
@@ -856,7 +897,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2021년 장애인고용 부담기초액",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -883,6 +925,7 @@
     "effectiveDate": "2020-12-10",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행규칙(고용노동부령 제300호, 시행: 2020.12.10)",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -905,6 +948,7 @@
     "effectiveDate": "2020-12-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(시행: 2020.12.1., 대통령령 제31210호)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -922,6 +966,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "고령자고용환경개선자금 융자 규정",
+    "docKey": "고령자고용환경개선자금융자규정",
     "status": "현행"
   },
   {
@@ -944,6 +989,7 @@
     "effectiveDate": "2020-12-10",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법(시행예정: 2020.12.10., 법률 제17435호)",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -966,6 +1012,7 @@
     "effectiveDate": "2020-05-26",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법(시행: 2020.5.26. 법률 제17326호)",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -993,6 +1040,7 @@
     "effectiveDate": "2020-06-02",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(시행: 2020.6.2., 대통령령 제30750호)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -1010,7 +1058,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "연계고용 부담금 감면기준 고시(고용노동부 고시 제2019-69호)",
-    "status": "현행"
+    "docKey": "연계고용부담금감면기준",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1027,7 +1076,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2020년 장애인 고용 부담기초액 고시(제2019-68호)",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1044,6 +1094,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "공공기관의 장애인 표준사업장 생산품 구매비율 고시",
+    "docKey": "공공기관의장애인표준사업장생산품구매비율",
     "status": "현행"
   },
   {
@@ -1061,6 +1112,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 표준사업장에 대한 지원규정",
+    "docKey": "장애인표준사업장에대한지원규정",
     "status": "연혁"
   },
   {
@@ -1083,6 +1135,7 @@
     "effectiveDate": null,
     "dateKind": "개정",
     "raw": "장애물 없는 생활환경(BF) 인증(개정)",
+    "docKey": "장애물없는생활환경인증",
     "status": "현행"
   },
   {
@@ -1100,7 +1153,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "사업주 및 장애인 등에 대한 융자지원규정",
-    "status": "현행"
+    "docKey": "사업주장애인등에대한융자지원규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1117,6 +1171,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 표준사업장에 대한 지원규정",
+    "docKey": "장애인표준사업장에대한지원규정",
     "status": "연혁"
   },
   {
@@ -1128,7 +1183,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "고령자 고용환경개선자금 융자규정(고용노동부고시 제2017-4호)",
-    "status": "현행"
+    "docKey": "고령자고용환경개선자금융자규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1145,6 +1201,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 직업능력개발훈련 지원규정",
+    "docKey": "장애인직업능력개발훈련지원규정",
     "status": "연혁"
   },
   {
@@ -1162,6 +1219,7 @@
     "effectiveDate": "2019-01-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행규칙(시행: 2019.1.1, 고용노동부령 제238호)",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -1179,6 +1237,7 @@
     "effectiveDate": "2019-01-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(시행: 2019.1.1, 대통령령 제29456호)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -1196,7 +1255,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2019년 장애인 고용 부담기초액 고시(제2018-92호)",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1218,6 +1278,7 @@
     "effectiveDate": "2018-10-16",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법(시행:2018.10.16)",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -1235,6 +1296,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "연계고용에 따른 부담금 감면기준",
+    "docKey": "연계고용부담금감면기준",
     "status": "연혁"
   },
   {
@@ -1257,6 +1319,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -1279,6 +1342,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 시행령",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -1301,6 +1365,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 시행규칙",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -1328,6 +1393,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애물 없는 생활환경(BF) 인증제도 관련 법령집",
+    "docKey": "장애물없는생활환경인증제도관련법령집",
     "status": "현행"
   },
   {
@@ -1345,7 +1411,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 직업능력개발훈련 지원규정(제2018-27호)",
-    "status": "현행"
+    "docKey": "장애인직업능력개발훈련지원규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1367,6 +1434,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용장려금 지급기준",
+    "docKey": "장애인고용장려금지급기준",
     "status": "연혁"
   },
   {
@@ -1384,6 +1452,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "사업주 및 장애인 등에 대한 융자지원규정",
+    "docKey": "사업주장애인등에대한융자지원규정",
     "status": "연혁"
   },
   {
@@ -1401,7 +1470,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2018년 장애인 고용 부담기초액 고시(제2017-76호)",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1428,6 +1498,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행규칙",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -1450,6 +1521,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행령",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -1467,7 +1539,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 기능경기 대회 등 운영에 관한 규정(고용노동부고시 제2017-59호)",
-    "status": "현행"
+    "docKey": "장애인기능경기대회등운영에관한규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1494,7 +1567,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행규",
-    "status": "현행"
+    "docKey": "장애인고용촉진직업재활법시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1516,6 +1590,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행령",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -1538,6 +1613,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -1560,6 +1636,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행령",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -1577,7 +1654,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2017년 장애인 고용 부담기초액(고시 제2016-64호)",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1594,6 +1672,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -1611,6 +1690,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 시행령",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -1628,6 +1708,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행규칙",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -1645,6 +1726,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "건설업에서 근로자 수 확인이 곤란한 장애인 고용의무 사업주의 공사실적액",
+    "docKey": "건설업에서근로자수확인이곤란한장애인고용의무사업주의공사실적액",
     "status": "현행"
   },
   {
@@ -1667,7 +1749,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 일부개정",
-    "status": "현행"
+    "docKey": "장애인고용촉진직업재활법",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1689,6 +1772,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "사업주 및 장애인 등에 대한 융자·지원규정",
+    "docKey": "사업주장애인등에대한융자지원규정",
     "status": "연혁"
   },
   {
@@ -1711,6 +1795,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 표준사업장에 대한 지원규정",
+    "docKey": "장애인표준사업장에대한지원규정",
     "status": "연혁"
   },
   {
@@ -1733,6 +1818,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 시행규칙",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -1750,6 +1836,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "연계고용 부담금 감면기준",
+    "docKey": "연계고용부담금감면기준",
     "status": "연혁"
   },
   {
@@ -1767,7 +1854,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 고용장려금 지급기준",
-    "status": "현행"
+    "docKey": "장애인고용장려금지급기준",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1784,7 +1872,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 고용 부담기초액 고시",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1806,6 +1895,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 취업지원 업무처리 규정",
+    "docKey": "장애인취업지원업무처리규정",
     "status": "현행"
   },
   {
@@ -1828,6 +1918,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 취업지원 업무처리 규정",
+    "docKey": "장애인취업지원업무처리규정",
     "status": "연혁"
   },
   {
@@ -1845,6 +1936,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 [시행 2015.5.18.]",
+    "docKey": "장애인고용촉진직업재활법시행518",
     "status": "현행"
   },
   {
@@ -1872,6 +1964,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 표준사업장에 대한 지원규정",
+    "docKey": "장애인표준사업장에대한지원규정",
     "status": "연혁"
   },
   {
@@ -1899,6 +1992,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "사업주 및 장애인 등에 대한 융자·지원규정",
+    "docKey": "사업주장애인등에대한융자지원규정",
     "status": "연혁"
   },
   {
@@ -1916,7 +2010,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "공공기관의 장애인 표준사업장 생산품의 구매목표 비율 고시",
-    "status": "현행"
+    "docKey": "공공기관의장애인표준사업장생산품의구매목표비율",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1938,7 +2033,8 @@
     "effectiveDate": "2015-01-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진및직업재활법시행규칙(2015.1.1. 시행)",
-    "status": "현행"
+    "docKey": "장애인고용촉진직업재활법시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1965,7 +2061,8 @@
     "effectiveDate": "2015-01-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진및직업재활법시행령(시행 2015.1.1.)",
-    "status": "현행"
+    "docKey": "장애인고용촉진직업재활법시행령",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -1982,7 +2079,8 @@
     "effectiveDate": "2015-01-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진및직업재활법(시행 2015.1.1.)",
-    "status": "현행"
+    "docKey": "장애인고용촉진직업재활법",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2004,7 +2102,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "15년 장애인 고용 부담기초액",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2021,6 +2120,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "연계고용에 따른 부담금 감면기준 및 신청서식(고용노동부 고시 제2014-51호)",
+    "docKey": "연계고용에따른부담금감면기준신청서식",
     "status": "현행"
   },
   {
@@ -2038,6 +2138,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -2060,6 +2161,7 @@
     "effectiveDate": "2015-01-01",
     "dateKind": "시행",
     "raw": "장애인고용촉진 및 직업재활법 시행령(시행일: 2015.1.1)",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -2077,6 +2179,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행령",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -2099,7 +2202,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "고령자 고용환경개선자금 융자규정(고용노동부고시 제2014-9호)",
-    "status": "현행"
+    "docKey": "고령자고용환경개선자금융자규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2121,7 +2225,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "사업주 및 장애인등에 대한 융자지원 규정(고용노동부고시 제2014-8호)",
-    "status": "현행"
+    "docKey": "사업주장애인등에대한융자지원규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2138,6 +2243,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 취업지원 업무처리 규정",
+    "docKey": "장애인취업지원업무처리규정",
     "status": "연혁"
   },
   {
@@ -2155,6 +2261,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2014년 고용부담금 부담기초액 고시(고용노동부 고시 제2013-55호)",
+    "docKey": "고용부담금부담기초액",
     "status": "현행"
   },
   {
@@ -2172,7 +2279,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "연계고용에 따른 부담금 감면기준 및 신청서식(고용노동부 고시 제2013-48호)",
-    "status": "현행"
+    "docKey": "연계고용에따른부담금감면기준신청서식",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2189,6 +2297,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -2206,6 +2315,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행령",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -2223,6 +2333,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행규칙",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -2240,6 +2351,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용장려금 지급기준",
+    "docKey": "장애인고용장려금지급기준",
     "status": "연혁"
   },
   {
@@ -2257,7 +2369,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "고령자 고용환경개선자금 융자 규정(고용노동부고시 제2010-48호)",
-    "status": "현행"
+    "docKey": "고령자고용환경개선자금융자규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2279,6 +2392,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 표준사업장 지원규정(고용노동부고시 제2012-35호)",
+    "docKey": "장애인표준사업장지원규정",
     "status": "현행"
   },
   {
@@ -2301,7 +2415,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "사업주 및 장애인 등에 대한 융자 지원규정 일부개정",
-    "status": "현행"
+    "docKey": "사업주장애인등에대한융자지원규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2323,6 +2438,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 직업능력개발훈련 지원규정",
+    "docKey": "장애인직업능력개발훈련지원규정",
     "status": "연혁"
   },
   {
@@ -2340,6 +2456,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 취업지원 업무처리 규정",
+    "docKey": "장애인취업지원업무처리규정",
     "status": "연혁"
   },
   {
@@ -2357,6 +2474,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법 2012.7.26 시행 법률제11240호 2012.1.26 타법개정",
+    "docKey": "장애인고용촉진직업재활법726시행법률126타법개정",
     "status": "현행"
   },
   {
@@ -2379,6 +2497,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행령",
+    "docKey": "장애인고용촉진직업재활법시행령",
     "status": "연혁"
   },
   {
@@ -2406,6 +2525,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진및직업재활법시행규칙",
+    "docKey": "장애인고용촉진직업재활법시행규칙",
     "status": "연혁"
   },
   {
@@ -2423,7 +2543,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2013년 장애인 고용 부담기초액",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2440,6 +2561,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2013년 건설업 장애인고용의무 공사실적액 고시",
+    "docKey": "건설업장애인고용의무공사실적액",
     "status": "현행"
   },
   {
@@ -2457,7 +2579,8 @@
     "effectiveDate": "2011-12-30",
     "dateKind": null,
     "raw": "연계고용 부담금 감면기준(고용노동부 고시 제2011-74호, 2011.12.30)",
-    "status": "현행"
+    "docKey": "연계고용부담금감면기준",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2474,6 +2597,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2012년 건설업 장애인고용의무 사업주의 공사 실적액 고시",
+    "docKey": "건설업장애인고용의무사업주의공사실적액",
     "status": "현행"
   },
   {
@@ -2491,7 +2615,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2012년도 장애인 고용 부담기초액 고시",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2513,6 +2638,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 시행규칙 일부개정[2011.12.15]",
+    "docKey": "장애인고용촉진직업재활법시행규칙1215",
     "status": "현행"
   },
   {
@@ -2535,6 +2661,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 시행령 개정(111026)",
+    "docKey": "장애인고용촉진직업재활법시행령개정",
     "status": "현행"
   },
   {
@@ -2557,6 +2684,7 @@
     "effectiveDate": "2011-07-25",
     "dateKind": "개정",
     "raw": "장애인고용촉진 및 직업재활법(2011.7.25. 개정)",
+    "docKey": "장애인고용촉진직업재활법",
     "status": "연혁"
   },
   {
@@ -2574,7 +2702,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "부담기초액 고시",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2591,6 +2720,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "건설업의 공사실적액 고시",
+    "docKey": "건설업의공사실적액",
     "status": "현행"
   },
   {
@@ -2613,6 +2743,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법령(3단)",
+    "docKey": "장애인고용촉진직업재활법령",
     "status": "현행"
   },
   {
@@ -2635,7 +2766,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "「장애인취업지원업무처리규정」",
-    "status": "현행"
+    "docKey": "장애인취업지원업무처리규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2657,7 +2789,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "「사업주 및 장애인 등에 대한 융자지원규정」[고용노동부고시 제2010-48호]",
-    "status": "현행"
+    "docKey": "사업주장애인등에대한융자지원규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2679,7 +2812,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "「고령자 고용환경개선자금 융자규정」",
-    "status": "현행"
+    "docKey": "고령자고용환경개선자금융자규정",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2696,6 +2830,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법[법률 제9795호, 2009.10.9 타법개정]",
+    "docKey": "장애인고용촉진직업재활법법률109타법개정",
     "status": "현행"
   },
   {
@@ -2718,6 +2853,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법[3단법령집]",
+    "docKey": "장애인고용촉진직업재활법3단법령집",
     "status": "현행"
   },
   {
@@ -2735,6 +2871,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 표준사업장에 대한 지원규정[개정 2010. 1. 11 노동부고시 제2010-7호]",
+    "docKey": "장애인표준사업장에대한지원규정개정111",
     "status": "현행"
   },
   {
@@ -2752,6 +2889,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "사업주 및 장애인 등에 대한 융자지원규정[개정 2010. 1. 11 노동부고시 제 2010-5호]",
+    "docKey": "사업주장애인등에대한융자지원규정개정111",
     "status": "현행"
   },
   {
@@ -2769,6 +2907,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "직업재활시설등연계고용부담금감면기준[개정 2010. 1 11. 노동부 고시 제 2010- 6호]",
+    "docKey": "직업재활시설등연계고용부담금감면기준개정111",
     "status": "현행"
   },
   {
@@ -2791,6 +2930,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용장려금 지급기준[2010. 3. 5. 노동부고시 제2010-24호]",
+    "docKey": "장애인고용장려금지급기준35",
     "status": "현행"
   },
   {
@@ -2808,6 +2948,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 시행규칙 일부개정[2010.1.21. 노동부령 제336호]",
+    "docKey": "장애인고용촉진직업재활법시행규칙121노동부령",
     "status": "현행"
   },
   {
@@ -2825,7 +2966,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용 부담기초액 고시",
-    "status": "현행"
+    "docKey": "장애인고용부담기초액",
+    "status": "연혁"
   },
   {
     "boardId": "plaw",
@@ -2842,6 +2984,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "건설업의 장애인 고용의무 적용대상 공사 실적액 고시",
+    "docKey": "건설업의장애인고용의무적용대상공사실적액",
     "status": "현행"
   },
   {
@@ -2859,6 +3002,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인고용촉진 및 직업재활법 시행령 일부개정령[2009.12.31. 대통령령 제21962호]",
+    "docKey": "장애인고용촉진직업재활법시행령령1231대통령령",
     "status": "현행"
   },
   {
@@ -2876,6 +3020,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인직업재활사업규정 개정",
+    "docKey": "장애인직업재활사업규정개정",
     "status": "현행"
   },
   {
@@ -2903,6 +3048,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙(2025년 7월 현재)",
+    "docKey": "장애인복지법시행령시행규칙",
     "status": "현행"
   },
   {
@@ -2930,7 +3076,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙(2024년 11월 현재)",
-    "status": "현행"
+    "docKey": "장애인복지법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -2957,7 +3104,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙(2024년 3월 현재)",
-    "status": "현행"
+    "docKey": "장애인복지법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -2984,7 +3132,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙(2023년 11월 현재)",
-    "status": "현행"
+    "docKey": "장애인복지법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3011,7 +3160,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙(2023년 6월 현재)",
-    "status": "현행"
+    "docKey": "장애인복지법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3038,7 +3188,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙(2022년 2월 현재)",
-    "status": "현행"
+    "docKey": "장애인복지법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3065,6 +3216,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인연금법, 시행령, 시행규칙(2022년 1월 현재)",
+    "docKey": "장애인연금법시행령시행규칙",
     "status": "현행"
   },
   {
@@ -3092,7 +3244,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙(2021년 12월 현재)",
-    "status": "현행"
+    "docKey": "장애인복지법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3119,7 +3272,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인연금법, 시행령, 시행규칙(2020. 12. 현재)",
-    "status": "현행"
+    "docKey": "장애인연금법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3146,7 +3300,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙(2020. 12. 현재)",
-    "status": "현행"
+    "docKey": "장애인복지법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3173,7 +3328,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인연금법, 시행령, 시행규칙",
-    "status": "현행"
+    "docKey": "장애인연금법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3200,7 +3356,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙",
-    "status": "현행"
+    "docKey": "장애인복지법시행령시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3217,6 +3374,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙",
+    "docKey": "장애인복지법시행령시행규칙",
     "status": "연혁"
   },
   {
@@ -3234,6 +3392,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인연금법, 시행령, 시행규칙",
+    "docKey": "장애인연금법시행령시행규칙",
     "status": "연혁"
   },
   {
@@ -3251,6 +3410,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인연금법, 시행령, 시행규칙",
+    "docKey": "장애인연금법시행령시행규칙",
     "status": "연혁"
   },
   {
@@ -3268,6 +3428,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 시행령, 시행규칙",
+    "docKey": "장애인복지법시행령시행규칙",
     "status": "연혁"
   },
   {
@@ -3285,6 +3446,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "어린이ㆍ노인 및 장애인 보호구역의 지정 및 관리에 관한 규칙",
+    "docKey": "어린이노인장애인보호구역의지정관리에관한규칙",
     "status": "현행"
   },
   {
@@ -3302,6 +3464,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 등에 대한 특수교육법 시행규칙",
+    "docKey": "장애인등에대한특수교육법시행규칙",
     "status": "현행"
   },
   {
@@ -3319,6 +3482,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 등에 대한 특수교육법 시행령",
+    "docKey": "장애인등에대한특수교육법시행령",
     "status": "현행"
   },
   {
@@ -3336,6 +3500,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 등에 대한 특수교육법(20160529)",
+    "docKey": "장애인등에대한특수교육법",
     "status": "현행"
   },
   {
@@ -3353,6 +3518,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인기업활동 촉진법 시행령",
+    "docKey": "장애인기업활동촉진법시행령",
     "status": "현행"
   },
   {
@@ -3370,6 +3536,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인기업활동 촉진법",
+    "docKey": "장애인기업활동촉진법",
     "status": "현행"
   },
   {
@@ -3387,6 +3554,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법 시행규칙",
+    "docKey": "장애인복지법시행규칙",
     "status": "현행"
   },
   {
@@ -3404,6 +3572,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법 시행령",
+    "docKey": "장애인복지법시행령",
     "status": "현행"
   },
   {
@@ -3421,6 +3590,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법",
+    "docKey": "장애인복지법",
     "status": "연혁"
   },
   {
@@ -3438,6 +3608,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인연금법 시행규칙",
+    "docKey": "장애인연금법시행규칙",
     "status": "현행"
   },
   {
@@ -3455,6 +3626,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인연금법 시행령",
+    "docKey": "장애인연금법시행령",
     "status": "현행"
   },
   {
@@ -3472,6 +3644,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인연금법",
+    "docKey": "장애인연금법",
     "status": "현행"
   },
   {
@@ -3489,6 +3662,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인차별금지 및 권리구제 등에 관한 법률 시행령",
+    "docKey": "장애인차별금지권리구제등에관한법률시행령",
     "status": "현행"
   },
   {
@@ -3506,6 +3680,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인차별금지 및 권리구제 등에 관한 법률",
+    "docKey": "장애인차별금지권리구제등에관한법률",
     "status": "현행"
   },
   {
@@ -3523,6 +3698,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인활동 지원에 관한 법률 시행령",
+    "docKey": "장애인활동지원에관한법률시행령",
     "status": "현행"
   },
   {
@@ -3540,6 +3716,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인활동 지원에 관한 법률",
+    "docKey": "장애인활동지원에관한법률",
     "status": "현행"
   },
   {
@@ -3557,6 +3734,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ고령자 등 주거약자 지원에 관한 법률 시행규칙",
+    "docKey": "장애인고령자등주거약자지원에관한법률시행규칙",
     "status": "현행"
   },
   {
@@ -3574,6 +3752,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ고령자 등 주거약자 지원에 관한 법률 시행령",
+    "docKey": "장애인고령자등주거약자지원에관한법률시행령",
     "status": "현행"
   },
   {
@@ -3591,6 +3770,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ고령자 등 주거약자 지원에 관한 법률",
+    "docKey": "장애인고령자등주거약자지원에관한법률",
     "status": "현행"
   },
   {
@@ -3608,6 +3788,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률 시행규칙",
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률시행규칙",
     "status": "현행"
   },
   {
@@ -3625,6 +3806,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률 시행령",
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률시행령",
     "status": "현행"
   },
   {
@@ -3642,6 +3824,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률",
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률",
     "status": "현행"
   },
   {
@@ -3659,6 +3842,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "중증장애인생산품 우선구매 특별법 시행령",
+    "docKey": "중증장애인생산품우선구매특별법시행령",
     "status": "현행"
   },
   {
@@ -3676,6 +3860,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "중증장애인생산품 우선구매 특별법",
+    "docKey": "중증장애인생산품우선구매특별법",
     "status": "현행"
   },
   {
@@ -3698,6 +3883,7 @@
     "effectiveDate": "2016-11-30",
     "dateKind": "시행",
     "raw": "장애인복지법(시행 2016.11.30. 법률 제14222호, 2016.5.29., 일부개정)",
+    "docKey": "장애인복지법",
     "status": "현행"
   },
   {
@@ -3720,6 +3906,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법[시행 2016.11.30.] [법률 제14222호, 2016.5.29., 일부개정]",
+    "docKey": "장애인복지법시행1130법률529",
     "status": "현행"
   },
   {
@@ -3742,6 +3929,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법[시행 2016.11.30.] [법률 제14222호, 2016.5.29., 일부개정]",
+    "docKey": "장애인복지법시행1130법률529",
     "status": "연혁"
   },
   {
@@ -3764,6 +3952,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법[시행 2016.11.30.] [법률 제14222호, 2016.5.29., 일부개정]",
+    "docKey": "장애인복지법시행1130법률529",
     "status": "연혁"
   },
   {
@@ -3786,6 +3975,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법[시행 2016.11.30.] [법률 제14222호, 2016.5.29., 일부개정]",
+    "docKey": "장애인복지법시행1130법률529",
     "status": "연혁"
   },
   {
@@ -3803,7 +3993,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ고령자 등 주거약자 지원에 관한 법률 및 시행령",
-    "status": "현행"
+    "docKey": "장애인고령자등주거약자지원에관한법률시행령",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3825,7 +4016,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 노인 임산부 등의 편의증진 보장에 관한 법률",
-    "status": "현행"
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -3842,6 +4034,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법, 장애인복지법 시행령, 장애인복지법시행규칙",
+    "docKey": "장애인복지법장애인복지법시행령장애인복지법시행규칙",
     "status": "현행"
   },
   {
@@ -3864,6 +4057,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 건강권 및 의료접근성 보장에 관한 법률",
+    "docKey": "장애인건강권의료접근성보장에관한법률",
     "status": "현행"
   },
   {
@@ -3886,6 +4080,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "중증장애인생산품 우선구매 특별법 시행령",
+    "docKey": "중증장애인생산품우선구매특별법시행령",
     "status": "연혁"
   },
   {
@@ -3903,6 +4098,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ고령자 등 주거약자 지원에 관한 법률",
+    "docKey": "장애인고령자등주거약자지원에관한법률",
     "status": "연혁"
   },
   {
@@ -3925,6 +4121,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인연금법 시행령",
+    "docKey": "장애인연금법시행령",
     "status": "연혁"
   },
   {
@@ -3947,6 +4144,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인활동 지원에 관한 법률",
+    "docKey": "장애인활동지원에관한법률",
     "status": "연혁"
   },
   {
@@ -3969,6 +4167,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2018 평창 동계올림픽대회 및 장애인동계올림픽대회 지원 등에 관한 특별법 시행령",
+    "docKey": "평창동계올림픽대회장애인동계올림픽대회지원등에관한특별법시행령",
     "status": "현행"
   },
   {
@@ -3991,6 +4190,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "2018 평창 동계올림픽대회 및 장애인동계올림픽대회 지원 등에 관한 특별법",
+    "docKey": "평창동계올림픽대회장애인동계올림픽대회지원등에관한특별법",
     "status": "현행"
   },
   {
@@ -4013,6 +4213,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "발달장애인 권리보장 및 지원에 관한 법률 시행규칙",
+    "docKey": "발달장애인권리보장지원에관한법률시행규칙",
     "status": "현행"
   },
   {
@@ -4035,6 +4236,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "발달장애인 권리보장 및 지원에 관한 법률 시행령",
+    "docKey": "발달장애인권리보장지원에관한법률시행령",
     "status": "현행"
   },
   {
@@ -4057,6 +4259,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "발달장애인 권리보장 및 지원에 관한 법률",
+    "docKey": "발달장애인권리보장지원에관한법률",
     "status": "현행"
   },
   {
@@ -4079,6 +4282,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 등에 대한 특수교육법 시행령",
+    "docKey": "장애인등에대한특수교육법시행령",
     "status": "연혁"
   },
   {
@@ -4101,7 +4305,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인 등에 대한 특수교육법",
-    "status": "현행"
+    "docKey": "장애인등에대한특수교육법",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -4123,6 +4328,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인기업활동 촉진법 시행령",
+    "docKey": "장애인기업활동촉진법시행령",
     "status": "연혁"
   },
   {
@@ -4145,6 +4351,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인기업활동 촉진법",
+    "docKey": "장애인기업활동촉진법",
     "status": "연혁"
   },
   {
@@ -4167,6 +4374,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ노인 등을 위한 보조기기 지원 및 활용촉진에 관한 법률",
+    "docKey": "장애인노인등을위한보조기기지원활용촉진에관한법률",
     "status": "현행"
   },
   {
@@ -4189,6 +4397,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률 시행규칙",
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률시행규칙",
     "status": "연혁"
   },
   {
@@ -4211,6 +4420,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률 시행령",
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률시행령",
     "status": "연혁"
   },
   {
@@ -4233,6 +4443,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률",
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률",
     "status": "연혁"
   },
   {
@@ -4255,6 +4466,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법 시행규칙",
+    "docKey": "장애인복지법시행규칙",
     "status": "연혁"
   },
   {
@@ -4272,6 +4484,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법",
+    "docKey": "장애인복지법",
     "status": "연혁"
   },
   {
@@ -4289,6 +4502,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법 시행령",
+    "docKey": "장애인복지법시행령",
     "status": "연혁"
   },
   {
@@ -4306,6 +4520,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법 시행규칙",
+    "docKey": "장애인복지법시행규칙",
     "status": "연혁"
   },
   {
@@ -4323,6 +4538,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인차별금지 및 권리구제 등에 관한 법률",
+    "docKey": "장애인차별금지권리구제등에관한법률",
     "status": "연혁"
   },
   {
@@ -4340,6 +4556,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인차별금지 및 권리구제 등에 관한 법률 시행령",
+    "docKey": "장애인차별금지권리구제등에관한법률시행령",
     "status": "연혁"
   },
   {
@@ -4357,7 +4574,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ노인ㆍ임산부 등의 편의증진보장에 관한 법률 시행령",
-    "status": "현행"
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률시행령",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -4374,7 +4592,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인ㆍ노인ㆍ임산부 등의 편의증진보장에 관한 법률 시행규칙",
-    "status": "현행"
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -4391,6 +4610,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인기업활동 촉진법 시행령",
+    "docKey": "장애인기업활동촉진법시행령",
     "status": "연혁"
   },
   {
@@ -4408,6 +4628,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "중증장애인생산품 우선구매 특별법",
+    "docKey": "중증장애인생산품우선구매특별법",
     "status": "연혁"
   },
   {
@@ -4425,6 +4646,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "중증장애인생산품 우선구매 특별법 시행령",
+    "docKey": "중증장애인생산품우선구매특별법시행령",
     "status": "연혁"
   },
   {
@@ -4442,6 +4664,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인기업활동 촉진법 시행령",
+    "docKey": "장애인기업활동촉진법시행령",
     "status": "연혁"
   },
   {
@@ -4459,6 +4682,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인기업활동 촉진법 [시행 2012.7.27] [법률 제11240호, 2012.1.26, 타법개정]",
+    "docKey": "장애인기업활동촉진법시행727법률126타법개정",
     "status": "현행"
   },
   {
@@ -4481,7 +4705,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인·노인·임산부 등의 편의증진보장에 관한 법률 시행규칙",
-    "status": "현행"
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -4503,7 +4728,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인·노인·임산부 등의 편의증진보장에 관한 법률 시행령",
-    "status": "현행"
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률시행령",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -4520,7 +4746,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인·노인·임산부등의편의증진보장에관한법률",
-    "status": "현행"
+    "docKey": "장애인노인임산부등의편의증진보장에관한법률",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -4542,6 +4769,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인차별금지 및 권리구제 등에 관한 법률",
+    "docKey": "장애인차별금지권리구제등에관한법률",
     "status": "연혁"
   },
   {
@@ -4559,6 +4787,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인차별금지 및 권리구제 등에 관한 법률",
+    "docKey": "장애인차별금지권리구제등에관한법률",
     "status": "연혁"
   },
   {
@@ -4586,7 +4815,8 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법시행규칙",
-    "status": "현행"
+    "docKey": "장애인복지법시행규칙",
+    "status": "연혁"
   },
   {
     "boardId": "dislaw",
@@ -4608,6 +4838,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법 시행령",
+    "docKey": "장애인복지법시행령",
     "status": "연혁"
   },
   {
@@ -4625,6 +4856,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법",
+    "docKey": "장애인복지법",
     "status": "연혁"
   },
   {
@@ -4652,6 +4884,7 @@
     "effectiveDate": null,
     "dateKind": null,
     "raw": "장애인복지법시행규칙등 개정법령",
+    "docKey": "장애인복지법시행규칙등개정법령",
     "status": "현행"
   },
   {
@@ -4669,6 +4902,7 @@
     "effectiveDate": "2026-08-01",
     "dateKind": "시행",
     "raw": "특정업무직(운영지원직) 직원 관리규칙(규칙 제882호, 시행: 2026. 8. 1.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "시행예정"
   },
   {
@@ -4686,6 +4920,7 @@
     "effectiveDate": "2026-08-01",
     "dateKind": "시행",
     "raw": "특정업무직(사업지원직) 직원 관리규칙(규칙 제881호, 시행: 2026. 8. 1.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "시행예정"
   },
   {
@@ -4703,6 +4938,7 @@
     "effectiveDate": "2026-07-15",
     "dateKind": "시행",
     "raw": "직제규정 시행규칙(규칙 제880호, 시행: 2026. 7. 15.)",
+    "docKey": "직제규정시행규칙",
     "status": "현행"
   },
   {
@@ -4720,6 +4956,7 @@
     "effectiveDate": "2026-06-29",
     "dateKind": "개정",
     "raw": "회계규정 시행규칙(규칙 제879호, 개정: 2026. 6. 29.)",
+    "docKey": "회계규정시행규칙",
     "status": "현행"
   },
   {
@@ -4737,6 +4974,7 @@
     "effectiveDate": "2026-06-09",
     "dateKind": "개정",
     "raw": "고용부담금 적용·징수관리 업무처리규칙(규칙 제878호, 개정: 2026. 6. 9.)",
+    "docKey": "고용부담금적용징수관리업무처리규칙",
     "status": "현행"
   },
   {
@@ -4754,6 +4992,7 @@
     "effectiveDate": "2026-04-17",
     "dateKind": "개정",
     "raw": "보조공학기기 지원 업무처리규칙(규칙 제877호, 개정: 2026. 4. 17.)",
+    "docKey": "보조공학기기지원업무처리규칙",
     "status": "현행"
   },
   {
@@ -4771,6 +5010,7 @@
     "effectiveDate": "2026-02-27",
     "dateKind": "개정",
     "raw": "보수규정(규정 제265호, 개정: 2026. 2. 27.)",
+    "docKey": "보수규정",
     "status": "현행"
   },
   {
@@ -4788,6 +5028,7 @@
     "effectiveDate": "2026-03-05",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제876호, 개정: 2026. 3. 5.)",
+    "docKey": "인사규정시행규칙",
     "status": "현행"
   },
   {
@@ -4805,6 +5046,7 @@
     "effectiveDate": "2026-02-02",
     "dateKind": "개정",
     "raw": "자산관리규정 시행규칙(규칙 제875호, 개정: 2026. 2.2.)",
+    "docKey": "자산관리규정시행규칙",
     "status": "현행"
   },
   {
@@ -4822,6 +5064,7 @@
     "effectiveDate": "2026-02-02",
     "dateKind": "개정",
     "raw": "회계규정 시행규칙(규칙 제874호, 개정: 2026. 2. 2.)",
+    "docKey": "회계규정시행규칙",
     "status": "연혁"
   },
   {
@@ -4839,6 +5082,7 @@
     "effectiveDate": "2026-01-27",
     "dateKind": "개정",
     "raw": "직업능력개발원 및 훈련센터 운영 업무처리 규칙(규칙 제873호, 개정: 2026. 1. 27.)",
+    "docKey": "직업능력개발원훈련센터운영업무처리규칙",
     "status": "현행"
   },
   {
@@ -4856,6 +5100,7 @@
     "effectiveDate": "2026-01-27",
     "dateKind": "개정",
     "raw": "부패행위 신고 접수·처리 및 신고자 보호 등에 관한 운영규칙(규칙 제872호, 개정: 2026. 1. 27.)",
+    "docKey": "부패행위신고접수처리신고자보호등에관한운영규칙",
     "status": "현행"
   },
   {
@@ -4873,6 +5118,7 @@
     "effectiveDate": "2026-01-27",
     "dateKind": "개정",
     "raw": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙(규칙 제871호, 개정: 2026. 1. 27.)",
+    "docKey": "공익신고처리신고자보호등에관한운영규칙",
     "status": "현행"
   },
   {
@@ -4890,6 +5136,7 @@
     "effectiveDate": "2026-01-21",
     "dateKind": "개정",
     "raw": "위임전결업무처리규칙(규칙 제870호, 개정: 2026. 1. 21.)",
+    "docKey": "위임전결업무처리규칙",
     "status": "현행"
   },
   {
@@ -4907,6 +5154,7 @@
     "effectiveDate": "2026-01-14",
     "dateKind": "시행",
     "raw": "직제규정 시행규칙(규칙 제869호, 시행: 2026. 1. 14.)",
+    "docKey": "직제규정시행규칙",
     "status": "연혁"
   },
   {
@@ -4924,6 +5172,7 @@
     "effectiveDate": "2026-01-14",
     "dateKind": "개정",
     "raw": "기간제 근로자 관리규칙(규칙 제868호, 개정: 2026. 1. 14.)",
+    "docKey": "기간제근로자관리규칙",
     "status": "현행"
   },
   {
@@ -4941,6 +5190,7 @@
     "effectiveDate": "2026-01-14",
     "dateKind": "개정",
     "raw": "특정업무직(운영지원직) 직원 관리규칙(규칙 제867호, 개정: 2026. 1. 14.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "현행"
   },
   {
@@ -4958,7 +5208,8 @@
     "effectiveDate": "2026-01-14",
     "dateKind": "개정",
     "raw": "특정업무직(사업지원직) 직원 관리규칙(규칙 제866호, 개정: 2026. 1. 14.)",
-    "status": "현행"
+    "docKey": "특정업무직직원관리규칙",
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -4975,6 +5226,7 @@
     "effectiveDate": "2025-12-30",
     "dateKind": "개정",
     "raw": "자산관리규정 시행규칙(규칙 제865호, 개정: 2025. 12. 30.)",
+    "docKey": "자산관리규정시행규칙",
     "status": "연혁"
   },
   {
@@ -4992,6 +5244,7 @@
     "effectiveDate": "2026-01-01",
     "dateKind": "시행",
     "raw": "장애인 취업지원 업무처리규칙(규칙 제864호, 시행: 2026. 1. 1.)",
+    "docKey": "장애인취업지원업무처리규칙",
     "status": "현행"
   },
   {
@@ -5009,6 +5262,7 @@
     "effectiveDate": "2025-12-31",
     "dateKind": "개정",
     "raw": "임금피크제 운영규정 시행규칙(규칙 제863호, 개정: 2025. 12. 31.)",
+    "docKey": "임금피크제운영규정시행규칙",
     "status": "현행"
   },
   {
@@ -5026,6 +5280,7 @@
     "effectiveDate": "2025-12-31",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제862호, 개정: 2025. 12. 31.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -5043,6 +5298,7 @@
     "effectiveDate": "2025-12-30",
     "dateKind": "개정",
     "raw": "장애인고용장려금 지급 업무처리규칙(규칙 제861호, 개정: 2025. 12. 30.)",
+    "docKey": "장애인고용장려금지급업무처리규칙",
     "status": "현행"
   },
   {
@@ -5060,6 +5316,7 @@
     "effectiveDate": "2025-12-26",
     "dateKind": "시행",
     "raw": "성과연봉제 시행규칙(규칙 제860호, 시행: 2025. 12. 26.)",
+    "docKey": "성과연봉제시행규칙",
     "status": "현행"
   },
   {
@@ -5077,6 +5334,7 @@
     "effectiveDate": "2025-12-26",
     "dateKind": "시행",
     "raw": "보수규정 시행규칙(규칙 제859호, 시행: 2025. 12. 26.)",
+    "docKey": "보수규정시행규칙",
     "status": "현행"
   },
   {
@@ -5094,6 +5352,7 @@
     "effectiveDate": "2025-12-30",
     "dateKind": "개정",
     "raw": "보수규정(규정 제264호, 개정: 2025. 12. 30.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -5111,6 +5370,7 @@
     "effectiveDate": "2025-12-29",
     "dateKind": "개정",
     "raw": "자산관리규정(규정 제263호, 개정: 2025. 12. 29.)",
+    "docKey": "자산관리규정",
     "status": "현행"
   },
   {
@@ -5128,6 +5388,7 @@
     "effectiveDate": "2025-12-29",
     "dateKind": "개정",
     "raw": "인사규정(규정 제262호, 개정: 2025. 12. 29.)",
+    "docKey": "인사규정",
     "status": "현행"
   },
   {
@@ -5145,6 +5406,7 @@
     "effectiveDate": "2026-01-01",
     "dateKind": "시행",
     "raw": "직제규정(규정 제261호, 시행: 2026. 1. 1.)",
+    "docKey": "직제규정",
     "status": "현행"
   },
   {
@@ -5162,6 +5424,7 @@
     "effectiveDate": "2025-12-26",
     "dateKind": "개정",
     "raw": "장애인 직업생활 상담원 양성 및 연수 규칙(규칙 제858호, 개정: 2025. 12. 26.)",
+    "docKey": "장애인직업생활상담원양성연수규칙",
     "status": "현행"
   },
   {
@@ -5179,6 +5442,7 @@
     "effectiveDate": "2025-12-19",
     "dateKind": "제정",
     "raw": "직무관리규칙(규칙 제856호, 제정: 2025. 12. 19.)",
+    "docKey": "직무관리규칙",
     "status": "현행"
   },
   {
@@ -5196,6 +5460,7 @@
     "effectiveDate": "2025-12-12",
     "dateKind": "개정",
     "raw": "특정업무직(운영지원직) 직원 관리규칙(규칙 제855호, 개정: 2025. 12. 12.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "연혁"
   },
   {
@@ -5213,6 +5478,7 @@
     "effectiveDate": "2025-12-12",
     "dateKind": "개정",
     "raw": "특정업무직(사업지원직) 직원 관리규칙(규칙 제854호, 개정: 2025. 12. 12.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "연혁"
   },
   {
@@ -5230,6 +5496,7 @@
     "effectiveDate": "2025-12-12",
     "dateKind": "개정",
     "raw": "근로지원인 지원 업무처리규칙(규칙 제853호, 개정: 2025. 12. 12.)",
+    "docKey": "근로지원인지원업무처리규칙",
     "status": "현행"
   },
   {
@@ -5247,6 +5514,7 @@
     "effectiveDate": "2025-12-03",
     "dateKind": "개정",
     "raw": "장애인 표준사업장에 대한 지원업무 처리규칙(규칙 제852호, 개정: 2025. 12. 3.)",
+    "docKey": "장애인표준사업장에대한지원업무처리규칙",
     "status": "현행"
   },
   {
@@ -5264,6 +5532,7 @@
     "effectiveDate": "2025-11-19",
     "dateKind": "개정",
     "raw": "회계감사인 선임위원회 운영규칙(규칙 제851호, 개정: 2025. 11. 19.)",
+    "docKey": "회계감사인선임위원회운영규칙",
     "status": "현행"
   },
   {
@@ -5281,6 +5550,7 @@
     "effectiveDate": "2025-10-27",
     "dateKind": "개정",
     "raw": "한시조직 관리규칙(규칙 제850호, 개정: 2025. 10. 27.)",
+    "docKey": "한시조직관리규칙",
     "status": "현행"
   },
   {
@@ -5298,6 +5568,7 @@
     "effectiveDate": "2025-10-16",
     "dateKind": "개정",
     "raw": "장애인고용 우수사업주 선정 및 우대조치에 관한 업무처리규칙(규칙 제849호, 개정: 2025. 10. 16.)",
+    "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
     "status": "현행"
   },
   {
@@ -5315,6 +5586,7 @@
     "effectiveDate": "2025-10-13",
     "dateKind": "개정",
     "raw": "인사규정(규정 제260호, 개정: 2025. 10. 13.)",
+    "docKey": "인사규정",
     "status": "연혁"
   },
   {
@@ -5332,6 +5604,7 @@
     "effectiveDate": "2025-10-01",
     "dateKind": "제정",
     "raw": "내부통제 운영규칙(규칙 제848호, 제정: 2025. 10. 1.)",
+    "docKey": "내부통제운영규칙",
     "status": "현행"
   },
   {
@@ -5349,6 +5622,7 @@
     "effectiveDate": "2025-09-15",
     "dateKind": "개정",
     "raw": "보조공학기기 지원 업무처리규칙(규칙 제847호, 개정: 2025. 9. 15.)",
+    "docKey": "보조공학기기지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -5366,6 +5640,7 @@
     "effectiveDate": "2025-09-11",
     "dateKind": "개정",
     "raw": "보수규정(규정 제259호, 개정: 2025. 9. 11.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -5383,6 +5658,7 @@
     "effectiveDate": "2025-08-08",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제846호, 개정: 2025. 8. 8.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -5400,6 +5676,7 @@
     "effectiveDate": "2025-08-04",
     "dateKind": "개정",
     "raw": "장애인고용 우수사업주 선정 및 우대조치에 관한 업무처리규칙(규칙 제845호, 개정: 2025. 8. 4.)",
+    "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
     "status": "연혁"
   },
   {
@@ -5417,6 +5694,7 @@
     "effectiveDate": "2025-07-22",
     "dateKind": "제정",
     "raw": "기록물관리규칙(규칙 제844호, 제정: 2025. 7. 22.)",
+    "docKey": "기록물관리규칙",
     "status": "현행"
   },
   {
@@ -5434,6 +5712,7 @@
     "effectiveDate": "2025-07-22",
     "dateKind": "개정",
     "raw": "사무관리규칙(규칙 제843호, 전부개정: 2025. 7. 22.)",
+    "docKey": "사무관리규칙",
     "status": "현행"
   },
   {
@@ -5451,6 +5730,7 @@
     "effectiveDate": "2025-07-22",
     "dateKind": "개정",
     "raw": "안전보건관리규정 시행규칙(규칙 제842호, 개정: 2025. 7. 22.)",
+    "docKey": "안전보건관리규정시행규칙",
     "status": "현행"
   },
   {
@@ -5468,6 +5748,7 @@
     "effectiveDate": "2025-07-04",
     "dateKind": "개정",
     "raw": "직장 내 장애인 인식개선 교육 업무처리규칙(규칙 제841호, 개정: 2025. 7. 4.)",
+    "docKey": "직장내장애인인식개선교육업무처리규칙",
     "status": "현행"
   },
   {
@@ -5485,6 +5766,7 @@
     "effectiveDate": "2025-07-03",
     "dateKind": "개정",
     "raw": "보수규정(규정 제258호, 개정: 2025. 7. 3.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -5502,6 +5784,7 @@
     "effectiveDate": "2025-07-03",
     "dateKind": "개정",
     "raw": "인사규정(규정 제257호, 개정: 2025. 7. 3.)",
+    "docKey": "인사규정",
     "status": "연혁"
   },
   {
@@ -5519,6 +5802,7 @@
     "effectiveDate": "2025-07-03",
     "dateKind": "개정",
     "raw": "임금피크제 운영규정(규정 제256호, 개정: 2025. 7. 3.)",
+    "docKey": "임금피크제운영규정",
     "status": "현행"
   },
   {
@@ -5536,6 +5820,7 @@
     "effectiveDate": "2025-07-03",
     "dateKind": "개정",
     "raw": "복무규정(규정 제255호, 개정: 2025. 7. 3.)",
+    "docKey": "복무규정",
     "status": "현행"
   },
   {
@@ -5553,6 +5838,7 @@
     "effectiveDate": "2025-07-03",
     "dateKind": "제정",
     "raw": "상임임원 복무 등에 관한 규정(규정 제254호, 제정: 2025. 7. 3.)",
+    "docKey": "상임임원복무등에관한규정",
     "status": "현행"
   },
   {
@@ -5570,6 +5856,7 @@
     "effectiveDate": "2025-07-04",
     "dateKind": "개정",
     "raw": "연계고용 부담금 감면 업무처리 규칙(규칙 제840호, 개정: 2025. 7. 4.)",
+    "docKey": "연계고용부담금감면업무처리규칙",
     "status": "현행"
   },
   {
@@ -5587,6 +5874,7 @@
     "effectiveDate": "2025-06-23",
     "dateKind": "개정",
     "raw": "회계규정 시행규칙(규칙 제839호, 개정: 2025. 6. 23.)",
+    "docKey": "회계규정시행규칙",
     "status": "연혁"
   },
   {
@@ -5604,6 +5892,7 @@
     "effectiveDate": "2025-04-10",
     "dateKind": "개정",
     "raw": "장애인 표준사업장에 대한 지원업무 처리규칙(규칙 제838호, 개정: 2025. 4. 10.)",
+    "docKey": "장애인표준사업장에대한지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -5621,6 +5910,7 @@
     "effectiveDate": "2025-04-01",
     "dateKind": "개정",
     "raw": "장애인고용 우수사업주 선정 및 우대조치에 관한 업무처리규칙(규칙 제837호, 개정: 2025. 4. 1.)",
+    "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
     "status": "연혁"
   },
   {
@@ -5638,6 +5928,7 @@
     "effectiveDate": "2025-03-26",
     "dateKind": "개정",
     "raw": "중증장애인 근로자 출·퇴근 교통비 지원 업무처리규칙(규칙 제836호, 개정: 2025. 3. 26.)",
+    "docKey": "중증장애인근로자출퇴근교통비지원업무처리규칙",
     "status": "현행"
   },
   {
@@ -5655,6 +5946,7 @@
     "effectiveDate": "2025-03-27",
     "dateKind": "개정",
     "raw": "위임전결업무처리규칙(규칙 제835호, 개정: 2025. 3. 27.)",
+    "docKey": "위임전결업무처리규칙",
     "status": "연혁"
   },
   {
@@ -5672,6 +5964,7 @@
     "effectiveDate": "2025-03-19",
     "dateKind": "개정",
     "raw": "장애인 직업능력평가사 자격 관리운영규칙(규칙 제834호, 개정: 2025. 3. 19.)",
+    "docKey": "장애인직업능력평가사자격관리운영규칙",
     "status": "현행"
   },
   {
@@ -5689,6 +5982,7 @@
     "effectiveDate": "2025-03-18",
     "dateKind": "개정",
     "raw": "자산관리규정 시행규칙(규칙 제832호, 개정: 2025. 3. 18.)",
+    "docKey": "자산관리규정시행규칙",
     "status": "연혁"
   },
   {
@@ -5706,6 +6000,7 @@
     "effectiveDate": "2025-03-12",
     "dateKind": "개정",
     "raw": "보수규정(규정 제253호, 개정: 2025. 3. 12.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -5723,6 +6018,7 @@
     "effectiveDate": "2025-03-10",
     "dateKind": "시행",
     "raw": "직제규정 시행규칙(규칙 제831호, 시행: 2025. 3. 10.)",
+    "docKey": "직제규정시행규칙",
     "status": "연혁"
   },
   {
@@ -5745,6 +6041,7 @@
     "effectiveDate": "2025-02-24",
     "dateKind": "개정",
     "raw": "근로지원인 지원 업무처리규칙(규칙 제830호, 개정: 2025. 2. 24.)",
+    "docKey": "근로지원인지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -5762,6 +6059,7 @@
     "effectiveDate": "2025-02-04",
     "dateKind": "개정",
     "raw": "사업주 및 장애인에 대한 융자지원 업무처리규칙(규칙 제829호, 개정: 2025. 2. 4.)",
+    "docKey": "사업주장애인에대한융자지원업무처리규칙",
     "status": "현행"
   },
   {
@@ -5779,6 +6077,7 @@
     "effectiveDate": "2025-02-03",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제828호, 개정: 2025. 2. 3.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -5796,6 +6095,7 @@
     "effectiveDate": "2025-01-22",
     "dateKind": "개정",
     "raw": "감사규정시행규칙(규칙 제827호, 개정: 2025. 1. 22.)",
+    "docKey": "감사규정시행규칙",
     "status": "현행"
   },
   {
@@ -5813,6 +6113,7 @@
     "effectiveDate": "2025-01-21",
     "dateKind": "개정",
     "raw": "장애인 기능경기대회 업무처리규칙(규칙 제826호, 개정: 2025. 1. 21.)",
+    "docKey": "장애인기능경기대회업무처리규칙",
     "status": "현행"
   },
   {
@@ -5830,6 +6131,7 @@
     "effectiveDate": "2025-01-21",
     "dateKind": "시행",
     "raw": "특정업무직(사업지원직) 직원 관리규칙(규칙 제825호, 시행: 2025. 1. 21.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "연혁"
   },
   {
@@ -5847,6 +6149,7 @@
     "effectiveDate": "2025-01-21",
     "dateKind": "개정",
     "raw": "특정업무직(운영지원직) 직원 관리규칙(규칙 제824호, 개정: 2025. 1. 21.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "연혁"
   },
   {
@@ -5864,6 +6167,7 @@
     "effectiveDate": "2025-01-02",
     "dateKind": "개정",
     "raw": "교육훈련규칙(규칙 제823호, 개정: 2025. 1. 2.)",
+    "docKey": "교육훈련규칙",
     "status": "현행"
   },
   {
@@ -5881,6 +6185,7 @@
     "effectiveDate": "2025-01-02",
     "dateKind": "개정",
     "raw": "장애인 취업지원 업무처리규칙(규칙 제822호, 개정: 2025. 1. 2.)",
+    "docKey": "장애인취업지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -5898,6 +6203,7 @@
     "effectiveDate": "2024-12-30",
     "dateKind": "시행",
     "raw": "직제규정(규정 제252호, 시행: 2024. 12. 30.)",
+    "docKey": "직제규정",
     "status": "연혁"
   },
   {
@@ -5915,6 +6221,7 @@
     "effectiveDate": "2024-12-30",
     "dateKind": "개정",
     "raw": "여비규칙(규칙 제821호, 개정: 2024. 12. 30.)",
+    "docKey": "여비규칙",
     "status": "현행"
   },
   {
@@ -5932,6 +6239,7 @@
     "effectiveDate": "2024-12-30",
     "dateKind": "개정",
     "raw": "보수규정(규정 제251호, 개정: 2024. 12. 30.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -5949,6 +6257,7 @@
     "effectiveDate": "2023-06-22",
     "dateKind": "시행",
     "raw": "성과연봉제 시행규칙(규칙 제820호, 시행: 2023. 6. 22.)",
+    "docKey": "성과연봉제시행규칙",
     "status": "연혁"
   },
   {
@@ -5966,6 +6275,7 @@
     "effectiveDate": "2024-12-27",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제819호, 개정: 2024. 12. 27.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -5983,6 +6293,7 @@
     "effectiveDate": "2025-01-01",
     "dateKind": "시행",
     "raw": "업무추진비류 지급처리규칙(규칙 제818호, 시행: 2025. 1. 1.)",
+    "docKey": "업무추진비류지급처리규칙",
     "status": "현행"
   },
   {
@@ -6000,6 +6311,7 @@
     "effectiveDate": "2024-12-27",
     "dateKind": "개정",
     "raw": "보수규정 시행규칙(규칙 제817호, 개정: 2024. 12. 27.)",
+    "docKey": "보수규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6017,6 +6329,7 @@
     "effectiveDate": "2024-12-24",
     "dateKind": "제정",
     "raw": "직장운동경기부 운영 규정(규정 제250호, 제정: 2024. 12. 24.)",
+    "docKey": "직장운동경기부운영규정",
     "status": "현행"
   },
   {
@@ -6034,6 +6347,7 @@
     "effectiveDate": "2024-12-24",
     "dateKind": "개정",
     "raw": "인사규정(규정 제249호, 개정: 2024. 12. 24.)",
+    "docKey": "인사규정",
     "status": "연혁"
   },
   {
@@ -6051,6 +6365,7 @@
     "effectiveDate": "2024-12-24",
     "dateKind": "개정",
     "raw": "임원추천위원회 운영규정(규정 제248호, 개정: 2024. 12. 24.)",
+    "docKey": "임원추천위원회운영규정",
     "status": "현행"
   },
   {
@@ -6068,6 +6383,7 @@
     "effectiveDate": "2024-12-24",
     "dateKind": "개정",
     "raw": "한국장애인고용공단 정관(정관 제19호, 개정: 2024. 12. 24.)",
+    "docKey": "한국장애인고용공단정관",
     "status": "현행"
   },
   {
@@ -6085,6 +6401,7 @@
     "effectiveDate": "2024-12-23",
     "dateKind": "개정",
     "raw": "국외출장연수규칙(규칙 제816호, 개정: 2024. 12. 23.)",
+    "docKey": "국외출장연수규칙",
     "status": "현행"
   },
   {
@@ -6102,6 +6419,7 @@
     "effectiveDate": "2025-01-01",
     "dateKind": "시행",
     "raw": "고용부담금 적용·징수관리 업무처리규칙(규칙 제815호, 시행: 2025. 1. 1.)",
+    "docKey": "고용부담금적용징수관리업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6119,6 +6437,7 @@
     "effectiveDate": "2025-01-01",
     "dateKind": "시행",
     "raw": "회계규정 시행규칙(규칙 제814호, 시행: 2025. 1. 1.)",
+    "docKey": "회계규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6136,6 +6455,7 @@
     "effectiveDate": "2024-12-16",
     "dateKind": "개정",
     "raw": "장애인 표준사업장에 대한 지원업무 처리규칙(규칙 제813호, 개정: 2024. 12. 16.)",
+    "docKey": "장애인표준사업장에대한지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6153,6 +6473,7 @@
     "effectiveDate": "2024-12-06",
     "dateKind": "개정",
     "raw": "장애인고용장려금 지급 업무처리규칙(규칙 제812호, 개정: 2024. 12. 6.)",
+    "docKey": "장애인고용장려금지급업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6170,6 +6491,7 @@
     "effectiveDate": "2024-12-06",
     "dateKind": "개정",
     "raw": "장애인고용 우수사업주 선정 및 우대조치에 관한 업무처리규칙(규칙 제811호, 개정: 2024. 12. 6.)",
+    "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6187,6 +6509,7 @@
     "effectiveDate": "2024-12-06",
     "dateKind": "개정",
     "raw": "윤리강령(규칙 제810호, 개정: 2024. 12. 6.)",
+    "docKey": "윤리강령",
     "status": "현행"
   },
   {
@@ -6204,6 +6527,7 @@
     "effectiveDate": "2024-12-06",
     "dateKind": "개정",
     "raw": "자문위원회 운영업무 처리규칙(규칙 제809호, 개정: 2024. 12. 6.)",
+    "docKey": "자문위원회운영업무처리규칙",
     "status": "현행"
   },
   {
@@ -6221,6 +6545,7 @@
     "effectiveDate": "2024-12-06",
     "dateKind": "개정",
     "raw": "경영공시 업무처리규칙(규칙 제808호, 개정: 2024. 12. 6.)",
+    "docKey": "경영공시업무처리규칙",
     "status": "현행"
   },
   {
@@ -6238,6 +6563,7 @@
     "effectiveDate": "2024-12-03",
     "dateKind": "개정",
     "raw": "임금피크제 운영규정 시행규칙(규칙 제807호, 개정: 2024. 12. 3.)",
+    "docKey": "임금피크제운영규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6255,6 +6581,7 @@
     "effectiveDate": "2024-12-03",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제806호, 개정: 2024. 12. 3.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6272,6 +6599,7 @@
     "effectiveDate": "2024-12-03",
     "dateKind": "개정",
     "raw": "자산관리규정 시행규칙(규칙 제805호, 개정: 2024. 12. 3.)",
+    "docKey": "자산관리규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6289,6 +6617,7 @@
     "effectiveDate": "2024-11-29",
     "dateKind": "개정",
     "raw": "특정업무직(운영지원직) 직원 관리규칙(규칙 제804호, 개정: 2024. 11. 29.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "연혁"
   },
   {
@@ -6306,6 +6635,7 @@
     "effectiveDate": "2024-11-12",
     "dateKind": "개정",
     "raw": "고용개발원 운영규칙(규칙 제803호, 개정: 2024. 11. 12.)",
+    "docKey": "고용개발원운영규칙",
     "status": "현행"
   },
   {
@@ -6323,6 +6653,7 @@
     "effectiveDate": "2024-10-17",
     "dateKind": "개정",
     "raw": "회계규정 시행규칙(규칙 제802호, 개정: 2024. 10. 17.)",
+    "docKey": "회계규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6340,6 +6671,7 @@
     "effectiveDate": "2024-10-17",
     "dateKind": "개정",
     "raw": "위임전결업무처리규칙(규칙 제801호, 개정: 2024. 10. 17.)",
+    "docKey": "위임전결업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6357,6 +6689,7 @@
     "effectiveDate": "2024-09-27",
     "dateKind": "개정",
     "raw": "임원 직무청렴계약에 관한 규칙(규칙 제800호, 개정: 2024. 9. 27.)",
+    "docKey": "임원직무청렴계약에관한규칙",
     "status": "현행"
   },
   {
@@ -6374,6 +6707,7 @@
     "effectiveDate": "2024-09-27",
     "dateKind": "개정",
     "raw": "한국장애인고용공단 임직원 행동강령(규칙 제799호, 개정: 2024. 9. 27.)",
+    "docKey": "한국장애인고용공단임직원행동강령",
     "status": "현행"
   },
   {
@@ -6391,6 +6725,7 @@
     "effectiveDate": "2024-09-27",
     "dateKind": "개정",
     "raw": "한국장애인고용공단 공직자의 이해충돌 방지제도 운영지침(규칙 제798호, 개정: 2024. 9. 27.)",
+    "docKey": "한국장애인고용공단공직자의이해충돌방지제도운영지침",
     "status": "현행"
   },
   {
@@ -6408,6 +6743,7 @@
     "effectiveDate": "2024-09-11",
     "dateKind": "개정",
     "raw": "직장운동경기부 운영규칙(규칙 제797호, 개정: 2024. 9. 11.)",
+    "docKey": "직장운동경기부운영규칙",
     "status": "현행"
   },
   {
@@ -6425,6 +6761,7 @@
     "effectiveDate": "2024-09-04",
     "dateKind": "개정",
     "raw": "복무규정(규정 제247호, 개정: 2024. 9. 4.)",
+    "docKey": "복무규정",
     "status": "연혁"
   },
   {
@@ -6442,6 +6779,7 @@
     "effectiveDate": "2024-09-02",
     "dateKind": "개정",
     "raw": "정보공개업무처리규칙(규칙 제796호, 개정: 2024. 9. 2.)",
+    "docKey": "정보공개업무처리규칙",
     "status": "현행"
   },
   {
@@ -6459,6 +6797,7 @@
     "effectiveDate": "2024-08-29",
     "dateKind": "개정",
     "raw": "직장 내 괴롭힘 예방 및 대응 업무처리규칙(규칙 제795호, 개정: 2024. 8. 29.)",
+    "docKey": "직장내괴롭힘예방대응업무처리규칙",
     "status": "현행"
   },
   {
@@ -6476,6 +6815,7 @@
     "effectiveDate": "2024-08-19",
     "dateKind": "개정",
     "raw": "영상정보처리기기 설치·운영규칙(규칙 제794호, 전부개정: 2024. 8. 19.)",
+    "docKey": "영상정보처리기기설치운영규칙",
     "status": "현행"
   },
   {
@@ -6493,6 +6833,7 @@
     "effectiveDate": "2024-08-19",
     "dateKind": "개정",
     "raw": "정보화 업무처리규칙(규칙 제793호, 전부개정: 2024. 8. 19.)",
+    "docKey": "정보화업무처리규칙",
     "status": "현행"
   },
   {
@@ -6510,6 +6851,7 @@
     "effectiveDate": "2024-08-12",
     "dateKind": "개정",
     "raw": "보조공학기기 지원 업무처리규칙(규칙 제792호, 개정: 2024. 8. 12.)",
+    "docKey": "보조공학기기지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6527,7 +6869,8 @@
     "effectiveDate": "2024-07-31",
     "dateKind": "개정",
     "raw": "연계고용 부담금감면 업무처리규칙(규칙 제791호, 개정: 2024. 7. 31.)",
-    "status": "현행"
+    "docKey": "연계고용부담금감면업무처리규칙",
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -6544,6 +6887,7 @@
     "effectiveDate": "2024-07-23",
     "dateKind": "개정",
     "raw": "성희롱·스토킹·2차 피해 방지 및 폭력 예방 업무처리규칙(규칙 제790호, 전부개정: 2024. 7. 23.)",
+    "docKey": "성희롱스토킹2차피해방지폭력예방업무처리규칙",
     "status": "현행"
   },
   {
@@ -6561,6 +6905,7 @@
     "effectiveDate": "2024-07-05",
     "dateKind": "시행",
     "raw": "자산관리규정(규정 제246호, 시행: 2024. 7. 5.)",
+    "docKey": "자산관리규정",
     "status": "연혁"
   },
   {
@@ -6578,6 +6923,7 @@
     "effectiveDate": "2024-07-05",
     "dateKind": "시행",
     "raw": "직제규정(규정 제245호, 시행: 2024. 7. 5.)",
+    "docKey": "직제규정",
     "status": "연혁"
   },
   {
@@ -6595,6 +6941,7 @@
     "effectiveDate": "2024-07-01",
     "dateKind": "개정",
     "raw": "회계감사인 선임위원회 운영규칙(규칙 제789호, 개정: 2024. 7. 1.)",
+    "docKey": "회계감사인선임위원회운영규칙",
     "status": "연혁"
   },
   {
@@ -6612,6 +6959,7 @@
     "effectiveDate": "2024-06-25",
     "dateKind": "개정",
     "raw": "성과관리 운영규칙(규칙 제788호, 개정: 2024. 6. 25.)",
+    "docKey": "성과관리운영규칙",
     "status": "현행"
   },
   {
@@ -6629,6 +6977,7 @@
     "effectiveDate": "2024-05-31",
     "dateKind": "시행",
     "raw": "특정업무직(사업지원직) 직원 관리규칙(규칙 제787호, 시행: 2024. 5. 31.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "연혁"
   },
   {
@@ -6646,6 +6995,7 @@
     "effectiveDate": "2024-05-16",
     "dateKind": "개정",
     "raw": "특정업무직(운영지원직) 직원 관리규칙(규칙 제786호, 개정: 2024. 5. 16.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "연혁"
   },
   {
@@ -6663,6 +7013,7 @@
     "effectiveDate": "2024-05-09",
     "dateKind": "시행",
     "raw": "장애인 직업능력평가사 자격 관리운영규칙(규칙 제785호, 시행: 2024. 5. 9.)",
+    "docKey": "장애인직업능력평가사자격관리운영규칙",
     "status": "연혁"
   },
   {
@@ -6680,6 +7031,7 @@
     "effectiveDate": "2024-05-08",
     "dateKind": "개정",
     "raw": "보수규정(규정 제244호, 개정: 2024. 5. 8.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -6697,6 +7049,7 @@
     "effectiveDate": "2024-04-01",
     "dateKind": "개정",
     "raw": "사업주 및 장애인에 대한 융자지원 업무처리규칙(규칙 제784호, 개정: 2024. 4. 1.)",
+    "docKey": "사업주장애인에대한융자지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6714,6 +7067,7 @@
     "effectiveDate": "2024-03-06",
     "dateKind": "개정",
     "raw": "장애인 취업지원 업무처리규칙(규칙 제783호, 개정: 2024. 3. 6.)",
+    "docKey": "장애인취업지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6731,6 +7085,7 @@
     "effectiveDate": "2024-03-04",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제782호, 개정: 2024. 3. 4.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6748,6 +7103,7 @@
     "effectiveDate": "2024-01-24",
     "dateKind": "개정",
     "raw": "위임전결업무처리규칙(규칙 제781호, 개정: 2024. 1. 24.)",
+    "docKey": "위임전결업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6765,6 +7121,7 @@
     "effectiveDate": "2024-01-24",
     "dateKind": "개정",
     "raw": "보조공학기기 지원 업무처리규칙(규칙 제780호, 개정: 2024. 1. 24.)",
+    "docKey": "보조공학기기지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6782,6 +7139,7 @@
     "effectiveDate": "2023-12-28",
     "dateKind": "개정",
     "raw": "보수규정 시행규칙(규칙 제779호, 개정: 2023. 12. 28.)",
+    "docKey": "보수규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6799,6 +7157,7 @@
     "effectiveDate": "2023-12-29",
     "dateKind": "개정",
     "raw": "보수규정(규정 제243호, 개정: 2023. 12. 29.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -6816,6 +7175,7 @@
     "effectiveDate": "2024-01-01",
     "dateKind": "시행",
     "raw": "고용부담금 적용·징수관리 업무처리규칙(규칙 제778호, 시행: 2024. 1. 1.)",
+    "docKey": "고용부담금적용징수관리업무처리규칙",
     "status": "연혁"
   },
   {
@@ -6833,6 +7193,7 @@
     "effectiveDate": "2023-12-28",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제777호, 개정: 2023. 12. 28.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6850,6 +7211,7 @@
     "effectiveDate": "2024-01-01",
     "dateKind": "시행",
     "raw": "특정업무직(운영지원직) 직원 관리규칙(규칙 제776호, 시행: 2024. 1. 1.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "연혁"
   },
   {
@@ -6867,6 +7229,7 @@
     "effectiveDate": "2024-01-01",
     "dateKind": "시행",
     "raw": "특정업무직(사업지원직) 직원 관리규칙(규칙 제775호, 시행: 2024. 1. 1.)",
+    "docKey": "특정업무직직원관리규칙",
     "status": "연혁"
   },
   {
@@ -6884,6 +7247,7 @@
     "effectiveDate": "2024-01-01",
     "dateKind": "시행",
     "raw": "기간제 근로자 관리규칙(규칙 제774호, 시행: 2024. 1. 1.)",
+    "docKey": "기간제근로자관리규칙",
     "status": "연혁"
   },
   {
@@ -6901,6 +7265,7 @@
     "effectiveDate": "2024-01-01",
     "dateKind": "시행",
     "raw": "직제규정 시행규칙(규칙 제773호, 시행: 2024. 1. 1.)",
+    "docKey": "직제규정시행규칙",
     "status": "연혁"
   },
   {
@@ -6918,6 +7283,7 @@
     "effectiveDate": "2023-12-26",
     "dateKind": "개정",
     "raw": "장애인 직업능력개발훈련 지원 업무처리규칙(규칙 제772호, 개정: 2023. 12. 26.)",
+    "docKey": "장애인직업능력개발훈련지원업무처리규칙",
     "status": "현행"
   },
   {
@@ -6935,6 +7301,7 @@
     "effectiveDate": "2024-01-01",
     "dateKind": "시행",
     "raw": "직제규정(규정 제242호, 시행: 2024. 1. 1.)",
+    "docKey": "직제규정",
     "status": "연혁"
   },
   {
@@ -6952,6 +7319,7 @@
     "effectiveDate": "2023-12-26",
     "dateKind": "개정",
     "raw": "감사규정(규정 제241호, 개정: 2023. 12. 26.)",
+    "docKey": "감사규정",
     "status": "현행"
   },
   {
@@ -6969,6 +7337,7 @@
     "effectiveDate": "2023-12-26",
     "dateKind": "개정",
     "raw": "복무규정(규정 제240호, 개정: 2023. 12. 26.)",
+    "docKey": "복무규정",
     "status": "연혁"
   },
   {
@@ -6986,6 +7355,7 @@
     "effectiveDate": "2023-12-19",
     "dateKind": "개정",
     "raw": "안전보건관리규정 시행규칙(규칙 제771호, 개정: 2023. 12. 19.)",
+    "docKey": "안전보건관리규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7003,6 +7373,7 @@
     "effectiveDate": "2023-12-11",
     "dateKind": "개정",
     "raw": "직업능력개발원 및 훈련센터 운영 업무처리 규칙(제770호, 개정: 2023. 12. 11.)",
+    "docKey": "직업능력개발원훈련센터운영업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7020,6 +7391,7 @@
     "effectiveDate": "2023-11-16",
     "dateKind": "개정",
     "raw": "회계규정 시행규칙(규칙 제769호, 개정: 2023. 11. 16.)",
+    "docKey": "회계규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7037,6 +7409,7 @@
     "effectiveDate": "2023-10-17",
     "dateKind": "개정",
     "raw": "자산관리규정 시행규칙(규칙 제767호, 개정: 2023. 10. 17.)",
+    "docKey": "자산관리규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7054,6 +7427,7 @@
     "effectiveDate": "2023-10-06",
     "dateKind": "개정",
     "raw": "장애인 취업지원 업무처리규칙(규칙 제766호, 개정: 2023. 10. 6.)",
+    "docKey": "장애인취업지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7071,6 +7445,7 @@
     "effectiveDate": "2023-09-27",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제765호, 개정: 2023. 9. 27.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7088,6 +7463,7 @@
     "effectiveDate": "2023-09-25",
     "dateKind": "개정",
     "raw": "한국장애인고용공단 공직자의 이해충돌 방지제도 운영지침(규칙 제764호, 개정: 2023. 9. 25.)",
+    "docKey": "한국장애인고용공단공직자의이해충돌방지제도운영지침",
     "status": "연혁"
   },
   {
@@ -7105,6 +7481,7 @@
     "effectiveDate": "2023-09-25",
     "dateKind": "개정",
     "raw": "한국장애인고용공단 임직원 행동강령(규칙 제763호, 개정: 2023. 9. 25.)",
+    "docKey": "한국장애인고용공단임직원행동강령",
     "status": "연혁"
   },
   {
@@ -7122,6 +7499,7 @@
     "effectiveDate": "2023-09-25",
     "dateKind": "개정",
     "raw": "감사규정시행규칙(규칙 제762호, 개정: 2023. 9. 25.)",
+    "docKey": "감사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7139,6 +7517,7 @@
     "effectiveDate": "2023-09-18",
     "dateKind": "개정",
     "raw": "성과연봉제 시행규칙(규칙 제761호, 개정: 2023. 9. 18.)",
+    "docKey": "성과연봉제시행규칙",
     "status": "연혁"
   },
   {
@@ -7156,6 +7535,7 @@
     "effectiveDate": "2023-09-18",
     "dateKind": "개정",
     "raw": "보수규정 시행규칙(규칙 제760호, 개정: 2023. 9. 18.)",
+    "docKey": "보수규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7173,6 +7553,7 @@
     "effectiveDate": "2023-09-04",
     "dateKind": "개정",
     "raw": "여비규칙(규칙 제759호, 개정: 2023. 9. 4.)",
+    "docKey": "여비규칙",
     "status": "연혁"
   },
   {
@@ -7190,6 +7571,7 @@
     "effectiveDate": "2023-08-22",
     "dateKind": "개정",
     "raw": "보조공학기기 지원 업무처리규칙(규칙 제758호, 개정: 2023. 8. 22.)",
+    "docKey": "보조공학기기지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7207,6 +7589,7 @@
     "effectiveDate": "2023-08-01",
     "dateKind": "개정",
     "raw": "보수규정(규정 제239호, 개정: 2023. 8. 1.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -7224,6 +7607,7 @@
     "effectiveDate": "2023-06-22",
     "dateKind": "개정",
     "raw": "보수규정(규정 제238호, 개정: 2023. 6. 22.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -7241,6 +7625,7 @@
     "effectiveDate": "2023-06-22",
     "dateKind": "개정",
     "raw": "복무규정(규정 제237호, 개정: 2023. 6. 22.)",
+    "docKey": "복무규정",
     "status": "연혁"
   },
   {
@@ -7258,6 +7643,7 @@
     "effectiveDate": "2023-06-22",
     "dateKind": "개정",
     "raw": "인사규정(규정 제236호, 개정: 2023. 6. 22.)",
+    "docKey": "인사규정",
     "status": "연혁"
   },
   {
@@ -7275,6 +7661,7 @@
     "effectiveDate": "2023-05-30",
     "dateKind": "개정",
     "raw": "임금피크제 운영규정 시행규칙(규칙 제757호, 개정: 2023. 5. 30.)",
+    "docKey": "임금피크제운영규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7292,6 +7679,7 @@
     "effectiveDate": "2023-05-03",
     "dateKind": "개정",
     "raw": "고용개발원 운영규칙(규칙 제756호, 개정: 2023. 5. 3.)",
+    "docKey": "고용개발원운영규칙",
     "status": "연혁"
   },
   {
@@ -7309,6 +7697,7 @@
     "effectiveDate": "2023-04-10",
     "dateKind": "개정",
     "raw": "장애인 직업생활 상담원 양성 및 연수 규칙(규칙 제755호, 개정: 2023. 4. 10.)",
+    "docKey": "장애인직업생활상담원양성연수규칙",
     "status": "연혁"
   },
   {
@@ -7326,6 +7715,7 @@
     "effectiveDate": "2023-04-06",
     "dateKind": "개정",
     "raw": "기업성장응답센터 운영규칙(규칙 제754호, 개정: 2023. 4. 6.)",
+    "docKey": "기업성장응답센터운영규칙",
     "status": "현행"
   },
   {
@@ -7343,6 +7733,7 @@
     "effectiveDate": "2023-03-16",
     "dateKind": "개정",
     "raw": "장애인고용 우수사업주 선정 및 우대조치에 관한 업무처리규칙(규칙 제753호, 개정: 2023. 3. 16.)",
+    "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7360,6 +7751,7 @@
     "effectiveDate": "2023-03-14",
     "dateKind": "제정",
     "raw": "직장운동경기부 운영규칙(규칙 제752호, 제정: 2023. 3. 14.)",
+    "docKey": "직장운동경기부운영규칙",
     "status": "연혁"
   },
   {
@@ -7377,6 +7769,7 @@
     "effectiveDate": "2023-02-22",
     "dateKind": "개정",
     "raw": "위임전결업무처리규칙(규칙 제751호, 개정: 2023. 2. 22.)",
+    "docKey": "위임전결업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7394,6 +7787,7 @@
     "effectiveDate": "2023-02-16",
     "dateKind": "제정",
     "raw": "중증장애인 근로자 출·퇴근 교통비 지원 업무처리규칙(규칙 제750호, 제정: 2023. 2. 16.)",
+    "docKey": "중증장애인근로자출퇴근교통비지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7411,6 +7805,7 @@
     "effectiveDate": "2023-02-08",
     "dateKind": "개정",
     "raw": "사업주 및 장애인에 대한 융자지원 업무처리규칙(규칙 제749호, 개정: 2023. 2. 8.)",
+    "docKey": "사업주장애인에대한융자지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7428,6 +7823,7 @@
     "effectiveDate": "2023-01-19",
     "dateKind": "개정",
     "raw": "기간제 및 특정업무직 근로자 관리규칙(규칙 제748호, 개정: 2023. 1. 19.)",
+    "docKey": "기간제특정업무직근로자관리규칙",
     "status": "현행"
   },
   {
@@ -7445,6 +7841,7 @@
     "effectiveDate": "2023-01-18",
     "dateKind": "시행",
     "raw": "직제규정 시행규칙(규칙 제747호, 시행: 2023. 1. 18.)",
+    "docKey": "직제규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7462,6 +7859,7 @@
     "effectiveDate": "2023-01-13",
     "dateKind": "시행",
     "raw": "직제규정(규정 제235호, 시행: 2023. 1. 13.)",
+    "docKey": "직제규정",
     "status": "연혁"
   },
   {
@@ -7479,6 +7877,7 @@
     "effectiveDate": "2022-12-28",
     "dateKind": "시행",
     "raw": "보수규정(규정 제233호, 시행: 2022. 12. 28.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -7496,6 +7895,7 @@
     "effectiveDate": "2022-12-28",
     "dateKind": "시행",
     "raw": "퇴직금규정(규정 제234호, 시행: 2022. 12. 28.)",
+    "docKey": "퇴직금규정",
     "status": "현행"
   },
   {
@@ -7513,6 +7913,7 @@
     "effectiveDate": "2023-01-01",
     "dateKind": "시행",
     "raw": "보수규정 시행규칙(규칙 제746호, 시행: 2023. 1. 1.)",
+    "docKey": "보수규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7530,6 +7931,7 @@
     "effectiveDate": "2022-12-21",
     "dateKind": "제정",
     "raw": "보조공학기기 지원 업무처리규칙(제745호, 제정: 2022. 12. 21.)",
+    "docKey": "보조공학기기지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7547,6 +7949,7 @@
     "effectiveDate": "2022-12-19",
     "dateKind": "제정",
     "raw": "근로지원인 지원 업무처리규칙(제744호, 제정: 2022. 12. 19.)",
+    "docKey": "근로지원인지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7564,6 +7967,7 @@
     "effectiveDate": "2022-11-25",
     "dateKind": "개정",
     "raw": "장애인고용장려금 지급 업무처리규칙(제743호, 개정: 2022. 11. 25.)",
+    "docKey": "장애인고용장려금지급업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7581,6 +7985,7 @@
     "effectiveDate": "2022-11-23",
     "dateKind": "개정",
     "raw": "직업능력개발원 및 훈련센터 운영 업무처리 규칙(제742호, 개정: 2022. 11. 23.)",
+    "docKey": "직업능력개발원훈련센터운영업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7598,6 +8003,7 @@
     "effectiveDate": "2022-11-17",
     "dateKind": "개정",
     "raw": "안전보건관리규정 시행규칙(제740호, 개정: 2022. 11. 17.)",
+    "docKey": "안전보건관리규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7615,6 +8021,7 @@
     "effectiveDate": "2022-11-03",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(제739호, 개정: 2022. 11. 3.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7632,6 +8039,7 @@
     "effectiveDate": "2022-10-27",
     "dateKind": "개정",
     "raw": "보조공학기기 지원 업무처리규칙(제738호, 개정: 2022. 10. 27.)",
+    "docKey": "보조공학기기지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7649,6 +8057,7 @@
     "effectiveDate": "2022-10-25",
     "dateKind": "개정",
     "raw": "회계규정 시행규칙(제737호, 개정: 2022. 10. 25.)",
+    "docKey": "회계규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7666,7 +8075,8 @@
     "effectiveDate": "2022-10-11",
     "dateKind": "개정",
     "raw": "부패행위 신고 접수처리 및 신고자 보호 등에 관한 운영규칙(제736호, 개정: 2022. 10. 11.)",
-    "status": "현행"
+    "docKey": "부패행위신고접수처리신고자보호등에관한운영규칙",
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -7683,6 +8093,7 @@
     "effectiveDate": "2022-10-11",
     "dateKind": "개정",
     "raw": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙(제735호, 개정: 2022. 10. 11.)",
+    "docKey": "공익신고처리신고자보호등에관한운영규칙",
     "status": "연혁"
   },
   {
@@ -7700,6 +8111,7 @@
     "effectiveDate": "2022-09-28",
     "dateKind": "개정",
     "raw": "신분증규칙(제734호, 개정: 2022. 9. 28.)",
+    "docKey": "신분증규칙",
     "status": "현행"
   },
   {
@@ -7717,6 +8129,7 @@
     "effectiveDate": "2022-09-05",
     "dateKind": "개정",
     "raw": "한국장애인고용공단 임직원 행동강령(제733호, 개정: 2022. 9. 5.)",
+    "docKey": "한국장애인고용공단임직원행동강령",
     "status": "연혁"
   },
   {
@@ -7734,6 +8147,7 @@
     "effectiveDate": "2022-07-26",
     "dateKind": "개정",
     "raw": "직제규정 시행규칙(제732호, 개정: 2022. 7. 26.)",
+    "docKey": "직제규정시행규칙",
     "status": "연혁"
   },
   {
@@ -7751,6 +8165,7 @@
     "effectiveDate": "2022-07-01",
     "dateKind": "개정",
     "raw": "기간제 및 특정업무직 근로자 관리규칙(제731호, 개정: 2022. 7. 1.)",
+    "docKey": "기간제특정업무직근로자관리규칙",
     "status": "연혁"
   },
   {
@@ -7768,6 +8183,7 @@
     "effectiveDate": "2022-06-23",
     "dateKind": "시행",
     "raw": "직제규정(규정 제232호, 개정: 2022. 6. 23., 시행: 2022. 7. 1.)",
+    "docKey": "직제규정",
     "status": "연혁"
   },
   {
@@ -7785,6 +8201,7 @@
     "effectiveDate": "2022-05-25",
     "dateKind": "개정",
     "raw": "소송업무처리규칙(제730호, 개정: 2022. 5. 25.)",
+    "docKey": "소송업무처리규칙",
     "status": "현행"
   },
   {
@@ -7802,6 +8219,7 @@
     "effectiveDate": "2022-05-18",
     "dateKind": "제정",
     "raw": "한국장애인고용공단 공직자의 이해충돌 방지제도 운영지침(제729호, 제정: 2022. 5. 18.)",
+    "docKey": "한국장애인고용공단공직자의이해충돌방지제도운영지침",
     "status": "연혁"
   },
   {
@@ -7819,6 +8237,7 @@
     "effectiveDate": "2022-05-11",
     "dateKind": "개정",
     "raw": "보조공학기기 지원 업무처리규칙(제727호, 개정: 2022. 5. 11.)",
+    "docKey": "보조공학기기지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7836,6 +8255,7 @@
     "effectiveDate": "2022-05-04",
     "dateKind": "개정",
     "raw": "안전사고에 관한 임원 문책규정(규정 제230호, 개정: 2022. 5. 4.)",
+    "docKey": "안전사고에관한임원문책규정",
     "status": "현행"
   },
   {
@@ -7853,6 +8273,7 @@
     "effectiveDate": "2022-05-04",
     "dateKind": "개정",
     "raw": "인사규정(규정 제231호, 개정: 2022. 5. 4.)",
+    "docKey": "인사규정",
     "status": "연혁"
   },
   {
@@ -7870,6 +8291,7 @@
     "effectiveDate": "2022-03-29",
     "dateKind": "개정",
     "raw": "장애인 직업능력개발훈련 지원 업무처리규칙(제726호, 개정: 2022. 3. 29.)",
+    "docKey": "장애인직업능력개발훈련지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7887,6 +8309,7 @@
     "effectiveDate": "2022-03-24",
     "dateKind": "개정",
     "raw": "장애인 표준사업장에 대한 지원업무 처리규칙(제725호, 개정: 2022. 3. 24.)",
+    "docKey": "장애인표준사업장에대한지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7904,6 +8327,7 @@
     "effectiveDate": "2022-03-02",
     "dateKind": "개정",
     "raw": "장애인 직업능력개발훈련 지원 업무처리규칙(제724호, 개정: 2022. 3. 2.)",
+    "docKey": "장애인직업능력개발훈련지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7921,6 +8345,7 @@
     "effectiveDate": "2022-02-21",
     "dateKind": "시행",
     "raw": "장애인 기능경기대회 업무처리규칙(제723호, 시행: 2022. 2. 21.)",
+    "docKey": "장애인기능경기대회업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7938,6 +8363,7 @@
     "effectiveDate": "2022-01-25",
     "dateKind": "개정",
     "raw": "기간제 및 특정업무직 근로자 관리규칙(제722호, 개정: 2022. 1. 25.)",
+    "docKey": "기간제특정업무직근로자관리규칙",
     "status": "연혁"
   },
   {
@@ -7955,6 +8381,7 @@
     "effectiveDate": "2022-01-24",
     "dateKind": "개정",
     "raw": "위임전결업무처리규칙(제721호, 개정: 2022. 1. 24.)",
+    "docKey": "위임전결업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7972,6 +8399,7 @@
     "effectiveDate": "2021-12-30",
     "dateKind": "개정",
     "raw": "장애인 표준사업장에 대한 지원업무 처리규칙(제712호, 개정: 2021. 12. 30.)",
+    "docKey": "장애인표준사업장에대한지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -7989,7 +8417,8 @@
     "effectiveDate": "2021-12-30",
     "dateKind": "개정",
     "raw": "사업주 및 장애인에 대한 융자·지원 업무처리규칙(제713호, 개정: 2021. 12. 30.)",
-    "status": "현행"
+    "docKey": "사업주장애인에대한융자지원업무처리규칙",
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -8006,6 +8435,7 @@
     "effectiveDate": "2021-12-30",
     "dateKind": "개정",
     "raw": "장애인 직업능력개발훈련 지원 업무처리규칙(제714호, 개정: 2021. 12. 30.)",
+    "docKey": "장애인직업능력개발훈련지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -8023,6 +8453,7 @@
     "effectiveDate": "2021-12-30",
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(제715호, 개정: 2021. 12. 30.)",
+    "docKey": "인사규정시행규칙",
     "status": "연혁"
   },
   {
@@ -8040,6 +8471,7 @@
     "effectiveDate": "2021-12-30",
     "dateKind": "개정",
     "raw": "보수규정 시행규칙(제716호, 개정: 2021. 12. 30.)",
+    "docKey": "보수규정시행규칙",
     "status": "연혁"
   },
   {
@@ -8057,6 +8489,7 @@
     "effectiveDate": "2021-12-30",
     "dateKind": "개정",
     "raw": "장애물 없는 생활환경 인증 등에 관한 업무처리규칙(제717호, 개정: 2021. 12. 30.)",
+    "docKey": "장애물없는생활환경인증등에관한업무처리규칙",
     "status": "현행"
   }
 ]
