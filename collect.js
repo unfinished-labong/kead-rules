@@ -60,12 +60,42 @@ export function parseTitle(raw) {
   return { docName, lawNo, effectiveDate, dateKind, raw: title };
 }
 
+
+// ── 문서명 정규화 ────────────────────────────────────────────
+// 같은 규정인데 띄어쓰기·가운뎃점·연도·호수 표기가 달라 다른 그룹이 되는 것을 막는다.
+export function normalizeDocName(name) {
+  let s = name;
+  s = s.replace(/[「」『』《》〈〉\[\]【】]/g, ' ');
+  s = s.replace(/\([^)]*\)/g, ' ');
+  s = s.replace(/[·ㆍ‧∙・,]/g, '');
+  s = s.replace(/(19|20)\d{2}\s*년도?/g, ' ');
+  s = s.replace(/`?\d{2}\s*년/g, ' ');
+  s = s.replace(/제?\s*\d{4}\s*-\s*\d+\s*호/g, ' ');
+  s = s.replace(/제?\s*\d+\s*호/g, ' ');
+  s = s.replace(/(전문개정|전부개정|일부개정)/g, ' ');   // '시행'은 시행규칙·시행령과 충돌하므로 건드리지 않는다
+  s = s.replace(/\d{4,8}/g, ' ');                          // 제목 꼬리에 붙은 날짜숫자
+  s = s.replace(/[^가-힣A-Za-z0-9]/g, '');                 // 남은 구두점 정리
+  s = s.replace(/(고용노동부|노동부)?(고시|훈령|예규)$/, '');
+  s = s.replace(/및/g, '');
+  return ALIAS[s] ?? s;
+}
+
+// 정규화로도 못 합쳐지는 것들. 왼쪽을 오른쪽으로 취급한다.
+// 첫 실행 후 manifest.json의 groupPreview를 보고 필요한 만큼 추가하면 된다.
+export const ALIAS = {
+  '장애인고용촉진직업재활법시행규': '장애인고용촉진직업재활법시행규칙',
+  '부담기초액': '장애인고용부담기초액',
+  '장애인고용부담금의부담기초액': '장애인고용부담기초액',
+  '연계고용에따른부담금감면기준': '연계고용부담금감면기준',
+};
+
 // ── 버전 판정 ────────────────────────────────────────────────
 // 같은 docName 그룹에서 시행일 기준으로 현행 / 시행예정 / 연혁을 가른다.
 export function classifyVersions(items, today = new Date().toISOString().slice(0, 10)) {
   const groups = new Map();
   for (const it of items) {
-    const key = it.docName;
+    const key = normalizeDocName(it.docName);
+    it.docKey = key;
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(it);
   }
@@ -189,6 +219,16 @@ async function main() {
     byStatus: items.reduce((acc, i) => ((acc[i.status ?? '미분류'] = (acc[i.status ?? '미분류'] || 0) + 1), acc), {}),
     noAttachment: items.filter((i) => i.files.length === 0).map((i) => i.raw),
     unparsedTitle: items.filter((i) => i.lawNo === null && i.effectiveDate === null).map((i) => i.raw),
+    groupPreview: Object.fromEntries(
+      Object.entries(
+        items.reduce((acc, i) => {
+          (acc[i.docKey] ??= new Set()).add(i.docName);
+          return acc;
+        }, {})
+      )
+        .map(([k, v]) => [k, [...v]])
+        .filter(([, v]) => v.length > 1)
+    ),
   };
 
   await mkdir('data', { recursive: true });
