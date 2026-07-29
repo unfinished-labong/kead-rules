@@ -11,9 +11,9 @@
   "fileKey": "B4D64E82F9BF51630709",
   "fileUrl": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=B4D64E82F9BF51630709",
   "sha256": "bfc1429b6dc19453c5332cfe836f5d9c479fb04101bb97f29dd5147ff1616aee",
-  "articleCount": 3,
+  "articleCount": 7,
   "supplementCount": 0,
-  "needsOriginalCount": 3,
+  "needsOriginalCount": 2,
   "articles": [
     {
       "section": "본칙",
@@ -22,7 +22,7 @@
       "articleId": null,
       "title": "머리말",
       "breadcrumb": [],
-      "text": "**신분증규칙**",
+      "text": "신분증규칙",
       "needsOriginal": false
     },
     {
@@ -48,11 +48,12 @@
     {
       "section": "본칙",
       "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
+      "articleNo": "1",
+      "articleId": "제1조",
+      "title": "목적",
       "breadcrumb": [],
-      "text": "**제1조(목적)** 이 규칙은 한국장애인고용공단(이하 공단) 임직원으로서의 신분을 표시하는 신분증의 규격, 제식 및 발급 등에 관하여 필요한 사항을 규정함을 목적으로 한다.[개정 2022. 09. 28.]",
+      "page": 1,
+      "text": "제1조(목적) 이 규칙은 한국장애인고용공단(이하 공단) 임직원으로서의 신분을 표시하는 신분증의 규격, 제식 및 발급 등에 관하여 필요한 사항을 규정함을 목적으로 한다.[개정 2022. 09. 28.]",
       "needsOriginal": false
     },
     {
@@ -63,7 +64,20 @@
       "title": "적용범위",
       "breadcrumb": [],
       "page": 1,
-      "text": "제2조(적용범위) 이 규칙은 다른 규정에 특별한 규정이 없는 한 모든 임직원에게 적용한다.\n**제3조(신분증의 규격, 제식 및 활용)** ① 신분증의 규격·제식 및 기재사항 등은 별표1과 같다.\n② 신분증을 패용할 때에는 목에 걸어야 한다.\n③ 공단 임직원들의 편의증진을 위하여 출·퇴근관리시스템, 청사 출입통제시스템과 연계하여 활용하거나 구내식당결제 용도 등으로 활용할 수 있다.\n[제목개정 2022. 09. 28.]\n[전문개정 2022. 09. 28.]",
+      "text": "제2조(적용범위) 이 규칙은 다른 규정에 특별한 규정이 없는 한 모든 임직원에게 적용한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "3",
+      "articleId": "제3조",
+      "title": "신분증의 규격, 제식 및 활용",
+      "breadcrumb": [
+        "제2조(적용범위) 이 규칙은 다른 규정에 특별한 규정이 없는 한 모든 임직원에게 적용한다."
+      ],
+      "page": 1,
+      "text": "제3조(신분증의 규격, 제식 및 활용) ① 신분증의 규격·제식 및 기재사항 등은 별표1과 같다.\n② 신분증을 패용할 때에는 목에 걸어야 한다.\n③ 공단 임직원들의 편의증진을 위하여 출·퇴근관리시스템, 청사 출입통제시스템과 연계하여 활용하거나 구내식당결제 용도 등으로 활용할 수 있다.\n[제목개정 2022. 09. 28.]\n[전문개정 2022. 09. 28.]",
       "needsOriginal": true
     },
     {
@@ -74,7 +88,34 @@
       "title": "신분증의 발급권자",
       "breadcrumb": [],
       "page": 1,
-      "text": "제4조(신분증의 발급권자) 모든 임․직원에 대한 신분증은 이사장이 발급한다.\n**제5조(신분증의 휴대 및 패용)** ① 임․직원은 항시 신분증을 휴대하여야 하며 업무집행에 있어서 그 제시를 요구받았을 때에는 이를 제시하여야 한다.\n② 임․직원은 본부 및 소속기관 내에서 항시 신분증을 패용하고 근무하여야 한다.\n③ 소속기관의 장은 다음 각호의 1에 해당하는 때에는 그 소속직원 또는 당해 기관이나 통제구역을 출입하는 직원에게 당해 기관이나 통제구역 내에서의 패용을 명하거나 요구할 수 있다.\n1. 출입제한이나 보안 유지상 필요할 때\n2. 직무수행상 직원의 신분을 명백히 할 필요가 있을 때\n**제6조(신분증의 발급 및 재발급)** ① 신분증 발급권자(이하 “발급권자”라 한다)가 신분증을 발급할 때에는 별지 제1호 서식에 의한 신분증 발급대장(이하 “대장”이라 한다)에 등록한 후 발행하여야 하며, 대장은 전자적으로 관리할 수 있다.<개정 2022. 09. 28.>\n② 신분증에 첨부한 사진은 발급일전 3월 이내에 촬영한 것이어야 한다.\n③ 신분증의 분실, 파손 또는 기재사항의 변동 등으로 재발급 받고자 하는 직원은 그 사유가 발생한 날로부터 5일 이내에 별지 제2호 서식에 의한 신분증 재발급 신청서를 발급권자에게 제출하여야 한다. 다만, 직렬의 변동으로 재발급 하는 경우에는 그러하지 아니한다.<개정 2022. 09. 28.>",
+      "text": "제4조(신분증의 발급권자) 모든 임․직원에 대한 신분증은 이사장이 발급한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "5",
+      "articleId": "제5조",
+      "title": "신분증의 휴대 및 패용",
+      "breadcrumb": [
+        "제4조(신분증의 발급권자) 모든 임․직원에 대한 신분증은 이사장이 발급한다."
+      ],
+      "page": 1,
+      "text": "제5조(신분증의 휴대 및 패용) ① 임․직원은 항시 신분증을 휴대하여야 하며 업무집행에 있어서 그 제시를 요구받았을 때에는 이를 제시하여야 한다.\n② 임․직원은 본부 및 소속기관 내에서 항시 신분증을 패용하고 근무하여야 한다.\n③ 소속기관의 장은 다음 각호의 1에 해당하는 때에는 그 소속직원 또는 당해 기관이나 통제구역을 출입하는 직원에게 당해 기관이나 통제구역 내에서의 패용을 명하거나 요구할 수 있다.\n1. 출입제한이나 보안 유지상 필요할 때\n2. 직무수행상 직원의 신분을 명백히 할 필요가 있을 때",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "6",
+      "articleId": "제6조",
+      "title": "신분증의 발급 및 재발급",
+      "breadcrumb": [
+        "제4조(신분증의 발급권자) 모든 임․직원에 대한 신분증은 이사장이 발급한다.",
+        "2. 직무수행상 직원의 신분을 명백히 할 필요가 있을 때"
+      ],
+      "page": 1,
+      "text": "제6조(신분증의 발급 및 재발급) ① 신분증 발급권자(이하 “발급권자”라 한다)가 신분증을 발급할 때에는 별지 제1호 서식에 의한 신분증 발급대장(이하 “대장”이라 한다)에 등록한 후 발행하여야 하며, 대장은 전자적으로 관리할 수 있다.<개정 2022. 09. 28.>\n② 신분증에 첨부한 사진은 발급일전 3월 이내에 촬영한 것이어야 한다.\n③ 신분증의 분실, 파손 또는 기재사항의 변동 등으로 재발급 받고자 하는 직원은 그 사유가 발생한 날로부터 5일 이내에 별지 제2호 서식에 의한 신분증 재발급 신청서를 발급권자에게 제출하여야 한다. 다만, 직렬의 변동으로 재발급 하는 경우에는 그러하지 아니한다.<개정 2022. 09. 28.>",
       "needsOriginal": true
     },
     {
@@ -85,8 +126,578 @@
       "title": "신분증의 반납",
       "breadcrumb": [],
       "page": 1,
-      "text": "제7조(신분증의 반납) ① 임․직원이 퇴직할 때에는 발급권자에게 신분증을 반납하여야 한다.\n② 발급권자는 임․직원이 인사규정 제44조에 의하여 휴직을 하게 되는 때에는 신분증을 회수하여 보관하여야 하며, 그 사유가 소멸된 때에는 이를 본인에게 반환하여야 한다.<개정 2022. 09. 28.>\n③ 제1항 및 제2항의 규정에 의하여 신분증을 반납하거나 반환한 때에는 그 사실을 신분증 발급대장에 기재하여야 한다.\n④ 제1항의 규정에 의하여 반납 받은 신분증은 지체 없이 파기하여야 한다.\n**부  칙**\n이 규칙은 2002. 11. 6. 부터 시행한다.\n**부  칙<규칙 제 734호, 2022. 09. 28.>**\n이 규칙은 2022. 09. 28. 부터 시행한다.\n(별표 1)[개정 2022. 09. 28.]\n**신분증 규격, 제식 및 기재사항**\n**(앞면)**\n![image](image_001.bmp)\n<table>\n<tr><th>구분</th><th>글자크기</th><th>기재방식</th></tr>\n<tr><td>재질</td><td colspan=\"2\">pvc</td></tr>\n<tr><td>크기</td><td colspan=\"2\">54*86mm</td></tr>\n<tr><td>공단로고</td><td colspan=\"2\">37*9mm</td></tr>\n<tr><td>사진</td><td colspan=\"2\">25*33mm</td></tr>\n<tr><td rowspan=\"2\">한글</td><td>16pt</td><td rowspan=\"2\">사진아래 중간정렬</td></tr>\n<tr><td>kopub bold</td></tr>\n</table>\n**(뒷면)**\n![image](image_002.bmp)\n<table>\n<tr><th>구분</th><th>글자크기</th><th>기재방식</th></tr>\n<tr><td rowspan=\"2\">직렬사번</td><td>12pt</td><td rowspan=\"2\">굵게/보통</td></tr>\n<tr><td>kopub light</td></tr>\n<tr><td rowspan=\"2\">상기인</td><td colspan=\"2\">7pt</td></tr>\n<tr><td colspan=\"2\">kopub bold</td></tr>\n<tr><td rowspan=\"2\">이사장</td><td colspan=\"2\">10pt</td></tr>\n<tr><td colspan=\"2\">kopubbatang light</td></tr>\n<tr><td>중앙로고</td><td colspan=\"2\">28*33mm</td></tr>\n<tr><td>하단로고</td><td colspan=\"2\">38*4.5mm</td></tr>\n<tr><td>직인</td><td colspan=\"2\">9*9mm</td></tr>\n</table>\n(별지 제1호 서식)[개정 2022. 09. 28.]\n**신  분  증  발  급  대  장**\n| 순번 | 발급<br>년월일 | 사원번호 | 소속 | 직급<br>(직위) | 성명 | 생년월일 | 발급사유 | 회수․반납일 | 비고 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |\n(별지 제2호 서식)[개정 2022. 09. 28.]\n신분증 재발급 신청서\n1. 소속 및 직위 :\n2. 직 급 :\n3. 성 명 :\n4. 생 년 월 일 :\n5. 재발급 신청사유(분실한 때에는 6하원칙에 의거 작성) :\n붙 임 : 사진 1매(3cm×4cm)\n위와 같이 신분증의 재발급을 신청합니다.\n20 . .\n신청인 (인)\n위 사실을 확인합니다.\n소속부서장 (인)\n**한국장애인고용공단 이사장 귀하**",
-      "needsOriginal": true
+      "text": "제7조(신분증의 반납) ① 임․직원이 퇴직할 때에는 발급권자에게 신분증을 반납하여야 한다.\n② 발급권자는 임․직원이 인사규정 제44조에 의하여 휴직을 하게 되는 때에는 신분증을 회수하여 보관하여야 하며, 그 사유가 소멸된 때에는 이를 본인에게 반환하여야 한다.<개정 2022. 09. 28.>\n③ 제1항 및 제2항의 규정에 의하여 신분증을 반납하거나 반환한 때에는 그 사실을 신분증 발급대장에 기재하여야 한다.\n④ 제1항의 규정에 의하여 반납 받은 신분증은 지체 없이 파기하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2002. 11. 6. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2022. 09. 28. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "(별표 1)[개정 2022. 09. 28.]",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "신분증 규격, 제식 및 기재사항",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "(앞면)",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "![image](image_001.bmp)",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<table>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><th>구분</th><th>글자크기</th><th>기재방식</th></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td>재질</td><td colspan=\"2\">pvc</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td>크기</td><td colspan=\"2\">54*86mm</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td>공단로고</td><td colspan=\"2\">37*9mm</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td>사진</td><td colspan=\"2\">25*33mm</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td rowspan=\"2\">한글</td><td>16pt</td><td rowspan=\"2\">사진아래 중간정렬</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td>kopub bold</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "</table>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "(뒷면)",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "![image](image_002.bmp)",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<table>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><th>구분</th><th>글자크기</th><th>기재방식</th></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td rowspan=\"2\">직렬사번</td><td>12pt</td><td rowspan=\"2\">굵게/보통</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td>kopub light</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td rowspan=\"2\">상기인</td><td colspan=\"2\">7pt</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td colspan=\"2\">kopub bold</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td rowspan=\"2\">이사장</td><td colspan=\"2\">10pt</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td colspan=\"2\">kopubbatang light</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td>중앙로고</td><td colspan=\"2\">28*33mm</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td>하단로고</td><td colspan=\"2\">38*4.5mm</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "<tr><td>직인</td><td colspan=\"2\">9*9mm</td></tr>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "</table>",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "(별지 제1호 서식)[개정 2022. 09. 28.]",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "신  분  증  발  급  대  장",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "| 순번 | 발급<br>년월일 | 사원번호 | 소속 | 직급<br>(직위) | 성명 | 생년월일 | 발급사유 | 회수․반납일 | 비고 |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "|  |  |  |  |  |  |  |  |  |  |",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "(별지 제2호 서식)[개정 2022. 09. 28.]",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "신분증 재발급 신청서",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "1. 소속 및 직위 :",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "2. 직 급 :",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "3. 성 명 :",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "4. 생 년 월 일 :",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "5. 재발급 신청사유(분실한 때에는 6하원칙에 의거 작성) :",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "붙 임 : 사진 1매(3cm×4cm)",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "위와 같이 신분증의 재발급을 신청합니다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "20 . .",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "신청인 (인)",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "위 사실을 확인합니다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "소속부서장 (인)",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제 734호, 2022. 09. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "한국장애인고용공단 이사장 귀하",
+      "needsOriginal": false
     }
   ]
 }

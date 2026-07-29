@@ -11,9 +11,9 @@
   "fileKey": "DC630A40B0B74D0AB3AA",
   "fileUrl": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=DC630A40B0B74D0AB3AA",
   "sha256": "4c285efc2c438e4ef8a4258d84b208a342c1adbf04359891aa5122429b4ccfc5",
-  "articleCount": 3,
-  "supplementCount": 0,
-  "needsOriginalCount": 1,
+  "articleCount": 25,
+  "supplementCount": 4,
+  "needsOriginalCount": 9,
   "articles": [
     {
       "section": "본칙",
@@ -22,7 +22,7 @@
       "articleId": null,
       "title": "머리말",
       "breadcrumb": [],
-      "text": "**중증장애인 근로자 출·퇴근비용 지원 업무처리규칙**",
+      "text": "중증장애인 근로자 출·퇴근비용 지원 업무처리규칙",
       "needsOriginal": false
     },
     {
@@ -58,983 +58,14 @@
     {
       "section": "본칙",
       "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제1조(목적)** 이 규칙은 「장애인고용촉진 및 직업재활법」(이하 “법”이라 한다),  같은 법 시행령 (이하 “시행령”이라 한다), 같은 법 시행규칙(이하 “시행규칙”이라 한다), 고용노동부 고시 제2022-62호「사업주 및 장애인 등에 대한 융자·지원 규정」(이하 “고시”라 한다)에 따라 한국장애인고용공단(이하 “공단”이라 한다)의 출퇴근 교통비 지원금(이하 “지원금”이라 한다) 지급 업무에 필요한 사항을 규정함을 목적으로 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제2조(정의)** 이 규칙에서 사용하는 용어의 뜻은 다음 각 호에서 정한 것을 제외하고 법, 시행령, 시행규칙과 고시에서 정하는 바에 따른다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. “출·퇴근” 이란 근로자가 직장으로 근무를 위해 나오는 출근, 일터에서 근무를 마치고 돌아가는 퇴근을 말한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. “출·퇴근 교통비 지원금”이란 고시 제2조에 따라 주거지와 직장 사이의 이동 시에 요구되는 교통수단 이용료 또는 차량을 운행하는데 소요된 실제 비용에 대하여 공단에서 정산 후 대상자에게 지급하는 지원금을 말한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "3. “장애인고용업무시스템” 이란 중증장애인 근로자 출·퇴근 교통비 지급 업무 등을 효율적으로 수행하기 위하여 공단이 구축한 전자정보시스템을 말한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "4. “장애인직업능력평가포털” 이란 온라인 직업심리검사, 고용지원 필요도 결정 및 중증장애인 출·퇴근 교통비 신청 등을 전자적 형태로 지원하기 위하여 공단이 구축한 전자정보시스템을 말한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "5. “부정수급” 이란 법 제23조에 따른 거짓이나 그 밖의 부정한 방법으로 교통비를 지급받은 경우를 말한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "6. “부정수급금” 이란 법 제23조에 따른 거짓이나 그 밖의 부정한 방법으로 지급받은 금액을 말한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "7. “추가징수금” 이란 법 시행규칙 제13조에 따른 부정수급 횟수에 따라 부정수급금의 5배 이내에서 추가로 징수하도록 정한 금액을 말한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "제2장 신청 및 접수",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제3조(신청자격)** 출·퇴근 교통비지원 대상자의 자격조건은 고시 제53조를 준용한다. 다만, 공단 지역본부ㆍ지사장(이하 “소속기관장”이라 한다)은 고시 제53조의 대상자라 하더라도 다음 각 호의 어느 하나에 해당하는 경우에 지원 대상에서 제외하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. 고시 제4조제1항의 통근용 승합자동차를 이용하는 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. 고시 제58조제2항에 따라 지급이 제한된 후 3년이 경과하지 않은 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "3. 그 밖의 동일한 사유로 국가로부터 중복하여 지원금을 수령하는 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "4. 재택근무하는 경우 <신설 2025.03.26.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "5. 근무지에서 제공하는 기숙사 등에 거주하는 이유로 출·퇴근비용이 발생하지 않는 경우 <신설 2025.03.26.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제4조(신청서의 접수)** ① 신청인이 법 시행규칙 별지 제3호의2 출·퇴근 교통비 지원 신청서(이하 “신청서”라 한다)를 제출(장애인직업능력평가포털 등 전자적인 신청 방법을 포함한다)한 때에는, 신청서를 즉시 접수하고 사업장 소재지를 관할하는 소속기관장의 결재를 득하여야 하며 장애인고용업무시스템에 그 내용을 등록하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 제1항에 따른 신청서 접수일자는 신청인이 직접 방문하여 제출하거나 전자적인 방법에 의하여 신청한 날 또는 우편물이 도착한 날로 하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제5조(신청서의 확인 및 보완)** ① 소속기관장은 신청일로부터 10일 이내에 신청서를 접수하고 다음 각 호의 사항을 확인하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. 신청서 및 개인정보수집이용제공동의 등과 관련한 기재사항 누락 및 오기 여부",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. 신청서에 명시한 첨부서류의 제출 여부",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 제1항에 따른 신청서 등을 확인한 결과 첨부서류 등의 제출 누락 등으로 보완이 필요하다고 인정하는 경우에는 그날부터 10일 이내의 기간을 정하여 신청인에게 보완이 필요함을 알리고 보완을 요구하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 소속기관장은 제2항에 따른 보완 요구를 받은 신청인이 기한 내 보완하지 아니한 경우에는 다시 보완을 요구하여야 하며, 추가 보완에 대한 기간은 10일로 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제6조(신청서 반려)** ① 소속기관장은 다음 각 호에 해당하는 경우 그 이유를 명시하여 신청서와 첨부서류를 반려할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. 신청인이 제5조의 추가 보완요구 기한 내에 정당한 사유 없이 보완하지 아니한 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. 신청인이 신청을 취소요청 하는 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "3. 신청인이 중복하여 신청한 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 신청인에게 신청서 등 첨부서류의 보완을 요구하거나, 보완되어 접수한 때 또는 반려한 때에는 장애인고용업무시스템에 그 내용을 등록하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제7조(소속기관 이관)** ① 소속기관장은 기존에 접수된 건에 대해서 신청인 이직 및 사업장 이전 등 사유로 근무사업장 소재지가 다른 소속기관 관할로 변경된 경우 이관 받을 소속기관과 사전 조율하여 신청 누락 등 공백이 발생하지 않도록 조치하여 이관하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 제1항에 따라 이관 시 그 사실을 이관 받을 소속기관에 문서로 기록 및 통보하고, 그 내용을 장애인고용업무시스템에 등록하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "제3장 대상자 선정 및 탈락결정",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제8조(대상자 선정결정)** ① 소속기관장은 법 시행규칙 제6조의2 및 고시 제55조에 따라 접수일로부터 30일 이내 신청인에 대한 대상자 선정여부를 결정하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 접수된 건에 대하여 제1항에 따라 대상자 선정 및 탈락 여부에 대한 결정결과를 대상자에게 통지하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 소속기관장은 결정결과에 대하여 대상자의 요청 시 별지 제3호의 지급대상 결정통보서를 발행할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "④ 소속기관장은 대상자 선정결정 판단 시 1개월 이내의 대상자 정보를 기준으로 하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제9조(대상자 중도탈락)** ① 소속기관장은 대상자가 다음 각 호의 조건에 해당하게 되는 경우에 지체없이 중도탈락 처리하고 지원금 지급을 중단하며 해당 사실을 대상자에게 통지하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. 고시 제53조의 자격조건을 상실한 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. 부정수급·부정사용 사실이 적발된 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "3. 대상자가 더 이상 지원을 희망하지 않는 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 탈락 또는 중도탈락한 대상자에 대하여 탈락 사유 등을 고려하여 예산의 범위 내에서 연도 내 재선정 할 수 있다. 단, 법 제23조에 따라 3년간 지원이 제한된 대상자는 재선정 시 제외하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제10조(선정결정 유효기간)** 소속기관장은 대상자 선정결정 결과의 유효기간을 당해연도 말일까지로 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "제4장 카드발급 및 사용",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제11조(대상자 카드발급)** ① 소속기관장은 고시 제56조에 따라 선정 결정된 대상자가 출·퇴근 교통비 지원 전용카드를 신청 발급받을 수 있도록 안내하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 「개인정보보호법」제16조 목적에 필요한 최소한의 개인정보 수집원칙에 따라 대상자 카드정보 중에서 카드번호에 한하여 장애인고용업무시스템에 등록하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 대상자의 카드발급이 어려워 대리인이 신청하는 경우에는 고시 제56조를 준용한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제12조(대상자 카드사용)** ① 소속기관장은 대상자가 발급받은 전용카드의 상세한 사용법 등을 대상자에게 알려야 하며, 지속적으로 사용할 수 있도록 적극 노력하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 지원금 지급과 연관된 카드사용건 이외의 전용카드 발급·사용·기능·서비스·혜택 등과 관련한 사항은 공단과 제휴 계약한 카드사의 일반적인 규정에 따른다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 소속기관장은 대상자 선정탈락 및 중도탈락 이후에도 임의로 전용카드의 사용을 제한하게 할 수 없다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "제5장 지원금 결정과 지급 및 취소",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제13조(지원금 지급결정)** ① 소속기관장은 고시 제54조와 제57조를 준용하여 대상자가 매월 사용한 카드내역 및 자격조건 유지 여부를 조사 및 확인 후 최종지급 금액을 결정하여야 한다. <개정 2025.03.26.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 제1항에도 불구하고, 「고용보험법」제10조 적용제외에 따라 1개월간 소정근로시간이 60시간 미만인 사람으로서 3개월 이내로 근속하는 경우에는 지원금을 지급결정 할 수 있다. <개정 2025.03.26.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. <삭제 2025.03.26.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. <삭제 2025.03.26.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 소속기관장은 대상자의 요청 시 별지 6호의 지급결정 통보서를 발행할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제13조의2(지원범위)** 소속기관장은 고시 제54조 제2항 제4호 및 제7호에 해당하는 지원금액은 본인, 직계 및 동거가족 차량에 사용한 경우에만 지급한다. <신설 2025.03.26.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제14조(지원금 지급)** ① 소속기관장은 고시 제57조를 준용하여 매월 말일까지 지급 결정한 금액을 대상자 본인 명의의 계좌로 입금하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 제1항의 지원금 지급 시 다음 각호의 조건에 해당하는 경우에는 타인 명의의 계좌로 입금할 수 있다. 단, 타인의 범위는 배우자, 직계가족 및 3촌이내 방계혈족으로 제한하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. 대상자 사망 시",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "가. 사망진단서 및 고용업무시스템 연계조회결과 사망의심자 확인",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. 성년후견개시, 한정후견개시 또는 특정후견개시로 계좌개설이 어려운 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "3. 채무불이행 등으로 금전채권이 압류된 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "가. 법원에서 발행한 채무불이행자 명부 제출",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "나. 압류사실 통지서, 법원의 추심명령 등 압류사실을 증명할 수 있는 서류 중 1부",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "4. 기타 소속기관장이 타인 명의 계좌로 지급이 타당하다고 판단한 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 소속기관장은 자격상실, 유사지원금 수령 등의 지원금 지급중단 사유발생일 이전의 카드사용내역은 지급결정 시 포함하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제15조(지원금 지급제한)** 소속기관장은 고시 제58조제1항에 해당하는 경우 이외에도 다음 각호의 조건에 해당하는 기간은 지원금 지급을 제한하거나 취소하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. 재택근무로 출·퇴근 교통비가 발생하지 않는 기간",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. 입원·외래·요양 등 질병이나 출산 및 육아 또는 사업장 휴업으로 출·퇴근 하지 않은 기간",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "3. 기타 소속기관장이 지급을 제한 및 취소하는 것이 타당하다고 판단한 경우",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "제6장 이의신청",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제16조(이의신청)** ① 제8조의 대상자 결정결과와 제13조의 지원금 결정결과에 불복하는 자는 그 처분을 고지받은 날부터 30일 이내에 그 사유 등을 포함하여 별지 제8호의 서식으로 소속기관장에게 이의를 신청(장애인직업능력평가포털 등 전자적인 신청 방법을 포함한다)할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 제1항에 따른 이의신청에 대하여 10일 이내에 수용 또는 불수용 여부를 결정하여야 한다. 다만, 부득이한 사정으로 그 기간 안에 결정을 할 수 없는 경우에는 10일 이내에서 그 기간을 연장할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 소속기관장은 민원인이 정당한 사유없이 동일한 내용으로 3회이상 이의신청 하는 경우, 민원사무처리규칙 제15조제1항을 준용하여 종결처리 할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "제7장 부정수급 및 과오지급",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제17조(부정수급 신고 접수)** 소속기관장은 법 제23조제1항, 법 시행규칙 제8조2제1항 및 제2항에 따라 부정수급 또는 과오지급으로 별지 제12호 서식의 부정(과오)수급 신고서를 접수받은 때에는 장애인고용업무시스템에 그 내용을 등록하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제18조(부정수급 등 조사ㆍ확인)** ① 소속기관장은 부정수급 신고를 접수한 날부터 10일 이내에 별지 제13호 서식의 부정수급 확정조사서에 따라 신고내용을 조사․확인하여 부정수급 여부를 결정하여야 한다. 이 경우 「부패방지 및 국민권익위원회의 설치와 운영에 관한 법률」 제64조제1항에 따라 신고자의 동의 없이 신고자의 신분을 밝히거나 암시하여서는 아니 된다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 법 제23조제1항 및 법 시행규칙 제8조에 따른 지원금 반환 및 징수 사유의 발생이 의심되는 경우에는 즉시 사실관계를 조사ㆍ확인하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 소속기관장은 제2항에 따라 부정수급 등이 확인된 경우에는 법 제40조의 소멸시효 기간 내 지급한 지원금을 조사ㆍ확인할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제19조(의견청취)** ① 소속기관장은 제18조에 따른 과오지급 및 부정행위 사실이 확인되었을 경우 「행정절차법」제21조 및 제22조에 따라 미리 그 처분을 알리고 의견청취를 하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 제1항에 따라 대상자가 이의를 제기하려는 경우는 별지 제8호의 서식을 제출하게 하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제20조(부당이득금의 징수 및 지급제한)** ① 소속기관장은 제19조에 따라 의견청취한 결과 과오지급 및 부정수급으로 결정한 때에는 과오지급액 및 부정수급금을 징수하여야 하고, 부정수급자에 대해서는 법 시행규칙 제8조의2에 따른 추가징수금을 징수하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 법 제23조제3항에 따라 부정행위자에게 지원금 지급을 제한할 수 있으며, 이 경우 제한기간은 행정처분을 한 날부터 3년으로 한다. 다만, 지원금 지급 제한기간이 경과한 경우에는 그러지 아니한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 소속기관장은 제1항에 따라 부당이득금의 징수 또는 추가징수를 결정한 후 해당 사업주에게 법 시행규칙 제8조를 준용하여 지원 반환ㆍ추가 징수 통지서를 고지하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제21조(연체금의 징수)** ① 소속기관장은 법 시행규칙 제8조와 제8조의2 및 동 규칙 제20조에 따른 징수 또는 추가징수처분을 받은 자가 30일 이내에 그 금액을 완납하지 아니하면 그 기한 다음 날부터 부당이득금을 완납한 날의 전날까지의 기간에 대하여 체납된 금액에 다음 각호의 구분에 따른 이자율에 따라 계산한 금액을 연체금으로 징수한다. 이 경우 연체금을 징수하는 기간은 60개월을 초과하지 못한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. 납부기한이 지난 날부터 1개월 이내에 납부하는 경우: 100분의 2. 다만, 납부기한이 지난 날부터 1주일 이내에 납부하는 경우에는 100분의 1로 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. 납부기한이 지난 날부터 1개월이 지난 후에 납부하는 경우: 제1호 본문에 따른 이자율에 납부기한이 지난 날부터 1개월이 지날 때마다 100분의 1을 더한 이자율. 다만, 가산금의 기준이 되는 이자율은 100분의 5를 초과할 수 없다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제22조(체납처분)** 소속기관장은 동 규칙 제20조 및 제21조에 따른 환수처분과 추가징수금 및 연체금에 대하여 정해진 기간까지 반환하거나 납부하지 아니하면「공공재정 환수법」제12조에 따라 국세체납 처분의 예에 따라 징수할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제23조(소멸시효)** 출퇴근 교통비 지원금을 지급하거나 징수할 권리는 3년간 행사하지 않으면 소멸시효가 완성되며 기산일은 다음 각 호와 같다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "1. 대상자가 지원금을 지급받을 권리는 지원금 지급 사유가 발생한 날 또는 법 제23조에 의한 지원금 지급의 제한이 발생한 날부터 3년이 경과한 이후로 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "2. 이 규칙에 따른 과오지급, 부정수급 및 추가징수금 및 연체금을 징수할 수 있는 권리는 징수사유가 발생한 날부터 3년으로 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "제8장 사후관리",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**제24조(사후관리)** ① 소속기관장은 고시 제59조를 준용하여 지원금을 지급받은 대상자에게 연1회 이상 자격조건 유지 여부 확인을 포함한 사후관리를 실시하여야 한다.<개정 2025.03.26.>",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "② 소속기관장은 제1항의 사후관리 시 방문, 유선 및 서신 등을 활용하되, 대상자의 근무환경과 장애상태 등을 고려하여 전자 우편, SMS 등의 전자적 형태로 실시하고 고용업무 시스템에 그 결과를 입력하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "③ 소속기관장은 방문을 통한 사후관리 시 필요한 경우 별지 제17호서식의 현장 점검 조사표를 활용할 수 있다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "④ 소속기관장은 사후관리 시 중도탈락자 또는 고용보험 상실자에 대하여 취업상담, 취업정보 제공하는 등 지속적인 고용지원 서비스를 지원하여야 한다.",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": null,
-      "articleId": null,
-      "title": "머리말",
-      "breadcrumb": [],
-      "text": "**부    칙(규칙 제750호, 2023. 02. 16. 제정)**",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
       "articleNo": "1",
       "articleId": "제1조",
-      "title": "시행일",
-      "breadcrumb": [],
+      "title": "목적",
+      "breadcrumb": [
+        "제1장 총칙"
+      ],
       "page": 1,
-      "text": "제1조(시행일) 이 규칙은 2023. 02. 16. 부터 시행한다.\n**제2조(경과조치)** 이 규칙 시행 이전에 처리한 사항은 이 규칙에 의하여 처리한 것으로 간주한다.\n**부    칙(규칙 제836호, 2025. 03. 26. 개정)**",
-      "needsOriginal": false
-    },
-    {
-      "section": "본칙",
-      "supplement": null,
-      "articleNo": "1",
-      "articleId": "제1조",
-      "title": "시행일",
-      "breadcrumb": [],
-      "page": 1,
-      "text": "제1조(시행일) 이 규칙은 2025년 03월 26일부터 시행한다.",
+      "text": "제1조(목적) 이 규칙은 「장애인고용촉진 및 직업재활법」(이하 “법”이라 한다),  같은 법 시행령 (이하 “시행령”이라 한다), 같은 법 시행규칙(이하 “시행규칙”이라 한다), 고용노동부 고시 제2022-62호「사업주 및 장애인 등에 대한 융자·지원 규정」(이하 “고시”라 한다)에 따라 한국장애인고용공단(이하 “공단”이라 한다)의 출퇴근 교통비 지원금(이하 “지원금”이라 한다) 지급 업무에 필요한 사항을 규정함을 목적으로 한다.",
       "needsOriginal": false
     },
     {
@@ -1042,10 +73,372 @@
       "supplement": null,
       "articleNo": "2",
       "articleId": "제2조",
+      "title": "정의",
+      "breadcrumb": [
+        "제1장 총칙"
+      ],
+      "page": 1,
+      "text": "제2조(정의) 이 규칙에서 사용하는 용어의 뜻은 다음 각 호에서 정한 것을 제외하고 법, 시행령, 시행규칙과 고시에서 정하는 바에 따른다.\n1. “출·퇴근” 이란 근로자가 직장으로 근무를 위해 나오는 출근, 일터에서 근무를 마치고 돌아가는 퇴근을 말한다.\n2. “출·퇴근 교통비 지원금”이란 고시 제2조에 따라 주거지와 직장 사이의 이동 시에 요구되는 교통수단 이용료 또는 차량을 운행하는데 소요된 실제 비용에 대하여 공단에서 정산 후 대상자에게 지급하는 지원금을 말한다.\n3. “장애인고용업무시스템” 이란 중증장애인 근로자 출·퇴근 교통비 지급 업무 등을 효율적으로 수행하기 위하여 공단이 구축한 전자정보시스템을 말한다.\n4. “장애인직업능력평가포털” 이란 온라인 직업심리검사, 고용지원 필요도 결정 및 중증장애인 출·퇴근 교통비 신청 등을 전자적 형태로 지원하기 위하여 공단이 구축한 전자정보시스템을 말한다.\n5. “부정수급” 이란 법 제23조에 따른 거짓이나 그 밖의 부정한 방법으로 교통비를 지급받은 경우를 말한다.\n6. “부정수급금” 이란 법 제23조에 따른 거짓이나 그 밖의 부정한 방법으로 지급받은 금액을 말한다.\n7. “추가징수금” 이란 법 시행규칙 제13조에 따른 부정수급 횟수에 따라 부정수급금의 5배 이내에서 추가로 징수하도록 정한 금액을 말한다.\n제2장 신청 및 접수",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "3",
+      "articleId": "제3조",
+      "title": "신청자격",
+      "breadcrumb": [
+        "제2장 신청 및 접수"
+      ],
+      "page": 1,
+      "text": "제3조(신청자격) 출·퇴근 교통비지원 대상자의 자격조건은 고시 제53조를 준용한다. 다만, 공단 지역본부ㆍ지사장(이하 “소속기관장”이라 한다)은 고시 제53조의 대상자라 하더라도 다음 각 호의 어느 하나에 해당하는 경우에 지원 대상에서 제외하여야 한다.\n1. 고시 제4조제1항의 통근용 승합자동차를 이용하는 경우\n2. 고시 제58조제2항에 따라 지급이 제한된 후 3년이 경과하지 않은 경우\n3. 그 밖의 동일한 사유로 국가로부터 중복하여 지원금을 수령하는 경우\n4. 재택근무하는 경우 <신설 2025.03.26.>\n5. 근무지에서 제공하는 기숙사 등에 거주하는 이유로 출·퇴근비용이 발생하지 않는 경우 <신설 2025.03.26.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "4",
+      "articleId": "제4조",
+      "title": "신청서의 접수",
+      "breadcrumb": [
+        "제2장 신청 및 접수",
+        "5. 근무지에서 제공하는 기숙사 등에 거주하는 이유로 출·퇴근비용이 발생하지 않는 경우 <신설 2025.03.26.>"
+      ],
+      "page": 1,
+      "text": "제4조(신청서의 접수) ① 신청인이 법 시행규칙 별지 제3호의2 출·퇴근 교통비 지원 신청서(이하 “신청서”라 한다)를 제출(장애인직업능력평가포털 등 전자적인 신청 방법을 포함한다)한 때에는, 신청서를 즉시 접수하고 사업장 소재지를 관할하는 소속기관장의 결재를 득하여야 하며 장애인고용업무시스템에 그 내용을 등록하여야 한다.\n② 제1항에 따른 신청서 접수일자는 신청인이 직접 방문하여 제출하거나 전자적인 방법에 의하여 신청한 날 또는 우편물이 도착한 날로 하여야 한다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "5",
+      "articleId": "제5조",
+      "title": "신청서의 확인 및 보완",
+      "breadcrumb": [
+        "제2장 신청 및 접수",
+        "② 제1항에 따른 신청서 접수일자는 신청인이 직접 방문하여 제출하거나 전자적인 방법에 의하여 신청한 날 또는 우편물이 도착한 날로 하여야 한다."
+      ],
+      "page": 1,
+      "text": "제5조(신청서의 확인 및 보완) ① 소속기관장은 신청일로부터 10일 이내에 신청서를 접수하고 다음 각 호의 사항을 확인하여야 한다.\n1. 신청서 및 개인정보수집이용제공동의 등과 관련한 기재사항 누락 및 오기 여부\n2. 신청서에 명시한 첨부서류의 제출 여부\n② 소속기관장은 제1항에 따른 신청서 등을 확인한 결과 첨부서류 등의 제출 누락 등으로 보완이 필요하다고 인정하는 경우에는 그날부터 10일 이내의 기간을 정하여 신청인에게 보완이 필요함을 알리고 보완을 요구하여야 한다.\n③ 소속기관장은 제2항에 따른 보완 요구를 받은 신청인이 기한 내 보완하지 아니한 경우에는 다시 보완을 요구하여야 하며, 추가 보완에 대한 기간은 10일로 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "6",
+      "articleId": "제6조",
+      "title": "신청서 반려",
+      "breadcrumb": [
+        "제2장 신청 및 접수",
+        "③ 소속기관장은 제2항에 따른 보완 요구를 받은 신청인이 기한 내 보완하지 아니한 경우에는 다시 보완을 요구하여야 하며, 추가 보완에 대한 기간은 10일로 한다."
+      ],
+      "page": 1,
+      "text": "제6조(신청서 반려) ① 소속기관장은 다음 각 호에 해당하는 경우 그 이유를 명시하여 신청서와 첨부서류를 반려할 수 있다.\n1. 신청인이 제5조의 추가 보완요구 기한 내에 정당한 사유 없이 보완하지 아니한 경우\n2. 신청인이 신청을 취소요청 하는 경우\n3. 신청인이 중복하여 신청한 경우\n② 소속기관장은 신청인에게 신청서 등 첨부서류의 보완을 요구하거나, 보완되어 접수한 때 또는 반려한 때에는 장애인고용업무시스템에 그 내용을 등록하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "7",
+      "articleId": "제7조",
+      "title": "소속기관 이관",
+      "breadcrumb": [
+        "제2장 신청 및 접수",
+        "② 소속기관장은 신청인에게 신청서 등 첨부서류의 보완을 요구하거나, 보완되어 접수한 때 또는 반려한 때에는 장애인고용업무시스템에 그 내용을 등록하여야 한다."
+      ],
+      "page": 1,
+      "text": "제7조(소속기관 이관) ① 소속기관장은 기존에 접수된 건에 대해서 신청인 이직 및 사업장 이전 등 사유로 근무사업장 소재지가 다른 소속기관 관할로 변경된 경우 이관 받을 소속기관과 사전 조율하여 신청 누락 등 공백이 발생하지 않도록 조치하여 이관하여야 한다.\n② 소속기관장은 제1항에 따라 이관 시 그 사실을 이관 받을 소속기관에 문서로 기록 및 통보하고, 그 내용을 장애인고용업무시스템에 등록하여야 한다.\n제3장 대상자 선정 및 탈락결정",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "8",
+      "articleId": "제8조",
+      "title": "대상자 선정결정",
+      "breadcrumb": [
+        "제3장 대상자 선정 및 탈락결정"
+      ],
+      "page": 1,
+      "text": "제8조(대상자 선정결정) ① 소속기관장은 법 시행규칙 제6조의2 및 고시 제55조에 따라 접수일로부터 30일 이내 신청인에 대한 대상자 선정여부를 결정하여야 한다.\n② 소속기관장은 접수된 건에 대하여 제1항에 따라 대상자 선정 및 탈락 여부에 대한 결정결과를 대상자에게 통지하여야 한다.\n③ 소속기관장은 결정결과에 대하여 대상자의 요청 시 별지 제3호의 지급대상 결정통보서를 발행할 수 있다.\n④ 소속기관장은 대상자 선정결정 판단 시 1개월 이내의 대상자 정보를 기준으로 하여야 한다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "9",
+      "articleId": "제9조",
+      "title": "대상자 중도탈락",
+      "breadcrumb": [
+        "제3장 대상자 선정 및 탈락결정",
+        "④ 소속기관장은 대상자 선정결정 판단 시 1개월 이내의 대상자 정보를 기준으로 하여야 한다."
+      ],
+      "page": 1,
+      "text": "제9조(대상자 중도탈락) ① 소속기관장은 대상자가 다음 각 호의 조건에 해당하게 되는 경우에 지체없이 중도탈락 처리하고 지원금 지급을 중단하며 해당 사실을 대상자에게 통지하여야 한다.\n1. 고시 제53조의 자격조건을 상실한 경우\n2. 부정수급·부정사용 사실이 적발된 경우\n3. 대상자가 더 이상 지원을 희망하지 않는 경우\n② 소속기관장은 탈락 또는 중도탈락한 대상자에 대하여 탈락 사유 등을 고려하여 예산의 범위 내에서 연도 내 재선정 할 수 있다. 단, 법 제23조에 따라 3년간 지원이 제한된 대상자는 재선정 시 제외하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "10",
+      "articleId": "제10조",
+      "title": "선정결정 유효기간",
+      "breadcrumb": [
+        "제3장 대상자 선정 및 탈락결정",
+        "② 소속기관장은 탈락 또는 중도탈락한 대상자에 대하여 탈락 사유 등을 고려하여 예산의 범위 내에서 연도 내 재선정 할 수 있다. 단, 법 제23조에 따라 3년간 지원이 제한된 대상자는 재선정 시 제외하여야 한다."
+      ],
+      "page": 1,
+      "text": "제10조(선정결정 유효기간) 소속기관장은 대상자 선정결정 결과의 유효기간을 당해연도 말일까지로 한다.\n제4장 카드발급 및 사용",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "11",
+      "articleId": "제11조",
+      "title": "대상자 카드발급",
+      "breadcrumb": [
+        "제4장 카드발급 및 사용"
+      ],
+      "page": 1,
+      "text": "제11조(대상자 카드발급) ① 소속기관장은 고시 제56조에 따라 선정 결정된 대상자가 출·퇴근 교통비 지원 전용카드를 신청 발급받을 수 있도록 안내하여야 한다.\n② 소속기관장은 「개인정보보호법」제16조 목적에 필요한 최소한의 개인정보 수집원칙에 따라 대상자 카드정보 중에서 카드번호에 한하여 장애인고용업무시스템에 등록하여야 한다.\n③ 대상자의 카드발급이 어려워 대리인이 신청하는 경우에는 고시 제56조를 준용한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "12",
+      "articleId": "제12조",
+      "title": "대상자 카드사용",
+      "breadcrumb": [
+        "제4장 카드발급 및 사용",
+        "③ 대상자의 카드발급이 어려워 대리인이 신청하는 경우에는 고시 제56조를 준용한다."
+      ],
+      "page": 1,
+      "text": "제12조(대상자 카드사용) ① 소속기관장은 대상자가 발급받은 전용카드의 상세한 사용법 등을 대상자에게 알려야 하며, 지속적으로 사용할 수 있도록 적극 노력하여야 한다.\n② 지원금 지급과 연관된 카드사용건 이외의 전용카드 발급·사용·기능·서비스·혜택 등과 관련한 사항은 공단과 제휴 계약한 카드사의 일반적인 규정에 따른다.\n③ 소속기관장은 대상자 선정탈락 및 중도탈락 이후에도 임의로 전용카드의 사용을 제한하게 할 수 없다.\n제5장 지원금 결정과 지급 및 취소",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "13",
+      "articleId": "제13조",
+      "title": "지원금 지급결정",
+      "breadcrumb": [
+        "제5장 지원금 결정과 지급 및 취소"
+      ],
+      "page": 1,
+      "text": "제13조(지원금 지급결정) ① 소속기관장은 고시 제54조와 제57조를 준용하여 대상자가 매월 사용한 카드내역 및 자격조건 유지 여부를 조사 및 확인 후 최종지급 금액을 결정하여야 한다. <개정 2025.03.26.>\n② 소속기관장은 제1항에도 불구하고, 「고용보험법」제10조 적용제외에 따라 1개월간 소정근로시간이 60시간 미만인 사람으로서 3개월 이내로 근속하는 경우에는 지원금을 지급결정 할 수 있다. <개정 2025.03.26.>\n1. <삭제 2025.03.26.>\n2. <삭제 2025.03.26.>\n③ 소속기관장은 대상자의 요청 시 별지 6호의 지급결정 통보서를 발행할 수 있다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "13의2",
+      "articleId": "제13조의2",
+      "title": "지원범위",
+      "breadcrumb": [
+        "제5장 지원금 결정과 지급 및 취소",
+        "③ 소속기관장은 대상자의 요청 시 별지 6호의 지급결정 통보서를 발행할 수 있다."
+      ],
+      "page": 1,
+      "text": "제13조의2(지원범위) 소속기관장은 고시 제54조 제2항 제4호 및 제7호에 해당하는 지원금액은 본인, 직계 및 동거가족 차량에 사용한 경우에만 지급한다. <신설 2025.03.26.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "14",
+      "articleId": "제14조",
+      "title": "지원금 지급",
+      "breadcrumb": [
+        "제5장 지원금 결정과 지급 및 취소",
+        "③ 소속기관장은 대상자의 요청 시 별지 6호의 지급결정 통보서를 발행할 수 있다."
+      ],
+      "page": 1,
+      "text": "제14조(지원금 지급) ① 소속기관장은 고시 제57조를 준용하여 매월 말일까지 지급 결정한 금액을 대상자 본인 명의의 계좌로 입금하여야 한다.\n② 소속기관장은 제1항의 지원금 지급 시 다음 각호의 조건에 해당하는 경우에는 타인 명의의 계좌로 입금할 수 있다. 단, 타인의 범위는 배우자, 직계가족 및 3촌이내 방계혈족으로 제한하여야 한다.\n1. 대상자 사망 시\n가. 사망진단서 및 고용업무시스템 연계조회결과 사망의심자 확인\n2. 성년후견개시, 한정후견개시 또는 특정후견개시로 계좌개설이 어려운 경우\n3. 채무불이행 등으로 금전채권이 압류된 경우\n가. 법원에서 발행한 채무불이행자 명부 제출\n나. 압류사실 통지서, 법원의 추심명령 등 압류사실을 증명할 수 있는 서류 중 1부\n4. 기타 소속기관장이 타인 명의 계좌로 지급이 타당하다고 판단한 경우\n③ 소속기관장은 자격상실, 유사지원금 수령 등의 지원금 지급중단 사유발생일 이전의 카드사용내역은 지급결정 시 포함하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "15",
+      "articleId": "제15조",
+      "title": "지원금 지급제한",
+      "breadcrumb": [
+        "제5장 지원금 결정과 지급 및 취소",
+        "③ 소속기관장은 자격상실, 유사지원금 수령 등의 지원금 지급중단 사유발생일 이전의 카드사용내역은 지급결정 시 포함하여야 한다."
+      ],
+      "page": 1,
+      "text": "제15조(지원금 지급제한) 소속기관장은 고시 제58조제1항에 해당하는 경우 이외에도 다음 각호의 조건에 해당하는 기간은 지원금 지급을 제한하거나 취소하여야 한다.\n1. 재택근무로 출·퇴근 교통비가 발생하지 않는 기간\n2. 입원·외래·요양 등 질병이나 출산 및 육아 또는 사업장 휴업으로 출·퇴근 하지 않은 기간\n3. 기타 소속기관장이 지급을 제한 및 취소하는 것이 타당하다고 판단한 경우\n제6장 이의신청",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "16",
+      "articleId": "제16조",
+      "title": "이의신청",
+      "breadcrumb": [
+        "제6장 이의신청"
+      ],
+      "page": 1,
+      "text": "제16조(이의신청) ① 제8조의 대상자 결정결과와 제13조의 지원금 결정결과에 불복하는 자는 그 처분을 고지받은 날부터 30일 이내에 그 사유 등을 포함하여 별지 제8호의 서식으로 소속기관장에게 이의를 신청(장애인직업능력평가포털 등 전자적인 신청 방법을 포함한다)할 수 있다.\n② 소속기관장은 제1항에 따른 이의신청에 대하여 10일 이내에 수용 또는 불수용 여부를 결정하여야 한다. 다만, 부득이한 사정으로 그 기간 안에 결정을 할 수 없는 경우에는 10일 이내에서 그 기간을 연장할 수 있다.\n③ 소속기관장은 민원인이 정당한 사유없이 동일한 내용으로 3회이상 이의신청 하는 경우, 민원사무처리규칙 제15조제1항을 준용하여 종결처리 할 수 있다.\n제7장 부정수급 및 과오지급",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "17",
+      "articleId": "제17조",
+      "title": "부정수급 신고 접수",
+      "breadcrumb": [
+        "제7장 부정수급 및 과오지급"
+      ],
+      "page": 1,
+      "text": "제17조(부정수급 신고 접수) 소속기관장은 법 제23조제1항, 법 시행규칙 제8조2제1항 및 제2항에 따라 부정수급 또는 과오지급으로 별지 제12호 서식의 부정(과오)수급 신고서를 접수받은 때에는 장애인고용업무시스템에 그 내용을 등록하여야 한다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "18",
+      "articleId": "제18조",
+      "title": "부정수급 등 조사ㆍ확인",
+      "breadcrumb": [
+        "제7장 부정수급 및 과오지급"
+      ],
+      "page": 1,
+      "text": "제18조(부정수급 등 조사ㆍ확인) ① 소속기관장은 부정수급 신고를 접수한 날부터 10일 이내에 별지 제13호 서식의 부정수급 확정조사서에 따라 신고내용을 조사․확인하여 부정수급 여부를 결정하여야 한다. 이 경우 「부패방지 및 국민권익위원회의 설치와 운영에 관한 법률」 제64조제1항에 따라 신고자의 동의 없이 신고자의 신분을 밝히거나 암시하여서는 아니 된다.\n② 소속기관장은 법 제23조제1항 및 법 시행규칙 제8조에 따른 지원금 반환 및 징수 사유의 발생이 의심되는 경우에는 즉시 사실관계를 조사ㆍ확인하여야 한다.\n③ 소속기관장은 제2항에 따라 부정수급 등이 확인된 경우에는 법 제40조의 소멸시효 기간 내 지급한 지원금을 조사ㆍ확인할 수 있다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "19",
+      "articleId": "제19조",
+      "title": "의견청취",
+      "breadcrumb": [
+        "제7장 부정수급 및 과오지급",
+        "③ 소속기관장은 제2항에 따라 부정수급 등이 확인된 경우에는 법 제40조의 소멸시효 기간 내 지급한 지원금을 조사ㆍ확인할 수 있다."
+      ],
+      "page": 1,
+      "text": "제19조(의견청취) ① 소속기관장은 제18조에 따른 과오지급 및 부정행위 사실이 확인되었을 경우 「행정절차법」제21조 및 제22조에 따라 미리 그 처분을 알리고 의견청취를 하여야 한다.\n② 소속기관장은 제1항에 따라 대상자가 이의를 제기하려는 경우는 별지 제8호의 서식을 제출하게 하여야 한다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "20",
+      "articleId": "제20조",
+      "title": "부당이득금의 징수 및 지급제한",
+      "breadcrumb": [
+        "제7장 부정수급 및 과오지급",
+        "② 소속기관장은 제1항에 따라 대상자가 이의를 제기하려는 경우는 별지 제8호의 서식을 제출하게 하여야 한다."
+      ],
+      "page": 1,
+      "text": "제20조(부당이득금의 징수 및 지급제한) ① 소속기관장은 제19조에 따라 의견청취한 결과 과오지급 및 부정수급으로 결정한 때에는 과오지급액 및 부정수급금을 징수하여야 하고, 부정수급자에 대해서는 법 시행규칙 제8조의2에 따른 추가징수금을 징수하여야 한다.\n② 소속기관장은 법 제23조제3항에 따라 부정행위자에게 지원금 지급을 제한할 수 있으며, 이 경우 제한기간은 행정처분을 한 날부터 3년으로 한다. 다만, 지원금 지급 제한기간이 경과한 경우에는 그러지 아니한다.\n③ 소속기관장은 제1항에 따라 부당이득금의 징수 또는 추가징수를 결정한 후 해당 사업주에게 법 시행규칙 제8조를 준용하여 지원 반환ㆍ추가 징수 통지서를 고지하여야 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "21",
+      "articleId": "제21조",
+      "title": "연체금의 징수",
+      "breadcrumb": [
+        "제7장 부정수급 및 과오지급",
+        "③ 소속기관장은 제1항에 따라 부당이득금의 징수 또는 추가징수를 결정한 후 해당 사업주에게 법 시행규칙 제8조를 준용하여 지원 반환ㆍ추가 징수 통지서를 고지하여야 한다."
+      ],
+      "page": 1,
+      "text": "제21조(연체금의 징수) ① 소속기관장은 법 시행규칙 제8조와 제8조의2 및 동 규칙 제20조에 따른 징수 또는 추가징수처분을 받은 자가 30일 이내에 그 금액을 완납하지 아니하면 그 기한 다음 날부터 부당이득금을 완납한 날의 전날까지의 기간에 대하여 체납된 금액에 다음 각호의 구분에 따른 이자율에 따라 계산한 금액을 연체금으로 징수한다. 이 경우 연체금을 징수하는 기간은 60개월을 초과하지 못한다.\n1. 납부기한이 지난 날부터 1개월 이내에 납부하는 경우: 100분의 2. 다만, 납부기한이 지난 날부터 1주일 이내에 납부하는 경우에는 100분의 1로 한다.\n2. 납부기한이 지난 날부터 1개월이 지난 후에 납부하는 경우: 제1호 본문에 따른 이자율에 납부기한이 지난 날부터 1개월이 지날 때마다 100분의 1을 더한 이자율. 다만, 가산금의 기준이 되는 이자율은 100분의 5를 초과할 수 없다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "22",
+      "articleId": "제22조",
+      "title": "체납처분",
+      "breadcrumb": [
+        "제7장 부정수급 및 과오지급",
+        "2. 납부기한이 지난 날부터 1개월이 지난 후에 납부하는 경우: 제1호 본문에 따른 이자율에 납부기한이 지난 날부터 1개월이 지날 때마다 100분의 1을 더한 이자율. 다만, 가산금의 기준이 되는 이자율은 100분의 5를 초과할 수 없다."
+      ],
+      "page": 1,
+      "text": "제22조(체납처분) 소속기관장은 동 규칙 제20조 및 제21조에 따른 환수처분과 추가징수금 및 연체금에 대하여 정해진 기간까지 반환하거나 납부하지 아니하면「공공재정 환수법」제12조에 따라 국세체납 처분의 예에 따라 징수할 수 있다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "23",
+      "articleId": "제23조",
+      "title": "소멸시효",
+      "breadcrumb": [
+        "제7장 부정수급 및 과오지급",
+        "2. 납부기한이 지난 날부터 1개월이 지난 후에 납부하는 경우: 제1호 본문에 따른 이자율에 납부기한이 지난 날부터 1개월이 지날 때마다 100분의 1을 더한 이자율. 다만, 가산금의 기준이 되는 이자율은 100분의 5를 초과할 수 없다."
+      ],
+      "page": 1,
+      "text": "제23조(소멸시효) 출퇴근 교통비 지원금을 지급하거나 징수할 권리는 3년간 행사하지 않으면 소멸시효가 완성되며 기산일은 다음 각 호와 같다.\n1. 대상자가 지원금을 지급받을 권리는 지원금 지급 사유가 발생한 날 또는 법 제23조에 의한 지원금 지급의 제한이 발생한 날부터 3년이 경과한 이후로 한다.\n2. 이 규칙에 따른 과오지급, 부정수급 및 추가징수금 및 연체금을 징수할 수 있는 권리는 징수사유가 발생한 날부터 3년으로 한다.\n제8장 사후관리",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "24",
+      "articleId": "제24조",
+      "title": "사후관리",
+      "breadcrumb": [
+        "제8장 사후관리"
+      ],
+      "page": 1,
+      "text": "제24조(사후관리) ① 소속기관장은 고시 제59조를 준용하여 지원금을 지급받은 대상자에게 연1회 이상 자격조건 유지 여부 확인을 포함한 사후관리를 실시하여야 한다.<개정 2025.03.26.>\n② 소속기관장은 제1항의 사후관리 시 방문, 유선 및 서신 등을 활용하되, 대상자의 근무환경과 장애상태 등을 고려하여 전자 우편, SMS 등의 전자적 형태로 실시하고 고용업무 시스템에 그 결과를 입력하여야 한다.\n③ 소속기관장은 방문을 통한 사후관리 시 필요한 경우 별지 제17호서식의 현장 점검 조사표를 활용할 수 있다.\n④ 소속기관장은 사후관리 시 중도탈락자 또는 고용보험 상실자에 대하여 취업상담, 취업정보 제공하는 등 지속적인 고용지원 서비스를 지원하여야 한다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제750호, 2023. 02. 16. 제정",
+      "articleNo": "1",
+      "articleId": "부칙(규칙 제750호, 2023. 02. 16. 제정) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 1,
+      "text": "제1조(시행일) 이 규칙은 2023. 02. 16. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제750호, 2023. 02. 16. 제정",
+      "articleNo": "2",
+      "articleId": "부칙(규칙 제750호, 2023. 02. 16. 제정) 제2조",
+      "title": "경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2023. 02. 16. 부터 시행한다."
+      ],
+      "page": 1,
+      "text": "제2조(경과조치) 이 규칙 시행 이전에 처리한 사항은 이 규칙에 의하여 처리한 것으로 간주한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제836호, 2025. 03. 26. 개정",
+      "articleNo": "1",
+      "articleId": "부칙(규칙 제836호, 2025. 03. 26. 개정) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 1,
+      "text": "제1조(시행일) 이 규칙은 2025년 03월 26일부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "규칙 제836호, 2025. 03. 26. 개정",
+      "articleNo": "2",
+      "articleId": "부칙(규칙 제836호, 2025. 03. 26. 개정) 제2조",
       "title": "경과조치",
       "breadcrumb": [],
       "page": 1,
-      "text": "제2조(경과조치) 이 규칙 시행 이전에 시행된 사항은 종전 규칙을 적용한다.\n【별지 제1호】 (제4조제1항 관련)\n**중증장애인 근로자 출퇴근 교통비 지원 (재)신청 결재서**\n<table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table>\n<table>\n<tr><th colspan=\"4\">접수번호</th><th colspan=\"3\">접수일자</th><th colspan=\"2\">처리기간</th></tr>\n<tr><td colspan=\"10\"></td></tr>\n<tr><td rowspan=\"4\">신청인</td><td colspan=\"3\">성명</td><td colspan=\"2\"></td><td>주민등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"3\">장애유형</td><td colspan=\"2\"></td><td>연락처(신청인)</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"3\">중증여부</td><td colspan=\"2\">[ ]중증 [ ]경증</td><td>연락처(보호자)</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"3\">주소<br>(거주지)</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"10\"></td></tr>\n<tr><td rowspan=\"5\">사업장 개요</td><td colspan=\"3\">사업장명</td><td></td><td colspan=\"2\">사업자등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"3\">사업장의 법인명</td><td></td><td colspan=\"2\" rowspan=\"2\">법인등록번호</td><td colspan=\"3\" rowspan=\"2\"></td></tr>\n<tr><td colspan=\"3\">담당자 연락처</td><td></td></tr>\n<tr><td colspan=\"2\" rowspan=\"2\">소재지</td><td>본사</td><td colspan=\"6\"></td></tr>\n<tr><td>사업장</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"10\"></td></tr>\n<tr><td colspan=\"4\">국가로부터 유사한 지원을<br>받은 경우</td><td colspan=\"6\">(지원금 명칭) (지원기간)</td></tr>\n<tr><td rowspan=\"3\">지원금 지급 희망은행</td><td colspan=\"3\">은행명</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"3\">계좌번호</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"3\">예금주</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"10\">「장애인고용촉진 및 직업재활법」제18조에 따라 중증장애인 근로자 출·퇴근 교통비 지원 사업 참여를 <br>([ ✔ ]신청, [ ]재신청)합니다.<br>년 월 일<br>신청인 성명: (서명 또는 인)<br>붙임서류: 1. 신청서&개인정보수집이용동의서.PDF<br>별첨서류: 1. 근로계약서 2. 통장사본</td></tr>\n</table>\n【별지 제2호】 (제8조제1항 관련)\n**중증장애인 근로자 출퇴근 교통비 지원 결정결재서**\n<table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table>\n<table>\n<tr><th colspan=\"3\">접수번호</th><th colspan=\"3\">접수일자</th><th colspan=\"2\">처리기간</th></tr>\n<tr><td colspan=\"9\"></td></tr>\n<tr><td rowspan=\"4\">신청인</td><td colspan=\"2\">성명</td><td colspan=\"2\"></td><td>주민등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">장애유형</td><td colspan=\"2\"></td><td>연락처(신청인)</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">중증여부</td><td colspan=\"2\">[ ]중증 [ ]경증</td><td>연락처(보호자)</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">주소<br>(거주지)</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"9\"></td></tr>\n<tr><td rowspan=\"5\">사업장 개요</td><td colspan=\"2\">사업장명</td><td></td><td colspan=\"2\">사업자등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">사업장의 법인명</td><td></td><td colspan=\"2\" rowspan=\"2\">법인등록번호</td><td colspan=\"3\" rowspan=\"2\"></td></tr>\n<tr><td colspan=\"2\">담당자 연락처</td><td></td></tr>\n<tr><td rowspan=\"2\">소재지</td><td>본사</td><td colspan=\"6\"></td></tr>\n<tr><td>사업장</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"9\"></td></tr>\n<tr><td rowspan=\"6\">결정결과</td><td colspan=\"2\" rowspan=\"2\">고용보험가입</td><td colspan=\"2\" rowspan=\"2\">[ ]가입 [ ]미가입<br>취득일 [YY-MM-DD]</td><td rowspan=\"4\">중증여부</td><td colspan=\"3\">[ ]중증 [ ]경증</td></tr>\n<tr><td rowspan=\"2\">주장애</td><td colspan=\"2\" rowspan=\"2\">부장애</td></tr>\n<tr><td colspan=\"2\" rowspan=\"2\">적용제외여부</td><td colspan=\"2\" rowspan=\"2\">[ ]인가 [ ]미인가</td></tr>\n<tr><td></td><td colspan=\"2\"></td></tr>\n<tr><td colspan=\"2\">유사지원 여부<br>(타지원금)</td><td colspan=\"2\">[ ]지원 [ ]미지원</td><td>최종결정여부</td><td colspan=\"3\">[ ]결정 [ ]탈락</td></tr>\n<tr><td colspan=\"2\">담당자 의견</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"9\">「장애인고용촉진 및 직업재활법」제18조에 따라 중증장애인 근로자 출·퇴근 교통비 지원 사업 대상자로 [ ✔ ]선정, [ ]탈락 결정합니다,<br>년 월 일<br>붙임서류: 1. 지급대상 결정 통보서. PDF</td></tr>\n</table>\n【별지 제3호】 (제8조제3항 관련)\n<table>\n<tr><th>중증장애인 근로자 출퇴근 교통비 지원 지원금<br>지급대상 결정통보서<br>성 함 ：<br>거주지：<br>연락처：<br>지급기간：년월일~년월일<br>결 정 결 과： 선정 ◻ 탈락 ◻<br>결정사유：<br>귀하는 중증장애인 근로자 출퇴근 교통비 지원 사업대상자로 (선정 / 탈락) 되셨음을 통지합니다.<br>○○○○년 ○○월 ○○일<br><table>\n<tr><th>한국장애인고용공단 ○○○○○○장</th><th>직인</th></tr>\n</table></th></tr>\n</table>\n【별지 제4호】 (제13조제1항 관련)\n<table>\n<tr><th rowspan=\"2\">년도 월 회차<br>중증장애인 근로자 출·퇴근 교통비 지원금 지급결정서</th><th rowspan=\"2\"></th><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table>\n<table>\n<tr><th rowspan=\"4\">결정 내용</th><th>구분</th><th>(이전)조사 및 확정내역</th><th>지원금 (재)결정내역</th></tr>\n<tr><td>선정인원</td><td>(명)</td><td>(명)</td></tr>\n<tr><td>결정인원</td><td>(명)</td><td>(명)</td></tr>\n<tr><td>결정금액</td><td>원</td><td>원</td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td>담당자 의견</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"4\">위와 같이 조사 복명합니다<br>년 월 일<br>조사자 직급 성 명 (인)<br>붙임서류: 1. (공통) 중증장애인 근로자 출·퇴근 교통비 지원금 지급 내역 총괄표( )월_( )회차.PDF<br>2. (지급/추가지급) 중증장애인 근로자 출·퇴근 교통비 지원금 지급 결정통지서( )월_( )회차.PDF<br>3. (부정/과오지급) 중증장애인 근로자 출·퇴근 교통비 지원금 (반환 / 추가징수) 통지서.PDF</td></tr>\n</table>\n【별지 제5호】 (제13조제3항 관련)\n<table>\n<tr><th colspan=\"8\">중증장애인 근로자 출퇴근 교통비 지원 지원금<br>지급 내역 총괄표( )월 ( )회차</th></tr>\n</table>\n<table>\n<tr><th>연번</th><th>성명</th><th>지급년월</th><th colspan=\"2\">결정금액 개요</th></tr>\n<tr><td rowspan=\"3\">1</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0 (원)</td></tr>\n<tr><td>결정액</td><td>0 (원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n<tr><td rowspan=\"3\">2</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0(원)</td></tr>\n<tr><td>결정액</td><td>0(원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n<tr><td rowspan=\"3\">3</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0(원)</td></tr>\n<tr><td>결정액</td><td>0(원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n<tr><td rowspan=\"3\">4</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0(원)</td></tr>\n<tr><td>결정액</td><td>0(원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n<tr><td rowspan=\"3\">5</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0(원)</td></tr>\n<tr><td>결정액</td><td>0(원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n</table>\n【별지 제6호】 (제13조제3항 관련)\n<table>\n<tr><th colspan=\"9\">중증장애인 근로자 출퇴근 교통비 지원 지원금<br>지급 결정통지서( )월_( )회차</th></tr>\n<tr><td colspan=\"2\" rowspan=\"3\">신청인</td><td>① 성 함</td><td colspan=\"6\">홍길동</td></tr>\n<tr><td>②주소지</td><td colspan=\"6\">000시 00구 000로<br>(전화번호 000-0000-0000)</td></tr>\n<tr><td>③ 카드번호</td><td colspan=\"6\">0000-0000-0000-0000</td></tr>\n<tr><td colspan=\"2\">구분</td><td colspan=\"2\">조사</td><td>결정</td><td colspan=\"3\">누계</td><td>비고</td></tr>\n<tr><td colspan=\"2\">결정<br>금액</td><td colspan=\"2\">(원)</td><td>(원)</td><td colspan=\"3\">(원)</td><td>□ 지급<br>□ 추가지급</td></tr>\n<tr><td colspan=\"2\">지급 방법</td><td colspan=\"7\">계좌입금</td></tr>\n<tr><td colspan=\"9\">「장애인고용촉진 및 직업재활법」제18조에 따라 위와 같이 지급 결정 통지 합니다.<br>○○○○년 ○○월 ○○일</td></tr>\n<tr><td colspan=\"9\"><table>\n<tr><th>한국장애인고용공단 ○○○○○○장</th><th>직인</th></tr>\n</table></td></tr>\n<tr><td colspan=\"9\"></td></tr>\n<tr><td colspan=\"9\">행정심판 및 행정소송 안내</td></tr>\n<tr><td colspan=\"9\">위 결정에 이의가 있는 경우에는 이 통지서를 받은 날부터 90일 이내에 행정심판을 청구하거나 행정소송을 제기할수 있습니다.</td></tr>\n<tr><td>부서명</td><td colspan=\"5\">취업지원부</td><td>담당자</td><td colspan=\"2\">000</td></tr>\n<tr><td rowspan=\"2\">주소</td><td colspan=\"5\">(우편번호 00000)</td><td rowspan=\"2\">전화번호</td><td colspan=\"2\" rowspan=\"2\">000-000-0000</td></tr>\n<tr><td colspan=\"5\"></td></tr>\n<tr><td>전자우편</td><td colspan=\"5\">0000@kead.or.kr</td><td>팩스</td><td colspan=\"2\">00-0000-0000</td></tr>\n</table>\n【별지 제7호】 (제16조제1항 관련)\n<table>\n<tr><th colspan=\"3\">이의신청 접수 결재서</th><th colspan=\"3\"><table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table></th></tr>\n<tr><td colspan=\"2\">접수번호:</td><td colspan=\"2\">접수일:</td><td colspan=\"2\">처리기간:</td></tr>\n<tr><td rowspan=\"2\">신청인<br>정보</td><td colspan=\"5\">성명</td></tr>\n<tr><td colspan=\"4\">주소</td><td>전화번호(휴대폰)</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td rowspan=\"3\">이의신청<br>내용</td><td>신청 구분</td><td colspan=\"4\">선정 결정 □ 지원금 결정 □</td></tr>\n<tr><td>통지된 사항 또는 내용</td><td colspan=\"4\"></td></tr>\n<tr><td>이의신청 취지 및 사유</td><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"6\">위와 같이 이의신청 결과를 결정합니다.<br>년 월 일<br>조사자 직급 성 명 (인)<br>붙임서류: 1. 이의신청서. PDF</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n</table>\n【별지 제8호】 (제16조제1항 관련)\n<table>\n<tr><th colspan=\"6\">이의신청서</th></tr>\n<tr><td colspan=\"2\">접수번호:</td><td colspan=\"2\">접수일:</td><td colspan=\"2\">처리기간:</td></tr>\n<tr><td rowspan=\"2\">신청인<br>정보</td><td colspan=\"5\">성명</td></tr>\n<tr><td colspan=\"4\">주소</td><td>전화번호(휴대폰)</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td rowspan=\"3\">이의신청<br>내용</td><td>신청 구분</td><td colspan=\"4\">선정 결정 □ 지원금 결정 □</td></tr>\n<tr><td>통지된 사항 또는 내용</td><td colspan=\"4\"></td></tr>\n<tr><td>이의신청 취지 및 사유</td><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"6\">위와 같이 이의신청 합니다.</td></tr>\n<tr><td colspan=\"6\">년월일</td></tr>\n<tr><td colspan=\"3\">의견제출인</td><td colspan=\"3\">(서명 또는 인)</td></tr>\n<tr><td colspan=\"2\"></td><td colspan=\"4\">귀하</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"6\">유의사항</td></tr>\n<tr><td colspan=\"6\">1. 기재란이 부족한 경우에는 서식을 사용하실 수 있습니다.<br>2. 증거자료 등을 첨부하실 수 있습니다.<br>3. 위 의견제출과 관련하여 문서를 받으신 경우에는 문서번호와 일자를 ①란에 함께 기재하여 주시기 바랍니다.</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n</table>\n【별지 제9호】 (제16조제2항 관련)\n<table>\n<tr><th colspan=\"7\">이의신청 결정 결재서</th><th colspan=\"8\"><table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table></th></tr>\n<tr><td colspan=\"3\">접수번호:</td><td colspan=\"6\">접수일:</td><td colspan=\"6\">처리기간:</td></tr>\n<tr><td rowspan=\"2\">신청인<br>정보</td><td colspan=\"14\">성명</td></tr>\n<tr><td colspan=\"11\">주소</td><td colspan=\"3\">전화번호(휴대폰)</td></tr>\n<tr><td colspan=\"15\"></td></tr>\n<tr><td rowspan=\"6\">결정<br>내역</td><td colspan=\"14\">자격조건</td></tr>\n<tr><td colspan=\"4\">고용보험<br>가입여부</td><td colspan=\"3\">중증여부</td><td colspan=\"5\">적용제외<br>인가여부</td><td colspan=\"2\">유사사업<br>참여여부</td></tr>\n<tr><td colspan=\"4\"></td><td colspan=\"3\"></td><td colspan=\"5\"></td><td colspan=\"2\"></td></tr>\n<tr><td>결정<br>종류</td><td colspan=\"6\">선정 결정 ( )</td><td colspan=\"7\">지원금 결정 ( )</td></tr>\n<tr><td rowspan=\"2\">기존<br>내역</td><td colspan=\"2\">접수<br>일자</td><td colspan=\"2\">선정<br>회차</td><td colspan=\"2\">선정<br>결과</td><td colspan=\"2\">대상<br>년월</td><td>결정<br>회차</td><td colspan=\"3\">결정<br>구분</td><td>결정<br>금액</td></tr>\n<tr><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td><td colspan=\"3\"></td><td></td></tr>\n<tr><td>담당자<br>의견</td><td colspan=\"14\"></td></tr>\n<tr><td colspan=\"15\"></td></tr>\n<tr><td colspan=\"15\">위와 같이 이의신청 결과를 결정합니다.<br>년 월 일<br>조사자 직급 성 명 (인)<br>붙임서류: 1. 이의신청 결정 통보서. pdf</td></tr>\n</table>\n【별지 제10호】 (제16조제2항 관련)\n<table>\n<tr><th>중증장애인 근로자 출퇴근 교통비 지원 지원금<br>이의신청 결정통보서<br>성 함 ：<br>거주지：<br>연락처：<br>신 청 구 분： 대상자 선정 결정 ◻ 지원금 결정 ◻<br>결 정 결 과： 수용 ◻ 불수용 ◻<br>결정사유：<br>귀하가 신청한 이의신청에 대한 결정을 위와 같이 통지합니다.<br>○○○○년 ○○월 ○○일<br><table>\n<tr><th>한국장애인고용공단 ○○○○○○장</th><th>직인</th></tr>\n</table></th></tr>\n</table>\n【별지 제11호】 (제17조제1항 관련)\n<table>\n<tr><th colspan=\"4\">부정(과오)수급 신고결재서</th><th colspan=\"3\"><table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table></th></tr>\n<tr><td colspan=\"2\">접수번호:</td><td colspan=\"3\">접수일:</td><td colspan=\"2\">처리기간:</td></tr>\n<tr><td rowspan=\"3\">신고인</td><td colspan=\"2\">성 명(*)</td><td colspan=\"3\">주민등록번호(*)</td><td rowspan=\"2\">신고구분(*)<br>[ ] 자진신고 [ ] 민원(제보) [ ] 공단조사</td></tr>\n<tr><td colspan=\"2\">이메일</td><td colspan=\"3\">휴대전화(*)</td></tr>\n<tr><td colspan=\"6\">주 소(*)</td></tr>\n<tr><td colspan=\"7\"></td></tr>\n<tr><td rowspan=\"3\">부정 수급<br>신고 내용</td><td>장애인명</td><td colspan=\"5\"></td></tr>\n<tr><td>사업체명(선택)</td><td colspan=\"5\"></td></tr>\n<tr><td>신고내용</td><td colspan=\"5\"></td></tr>\n<tr><td colspan=\"7\">▣ 붙임서류 : 1. 중증장애인 근로자 출퇴근 교통비 지원 부정(과오)수급 신고서<br>상기 부정(과오)수급 신고를 접수합니다.<br>년 월 일<br>조사자 직급 성명</td></tr>\n<tr><td colspan=\"7\"></td></tr>\n</table>\n【별지 제12호】 (제17조제1항 관련)\n**중증장애인 근로자 출퇴근 교통비 지원 부정(과오)수급 신고서**\n<table>\n<tr><th colspan=\"2\">접수번호</th><th colspan=\"4\"></th><th colspan=\"3\">접수일</th><th colspan=\"5\"></th><th colspan=\"6\"></th><th colspan=\"3\">처리기간</th><th colspan=\"2\">30일</th></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td colspan=\"2\" rowspan=\"3\">신고인</td><td colspan=\"8\">성 명(*)</td><td colspan=\"9\">주민등록번호(*)</td><td colspan=\"6\" rowspan=\"2\">신고구분(*)<br>[ ] 자진신고 [ ] 민원(제보) [ ] 공단조사</td></tr>\n<tr><td colspan=\"8\">이메일</td><td colspan=\"9\">휴대전화(*)</td></tr>\n<tr><td colspan=\"23\">주 소(*)</td></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td colspan=\"2\" rowspan=\"3\">부정수급 신고내용</td><td colspan=\"5\">장애인명</td><td colspan=\"18\"></td></tr>\n<tr><td colspan=\"5\">사업체명(선택)</td><td colspan=\"18\"></td></tr>\n<tr><td colspan=\"5\">신고내용</td><td colspan=\"18\"></td></tr>\n<tr><td colspan=\"25\">「공공재정환수법」제17조에 따라 위와 같이 ( )의 출·퇴근 교통비 지원금 부정수급사실을 신고합니다.</td></tr>\n<tr><td colspan=\"25\">년월일</td></tr>\n<tr><td colspan=\"18\">신고인</td><td colspan=\"7\">(서명 또는 인)</td></tr>\n<tr><td colspan=\"13\"></td><td colspan=\"12\" rowspan=\"2\">귀하</td></tr>\n<tr><td colspan=\"13\">한국장애인고용공단 ○○○○○○장</td></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td>첨부서류</td><td colspan=\"24\">증거자료가 있는 경우 첨부</td></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td colspan=\"25\">처리절차</td></tr>\n<tr><td colspan=\"16\"></td><td colspan=\"9\"></td></tr>\n<tr><td colspan=\"3\">신고서 작성</td><td colspan=\"2\">➔</td><td colspan=\"3\">접 수</td><td colspan=\"4\">➔</td><td colspan=\"3\">부정수급사실<br>조사확인</td><td colspan=\"2\">➔</td><td colspan=\"4\">결 재</td><td colspan=\"3\">➔</td><td>결과 통지</td></tr>\n<tr><td colspan=\"3\">신고인</td><td></td><td></td><td colspan=\"3\">처리기관<br>(한국장애인고용공단)</td><td colspan=\"3\"></td><td></td><td colspan=\"3\">처리기관<br>(한국장애인고용공단)</td><td></td><td></td><td colspan=\"4\">처리기관<br>(한국장애인고용공단)</td><td></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td colspan=\"25\">210mm×297mm[백상지(80g/㎡) 또는 중질지(80g/㎡)]</td></tr>\n</table>\n【별지 제13호】 (제18조제1항 관련)\n<table>\n<tr><th colspan=\"7\" rowspan=\"2\">년도 월 중증장애인 근로자<br>출·퇴근 교통비 부정수급 결정서</th><th colspan=\"2\" rowspan=\"2\">결<br>재</th><th colspan=\"3\">담당</th><th colspan=\"3\">부서장</th><th>기관장</th></tr>\n<tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td></td></tr>\n<tr><td colspan=\"7\"></td><td></td><td colspan=\"2\"></td><td colspan=\"4\"></td><td colspan=\"2\"></td></tr>\n<tr><td colspan=\"2\">장애인명</td><td colspan=\"2\"></td><td>장애유형</td><td colspan=\"3\"></td><td colspan=\"5\">주민등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">거주지</td><td colspan=\"6\"></td><td colspan=\"5\">연락처</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"16\">1.신고인</td></tr>\n<tr><td rowspan=\"2\">신고인</td><td>성 명</td><td colspan=\"6\"></td><td colspan=\"5\">주민등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td>주 소</td><td colspan=\"6\"></td><td colspan=\"5\">전화번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"16\">2. 조사내역</td></tr>\n<tr><td colspan=\"2\"></td><td colspan=\"6\">신고</td><td colspan=\"8\">조사</td></tr>\n<tr><td colspan=\"2\">일자</td><td colspan=\"6\"></td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">부정수급 기간</td><td colspan=\"6\"></td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">부정수급 유형</td><td colspan=\"6\"></td><td colspan=\"8\">고용보험( ) 장애정도( )<br>인가탈락( ) 중복지원( )</td></tr>\n<tr><td colspan=\"16\">3. 조치사항</td></tr>\n<tr><td colspan=\"3\">환수액</td><td colspan=\"3\">추가징수금</td><td colspan=\"5\">확정금액</td><td colspan=\"5\">지급제한기간</td></tr>\n<tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"5\"></td><td colspan=\"5\">~</td></tr>\n<tr><td colspan=\"16\">4. 조사자 의견</td></tr>\n<tr><td colspan=\"16\"></td></tr>\n<tr><td colspan=\"16\">▣ 붙임서류 : 1. 중증장애인 근로자 출퇴근 교통비 지원금 부정수급 조사결과 통보서<br>위와 같이 조사 복명합니다<br>년월일<br>조사자 직급 성명</td></tr>\n</table>\n【별지 제14호】 (제18조제2항 관련)\n<table>\n<tr><th colspan=\"4\">중증장애인 근로자 출·퇴근 교통비 지원금<br>부정수급 조사결과 통보서</th></tr>\n<tr><td rowspan=\"2\">신고인</td><td colspan=\"2\">성 명</td><td>생년월일</td></tr>\n<tr><td colspan=\"3\">주 소<br>(전화번호: ) (휴대전화: )</td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"4\">중증장애인 근로자 출·퇴근 교통비 지원금 부정수급 신고에 따른 조사 결과</td></tr>\n<tr><td rowspan=\"3\">조사대상</td><td colspan=\"3\">장애인명</td></tr>\n<tr><td colspan=\"3\">사업장명</td></tr>\n<tr><td colspan=\"3\">주 소<br>(전화번호: )</td></tr>\n<tr><td>부정수급<br>해당여부</td><td colspan=\"3\"></td></tr>\n<tr><td>부정수급금</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"4\">「공공재정환수법」제13조에 따라 조사대상자( )의 중증장애인 근로자 출·퇴근 교통비 지원금 부정수급에 대한 조사결과를 위와 같이 알려드립니다.</td></tr>\n<tr><td colspan=\"4\">년월일</td></tr>\n<tr><td colspan=\"4\"><table>\n<tr><th>한국장애인고용공단 ○○지역본부·지사장</th><th>직인</th></tr>\n</table></td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"4\">포상금 신청 안내</td></tr>\n<tr><td colspan=\"4\">귀하께서 신고하거나 고발한 대상자가 중증장애인 근로자 출·퇴근 교통비 지원금 부정수급에 해당하는 경우에는 「공공재정환수법」제23조, 같은 법 시행령 제18조에 따라 포상금을 신청할 수 있습니다.</td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"2\">부서명</td><td colspan=\"2\">담당자</td></tr>\n<tr><td colspan=\"2\">주소</td><td colspan=\"2\">전화번호</td></tr>\n<tr><td colspan=\"2\">전자우편</td><td colspan=\"2\">팩스</td></tr>\n</table>\n【별지 제15호】 (제19조제1항 관련)\n<table>\n<tr><th colspan=\"3\">사전의견통지 결재서</th><th colspan=\"3\"><table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table></th></tr>\n<tr><td colspan=\"2\">접수번호:</td><td colspan=\"2\">접수일:</td><td colspan=\"2\">처리기간:</td></tr>\n<tr><td rowspan=\"2\">통지<br>대상자</td><td colspan=\"5\">성명</td></tr>\n<tr><td colspan=\"4\">주소</td><td>전화번호(휴대폰)</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td rowspan=\"4\">통지 내용</td><td>예정된 처분의 제목</td><td colspan=\"4\"></td></tr>\n<tr><td>처분의 원인되는 사실</td><td colspan=\"4\"></td></tr>\n<tr><td>처분하고자 하는 내용</td><td colspan=\"4\"></td></tr>\n<tr><td>법적근거 및 조문내용</td><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"6\">▣ 붙임서류 : 1. 사전의견통지서<br>위와 같이 조사 복명합니다<br>년 월 일<br>조사자 직급 성명</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n</table>\n【별지 제16호】 (제19조제1항 관련)\n<table>\n<tr><th colspan=\"12\">사전통지서(의견제출통지)</th></tr>\n<tr><td colspan=\"5\">문서번호</td><td colspan=\"7\"></td></tr>\n<tr><td colspan=\"5\">시행일 :</td><td colspan=\"7\" rowspan=\"2\">귀하</td></tr>\n<tr><td colspan=\"5\">수신 :</td></tr>\n<tr><td colspan=\"12\">「행정절차법」 제21조제1항의 규정에 의하여 우리 기관이 하고자 하는 처분의 내용을 통지하오니 의견을 제출하여 주시기 바랍니다.</td></tr>\n<tr><td rowspan=\"10\"></td><td colspan=\"2\">1. 예정된 처분의 제목</td><td colspan=\"8\"></td></tr>\n<tr><td rowspan=\"2\">2. 대상자</td><td>성명(명칭)</td><td colspan=\"8\"></td></tr>\n<tr><td>주 소</td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">3. 처분의 원인이 되는 사실</td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">4. 처분하고자 하는 내용</td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">5. 법적근거 및 조문내용</td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\" rowspan=\"4\">6. 의견제출</td><td rowspan=\"3\">제<br>출<br>처</td><td colspan=\"2\">기관명</td><td></td><td>부서명</td><td></td><td>담당자</td></tr>\n<tr><td colspan=\"2\">주 소</td><td colspan=\"3\"></td><td>전화번호</td></tr>\n<tr><td colspan=\"2\">전자우편<br>주 소</td><td colspan=\"3\"></td><td>모사전송</td></tr>\n<tr><td colspan=\"3\">제출기한</td><td colspan=\"5\">년 월 일까지</td></tr>\n<tr><td colspan=\"12\">한국장애인고용공단 ○○지역본부·지사장 [인]</td></tr>\n<tr><td colspan=\"11\"></td></tr>\n</table>\n<table>\n<tr><th colspan=\"2\"></th></tr>\n<tr><td><의견제출시 유의사항><br>1. 귀하는 앞쪽의 사항에 대하여 구술․정보통신망 또는 본 서식에 의한 서면으로 의견제출을 할 수 있으며, 주장을 입증할 증거자료를 함께 제출할 수 있습니다. 다만, 정보통신망을 이용하여 의견을 제출하고자 하는 경우에는 미리 우리지역본부·지사로 알려주시고, 의견을 제출한 후에 의견의 도달여부를 담당자에게 확인하여 주시기 바랍니다.<br>2. 의견제출기한내에 의견을 제출하지 아니하는 경우에는 의견이 없는 것으로 간주합니다.<br>3. 귀하께서 우리지역본부·지사에 출석하여 의견진술을 하고자 하는 경우에는 우리지역본부·지사에 미리 그 사실을 알려주십시오.<br>4. 그 밖에 궁금한 사항이 있으시면 우리지역본부·지사로 문의하시기 바랍니다.</td></tr>\n</table>\n【별지 제17호】 (제19조제1항 관련)\n**중증장애인 근로자 출·퇴근 교통비 지원 현장조사표**\n<table>\n<tr><th colspan=\"7\">지원대상자 및 사업장 개요</th></tr>\n<tr><td colspan=\"7\">ㅇ 대상자</td></tr>\n<tr><td>연번</td><td colspan=\"2\">성명</td><td>주민등록번호</td><td colspan=\"2\">연락처</td><td>장애유형</td></tr>\n<tr><td>1</td><td colspan=\"2\"></td><td></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td>2</td><td colspan=\"2\"></td><td></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td>3</td><td colspan=\"2\"></td><td></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td colspan=\"7\">ㅇ 사업장</td></tr>\n<tr><td colspan=\"2\">기관명</td><td colspan=\"2\"></td><td>소재지</td><td colspan=\"2\"></td></tr>\n<tr><td colspan=\"2\">대표자/담당자</td><td colspan=\"2\"></td><td>연락처</td><td colspan=\"2\"></td></tr>\n<tr><td colspan=\"7\">조사결과</td></tr>\n<tr><td colspan=\"2\">근로조건 확인</td><td colspan=\"5\">※ 근로계약서 일치 여부, 고용보험 가입확인, 실제 근무 환경 확인</td></tr>\n<tr><td colspan=\"2\">서류 확인</td><td colspan=\"5\">※ 근로계약서, 출석부, 최저임금 적용제외 인가서, 중위소득 50% 증명원 등</td></tr>\n<tr><td colspan=\"2\">조사결과</td><td colspan=\"5\"></td></tr>\n<tr><td colspan=\"7\">년 월 일<br>조사기관명 :<br>조 사 자 : (인)</td></tr>\n</table>",
+      "text": "제2조(경과조치) 이 규칙 시행 이전에 시행된 사항은 종전 규칙을 적용한다.\n【별지 제1호】 (제4조제1항 관련)\n중증장애인 근로자 출퇴근 교통비 지원 (재)신청 결재서\n<table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table>\n<table>\n<tr><th colspan=\"4\">접수번호</th><th colspan=\"3\">접수일자</th><th colspan=\"2\">처리기간</th></tr>\n<tr><td colspan=\"10\"></td></tr>\n<tr><td rowspan=\"4\">신청인</td><td colspan=\"3\">성명</td><td colspan=\"2\"></td><td>주민등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"3\">장애유형</td><td colspan=\"2\"></td><td>연락처(신청인)</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"3\">중증여부</td><td colspan=\"2\">[ ]중증 [ ]경증</td><td>연락처(보호자)</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"3\">주소<br>(거주지)</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"10\"></td></tr>\n<tr><td rowspan=\"5\">사업장 개요</td><td colspan=\"3\">사업장명</td><td></td><td colspan=\"2\">사업자등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"3\">사업장의 법인명</td><td></td><td colspan=\"2\" rowspan=\"2\">법인등록번호</td><td colspan=\"3\" rowspan=\"2\"></td></tr>\n<tr><td colspan=\"3\">담당자 연락처</td><td></td></tr>\n<tr><td colspan=\"2\" rowspan=\"2\">소재지</td><td>본사</td><td colspan=\"6\"></td></tr>\n<tr><td>사업장</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"10\"></td></tr>\n<tr><td colspan=\"4\">국가로부터 유사한 지원을<br>받은 경우</td><td colspan=\"6\">(지원금 명칭) (지원기간)</td></tr>\n<tr><td rowspan=\"3\">지원금 지급 희망은행</td><td colspan=\"3\">은행명</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"3\">계좌번호</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"3\">예금주</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"10\">「장애인고용촉진 및 직업재활법」제18조에 따라 중증장애인 근로자 출·퇴근 교통비 지원 사업 참여를 <br>([ ✔ ]신청, [ ]재신청)합니다.<br>년 월 일<br>신청인 성명: (서명 또는 인)<br>붙임서류: 1. 신청서&개인정보수집이용동의서.PDF<br>별첨서류: 1. 근로계약서 2. 통장사본</td></tr>\n</table>\n【별지 제2호】 (제8조제1항 관련)\n중증장애인 근로자 출퇴근 교통비 지원 결정결재서\n<table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table>\n<table>\n<tr><th colspan=\"3\">접수번호</th><th colspan=\"3\">접수일자</th><th colspan=\"2\">처리기간</th></tr>\n<tr><td colspan=\"9\"></td></tr>\n<tr><td rowspan=\"4\">신청인</td><td colspan=\"2\">성명</td><td colspan=\"2\"></td><td>주민등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">장애유형</td><td colspan=\"2\"></td><td>연락처(신청인)</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">중증여부</td><td colspan=\"2\">[ ]중증 [ ]경증</td><td>연락처(보호자)</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">주소<br>(거주지)</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"9\"></td></tr>\n<tr><td rowspan=\"5\">사업장 개요</td><td colspan=\"2\">사업장명</td><td></td><td colspan=\"2\">사업자등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">사업장의 법인명</td><td></td><td colspan=\"2\" rowspan=\"2\">법인등록번호</td><td colspan=\"3\" rowspan=\"2\"></td></tr>\n<tr><td colspan=\"2\">담당자 연락처</td><td></td></tr>\n<tr><td rowspan=\"2\">소재지</td><td>본사</td><td colspan=\"6\"></td></tr>\n<tr><td>사업장</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"9\"></td></tr>\n<tr><td rowspan=\"6\">결정결과</td><td colspan=\"2\" rowspan=\"2\">고용보험가입</td><td colspan=\"2\" rowspan=\"2\">[ ]가입 [ ]미가입<br>취득일 [YY-MM-DD]</td><td rowspan=\"4\">중증여부</td><td colspan=\"3\">[ ]중증 [ ]경증</td></tr>\n<tr><td rowspan=\"2\">주장애</td><td colspan=\"2\" rowspan=\"2\">부장애</td></tr>\n<tr><td colspan=\"2\" rowspan=\"2\">적용제외여부</td><td colspan=\"2\" rowspan=\"2\">[ ]인가 [ ]미인가</td></tr>\n<tr><td></td><td colspan=\"2\"></td></tr>\n<tr><td colspan=\"2\">유사지원 여부<br>(타지원금)</td><td colspan=\"2\">[ ]지원 [ ]미지원</td><td>최종결정여부</td><td colspan=\"3\">[ ]결정 [ ]탈락</td></tr>\n<tr><td colspan=\"2\">담당자 의견</td><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"9\">「장애인고용촉진 및 직업재활법」제18조에 따라 중증장애인 근로자 출·퇴근 교통비 지원 사업 대상자로 [ ✔ ]선정, [ ]탈락 결정합니다,<br>년 월 일<br>붙임서류: 1. 지급대상 결정 통보서. PDF</td></tr>\n</table>\n【별지 제3호】 (제8조제3항 관련)\n<table>\n<tr><th>중증장애인 근로자 출퇴근 교통비 지원 지원금<br>지급대상 결정통보서<br>성 함 ：<br>거주지：<br>연락처：<br>지급기간：년월일~년월일<br>결 정 결 과： 선정 ◻ 탈락 ◻<br>결정사유：<br>귀하는 중증장애인 근로자 출퇴근 교통비 지원 사업대상자로 (선정 / 탈락) 되셨음을 통지합니다.<br>○○○○년 ○○월 ○○일<br><table>\n<tr><th>한국장애인고용공단 ○○○○○○장</th><th>직인</th></tr>\n</table></th></tr>\n</table>\n【별지 제4호】 (제13조제1항 관련)\n<table>\n<tr><th rowspan=\"2\">년도 월 회차<br>중증장애인 근로자 출·퇴근 교통비 지원금 지급결정서</th><th rowspan=\"2\"></th><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table>\n<table>\n<tr><th rowspan=\"4\">결정 내용</th><th>구분</th><th>(이전)조사 및 확정내역</th><th>지원금 (재)결정내역</th></tr>\n<tr><td>선정인원</td><td>(명)</td><td>(명)</td></tr>\n<tr><td>결정인원</td><td>(명)</td><td>(명)</td></tr>\n<tr><td>결정금액</td><td>원</td><td>원</td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td>담당자 의견</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"4\">위와 같이 조사 복명합니다<br>년 월 일<br>조사자 직급 성 명 (인)<br>붙임서류: 1. (공통) 중증장애인 근로자 출·퇴근 교통비 지원금 지급 내역 총괄표( )월_( )회차.PDF<br>2. (지급/추가지급) 중증장애인 근로자 출·퇴근 교통비 지원금 지급 결정통지서( )월_( )회차.PDF<br>3. (부정/과오지급) 중증장애인 근로자 출·퇴근 교통비 지원금 (반환 / 추가징수) 통지서.PDF</td></tr>\n</table>\n【별지 제5호】 (제13조제3항 관련)\n<table>\n<tr><th colspan=\"8\">중증장애인 근로자 출퇴근 교통비 지원 지원금<br>지급 내역 총괄표( )월 ( )회차</th></tr>\n</table>\n<table>\n<tr><th>연번</th><th>성명</th><th>지급년월</th><th colspan=\"2\">결정금액 개요</th></tr>\n<tr><td rowspan=\"3\">1</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0 (원)</td></tr>\n<tr><td>결정액</td><td>0 (원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n<tr><td rowspan=\"3\">2</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0(원)</td></tr>\n<tr><td>결정액</td><td>0(원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n<tr><td rowspan=\"3\">3</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0(원)</td></tr>\n<tr><td>결정액</td><td>0(원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n<tr><td rowspan=\"3\">4</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0(원)</td></tr>\n<tr><td>결정액</td><td>0(원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n<tr><td rowspan=\"3\">5</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td>이전 회차 결정액</td><td>0(원)</td></tr>\n<tr><td>결정액</td><td>0(원)</td></tr>\n<tr><td>결정액 누계</td><td>0(원)</td></tr>\n</table>\n【별지 제6호】 (제13조제3항 관련)\n<table>\n<tr><th colspan=\"9\">중증장애인 근로자 출퇴근 교통비 지원 지원금<br>지급 결정통지서( )월_( )회차</th></tr>\n<tr><td colspan=\"2\" rowspan=\"3\">신청인</td><td>① 성 함</td><td colspan=\"6\">홍길동</td></tr>\n<tr><td>②주소지</td><td colspan=\"6\">000시 00구 000로<br>(전화번호 000-0000-0000)</td></tr>\n<tr><td>③ 카드번호</td><td colspan=\"6\">0000-0000-0000-0000</td></tr>\n<tr><td colspan=\"2\">구분</td><td colspan=\"2\">조사</td><td>결정</td><td colspan=\"3\">누계</td><td>비고</td></tr>\n<tr><td colspan=\"2\">결정<br>금액</td><td colspan=\"2\">(원)</td><td>(원)</td><td colspan=\"3\">(원)</td><td>□ 지급<br>□ 추가지급</td></tr>\n<tr><td colspan=\"2\">지급 방법</td><td colspan=\"7\">계좌입금</td></tr>\n<tr><td colspan=\"9\">「장애인고용촉진 및 직업재활법」제18조에 따라 위와 같이 지급 결정 통지 합니다.<br>○○○○년 ○○월 ○○일</td></tr>\n<tr><td colspan=\"9\"><table>\n<tr><th>한국장애인고용공단 ○○○○○○장</th><th>직인</th></tr>\n</table></td></tr>\n<tr><td colspan=\"9\"></td></tr>\n<tr><td colspan=\"9\">행정심판 및 행정소송 안내</td></tr>\n<tr><td colspan=\"9\">위 결정에 이의가 있는 경우에는 이 통지서를 받은 날부터 90일 이내에 행정심판을 청구하거나 행정소송을 제기할수 있습니다.</td></tr>\n<tr><td>부서명</td><td colspan=\"5\">취업지원부</td><td>담당자</td><td colspan=\"2\">000</td></tr>\n<tr><td rowspan=\"2\">주소</td><td colspan=\"5\">(우편번호 00000)</td><td rowspan=\"2\">전화번호</td><td colspan=\"2\" rowspan=\"2\">000-000-0000</td></tr>\n<tr><td colspan=\"5\"></td></tr>\n<tr><td>전자우편</td><td colspan=\"5\">0000@kead.or.kr</td><td>팩스</td><td colspan=\"2\">00-0000-0000</td></tr>\n</table>\n【별지 제7호】 (제16조제1항 관련)\n<table>\n<tr><th colspan=\"3\">이의신청 접수 결재서</th><th colspan=\"3\"><table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table></th></tr>\n<tr><td colspan=\"2\">접수번호:</td><td colspan=\"2\">접수일:</td><td colspan=\"2\">처리기간:</td></tr>\n<tr><td rowspan=\"2\">신청인<br>정보</td><td colspan=\"5\">성명</td></tr>\n<tr><td colspan=\"4\">주소</td><td>전화번호(휴대폰)</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td rowspan=\"3\">이의신청<br>내용</td><td>신청 구분</td><td colspan=\"4\">선정 결정 □ 지원금 결정 □</td></tr>\n<tr><td>통지된 사항 또는 내용</td><td colspan=\"4\"></td></tr>\n<tr><td>이의신청 취지 및 사유</td><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"6\">위와 같이 이의신청 결과를 결정합니다.<br>년 월 일<br>조사자 직급 성 명 (인)<br>붙임서류: 1. 이의신청서. PDF</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n</table>\n【별지 제8호】 (제16조제1항 관련)\n<table>\n<tr><th colspan=\"6\">이의신청서</th></tr>\n<tr><td colspan=\"2\">접수번호:</td><td colspan=\"2\">접수일:</td><td colspan=\"2\">처리기간:</td></tr>\n<tr><td rowspan=\"2\">신청인<br>정보</td><td colspan=\"5\">성명</td></tr>\n<tr><td colspan=\"4\">주소</td><td>전화번호(휴대폰)</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td rowspan=\"3\">이의신청<br>내용</td><td>신청 구분</td><td colspan=\"4\">선정 결정 □ 지원금 결정 □</td></tr>\n<tr><td>통지된 사항 또는 내용</td><td colspan=\"4\"></td></tr>\n<tr><td>이의신청 취지 및 사유</td><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"6\">위와 같이 이의신청 합니다.</td></tr>\n<tr><td colspan=\"6\">년월일</td></tr>\n<tr><td colspan=\"3\">의견제출인</td><td colspan=\"3\">(서명 또는 인)</td></tr>\n<tr><td colspan=\"2\"></td><td colspan=\"4\">귀하</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td colspan=\"6\">유의사항</td></tr>\n<tr><td colspan=\"6\">1. 기재란이 부족한 경우에는 서식을 사용하실 수 있습니다.<br>2. 증거자료 등을 첨부하실 수 있습니다.<br>3. 위 의견제출과 관련하여 문서를 받으신 경우에는 문서번호와 일자를 ①란에 함께 기재하여 주시기 바랍니다.</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n</table>\n【별지 제9호】 (제16조제2항 관련)\n<table>\n<tr><th colspan=\"7\">이의신청 결정 결재서</th><th colspan=\"8\"><table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table></th></tr>\n<tr><td colspan=\"3\">접수번호:</td><td colspan=\"6\">접수일:</td><td colspan=\"6\">처리기간:</td></tr>\n<tr><td rowspan=\"2\">신청인<br>정보</td><td colspan=\"14\">성명</td></tr>\n<tr><td colspan=\"11\">주소</td><td colspan=\"3\">전화번호(휴대폰)</td></tr>\n<tr><td colspan=\"15\"></td></tr>\n<tr><td rowspan=\"6\">결정<br>내역</td><td colspan=\"14\">자격조건</td></tr>\n<tr><td colspan=\"4\">고용보험<br>가입여부</td><td colspan=\"3\">중증여부</td><td colspan=\"5\">적용제외<br>인가여부</td><td colspan=\"2\">유사사업<br>참여여부</td></tr>\n<tr><td colspan=\"4\"></td><td colspan=\"3\"></td><td colspan=\"5\"></td><td colspan=\"2\"></td></tr>\n<tr><td>결정<br>종류</td><td colspan=\"6\">선정 결정 ( )</td><td colspan=\"7\">지원금 결정 ( )</td></tr>\n<tr><td rowspan=\"2\">기존<br>내역</td><td colspan=\"2\">접수<br>일자</td><td colspan=\"2\">선정<br>회차</td><td colspan=\"2\">선정<br>결과</td><td colspan=\"2\">대상<br>년월</td><td>결정<br>회차</td><td colspan=\"3\">결정<br>구분</td><td>결정<br>금액</td></tr>\n<tr><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td><td colspan=\"3\"></td><td></td></tr>\n<tr><td>담당자<br>의견</td><td colspan=\"14\"></td></tr>\n<tr><td colspan=\"15\"></td></tr>\n<tr><td colspan=\"15\">위와 같이 이의신청 결과를 결정합니다.<br>년 월 일<br>조사자 직급 성 명 (인)<br>붙임서류: 1. 이의신청 결정 통보서. pdf</td></tr>\n</table>\n【별지 제10호】 (제16조제2항 관련)\n<table>\n<tr><th>중증장애인 근로자 출퇴근 교통비 지원 지원금<br>이의신청 결정통보서<br>성 함 ：<br>거주지：<br>연락처：<br>신 청 구 분： 대상자 선정 결정 ◻ 지원금 결정 ◻<br>결 정 결 과： 수용 ◻ 불수용 ◻<br>결정사유：<br>귀하가 신청한 이의신청에 대한 결정을 위와 같이 통지합니다.<br>○○○○년 ○○월 ○○일<br><table>\n<tr><th>한국장애인고용공단 ○○○○○○장</th><th>직인</th></tr>\n</table></th></tr>\n</table>\n【별지 제11호】 (제17조제1항 관련)\n<table>\n<tr><th colspan=\"4\">부정(과오)수급 신고결재서</th><th colspan=\"3\"><table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table></th></tr>\n<tr><td colspan=\"2\">접수번호:</td><td colspan=\"3\">접수일:</td><td colspan=\"2\">처리기간:</td></tr>\n<tr><td rowspan=\"3\">신고인</td><td colspan=\"2\">성 명(*)</td><td colspan=\"3\">주민등록번호(*)</td><td rowspan=\"2\">신고구분(*)<br>[ ] 자진신고 [ ] 민원(제보) [ ] 공단조사</td></tr>\n<tr><td colspan=\"2\">이메일</td><td colspan=\"3\">휴대전화(*)</td></tr>\n<tr><td colspan=\"6\">주 소(*)</td></tr>\n<tr><td colspan=\"7\"></td></tr>\n<tr><td rowspan=\"3\">부정 수급<br>신고 내용</td><td>장애인명</td><td colspan=\"5\"></td></tr>\n<tr><td>사업체명(선택)</td><td colspan=\"5\"></td></tr>\n<tr><td>신고내용</td><td colspan=\"5\"></td></tr>\n<tr><td colspan=\"7\">▣ 붙임서류 : 1. 중증장애인 근로자 출퇴근 교통비 지원 부정(과오)수급 신고서<br>상기 부정(과오)수급 신고를 접수합니다.<br>년 월 일<br>조사자 직급 성명</td></tr>\n<tr><td colspan=\"7\"></td></tr>\n</table>\n【별지 제12호】 (제17조제1항 관련)\n중증장애인 근로자 출퇴근 교통비 지원 부정(과오)수급 신고서\n<table>\n<tr><th colspan=\"2\">접수번호</th><th colspan=\"4\"></th><th colspan=\"3\">접수일</th><th colspan=\"5\"></th><th colspan=\"6\"></th><th colspan=\"3\">처리기간</th><th colspan=\"2\">30일</th></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td colspan=\"2\" rowspan=\"3\">신고인</td><td colspan=\"8\">성 명(*)</td><td colspan=\"9\">주민등록번호(*)</td><td colspan=\"6\" rowspan=\"2\">신고구분(*)<br>[ ] 자진신고 [ ] 민원(제보) [ ] 공단조사</td></tr>\n<tr><td colspan=\"8\">이메일</td><td colspan=\"9\">휴대전화(*)</td></tr>\n<tr><td colspan=\"23\">주 소(*)</td></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td colspan=\"2\" rowspan=\"3\">부정수급 신고내용</td><td colspan=\"5\">장애인명</td><td colspan=\"18\"></td></tr>\n<tr><td colspan=\"5\">사업체명(선택)</td><td colspan=\"18\"></td></tr>\n<tr><td colspan=\"5\">신고내용</td><td colspan=\"18\"></td></tr>\n<tr><td colspan=\"25\">「공공재정환수법」제17조에 따라 위와 같이 ( )의 출·퇴근 교통비 지원금 부정수급사실을 신고합니다.</td></tr>\n<tr><td colspan=\"25\">년월일</td></tr>\n<tr><td colspan=\"18\">신고인</td><td colspan=\"7\">(서명 또는 인)</td></tr>\n<tr><td colspan=\"13\"></td><td colspan=\"12\" rowspan=\"2\">귀하</td></tr>\n<tr><td colspan=\"13\">한국장애인고용공단 ○○○○○○장</td></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td>첨부서류</td><td colspan=\"24\">증거자료가 있는 경우 첨부</td></tr>\n<tr><td colspan=\"25\"></td></tr>\n<tr><td colspan=\"25\">처리절차</td></tr>\n<tr><td colspan=\"16\"></td><td colspan=\"9\"></td></tr>\n<tr><td colspan=\"3\">신고서 작성</td><td colspan=\"2\">➔</td><td colspan=\"3\">접 수</td><td colspan=\"4\">➔</td><td colspan=\"3\">부정수급사실<br>조사확인</td><td colspan=\"2\">➔</td><td colspan=\"4\">결 재</td><td colspan=\"3\">➔</td><td>결과 통지</td></tr>\n<tr><td colspan=\"3\">신고인</td><td></td><td></td><td colspan=\"3\">처리기관<br>(한국장애인고용공단)</td><td colspan=\"3\"></td><td></td><td colspan=\"3\">처리기관<br>(한국장애인고용공단)</td><td></td><td></td><td colspan=\"4\">처리기관<br>(한국장애인고용공단)</td><td></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td colspan=\"25\">210mm×297mm[백상지(80g/㎡) 또는 중질지(80g/㎡)]</td></tr>\n</table>\n【별지 제13호】 (제18조제1항 관련)\n<table>\n<tr><th colspan=\"7\" rowspan=\"2\">년도 월 중증장애인 근로자<br>출·퇴근 교통비 부정수급 결정서</th><th colspan=\"2\" rowspan=\"2\">결<br>재</th><th colspan=\"3\">담당</th><th colspan=\"3\">부서장</th><th>기관장</th></tr>\n<tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td></td></tr>\n<tr><td colspan=\"7\"></td><td></td><td colspan=\"2\"></td><td colspan=\"4\"></td><td colspan=\"2\"></td></tr>\n<tr><td colspan=\"2\">장애인명</td><td colspan=\"2\"></td><td>장애유형</td><td colspan=\"3\"></td><td colspan=\"5\">주민등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"2\">거주지</td><td colspan=\"6\"></td><td colspan=\"5\">연락처</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"16\">1.신고인</td></tr>\n<tr><td rowspan=\"2\">신고인</td><td>성 명</td><td colspan=\"6\"></td><td colspan=\"5\">주민등록번호</td><td colspan=\"3\"></td></tr>\n<tr><td>주 소</td><td colspan=\"6\"></td><td colspan=\"5\">전화번호</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"16\">2. 조사내역</td></tr>\n<tr><td colspan=\"2\"></td><td colspan=\"6\">신고</td><td colspan=\"8\">조사</td></tr>\n<tr><td colspan=\"2\">일자</td><td colspan=\"6\"></td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">부정수급 기간</td><td colspan=\"6\"></td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">부정수급 유형</td><td colspan=\"6\"></td><td colspan=\"8\">고용보험( ) 장애정도( )<br>인가탈락( ) 중복지원( )</td></tr>\n<tr><td colspan=\"16\">3. 조치사항</td></tr>\n<tr><td colspan=\"3\">환수액</td><td colspan=\"3\">추가징수금</td><td colspan=\"5\">확정금액</td><td colspan=\"5\">지급제한기간</td></tr>\n<tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"5\"></td><td colspan=\"5\">~</td></tr>\n<tr><td colspan=\"16\">4. 조사자 의견</td></tr>\n<tr><td colspan=\"16\"></td></tr>\n<tr><td colspan=\"16\">▣ 붙임서류 : 1. 중증장애인 근로자 출퇴근 교통비 지원금 부정수급 조사결과 통보서<br>위와 같이 조사 복명합니다<br>년월일<br>조사자 직급 성명</td></tr>\n</table>\n【별지 제14호】 (제18조제2항 관련)\n<table>\n<tr><th colspan=\"4\">중증장애인 근로자 출·퇴근 교통비 지원금<br>부정수급 조사결과 통보서</th></tr>\n<tr><td rowspan=\"2\">신고인</td><td colspan=\"2\">성 명</td><td>생년월일</td></tr>\n<tr><td colspan=\"3\">주 소<br>(전화번호: ) (휴대전화: )</td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"4\">중증장애인 근로자 출·퇴근 교통비 지원금 부정수급 신고에 따른 조사 결과</td></tr>\n<tr><td rowspan=\"3\">조사대상</td><td colspan=\"3\">장애인명</td></tr>\n<tr><td colspan=\"3\">사업장명</td></tr>\n<tr><td colspan=\"3\">주 소<br>(전화번호: )</td></tr>\n<tr><td>부정수급<br>해당여부</td><td colspan=\"3\"></td></tr>\n<tr><td>부정수급금</td><td colspan=\"3\"></td></tr>\n<tr><td colspan=\"4\">「공공재정환수법」제13조에 따라 조사대상자( )의 중증장애인 근로자 출·퇴근 교통비 지원금 부정수급에 대한 조사결과를 위와 같이 알려드립니다.</td></tr>\n<tr><td colspan=\"4\">년월일</td></tr>\n<tr><td colspan=\"4\"><table>\n<tr><th>한국장애인고용공단 ○○지역본부·지사장</th><th>직인</th></tr>\n</table></td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"4\">포상금 신청 안내</td></tr>\n<tr><td colspan=\"4\">귀하께서 신고하거나 고발한 대상자가 중증장애인 근로자 출·퇴근 교통비 지원금 부정수급에 해당하는 경우에는 「공공재정환수법」제23조, 같은 법 시행령 제18조에 따라 포상금을 신청할 수 있습니다.</td></tr>\n<tr><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"2\">부서명</td><td colspan=\"2\">담당자</td></tr>\n<tr><td colspan=\"2\">주소</td><td colspan=\"2\">전화번호</td></tr>\n<tr><td colspan=\"2\">전자우편</td><td colspan=\"2\">팩스</td></tr>\n</table>\n【별지 제15호】 (제19조제1항 관련)\n<table>\n<tr><th colspan=\"3\">사전의견통지 결재서</th><th colspan=\"3\"><table>\n<tr><th rowspan=\"2\">결<br>재</th><th>담당</th><th>부서장</th><th>기관장</th></tr>\n<tr><td></td><td></td><td></td></tr>\n</table></th></tr>\n<tr><td colspan=\"2\">접수번호:</td><td colspan=\"2\">접수일:</td><td colspan=\"2\">처리기간:</td></tr>\n<tr><td rowspan=\"2\">통지<br>대상자</td><td colspan=\"5\">성명</td></tr>\n<tr><td colspan=\"4\">주소</td><td>전화번호(휴대폰)</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n<tr><td rowspan=\"4\">통지 내용</td><td>예정된 처분의 제목</td><td colspan=\"4\"></td></tr>\n<tr><td>처분의 원인되는 사실</td><td colspan=\"4\"></td></tr>\n<tr><td>처분하고자 하는 내용</td><td colspan=\"4\"></td></tr>\n<tr><td>법적근거 및 조문내용</td><td colspan=\"4\"></td></tr>\n<tr><td colspan=\"6\">▣ 붙임서류 : 1. 사전의견통지서<br>위와 같이 조사 복명합니다<br>년 월 일<br>조사자 직급 성명</td></tr>\n<tr><td colspan=\"6\"></td></tr>\n</table>\n【별지 제16호】 (제19조제1항 관련)\n<table>\n<tr><th colspan=\"12\">사전통지서(의견제출통지)</th></tr>\n<tr><td colspan=\"5\">문서번호</td><td colspan=\"7\"></td></tr>\n<tr><td colspan=\"5\">시행일 :</td><td colspan=\"7\" rowspan=\"2\">귀하</td></tr>\n<tr><td colspan=\"5\">수신 :</td></tr>\n<tr><td colspan=\"12\">「행정절차법」 제21조제1항의 규정에 의하여 우리 기관이 하고자 하는 처분의 내용을 통지하오니 의견을 제출하여 주시기 바랍니다.</td></tr>\n<tr><td rowspan=\"10\"></td><td colspan=\"2\">1. 예정된 처분의 제목</td><td colspan=\"8\"></td></tr>\n<tr><td rowspan=\"2\">2. 대상자</td><td>성명(명칭)</td><td colspan=\"8\"></td></tr>\n<tr><td>주 소</td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">3. 처분의 원인이 되는 사실</td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">4. 처분하고자 하는 내용</td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\">5. 법적근거 및 조문내용</td><td colspan=\"8\"></td></tr>\n<tr><td colspan=\"2\" rowspan=\"4\">6. 의견제출</td><td rowspan=\"3\">제<br>출<br>처</td><td colspan=\"2\">기관명</td><td></td><td>부서명</td><td></td><td>담당자</td></tr>\n<tr><td colspan=\"2\">주 소</td><td colspan=\"3\"></td><td>전화번호</td></tr>\n<tr><td colspan=\"2\">전자우편<br>주 소</td><td colspan=\"3\"></td><td>모사전송</td></tr>\n<tr><td colspan=\"3\">제출기한</td><td colspan=\"5\">년 월 일까지</td></tr>\n<tr><td colspan=\"12\">한국장애인고용공단 ○○지역본부·지사장 [인]</td></tr>\n<tr><td colspan=\"11\"></td></tr>\n</table>\n<table>\n<tr><th colspan=\"2\"></th></tr>\n<tr><td><의견제출시 유의사항><br>1. 귀하는 앞쪽의 사항에 대하여 구술․정보통신망 또는 본 서식에 의한 서면으로 의견제출을 할 수 있으며, 주장을 입증할 증거자료를 함께 제출할 수 있습니다. 다만, 정보통신망을 이용하여 의견을 제출하고자 하는 경우에는 미리 우리지역본부·지사로 알려주시고, 의견을 제출한 후에 의견의 도달여부를 담당자에게 확인하여 주시기 바랍니다.<br>2. 의견제출기한내에 의견을 제출하지 아니하는 경우에는 의견이 없는 것으로 간주합니다.<br>3. 귀하께서 우리지역본부·지사에 출석하여 의견진술을 하고자 하는 경우에는 우리지역본부·지사에 미리 그 사실을 알려주십시오.<br>4. 그 밖에 궁금한 사항이 있으시면 우리지역본부·지사로 문의하시기 바랍니다.</td></tr>\n</table>\n【별지 제17호】 (제19조제1항 관련)\n중증장애인 근로자 출·퇴근 교통비 지원 현장조사표\n<table>\n<tr><th colspan=\"7\">지원대상자 및 사업장 개요</th></tr>\n<tr><td colspan=\"7\">ㅇ 대상자</td></tr>\n<tr><td>연번</td><td colspan=\"2\">성명</td><td>주민등록번호</td><td colspan=\"2\">연락처</td><td>장애유형</td></tr>\n<tr><td>1</td><td colspan=\"2\"></td><td></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td>2</td><td colspan=\"2\"></td><td></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td>3</td><td colspan=\"2\"></td><td></td><td colspan=\"2\"></td><td></td></tr>\n<tr><td colspan=\"7\">ㅇ 사업장</td></tr>\n<tr><td colspan=\"2\">기관명</td><td colspan=\"2\"></td><td>소재지</td><td colspan=\"2\"></td></tr>\n<tr><td colspan=\"2\">대표자/담당자</td><td colspan=\"2\"></td><td>연락처</td><td colspan=\"2\"></td></tr>\n<tr><td colspan=\"7\">조사결과</td></tr>\n<tr><td colspan=\"2\">근로조건 확인</td><td colspan=\"5\">※ 근로계약서 일치 여부, 고용보험 가입확인, 실제 근무 환경 확인</td></tr>\n<tr><td colspan=\"2\">서류 확인</td><td colspan=\"5\">※ 근로계약서, 출석부, 최저임금 적용제외 인가서, 중위소득 50% 증명원 등</td></tr>\n<tr><td colspan=\"2\">조사결과</td><td colspan=\"5\"></td></tr>\n<tr><td colspan=\"7\">년 월 일<br>조사기관명 :<br>조 사 자 : (인)</td></tr>\n</table>",
       "needsOriginal": true
     }
   ]
