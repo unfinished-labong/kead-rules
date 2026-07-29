@@ -1,9 +1,9 @@
 name: 규정 수집
 
 on:
-  workflow_dispatch:          # 손으로 실행 (처음엔 이걸로 테스트)
+  workflow_dispatch:
   schedule:
-    - cron: '0 20 * * *'      # UTC 20:00 = 한국시간 매일 새벽 5시
+    - cron: '0 20 * * *'      # 한국시간 매일 새벽 5시
 
 permissions:
   contents: write
@@ -21,8 +21,13 @@ jobs:
       - name: 의존성 설치
         run: npm install
 
-      - name: 수집 실행
+      - name: 내부규정 게시판 수집
         run: node collect.js
+
+      - name: 법제처 법령·행정규칙 수집
+        env:
+          LAW_OC: ${{ secrets.LAW_OC }}
+        run: node fetch-law.js
 
       - name: 결과 커밋
         run: |
@@ -36,6 +41,6 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: inventory
+          name: data
           path: data/
           if-no-files-found: ignore
