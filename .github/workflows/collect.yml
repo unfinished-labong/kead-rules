@@ -1,0 +1,41 @@
+name: 규정 수집
+
+on:
+  workflow_dispatch:          # 손으로 실행 (처음엔 이걸로 테스트)
+  schedule:
+    - cron: '0 20 * * *'      # UTC 20:00 = 한국시간 매일 새벽 5시
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 의존성 설치
+        run: npm install
+
+      - name: 수집 실행
+        run: node collect.js
+
+      - name: 결과 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "수집 $(date -u -d '+9 hours' +%Y-%m-%d)"
+          git push
+
+      - name: 결과 파일 첨부
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inventory
+          path: data/
+          if-no-files-found: ignore
