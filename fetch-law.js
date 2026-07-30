@@ -23,7 +23,14 @@ async function fetchRetry(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
     try {
       const res = await fetch(url, {
-        headers: { 'User-Agent': 'kead-rules/0.4', Accept: 'application/xml,text/xml,*/*' },
+        headers: {
+          // 법제처 API가 Node 기본 UA(undici/...)를 봇으로 보고 거부한다.
+          // 일반 브라우저 UA를 보내야 통과한다.
+          'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+          Accept: 'application/xml,text/xml,*/*',
+          'Accept-Language': 'ko-KR,ko;q=0.9',
+        },
         signal: AbortSignal.timeout(20000),
       });
       if (res.ok) return res;
