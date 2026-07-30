@@ -1,6 +1,6 @@
 // 공단 규정 MCP 서버
 // 인덱스를 깃허브에서 받아 메모리에 주소록(역색인)을 만들고, 조문을 찾아 돌려준다.
-// 외부 라이브러리 없이 Node 기본 기능만 쓴다
+// 외부 라이브러리 없이 Node 기본 기능만 쓴다.
 
 import http from 'node:http';
 
@@ -122,7 +122,7 @@ const SECTION_WEIGHT = { 본칙: 1, 별표: 0.75, 부칙: 0.45 };
 const MIN_COVERAGE = 0.34;   // 질의 조각이 이만큼은 겹쳐야 후보로 본다
 const MIN_SCORE = 8;         // 실측: 정상 질문 26~68점, 무관한 질문 0~4점
 
-function search(query, { scope, section, limit = MAX_HITS } = {}) {
+function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
   const S = STATE;
   const qn = normText(query);
   if (qn.length < 2) return [];
@@ -167,9 +167,17 @@ function search(query, { scope, section, limit = MAX_HITS } = {}) {
     if (j >= 0) pinned = j;
   }
 
+  // 특정 규정 안에서만 찾도록 한정할 수 있다
+  let onlyDocs = null;
+  if (document) {
+    const dq = normText(document);
+    onlyDocs = new Set([...S.docs.values()].filter((d) => normText(d.name).includes(dq)).map((d) => d.docId));
+  }
+
   const out = [];
   for (const [i, raw] of scores) {
     const a = S.articles[i];
+    if (onlyDocs && !onlyDocs.has(a.docId)) continue;
     if (scope === '법제처' && !a.docId.startsWith('법령:')) continue;
     if (scope === '내부규정' && !a.docId.startsWith('내규:')) continue;
     if (section && a.section !== section) continue;
@@ -194,7 +202,8 @@ function search(query, { scope, section, limit = MAX_HITS } = {}) {
     else out.unshift({ i: pinned, s: 999 });
   }
   // 근거가 약한 결과는 아예 내보내지 않는다. 없는 내용을 지어내는 것보다 못 찾았다고 하는 게 낫다.
-  const passed = out.filter((o) => o.s >= MIN_SCORE);
+  const floor = document ? MIN_SCORE * 0.3 : MIN_SCORE;
+  const passed = out.filter((o) => o.s >= floor);
   return passed.slice(0, limit).map(({ i, s }) => ({ ...S.articles[i], _score: s }));
 }
 
@@ -242,13 +251,17 @@ const TOOLS = [
       '표준사업장, 인사, 복무, 징계, 휴가, 감사, 계약, 위탁, 제출서류.\n' +
       '【답변 규칙】 이 도구가 돌려준 조문에 실제로 적힌 내용만 근거로 삼는다. ' +
       '결과가 [NOT_FOUND]이면 추측하지 말고 "수록된 규정에서 근거를 찾지 못했다"고 답한다. ' +
-      '한 번에 못 찾으면 다른 낱말로 2~3회 더 시도한 뒤에 판단한다.',
+      '한 번에 못 찾으면 다른 낱말로 2~3회 더 시도한 뒤에 판단한다.\n' +
+      '【흩어진 의무를 묻는 질문】 "분기별로 뭘 해야 하나", "제출서류가 뭐가 있나"처럼 답이 여러 조문에 흩어진 질문은 ' +
+      '한 번 검색으로 끝내지 말 것. 먼저 관련 규정을 찾고, get_provision 으로 그 규정의 목차를 받아 ' +
+      '조문 제목을 훑은 뒤, document 를 지정해 그 규정 안에서 핵심 낱말(분기, 반기, 보고, 제출, 점검, 평가 등)로 다시 검색한다.',
     inputSchema: {
       type: 'object',
       properties: {
         query: { type: 'string', description: '찾고자 하는 내용. 예: 부담기초액, 근로지원인 신청 절차, 인사규정 제5조' },
         scope: { type: 'string', enum: ['전체', '내부규정', '법제처'], description: '검색 범위. 기본값 전체' },
         section: { type: 'string', enum: ['본칙', '부칙', '별표'], description: '특정 구분만 볼 때. 기본은 전체이며 본칙이 우선 노출됨' },
+        document: { type: 'string', description: '이 규정 안에서만 찾는다. 문서명 일부면 된다. 예: 장애인 직업능력개발훈련 지원규정' },
         limit: { type: 'number', description: '결과 개수. 기본 8, 최대 15' },
       },
       required: ['query'],
@@ -258,14 +271,16 @@ const TOOLS = [
     name: 'get_provision',
     description:
       '문서명과 조문번호를 알 때 그 조문의 원문을 그대로 가져온다. 예: 인사규정 시행규칙 제5조, 교육훈련규칙 [별표 4].\n' +
-      '사용자가 특정 조문이나 별표를 지목했다면 검색보다 이 도구를 먼저 쓴다. 원문을 고치거나 요약하지 말고 그대로 인용한다.',
+      '사용자가 특정 조문이나 별표를 지목했다면 검색보다 이 도구를 먼저 쓴다. 원문을 고치거나 요약하지 말고 그대로 인용한다.\n' +
+      "article 을 비우거나 '목차'로 주면 그 규정의 전체 조문 목록(번호와 제목)을 돌려준다. " +
+      '어떤 조문이 있는지 훑어보고 필요한 것을 고를 때 쓴다. 검색어가 안 맞아 조문을 놓치는 것을 막는 가장 확실한 방법이다.',
     inputSchema: {
       type: 'object',
       properties: {
         document: { type: 'string', description: '규정 이름. 일부만 적어도 된다. 예: 인사규정 시행규칙' },
-        article: { type: 'string', description: '조문번호. 예: 제5조, 제12조의2, 전문' },
+        article: { type: 'string', description: "조문번호. 예: 제5조, 제12조의2, 전문. 비우거나 '목차'라고 하면 그 규정의 조문 목록 전체를 돌려준다" },
       },
-      required: ['document', 'article'],
+      required: ['document'],
     },
   },
   {
@@ -287,7 +302,7 @@ async function callTool(name, args = {}) {
   if (name === 'search_provisions') {
     const limit = Math.min(Math.max(Number(args.limit) || MAX_HITS, 1), 15);
     const scope = args.scope === '전체' ? undefined : args.scope;
-    const hits = search(String(args.query ?? ''), { scope, section: args.section, limit });
+    const hits = search(String(args.query ?? ''), { scope, section: args.section, document: args.document, limit });
     if (!hits.length) {
       return NOT_FOUND(
         `"${args.query}" 로 검색된 조문이 없습니다.`,
@@ -307,7 +322,28 @@ async function callTool(name, args = {}) {
     const cands = [...STATE.docs.values()].filter((d) => normText(d.name).includes(dq));
     if (!cands.length) return NOT_FOUND(`"${args.document}" 이라는 규정을 찾지 못했습니다.`, 'list_documents 로 이름을 확인하십시오.');
 
+    // 조문을 비우거나 '목차'라고 하면 그 규정의 조문 목록을 돌려준다
     const want = String(args.article ?? '').replace(/\s/g, '');
+    if (!want || want === '목차' || want === '전체') {
+      const d = cands.sort((a, b) => a.name.length - b.name.length)[0];
+      const list = STATE.articles.filter((x) => x.docId === d.docId);
+      const line = (x) => `  ${x.articleId}${x.title ? ` (${x.title})` : ''}${x.needsOriginal ? ' ※표·별표 포함' : ''}`;
+      const bySec = ['본칙', '부칙', '별표']
+        .map((sec) => {
+          const rows = list.filter((x) => x.section === sec);
+          return rows.length ? `[${sec}] ${rows.length}건\n` + rows.map(line).join('\n') : null;
+        })
+        .filter(Boolean);
+      return (
+        `■ ${d.name} 조문 목록\n` +
+        `  시행 ${d.effectiveDate ?? '표기 없음'}${d.lawNo ? ` · 제${d.lawNo}호` : ''} · ${d.source}\n` +
+        `  원문: ${d.originalUrl}\n\n` +
+        bySec.join('\n\n') +
+        `\n\n제목만 본 것이므로 내용 확인이 필요하면 get_provision 으로 해당 조문을 조회하거나, ` +
+        `search_provisions 에 document 를 지정해 이 규정 안에서 검색하십시오.` +
+        footer()
+      );
+    }
     for (const d of cands) {
       const a = STATE.articles.find((x) => x.docId === d.docId && x.articleId.replace(/\s/g, '') === want);
       if (a) return renderArticle(a) + footer();
