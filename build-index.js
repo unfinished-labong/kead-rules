@@ -5,6 +5,7 @@
 // 조문 5천 개 수준에서는 그게 더 단순하고 충분히 빠르다.
 
 import { readFile, writeFile, readdir } from 'node:fs/promises';
+import { toArticles } from './fetch-docs.js';
 import path from 'node:path';
 
 // 검색용 정규화: 공백·구두점을 없애 표기 흔들림을 흡수한다.
@@ -50,12 +51,14 @@ async function loadInternal() {
       fileName: d.fileName,
     });
     for (const a of d.articles) {
-      if (!a.articleId || isNoise(a.text)) continue;
+      const isAnnex = a.section === '별표';
+      if ((!a.articleId && !isAnnex) || isNoise(a.text)) continue;
+      const label = a.articleId ?? a.annexTitle ?? '별표';
       articles.push({
-        id: `${docId}#${a.section}:${a.articleId}`,
+        id: `${docId}#${a.section}:${label}`,
         docId,
         section: a.section,
-        articleId: a.articleId,
+        articleId: label,
         title: a.title,
         text: a.text,
         needsOriginal: !!a.needsOriginal,
@@ -89,18 +92,38 @@ async function loadStatutes() {
       originalUrl: d.link,
       fileName: null,
     });
-    for (const a of d.articles) {
+    // 법령은 조문번호가 오지만, 고시·훈령(행정규칙)은 통짜 텍스트로 온다.
+    // 번호가 없으면 내부규정과 같은 방식으로 직접 조문을 쪼갠다.
+    const numbered = d.articles.filter((a) => a.articleNo != null && !isNoise(a.text));
+    const parsed =
+      numbered.length > 0
+        ? numbered.map((a) => ({
+            section: '본칙',
+            articleId: `제${a.articleNo}조`,
+            title: a.title ?? null,
+            text: a.text,
+            needsOriginal: /별표|별지|서식/.test(a.text),
+          }))
+        : toArticles(d.articles.map((a) => ({ text: a.text })))
+            .filter((a) => a.articleId)
+            .map((a) => ({
+              section: a.section,
+              articleId: a.articleId,
+              title: a.title,
+              text: a.text,
+              needsOriginal: a.needsOriginal,
+            }));
+
+    for (const a of parsed) {
       if (isNoise(a.text)) continue;
-      const label = a.articleNo ? `제${a.articleNo}조` : null;
-      if (!label) continue;
       articles.push({
-        id: `${docId}#본칙:${label}`,
+        id: `${docId}#${a.section}:${a.articleId}`,
         docId,
-        section: '본칙',
-        articleId: label,
+        section: a.section,
+        articleId: a.articleId,
         title: a.title ?? null,
         text: a.text,
-        needsOriginal: /별표|별지|서식/.test(a.text),
+        needsOriginal: !!a.needsOriginal,
       });
     }
   }
@@ -136,8 +159,11 @@ async function main() {
       bySection: {
         본칙: articles.filter((a) => a.section === '본칙').length,
         부칙: articles.filter((a) => a.section === '부칙').length,
+        별표: articles.filter((a) => a.section === '별표').length,
       },
       needsOriginal: articles.filter((a) => a.needsOriginal).length,
+      emptyDocs: docs.filter((d) => !articles.some((a) => a.docId === d.docId)).map((d) => d.name),
+      longest: Math.max(...articles.map((a) => a.text.length)),
     },
     docs,
     articles,

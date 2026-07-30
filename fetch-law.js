@@ -16,6 +16,29 @@ const parser = new XMLParser({ ignoreAttributes: false, trimValues: true });
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// 법제처 서버가 간헐적으로 연결을 끊는다. 재시도하고, 실패하면 원인 코드를 남긴다.
+// 'fetch failed' 만으로는 장애인지 차단인지 구분할 수 없어서다.
+async function fetchRetry(url, tries = 3) {
+  let last;
+  for (let i = 0; i < tries; i++) {
+    try {
+      const res = await fetch(url, {
+        headers: { 'User-Agent': 'kead-rules/0.4', Accept: 'application/xml,text/xml,*/*' },
+        signal: AbortSignal.timeout(20000),
+      });
+      if (res.ok) return res;
+      last = new Error(`HTTP ${res.status}`);
+    } catch (e) {
+      last = e;
+    }
+    // https가 막히면 http로도 한 번 시도한다
+    if (i === tries - 2 && url.startsWith('https://')) url = 'http://' + url.slice(8);
+    await sleep(1000 * (i + 1) ** 2);
+  }
+  const code = last?.cause?.code ?? last?.code ?? last?.name ?? '';
+  throw new Error(`${last?.message ?? '연결 실패'}${code ? ` [${code}]` : ''}`);
+}
+
 function ymd(v) {
   const s = String(v ?? '').replace(/\D/g, '');
   return s.length === 8 ? `${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}` : null;
@@ -55,8 +78,7 @@ async function findLatest(name, target) {
 
 async function searchOnce(query, name, target) {
   const url = `${BASE}/lawSearch.do?OC=${encodeURIComponent(OC)}&target=${target}&type=XML&display=100&query=${encodeURIComponent(query)}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`목록조회 HTTP ${res.status}`);
+  const res = await fetchRetry(url);
   const doc = parser.parse(await res.text());
 
   const root = doc.LawSearch ?? doc.AdmRulSearch ?? Object.values(doc)[0];
@@ -93,8 +115,7 @@ async function searchOnce(query, name, target) {
 // ── 본문 조회: 조문 단위로 쪼갠다 ──
 async function fetchArticles(mst, target) {
   const url = `${BASE}/lawService.do?OC=${encodeURIComponent(OC)}&target=${target}&MST=${mst}&type=XML`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`본문조회 HTTP ${res.status}`);
+  const res = await fetchRetry(url);
   const doc = parser.parse(await res.text());
 
   const root = doc['법령'] ?? doc['행정규칙'] ?? Object.values(doc)[0];
@@ -177,6 +198,12 @@ async function main() {
     )
   );
   console.log(`\n요청 ${targets.length} / 수집 ${docs.length} / 실패 ${failed.length}`);
+  if (docs.length === 0 && failed.length > 0) {
+    const reasons = [...new Set(failed.map((f) => f.reason))];
+    console.error('\n전건 실패입니다. 원인 종류:', reasons.join(' / '));
+    console.error('네트워크 오류라면 법제처 접속 장애 또는 차단, HTTP 4xx면 OC 값 문제입니다.');
+    process.exitCode = 1;   // 조용히 넘어가지 않도록 단계를 실패로 표시
+  }
 }
 
 main();
