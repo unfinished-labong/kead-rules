@@ -8,6 +8,19 @@ const PORT = Number(process.env.PORT ?? 8080);
 const INDEX_URL = process.env.INDEX_URL;          // data/index.json 의 raw 주소
 const REFRESH_MS = Number(process.env.REFRESH_MIN ?? 60) * 60 * 1000;
 const MAX_TEXT = 1800;                            // 조문 하나를 돌려줄 때 최대 글자 수
+
+// 접근 열쇠. "열쇠:이름,열쇠:이름" 형태로 넣는다. 비워두면 누구나 쓸 수 있다.
+// 반드시 Fly.io Secrets 로 넣을 것. fly.toml 에 적으면 깃허브에 그대로 공개된다.
+const KEYS = new Map(
+  (process.env.ACCESS_KEYS ?? '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .map((pair) => {
+      const i = pair.indexOf(':');
+      return i < 0 ? [pair, '이름없음'] : [pair.slice(0, i).trim(), pair.slice(i + 1).trim()];
+    })
+);
 const MAX_HITS = 8;
 
 if (!INDEX_URL) {
@@ -360,6 +373,49 @@ const CORS = {
   'Access-Control-Allow-Headers': 'Content-Type, Authorization, Mcp-Session-Id, MCP-Protocol-Version',
 };
 
+// ── 요청 횟수 제한 ────────────────────────────────────────
+// 열쇠는 자료 유출을 막지만 요청이 쏟아지는 것은 못 막는다.
+// 같은 곳에서 짧은 시간에 너무 많이 두드리면 잠시 막는다.
+const RATE_WINDOW_MS = 60_000;
+const RATE_MAX_OK = Number(process.env.RATE_MAX ?? 60);        // 정상 이용자: 분당 60회
+const RATE_MAX_BAD = 10;                                       // 열쇠 틀린 곳: 분당 10회
+const buckets = new Map();
+
+function rateLimited(ip, limit) {
+  const now = Date.now();
+  let b = buckets.get(ip);
+  if (!b || now - b.start > RATE_WINDOW_MS) {
+    b = { start: now, n: 0 };
+    buckets.set(ip, b);
+  }
+  b.n++;
+  return b.n > limit;
+}
+
+// 오래된 기록은 버린다
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, b] of buckets) if (now - b.start > RATE_WINDOW_MS * 5) buckets.delete(ip);
+}, RATE_WINDOW_MS).unref();
+
+function clientIp(req) {
+  return (req.headers['fly-client-ip'] ?? req.headers['x-forwarded-for'] ?? req.socket.remoteAddress ?? '?')
+    .toString()
+    .split(',')[0]
+    .trim();
+}
+
+// 열쇠 확인. 주소 뒤의 ?k= 또는 Authorization 헤더 둘 다 받는다.
+function checkKey(req, url) {
+  if (!KEYS.size) return { ok: true, who: '공개' };          // 열쇠를 안 걸었으면 통과
+  const fromQuery = url.searchParams.get('k');
+  const auth = req.headers.authorization ?? '';
+  const fromHeader = auth.startsWith('Bearer ') ? auth.slice(7).trim() : null;
+  const key = fromQuery || fromHeader;
+  if (key && KEYS.has(key)) return { ok: true, who: KEYS.get(key) };
+  return { ok: false, who: null };
+}
+
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, 'http://x');
 
@@ -369,11 +425,35 @@ const server = http.createServer(async (req, res) => {
     const body = STATE
       ? { ok: true, docs: STATE.docs.size, articles: STATE.N, dataAsOf: STATE.idx.dataAsOf, loadedAt: STATE.loadedAt }
       : { ok: false, note: '인덱스 적재 전' };
+    if (STATE) body.keyRequired = KEYS.size > 0;
     return res.writeHead(200, { ...CORS, 'Content-Type': 'application/json' }).end(JSON.stringify(body));
   }
 
   if (req.method !== 'POST' || url.pathname !== '/mcp') {
     return res.writeHead(405, CORS).end();
+  }
+
+  const ip = clientIp(req);
+  const pass = checkKey(req, url);
+
+  if (rateLimited(ip, pass.ok ? RATE_MAX_OK : RATE_MAX_BAD)) {
+    console.warn(`횟수 초과 차단 · ${ip}`);
+    return res
+      .writeHead(429, { ...CORS, 'Content-Type': 'application/json', 'Retry-After': '60' })
+      .end(JSON.stringify({
+        jsonrpc: '2.0', id: null,
+        error: { code: -32002, message: '요청이 너무 잦습니다. 1분 뒤에 다시 시도하세요.' },
+      }));
+  }
+
+  if (!pass.ok) {
+    console.warn(`접근 거부 · ${ip}`);
+    return res
+      .writeHead(401, { ...CORS, 'Content-Type': 'application/json' })
+      .end(JSON.stringify({
+        jsonrpc: '2.0', id: null,
+        error: { code: -32001, message: '접근 열쇠가 없거나 올바르지 않습니다. 커넥터 주소를 확인하세요.' },
+      }));
   }
 
   let raw = '';
@@ -393,6 +473,7 @@ const server = http.createServer(async (req, res) => {
   const replies = [];
   for (const m of list) {
     if (m?.id === undefined || m?.id === null) continue;
+    if (m?.method === 'tools/call') console.log(`호출 · ${pass.who} · ${m?.params?.name}`);
     replies.push(await handleRpc(m));
   }
   if (!replies.length) return res.writeHead(202, CORS).end();
@@ -403,6 +484,6 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`서버 시작 · 포트 ${PORT}`);
+  console.log(`서버 시작 · 포트 ${PORT} · 접근 열쇠 ${KEYS.size ? `${KEYS.size}개 등록` : '없음(공개)'}`);
   ensureIndex().catch((e) => console.error('인덱스 최초 적재 실패:', e.message));
 });
