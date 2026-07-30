@@ -116,7 +116,8 @@ async function searchOnce(query, name, target) {
 async function fetchArticles(mst, target) {
   const url = `${BASE}/lawService.do?OC=${encodeURIComponent(OC)}&target=${target}&MST=${mst}&type=XML`;
   const res = await fetchRetry(url);
-  const doc = parser.parse(await res.text());
+  const xml = await res.text();
+  const doc = parser.parse(xml);
 
   const root = doc['법령'] ?? doc['행정규칙'] ?? Object.values(doc)[0];
   const unit = root?.['조문']?.['조문단위'] ?? root?.['조문내용'];
@@ -138,6 +139,21 @@ async function fetchArticles(mst, target) {
       effective: ymd(a['조문시행일자']),
       text: body.trim(),
     });
+  }
+
+  // 행정규칙은 응답 구조가 법령과 달라 위 경로로 안 잡힐 수 있다.
+  // 구조를 모르면 태그만 걷어내고 통짜 텍스트로 넘긴다. 조문 분할은 build-index가 한다.
+  if (out.length === 0) {
+    const text = xml
+      .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+      .replace(/<[^>]+>/g, '\n')
+      .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"').replace(/&apos;/g, "'")
+      .split('\n').map((s) => s.trim()).filter(Boolean).join('\n');
+    if (text.length > 200) {
+      out.push({ articleNo: null, title: null, text, fallback: true });
+      out.rootKeys = Object.keys(root ?? {});
+    }
   }
   return out;
 }
@@ -171,6 +187,7 @@ async function main() {
             ? `https://www.law.go.kr/법령/${encodeURIComponent(meta.title)}`
             : `https://www.law.go.kr/행정규칙/${encodeURIComponent(meta.title)}`,
         articleCount: articles.length,
+        parsedAsBlob: !!articles[0]?.fallback,
         articles,
       });
       console.log(`OK  ${meta.title} (${meta.kind}) 시행 ${meta.effective} · 조문 ${articles.length}`);
@@ -190,6 +207,7 @@ async function main() {
         collectedAt: new Date().toISOString(),
         requested: targets.length,
         collected: docs.length,
+        parsedAsBlob: docs.filter((d) => d.parsedAsBlob).map((d) => d.docName),
         totalArticles: docs.reduce((s, d) => s + d.articleCount, 0),
         failed,
       },
