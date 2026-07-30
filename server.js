@@ -3,6 +3,8 @@
 // 외부 라이브러리 없이 Node 기본 기능만 쓴다.
 
 import http from 'node:http';
+import { readFile, writeFile } from 'node:fs/promises';
+import path from 'node:path';
 
 const PORT = Number(process.env.PORT ?? 8080);
 const INDEX_URL = process.env.INDEX_URL;          // data/index.json 의 raw 주소
@@ -22,6 +24,10 @@ const KEYS = new Map(
     })
 );
 const MAX_HITS = 8;
+
+// 깃허브가 잠시 죽어도 예전 자료로 답할 수 있도록 받을 때마다 디스크에 복사해 둔다.
+// 기기가 새로 만들어지면 사라지지만, 재시작이나 깃허브 장애에는 도움이 된다.
+const CACHE_PATH = process.env.INDEX_CACHE ?? path.join(process.cwd(), 'index-cache.json');
 
 if (!INDEX_URL) {
   console.error('환경변수 INDEX_URL 이 필요합니다. (data/index.json 의 raw 주소)');
@@ -56,18 +62,39 @@ async function loadIndex(force = false) {
   const headers = { 'User-Agent': 'kead-rules-mcp/1.0' };
   if (!force && STATE?.etag) headers['If-None-Match'] = STATE.etag;
 
-  const res = await fetch(INDEX_URL, { headers });
-  if (res.status === 304) {                      // 서버가 '안 바뀜'이라고 답한 경우
-    console.log('인덱스 변화 없음 (304)');
-    return;
-  }
-  if (!res.ok) throw new Error(`인덱스 내려받기 실패: HTTP ${res.status}`);
-  const etag = res.headers.get('etag');
-  const idx = await res.json();
+  let raw = null;
+  let etag = null;
+  let source = '원격';
 
-  // ETag를 안 주는 경우를 대비해 만들어진 시각으로도 한 번 더 확인한다
+  try {
+    const res = await fetch(INDEX_URL, { headers, signal: AbortSignal.timeout(20000) });
+    if (res.status === 304) {
+      console.log('인덱스 변화 없음 (304)');
+      return;
+    }
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    etag = res.headers.get('etag');
+    raw = await res.text();
+    // 다음 장애에 대비해 받은 그대로 남겨 둔다
+    writeFile(CACHE_PATH, raw, 'utf-8').catch((e) => console.warn(`캐시 저장 실패: ${e.message}`));
+  } catch (e) {
+    console.error(`원격 인덱스 실패: ${e.message}`);
+    if (STATE) {
+      console.log('이미 올라온 인덱스를 그대로 씁니다.');
+      return;                                   // 갱신 실패는 조용히 넘어간다
+    }
+    try {
+      raw = await readFile(CACHE_PATH, 'utf-8');
+      source = '로컬 캐시';
+      console.warn('로컬 캐시로 기동합니다. 자료가 최신이 아닐 수 있습니다.');
+    } catch {
+      throw new Error('원격 인덱스도 로컬 캐시도 읽지 못했습니다.');
+    }
+  }
+
+  const idx = JSON.parse(raw);
   if (!force && STATE && idx.builtAt === STATE.idx.builtAt) {
-    STATE.etag = etag ?? STATE.etag;
+    if (etag) STATE.etag = etag;
     console.log('인덱스 변화 없음 (builtAt 동일)');
     return;
   }
@@ -92,7 +119,8 @@ async function loadIndex(force = false) {
 
   STATE = {
     idx,
-    etag,
+    etag: etag ?? STATE?.etag,
+    source,
     docs,
     articles,
     postings,
@@ -101,7 +129,7 @@ async function loadIndex(force = false) {
     loadedAt: new Date().toISOString(),
   };
   console.log(
-    `인덱스 적재: 문서 ${docs.size} / 조문 ${articles.length} / 색인어 ${postings.size} / ${Date.now() - t0}ms`
+    `인덱스 적재(${source}): 문서 ${docs.size} / 조문 ${articles.length} / 색인어 ${postings.size} / ${Date.now() - t0}ms`
   );
 }
 
@@ -464,7 +492,10 @@ const server = http.createServer(async (req, res) => {
     const body = STATE
       ? { ok: true, docs: STATE.docs.size, articles: STATE.N, dataAsOf: STATE.idx.dataAsOf, loadedAt: STATE.loadedAt }
       : { ok: false, note: '인덱스 적재 전' };
-    if (STATE) body.keyRequired = KEYS.size > 0;
+    if (STATE) {
+      body.keyRequired = KEYS.size > 0;
+      body.source = STATE.source;          // '원격' 또는 '로컬 캐시'
+    }
     return res.writeHead(200, { ...CORS, 'Content-Type': 'application/json' }).end(JSON.stringify(body));
   }
 
