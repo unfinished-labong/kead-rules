@@ -113,22 +113,49 @@ async function searchOnce(query, name, target) {
 }
 
 // ── 본문 조회: 조문 단위로 쪼갠다 ──
-async function fetchArticles(mst, target) {
-  const url = `${BASE}/lawService.do?OC=${encodeURIComponent(OC)}&target=${target}&MST=${mst}&type=XML`;
-  const res = await fetchRetry(url);
-  const xml = await res.text();
-  const doc = parser.parse(xml);
+// 법령은 MST(법령일련번호), 행정규칙은 ID(행정규칙일련번호)를 쓴다.
+// 확실치 않으므로 후보를 차례로 시도하고 통한 것을 기록한다.
+const ID_PARAMS = { law: ['MST', 'ID'], admrul: ['ID', 'MST', 'LID'] };
 
+async function fetchArticles(serial, target) {
+  const tried = [];
+  for (const p of ID_PARAMS[target] ?? ['MST', 'ID']) {
+    const url = `${BASE}/lawService.do?OC=${encodeURIComponent(OC)}&target=${target}&${p}=${serial}&type=XML`;
+    const res = await fetchRetry(url);
+    const xml = await res.text();
+    tried.push({ param: p, bytes: xml.length });
+
+    if (xml.length < 300) continue;                    // 빈 응답이나 오류 안내
+    const out = parseBody(xml);
+    if (out.length) {
+      out.paramUsed = p;
+      out.tried = tried;
+      return out;
+    }
+    await sleep(250);
+  }
+  const empty = [];
+  empty.tried = tried;
+  return empty;
+}
+
+function parseBody(xml) {
+  const doc = parser.parse(xml);
   const root = doc['법령'] ?? doc['행정규칙'] ?? Object.values(doc)[0];
-  const unit = root?.['조문']?.['조문단위'] ?? root?.['조문내용'];
+  const unit =
+    root?.['조문']?.['조문단위'] ??
+    root?.['조문내용'] ??
+    root?.['조문']?.['조'] ??
+    root?.['조문'];
   const rows = asArray(unit);
 
   const out = [];
   for (const a of rows) {
-    if (typeof a === 'string') {           // 행정규칙은 조문이 통짜 텍스트인 경우가 있다
+    if (typeof a === 'string') {
       out.push({ articleNo: null, title: null, text: a });
       continue;
     }
+    if (!a || typeof a !== 'object') continue;
     const body = [a['조문내용'], ...asArray(a['항']).map((h) => h?.['항내용'] ?? h)]
       .filter((x) => typeof x === 'string')
       .join('\n');
@@ -141,7 +168,6 @@ async function fetchArticles(mst, target) {
     });
   }
 
-  // 행정규칙은 응답 구조가 법령과 달라 위 경로로 안 잡힐 수 있다.
   // 구조를 모르면 태그만 걷어내고 통짜 텍스트로 넘긴다. 조문 분할은 build-index가 한다.
   if (out.length === 0) {
     const text = xml
@@ -150,10 +176,7 @@ async function fetchArticles(mst, target) {
       .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
       .replace(/&quot;/g, '"').replace(/&apos;/g, "'")
       .split('\n').map((s) => s.trim()).filter(Boolean).join('\n');
-    if (text.length > 200) {
-      out.push({ articleNo: null, title: null, text, fallback: true });
-      out.rootKeys = Object.keys(root ?? {});
-    }
+    if (text.length > 100) out.push({ articleNo: null, title: null, text, fallback: true });
   }
   return out;
 }
@@ -188,6 +211,8 @@ async function main() {
             : `https://www.law.go.kr/행정규칙/${encodeURIComponent(meta.title)}`,
         articleCount: articles.length,
         parsedAsBlob: !!articles[0]?.fallback,
+        paramUsed: articles.paramUsed ?? null,
+        tried: articles.tried ?? null,
         articles,
       });
       console.log(`OK  ${meta.title} (${meta.kind}) 시행 ${meta.effective} · 조문 ${articles.length}`);
@@ -208,6 +233,8 @@ async function main() {
         requested: targets.length,
         collected: docs.length,
         parsedAsBlob: docs.filter((d) => d.parsedAsBlob).map((d) => d.docName),
+        paramUsed: docs.reduce((acc, d) => ((acc[d.paramUsed ?? '실패'] = (acc[d.paramUsed ?? '실패'] || 0) + 1), acc), {}),
+        emptyBody: docs.filter((d) => d.articleCount === 0).map((d) => ({ name: d.docName, tried: d.tried })),
         totalArticles: docs.reduce((s, d) => s + d.articleCount, 0),
         failed,
       },
