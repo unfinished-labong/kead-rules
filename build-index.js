@@ -17,6 +17,27 @@ export function normText(s) {
     .toLowerCase();
 }
 
+// 행정규칙 폴백은 XML 메타데이터(일련번호, 부처코드, 담당자 이름·전화)까지 딸려온다.
+// 본문이 시작되기 전의 코드·숫자·연락처 줄을 걷어낸다.
+export function stripApiMeta(text) {
+  const lines = String(text ?? '').split('\n');
+  // 메타를 하나씩 지우는 대신, 본문이 시작되는 첫 줄을 찾아 그 앞을 통째로 버린다.
+  const looksLikeBody = (l) =>
+    /^\d+\s*[.)]\s*\S/.test(l) ||           // 1. 산정기준
+    /^[○◇ㅇ□▪△▶•·※-]\s*\S/.test(l) ||        // ○ 부담기초액
+    /^제\s*\d+\s*조/.test(l) ||               // 제1조(목적)
+    /^[가-힣]\s*[.)]\s*\S/.test(l) ||         // 가. 나.
+    (l.length > 30 && /\s/.test(l));           // 문장으로 보이는 긴 줄
+
+  const limit = Math.min(lines.length, 40);
+  for (let i = 0; i < limit; i++) {
+    if (looksLikeBody(lines[i].trim())) {
+      return lines.slice(i).join('\n').trim();
+    }
+  }
+  return String(text ?? '').trim();
+}
+
 // 목차 표처럼 본문이 아닌 조각을 걸러낸다.
 function isNoise(text) {
   const t = String(text ?? '').trim();
@@ -116,7 +137,7 @@ async function loadStatutes() {
 
     // 조문 형식이 아닌 고시(부담기초액, 구매목표 비율 등)는 전문을 하나의 검색 단위로 넣는다.
     if (parsed.length === 0) {
-      const whole = d.articles.map((a) => a.text).join('\n').trim().slice(0, 12000);
+      const whole = stripApiMeta(d.articles.map((a) => a.text).join('\n')).slice(0, 12000);
       if (whole.length >= 30) {
         parsed.push({
           section: '본칙',
