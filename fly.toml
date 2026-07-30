@@ -1,13 +1,11 @@
 # Fly.io 배포 설정
-# app 이름은 fly launch 할 때 정해지는 값으로 바꾸세요.
-app = "kead-rules-mcp"
+app = "kead-rules"
 primary_region = "nrt"          # 도쿄. 한국에서 가장 가깝다.
 
 [build]
 
 [env]
-  # 깃허브 저장소의 data/index.json raw 주소로 바꾸세요.
-  INDEX_URL = "https://raw.githubusercontent.com/사용자명/저장소명/main/data/index.json"
+  INDEX_URL = "https://raw.githubusercontent.com/unfinished-labong/kead-rules/main/data/index.json"
   REFRESH_MIN = "30"            # 확인 주기(분). 바뀌지 않았으면 아무 일도 안 한다
 
 [http_service]
@@ -17,11 +15,12 @@ primary_region = "nrt"          # 도쿄. 한국에서 가장 가깝다.
   auto_start_machines = true
   min_machines_running = 1
 
-  [http_service.checks]
-    [[http_service.checks.http]]
-      path = "/health"
-      interval = "30s"
-      timeout = "5s"
+  [[http_service.checks]]
+    grace_period = "30s"        # 서버가 인덱스를 읽는 동안은 기다려 준다
+    interval = "30s"
+    timeout = "5s"
+    method = "GET"
+    path = "/health"
 
 [[vm]]
   memory = "512mb"              # 인덱스와 주소록이 메모리에 올라간다
