@@ -95,7 +95,7 @@ async function loadStatutes() {
     // 법령은 조문번호가 오지만, 고시·훈령(행정규칙)은 통짜 텍스트로 온다.
     // 번호가 없으면 내부규정과 같은 방식으로 직접 조문을 쪼갠다.
     const numbered = d.articles.filter((a) => a.articleNo != null && !isNoise(a.text));
-    const parsed =
+    let parsed =
       numbered.length > 0
         ? numbered.map((a) => ({
             section: '본칙',
@@ -113,6 +113,20 @@ async function loadStatutes() {
               text: a.text,
               needsOriginal: a.needsOriginal,
             }));
+
+    // 조문 형식이 아닌 고시(부담기초액, 구매목표 비율 등)는 전문을 하나의 검색 단위로 넣는다.
+    if (parsed.length === 0) {
+      const whole = d.articles.map((a) => a.text).join('\n').trim().slice(0, 12000);
+      if (whole.length >= 30) {
+        parsed.push({
+          section: '본칙',
+          articleId: '전문',
+          title: d.docName,
+          text: whole,
+          needsOriginal: /별표|별지|서식/.test(whole),
+        });
+      }
+    }
 
     for (const a of parsed) {
       if (isNoise(a.text)) continue;
