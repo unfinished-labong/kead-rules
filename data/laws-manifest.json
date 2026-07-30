@@ -1,7 +1,8 @@
 {
-  "collectedAt": "2026-07-30T00:43:28.670Z",
+  "collectedAt": "2026-07-30T00:54:56.862Z",
   "requested": 44,
   "collected": 44,
+  "parsedAsBlob": [],
   "totalArticles": 1440,
   "failed": []
 }
