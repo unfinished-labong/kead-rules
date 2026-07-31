@@ -147,30 +147,105 @@ setInterval(() => {
 
 // ── 검색 ───────────────────────────────────────────────────
 const SECTION_WEIGHT = { 본칙: 1, 별표: 0.75, 부칙: 0.45 };
-const MIN_COVERAGE = 0.34;   // 질의 조각이 이만큼은 겹쳐야 후보로 본다
-const MIN_SCORE = 8;         // 실측: 정상 질문 26~68점, 무관한 질문 0~4점
+const MIN_COVERAGE = 0.20;   // 겹침 비율. 조각 개수가 아니라 희소성으로 잰다
+const MIN_SCORE = 8;         // 실측: 정상 질문 11~77점, 무관한 질문 0~4점
+const MAX_EXTRA_GRAMS = 60;  // 덤으로 찾는 조각의 상한. 질의가 길어져도 비용이 터지지 않게
+const DEBUG = process.env.DEBUG_SEARCH === '1';
+
+// 질의를 개념 단위로 자른다.
+// normText 는 공백까지 지우므로 먼저 잘라두지 않으면 '휴가 휴일'이 '휴가휴일'로 붙어
+// '가휴' 같은 낱말 경계 조각이 생긴다. 이 조각들은 어느 조문에도 없으면서
+// 겹침 계산의 분모만 키워, 낱말을 더 넣을수록 검색이 나빠지는 원인이 된다.
+function splitTerms(query) {
+  const parts = String(query ?? '')
+    .split(/[\s,;/|·ㆍ‧∙・()[\]{}"'‘’“”]+/)
+    .map(normText)
+    .filter((t) => t.length >= 2);
+  if (parts.length) return [...new Set(parts)];
+  const qn = normText(query);          // 전부 한 글자거나 기호뿐이면 예전처럼 통째로
+  return qn.length >= 2 ? [qn] : [];
+}
+
+// 규정이 쓰는 말과 사람이 쓰는 말이 다른 경우를 이어준다.
+// 규정에는 '경조사'라고만 적혀 있는데 사람은 '친족 사망'이라고 묻는다.
+// 확장된 낱말은 순위에만 반영되고 겹침 계산에는 넣지 않는다. 잘못 넓혀도 손해가 없도록.
+const SYNONYMS = [
+  ['민간훈련기관', '위탁훈련기관', '민간위탁'],
+  ['경조사', '친족', '사망', '결혼', '혼인', '출산', '부고', '조의'],
+  ['휴가', '휴무', '연차', '월차'],
+  ['강사료', '강의료'],
+  ['출퇴근', '통근'],
+  ['보조공학기기', '보조기기'],
+  ['지도점검', '점검', '감독'],
+  ['제출서류', '구비서류', '첨부서류'],
+];
+
+// 낱말 → 같은 무리의 다른 낱말들
+const SYN_MAP = new Map();
+for (const group of SYNONYMS) {
+  for (const w of group) {
+    const key = normText(w);
+    const others = group.filter((x) => x !== w).map(normText);
+    SYN_MAP.set(key, (SYN_MAP.get(key) ?? []).concat(others));
+  }
+}
+
+// 개념 하나하나와, 혹시 몰라 붙여놓은 전체 문자열 둘 다에 대고 맞춰본다.
+// '민간 훈련기관'처럼 사용자가 띄어 쓴 경우는 붙인 쪽에서 걸린다.
+function expandGrams(terms, qn) {
+  const extra = new Set();
+  for (const t of [...terms, qn]) {
+    if (!t) continue;
+    for (const [word, others] of SYN_MAP) {
+      if (!t.includes(word)) continue;
+      for (const o of others) for (const g of grams(o)) extra.add(g);
+    }
+  }
+  return extra;
+}
 
 function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
   const S = STATE;
   const qn = normText(query);
   if (qn.length < 2) return [];
 
-  const qg = [...new Set(grams(qn))];
-  const qset = new Set(qg);
-  const scores = new Map();
-  const hits = new Map();
+  const terms = splitTerms(query);
+  if (!terms.length) return [];
 
-  for (const g of qg) {
-    const post = S.postings.get(g);
-    if (!post) continue;
-    if (post.length > S.N * 0.4) continue;              // 너무 흔한 조각은 변별력이 없다
-    const idf = Math.log(1 + S.N / post.length);
-    for (const i of post) {
-      scores.set(i, (scores.get(i) ?? 0) + idf);
-      hits.set(i, (hits.get(i) ?? 0) + 1);
+  // 분모(=판정 기준)에 들어가는 조각은 개념 안쪽 것만 쓴다.
+  const qg = [...new Set(terms.flatMap((t) => grams(t)))];
+  const qset = new Set(qg);
+
+  // 낱말 경계를 넘는 조각은 버리지 않고 덤으로 돌린다.
+  // '경조사 휴가'의 '사휴'는 규정이 '경조사휴가'라고 붙여 쓴 경우에만 색인에 있다.
+  // 있으면 붙어 있다는 증거이니 점수를 주고, 없으면 그냥 사라진다. 분모에는 안 들어가므로 손해가 없다.
+  const bridge = terms.length > 1 ? grams(qn).filter((g) => !qset.has(g)) : [];
+  const syn = [...expandGrams(terms, qn)].filter((g) => !qset.has(g));
+  const extra = [...new Set([...bridge, ...syn])].slice(0, MAX_EXTRA_GRAMS);
+
+  const scores = new Map();
+  const hitIdf = new Map();          // 겹친 조각의 희소성 합
+  let totalIdf = 0;                  // 질의 전체 조각의 희소성 합
+
+  const collect = (list, weight, isOriginal) => {
+    for (const g of list) {
+      const post = S.postings.get(g);
+      if (!post) continue;
+      const idf = Math.log(1 + S.N / post.length);
+      if (isOriginal) totalIdf += idf;        // 분모는 원래 질의로만 잡는다
+      if (post.length > S.N * 0.4) continue;
+      for (const i of post) {
+        scores.set(i, (scores.get(i) ?? 0) + idf * weight);
+        // 겹침은 원래 물어본 낱말로만 잰다. 덤으로 찾은 조각까지 분자에 넣으면
+        // 분모에는 없는 것이 분자에만 쌓여 겹침이 1을 넘고, 점수가 두 번 부풀려진다.
+        if (isOriginal) hitIdf.set(i, (hitIdf.get(i) ?? 0) + idf);
+      }
     }
-  }
-  if (!scores.size) return [];
+  };
+  collect(qg, 1, true);
+  collect(extra, 0.5, false);        // 바꿔 찾은 말은 절반만 쳐준다
+
+  if (!scores.size || totalIdf === 0) return [];
 
   // 문서명 가중치: 겹친 조각 수를 곱해 더 긴 이름이 이기게 하고, 빠진 부분은 제곱으로 벌한다.
   // '인사규정'과 '인사규정 시행규칙'이 함께 걸릴 때 뒤엣것이 이겨야 한다.
@@ -210,14 +285,18 @@ function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
     if (scope === '내부규정' && !a.docId.startsWith('내규:')) continue;
     if (section && a.section !== section) continue;
 
-    const cov = hits.get(i) / qg.length;                // 질의 조각 중 몇 퍼센트가 이 조문에 있나
+    const cov = (hitIdf.get(i) ?? 0) / totalIdf;        // 흔한 조각 여러 개보다 드문 조각 하나를 무겁게
     const nb = nameBoost.get(a.docId) ?? 1;
     if (cov < MIN_COVERAGE && nb <= 1) continue;
 
     let s = raw / Math.sqrt(S.lens[i] / 200 + 1);       // 긴 조문이 무조건 유리해지지 않게
     s *= 0.4 + cov;
     s *= SECTION_WEIGHT[a.section] ?? 1;
-    if (a.norm.includes(qn)) s *= 2.2;                  // 질의가 통째로 들어 있으면 강하게
+    // 예전에는 붙여버린 질의 전체가 통째로 들어 있는지 봤는데,
+    // 두 낱말 이상이면 그런 조문이 사실상 없어서 죽은 규칙이었다. 개념 단위로 센다.
+    let full = 0;
+    for (const t of terms) if (a.norm.includes(t)) full++;
+    if (full) s *= 1 + 1.2 * (full / terms.length);     // 전부 들어 있으면 2.2배, 일부면 그만큼
     s *= nb;
     if (wantId && a.articleId === wantId) s *= 3;
     out.push({ i, s });
@@ -232,6 +311,14 @@ function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
   // 근거가 약한 결과는 아예 내보내지 않는다. 없는 내용을 지어내는 것보다 못 찾았다고 하는 게 낫다.
   const floor = document ? MIN_SCORE * 0.3 : MIN_SCORE;
   const passed = out.filter((o) => o.s >= floor);
+  if (DEBUG) {
+    console.error(`[검색] "${query}" → 개념 [${terms.join(' | ')}] / 분모조각 ${qg.length} · 덤 ${extra.length} / 문턱 ${floor.toFixed(1)}`);
+    for (const o of out.slice(0, 5)) {
+      const a = S.articles[o.i];
+      const cov = (hitIdf.get(o.i) ?? 0) / totalIdf;
+      console.error(`  ${o.s >= floor ? '○' : '×'} ${o.s.toFixed(1)}점 cov=${cov.toFixed(2)} ${S.docs.get(a.docId)?.name ?? '?'} ${a.articleId}`);
+    }
+  }
   return passed.slice(0, limit).map(({ i, s }) => ({ ...S.articles[i], _score: s }));
 }
 
