@@ -13,9 +13,9 @@
 //
 // 종료 코드는 hit@1 이 기준선보다 떨어지면 1. CI 에 걸어둘 수 있다.
 
-const { spawn } = require('child_process');
-const fs = require('fs');
-const path = require('path');
+import { spawn } from 'node:child_process';
+import fs from 'node:fs';
+import path from 'node:path';
 
 const argv = process.argv.slice(2);
 const opt = (name, dflt) => {
