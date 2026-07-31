@@ -1,1 +1,46 @@
+name: 검색 품질 평가
 
+# 브라우저에서 Actions 탭 → '검색 품질 평가' → Run workflow 로 돌린다.
+# server.js 나 평가표를 고쳐 커밋해도 자동으로 돈다.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'server.js'
+      - 'eval.js'
+      - 'eval-queries.json'
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 평가 실행
+        run: |
+          node eval.js --save eval-result.json | tee eval-out.txt
+
+      - name: 결과를 요약에 표시
+        if: always()
+        run: |
+          {
+            echo '## 검색 품질 평가'
+            echo ''
+            echo '```'
+            cat eval-out.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 결과 파일 첨부
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-result
+          path: |
+            eval-result.json
+            eval-out.txt
+          if-no-files-found: ignore
