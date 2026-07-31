@@ -11,6 +11,7 @@ const INDEX_URL = process.env.INDEX_URL;          // data/index.json 의 raw 주
 const REFRESH_MS = Number(process.env.REFRESH_MIN ?? 60) * 60 * 1000;
 const MAX_TEXT = 1800;                            // 조문 하나를 돌려줄 때 최대 글자 수
 const MAX_FULL_CHARS = 40000;                     // 전문을 한 번에 내보낼 때의 한 쪽 분량
+const DEBUG = process.env.DEBUG_SEARCH === '1';   // 점수를 눈으로 보고 문턱을 맞출 때 켠다
 
 // 접근 열쇠. "열쇠:이름,열쇠:이름" 형태로 넣는다. 비워두면 누구나 쓸 수 있다.
 // 반드시 Fly.io Secrets 로 넣을 것. fly.toml 에 적으면 깃허브에 그대로 공개된다.
@@ -150,22 +151,6 @@ setInterval(() => {
 const SECTION_WEIGHT = { 본칙: 1, 별표: 0.75, 부칙: 0.45 };
 const MIN_COVERAGE = 0.20;   // 겹침 비율. 조각 개수가 아니라 희소성으로 잰다
 const MIN_SCORE = 8;         // 실측: 정상 질문 11~77점, 무관한 질문 0~4점
-const MAX_EXTRA_GRAMS = 60;  // 덤으로 찾는 조각의 상한. 질의가 길어져도 비용이 터지지 않게
-const DEBUG = process.env.DEBUG_SEARCH === '1';
-
-// 질의를 개념 단위로 자른다.
-// normText 는 공백까지 지우므로 먼저 잘라두지 않으면 '휴가 휴일'이 '휴가휴일'로 붙어
-// '가휴' 같은 낱말 경계 조각이 생긴다. 이 조각들은 어느 조문에도 없으면서
-// 겹침 계산의 분모만 키워, 낱말을 더 넣을수록 검색이 나빠지는 원인이 된다.
-function splitTerms(query) {
-  const parts = String(query ?? '')
-    .split(/[\s,;/|·ㆍ‧∙・()[\]{}"'‘’“”]+/)
-    .map(normText)
-    .filter((t) => t.length >= 2);
-  if (parts.length) return [...new Set(parts)];
-  const qn = normText(query);          // 전부 한 글자거나 기호뿐이면 예전처럼 통째로
-  return qn.length >= 2 ? [qn] : [];
-}
 
 // 규정이 쓰는 말과 사람이 쓰는 말이 다른 경우를 이어준다.
 // 규정에는 '경조사'라고만 적혀 있는데 사람은 '친족 사망'이라고 묻는다.
@@ -191,16 +176,11 @@ for (const group of SYNONYMS) {
   }
 }
 
-// 개념 하나하나와, 혹시 몰라 붙여놓은 전체 문자열 둘 다에 대고 맞춰본다.
-// '민간 훈련기관'처럼 사용자가 띄어 쓴 경우는 붙인 쪽에서 걸린다.
-function expandGrams(terms, qn) {
+function expandGrams(qn) {
   const extra = new Set();
-  for (const t of [...terms, qn]) {
-    if (!t) continue;
-    for (const [word, others] of SYN_MAP) {
-      if (!t.includes(word)) continue;
-      for (const o of others) for (const g of grams(o)) extra.add(g);
-    }
+  for (const [word, others] of SYN_MAP) {
+    if (!qn.includes(word)) continue;
+    for (const o of others) for (const g of grams(o)) extra.add(g);
   }
   return extra;
 }
@@ -210,19 +190,9 @@ function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
   const qn = normText(query);
   if (qn.length < 2) return [];
 
-  const terms = splitTerms(query);
-  if (!terms.length) return [];
-
-  // 분모(=판정 기준)에 들어가는 조각은 개념 안쪽 것만 쓴다.
-  const qg = [...new Set(terms.flatMap((t) => grams(t)))];
+  const qg = [...new Set(grams(qn))];
   const qset = new Set(qg);
-
-  // 낱말 경계를 넘는 조각은 버리지 않고 덤으로 돌린다.
-  // '경조사 휴가'의 '사휴'는 규정이 '경조사휴가'라고 붙여 쓴 경우에만 색인에 있다.
-  // 있으면 붙어 있다는 증거이니 점수를 주고, 없으면 그냥 사라진다. 분모에는 안 들어가므로 손해가 없다.
-  const bridge = terms.length > 1 ? grams(qn).filter((g) => !qset.has(g)) : [];
-  const syn = [...expandGrams(terms, qn)].filter((g) => !qset.has(g));
-  const extra = [...new Set([...bridge, ...syn])].slice(0, MAX_EXTRA_GRAMS);
+  const extra = [...expandGrams(qn)].filter((g) => !qset.has(g));
 
   const scores = new Map();
   const hitIdf = new Map();          // 겹친 조각의 희소성 합
@@ -237,9 +207,7 @@ function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
       if (post.length > S.N * 0.4) continue;
       for (const i of post) {
         scores.set(i, (scores.get(i) ?? 0) + idf * weight);
-        // 겹침은 원래 물어본 낱말로만 잰다. 덤으로 찾은 조각까지 분자에 넣으면
-        // 분모에는 없는 것이 분자에만 쌓여 겹침이 1을 넘고, 점수가 두 번 부풀려진다.
-        if (isOriginal) hitIdf.set(i, (hitIdf.get(i) ?? 0) + idf);
+        hitIdf.set(i, (hitIdf.get(i) ?? 0) + idf * weight);
       }
     }
   };
@@ -293,11 +261,7 @@ function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
     let s = raw / Math.sqrt(S.lens[i] / 200 + 1);       // 긴 조문이 무조건 유리해지지 않게
     s *= 0.4 + cov;
     s *= SECTION_WEIGHT[a.section] ?? 1;
-    // 예전에는 붙여버린 질의 전체가 통째로 들어 있는지 봤는데,
-    // 두 낱말 이상이면 그런 조문이 사실상 없어서 죽은 규칙이었다. 개념 단위로 센다.
-    let full = 0;
-    for (const t of terms) if (a.norm.includes(t)) full++;
-    if (full) s *= 1 + 1.2 * (full / terms.length);     // 전부 들어 있으면 2.2배, 일부면 그만큼
+    if (a.norm.includes(qn)) s *= 2.2;                  // 질의가 통째로 들어 있으면 강하게
     s *= nb;
     if (wantId && a.articleId === wantId) s *= 3;
     out.push({ i, s });
@@ -313,11 +277,11 @@ function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
   const floor = document ? MIN_SCORE * 0.3 : MIN_SCORE;
   const passed = out.filter((o) => o.s >= floor);
   if (DEBUG) {
-    console.error(`[검색] "${query}" → 개념 [${terms.join(' | ')}] / 분모조각 ${qg.length} · 덤 ${extra.length} / 문턱 ${floor.toFixed(1)}`);
-    for (const o of out.slice(0, 5)) {
+    console.error(`[검색] "${query}" / 조각 ${qg.length} · 확장 ${extra.length} / 문턱 ${floor.toFixed(1)}`);
+    for (const o of out.slice(0, 8)) {
       const a = S.articles[o.i];
       const cov = (hitIdf.get(o.i) ?? 0) / totalIdf;
-      console.error(`  ${o.s >= floor ? '○' : '×'} ${o.s.toFixed(1)}점 cov=${cov.toFixed(2)} ${S.docs.get(a.docId)?.name ?? '?'} ${a.articleId}`);
+      console.error(`  ${o.s >= floor ? '\u25cb' : '\u00d7'} ${o.s.toFixed(1)}점 cov=${cov.toFixed(2)} ${S.docs.get(a.docId)?.name ?? '?'} ${a.articleId}`);
     }
   }
   return passed.slice(0, limit).map(({ i, s }) => ({ ...S.articles[i], _score: s }));
@@ -356,9 +320,9 @@ function footer() {
 
 // ── 형제 문서 ──────────────────────────────────────────────
 // 같은 사안을 규정과 규칙이 나눠 담는 일이 흔하다.
-// '규정에 없으니 없다'로 끝나는 사고를 막으려면 안 본 형제를 도구가 먼저 알려줘야 한다.
-// 사람이 규정과 규칙을 세트로 펴 놓고 시작하는 것과 같은 이치다.
-const DOC_SUFFIX = /(시행규칙|업무처리규칙|업무처리지침|업무규칙|처리규칙|운영규칙|시행세칙|시행규정|세칙|규칙|규정|지침|준칙|예규|요령|기준|정관)$/;
+// 다만 안내는 '흩어진 사안을 묻는 질문'에만 붙인다.
+// 조문 하나를 콕 집어 묻는 질문에까지 붙이면 답이 흐려진다.
+const DOC_SUFFIX = /(시행규칙|업무처리규칙|업무처리지침|업무규칙|처리규칙|운영규칙|시행세칙|시행규정|세칙|규칙|규정|지침|준칙|예규|요령|정관)$/;
 
 function familyKey(name) {
   let s = normText(name);
@@ -367,7 +331,7 @@ function familyKey(name) {
     if (t === s) break;
     s = t;
   }
-  return s.length >= 2 ? s : null;
+  return s.length >= 2 ? s : null;      // '복무규정'→'복무'처럼 줄기가 짧은 규정이 많다
 }
 
 function families() {
@@ -379,7 +343,7 @@ function families() {
     if (!m.has(k)) m.set(k, []);
     m.get(k).push(d);
   }
-  for (const [k, v] of m) if (v.length < 2) m.delete(k);   // 혼자면 집안이 아니다
+  for (const [k, v] of m) if (v.length < 2) m.delete(k);
   STATE.families = m;
   return m;
 }
@@ -392,7 +356,6 @@ function artCount(docId) {
   return STATE.counts.get(docId) ?? 0;
 }
 
-// 보여준 문서들과 한 집안이면서 아직 안 본 문서를 알린다
 function siblingNotice(shownDocIds) {
   const fam = families();
   const shown = new Set(shownDocIds);
@@ -405,14 +368,14 @@ function siblingNotice(shownDocIds) {
     if (!k || seenKey.has(k)) continue;
     seenKey.add(k);
     for (const o of fam.get(k) ?? []) {
-      if (!shown.has(o.docId)) rows.push(`  · ${o.name} (조문 ${artCount(o.docId)}건)`);
+      if (!shown.has(o.docId)) rows.push(`  \u00b7 ${o.name} (조문 ${artCount(o.docId)}건)`);
     }
   }
   if (!rows.length) return '';
   return (
     `\n\n※ 같은 사안을 나눠 담은 문서가 더 있습니다. 아직 확인하지 않았습니다.\n` +
     [...new Set(rows)].join('\n') +
-    `\n한쪽에 없다고 "없다"로 끝내지 마십시오. 위 문서도 get_provision 으로 목차나 전문을 받아 확인한 뒤에 답하십시오.`
+    `\n한쪽에 없다고 "없다"로 끝내지 마십시오.`
   );
 }
 
@@ -433,9 +396,6 @@ const TOOLS = [
       '【답변 규칙】 이 도구가 돌려준 조문에 실제로 적힌 내용만 근거로 삼는다. ' +
       '결과가 [NOT_FOUND]이면 추측하지 말고 "수록된 규정에서 근거를 찾지 못했다"고 답한다. ' +
       '한 번에 못 찾으면 다른 낱말로 2~3회 더 시도한 뒤에 판단한다.\n' +
-      '【규정과 규칙은 세트다】 같은 사안이 규정과 시행규칙·업무처리규칙에 나뉘어 실려 있다. ' +
-      '한쪽에서 답을 찾았다고 멈추지 말 것. 결과 아래에 형제 문서가 안내되면 그 문서도 반드시 확인한 뒤에 답한다. ' +
-      '"규정에 없으니 없다"는 결론은 형제 문서를 다 본 뒤에만 낼 수 있다.\n' +
       '【흩어진 의무를 묻는 질문】 "분기별로 뭘 해야 하나", "제출서류가 뭐가 있나"처럼 답이 여러 조문에 흩어진 질문은 ' +
       '한 번 검색으로 끝내지 말 것. 먼저 관련 규정을 찾고, get_provision 으로 그 규정의 목차를 받아 ' +
       '조문 제목을 훑은 뒤, document 를 지정해 그 규정 안에서 핵심 낱말(분기, 반기, 보고, 제출, 점검, 평가 등)로 다시 검색한다.',
@@ -458,11 +418,11 @@ const TOOLS = [
       '사용자가 특정 조문이나 별표를 지목했다면 검색보다 이 도구를 먼저 쓴다. 원문을 고치거나 요약하지 말고 그대로 인용한다.\n' +
       "article 을 비우거나 '목차'로 주면 그 규정의 전체 조문 목록(번호와 제목)을 돌려준다. " +
       '어떤 조문이 있는지 훑어보고 필요한 것을 고를 때 쓴다. 검색어가 안 맞아 조문을 놓치는 것을 막는 가장 확실한 방법이다.\n' +
-      'article="전문" 으로 주면 그 규정을 처음부터 끝까지 본문째로 돌려준다. 분량이 많으면 쪽으로 나뉘며, ' +
-      '그때는 "전문2", "전문3" 으로 끝까지 이어서 읽는다. 마지막 쪽을 읽기 전에 결론을 내지 않는다.\n' +
-      '【반드시 지킬 것】 ① 여러 조문에 걸친 업무(체크리스트, 제출서류, 주기별 의무 등)를 정리할 때는 ' +
-      '목차 제목만 보고 고르지 말고 전문을 끝까지 읽는다. ② 관련 없다고 판단해 뺀 조문은 왜 뺐는지 한 줄로 밝힌다. ' +
-      '조용히 빠뜨리지 않는다. ③ 규정과 규칙은 같은 사안을 나눠 담는다. 형제 문서가 안내되면 그 문서까지 확인한 뒤에 답한다.',
+      'article="전문" 으로 주면 그 규정을 처음부터 끝까지 본문째로 돌려준다. 분량이 많으면 쪽으로 나뉘며, '
+      + '그때는 "전문2", "전문3" 으로 끝까지 이어서 읽는다.\n'
+      + '【여러 조문에 걸친 질문일 때만】 체크리스트·제출서류·주기별 의무처럼 답이 흩어진 질문은 목차 제목만 보고 고르지 말고 '
+      + '전문을 끝까지 읽는다. 관련 없다고 빼는 조문은 왜 뺐는지 한 줄로 밝힌다. '
+      + '조문 하나를 묻는 질문에는 해당하지 않으니, 그때는 그 조문만 확인하고 바로 답한다.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -498,11 +458,14 @@ async function callTool(name, args = {}) {
         'list_documents 로 수록 범위를 확인하거나, 다른 낱말로 다시 검색해 보십시오.'
       );
     }
+    // 흩어진 사안을 묻는 질문에만 형제 문서를 안내한다.
+    // 조문을 지목했거나 결과가 한둘뿐이면 답이 이미 정해진 질문이므로 조용히 둔다.
+    const pinpoint = /제\s*\d+\s*조/.test(String(args.query ?? '')) || hits.length <= 2 || !!args.document;
     return (
       `검색어: ${args.query} · ${hits.length}건\n` +
       `아래 조문에 실제로 적힌 내용만 근거로 답하고, 인용할 때는 문서명과 조문번호를 함께 밝히십시오.\n\n` +
       hits.map((a) => renderArticle(a)).join('\n\n') +
-      siblingNotice(hits.map((a) => a.docId)) +
+      (pinpoint ? '' : siblingNotice(hits.map((a) => a.docId))) +
       footer()
     );
   }
@@ -512,19 +475,22 @@ async function callTool(name, args = {}) {
     const cands = [...STATE.docs.values()].filter((d) => normText(d.name).includes(dq));
     if (!cands.length) return NOT_FOUND(`"${args.document}" 이라는 규정을 찾지 못했습니다.`, 'list_documents 로 이름을 확인하십시오.');
 
-    // 이름이 겹치면 조용히 하나를 고르지 않는다. 고른 사실과 나머지를 함께 밝힌다.
-    // 예전에는 가장 짧은 이름을 말없이 집어서, '지원규정'만 보고 '지원 업무처리규칙'을 놓쳤다.
     const sorted = [...cands].sort((a, b) => a.name.length - b.name.length);
-    const multi =
-      cands.length > 1
-        ? `※ 이름이 겹치는 문서가 ${cands.length}건입니다. 그중 하나만 아래에 보여줍니다.\n` +
-          sorted.map((d) => `  · ${d.name} (조문 ${artCount(d.docId)}건)`).join('\n') +
-          `\n나머지도 확인해야 합니다. document 에 이름을 더 정확히 적어 다시 부르십시오.\n\n`
-        : '';
-
     const want = String(args.article ?? '').replace(/\s/g, '');
+    const browsing = !want || want === '목차' || want === '전체' || /^(전문|본문|전체본문)\d*$/.test(want);
 
-    // 조문을 비우거나 '목차'라고 하면 그 규정의 조문 목록을 돌려준다
+    // 이름이 겹칠 때 조용히 하나를 고르지 않는다.
+    // 조문을 콕 집어 물은 경우는 한 줄로만 알리고, 훑어보는 경우는 목록을 보여준다.
+    const multi =
+      cands.length < 2
+        ? ''
+        : browsing
+          ? `※ 이름이 겹치는 문서가 ${cands.length}건입니다. 그중 하나만 아래에 보여줍니다.\n` +
+            sorted.map((d) => `  · ${d.name} (조문 ${artCount(d.docId)}건)`).join('\n') +
+            `\n나머지도 확인해야 합니다. document 에 이름을 더 정확히 적어 다시 부르십시오.\n\n`
+          : '';
+
+    // 목차
     if (!want || want === '목차' || want === '전체') {
       const d = sorted[0];
       const list = STATE.articles.filter((x) => x.docId === d.docId);
@@ -541,15 +507,14 @@ async function callTool(name, args = {}) {
         `  시행 ${d.effectiveDate ?? '표기 없음'}${d.lawNo ? ` · 제${d.lawNo}호` : ''} · ${d.source}\n` +
         `  원문: ${d.originalUrl}\n\n` +
         bySec.join('\n\n') +
-        `\n\n제목만 본 것입니다. 목록을 훑고 넘어가지 말고, 관련 있어 보이는 조문은 빠짐없이 본문을 확인하십시오.\n` +
-        `내용까지 한 번에 보려면 article="전문", 특정 조문만 보려면 article="제○조" 로 다시 부르십시오.` +
+        `\n\n제목만 본 것입니다. 내용까지 한 번에 보려면 article="전문", 특정 조문만 보려면 article="제○조" 로 다시 부르십시오.` +
         siblingNotice([d.docId]) +
         footer()
       );
     }
 
-    // 전문: 문서 하나를 처음부터 끝까지 읽는다. 길면 쪽으로 나눠 내보낸다.
-    if (want === '전문' || want === '본문' || want === '전체본문' || /^전문\d+$/.test(want)) {
+    // 전문: 문서 하나를 처음부터 끝까지. 길면 쪽으로 나눈다.
+    if (/^(전문|본문|전체본문)\d*$/.test(want)) {
       const d = sorted[0];
       const list = STATE.articles.filter((x) => x.docId === d.docId);
       if (!list.length) return NOT_FOUND(`"${d.name}" 에 수록된 조문이 없습니다.`);
@@ -559,11 +524,7 @@ async function callTool(name, args = {}) {
       let used = 0;
       for (const a of list) {
         const size = Math.min(String(a.text ?? '').length, MAX_TEXT) + 60;
-        if (cur.length && used + size > MAX_FULL_CHARS) {
-          pages.push(cur);
-          cur = [];
-          used = 0;
-        }
+        if (cur.length && used + size > MAX_FULL_CHARS) { pages.push(cur); cur = []; used = 0; }
         cur.push(a);
         used += size;
       }
@@ -572,14 +533,9 @@ async function callTool(name, args = {}) {
       const p = Math.min(Math.max(Number((want.match(/\d+/) ?? ['1'])[0]) || 1, 1), pages.length);
       const rows = pages[p - 1];
       const clipped = rows.filter((a) => String(a.text ?? '').length > MAX_TEXT).length;
-
       const body = rows
-        .map((a) => {
-          const head = `■ ${a.articleId}${a.title ? ` (${a.title})` : ''}${a.section !== '본칙' ? ` [${a.section}]` : ''}`;
-          return head + '\n' + clip(a.text);
-        })
+        .map((a) => `■ ${a.articleId}${a.title ? ` (${a.title})` : ''}${a.section !== '본칙' ? ` [${a.section}]` : ''}\n` + clip(a.text))
         .join('\n\n');
-
       const nav =
         pages.length > 1
           ? `\n\n이 쪽은 ${p}/${pages.length} 입니다. 여기서 멈추지 말고 article="전문${p + 1}" 로 나머지를 마저 읽으십시오.`
@@ -591,23 +547,26 @@ async function callTool(name, args = {}) {
         `  시행 ${d.effectiveDate ?? '표기 없음'}${d.lawNo ? ` · 제${d.lawNo}호` : ''} · ${d.source}\n` +
         `  원문: ${d.originalUrl}\n` +
         (clipped ? `  ※ 이 쪽에서 ${clipped}건이 길이 때문에 잘렸습니다. 해당 조문은 원문을 확인하십시오.\n` : '') +
-        `\n조문 하나하나를 끝까지 읽고, 관련 없다고 넘긴 조문은 넘긴 이유를 밝히십시오.\n\n` +
+        `\n조문을 하나씩 끝까지 읽고, 관련 없다고 넘긴 조문은 넘긴 이유를 한 줄로 밝히십시오.\n\n` +
         body +
-        (p === pages.length ? nav + siblingNotice([d.docId]) : nav) +
+        nav +
+        (p === pages.length ? siblingNotice([d.docId]) : '') +
         footer()
       );
     }
 
+    // 조문 하나를 콕 집어 물은 경우: 군더더기 없이 그 조문만 돌려준다
     for (const d of cands) {
       const a = STATE.articles.find((x) => x.docId === d.docId && x.articleId.replace(/\s/g, '') === want);
-      if (a) return multi + renderArticle(a) + siblingNotice([d.docId]) + footer();
+      if (a) return renderArticle(a) + footer();
     }
     const ids = STATE.articles
       .filter((x) => x.docId === sorted[0].docId && x.section === '본칙')
       .map((x) => x.articleId);
     return NOT_FOUND(
       `"${sorted[0].name}" 에 ${args.article} 이(가) 없습니다.`,
-      `수록된 조문: ${ids.slice(0, 40).join(', ')}${ids.length > 40 ? ' …' : ''}`
+      `수록된 조문: ${ids.slice(0, 40).join(', ')}${ids.length > 40 ? ' …' : ''}` +
+        (cands.length > 1 ? ` / 이름이 겹치는 문서: ${sorted.map((d) => d.name).join(', ')}` : '')
     );
   }
 
