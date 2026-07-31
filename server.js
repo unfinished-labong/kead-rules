@@ -9,7 +9,14 @@ import path from 'node:path';
 const PORT = Number(process.env.PORT ?? 8080);
 const INDEX_URL = process.env.INDEX_URL;          // data/index.json 의 raw 주소
 const REFRESH_MS = Number(process.env.REFRESH_MIN ?? 60) * 60 * 1000;
-const MAX_TEXT = 1800;                            // 조문 하나를 돌려줄 때 최대 글자 수
+// 조문 하나를 돌려줄 때의 최대 글자 수. 구분마다 사정이 다르다.
+//  · 별표는 표가 통째로 들어 있어 중간에서 끊으면 뒷줄 항목이 아예 안 보인다.
+//    색인 자체가 12,000자에서 잘리므로 그만큼 열어두면 더 잃을 것이 없다.
+//  · 부칙에도 별지 서식이 붙는 경우가 있어 넉넉히 준다.
+//  · 본칙은 가장 긴 것이 5,217자라 6,000이면 잘릴 일이 없다.
+const TEXT_CAP = { 본칙: 6000, 별표: 12000, 부칙: 12000 };
+const MAX_TEXT = 12000;                           // 상한의 최대치. 전문 쪽 나누기에서 참고한다.
+const capOf = (section) => TEXT_CAP[section] ?? 6000;
 const MAX_FULL_CHARS = 40000;                     // 전문을 한 번에 내보낼 때의 한 쪽 분량
 const DEBUG = process.env.DEBUG_SEARCH === '1';   // 점수를 눈으로 보고 문턱을 맞출 때 켠다
 
@@ -383,9 +390,10 @@ function search(query, { scope, section, document, onlyDocIds, relaxed, limit = 
 }
 
 // ── 출력 형식 ──────────────────────────────────────────────
-function clip(t) {
+function clip(t, section) {
   const s = String(t ?? '');
-  return s.length > MAX_TEXT ? s.slice(0, MAX_TEXT) + '\n…(이하 생략, 원문 확인 필요)' : s;
+  const cap = capOf(section);
+  return s.length > cap ? s.slice(0, cap) + '\n…(이하 생략, 원문 확인 필요)' : s;
 }
 
 function renderArticle(a, withText = true) {
@@ -399,7 +407,7 @@ function renderArticle(a, withText = true) {
   ];
   if (a.needsOriginal) head.push('  ※ 별표·도표가 포함된 조문입니다. 정확한 내용은 원문을 확인하세요.');
   if (d?.originalUrl) head.push(`  원문: ${d.originalUrl}`);
-  if (withText) head.push('', clip(a.text));
+  if (withText) head.push('', clip(a.text, a.section));
   return head.join('\n');
 }
 
@@ -696,7 +704,7 @@ async function callTool(name, args = {}) {
       let cur = [];
       let used = 0;
       for (const a of list) {
-        const size = Math.min(String(a.text ?? '').length, MAX_TEXT) + 60;
+        const size = Math.min(String(a.text ?? '').length, capOf(a.section)) + 60;
         if (cur.length && used + size > MAX_FULL_CHARS) { pages.push(cur); cur = []; used = 0; }
         cur.push(a);
         used += size;
@@ -705,9 +713,9 @@ async function callTool(name, args = {}) {
 
       const p = Math.min(Math.max(Number((want.match(/\d+/) ?? ['1'])[0]) || 1, 1), pages.length);
       const rows = pages[p - 1];
-      const clipped = rows.filter((a) => String(a.text ?? '').length > MAX_TEXT).length;
+      const clipped = rows.filter((a) => String(a.text ?? '').length > capOf(a.section)).length;
       const body = rows
-        .map((a) => `■ ${a.articleId}${a.title ? ` (${a.title})` : ''}${a.section !== '본칙' ? ` [${a.section}]` : ''}\n` + clip(a.text))
+        .map((a) => `■ ${a.articleId}${a.title ? ` (${a.title})` : ''}${a.section !== '본칙' ? ` [${a.section}]` : ''}\n` + clip(a.text, a.section))
         .join('\n\n');
       const nav =
         pages.length > 1
@@ -729,9 +737,24 @@ async function callTool(name, args = {}) {
     }
 
     // 조문 하나를 콕 집어 물은 경우: 군더더기 없이 그 조문만 돌려준다
+    const key = (x) => x.replace(/\s/g, '');
     for (const d of cands) {
-      const a = STATE.articles.find((x) => x.docId === d.docId && x.articleId.replace(/\s/g, '') === want);
+      const a = STATE.articles.find((x) => x.docId === d.docId && key(x.articleId) === want);
       if (a) return renderArticle(a) + footer();
+    }
+    // 별표는 조문번호 뒤에 '(제29조 관련)', '<개정 …>' 이 붙어 있어 정확히 맞히기 어렵다.
+    // 사람이 쓰는 '[별표 3]' 으로도 열리도록 앞부분만 맞아도 받아준다.
+    for (const d of cands) {
+      const hit = STATE.articles.filter((x) => x.docId === d.docId && key(x.articleId).startsWith(want));
+      if (hit.length === 1) return renderArticle(hit[0]) + footer();
+      if (hit.length > 1) {
+        return (
+          `■ ${d.name} · "${args.article}" 로 시작하는 조문이 ${hit.length}건입니다.\n` +
+          `아래에서 골라 article 에 정확히 넣어 다시 부르십시오.\n\n` +
+          hit.map((x) => `  ${x.articleId}${x.title ? ` (${x.title})` : ''}`).join('\n') +
+          footer()
+        );
+      }
     }
     const ids = STATE.articles
       .filter((x) => x.docId === sorted[0].docId && x.section === '본칙')
