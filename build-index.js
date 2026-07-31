@@ -9,6 +9,17 @@ import { toArticles } from './fetch-docs.js';
 import path from 'node:path';
 
 // 검색용 정규화: 공백·구두점을 없애 표기 흔들림을 흡수한다.
+// 변환기가 붙여주는 breadcrumb 에는 장·절 제목 말고도 문서명이나
+// 앞 조문 본문이 섞여 들어온다. '제N장/절/관/편' 으로 시작하는 것만 남긴다.
+const CHAPTER_RE = /^제\s*\d+\s*[장절관편]/;
+function chapterOf(breadcrumb) {
+  if (!Array.isArray(breadcrumb)) return null;
+  const ch = breadcrumb
+    .map((x) => String(x ?? '').replace(/\s+/g, ' ').trim())
+    .filter((x) => CHAPTER_RE.test(x));
+  return ch.length ? ch.join(' > ') : null;
+}
+
 export function normText(s) {
   return String(s ?? '')
     .replace(/<[^>]+>/g, ' ')
@@ -82,6 +93,7 @@ async function loadInternal() {
         articleId: label,
         title: a.title,
         text: a.text,
+        chapter: chapterOf(a.breadcrumb),
         needsOriginal: !!a.needsOriginal,
       });
     }
@@ -178,7 +190,7 @@ async function main() {
   for (const a of raw) {
     if (seen.has(a.id)) continue;
     seen.add(a.id);
-    articles.push({ ...a, norm: normText(`${a.articleId} ${a.title ?? ''} ${a.text}`) });
+    articles.push({ ...a, chapter: a.chapter ?? null, norm: normText(`${a.articleId} ${a.title ?? ''} ${a.chapter ?? ''} ${a.text}`) });
   }
 
   const index = {

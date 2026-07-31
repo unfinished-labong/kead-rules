@@ -402,6 +402,7 @@ function renderArticle(a, withText = true) {
     `■ ${d?.name ?? '(문서명 없음)'} ${a.articleId}`,
     `  출처: ${d?.source ?? '-'}${d?.kind ? ` · ${d.kind}` : ''}`,
     `  구분: ${a.section}${a.section !== '본칙' ? ' (본칙 아님)' : ''}`,
+    ...(a.chapter ? [`  위치: ${a.chapter}`] : []),
     `  시행일: ${d?.effectiveDate ?? '표기 없음'}${d?.lawNo ? ` · 제${d.lawNo}호` : ''}`,
     `  상태: ${d?.status ?? '-'}`,
   ];
@@ -679,7 +680,16 @@ async function callTool(name, args = {}) {
       const bySec = ['본칙', '부칙', '별표']
         .map((sec) => {
           const rows = list.filter((x) => x.section === sec);
-          return rows.length ? `[${sec}] ${rows.length}건\n` + rows.map(line).join('\n') : null;
+          if (!rows.length) return null;
+          // 장·절이 붙어 있으면 그 단위로 묶어 보여준다. 어디까지가 한 덩어리인지 눈에 보이게.
+          const out = [`[${sec}] ${rows.length}건`];
+          let cur = null;
+          for (const x of rows) {
+            const ch = x.chapter ?? null;
+            if (ch !== cur) { if (ch) out.push(` ${ch}`); cur = ch; }
+            out.push(line(x));
+          }
+          return out.join('\n');
         })
         .filter(Boolean);
       return (
