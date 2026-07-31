@@ -157,7 +157,10 @@ const MIN_SCORE = 8;         // 실측: 정상 질문 11~77점, 무관한 질문
 // 확장된 낱말은 순위에만 반영되고 겹침 계산에는 넣지 않는다. 잘못 넓혀도 손해가 없도록.
 const SYNONYMS = [
   ['민간훈련기관', '위탁훈련기관', '민간위탁'],
-  ['경조사', '친족', '사망', '결혼', '혼인', '출산', '부고', '조의'],
+  ['경조사', '친족', '사망', '결혼', '혼인', '출산', '부고', '조의',
+   '상주', '초상', '장례', '별세', '타계', '조부모', '외조부모', '형제자매',
+   '큰아버지', '작은아버지', '삼촌', '백부', '숙부', '고모', '이모', '조카',
+   '할아버지', '할머니', '아버지', '어머니', '부모', '배우자', '자녀', '인척', '혈족'],
   ['휴가', '휴무', '연차', '월차'],
   ['강사료', '강의료'],
   ['출퇴근', '통근'],
@@ -185,7 +188,91 @@ function expandGrams(qn) {
   return extra;
 }
 
-function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
+
+// ── 문서 성격 ──────────────────────────────────────────────
+// 한 가지 질문의 답은 보통 규정 하나, 규칙 하나, 법령 하나에 나뉘어 담긴다.
+// 그래서 조문을 바로 고르지 않고 성격마다 문서를 하나씩 먼저 확정한다.
+// 법령은 index 의 kind 를 쓰고, 내부규정은 kind 가 비어 있어 이름 끝으로 가른다.
+const NAME_KIND = [
+  [/정관$/, '정관'],
+  [/(시행규칙|업무처리\s*규칙|처리규칙|운영규칙|규칙)$/, '규칙'],
+  [/(시행세칙|세칙)$/, '규칙'],
+  [/규정$/, '규정'],
+  [/(지침|예규|요령|준칙)$/, '지침'],
+  [/강령$/, '강령'],
+];
+
+function docKind(d) {
+  if (d.kind) return /부령$/.test(d.kind) ? '부령' : d.kind;   // 법률·대통령령·부령·고시·훈령
+  for (const [re, k] of NAME_KIND) if (re.test(d.name)) return k;
+  return '기타';
+}
+
+// 조문 점수를 문서 단위로 합산한다. 상위 3개만 더해서 조문이 많은 문서가 그냥 이기지 않게 한다.
+function scoreDocs(hits) {
+  // 문서가 무엇에 관한 것인지는 본칙이 정한다. 별표·부칙은 부속 자료라 문서 선정에서 뺀다.
+  // (조문을 고르는 3단계에서는 그대로 다 본다.)
+  const main = hits.filter((a) => a.section === '본칙');
+  const use = main.length ? main : hits;
+  const byDoc = new Map();
+  for (const a of use) {
+    if (!byDoc.has(a.docId)) byDoc.set(a.docId, []);
+    byDoc.get(a.docId).push(a._score ?? 0);
+  }
+  const rows = [];
+  for (const [docId, arr] of byDoc) {
+    const d = STATE.docs.get(docId);
+    if (!d) continue;
+    arr.sort((x, y) => y - x);
+    const sc = (arr[0] ?? 0) + 0.3 * (arr[1] ?? 0) + 0.15 * (arr[2] ?? 0);
+    rows.push({ docId, name: d.name, kind: docKind(d), score: sc, n: arr.length });
+  }
+  rows.sort((a, b) => b.score - a.score);
+  return rows;
+}
+
+// 성격마다 1등을 고른다. 1등이 2등의 2배에 못 미치면 사용자에게 물어야 한다.
+function pickDocs(rows) {
+  if (!rows.length) return { picked: [], ambiguous: null };
+  const byKind = new Map();
+  for (const r of rows) {
+    if (!byKind.has(r.kind)) byKind.set(r.kind, []);
+    byKind.get(r.kind).push(r);
+  }
+  // 되묻기는 '전체 1등이 걸린 성격'에서만 한다.
+  // 관계없는 성격에서 1·2등이 붙어 있다고 답 전체를 막으면, 이미 정해진 답까지 못 준다.
+  const leadKind = rows[0]?.kind;
+  const picked = [];
+  let ambiguous = null;
+  for (const [kind, list] of byKind) {
+    const [top, second] = list;
+    const close = second && top.score < second.score * 2;
+    // 되묻는 건 값이 클 때만이다. 세 조건을 모두 만족해야 사용자를 붙든다.
+    //  · 전체 1등이 걸린 성격일 것            (엉뚱한 성격의 접전은 답을 막을 이유가 없다)
+    //  · 1등 점수가 충분히 높을 것            (약한 후보끼리의 접전은 물어도 답이 안 나온다)
+    //  · 형제 문서가 아닐 것                  (규정↔규칙은 어차피 형제 안내가 챙긴다)
+    // 후보가 둘뿐이면 굳이 붙들지 않는다. 둘 다 열어두면 조문 점수가 알아서 가린다.
+    // 셋 이상이 엉겨 붙었을 때만, 그때는 좁힐 방법이 없으므로 사용자에게 묻는다.
+    const third = list[2];
+    const crowded = third && top.score < third.score * 2;
+    const worthAsking =
+      close &&
+      crowded &&
+      kind === leadKind &&
+      top.score >= MIN_SCORE * 3 &&
+      familyKey(top.name) !== familyKey(second.name);
+    if (worthAsking) {
+      ambiguous = { kind, top, second, rest: list.slice(2, 10) };
+    } else if (close) {
+      picked.push(top, second);        // 애매하면 둘 다 열어두고 점수가 가리게 한다
+    } else {
+      picked.push(top);
+    }
+  }
+  return { picked, ambiguous };
+}
+
+function search(query, { scope, section, document, onlyDocIds, relaxed, limit = MAX_HITS } = {}) {
   const S = STATE;
   const qn = normText(query);
   if (qn.length < 2) return [];
@@ -240,8 +327,8 @@ function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
   }
 
   // 특정 규정 안에서만 찾도록 한정할 수 있다
-  let onlyDocs = null;
-  if (document) {
+  let onlyDocs = onlyDocIds ?? null;
+  if (!onlyDocs && document) {
     const dq = normText(document);
     onlyDocs = new Set([...S.docs.values()].filter((d) => normText(d.name).includes(dq)).map((d) => d.docId));
   }
@@ -274,8 +361,16 @@ function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
     else out.unshift({ i: pinned, s: 999 });
   }
   // 근거가 약한 결과는 아예 내보내지 않는다. 없는 내용을 지어내는 것보다 못 찾았다고 하는 게 낫다.
-  const floor = document ? MIN_SCORE * 0.3 : MIN_SCORE;
-  const passed = out.filter((o) => o.s >= floor);
+  const floor = document || relaxed ? MIN_SCORE * 0.3 : MIN_SCORE;
+  let passed = out.filter((o) => o.s >= floor);
+  // 아무것도 문턱을 못 넘으면 빈손으로 돌려보내지 않는다.
+  // '못 찾았다'와 '없다'는 다르다. 근거가 약한 후보라도 보여주고 약하다고 밝히는 편이,
+  // 모델이 "규정에 없습니다"라고 단정해버리는 것보다 낫다.
+  let weak = false;
+  if (!passed.length) {
+    passed = out.filter((o) => o.s >= floor * 0.2).slice(0, Math.max(limit, 5));
+    weak = passed.length > 0;
+  }
   if (DEBUG) {
     console.error(`[검색] "${query}" / 조각 ${qg.length} · 확장 ${extra.length} / 문턱 ${floor.toFixed(1)}`);
     for (const o of out.slice(0, 8)) {
@@ -284,7 +379,7 @@ function search(query, { scope, section, document, limit = MAX_HITS } = {}) {
       console.error(`  ${o.s >= floor ? '\u25cb' : '\u00d7'} ${o.s.toFixed(1)}점 cov=${cov.toFixed(2)} ${S.docs.get(a.docId)?.name ?? '?'} ${a.articleId}`);
     }
   }
-  return passed.slice(0, limit).map(({ i, s }) => ({ ...S.articles[i], _score: s }));
+  return passed.slice(0, limit).map(({ i, s }) => ({ ...S.articles[i], _score: s, _weak: weak }));
 }
 
 // ── 출력 형식 ──────────────────────────────────────────────
@@ -310,8 +405,13 @@ function renderArticle(a, withText = true) {
 
 const NOT_FOUND = (msg, hint) =>
   `[NOT_FOUND] ${msg}\n` +
-  `LLM 주의: 아래 자료에 근거가 없습니다. 추측하거나 조문을 지어내지 마십시오.\n` +
-  `사용자에게 "수록된 규정에서 근거를 찾지 못했다"고 답하십시오.` +
+  `LLM 주의: 이것은 "자료에 없다"가 아니라 "이 검색어로는 못 찾았다"는 뜻입니다. ` +
+  `아직 "규정에 없습니다"라고 답하지 마십시오. 조문을 지어내지도 마십시오.\n` +
+  `사용자가 쓰는 말과 규정의 용어가 다를 때 이렇게 됩니다. 일상어를 규정 용어로 바꿔 다시 검색하십시오.\n` +
+  `  큰아버지·삼촌·조카 → 친족, 형제자매, 경조사 / 상주·초상·장례 → 경조사, 사망\n` +
+  `  월급·수당 → 보수 / 출장비 → 여비 / 서류 → 제출서류, 구비서류\n` +
+  `그래도 안 나오면 list_documents 로 수록 범위를 확인하고, 관련 규정을 골라 ` +
+  `get_provision 의 목차나 전문으로 직접 훑어본 뒤에 판단하십시오.` +
   (hint ? `\n참고: ${hint}` : '');
 
 function footer() {
@@ -451,19 +551,92 @@ async function callTool(name, args = {}) {
   if (name === 'search_provisions') {
     const limit = Math.min(Math.max(Number(args.limit) || MAX_HITS, 1), 15);
     const scope = args.scope === '전체' ? undefined : args.scope;
-    const hits = search(String(args.query ?? ''), { scope, section: args.section, document: args.document, limit });
-    if (!hits.length) {
-      return NOT_FOUND(
-        `"${args.query}" 로 검색된 조문이 없습니다.`,
-        'list_documents 로 수록 범위를 확인하거나, 다른 낱말로 다시 검색해 보십시오.'
+    const q = String(args.query ?? '');
+
+    // 문서를 이미 지정했으면 예전 그대로 그 안에서만 찾는다
+    if (args.document) {
+      const hits = search(q, { scope, section: args.section, document: args.document, limit });
+      if (!hits.length) return NOT_FOUND(`"${q}" 로 검색된 조문이 없습니다.`, `"${args.document}" 안에서 찾았습니다. 다른 규정일 수 있습니다.`);
+      return (
+        `검색어: ${q} · ${args.document} 안 · ${hits.length}건\n\n` +
+        hits.map((a) => renderArticle(a)).join('\n\n') +
+        footer()
       );
     }
-    // 흩어진 사안을 묻는 질문에만 형제 문서를 안내한다.
-    // 조문을 지목했거나 결과가 한둘뿐이면 답이 이미 정해진 질문이므로 조용히 둔다.
-    const pinpoint = /제\s*\d+\s*조/.test(String(args.query ?? '')) || hits.length <= 2 || !!args.document;
+
+    // 조문을 콕 집어 물었으면 문서를 고를 것도 없다. 예전 경로 그대로.
+    if (/제\s*\d+\s*조/.test(q)) {
+      const hits = search(q, { scope, section: args.section, limit });
+      if (hits.length) {
+        return (
+          `검색어: ${q} · ${hits.length}건\n\n` +
+          hits.map((a) => renderArticle(a)).join('\n\n') +
+          footer()
+        );
+      }
+    }
+
+    // 1단계: 전체를 훑어 어느 문서인지부터 정한다
+    const wide = search(q, { scope, section: args.section, limit: 60 });
+    if (!wide.length) {
+      return NOT_FOUND(`"${q}" 로 검색된 조문이 없습니다.`, 'list_documents 로 수록 범위를 확인해 보십시오.');
+    }
+
+    // 1단계부터 근거가 약하면 문서를 정할 자격이 없다. 약하다고 밝히고 그대로 내보낸다.
+    if (wide[0]?._weak) {
+      const w = wide.slice(0, limit);
+      return (
+        `[약한 결과] 검색어: ${q}\n` +
+        `문턱을 넘은 조문이 없어, 점수가 낮은 후보 ${w.length}건을 그대로 보여줍니다.\n` +
+        `LLM 주의: 아래 조문은 질문과 무관할 수 있습니다. 그렇다고 "규정에 없다"고 답하지 마십시오.\n` +
+        `질문의 말과 규정의 용어가 어긋났을 가능성이 큽니다. 용어를 바꿔 다시 검색하거나, ` +
+        `관련 규정을 골라 get_provision 의 목차·전문으로 직접 확인한 뒤에 답하십시오.\n\n` +
+        w.map((a) => renderArticle(a)).join('\n\n') +
+        footer()
+      );
+    }
+
+    const rows = scoreDocs(wide);
+    const { picked, ambiguous } = pickDocs(rows);
+
+    // 2단계: 성격 안에서 1등과 2등이 엇비슷하면 고르지 않고 되묻는다
+    if (ambiguous) {
+      const a = ambiguous;
+      const line = (r, i) => `  ${i}. ${r.name} (조문 ${artCount(r.docId)}건 · 관련 조문 ${r.n}건)`;
+      return (
+        `[선택 필요] 검색어: ${q}\n` +
+        `${a.kind} 중 두 문서가 비슷하게 걸립니다. 어느 쪽인지 사용자에게 물어보십시오.\n` +
+        `추측해서 하나를 고르지 마십시오.\n\n` +
+        line(a.top, 1) + '\n' + line(a.second, 2) + '\n' +
+        `  3. 둘 다 아님 — 아래 다른 후보를 보여주십시오.\n` +
+        (a.rest.length ? `\n다른 후보: ${a.rest.map((r) => r.name).join(' / ')}\n` : '\n') +
+        (picked.length ? `\n참고로 다른 성격에서는 이미 정해졌습니다: ${picked.map((r) => `${r.kind}=${r.name}`).join(', ')}\n` : '') +
+        `\n사용자가 고르면 search_provisions 를 document 에 그 이름을 넣어 다시 부르십시오.` +
+        footer()
+      );
+    }
+
+    // 3단계: 정해진 문서 안에서만 다시 찾는다. 범위가 좁으니 문턱을 낮춘다.
+    const onlyDocIds = new Set(picked.map((r) => r.docId));
+    let hits = search(q, { scope, section: args.section, onlyDocIds, relaxed: true, limit });
+    let narrowed = true;
+    if (!hits.length) { hits = wide.slice(0, limit); narrowed = false; }   // 좁히다 놓치면 1단계로 되돌아간다
+
+    const head =
+      `검색어: ${q} · ${hits.length}건\n` +
+      (narrowed
+        ? `문서를 먼저 정하고 그 안에서 찾았습니다: ${picked.map((r) => `${r.kind}=${r.name}`).join(', ')}\n` +
+          (picked.length > new Set(picked.map((r) => r.kind)).size
+            ? `같은 성격에서 비슷한 문서가 있어 양쪽을 다 살폈습니다. 답이 한쪽에만 있다면 그 문서명을 함께 밝히십시오.\n`
+            : '')
+        : `문서를 좁히지 못해 전체 결과를 보여줍니다.\n`) +
+      `아래 조문에 실제로 적힌 내용만 근거로 답하고, 인용할 때는 문서명과 조문번호를 함께 밝히십시오.\n` +
+      (hits[0]?._weak ? `※ 점수가 낮은 후보입니다. 무관할 수 있으나, 그렇다고 "규정에 없다"고 답하지는 마십시오.\n` : '') +
+      `\n`;
+
+    const pinpoint = /제\s*\d+\s*조/.test(q) || hits.length <= 2;
     return (
-      `검색어: ${args.query} · ${hits.length}건\n` +
-      `아래 조문에 실제로 적힌 내용만 근거로 답하고, 인용할 때는 문서명과 조문번호를 함께 밝히십시오.\n\n` +
+      head +
       hits.map((a) => renderArticle(a)).join('\n\n') +
       (pinpoint ? '' : siblingNotice(hits.map((a) => a.docId))) +
       footer()
