@@ -1,12 +1,12 @@
 {
-  "collectedAt": "2026-07-30T21:08:14.349Z",
+  "collectedAt": "2026-08-02T20:53:28.626Z",
   "converterVersion": 5,
-  "targets": 74,
-  "converted": 74,
-  "reusedFromCache": 74,
-  "totalArticles": 3129,
-  "totalSupplementArticles": 685,
-  "needsOriginal": 1616,
+  "targets": 72,
+  "converted": 72,
+  "reusedFromCache": 72,
+  "totalArticles": 3051,
+  "totalSupplementArticles": 673,
+  "needsOriginal": 1557,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
@@ -94,18 +94,6 @@
       "sha256": "fe01c5aa13e4a557ef48449881b430792914f8b0ba91d5bd3f10a8ba92ec5922",
       "articles": 41,
       "supplements": 3
-    },
-    "F63746CFCA96B988BCEE": {
-      "docKey": "특정업무직운영지원직직원관리규칙",
-      "sha256": "4abb3b3bacef7d45294dc0168da8ebe882f1f791f78d4cab0684b12757b08d2f",
-      "articles": 39,
-      "supplements": 6
-    },
-    "BEB825AC9BA8482AF6E6": {
-      "docKey": "특정업무직사업지원직직원관리규칙",
-      "sha256": "75e37d13108885956e70c1478c15ba9d1c721a520edd693ef7a25cae6d54b612",
-      "articles": 39,
-      "supplements": 6
     },
     "21FE875CFD5B9C268798": {
       "docKey": "장애인취업지원업무처리규칙",
