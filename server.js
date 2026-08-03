@@ -261,6 +261,20 @@ function bodyHtml(text) {
     .replace(/\n/g, '<br>');
 }
 
+// 별표·별지인가. 별지는 대부분 신청서·보고서 서식이라 본문을 보여줄 값어치가 없다.
+const isForm = (id) => /별지|서식/.test(String(id ?? ''));
+
+// 목차에 쓸 짧은 이름.
+// 실제 값은 '[별지 제33호 서식] (제5조의2 관련) [신설 2021. 4. 5.]' 처럼 길어서,
+// 그대로 늘어놓으면 목차가 개정 이력으로 뒤덮인다. 종류와 번호만 남긴다.
+function shortLabel(articleId) {
+  const t = String(articleId ?? '');
+  const m = t.match(/(별표|별지|서식)\s*(?:제)?\s*(\d+(?:의\d+)?)/);
+  if (m) return `${m[1] === '서식' ? '별지' : m[1]} ${m[2]}`;
+  if (/^\[?(별표|별지|서식)/.test(t)) return t.replace(/[[\]()<>]/g, '').split(/\s+/).slice(0, 2).join(' ');
+  return t;
+}
+
 // 앵커는 사람이 손으로 칠 수 있게 단순한 형태로 만든다. 제25조 → 제25조, [별표 2] → 별표2
 function anchorOf(articleId) {
   const t = String(articleId ?? '').replace(/\s/g, '');
@@ -283,9 +297,17 @@ h1{font-size:1.15rem;margin:0 0 .3rem}
 .toc summary{cursor:pointer;font-weight:600;opacity:.75;margin-bottom:.5rem}
 .tg{margin:0 0 .55rem;padding-left:.1rem;break-inside:avoid}
 .tg b{display:block;font-size:.75rem;opacity:.6;margin:.5rem 0 .15rem;letter-spacing:.02em}
-.toc a{display:block;text-decoration:none;line-height:1.45;padding:.05rem 0;opacity:.9}
-.toc a i{font-style:normal;opacity:.5;display:inline-block;min-width:4.2rem;font-size:.75rem}
+.toc a{display:block;text-decoration:none;line-height:1.4;padding:.05rem 0;opacity:.9;
+ white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.toc a i{font-style:normal;opacity:.5;display:inline-block;min-width:4.4rem;font-size:.75rem}
 .toc a:hover{opacity:1;text-decoration:underline}
+/* 별표·별지는 번호만 있어 짧다. 줄줄이 세우지 말고 칩처럼 흘려 담는다. */
+.chips{display:flex;flex-wrap:wrap;gap:.25rem .4rem;align-items:baseline}
+.chips b{flex:0 0 100%}
+.toc a.chip{display:inline-block;border:1px solid;border-radius:.25rem;
+ padding:.05rem .35rem;font-size:.75rem;opacity:.8}
+.toc a.chip i{min-width:0;opacity:.85;font-size:.75rem}
+.form h2{opacity:.75;font-weight:500}
 @media(min-width:40rem){.toc>.tg{columns:2;column-gap:1.6rem}
  .toc{columns:2;column-gap:1.8rem}
  .tg{display:block}}
@@ -323,15 +345,29 @@ function renderDocHtml(d, list) {
       if (secName[curSec]) parts.push(`<h2 class="chap" style="font-size:1rem;opacity:1">${esc(secName[curSec])}</h2>`);
     }
     if (a.section === '본칙' && a.chapter && a.chapter !== curChap) {
-      curChap = a.chapter;
+      curChap = a.chapter;                                   // 빈 값이면 앞 장을 그대로 둔다
       parts.push(`<div class="chap">${esc(a.chapter)}</div>`);
     }
     const id = anchorOf(a.articleId);
+    const link = a.link ?? d.originalUrl ?? null;
+    // 별지는 거의 전부 신청서·보고서 서식이다. 글자로 옮겨 봐야 칸이 어긋나 읽기 어렵고,
+    // 실제로 필요한 것은 내려받아 쓰는 일이다. 그래서 본문을 그리지 않고 링크만 준다.
+    if (isForm(a.articleId)) {
+      parts.push(
+        `<article id="${esc(id)}" class="form">` +
+        `<h2>${esc(shortLabel(a.articleId))}${a.title && a.title !== a.articleId ? ` ${esc(a.title)}` : ''}` +
+        `<span class="no">#${esc(id)}</span></h2>` +
+        `<p class="src">서식 파일입니다. 미리보기는 생략합니다.` +
+        (link ? ` <a href="${esc(link)}">원본 내려받기 ↗</a>` : '') +
+        `</p></article>`
+      );
+      continue;
+    }
     parts.push(
       `<article id="${esc(id)}">` +
-      `<h2>${esc(a.articleId)}${a.title ? ` ${esc(a.title)}` : ''}` +
+      `<h2>${esc(a.articleId)}${a.title && a.title !== a.articleId ? ` ${esc(a.title)}` : ''}` +
       `<span class="no">#${esc(id)}</span></h2>` +
-      (a.link ? `<p class="src"><a href="${esc(a.link)}">원본 파일 내려받기 ↗</a></p>` : '') +
+      (link && a.section === '별표' ? `<p class="src"><a href="${esc(link)}">원본 파일 내려받기 ↗</a></p>` : '') +
       `<div class="body">${bodyHtml(a.text)}</div>` +
       `</article>`
     );
@@ -339,24 +375,31 @@ function renderDocHtml(d, list) {
 
   // 목차. 한 줄씩 세우면 너무 길고, 다 이어 붙이면 글자 벽이 된다.
   // 장·절로 묶고 여러 단으로 흘려서, 눈이 덩어리 단위로 훑게 한다.
+  // 장·절 정보는 74% 만 채워져 있다. 빈 조문은 앞 장을 이어받게 한다.
+  // 그러지 않으면 목차가 '(구분없음)' 으로 자꾸 끊겨 오히려 읽기 나빠진다.
   const tocGroups = [];
   let g = null;
+  let lastChap = '';
   for (const a of list) {
-    const key = a.section === '본칙' ? (a.chapter ?? '') : a.section;
+    if (a.section === '본칙' && a.chapter) lastChap = a.chapter;
+    const key = a.section === '본칙' ? lastChap : a.section;
     if (!g || g.key !== key) { g = { key, rows: [] }; tocGroups.push(g); }
     g.rows.push(a);
   }
   const toc = tocGroups
     .map((grp) => {
       const head = grp.key ? `<b>${esc(grp.key)}</b>` : '';
+      const annex = grp.key === '별표';
       const items = grp.rows
         .map((a) => {
           const id = anchorOf(a.articleId);
-          const no = esc(a.articleId).replace(/^\[|\]$/g, '');
-          return `<a href="#${esc(id)}"><i>${no}</i>${a.title ? ` ${esc(a.title)}` : ''}</a>`;
+          const no = esc(shortLabel(a.articleId));
+          // 별표·별지는 번호만 보여준다. 제목을 붙이면 개정 이력까지 딸려와 목차가 뒤덮인다.
+          const t = annex ? '' : a.title && a.title !== a.articleId ? ` ${esc(a.title)}` : '';
+          return `<a href="#${esc(id)}"${annex ? ' class="chip"' : ''}><i>${no}</i>${t}</a>`;
         })
         .join('');
-      return `<div class="tg">${head}${items}</div>`;
+      return `<div class="tg${annex ? ' chips' : ''}">${head}${items}</div>`;
     })
     .join('');
 
