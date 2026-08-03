@@ -295,8 +295,12 @@ h1{font-size:1.15rem;margin:0 0 .3rem}
 .meta{font-size:.8rem;opacity:.75;line-height:1.5}
 .toc{font-size:.82rem;margin:0 0 2rem;padding:.7rem .9rem;border:1px solid;border-radius:.5rem}
 .toc summary{cursor:pointer;font-weight:600;opacity:.75;margin-bottom:.5rem}
-.tg{margin:0 0 .55rem;padding-left:.1rem;break-inside:avoid}
-.tg b{display:block;font-size:.75rem;opacity:.6;margin:.5rem 0 .15rem;letter-spacing:.02em}
+/* 짧은 그룹만 통째로 지킨다. 긴 그룹(별표 21건·본칙 40건)까지 avoid 를 걸면
+   열 하나에 갇혀 목차가 세로로 늘어진다. 헤더는 항상 뒤따르는 항목과 붙여 둔다. */
+.tg{margin:0 0 .55rem;padding-left:.1rem}
+.tg.short{break-inside:avoid}
+.tg b{display:block;font-size:.75rem;opacity:.6;margin:.5rem 0 .15rem;letter-spacing:.02em;
+ break-after:avoid}
 .toc a{display:block;text-decoration:none;line-height:1.4;padding:.05rem 0;opacity:.9;
  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .toc a i{font-style:normal;opacity:.5;display:inline-block;min-width:4.4rem;font-size:.75rem}
@@ -308,8 +312,9 @@ h1{font-size:1.15rem;margin:0 0 .3rem}
  padding:.05rem .35rem;font-size:.75rem;opacity:.8}
 .toc a.chip i{min-width:0;opacity:.85;font-size:.75rem}
 .form h2{opacity:.75;font-weight:500}
-@media(min-width:40rem){.toc>.tg{columns:2;column-gap:1.6rem}
- .toc{columns:2;column-gap:1.8rem}
+/* 다단은 목차 전체에만 건다. 그룹 안에서 한 번 더 나누면 열 폭이 1/4로 줄어
+   제목이 잘리고, 항목 두셋짜리 그룹은 헤더만 왼쪽 열에 남고 항목이 오른쪽 열로 떨어진다. */
+@media(min-width:40rem){.toc{columns:2;column-gap:1.8rem}
  .tg{display:block}}
 pre.box{font-family:"D2Coding","Nanum Gothic Coding","Menlo",ui-monospace,monospace;
  font-size:.72rem;line-height:1.35;white-space:pre;overflow-x:auto;margin:.6rem 0;
@@ -399,7 +404,8 @@ function renderDocHtml(d, list) {
           return `<a href="#${esc(id)}"${annex ? ' class="chip"' : ''}><i>${no}</i>${t}</a>`;
         })
         .join('');
-      return `<div class="tg${annex ? ' chips' : ''}">${head}${items}</div>`;
+      const short = grp.rows.length <= 12 ? ' short' : '';
+      return `<div class="tg${short}${annex ? ' chips' : ''}">${head}${items}</div>`;
     })
     .join('');
 
