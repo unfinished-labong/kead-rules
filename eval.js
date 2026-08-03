@@ -111,25 +111,36 @@ async function main() {
 
   const rows = [];
   for (const c of cases) {
-    const text = await callTool({ query: c.q, limit: LIMIT });
+    // 종합형은 답이 흩어져 있으므로 실제 사용처럼 넉넉히 받아 본다
+    const lim = c.type === '종합' ? Math.max(LIMIT, 15) : LIMIT;
+    const text = await callTool({ query: c.q, limit: lim });
     const kind = classify(text);
     const hits = parseHits(text);
     const noAnswer = (c.expect ?? []).length === 0;
 
     let rank = 0;
+    let found = 0;
     if (!noAnswer) {
       for (let i = 0; i < hits.length; i++) {
         if (c.expect.some((w) => matches(hits[i], w))) { rank = i + 1; break; }
       }
+      // 종합형은 '몇 개나 담았나' 를 본다. 절차·체크리스트는 답이 여러 조문에 흩어져 있어
+      // 하나만 맞히고 통과시키면 실제 쓸모를 못 잰다.
+      found = c.expect.filter((w) => hits.some((h) => matches(h, w))).length;
     }
-    // 정답이 없어야 하는 질의는 '답변' 이 아니면 성공
-    const ok = noAnswer ? kind !== '답변' : rank > 0;
-    rows.push({ q: c.q, confirmed: !!c.confirmed, kind, rank, ok, noAnswer, top: hits[0], n: hits.length });
+    const need = c.type === '종합' ? Math.ceil(c.expect.length * (c.minRatio ?? 0.6)) : 1;
+    const ok = noAnswer ? kind !== '답변' : (c.type === '종합' ? found >= need : rank > 0);
+    rows.push({
+      q: c.q, confirmed: !!c.confirmed, kind, rank, ok, noAnswer,
+      type: c.type ?? '단일', found, want: c.expect.length, need,
+      top: hits[0], n: hits.length,
+    });
   }
   srv.kill();
 
   // ── 집계 ──
-  const scored = rows.filter((r) => !r.noAnswer);
+  const scored = rows.filter((r) => !r.noAnswer && r.type !== '종합');
+  const multi = rows.filter((r) => r.type === '종합');
   const at = (k) => scored.filter((r) => r.rank > 0 && r.rank <= k).length;
   const mrr = scored.reduce((s, r) => s + (r.rank ? 1 / r.rank : 0), 0) / (scored.length || 1);
   const cnt = (k) => rows.filter((r) => r.kind === k).length;
@@ -140,23 +151,30 @@ async function main() {
     물음: cnt('물음'), 약함: cnt('약함'), 없음: cnt('없음'),
     무관질의통과: rows.filter((r) => r.noAnswer && r.ok).length,
     무관질의수: rows.filter((r) => r.noAnswer).length,
+    종합수: multi.length,
+    종합통과: multi.filter((r) => r.ok).length,
+    종합담김: multi.reduce((s, r) => s + r.found, 0),
+    종합필요: multi.reduce((s, r) => s + r.want, 0),
   };
 
   // ── 출력 ──
   const mark = (r) => (r.ok ? (r.rank === 1 ? '◎' : '○') : '×');
   const pad = (s, n) => (s + ' '.repeat(n)).slice(0, n);
   console.log(`\n인덱스 ${path.basename(INDEX)} · 서버 ${path.basename(SERVER)} · 질의 ${rows.length}건\n`);
-  console.log('    ' + pad('질의', 36) + pad('판정', 6) + pad('순위', 6) + '1위 결과');
+  console.log('    ' + pad('질의', 36) + pad('판정', 6) + pad('순위/담김', 8) + '1위 결과');
   console.log('    ' + '-'.repeat(94));
   for (const r of rows) {
     const topStr = r.top ? `${r.top.doc} ${r.top.art}` : '—';
     console.log(
       `  ${mark(r)} ` + pad(r.q + (r.confirmed ? '' : ' *'), 36) +
-      pad(r.kind, 6) + pad(r.rank ? String(r.rank) : (r.noAnswer ? '-' : '밖'), 6) + topStr.slice(0, 46)
+      pad(r.kind, 6) +
+      pad(r.type === '종합' ? `${r.found}/${r.want}` : (r.rank ? String(r.rank) : (r.noAnswer ? '-' : '밖')), 6) +
+      topStr.slice(0, 46)
     );
   }
   console.log('    ' + '-'.repeat(94));
   console.log(`\n  hit@1 ${sum.hit1}/${sum.n}   hit@3 ${sum.hit3}/${sum.n}   hit@8 ${sum.hit8}/${sum.n}   MRR ${sum.mrr}`);
+  if (sum.종합수) console.log(`  종합형 ${sum.종합통과}/${sum.종합수}건 통과 · 필요 조문 ${sum.종합담김}/${sum.종합필요}개 담김`);
   console.log(`  되묻기 ${sum.물음}건 · 약한결과 ${sum.약함}건 · 못찾음 ${sum.없음}건 · 무관질의 방어 ${sum.무관질의통과}/${sum.무관질의수}`);
   console.log('  * 표시는 정답 조문이 미확인(추정)인 질의입니다.\n');
 
@@ -168,6 +186,11 @@ async function main() {
     for (const r of rows) {
       const o = was[r.q];
       if (!o) continue;
+      if (r.type === '종합' && o.found !== undefined) {
+        if (r.found > o.found) console.log(`    좋아짐  ${r.q}  (${o.found}/${r.want} → ${r.found}/${r.want}개)`);
+        else if (r.found < o.found) console.log(`    나빠짐  ${r.q}  (${o.found}/${r.want} → ${r.found}/${r.want}개)`);
+        continue;
+      }
       if (o.ok && !r.ok) console.log(`    나빠짐  ${r.q}  (${o.rank}위 → 못찾음)`);
       else if (!o.ok && r.ok) console.log(`    좋아짐  ${r.q}  (못찾음 → ${r.rank}위)`);
       else if (o.rank && r.rank && r.rank < o.rank) console.log(`    좋아짐  ${r.q}  (${o.rank}위 → ${r.rank}위)`);

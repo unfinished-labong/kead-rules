@@ -355,6 +355,15 @@ function search(query, { scope, section, document, onlyDocIds, relaxed, limit = 
     let s = raw / Math.sqrt(S.lens[i] / 200 + 1);       // 긴 조문이 무조건 유리해지지 않게
     s *= 0.4 + cov;
     s *= SECTION_WEIGHT[a.section] ?? 1;
+    // 장·절 제목이 질의와 맞으면 밀어준다.
+    // '신청 절차' 를 물으면 「제2장 지원 신청」 아래 조문들이 다 같이 올라와야 하는데,
+    // 조문 본문에는 '신청' 이 한 번씩만 나와 짧고 무관한 조문에 밀리기 때문이다.
+    if (a.chapter) {
+      const cn = normText(a.chapter);
+      let hit = 0;
+      for (const g of qg) if (cn.includes(g)) hit++;
+      if (hit) s *= 1 + 2.5 * (hit / qg.length);
+    }
     if (a.norm.includes(qn)) s *= 2.2;                  // 질의가 통째로 들어 있으면 강하게
     s *= nb;
     if (wantId && a.articleId === wantId) s *= 3;
