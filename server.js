@@ -36,6 +36,7 @@ const MAX_HITS = 8;
 
 // 깃허브가 잠시 죽어도 예전 자료로 답할 수 있도록 받을 때마다 디스크에 복사해 둔다.
 // 기기가 새로 만들어지면 사라지지만, 재시작이나 깃허브 장애에는 도움이 된다.
+let PUBLIC_BASE = process.env.PUBLIC_URL ?? '';   // 요청 Host 에서 자동으로 채운다
 const CACHE_PATH = process.env.INDEX_CACHE ?? path.join(process.cwd(), 'index-cache.json');
 
 if (!INDEX_URL) {
@@ -196,6 +197,102 @@ function expandGrams(qn) {
 }
 
 
+
+
+// ── 원문 뷰어 ──────────────────────────────────────────────
+// 현장에서 바로 확인하려면 링크를 눌렀을 때 브라우저에서 열려야 한다.
+// 공단 게시판 링크는 한글 파일을 내려받게 하고, 법제처 한글주소는 조문으로 못 간다.
+// 인덱스에 이미 전문과 표(HTML)가 다 있으므로, 그것을 그대로 그려서 내보낸다.
+const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// 조문 본문에는 표가 HTML 로 들어 있다. 표 관련 태그만 살리고 나머지는 글자로 취급한다.
+const KEEP_TAG = /&lt;(\/?(?:table|thead|tbody|tr|th|td|br|p)(?:\s+(?:colspan|rowspan)="\d+")*)\s*\/?&gt;/gi;
+function bodyHtml(text) {
+  return esc(text)
+    .replace(KEEP_TAG, '<$1>')
+    .replace(/&lt;img[^&]*?src=&quot;(https?:\/\/[^&"]+)&quot;[^&]*?&gt;/gi, '<img src="$1" alt="">')
+    .replace(/\n/g, '<br>');
+}
+
+// 앵커는 사람이 손으로 칠 수 있게 단순한 형태로 만든다. 제25조 → 제25조, [별표 2] → 별표2
+function anchorOf(articleId) {
+  const t = String(articleId ?? '').replace(/\s/g, '');
+  const b = t.match(/^\[별표(\d+[^\]]*)\]/);
+  if (b) return `별표${b[1].replace(/[^0-9의-]/g, '')}`;
+  const j = t.match(/^(제\d+조(?:의\d+)?)/);
+  if (j) return j[1];
+  return encodeURIComponent(t).slice(0, 40);
+}
+
+const VIEW_CSS = `
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{margin:0;padding:1rem 1rem 4rem;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+ max-width:52rem;margin-inline:auto;word-break:keep-all;overflow-wrap:anywhere}
+header{position:sticky;top:0;background:Canvas;padding:.6rem 0;border-bottom:2px solid CanvasText;margin-bottom:1rem;z-index:9}
+h1{font-size:1.15rem;margin:0 0 .3rem}
+.meta{font-size:.8rem;opacity:.75;line-height:1.5}
+.toc{font-size:.85rem;margin:0 0 2rem;padding:.8rem 1rem;border:1px solid;border-radius:.5rem;opacity:.92}
+.toc a{display:inline-block;margin:.15rem .5rem .15rem 0;text-decoration:none}
+.toc a:hover{text-decoration:underline}
+.chap{font-weight:700;margin:1.6rem 0 .4rem;font-size:.9rem;opacity:.7}
+article{margin:0 0 1.8rem;scroll-margin-top:5rem}
+article:target{background:color-mix(in srgb,Highlight 18%,transparent);
+ outline:2px solid Highlight;outline-offset:.5rem;border-radius:.3rem}
+h2{font-size:1rem;margin:0 0 .4rem;padding-top:.3rem}
+h2 .no{opacity:.55;font-weight:400;font-size:.8rem;margin-left:.4rem}
+.body{white-space:normal}
+table{border-collapse:collapse;width:100%;margin:.7rem 0;font-size:.82rem;display:block;overflow-x:auto}
+th,td{border:1px solid;padding:.3rem .45rem;vertical-align:top;min-width:3.5rem}
+th{background:color-mix(in srgb,CanvasText 8%,transparent);font-weight:600}
+img{max-width:100%;height:auto}
+.top{position:fixed;right:1rem;bottom:1rem;padding:.55rem .8rem;border:1px solid;border-radius:2rem;
+ background:Canvas;text-decoration:none;font-size:.8rem;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.warn{font-size:.8rem;padding:.5rem .8rem;border-left:3px solid;opacity:.85;margin:.5rem 0}
+`;
+
+function renderDocHtml(d, list) {
+  const secName = { 본칙: '', 부칙: '부칙', 별표: '별표·서식' };
+  const parts = [];
+  let curSec = null;
+  let curChap = null;
+
+  for (const a of list) {
+    if (a.section !== curSec) {
+      curSec = a.section;
+      curChap = null;
+      if (secName[curSec]) parts.push(`<h2 class="chap" style="font-size:1rem;opacity:1">${esc(secName[curSec])}</h2>`);
+    }
+    if (a.section === '본칙' && a.chapter && a.chapter !== curChap) {
+      curChap = a.chapter;
+      parts.push(`<div class="chap">${esc(a.chapter)}</div>`);
+    }
+    const id = anchorOf(a.articleId);
+    parts.push(
+      `<article id="${esc(id)}">` +
+      `<h2>${esc(a.articleId)}${a.title ? ` ${esc(a.title)}` : ''}` +
+      `<span class="no">#${esc(id)}</span></h2>` +
+      `<div class="body">${bodyHtml(a.text)}</div>` +
+      `</article>`
+    );
+  }
+
+  const toc = list
+    .map((a) => `<a href="#${esc(anchorOf(a.articleId))}">${esc(a.articleId)}${a.title ? ` ${esc(a.title)}` : ''}</a>`)
+    .join('');
+
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${esc(d.name)}</title><style>${VIEW_CSS}</style></head><body>
+<header><h1>${esc(d.name)}</h1>
+<div class="meta">${esc(d.dateKind ?? '시행')} ${esc(d.effectiveDate ?? '표기 없음')}${d.lawNo ? ` · 제${esc(d.lawNo)}호` : ''} · ${esc(d.source ?? '')} · 조문 ${list.length}건<br>
+자료 수집일 ${esc(STATE.idx.dataAsOf)}${d.originalUrl ? ` · <a href="${esc(d.originalUrl)}">원문 내려받기</a>` : ''}</div></header>
+${d.status && d.status !== '현행' ? `<p class="warn">이 문서는 <b>${esc(d.status)}</b> 상태입니다. 시행일을 확인하세요.</p>` : ''}
+<nav class="toc">${toc}</nav>
+${parts.join('\n')}
+<a class="top" href="#">↑ 맨 위</a>
+</body></html>`;
+}
 
 // ── 주기 업무 ──────────────────────────────────────────────
 // "분기별로 뭘 해야 하나" 같은 질문은 낱말 검색으로 잘 안 걸린다.
@@ -503,7 +600,11 @@ function renderArticle(a, withText = true) {
     `  상태: ${d?.status ?? '-'}${d?.status && d.status !== '현행' ? ' ※ 아직 시행 전입니다' : ''}`,
   ];
   if (a.needsOriginal) head.push('  ※ 별표·도표가 포함된 조문입니다. 정확한 내용은 원문을 확인하세요.');
-  if (d?.originalUrl) head.push(`  원문: ${d.originalUrl}`);
+  // 브라우저에서 바로 열리는 주소. 원문 링크는 한글 파일을 내려받게 해서 현장에서 쓰기 어렵다.
+  if (PUBLIC_BASE && d) {
+    head.push(`  바로보기: ${PUBLIC_BASE}/doc/${encodeURIComponent(d.name)}#${anchorOf(a.articleId)}`);
+  }
+  if (d?.originalUrl) head.push(`  원문 내려받기: ${d.originalUrl}`);
   if (withText) head.push('', clip(a.text, a.section));
   return head.join('\n');
 }
@@ -1085,6 +1186,10 @@ function checkKey(req, url) {
 
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, 'http://x');
+  if (!process.env.PUBLIC_URL && req.headers.host) {
+    const proto = req.headers['x-forwarded-proto'] ?? (req.headers.host.startsWith('localhost') ? 'http' : 'https');
+    PUBLIC_BASE = `${proto}://${req.headers.host}`;
+  }
 
   if (req.method === 'OPTIONS') return res.writeHead(204, CORS).end();
 
@@ -1096,7 +1201,37 @@ const server = http.createServer(async (req, res) => {
       body.keyRequired = KEYS.size > 0;
       body.source = STATE.source;          // '원격' 또는 '로컬 캐시'
     }
-    return res.writeHead(200, { ...CORS, 'Content-Type': 'application/json' }).end(JSON.stringify(body));
+    // 인덱스 적재 전에는 503 을 준다. 200 을 주면 프록시가 준비된 줄 알고
+    // 배포 도중 요청을 흘려보내, 첫 질문이 몇 초 멎는다.
+    return res
+      .writeHead(STATE ? 200 : 503, { ...CORS, 'Content-Type': 'application/json' })
+      .end(JSON.stringify(body));
+  }
+
+  // 원문 뷰어: /doc/<규정이름>#제25조
+  if (req.method === 'GET' && url.pathname.startsWith('/doc/')) {
+    try {
+      await ensureIndex();
+    } catch {
+      return res.writeHead(503, { ...CORS, 'Content-Type': 'text/plain; charset=utf-8' }).end('자료를 준비하지 못했습니다.');
+    }
+    const q = normText(decodeURIComponent(url.pathname.slice(5)));
+    const cands = [...STATE.docs.values()].filter((d) => normText(d.name).includes(q));
+    const html = (b) => res.writeHead(b.code, { ...CORS, 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=600' }).end(b.body);
+
+    if (!cands.length) {
+      const all = [...STATE.docs.values()]
+        .map((d) => `<li><a href="/doc/${encodeURIComponent(d.name)}">${esc(d.name)}</a></li>`)
+        .join('');
+      return html({
+        code: 404,
+        body: `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">` +
+          `<style>${VIEW_CSS}</style><h1>그런 규정이 없습니다</h1><p class="meta">수록된 규정 ${STATE.docs.size}건</p><ul>${all}</ul>`,
+      });
+    }
+    const d = cands.sort((a, b) => a.name.length - b.name.length)[0];
+    const list = STATE.articles.filter((x) => x.docId === d.docId);
+    return html({ code: 200, body: renderDocHtml(d, list) });
   }
 
   if (req.method !== 'POST' || url.pathname !== '/mcp') {
