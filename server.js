@@ -211,14 +211,20 @@ const CYCLE_RE = {
 };
 const CYCLE_ORDER = ['매월', '매분기', '매반기', '매년', '횟수', '수시'];
 
+// 질문이 주기를 묻고 있는지 본다. '주기적으로 챙길 일' 같은 표현은 조문 낱말과 안 겹쳐서,
+// 검색만으로는 매분기 보고 조문을 놓친다.
+const CYCLE_INTENT = /주기|정기|분기|반기|매월|매년|월별|연간|상시|챙겨|챙길|해야\s*하는|해야\s*할|확인해야|체크리스트/;
+
 // 조문에서 주기 표현을 찾아 그 앞뒤를 함께 돌려준다. 무엇을 언제 해야 하는지 한눈에 보이도록.
+// 발췌는 짧게 자른다. 길면 모델이 그 한 항목을 붙들고 늘어져서,
+// 목록 전체를 훑어야 할 질문에 한 조문만 깊게 설명하는 답이 나온다.
 function cycleSnippet(text, re) {
   const t = String(text ?? '').replace(/\s+/g, ' ');
   const m = t.match(re);
   if (!m) return null;
   const at = t.indexOf(m[0]);
-  const from = Math.max(0, at - 60);
-  const to = Math.min(t.length, at + 160);
+  const from = Math.max(0, at - 25);
+  const to = Math.min(t.length, at + 65);
   return (from ? '…' : '') + t.slice(from, to).trim() + (to < t.length ? '…' : '');
 }
 
@@ -248,6 +254,30 @@ function findCycles({ document, cycle, scope }) {
     }
   }
   return found;
+}
+
+// 검색 결과에 덧붙일 주기 업무 요약. 발췌 없이 한 줄씩만 준다.
+// 목록을 넓게 보여주는 것이 목적이라, 여기서 본문을 길게 주면 오히려 한 항목만 파고들게 된다.
+function cycleDigest(docIds) {
+  const found = findCycles({});
+  const want = new Set(docIds ?? []);
+  const rows = [];
+  for (const c of CYCLE_ORDER) {
+    for (const { a } of found.get(c) ?? []) {
+      if (want.size && !want.has(a.docId)) continue;
+      const d = STATE.docs.get(a.docId);
+      rows.push(`  · [${c}] ${d?.name ?? '?'} ${a.articleId}${a.title ? ` (${a.title})` : ''}`);
+    }
+  }
+  if (!rows.length) return '';
+  return (
+    `\n\n※ 주기가 걸린 질문으로 보여, 위 검색과 별개로 주기 업무를 전수로 훑었습니다. ${rows.length}건입니다.\n` +
+    `검색 결과에 안 나온 조문이 섞여 있습니다. 빠뜨리지 말고 전부 나열하십시오.\n` +
+    rows.join('\n') +
+    `\n\n한 항목만 깊게 설명하지 마십시오. 위 목록을 주기별로 한 줄씩 모두 훑은 뒤,\n` +
+    `"어느 항목을 자세히 볼까요?" 라고 되물으십시오. 상세 설명은 그때 합니다.\n` +
+    `자세히 답할 때는 find_cycle_duties 나 get_provision 으로 원문을 확인하십시오.`
+  );
 }
 
 // ── 문서 성격 ──────────────────────────────────────────────
@@ -466,8 +496,11 @@ function renderArticle(a, withText = true) {
     `  출처: ${d?.source ?? '-'}${d?.kind ? ` · ${d.kind}` : ''}`,
     `  구분: ${a.section}${a.section !== '본칙' ? ' (본칙 아님)' : ''}`,
     ...(a.chapter ? [`  위치: ${a.chapter}`] : []),
-    `  시행일: ${d?.effectiveDate ?? '표기 없음'}${d?.lawNo ? ` · 제${d.lawNo}호` : ''}`,
-    `  상태: ${d?.status ?? '-'}`,
+    // 두 날짜를 조문마다 붙인다. 답변 끝의 '참고 문서' 를 모델이 빠뜨려도
+    // 조문 본문 바로 위에 있어 눈에 걸린다.
+    `  ${d?.dateKind ?? '시행'}일: ${d?.effectiveDate ?? '표기 없음'}${d?.lawNo ? ` · 제${d.lawNo}호` : ''}` +
+      `  |  이 자료 수집일: ${STATE.idx.dataAsOf}`,
+    `  상태: ${d?.status ?? '-'}${d?.status && d.status !== '현행' ? ' ※ 아직 시행 전입니다' : ''}`,
   ];
   if (a.needsOriginal) head.push('  ※ 별표·도표가 포함된 조문입니다. 정확한 내용은 원문을 확인하세요.');
   if (d?.originalUrl) head.push(`  원문: ${d.originalUrl}`);
@@ -766,9 +799,20 @@ async function callTool(name, args = {}) {
       `\n`;
 
     const pinpoint = /제\s*\d+\s*조/.test(q) || hits.length <= 2;
+    // 주기가 걸린 질문이면 전용 도구 결과를 여기서 바로 붙인다.
+    // 모델이 도구를 골라 쓰기를 기다리면 놓친다. 실제로 실시상황보고를 그렇게 놓쳤다.
+    // 요약 범위는 1등 문서와 그 형제로 좁힌다.
+    // 성격별 1등을 전부 넣으면 행동강령 같은 무관한 규정까지 딸려와 목록이 흐려진다.
+    const lead = picked[0];
+    const leadFam = lead ? familyKey(lead.name) : null;
+    const cycleDocs = picked
+      .filter((r) => !leadFam || familyKey(r.name) === leadFam || r === lead)
+      .map((r) => r.docId);
+    const cycleAdd = CYCLE_INTENT.test(q) ? cycleDigest(cycleDocs) : '';
     return (
       head +
       hits.map((a) => renderArticle(a)).join('\n\n') +
+      cycleAdd +
       (pinpoint ? '' : siblingNotice(hits.map((a) => a.docId))) +
       footer(hits.map((a) => a.docId))
     );
@@ -910,6 +954,7 @@ async function callTool(name, args = {}) {
 
     const label = { 매월: '매월', 매분기: '매분기', 매반기: '매반기', 매년: '매년·연간', 횟수: '연 N회 이상', 수시: '수시·즉시' };
     const parts = [];
+    const counts = [];
     for (const c of CYCLE_ORDER) {
       const rows = found.get(c);
       if (!rows) continue;
@@ -922,16 +967,22 @@ async function callTool(name, args = {}) {
           })
           .join('\n')
       );
+      counts.push(`${label[c]} ${rows.length}`);
     }
 
     return (
       `주기가 정해진 업무 ${total}건` +
       (args.document ? ` · ${args.document} 안` : '') +
       (args.cycle && args.cycle !== '전체' ? ` · ${args.cycle}` : '') + '\n' +
-      `조문 본문에서 주기 표현을 직접 훑어 모은 것입니다. 검색어와 무관하게 빠짐없이 훑습니다.\n` +
-      `아래는 발췌입니다. 답에 넣을 조문은 get_provision 으로 전문을 확인한 뒤 인용하십시오.\n` +
-      `주기 표현이 없는 의무(신청이 있을 때마다 처리하는 일 등)는 여기 안 잡히니, ` +
-      `필요하면 get_provision 의 목차나 전문으로 보완하십시오.\n\n` +
+      `내역: ${counts.join(' / ')}\n\n` +
+      `【답변 방식 — 반드시 지킬 것】\n` +
+      `이것은 목록형 질문입니다. 아래 ${total}건을 하나도 빠뜨리지 말고 주기별로 한 줄씩 나열하십시오.\n` +
+      `한 줄은 "무엇을 · 언제까지 · 근거조문" 이면 충분합니다. 조문 하나를 골라 깊게 풀어쓰지 마십시오.\n` +
+      `점검·보고 중 어느 하나만 자세히 설명하고 나머지를 생략하는 것이 가장 흔한 실수입니다.\n` +
+      `나열을 마친 뒤 "어느 항목을 자세히 볼까요?" 라고 되물으십시오. 상세 설명은 그때 합니다.\n` +
+      `아래 발췌는 나열용 요약일 뿐입니다. 자세히 답할 때는 get_provision 으로 전문을 확인하십시오.\n` +
+      `주기 표현이 없는 의무(신청이 올 때마다 처리하는 일 등)는 여기 안 잡히니, ` +
+      `빠진 것이 있는지 get_provision 의 목차로 보완하십시오.\n\n` +
       parts.join('\n\n') +
       footer([...new Set([...found.values()].flat().map(({ a }) => a.docId))])
     );
