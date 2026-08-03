@@ -3,8 +3,12 @@
 // 실행: node fetch-law.js   (OC 값은 환경변수 LAW_OC 로 넘긴다)
 
 import { XMLParser } from 'fast-xml-parser';
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 
+import path from 'node:path';
+import { convertFile } from './fetch-docs.js';
+
+const ANNEX_TMP = '.tmp-annex';
 const OC = process.env.LAW_OC;
 if (!OC) {
   console.error('환경변수 LAW_OC 가 없습니다. 법제처에서 발급받은 OC 값을 넣어주세요.');
@@ -137,6 +141,7 @@ async function fetchArticles(serial, target) {
     if (out.length) {
       out.paramUsed = p;
       out.tried = tried;
+      out.annexes = parseAnnexes(xml);                 // 같은 응답에 들어 있는 별표
       return out;
     }
     await sleep(250);
@@ -188,6 +193,98 @@ function parseBody(xml) {
   return out;
 }
 
+// ── 별표·서식 ─────────────────────────────────────────────
+// 법제처 본문조회 응답에는 <별표단위> 가 함께 들어 있는데 지금까지 읽지 않고 버렸다.
+// 그래서 법제처 문서 44건의 별표가 전부 비어 있었다(내부규정은 733건 수록).
+// 태그 이름이 대상(법령/행정규칙)마다 조금씩 달라, 이름에 '별표'가 든 마디를 폭넓게 훑는다.
+// 담는 그릇 이름(별표, 별표목록, 별표단위…)은 대상마다 달라서 믿을 수 없다.
+// 대신 '별표번호·별표제목·별표서식파일링크' 같은 알맹이를 가진 마디를 찾는다.
+const ANNEX_FIELD = /^별표(번호|제목|구분|내용|가지번호|서식(번호|명|내용)?|서식?(PDF)?파일링크|파일링크|PDF파일링크)$/;
+function findAnnexNodes(root) {
+  const out = [];
+  const seen = new Set();
+  (function walk(node, depth) {
+    if (!node || typeof node !== 'object' || depth > 8 || seen.has(node)) return;
+    seen.add(node);
+    if (!Array.isArray(node) && Object.keys(node).some((k) => ANNEX_FIELD.test(k))) {
+      out.push(node);
+      return;                                   // 알맹이를 찾았으면 더 파고들지 않는다
+    }
+    for (const v of Object.values(node)) {
+      if (!v || typeof v !== 'object') continue;
+      for (const it of asArray(v)) walk(it, depth + 1);
+    }
+  })(root, 0);
+  return out;
+}
+
+// 값이 어디 붙어 있는지 확실치 않아 이름으로 찾는다.
+function pick(obj, ...names) {
+  for (const n of names) {
+    for (const [k, v] of Object.entries(obj)) {
+      if (k !== n) continue;
+      const t = typeof v === 'object' ? (v?.['#text'] ?? v?.['@_href'] ?? '') : v;
+      if (t != null && String(t).trim()) return String(t).trim();
+    }
+  }
+  return null;
+}
+
+function parseAnnexes(xml) {
+  const doc = parser.parse(xml);
+  const root = doc['법령'] ?? doc['행정규칙'] ?? Object.values(doc)[0];
+  const rows = findAnnexNodes(root);
+  const out = [];
+  for (const r of rows) {
+    const no = pick(r, '별표번호', '별표서식번호');
+    const branch = pick(r, '별표가지번호');
+    const kind = pick(r, '별표구분') ?? '별표';
+    const title = pick(r, '별표제목', '별표서식명');
+    const text = pick(r, '별표내용', '별표서식내용');
+    const hwp = pick(r, '별표서식파일링크', '별표파일링크');
+    const pdf = pick(r, '별표서식PDF파일링크', '별표PDF파일링크');
+    if (!no && !title && !hwp && !pdf) continue;
+    const abs = (u) => (u ? (u.startsWith('http') ? u : `https://www.law.go.kr${u.startsWith('/') ? '' : '/'}${u}`) : null);
+    out.push({
+      no: no ?? null,
+      branch: branch && branch !== '0' ? branch : null,
+      kind,
+      title: title ?? null,
+      text: text ?? null,
+      fileUrl: abs(hwp),
+      pdfUrl: abs(pdf),
+    });
+  }
+  return out;
+}
+
+// 별표 본문이 응답에 없으면 첨부파일을 받아 kordoc 으로 읽는다.
+// PDF 를 먼저 쓴다. 한글 파일보다 변환이 안정적이다.
+async function annexText(a, tag) {
+  for (const [url, ext] of [[a.pdfUrl, 'pdf'], [a.fileUrl, 'hwp']]) {
+    if (!url) continue;
+    try {
+      const res = await fetchRetry(url, 2);
+      const buf = Buffer.from(await res.arrayBuffer());
+      if (buf.length < 200) continue;
+      await mkdir(ANNEX_TMP, { recursive: true });
+      const f = path.join(ANNEX_TMP, `${tag}.${ext}`);
+      await writeFile(f, buf);
+      const chunks = await convertFile(f);
+      const txt = chunks
+        .map((c) => (typeof c === 'string' ? c : (c.text ?? c.content ?? '')))
+        .filter(Boolean)
+        .join('\n')
+        .trim();
+      await rm(f, { force: true });
+      if (txt.length >= 30) return txt.slice(0, 12000);
+    } catch (e) {
+      // 한 경로가 막히면 다음 경로로 넘어간다
+    }
+  }
+  return null;
+}
+
 async function main() {
   const targets = JSON.parse(await readFile('targets.json', 'utf-8'));
   const docs = [];
@@ -201,7 +298,25 @@ async function main() {
         continue;
       }
       const articles = await fetchArticles(meta.mst, t.target);
+
+      // 별표: 응답에 본문이 있으면 그대로 쓰고, 없으면 첨부파일을 받아 읽는다.
+      const annexes = [];
+      for (const [i, a] of (articles.annexes ?? []).entries()) {
+        let text = a.text;
+        if (!text || text.length < 30) {
+          text = await annexText(a, `${meta.mst}-${i}`);
+          await sleep(200);
+        }
+        if (!text && !a.title) continue;
+        annexes.push({ ...a, text: text ?? null });
+      }
+      const annexOk = annexes.filter((a) => a.text).length;
+      if (annexes.length) {
+        console.log(`  별표 ${annexes.length}건 (본문 확보 ${annexOk}건) · ${meta.title}`);
+      }
+
       docs.push({
+        annexes,
         source: '법제처',
         target: t.target,
         docName: meta.title,
@@ -249,7 +364,13 @@ async function main() {
       2
     )
   );
+  const anx = docs.reduce((n, d) => n + (d.annexes?.length ?? 0), 0);
+  const anxOk = docs.reduce((n, d) => n + (d.annexes ?? []).filter((a) => a.text).length, 0);
   console.log(`\n요청 ${targets.length} / 수집 ${docs.length} / 실패 ${failed.length}`);
+  console.log(`별표 ${anx}건 · 본문 확보 ${anxOk}건 · 제목만 ${anx - anxOk}건`);
+  if (anx === 0) {
+    console.log('별표가 하나도 안 잡혔습니다. 응답 태그 이름이 예상과 다를 수 있으니 parseAnnexes 를 확인하십시오.');
+  }
   if (docs.length === 0 && failed.length > 0) {
     const reasons = [...new Set(failed.map((f) => f.reason))];
     console.error('\n전건 실패입니다. 원인 종류:', reasons.join(' / '));

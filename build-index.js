@@ -161,8 +161,20 @@ async function loadStatutes() {
       }
     }
 
+    // 별표·서식. 본문을 못 받은 것은 제목과 원문 링크만이라도 남긴다.
+    // '별표 2가 아예 없다' 보다 '별표 2는 있고 원문은 여기' 가 훨씬 낫다.
+    for (const x of d.annexes ?? []) {
+      const no = `${x.no ?? ''}${x.branch ? `의${x.branch}` : ''}`.trim();
+      const articleId = `[${x.kind ?? '별표'}${no ? ` ${no}` : ''}]`;
+      const link = x.pdfUrl ?? x.fileUrl ?? null;
+      const body =
+        x.text ??
+        `(본문을 텍스트로 받지 못했습니다. 원문에서 확인하십시오.${link ? `\n원문: ${link}` : ''})`;
+      parsed.push({ __annex: true, section: '별표', articleId, title: x.title ?? null, text: body, needsOriginal: !x.text, link });
+    }
+
     for (const a of parsed) {
-      if (isNoise(a.text)) continue;
+      if (!a.__annex && isNoise(a.text)) continue;
       articles.push({
         id: `${docId}#${a.section}:${a.articleId}`,
         docId,
@@ -171,6 +183,7 @@ async function loadStatutes() {
         title: a.title ?? null,
         text: a.text,
         needsOriginal: !!a.needsOriginal,
+        ...(a.link ? { link: a.link } : {}),
       });
     }
   }

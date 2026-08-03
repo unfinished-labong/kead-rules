@@ -925,7 +925,7 @@ async function callTool(name, args = {}) {
     if (!cands.length) return NOT_FOUND(`"${args.document}" 이라는 규정을 찾지 못했습니다.`, 'list_documents 로 이름을 확인하십시오.');
 
     const sorted = [...cands].sort((a, b) => a.name.length - b.name.length);
-    const want = String(args.article ?? '').replace(/\s/g, '');
+    const want = String(args.article ?? '').replace(/[\s[\]]/g, '');
     const browsing = !want || want === '목차' || want === '전체' || /^(전문|본문|전체본문)\d*$/.test(want);
 
     // 이름이 겹칠 때 조용히 하나를 고르지 않는다.
@@ -1014,7 +1014,9 @@ async function callTool(name, args = {}) {
     }
 
     // 조문 하나를 콕 집어 물은 경우: 군더더기 없이 그 조문만 돌려준다
-    const key = (x) => x.replace(/\s/g, '');
+    // 별표는 실제로 '[별표 2] (제14조 관련) <개정 …>' 처럼 저장돼 있다.
+    // 사람도 모델도 '별표 2' 라고 치므로, 대괄호와 공백을 지우고 견준다.
+    const key = (x) => String(x ?? '').replace(/[\s[\]]/g, '');
     for (const d of cands) {
       const a = STATE.articles.find((x) => x.docId === d.docId && key(x.articleId) === want);
       if (a) return renderArticle(a) + footer([a.docId]);
