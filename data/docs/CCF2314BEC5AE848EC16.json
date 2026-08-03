@@ -13,7 +13,7 @@
   "sha256": "4662094546ebf1652fd7f5eaf7497cc0abeb6bb0d2c90da3d2e8a648a7ba8a91",
   "articleCount": 19,
   "supplementCount": 2,
-  "needsOriginalCount": 8,
+  "needsOriginalCount": 10,
   "articles": [
     {
       "section": "본칙",
@@ -437,464 +437,19 @@
       "needsOriginal": false
     },
     {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
+      "section": "별표",
+      "supplement": null,
       "articleNo": null,
       "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "[별표](개정 2009.10.30., 2012.9.20., 2015. 10. 27.)",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "이사장 직무수행요건 명세서",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "Ⅰ. 기본사항",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th>1.기관명</th><th colspan=\"2\">2.직위명</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>한국장애인고용공단</td><td colspan=\"2\">이사장</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">3.주요업무내용</td><td>비 중</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">1. 장애인의 취업여건 조성 및 안정적 직업생활 정착 지원</td><td>20</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">2. 장애인의 직업능력개발 지원</td><td>15</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">3. 사업장의 장애인 고용환경 개선</td><td>13</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">4. 장애인 고용관련 정보의 수집․분석 및 조사․연구 추진</td><td>12</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">5. 고용장려금 지급업무 추진</td><td>10</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">6. 장애인 인식개선사업 추진</td><td>10</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">7. 장애인 고용의무 업체 적용․징수 업무 추진</td><td>10</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"2\">8. 고용정보의 제공 및 주요사업 집행지도</td><td>10</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"3\">4. 관련 되는 분야</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"3\">◦ 노동 및 산업관련 행정, 경영, 조직․인사관리 기타 이와 관련 분야</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"3\">5. 필요지식 및 기술</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"3\">1. 장애인 고용 , 직업재활 관련 이론적․실무적 지식</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"3\">2. 노동시장 변화 및 장애인 고용정책에 관한 외국제도 및 실태 이해</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td colspan=\"3\">3. 노동행정 및 공단 경영에 대한 일반적 지식, 장애인단체 등과의 업무협의에 대한 기술</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "Ⅱ. 직무수행요건",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th colspan=\"2\">1.임용자격요건</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>가. 포괄적<br>자격요건</td><td>ㅇ 최고 경영자로서의 리더십과 비전 제시 능력을 갖춘 자<br>ㅇ 해당 분야와 관련한 지식과 경험을 갖춘 자<br>ㅇ 조직관리 및 경영능력을 갖춘 자<br>ㅇ 청렴성과 도덕성 등 건전한 윤리의식을 갖춘 자<br>ㅇ 기타 직무수행에 적합한 자</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>나. 필수요건</td><td>① 학력제한 ■ 무 □ 유<br>(학력 요구수준 : )<br>② 필수 자격증 ■ 무 □ 유<br>(종류 및 등급 : )<br>③ 기타 필수요건 ■ 무 □ 유</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"6\">다. 경력 또는<br>실적 요건</td><td>1)경력요건</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>(학력 기준)<br>ㅇ 박사학위 소지자 : 공무원 또는 민간경력 10년 이상인 자로서 관련분야 근무․연구경력 6년 이상인 자<br>ㅇ 석사학위 이하인 자 : 공무원 또는 민간경력 13년 이상인 자로서 관련 분야 근무․연구경력 6년 이상인 자</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>(자격증 기준)</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>(경력 기준)<br>ㅇ 관련분야에서 4년 이상 근무․연구한 자로서 부장급으로 5년 이상 또는 임원급으로 근무한 경력이 있는 자<br>ㅇ 관련분야에서 2년 이상 근무․연구한 자로서 대학의 부교수 급 이상으로 근무한 경력이 있는 자<br>ㅇ 관련분야에서 2년 이상 근무한 자로서 2급 또는 이에 상당하는 직급 이상의 공무원 또는 관련분야에서 5년 이상 근무한 자로서 3급 또는 이에 상당하는 직급 이상의 공무원으로 근무한 경력이 있는 자</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>2)실적요건</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>ㅇ 관련분야 및 타 분야에서 탁월한 업무실적 및 수상경력 등이 있으며 직무수행요건에 부합하는 자</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>라. 민간경력<br>인정범위</td><td>ㅇ 산하단체, 대학(전문대학 포함), 민간기업(비상장 포함), 시민단체, 개인 활동 경력(프리랜서) 등</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<table>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><th rowspan=\"5\">2. 기본역량</th><th>① 비전 제시 능력(전략적 사고 능력)<br>ⅰ) 비전 제시 및 혁신 지향 능력<br>ⅱ) 수행업무에 대한 전략적 사고 및 전략 수립 능력<br>ⅲ) 변화하는 장애인의 지위에 유연하고 진취적인 자세를 견지하는 능력</th></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>② 조직관리 능력<br>ⅰ) 자체 및 유관단체와의 팀워크 형성 및 목표공유 능력<br>ⅱ) 업무개선능력 및 개선 평가 능력<br>ⅲ) 인력․물적자원․시간의 활용능력<br>ⅳ) 노조와의 원만한 관계유지 능력</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>③ 공직윤리<br>ⅰ) 청렴도<br>ⅱ) 준법성<br>ⅲ) 도덕성</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>④ 의사전달 및 협상능력<br>ⅰ) 장애인고용관련 편견해소를 위한 공감대 형성능력<br>ⅱ) 장애인․사업주 및 관련단체에 대한 효과적인 커뮤니 케이션 방법 구사<br>ⅲ) 장애인 고용촉진 관련 효과적인 협상 및 설득 능력</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>⑤ 정보화 능력<br>ⅰ) 정보의 공유 및 활용능력<br>ⅱ) 새로운 정보의 수집․분석․수용 능력</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td rowspan=\"3\">3. 고유역량</td><td>① 전문가적 능력<br>ⅰ) 장애인 고용촉진 및 직업재활에 대한 전문지식<br>ⅱ) 변화하는 장애인에 대한 지식 및 정보의 수집․분석 능력<br>ⅲ) 장애인 고용관련 종합적 판단력 및 정책집행능력</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>② 문제해결 능력<br>ⅰ) 장애인 고용문제의 변화에 대한 사전예측과 예방조치 능력<br>ⅱ) 중증장애인 고용활성화 방안마련 능력<br>ⅲ) 장애인 고용과 관련된 문제해결 방안 도출 능력</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>③ 고객지향 태도<br>ⅰ) 공익성과 형평성을 우선시<br>ⅱ) 수요자 중심 사고 방식<br>ⅲ) 고객만족 시 까지 봉사자세</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "<tr><td>4. 특별요건</td><td>① 자격증 ■ 무 □ 유<br>(종류 및 등급 : )<br>② 외국어 : 없음<br>③ 기타 특별요건 ■ 무 □ 유<br>(요건 : )</td></tr>",
-      "needsOriginal": false
-    },
-    {
-      "section": "부칙",
-      "supplement": "제248호, 2024. 12. 24.",
-      "articleNo": null,
-      "articleId": null,
-      "title": "부칙 본문",
-      "breadcrumb": [],
-      "text": "</table>",
-      "needsOriginal": false
+      "annexTitle": "[별표](개정 2009.10.30., 2012.9.20., 2015. 10. 27.)",
+      "title": "[별표](개정 2009.10.30., 2012.9.20., 2015. 10. 27.)",
+      "breadcrumb": [
+        "제1조 (시행일) 이 규정은 노동부장관이 승인한 날부터 시행한다.",
+        "② 이 규정 시행당시 재직 중인 임원은 이 규정에서 정한 절차에 따라 임명된 것으로 본다."
+      ],
+      "page": 1,
+      "text": "[별표](개정 2009.10.30., 2012.9.20., 2015. 10. 27.)\n이사장 직무수행요건 명세서\nⅠ. 기본사항\n<table>\n<tr><th>1.기관명</th><th colspan=\"2\">2.직위명</th></tr>\n<tr><td>한국장애인고용공단</td><td colspan=\"2\">이사장</td></tr>\n<tr><td colspan=\"2\">3.주요업무내용</td><td>비 중</td></tr>\n<tr><td colspan=\"2\">1. 장애인의 취업여건 조성 및 안정적 직업생활 정착 지원</td><td>20</td></tr>\n<tr><td colspan=\"2\">2. 장애인의 직업능력개발 지원</td><td>15</td></tr>\n<tr><td colspan=\"2\">3. 사업장의 장애인 고용환경 개선</td><td>13</td></tr>\n<tr><td colspan=\"2\">4. 장애인 고용관련 정보의 수집․분석 및 조사․연구 추진</td><td>12</td></tr>\n<tr><td colspan=\"2\">5. 고용장려금 지급업무 추진</td><td>10</td></tr>\n<tr><td colspan=\"2\">6. 장애인 인식개선사업 추진</td><td>10</td></tr>\n<tr><td colspan=\"2\">7. 장애인 고용의무 업체 적용․징수 업무 추진</td><td>10</td></tr>\n<tr><td colspan=\"2\">8. 고용정보의 제공 및 주요사업 집행지도</td><td>10</td></tr>\n<tr><td colspan=\"3\">4. 관련 되는 분야</td></tr>\n<tr><td colspan=\"3\">◦ 노동 및 산업관련 행정, 경영, 조직․인사관리 기타 이와 관련 분야</td></tr>\n<tr><td colspan=\"3\">5. 필요지식 및 기술</td></tr>\n<tr><td colspan=\"3\">1. 장애인 고용 , 직업재활 관련 이론적․실무적 지식</td></tr>\n<tr><td colspan=\"3\">2. 노동시장 변화 및 장애인 고용정책에 관한 외국제도 및 실태 이해</td></tr>\n<tr><td colspan=\"3\">3. 노동행정 및 공단 경영에 대한 일반적 지식, 장애인단체 등과의 업무협의에 대한 기술</td></tr>\n</table>\nⅡ. 직무수행요건\n<table>\n<tr><th colspan=\"2\">1.임용자격요건</th></tr>\n<tr><td>가. 포괄적<br>자격요건</td><td>ㅇ 최고 경영자로서의 리더십과 비전 제시 능력을 갖춘 자<br>ㅇ 해당 분야와 관련한 지식과 경험을 갖춘 자<br>ㅇ 조직관리 및 경영능력을 갖춘 자<br>ㅇ 청렴성과 도덕성 등 건전한 윤리의식을 갖춘 자<br>ㅇ 기타 직무수행에 적합한 자</td></tr>\n<tr><td>나. 필수요건</td><td>① 학력제한 ■ 무 □ 유<br>(학력 요구수준 : )<br>② 필수 자격증 ■ 무 □ 유<br>(종류 및 등급 : )<br>③ 기타 필수요건 ■ 무 □ 유</td></tr>\n<tr><td rowspan=\"6\">다. 경력 또는<br>실적 요건</td><td>1)경력요건</td></tr>\n<tr><td>(학력 기준)<br>ㅇ 박사학위 소지자 : 공무원 또는 민간경력 10년 이상인 자로서 관련분야 근무․연구경력 6년 이상인 자<br>ㅇ 석사학위 이하인 자 : 공무원 또는 민간경력 13년 이상인 자로서 관련 분야 근무․연구경력 6년 이상인 자</td></tr>\n<tr><td>(자격증 기준)</td></tr>\n<tr><td>(경력 기준)<br>ㅇ 관련분야에서 4년 이상 근무․연구한 자로서 부장급으로 5년 이상 또는 임원급으로 근무한 경력이 있는 자<br>ㅇ 관련분야에서 2년 이상 근무․연구한 자로서 대학의 부교수 급 이상으로 근무한 경력이 있는 자<br>ㅇ 관련분야에서 2년 이상 근무한 자로서 2급 또는 이에 상당하는 직급 이상의 공무원 또는 관련분야에서 5년 이상 근무한 자로서 3급 또는 이에 상당하는 직급 이상의 공무원으로 근무한 경력이 있는 자</td></tr>\n<tr><td>2)실적요건</td></tr>\n<tr><td>ㅇ 관련분야 및 타 분야에서 탁월한 업무실적 및 수상경력 등이 있으며 직무수행요건에 부합하는 자</td></tr>\n<tr><td>라. 민간경력<br>인정범위</td><td>ㅇ 산하단체, 대학(전문대학 포함), 민간기업(비상장 포함), 시민단체, 개인 활동 경력(프리랜서) 등</td></tr>\n</table>\n<table>\n<tr><th rowspan=\"5\">2. 기본역량</th><th>① 비전 제시 능력(전략적 사고 능력)<br>ⅰ) 비전 제시 및 혁신 지향 능력<br>ⅱ) 수행업무에 대한 전략적 사고 및 전략 수립 능력<br>ⅲ) 변화하는 장애인의 지위에 유연하고 진취적인 자세를 견지하는 능력</th></tr>\n<tr><td>② 조직관리 능력<br>ⅰ) 자체 및 유관단체와의 팀워크 형성 및 목표공유 능력<br>ⅱ) 업무개선능력 및 개선 평가 능력<br>ⅲ) 인력․물적자원․시간의 활용능력<br>ⅳ) 노조와의 원만한 관계유지 능력</td></tr>\n<tr><td>③ 공직윤리<br>ⅰ) 청렴도<br>ⅱ) 준법성<br>ⅲ) 도덕성</td></tr>\n<tr><td>④ 의사전달 및 협상능력<br>ⅰ) 장애인고용관련 편견해소를 위한 공감대 형성능력<br>ⅱ) 장애인․사업주 및 관련단체에 대한 효과적인 커뮤니 케이션 방법 구사<br>ⅲ) 장애인 고용촉진 관련 효과적인 협상 및 설득 능력</td></tr>\n<tr><td>⑤ 정보화 능력<br>ⅰ) 정보의 공유 및 활용능력<br>ⅱ) 새로운 정보의 수집․분석․수용 능력</td></tr>\n<tr><td rowspan=\"3\">3. 고유역량</td><td>① 전문가적 능력<br>ⅰ) 장애인 고용촉진 및 직업재활에 대한 전문지식<br>ⅱ) 변화하는 장애인에 대한 지식 및 정보의 수집․분석 능력<br>ⅲ) 장애인 고용관련 종합적 판단력 및 정책집행능력</td></tr>\n<tr><td>② 문제해결 능력<br>ⅰ) 장애인 고용문제의 변화에 대한 사전예측과 예방조치 능력<br>ⅱ) 중증장애인 고용활성화 방안마련 능력<br>ⅲ) 장애인 고용과 관련된 문제해결 방안 도출 능력</td></tr>\n<tr><td>③ 고객지향 태도<br>ⅰ) 공익성과 형평성을 우선시<br>ⅱ) 수요자 중심 사고 방식<br>ⅲ) 고객만족 시 까지 봉사자세</td></tr>\n<tr><td>4. 특별요건</td><td>① 자격증 ■ 무 □ 유<br>(종류 및 등급 : )<br>② 외국어 : 없음<br>③ 기타 특별요건 ■ 무 □ 유<br>(요건 : )</td></tr>\n</table>",
+      "needsOriginal": true
     },
     {
       "section": "별표",
@@ -968,7 +523,22 @@
         "※ 자문, 심의위원회 등의 위원참여는 이해관계가 형성되지 않는 것으로 간주함"
       ],
       "page": 1,
-      "text": "[별지 제4호 서식] <삭제 2012.9.20.>\n[별지 제5호 서식] <개정 2012.9.20., 2015. 10. 27.>\n후보자 선발경과 요약서\n1. 선발 개요\n□ 선발 직위\nㅇ 이사장, 비상임이사(감사) 0명(ㅇㅇㅇ) 임기만료(‘00.0.0)에 따른 후임자 선발\n□ 선발방법\nㅇ 근 거 : 임원추천위원회 운영규정에 따른 임원추천위원회 의결\nㅇ방법:\nㅇ 모집의 세부내용\n| 구 분 | 기 간 | 인 원 | 접수 기간 | 비고 |\n| --- | --- | --- | --- | --- |\n| 00방식 | ‘00.0.0\\~0.0<br>(0일간) | 00명<br>(여성: 0명) | ‘00.0.0\\~0.0<br>(0일간) |  |\n□ 임원추천위원회 개최 : ‘00.0.0(월)\\~0.0(화)\n※ 1차 : ‘00.0.0(월), 2차 : 0.0(목), 3차 : 0.0(화)\n\\* 임원추천위원회 구성 : ‘00.0.0(월)\nㅇ 응모자 00명중 0명을 이사장, 비상임이사(감사) 후보자로 추천\n2. 모집 개요\n□ 공개모집 공고\nㅇ 일간지 : 00신문 공고(‘00.0.0)\nㅇ 홈페이지 : 한국장애인고용공단ㆍ고용노동부ㆍ인사혁신처ㆍ기획재정부 (‘00.0.0\\~0.0)\n※ 접수기간 : ‘00.0.0\\~0.0(0일간)\n3. 응시자 현황 : ○○명\n| 응시<br>번호 | 성 명<br>(생년월일) | 학 력 | 주요 경력 | 비고 |\n| --- | --- | --- | --- | --- |\n| 1 |  |  |  |  |\n| 2 |  |  |  |  |\n| 3 |  |  |  |  |\n| 4 |  |  |  |  |\n| 5 |  |  |  |  |\n| 6 |  |  |  |  |\n| 7 |  |  |  |  |\n| 8 |  |  |  |  |\n| 9 |  |  |  |  |\n| 10 |  |  |  |  |\n4. 임원추천위원회 구성현황(총 ○명)\n<table>\n<tr><th>유형</th><th>성 명<br>(성별)</th><th>소속 및 직위</th><th>주요 경력</th><th>비고</th></tr>\n<tr><td rowspan=\"4\"></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"3\"></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n</table>",
+      "text": "[별지 제4호 서식] <삭제 2012.9.20.>",
+      "needsOriginal": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별지 제5호 서식] <개정 2012.9.20., 2015. 10. 27.>",
+      "title": "[별지 제5호 서식] <개정 2012.9.20., 2015. 10. 27.>",
+      "breadcrumb": [
+        "제1조 (시행일) 이 규정은 노동부장관이 승인한 날부터 시행한다.",
+        "※ 자문, 심의위원회 등의 위원참여는 이해관계가 형성되지 않는 것으로 간주함"
+      ],
+      "page": 1,
+      "text": "[별지 제5호 서식] <개정 2012.9.20., 2015. 10. 27.>\n후보자 선발경과 요약서\n1. 선발 개요\n□ 선발 직위\nㅇ 이사장, 비상임이사(감사) 0명(ㅇㅇㅇ) 임기만료(‘00.0.0)에 따른 후임자 선발\n□ 선발방법\nㅇ 근 거 : 임원추천위원회 운영규정에 따른 임원추천위원회 의결\nㅇ방법:\nㅇ 모집의 세부내용\n| 구 분 | 기 간 | 인 원 | 접수 기간 | 비고 |\n| --- | --- | --- | --- | --- |\n| 00방식 | ‘00.0.0\\~0.0<br>(0일간) | 00명<br>(여성: 0명) | ‘00.0.0\\~0.0<br>(0일간) |  |\n□ 임원추천위원회 개최 : ‘00.0.0(월)\\~0.0(화)\n※ 1차 : ‘00.0.0(월), 2차 : 0.0(목), 3차 : 0.0(화)\n\\* 임원추천위원회 구성 : ‘00.0.0(월)\nㅇ 응모자 00명중 0명을 이사장, 비상임이사(감사) 후보자로 추천\n2. 모집 개요\n□ 공개모집 공고\nㅇ 일간지 : 00신문 공고(‘00.0.0)\nㅇ 홈페이지 : 한국장애인고용공단ㆍ고용노동부ㆍ인사혁신처ㆍ기획재정부 (‘00.0.0\\~0.0)\n※ 접수기간 : ‘00.0.0\\~0.0(0일간)\n3. 응시자 현황 : ○○명\n| 응시<br>번호 | 성 명<br>(생년월일) | 학 력 | 주요 경력 | 비고 |\n| --- | --- | --- | --- | --- |\n| 1 |  |  |  |  |\n| 2 |  |  |  |  |\n| 3 |  |  |  |  |\n| 4 |  |  |  |  |\n| 5 |  |  |  |  |\n| 6 |  |  |  |  |\n| 7 |  |  |  |  |\n| 8 |  |  |  |  |\n| 9 |  |  |  |  |\n| 10 |  |  |  |  |\n4. 임원추천위원회 구성현황(총 ○명)\n<table>\n<tr><th>유형</th><th>성 명<br>(성별)</th><th>소속 및 직위</th><th>주요 경력</th><th>비고</th></tr>\n<tr><td rowspan=\"4\"></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td rowspan=\"3\"></td><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n<tr><td></td><td></td><td></td><td></td></tr>\n</table>",
       "needsOriginal": true
     }
   ]
