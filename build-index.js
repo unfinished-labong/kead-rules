@@ -195,7 +195,10 @@ async function main() {
 
   const index = {
     builtAt: new Date().toISOString(),
-    dataAsOf: new Date().toISOString().slice(0, 10),
+    // 수집일은 한국 날짜로 적는다.
+    // toISOString 은 UTC 라서, 워크플로가 한국시간 새벽 5시(=UTC 20시)에 돌면
+    // 날짜가 하루 전으로 찍힌다. 사용자가 보는 '최신 확인일' 이므로 KST 가 맞다.
+    dataAsOf: new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10),
     counts: {
       docs: docs.length,
       articles: articles.length,
