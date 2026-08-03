@@ -20,6 +20,20 @@ const parser = new XMLParser({ ignoreAttributes: false, trimValues: true });
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// XML 선언(<?xml …?>)도 마디로 파싱돼 들어온다.
+// Object.values(doc)[0] 로 뿌리를 집으면 그 선언을 잡아버려 그 아래를 못 훑는다.
+// 행정규칙(고시)은 최상위 태그 이름이 '행정규칙' 이 아니라서 이 함수가 없으면 통째로 놓친다.
+function docRoot(doc) {
+  if (!doc || typeof doc !== 'object') return doc;
+  const named = doc['법령'] ?? doc['행정규칙'];
+  if (named) return named;
+  for (const [k, v] of Object.entries(doc)) {
+    if (k.startsWith('?') || k.startsWith('@_')) continue;   // 선언·속성은 건너뛴다
+    if (v && typeof v === 'object') return v;
+  }
+  return doc;
+}
+
 // 법제처 서버가 간헐적으로 연결을 끊는다. 재시도하고, 실패하면 원인 코드를 남긴다.
 // 'fetch failed' 만으로는 장애인지 차단인지 구분할 수 없어서다.
 export async function fetchRetry(url, tries = 3) {
@@ -153,7 +167,7 @@ export async function fetchArticles(serial, target) {
 
 export function parseBody(xml) {
   const doc = parser.parse(xml);
-  const root = doc['법령'] ?? doc['행정규칙'] ?? Object.values(doc)[0];
+  const root = docRoot(doc);
   const unit =
     root?.['조문']?.['조문단위'] ??
     root?.['조문내용'] ??
@@ -232,10 +246,13 @@ function pick(obj, ...names) {
 
 export function parseAnnexes(xml) {
   const doc = parser.parse(xml);
-  const root = doc['법령'] ?? doc['행정규칙'] ?? Object.values(doc)[0];
-  const rows = findAnnexNodes(root);
+  // 별표는 뿌리를 잘못 짚으면 통째로 사라진다. 문서 전체를 훑는 편이 안전하다.
+  const rows = findAnnexNodes(docRoot(doc)).concat(findAnnexNodes(doc));
   const out = [];
+  const seenRow = new Set();
   for (const r of rows) {
+    if (seenRow.has(r)) continue;
+    seenRow.add(r);
     const no = pick(r, '별표번호', '별표서식번호');
     const branch = pick(r, '별표가지번호');
     const kind = pick(r, '별표구분') ?? '별표';
