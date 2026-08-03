@@ -21,7 +21,8 @@ const WANTED = new Set(['현행', '시행예정']);
 // 3: 조문 제목 괄호 종류 무관 인식, 조사 제외 방식으로 전환
 // 4: 볼드(**) 등 마크다운 표시 제거 후 판정
 // 5: 별표·별지를 별도 구간으로 분리, 조문 길이 상한
-const CONVERTER_VERSION = 5;
+// 6: 별표 제목 앞의 '■ 문서명' 을 걷어내고 판정 (74건 중 16건이 별표를 통째로 잃고 있었다)
+const CONVERTER_VERSION = 6;
 
 // ── 형식 판별: 확장자가 아니라 실제 바이트로 본다 ──
 export function sniffFormat(buf) {
@@ -82,8 +83,24 @@ const JOSA = /^[가-힣]/;   // 조사로 이어지면 조문 시작이 아니�
 // 별표·별지·서식 시작 줄. 문서 끝에 몰려 있어 그냥 두면 직전 조문에 통째로 붙는다.
 // "별표 1과 같다" 같은 본문 문장과 구분하려고 짧은 제목 줄만 인정한다.
 const ANNEX = /^[[<(（]?\s*(별표|별지|서식)\s*\d*/;
+// 별표 제목 앞에 '■ 문서명' 이 붙어 오는 문서가 있다.
+//   "■ 장애인 직업능력개발훈련 지원 업무처리규칙 [별표 1] 삭제[2019.1.9.]"
+// 이러면 줄 첫머리에서 '별표' 를 찾는 ANNEX 가 헛돌고, 별표 전체가 앞 구분(부칙)에 묻힌다.
+// 실제로 74건 중 16건이 이 때문에 별표를 통째로 잃고 있었다.
+// 앞자락은 '■ 문서명' 형태일 때만 걷어낸다.
+// 아무 줄에서나 '[별표' 앞을 잘라내면 "지원한도는 [별표 3] 참조" 같은 본문까지
+// 별표 제목으로 오인하고, 그 뒤 조문이 통째로 별표 구간에 삼켜진다.
+const ANNEX_PREFIXED = /^\s*[■□▣●○◆◇]\s*[^[<(（\n]{0,40}?(?=[[<(（]\s*(?:별표|별지|서식))/;
+export function annexHeadingText(line) {
+  const raw = String(line ?? '').trim();
+  const m = raw.match(ANNEX_PREFIXED);
+  return m ? raw.slice(m[0].length).trim() : raw;
+}
+
 export function isAnnexHeading(line) {
-  return line.length <= 40 && ANNEX.test(line) && !/[다함음임됨]\.?$/.test(line);
+  const t = annexHeadingText(line);
+  // 앞자락을 걷어냈으므로 길이 한도를 조금 넉넉히 둔다. 개정 표기가 뒤에 붙기 때문이다.
+  return t.length <= 60 && ANNEX.test(t) && !/[다함음임됨]\.?$/.test(t);
 }
 
 // 한 조문이 지나치게 길면 변환이 어긋난 것이다. 잘라내고 표시해 둔다.
@@ -133,12 +150,13 @@ export function toArticles(chunks) {
         push();
         section = '별표';
         supplement = null;
+        const head = annexHeadingText(line);
         // 별표 하나가 통째로 의미 단위다. 이어지는 줄을 여기에 모은다.
         cur = {
           section, supplement, articleNo: null, articleId: null,
-          annexTitle: line,
-          title: line, breadcrumb: c.breadcrumb ?? [], page: c.page ?? null,
-          text: line, needsOriginal: true,
+          annexTitle: head,
+          title: head, breadcrumb: c.breadcrumb ?? [], page: c.page ?? null,
+          text: head, needsOriginal: true,
         };
         continue;
       }
@@ -230,7 +248,7 @@ async function main() {
 
     const outFile = path.join(OUT, `${att.key}.json`);
     // 캐시: 첨부 key가 그대로면 이미 변환된 결과를 쓴다
-    if (prev[att.key] && (await stat(outFile).catch(() => null))) {
+    if (prev[att.key]?.ver === CONVERTER_VERSION && (await stat(outFile).catch(() => null))) {
       byKey[att.key] = prev[att.key];
       docs.push(JSON.parse(await readFile(outFile, 'utf-8')));
       reused++;
@@ -290,7 +308,7 @@ async function main() {
       }
 
       await writeFile(outFile, JSON.stringify(doc, null, 2));
-      byKey[att.key] = { docKey: item.docKey, sha256: doc.sha256, articles: doc.articleCount, supplements: doc.supplementCount };
+      byKey[att.key] = { docKey: item.docKey, sha256: doc.sha256, ver: CONVERTER_VERSION, articles: doc.articleCount, supplements: doc.supplementCount };
       docs.push(doc);
       console.log(`OK  ${item.docName} · ${fmt} · 본칙 ${doc.articleCount} · 부칙 ${doc.supplementCount}`);
       await new Promise((r) => setTimeout(r, 600));
