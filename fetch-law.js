@@ -22,7 +22,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // 법제처 서버가 간헐적으로 연결을 끊는다. 재시도하고, 실패하면 원인 코드를 남긴다.
 // 'fetch failed' 만으로는 장애인지 차단인지 구분할 수 없어서다.
-async function fetchRetry(url, tries = 3) {
+export async function fetchRetry(url, tries = 3) {
   let last;
   for (let i = 0; i < tries; i++) {
     try {
@@ -78,7 +78,7 @@ function queryVariants(name) {
 }
 
 // ── 목록 조회: 이름으로 현행본을 찾아 법령일련번호(MST)를 얻는다 ──
-async function findLatest(name, target) {
+export async function findLatest(name, target) {
   for (const q of queryVariants(name)) {
     const hit = await searchOnce(q, name, target);
     if (hit) return hit;
@@ -128,7 +128,7 @@ async function searchOnce(query, name, target) {
 // 확실치 않으므로 후보를 차례로 시도하고 통한 것을 기록한다.
 const ID_PARAMS = { law: ['MST', 'ID'], admrul: ['ID', 'MST', 'LID'] };
 
-async function fetchArticles(serial, target) {
+export async function fetchArticles(serial, target) {
   const tried = [];
   for (const p of ID_PARAMS[target] ?? ['MST', 'ID']) {
     const url = `${BASE}/lawService.do?OC=${encodeURIComponent(OC)}&target=${target}&${p}=${serial}&type=XML`;
@@ -151,7 +151,7 @@ async function fetchArticles(serial, target) {
   return empty;
 }
 
-function parseBody(xml) {
+export function parseBody(xml) {
   const doc = parser.parse(xml);
   const root = doc['법령'] ?? doc['행정규칙'] ?? Object.values(doc)[0];
   const unit =
@@ -230,7 +230,7 @@ function pick(obj, ...names) {
   return null;
 }
 
-function parseAnnexes(xml) {
+export function parseAnnexes(xml) {
   const doc = parser.parse(xml);
   const root = doc['법령'] ?? doc['행정규칙'] ?? Object.values(doc)[0];
   const rows = findAnnexNodes(root);
@@ -311,9 +311,6 @@ async function main() {
         annexes.push({ ...a, text: text ?? null });
       }
       const annexOk = annexes.filter((a) => a.text).length;
-      if (annexes.length) {
-        console.log(`  별표 ${annexes.length}건 (본문 확보 ${annexOk}건) · ${meta.title}`);
-      }
 
       docs.push({
         annexes,
@@ -337,7 +334,10 @@ async function main() {
         tried: articles.tried ?? null,
         articles,
       });
-      console.log(`OK  ${meta.title} (${meta.kind}) 시행 ${meta.effective} · 조문 ${articles.length}`);
+      console.log(
+        `OK  ${meta.title} (${meta.kind}) 시행 ${meta.effective} · 조문 ${articles.length}` +
+          (annexes.length ? ` · 별표 ${annexes.length}건(본문 ${annexOk})` : '')
+      );
       await sleep(400);
     } catch (e) {
       failed.push({ ...t, reason: e.message });
@@ -379,4 +379,5 @@ async function main() {
   }
 }
 
-main();
+// 진단기(probe-annex.js)가 이 파일을 불러다 쓰므로, 직접 실행할 때만 돈다.
+if (import.meta.url === `file://${process.argv[1]}`) main();
