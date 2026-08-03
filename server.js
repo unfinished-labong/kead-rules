@@ -236,8 +236,26 @@ const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').
 
 // 조문 본문에는 표가 HTML 로 들어 있다. 표 관련 태그만 살리고 나머지는 글자로 취급한다.
 const KEEP_TAG = /&lt;(\/?(?:table|thead|tbody|tr|th|td|br|p)(?:\s+(?:colspan|rowspan)="\d+")*)\s*\/?&gt;/gi;
+// 법제처 별표는 ┏━┓┃│ 같은 괘선 문자로 그린 표인데, 수집 과정에서 줄바꿈이 사라진다.
+// 줄 끝은 ┓ ┨ ┛ 또는 '닫는 ┃'(뒤에 ┃ ┠ ┗ 가 오는 것)이므로 그 자리를 되살린다.
+// 되살린 뒤 고정폭 글꼴로 그리면 원본 표가 그대로 재현된다.
+const BOX = /[┏┓┗┛┠┨┯┷┼━─│┃]/;
+function restoreBoxTable(t) {
+  return String(t ?? '')
+    .replace(/([┓┛┨┫])/g, '$1\n')
+    .replace(/┃(?=[┃┠┗])/g, '┃\n')
+    .replace(/(?=┏)/g, '\n')
+    .replace(/\n{2,}/g, '\n')
+    .trim();
+}
+
 function bodyHtml(text) {
-  return esc(text)
+  const raw = String(text ?? '');
+  if (BOX.test(raw) && !/<table/i.test(raw)) {
+    // 괘선 표는 손대지 않고 통째로 고정폭으로 보여준다. 칸을 다시 재면 어긋난다.
+    return `<pre class="box">${esc(restoreBoxTable(raw))}</pre>`;
+  }
+  return esc(raw)
     .replace(KEEP_TAG, '<$1>')
     .replace(/&lt;img[^&]*?src=&quot;(https?:\/\/[^&"]+)&quot;[^&]*?&gt;/gi, '<img src="$1" alt="">')
     .replace(/\n/g, '<br>');
@@ -261,9 +279,20 @@ body{margin:0;padding:1rem 1rem 4rem;font:16px/1.7 -apple-system,BlinkMacSystemF
 header{position:sticky;top:0;background:Canvas;padding:.6rem 0;border-bottom:2px solid CanvasText;margin-bottom:1rem;z-index:9}
 h1{font-size:1.15rem;margin:0 0 .3rem}
 .meta{font-size:.8rem;opacity:.75;line-height:1.5}
-.toc{font-size:.85rem;margin:0 0 2rem;padding:.8rem 1rem;border:1px solid;border-radius:.5rem;opacity:.92}
-.toc a{display:inline-block;margin:.15rem .5rem .15rem 0;text-decoration:none}
-.toc a:hover{text-decoration:underline}
+.toc{font-size:.82rem;margin:0 0 2rem;padding:.7rem .9rem;border:1px solid;border-radius:.5rem}
+.toc summary{cursor:pointer;font-weight:600;opacity:.75;margin-bottom:.5rem}
+.tg{margin:0 0 .55rem;padding-left:.1rem;break-inside:avoid}
+.tg b{display:block;font-size:.75rem;opacity:.6;margin:.5rem 0 .15rem;letter-spacing:.02em}
+.toc a{display:block;text-decoration:none;line-height:1.45;padding:.05rem 0;opacity:.9}
+.toc a i{font-style:normal;opacity:.5;display:inline-block;min-width:4.2rem;font-size:.75rem}
+.toc a:hover{opacity:1;text-decoration:underline}
+@media(min-width:40rem){.toc>.tg{columns:2;column-gap:1.6rem}
+ .toc{columns:2;column-gap:1.8rem}
+ .tg{display:block}}
+pre.box{font-family:"D2Coding","Nanum Gothic Coding","Menlo",ui-monospace,monospace;
+ font-size:.72rem;line-height:1.35;white-space:pre;overflow-x:auto;margin:.6rem 0;
+ padding:.6rem .7rem;border:1px solid;border-radius:.35rem;
+ background:color-mix(in srgb,CanvasText 4%,transparent);tab-size:2}
 .chap{font-weight:700;margin:1.6rem 0 .4rem;font-size:.9rem;opacity:.7}
 article{margin:0 0 1.8rem;scroll-margin-top:5rem}
 article:target{background:color-mix(in srgb,Highlight 18%,transparent);
@@ -278,6 +307,7 @@ img{max-width:100%;height:auto}
 .top{position:fixed;right:1rem;bottom:1rem;padding:.55rem .8rem;border:1px solid;border-radius:2rem;
  background:Canvas;text-decoration:none;font-size:.8rem;box-shadow:0 2px 8px rgba(0,0,0,.15)}
 .warn{font-size:.8rem;padding:.5rem .8rem;border-left:3px solid;opacity:.85;margin:.5rem 0}
+.src{font-size:.75rem;margin:.2rem 0 .4rem;opacity:.7}
 `;
 
 function renderDocHtml(d, list) {
@@ -301,13 +331,33 @@ function renderDocHtml(d, list) {
       `<article id="${esc(id)}">` +
       `<h2>${esc(a.articleId)}${a.title ? ` ${esc(a.title)}` : ''}` +
       `<span class="no">#${esc(id)}</span></h2>` +
+      (a.link ? `<p class="src"><a href="${esc(a.link)}">원본 파일 내려받기 ↗</a></p>` : '') +
       `<div class="body">${bodyHtml(a.text)}</div>` +
       `</article>`
     );
   }
 
-  const toc = list
-    .map((a) => `<a href="#${esc(anchorOf(a.articleId))}">${esc(a.articleId)}${a.title ? ` ${esc(a.title)}` : ''}</a>`)
+  // 목차. 한 줄씩 세우면 너무 길고, 다 이어 붙이면 글자 벽이 된다.
+  // 장·절로 묶고 여러 단으로 흘려서, 눈이 덩어리 단위로 훑게 한다.
+  const tocGroups = [];
+  let g = null;
+  for (const a of list) {
+    const key = a.section === '본칙' ? (a.chapter ?? '') : a.section;
+    if (!g || g.key !== key) { g = { key, rows: [] }; tocGroups.push(g); }
+    g.rows.push(a);
+  }
+  const toc = tocGroups
+    .map((grp) => {
+      const head = grp.key ? `<b>${esc(grp.key)}</b>` : '';
+      const items = grp.rows
+        .map((a) => {
+          const id = anchorOf(a.articleId);
+          const no = esc(a.articleId).replace(/^\[|\]$/g, '');
+          return `<a href="#${esc(id)}"><i>${no}</i>${a.title ? ` ${esc(a.title)}` : ''}</a>`;
+        })
+        .join('');
+      return `<div class="tg">${head}${items}</div>`;
+    })
     .join('');
 
   return `<!doctype html><html lang="ko"><head><meta charset="utf-8">
@@ -317,7 +367,7 @@ function renderDocHtml(d, list) {
 <div class="meta">${esc(d.dateKind ?? '시행')} ${esc(d.effectiveDate ?? '표기 없음')}${d.lawNo ? ` · 제${esc(d.lawNo)}호` : ''} · ${esc(d.source ?? '')} · 조문 ${list.length}건<br>
 자료 수집일 ${esc(STATE.idx.dataAsOf)}${d.originalUrl ? ` · <a href="${esc(d.originalUrl)}">원문 내려받기</a>` : ''}</div></header>
 ${d.status && d.status !== '현행' ? `<p class="warn">이 문서는 <b>${esc(d.status)}</b> 상태입니다. 시행일을 확인하세요.</p>` : ''}
-<nav class="toc">${toc}</nav>
+<details class="toc" open><summary>조문 목록 ${list.length}건</summary>${toc}</details>
 ${parts.join('\n')}
 <a class="top" href="#">↑ 맨 위</a>
 </body></html>`;
