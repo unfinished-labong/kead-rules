@@ -196,6 +196,60 @@ function expandGrams(qn) {
 }
 
 
+
+// ── 주기 업무 ──────────────────────────────────────────────
+// "분기별로 뭘 해야 하나" 같은 질문은 낱말 검색으로 잘 안 걸린다.
+// 조문 본문에 '매분기'는 한 번 스칠 뿐이고, 정작 그 조문의 주제어는 따로 있기 때문이다.
+// 사람은 이럴 때 '매분기·반기·연 1회' 를 직접 훑어 찾는다. 그 방식을 그대로 도구로 만든다.
+const CYCLE_RE = {
+  매월: /매\s*월|월별|매달/,
+  매분기: /매\s*분기|분기별|분기마다/,
+  매반기: /매\s*반기|반기별|반기마다/,
+  매년: /매\s*년|매년도|연간|매\s*회계연도|년\s*1회|연\s*\d+회/,
+  수시: /수시로|필요할 때마다|지체\s*없이|즉시/,
+  횟수: /\d+\s*회\s*이상|\d+\s*회\s*이하/,
+};
+const CYCLE_ORDER = ['매월', '매분기', '매반기', '매년', '횟수', '수시'];
+
+// 조문에서 주기 표현을 찾아 그 앞뒤를 함께 돌려준다. 무엇을 언제 해야 하는지 한눈에 보이도록.
+function cycleSnippet(text, re) {
+  const t = String(text ?? '').replace(/\s+/g, ' ');
+  const m = t.match(re);
+  if (!m) return null;
+  const at = t.indexOf(m[0]);
+  const from = Math.max(0, at - 60);
+  const to = Math.min(t.length, at + 160);
+  return (from ? '…' : '') + t.slice(from, to).trim() + (to < t.length ? '…' : '');
+}
+
+function findCycles({ document, cycle, scope }) {
+  const S = STATE;
+  const wantCycles = cycle && cycle !== '전체' ? [cycle] : CYCLE_ORDER;
+  const dq = document ? normText(document) : null;
+  const docOk = (docId) => {
+    const d = S.docs.get(docId);
+    if (!d) return false;
+    if (dq && !normText(d.name).includes(dq)) return false;
+    if (scope === '내부규정' && !docId.startsWith('내규:')) return false;
+    if (scope === '법제처' && !docId.startsWith('법령:')) return false;
+    return true;
+  };
+
+  const found = new Map();          // 주기 → [{article, snippet}]
+  for (const a of S.articles) {
+    if (a.section !== '본칙' || !docOk(a.docId)) continue;
+    const hay = `${a.title ?? ''} ${a.text ?? ''}`;
+    for (const c of wantCycles) {
+      const snip = cycleSnippet(hay, CYCLE_RE[c]);
+      if (!snip) continue;
+      if (!found.has(c)) found.set(c, []);
+      found.get(c).push({ a, snip });
+      break;                        // 조문 하나는 가장 짧은 주기 한 곳에만 넣는다
+    }
+  }
+  return found;
+}
+
 // ── 문서 성격 ──────────────────────────────────────────────
 // 한 가지 질문의 답은 보통 규정 하나, 규칙 하나, 법령 하나에 나뉘어 담긴다.
 // 그래서 조문을 바로 고르지 않고 성격마다 문서를 하나씩 먼저 확정한다.
@@ -432,8 +486,44 @@ const NOT_FOUND = (msg, hint) =>
   `get_provision 의 목차나 전문으로 직접 훑어본 뒤에 판단하십시오.` +
   (hint ? `\n참고: ${hint}` : '');
 
-function footer() {
-  return `\n---\n자료 기준일: ${STATE.idx.dataAsOf} · 수록 문서 ${STATE.docs.size}건 / 조문 ${STATE.N}건`;
+const ymd = (v) => String(v ?? '').replace(/-/g, '. ').replace(/$/, '.');
+
+// 답변 끝에 붙일 출처. 두 가지 날짜를 함께 밝힌다.
+//  · 문서 개시일 — 그 규정이 언제 자 것인지. 사용자가 최신본과 대조할 수 있다.
+//  · 자료 수집일 — 이 서버가 언제 긁어온 것인지. 그 뒤 개정은 반영돼 있지 않다.
+// 둘 중 하나만 있으면 "낡은 자료를 최신인 줄 알고 쓰는" 사고를 막지 못한다.
+function footer(docIds) {
+  const asOf = STATE.idx.dataAsOf;
+  const ids = [...new Set((docIds ?? []).filter(Boolean))];
+  if (!ids.length) {
+    return `\n---\n자료 수집일: ${ymd(asOf)} · 수록 문서 ${STATE.docs.size}건 / 조문 ${STATE.N}건`;
+  }
+
+  const rows = [];
+  let pending = false;
+  for (const id of ids) {
+    const d = STATE.docs.get(id);
+    if (!d) continue;
+    if (d.status && d.status !== '현행') pending = true;
+    rows.push(
+      `  · ${d.name} (${d.dateKind ?? '시행'} ${ymd(d.effectiveDate)}` +
+      `${d.lawNo ? ` · 제${d.lawNo}호` : ''})` +
+      `${d.status && d.status !== '현행' ? ` ※${d.status}` : ''}`
+    );
+  }
+  if (!rows.length) {
+    return `\n---\n자료 수집일: ${ymd(asOf)} · 수록 문서 ${STATE.docs.size}건 / 조문 ${STATE.N}건`;
+  }
+
+  return (
+    `\n\n---\n참고 문서\n` +
+    rows.join('\n') +
+    `\n\n  (최신자료 확인일: ${ymd(asOf)})\n` +
+    `LLM 주의: 답변 끝에 위 '참고 문서' 를 그대로 옮겨 적으십시오. 문서명과 날짜를 빼지 마십시오.\n` +
+    `사용자가 개시일을 보고 최신본인지 스스로 확인할 수 있어야 합니다. ` +
+    `수집일 이후의 개정은 반영돼 있지 않을 수 있습니다.` +
+    (pending ? `\n※ 아직 시행 전인 문서가 섞여 있습니다. 시행일을 확인하고 답하십시오.` : '')
+  );
 }
 
 // ── 형제 문서 ──────────────────────────────────────────────
@@ -514,6 +604,9 @@ const TOOLS = [
       '【답변 규칙】 이 도구가 돌려준 조문에 실제로 적힌 내용만 근거로 삼는다. ' +
       '결과가 [NOT_FOUND]이면 추측하지 말고 "수록된 규정에서 근거를 찾지 못했다"고 답한다. ' +
       '한 번에 못 찾으면 다른 낱말로 2~3회 더 시도한 뒤에 판단한다.\n' +
+      '【주기 업무는 전용 도구를 쓴다】 "분기별로 뭘 해야 하나", "담당자가 주기적으로 챙길 업무", "정기 보고·점검 일정" 처럼 ' +
+      '주기가 걸린 질문은 이 도구 대신 find_cycle_duties 를 먼저 쓴다. 매분기·매반기 같은 표현은 조문에 한 번 스칠 뿐이라, ' +
+      '낱말 검색으로는 실시상황보고처럼 정작 중요한 조문을 놓친다.\n' +
       '【흩어진 의무를 묻는 질문】 "분기별로 뭘 해야 하나", "제출서류가 뭐가 있나"처럼 답이 여러 조문에 흩어진 질문은 ' +
       '한 번 검색으로 끝내지 말 것. 먼저 관련 규정을 찾고, get_provision 으로 그 규정의 목차를 받아 ' +
       '조문 제목을 훑은 뒤, document 를 지정해 그 규정 안에서 핵심 낱말(분기, 반기, 보고, 제출, 점검, 평가 등)로 다시 검색한다.',
@@ -551,6 +644,26 @@ const TOOLS = [
     },
   },
   {
+    name: 'find_cycle_duties',
+    description:
+      '주기가 정해진 업무를 모아서 돌려준다. "분기별로 뭘 해야 하나", "담당자가 주기적으로 챙길 업무", ' +
+      '"정기 보고·점검·평가 일정" 같은 질문에는 search_provisions 보다 이 도구를 먼저 쓴다.\n' +
+      '조문 본문에서 매월·매분기·매반기·매년·연 N회 같은 표현을 직접 훑어 모으므로, ' +
+      '검색어가 조문의 낱말과 달라도 빠뜨리지 않는다. 실시상황보고·지도점검·운영평가처럼 ' +
+      '조문 제목만 봐서는 주기를 알 수 없는 업무를 찾는 데 특히 쓸모가 있다.\n' +
+      'document 로 규정을 좁힐 수 있고, 비우면 전체에서 찾는다. ' +
+      '규정과 규칙에 나뉘어 있으므로 한쪽만 보고 끝내지 말 것.\n' +
+      '주기 표현이 없는 의무는 잡히지 않으니, 빠진 것이 있는지 get_provision 의 목차나 전문으로 보완한다.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        document: { type: 'string', description: '이 규정 안에서만 찾는다. 문서명 일부면 된다. 예: 장애인 직업능력개발훈련 지원규정' },
+        cycle: { type: 'string', enum: ['전체', '매월', '매분기', '매반기', '매년', '횟수', '수시'], description: '특정 주기만 볼 때. 기본은 전체' },
+        scope: { type: 'string', enum: ['전체', '내부규정', '법제처'], description: '검색 범위. 기본값 전체' },
+      },
+    },
+  },
+  {
     name: 'list_documents',
     description:
       '어떤 규정이 어느 시점 기준으로 수록되어 있는지 확인한다.\n' +
@@ -578,7 +691,7 @@ async function callTool(name, args = {}) {
       return (
         `검색어: ${q} · ${args.document} 안 · ${hits.length}건\n\n` +
         hits.map((a) => renderArticle(a)).join('\n\n') +
-        footer()
+        footer(hits.map((a) => a.docId))
       );
     }
 
@@ -589,7 +702,7 @@ async function callTool(name, args = {}) {
         return (
           `검색어: ${q} · ${hits.length}건\n\n` +
           hits.map((a) => renderArticle(a)).join('\n\n') +
-          footer()
+          footer(hits.map((a) => a.docId))
         );
       }
     }
@@ -610,7 +723,7 @@ async function callTool(name, args = {}) {
         `질문의 말과 규정의 용어가 어긋났을 가능성이 큽니다. 용어를 바꿔 다시 검색하거나, ` +
         `관련 규정을 골라 get_provision 의 목차·전문으로 직접 확인한 뒤에 답하십시오.\n\n` +
         w.map((a) => renderArticle(a)).join('\n\n') +
-        footer()
+        footer(w.map((a) => a.docId))
       );
     }
 
@@ -630,7 +743,7 @@ async function callTool(name, args = {}) {
         (a.rest.length ? `\n다른 후보: ${a.rest.map((r) => r.name).join(' / ')}\n` : '\n') +
         (picked.length ? `\n참고로 다른 성격에서는 이미 정해졌습니다: ${picked.map((r) => `${r.kind}=${r.name}`).join(', ')}\n` : '') +
         `\n사용자가 고르면 search_provisions 를 document 에 그 이름을 넣어 다시 부르십시오.` +
-        footer()
+        footer([a.top.docId, a.second.docId])
       );
     }
 
@@ -657,7 +770,7 @@ async function callTool(name, args = {}) {
       head +
       hits.map((a) => renderArticle(a)).join('\n\n') +
       (pinpoint ? '' : siblingNotice(hits.map((a) => a.docId))) +
-      footer()
+      footer(hits.map((a) => a.docId))
     );
   }
 
@@ -709,7 +822,7 @@ async function callTool(name, args = {}) {
         bySec.join('\n\n') +
         `\n\n제목만 본 것입니다. 내용까지 한 번에 보려면 article="전문", 특정 조문만 보려면 article="제○조" 로 다시 부르십시오.` +
         siblingNotice([d.docId]) +
-        footer()
+        footer([d.docId])
       );
     }
 
@@ -751,7 +864,7 @@ async function callTool(name, args = {}) {
         body +
         nav +
         (p === pages.length ? siblingNotice([d.docId]) : '') +
-        footer()
+        footer([d.docId])
       );
     }
 
@@ -759,19 +872,19 @@ async function callTool(name, args = {}) {
     const key = (x) => x.replace(/\s/g, '');
     for (const d of cands) {
       const a = STATE.articles.find((x) => x.docId === d.docId && key(x.articleId) === want);
-      if (a) return renderArticle(a) + footer();
+      if (a) return renderArticle(a) + footer([a.docId]);
     }
     // 별표는 조문번호 뒤에 '(제29조 관련)', '<개정 …>' 이 붙어 있어 정확히 맞히기 어렵다.
     // 사람이 쓰는 '[별표 3]' 으로도 열리도록 앞부분만 맞아도 받아준다.
     for (const d of cands) {
       const hit = STATE.articles.filter((x) => x.docId === d.docId && key(x.articleId).startsWith(want));
-      if (hit.length === 1) return renderArticle(hit[0]) + footer();
+      if (hit.length === 1) return renderArticle(hit[0]) + footer([hit[0].docId]);
       if (hit.length > 1) {
         return (
           `■ ${d.name} · "${args.article}" 로 시작하는 조문이 ${hit.length}건입니다.\n` +
           `아래에서 골라 article 에 정확히 넣어 다시 부르십시오.\n\n` +
           hit.map((x) => `  ${x.articleId}${x.title ? ` (${x.title})` : ''}`).join('\n') +
-          footer()
+          footer([d.docId])
         );
       }
     }
@@ -782,6 +895,45 @@ async function callTool(name, args = {}) {
       `"${sorted[0].name}" 에 ${args.article} 이(가) 없습니다.`,
       `수록된 조문: ${ids.slice(0, 40).join(', ')}${ids.length > 40 ? ' …' : ''}` +
         (cands.length > 1 ? ` / 이름이 겹치는 문서: ${sorted.map((d) => d.name).join(', ')}` : '')
+    );
+  }
+
+  if (name === 'find_cycle_duties') {
+    const found = findCycles({ document: args.document, cycle: args.cycle, scope: args.scope });
+    const total = [...found.values()].reduce((n, v) => n + v.length, 0);
+    if (!total) {
+      return NOT_FOUND(
+        `${args.document ? `"${args.document}" 에서 ` : ''}주기가 정해진 업무를 찾지 못했습니다.`,
+        'document 를 빼고 다시 부르거나, list_documents 로 규정 이름을 확인해 보십시오.'
+      );
+    }
+
+    const label = { 매월: '매월', 매분기: '매분기', 매반기: '매반기', 매년: '매년·연간', 횟수: '연 N회 이상', 수시: '수시·즉시' };
+    const parts = [];
+    for (const c of CYCLE_ORDER) {
+      const rows = found.get(c);
+      if (!rows) continue;
+      parts.push(
+        `【${label[c]}】 ${rows.length}건\n` +
+        rows
+          .map(({ a, snip }) => {
+            const d = STATE.docs.get(a.docId);
+            return `  · ${d?.name ?? '?'} ${a.articleId}${a.title ? ` (${a.title})` : ''}\n      ${snip}`;
+          })
+          .join('\n')
+      );
+    }
+
+    return (
+      `주기가 정해진 업무 ${total}건` +
+      (args.document ? ` · ${args.document} 안` : '') +
+      (args.cycle && args.cycle !== '전체' ? ` · ${args.cycle}` : '') + '\n' +
+      `조문 본문에서 주기 표현을 직접 훑어 모은 것입니다. 검색어와 무관하게 빠짐없이 훑습니다.\n` +
+      `아래는 발췌입니다. 답에 넣을 조문은 get_provision 으로 전문을 확인한 뒤 인용하십시오.\n` +
+      `주기 표현이 없는 의무(신청이 있을 때마다 처리하는 일 등)는 여기 안 잡히니, ` +
+      `필요하면 get_provision 의 목차나 전문으로 보완하십시오.\n\n` +
+      parts.join('\n\n') +
+      footer([...new Set([...found.values()].flat().map(({ a }) => a.docId))])
     );
   }
 

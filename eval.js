@@ -41,7 +41,7 @@ for (const [label, p] of [['인덱스', INDEX], ['서버', SERVER], ['평가표'
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function callTool(args) {
+async function callTool(args, tool = 'search_provisions') {
   const res = await fetch(`http://127.0.0.1:${PORT}/mcp`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -49,7 +49,7 @@ async function callTool(args) {
       jsonrpc: '2.0',
       id: 1,
       method: 'tools/call',
-      params: { name: 'search_provisions', arguments: args },
+      params: { name: tool, arguments: args },
     }),
   });
   const j = await res.json();
@@ -59,7 +59,8 @@ async function callTool(args) {
 // 결과 본문에서 (문서명, 조문번호) 를 순서대로 뽑는다
 function parseHits(text) {
   const out = [];
-  const re = /^■ (.+?) (제[^\s(]+|\[별표[^\]]*\]|부칙[^\s]*|전문)\s*$/gm;
+  // '■ 문서명 제N조' 와 '  · 문서명 제N조 (제목)' 두 모양을 모두 받는다
+  const re = /^(?:■ |\s*· )(.+?) (제[^\s(]+|\[별표[^\]]*\]|부칙[^\s]*|전문)(?:\s|\(|$)/gm;
   let m;
   while ((m = re.exec(text))) out.push({ doc: m[1].trim(), art: m[2].trim() });
   return out;
@@ -113,7 +114,10 @@ async function main() {
   for (const c of cases) {
     // 종합형은 답이 흩어져 있으므로 실제 사용처럼 넉넉히 받아 본다
     const lim = c.type === '종합' ? Math.max(LIMIT, 15) : LIMIT;
-    const text = await callTool({ query: c.q, limit: lim });
+    // tool 을 지정한 질의는 그 도구로 잰다. 주기 업무처럼 전용 도구가 맞는 유형이 있다.
+    const text = c.tool
+      ? await callTool(c.args ?? {}, c.tool)
+      : await callTool({ query: c.q, limit: lim });
     const kind = classify(text);
     const hits = parseHits(text);
     const noAnswer = (c.expect ?? []).length === 0;
