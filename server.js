@@ -203,6 +203,35 @@ function expandGrams(qn) {
 // 현장에서 바로 확인하려면 링크를 눌렀을 때 브라우저에서 열려야 한다.
 // 공단 게시판 링크는 한글 파일을 내려받게 하고, 법제처 한글주소는 조문으로 못 간다.
 // 인덱스에 이미 전문과 표(HTML)가 다 있으므로, 그것을 그대로 그려서 내보낸다.
+// 한글 문서명을 그대로 주소에 쓰면 퍼센트 인코딩 때문에 링크 하나가 160자를 넘고,
+// 긴 것은 338자까지 간다. 답변 곳곳에 붙이면 그것만으로 컨텍스트를 먹는다.
+// 게다가 모델이 긴 주소를 옮겨 적다가 깨뜨리는 일이 실제로 있었다(법제처 한글주소).
+// 그래서 짧은 키를 따로 만들어 쓴다. /doc/<한글이름> 도 그대로 열리므로 사람이 손으로 쳐도 된다.
+function slugOf(docId) {
+  if (!STATE.slugs) {
+    STATE.slugs = new Map();
+    STATE.byslug = new Map();
+    for (const id of [...STATE.docs.keys()].sort()) {
+      let h = 5381;
+      for (let i = 0; i < id.length; i++) h = ((h * 33) ^ id.charCodeAt(i)) >>> 0;
+      let k = h.toString(36).slice(0, 4);
+      let n = 0;
+      while (STATE.byslug.has(k)) k = (h.toString(36).slice(0, 4) + (++n).toString(36));
+      STATE.slugs.set(id, k);
+      STATE.byslug.set(k, id);
+    }
+  }
+  return STATE.slugs.get(docId);
+}
+
+// 문서 하나를 여는 짧은 주소. 조문을 주면 그 자리로 바로 간다.
+function viewUrl(docId, articleId) {
+  if (!PUBLIC_BASE) return null;
+  const k = slugOf(docId);
+  if (!k) return null;
+  return `${PUBLIC_BASE}/d/${k}${articleId ? `#${anchorOf(articleId)}` : ''}`;
+}
+
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 // 조문 본문에는 표가 HTML 로 들어 있다. 표 관련 태그만 살리고 나머지는 글자로 취급한다.
@@ -601,9 +630,6 @@ function renderArticle(a, withText = true) {
   ];
   if (a.needsOriginal) head.push('  ※ 별표·도표가 포함된 조문입니다. 정확한 내용은 원문을 확인하세요.');
   // 브라우저에서 바로 열리는 주소. 원문 링크는 한글 파일을 내려받게 해서 현장에서 쓰기 어렵다.
-  if (PUBLIC_BASE && d) {
-    head.push(`  바로보기: ${PUBLIC_BASE}/doc/${encodeURIComponent(d.name)}#${anchorOf(a.articleId)}`);
-  }
   if (d?.originalUrl) head.push(`  원문 내려받기: ${d.originalUrl}`);
   if (withText) head.push('', clip(a.text, a.section));
   return head.join('\n');
@@ -639,8 +665,12 @@ function footer(docIds) {
     const d = STATE.docs.get(id);
     if (!d) continue;
     if (d.status && d.status !== '현행') pending = true;
+    // 문서명 자체를 마크다운 링크로 준다. 모델이 이 줄을 그대로 옮기면
+    // 사용자 화면에서 눌러서 열리는 글자가 된다. 주소만 따로 적어두면 눌리지 않는다.
+    const v = viewUrl(id);
+    const name = v ? `[${d.name}](${v})` : d.name;
     rows.push(
-      `  · ${d.name} (${d.dateKind ?? '시행'} ${ymd(d.effectiveDate)}` +
+      `  · ${name} (${d.dateKind ?? '시행'} ${ymd(d.effectiveDate)}` +
       `${d.lawNo ? ` · 제${d.lawNo}호` : ''})` +
       `${d.status && d.status !== '현행' ? ` ※${d.status}` : ''}`
     );
@@ -654,6 +684,8 @@ function footer(docIds) {
     rows.join('\n') +
     `\n\n  (최신자료 확인일: ${ymd(asOf)})\n` +
     `LLM 주의: 답변 끝에 위 '참고 문서' 를 그대로 옮겨 적으십시오. 문서명과 날짜를 빼지 마십시오.\n` +
+    `문서명에 걸린 [이름](주소) 형태를 그대로 두어야 사용자가 눌러서 원문을 열 수 있습니다. ` +
+    `주소를 따로 떼어 적거나 이름만 남기지 마십시오.\n` +
     `사용자가 개시일을 보고 최신본인지 스스로 확인할 수 있어야 합니다. ` +
     `수집일 이후의 개정은 반영돼 있지 않을 수 있습니다.` +
     (pending ? `\n※ 아직 시행 전인 문서가 섞여 있습니다. 시행일을 확인하고 답하십시오.` : '')
@@ -1210,15 +1242,24 @@ const server = http.createServer(async (req, res) => {
       .end(JSON.stringify(body));
   }
 
-  // 원문 뷰어: /doc/<규정이름>#제25조
-  if (req.method === 'GET' && url.pathname.startsWith('/doc/')) {
+  // 원문 뷰어: /doc/<규정이름>#제25조  또는  /d/<짧은키>#별표2
+  if (req.method === 'GET' && (url.pathname.startsWith('/doc/') || url.pathname.startsWith('/d/'))) {
     try {
       await ensureIndex();
     } catch {
       return res.writeHead(503, { ...CORS, 'Content-Type': 'text/plain; charset=utf-8' }).end('자료를 준비하지 못했습니다.');
     }
-    const q = normText(decodeURIComponent(url.pathname.slice(5)));
-    const cands = [...STATE.docs.values()].filter((d) => normText(d.name).includes(q));
+    const short = url.pathname.startsWith('/d/');
+    const raw = decodeURIComponent(url.pathname.slice(short ? 3 : 5));
+    let cands;
+    if (short) {
+      slugOf([...STATE.docs.keys()][0]);                 // 키 표를 만들어 둔다
+      const id = STATE.byslug.get(raw);
+      cands = id && STATE.docs.has(id) ? [STATE.docs.get(id)] : [];
+    } else {
+      const q = normText(raw);
+      cands = [...STATE.docs.values()].filter((d) => normText(d.name).includes(q));
+    }
     const html = (b) => res.writeHead(b.code, { ...CORS, 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=600' }).end(b.body);
 
     if (!cands.length) {
