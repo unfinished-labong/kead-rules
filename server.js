@@ -299,6 +299,11 @@ h1{font-size:1.15rem;margin:0 0 .3rem}
    열 하나에 갇혀 목차가 세로로 늘어진다. 헤더는 항상 뒤따르는 항목과 붙여 둔다. */
 .tg{margin:0 0 .55rem;padding-left:.1rem}
 .tg.short{break-inside:avoid}
+/* 장은 절·조보다 한 단 크고 굵게. 뒤따르는 절과 떨어져 열 끝에 혼자 남지 않게 묶는다. */
+.toc .jang{font-size:.95rem;font-weight:700;opacity:.85;margin:1.1rem 0 .3rem;
+ padding-bottom:.15rem;border-bottom:1px solid;break-after:avoid;break-inside:avoid}
+.toc .jang:first-child{margin-top:0}
+.toc .jang+.tg b{margin-top:.25rem}
 .tg b{display:block;font-size:.75rem;opacity:.6;margin:.5rem 0 .15rem;letter-spacing:.02em;
  break-after:avoid}
 .toc a{display:block;text-decoration:none;line-height:1.4;padding:.05rem 0;opacity:.9;
@@ -321,7 +326,11 @@ pre.box{font-family:"D2Coding","Nanum Gothic Coding","Menlo",ui-monospace,monosp
  padding:.6rem .7rem;border:1px solid;border-radius:.35rem;
  background:color-mix(in srgb,CanvasText 4%,transparent);tab-size:2}
 .chap{font-weight:700;margin:1.6rem 0 .4rem;font-size:.9rem;opacity:.7}
-article{margin:0 0 1.8rem;scroll-margin-top:5rem}
+.chap.top{font-size:1.05rem;opacity:.9;margin:2.4rem 0 .5rem;padding-top:.7rem;border-top:2px solid}
+/* 앵커로 뛰면 조문 머리가 붙박이 머리말 밑에 깔린다. 머리말 높이는 제목 길이와
+   화면 폭에 따라 달라져서(5~9rem) 고정값으로는 못 맞춘다. 아래 script 가 실측해
+   --hdr 에 넣는다. :target 테두리가 .5rem 바깥으로 나가므로 그만큼 더 띄운다. */
+article{margin:0 0 1.8rem;scroll-margin-top:calc(var(--hdr,7rem) + .9rem)}
 article:target{background:color-mix(in srgb,Highlight 18%,transparent);
  outline:2px solid Highlight;outline-offset:.5rem;border-radius:.3rem}
 h2{font-size:1rem;margin:0 0 .4rem;padding-top:.3rem}
@@ -337,20 +346,57 @@ img{max-width:100%;height:auto}
 .src{font-size:.75rem;margin:.2rem 0 .4rem;opacity:.7}
 `;
 
+const noSpace = (s) => String(s ?? '').replace(/\s/g, '');
+const JEOL_RE = /^제\s*\d+\s*[절관]/;
+
 function renderDocHtml(d, list) {
   const secName = { 본칙: '', 부칙: '부칙', 별표: '별표·서식' };
   const parts = [];
   let curSec = null;
   let curChap = null;
+  let curTop = null;
+  let curStale = null;
+
+  // 장·절 제목 줄은 '직전 조문 본문의 꼬리'에 붙어 있다(장은 build-index 가 그걸 읽어
+  // chapterTop 을 만든다). 그대로 두면 머리글 바로 앞에 같은 글이 한 번 더 보인다.
+  // 표시에서만 걷어낸다. 실제로 머리글로 쓰는 값과 맞을 때만 지우므로
+  // '제2장의 규정에 따라…' 같은 본문 줄은 건드리지 않는다.
+  const hasTop = list.some((a) => a.chapterTop);
+  const heads = new Set(
+    list.flatMap((a) => [noSpace(a.chapterTop), noSpace(a.chapter)]).filter(Boolean),
+  );
+  const stripHeads = (text) => {
+    if (!heads.size) return text;
+    return String(text ?? '')
+      .split('\n')
+      .filter((l) => {
+        const n = noSpace(l);
+        if (!/^제\d+[장절관편]/.test(n)) return true;
+        for (const t of heads) if (n.startsWith(t)) return false;
+        return true;
+      })
+      .join('\n');
+  };
 
   for (const a of list) {
     if (a.section !== curSec) {
       curSec = a.section;
       curChap = null;
+      curTop = null;
       if (secName[curSec]) parts.push(`<h2 class="chap" style="font-size:1rem;opacity:1">${esc(secName[curSec])}</h2>`);
     }
-    if (a.section === '본칙' && a.chapter && a.chapter !== curChap) {
+    if (a.section === '본칙' && a.chapterTop && a.chapterTop !== curTop) {
+      curTop = a.chapterTop;
+      curStale = curChap;                                    // 목차와 같은 판정(아래 주석 참고)
+      curChap = null;
+      parts.push(`<div class="chap top">${esc(a.chapterTop)}</div>`);
+    }
+    // 장은 바로 위 줄이 맡는다. breadcrumb 은 절·관일 때만, 그리고 앞 장에서 물고 온
+    // 이월값이 아닐 때만 찍는다.
+    const subOk = hasTop ? JEOL_RE.test(a.chapter ?? '') && a.chapter !== curStale : true;
+    if (a.section === '본칙' && a.chapter && subOk && a.chapter !== curChap) {
       curChap = a.chapter;                                   // 빈 값이면 앞 장을 그대로 둔다
+      curStale = null;
       parts.push(`<div class="chap">${esc(a.chapter)}</div>`);
     }
     const id = anchorOf(a.articleId);
@@ -373,7 +419,7 @@ function renderDocHtml(d, list) {
       `<h2>${esc(a.articleId)}${a.title && a.title !== a.articleId ? ` ${esc(a.title)}` : ''}` +
       `<span class="no">#${esc(id)}</span></h2>` +
       (link && a.section === '별표' ? `<p class="src"><a href="${esc(link)}">원본 파일 내려받기 ↗</a></p>` : '') +
-      `<div class="body">${bodyHtml(a.text)}</div>` +
+      `<div class="body">${bodyHtml(a.section === "본칙" ? stripHeads(a.text) : a.text)}</div>` +
       `</article>`
     );
   }
@@ -382,17 +428,39 @@ function renderDocHtml(d, list) {
   // 장·절로 묶고 여러 단으로 흘려서, 눈이 덩어리 단위로 훑게 한다.
   // 장·절 정보는 74% 만 채워져 있다. 빈 조문은 앞 장을 이어받게 한다.
   // 그러지 않으면 목차가 '(구분없음)' 으로 자꾸 끊겨 오히려 읽기 나빠진다.
+  // 장은 breadcrumb 에 안 실려서 chapterTop 으로 따로 받는다. 절 번호는 장마다 1부터
+  // 다시 매겨지는 것이 원문 그대로이므로, 절 위에 장을 세워야 어디쯤인지 알 수 있다.
   const tocGroups = [];
   let g = null;
   let lastChap = '';
+  let lastTop = '';
+  let staleChap = '';
   for (const a of list) {
-    if (a.section === '본칙' && a.chapter) lastChap = a.chapter;
-    const key = a.section === '본칙' ? lastChap : a.section;
-    if (!g || g.key !== key) { g = { key, rows: [] }; tocGroups.push(g); }
+    if (a.section === '본칙') {
+      // 장이 바뀌면 앞 장의 절을 이어받지 않는다. breadcrumb 이 장 경계를 안 지켜서,
+      // 새 장 첫 조문까지 앞 장 마지막 절을 그대로 물고 오는 문서가 있다
+      // (기간제 근로자 관리규칙 제40조: 제3장 보칙인데 breadcrumb 은 제7절 상벌).
+      if (a.chapterTop && a.chapterTop !== lastTop) { lastTop = a.chapterTop; staleChap = lastChap; lastChap = ''; }
+      if (a.chapter && a.chapter !== staleChap) { lastChap = a.chapter; staleChap = ''; }
+    }
+    const top = a.section === '본칙' ? lastTop : '';
+    // chapterTop 이 장을 맡으므로, breadcrumb 은 절·관일 때만 머리글로 쓴다.
+    // breadcrumb 에는 장이 그대로 들어오기도 하고(중복), 앞 장을 잘못 물고 오기도 한다
+    // (보수규정 제30조: 실제는 제4장 성과급인데 breadcrumb 은 제3장 기본급여).
+    // 장을 못 뽑은 문서는 예전대로 breadcrumb 을 그대로 쓴다.
+    const key =
+      a.section === '본칙' ? (hasTop ? (JEOL_RE.test(lastChap) ? lastChap : '') : lastChap) : a.section;
+    if (!g || g.key !== key || g.top !== top) { g = { key, top, rows: [] }; tocGroups.push(g); }
     g.rows.push(a);
   }
+  let shownTop = '';
   const toc = tocGroups
     .map((grp) => {
+      let jang = '';
+      if (grp.top && grp.top !== shownTop) {
+        shownTop = grp.top;
+        jang = `<div class="jang">${esc(grp.top)}</div>`;
+      }
       const head = grp.key ? `<b>${esc(grp.key)}</b>` : '';
       const annex = grp.key === '별표';
       const items = grp.rows
@@ -405,7 +473,7 @@ function renderDocHtml(d, list) {
         })
         .join('');
       const short = grp.rows.length <= 12 ? ' short' : '';
-      return `<div class="tg${short}${annex ? ' chips' : ''}">${head}${items}</div>`;
+      return `${jang}<div class="tg${short}${annex ? ' chips' : ''}">${head}${items}</div>`;
     })
     .join('');
 
@@ -419,6 +487,17 @@ ${d.status && d.status !== '현행' ? `<p class="warn">이 문서는 <b>${esc(d.
 <details class="toc" open><summary>조문 목록 ${list.length}건</summary>${toc}</details>
 ${parts.join('\n')}
 <a class="top" href="#">↑ 맨 위</a>
+<script>
+(function(){
+  var h=document.querySelector('header');
+  if(!h)return;
+  function set(){document.documentElement.style.setProperty('--hdr',h.offsetHeight+'px');}
+  set();
+  addEventListener('resize',set);
+  // 목차를 접었다 펴면 머리말 높이는 그대로지만, 폰트가 늦게 실리면 달라진다.
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(set);
+})();
+</script>
 </body></html>`;
 }
 
