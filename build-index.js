@@ -20,49 +20,61 @@ function chapterOf(breadcrumb) {
   return ch.length ? ch.join(' > ') : null;
 }
 
-// 장(제N장)은 breadcrumb 에 안 실린다. 절이 있으면 절이 그 자리를 차지하기 때문이다.
-// 다행히 장 제목 줄은 본문에 그대로 남아 있어, 순서대로 훑으면 되살릴 수 있다.
-// 이 값은 뷰어 목차 전용이다. norm 에도 검색 점수에도 넣지 않는다(아래 norm 참고).
+// 장·절은 breadcrumb 에 온전히 실리지 않는다. 변환기가 절을 군데군데 빠뜨리고
+// (「장애인 취업지원 업무처리규칙」은 절 13개 중 3개만 잡혔다), 장은 절이 있으면
+// 그 자리를 절에게 내준다. 다행히 제목 줄은 본문에 그대로 남아 있어 되살릴 수 있다.
+// 이 값들은 뷰어 목차 전용이다. norm 에도 검색 점수에도 넣지 않는다(아래 norm 참고).
 //
 // 표기가 제각각이다. 실측으로 확인한 것들:
-//   '제1장 총칙' / '제1장총칙'(공백 없음, 12건) / '제 2 장 …'(글자 사이 벌어짐)
-//   '제5장의 2 연봉제'(장에 가지번호) / '제4장 성과급 [장제목개정 …]'(개정 이력 꼬리)
-// 그래서 장 뒤 공백을 요구하면 안 된다. 대신 조사가 이어지는 줄을 걷어내
-// '제2장의 규정에 따라…' 같은 본문 줄을 장 제목으로 오인하지 않게 막는다.
-const JANG_RE = /^\s*제\s*(\d+)\s*장(?:\s*의\s*(\d+))?\s*(.*)$/;
+//   '제1장 총칙' / '제1장총칙'(공백 없음) / '제 2 장 …'(글자 사이 벌어짐)
+//   '제5장의 2 연봉제'(가지번호) / '제4장 성과급 [장제목개정 …]'(개정 이력 꼬리)
+// 그래서 뒤에 공백을 요구하면 안 된다. 대신 조사가 이어지는 줄을 걷어내
+// '제2장의 규정에 따라…' 같은 본문 줄을 제목으로 오인하지 않게 막는다.
+const HEAD_RE = /^\s*제\s*(\d+)\s*([장편절관])(?:\s*의\s*(\d+))?(\s*)(.*)$/;
 // '<삭 제 2017. 12. 29.>' 처럼 글자 사이가 벌어진 표기가 섞여 있다.
-const JANG_TAG = /[<[]\s*[^<>[\]]*?(?:개\s*정|신\s*설|삭\s*제|전\s*문\s*개\s*정)[^<>[\]]*[>\]]/g;
-function jangTitle(line) {
-  const m = line.match(JANG_RE);
+const HEAD_TAG = /[<[]\s*[^<>[\]]*?(?:개\s*정|신\s*설|삭\s*제|전\s*문\s*개\s*정)[^<>[\]]*[>\]]/g;
+function headTitle(line) {
+  const m = line.match(HEAD_RE);
   if (!m) return null;
-  const rest = m[3];
-  if (/^[의은는이가을를에과와로도만]/.test(rest)) return null;   // 조사가 붙으면 본문 줄이다
+  const gap = m[4];
+  const rest = m[5];
+  // '제2장의 규정에 따라…' 같은 본문 줄을 걸러낸다. 조사는 앞말에 **붙여** 쓰므로
+  // 띄어쓰기가 없을 때만 조사로 본다. 띄어쓰기까지 무시하면 '제4절 과제 및 재료',
+  // '제3절 가격조사', '제7절 이의신청처리위원회' 같은 멀쩡한 제목이 버려진다.
+  if (!gap && /^[의은는이가을를에과와로도만]/.test(rest)) return null;
   if (/[다요]\.\s*$/.test(rest)) return null;                    // 서술로 끝나면 본문 줄이다
-  const head = `제${m[1]}장${m[2] ? `의${m[2]}` : ''}`;
-  const title = rest.replace(JANG_TAG, '').replace(/\s+/g, ' ').trim();
-  const t = title ? `${head} ${title}` : head;
-  // 60자를 넘으면 장 제목이 아니라 본문 줄을 잘못 집은 것으로 본다.
-  return t.length <= 60 ? t : null;
+  const head = `제${m[1]}${m[2]}${m[3] ? `의${m[3]}` : ''}`;
+  const title = rest.replace(HEAD_TAG, '').replace(/\s+/g, ' ').trim();
+  const text = title ? `${head} ${title}` : head;
+  // 60자를 넘으면 제목이 아니라 본문 줄을 잘못 집은 것으로 본다.
+  if (text.length > 60) return null;
+  return { top: m[2] === '장' || m[2] === '편', text };
 }
-// 순서대로 훑으며 각 조문이 속한 장을 정한다.
-// 장 제목 줄은 보통 '직전 조문 본문의 꼬리'에 붙어 오지만, 법제처 자료처럼
+// 순서대로 훑으며 각 조문이 속한 장·절을 정한다.
+// 제목 줄은 보통 '직전 조문 본문의 꼬리'에 붙어 오지만, 법제처 자료처럼
 // '그 조문 본문의 첫 줄'로 오기도 한다. 앞에 본문이 없으면 그 조문부터 적용한다.
 // 문서 첫머리(머리말)에 제1장이 들어 있는 일도 많아, 조문이 아닌 마디도 함께 훑는다.
-function topChapters(rawList) {
-  let cur = null;
+function headPaths(rawList) {
+  let top = null;
+  let sub = null;
   return rawList.map((a) => {
-    let here = cur;
+    let hereTop = top;
+    let hereSub = sub;
     let seenBody = false;
     for (const l of String(a.text ?? '').split('\n')) {
-      const t = jangTitle(l);
-      if (t) {
-        cur = t;
-        if (!seenBody) here = t;
+      const h = headTitle(l);
+      if (h?.top) {
+        top = h.text;
+        sub = null;                                  // 장이 바뀌면 절은 다시 1절부터다
+        if (!seenBody) { hereTop = h.text; hereSub = null; }
+      } else if (h) {
+        sub = h.text;
+        if (!seenBody) hereSub = h.text;
       } else if (l.trim()) {
         seenBody = true;
       }
     }
-    return here;
+    return { top: hereTop, sub: hereSub };
   });
 }
 
@@ -128,7 +140,7 @@ async function loadInternal() {
       originalUrl: d.fileUrl,
       fileName: d.fileName,
     });
-    const tops = topChapters(d.articles);
+    const heads = headPaths(d.articles);
     for (const [i, a] of d.articles.entries()) {
       const isAnnex = a.section === '별표';
       if ((!a.articleId && !isAnnex) || isNoise(a.text)) continue;
@@ -142,7 +154,8 @@ async function loadInternal() {
         text: a.text,
         chapter: chapterOf(a.breadcrumb),
         // 별표·부칙은 앞 장을 물려받지 않는다. 본칙의 장에 딸린 자료가 아니다.
-        chapterTop: a.section === '본칙' ? tops[i] : null,
+        chapterTop: a.section === '본칙' ? heads[i].top : null,
+        chapterSub: a.section === '본칙' ? heads[i].sub : null,
         needsOriginal: !!a.needsOriginal,
       });
     }
@@ -178,34 +191,34 @@ async function loadStatutes() {
     // 번호가 없으면 내부규정과 같은 방식으로 직접 조문을 쪼갠다.
     // 장 제목은 조문번호가 없는 별도 마디로 오는 일이 있다(법제처 자료의 '제1장 총칙').
     // 걸러내기 전에 원본 순서 그대로 훑어야 그 장이 사라지지 않는다.
-    const rawTops = topChapters(d.articles);
+    const rawHeads = headPaths(d.articles);
     const numbered = d.articles
-      .map((a, i) => ({ a, top: rawTops[i] }))
+      .map((a, i) => ({ a, head: rawHeads[i] }))
       .filter(({ a }) => a.articleNo != null && !isNoise(a.text));
     let parsed =
       numbered.length > 0
-        ? numbered.map(({ a, top }) => ({
+        ? numbered.map(({ a, head }) => ({
             section: '본칙',
             articleId: `제${a.articleNo}조`,
             title: a.title ?? null,
             text: a.text,
-            __top: top,
+            __head: head,
             needsOriginal: /별표|별지|서식/.test(a.text),
           }))
         : (() => {
             // 쪼갠 결과에서 머리말(조문번호가 없는 마디)을 버리기 전에 장을 먼저 읽는다.
             // '제1장 총칙' 이 거기에만 들어 있는 문서가 있다.
             const all = toArticles(d.articles.map((a) => ({ text: a.text })));
-            const t = topChapters(all);
+            const t = headPaths(all);
             return all
-              .map((a, i) => ({ ...a, __top: t[i] }))
+              .map((a, i) => ({ ...a, __head: t[i] }))
               .filter((a) => a.articleId)
               .map((a) => ({
                 section: a.section,
                 articleId: a.articleId,
                 title: a.title,
                 text: a.text,
-                __top: a.__top,
+                __head: a.__head,
                 needsOriginal: a.needsOriginal,
               }));
           })();
@@ -236,7 +249,7 @@ async function loadStatutes() {
       parsed.push({ __annex: true, section: '별표', articleId, title: x.title ?? null, text: body, needsOriginal: !x.text, link });
     }
 
-    const tops = topChapters(parsed);
+    const heads = headPaths(parsed);
     for (const [i, a] of parsed.entries()) {
       if (!a.__annex && isNoise(a.text)) continue;
       articles.push({
@@ -246,7 +259,8 @@ async function loadStatutes() {
         articleId: a.articleId,
         title: a.title ?? null,
         text: a.text,
-        chapterTop: a.section === '본칙' ? a.__top ?? tops[i] : null,
+        chapterTop: a.section === '본칙' ? (a.__head ?? heads[i]).top : null,
+        chapterSub: a.section === '본칙' ? (a.__head ?? heads[i]).sub : null,
         needsOriginal: !!a.needsOriginal,
         ...(a.link ? { link: a.link } : {}),
       });
@@ -265,12 +279,12 @@ async function main() {
   // 같은 문서 안에서 조문 식별자가 겹치면 뒤엣것을 버린다(변환 잡음 방어)
   const seen = new Set();
   const articles = [];
-  // chapterTop 은 norm 에 넣지 않는다. 뷰어 목차 표시 전용이고, 검색 점수를 흔들면
+  // chapterTop·chapterSub 은 norm 에 넣지 않는다. 뷰어 목차 표시 전용이고, 검색 점수를 흔들면
   // 이 변경이 표시를 고친 것인지 순위를 바꾼 것인지 가릴 수 없게 된다.
   for (const a of raw) {
     if (seen.has(a.id)) continue;
     seen.add(a.id);
-    articles.push({ ...a, chapter: a.chapter ?? null, chapterTop: a.chapterTop ?? null, norm: normText(`${a.articleId} ${a.title ?? ''} ${a.chapter ?? ''} ${a.text}`) });
+    articles.push({ ...a, chapter: a.chapter ?? null, chapterTop: a.chapterTop ?? null, chapterSub: a.chapterSub ?? null, norm: normText(`${a.articleId} ${a.title ?? ''} ${a.chapter ?? ''} ${a.text}`) });
   }
 
   const index = {

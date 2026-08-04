@@ -347,7 +347,6 @@ img{max-width:100%;height:auto}
 `;
 
 const noSpace = (s) => String(s ?? '').replace(/\s/g, '');
-const JEOL_RE = /^제\s*\d+\s*[절관]/;
 
 function renderDocHtml(d, list) {
   const secName = { 본칙: '', 부칙: '부칙', 별표: '별표·서식' };
@@ -355,15 +354,16 @@ function renderDocHtml(d, list) {
   let curSec = null;
   let curChap = null;
   let curTop = null;
-  let curStale = null;
 
-  // 장·절 제목 줄은 '직전 조문 본문의 꼬리'에 붙어 있다(장은 build-index 가 그걸 읽어
-  // chapterTop 을 만든다). 그대로 두면 머리글 바로 앞에 같은 글이 한 번 더 보인다.
-  // 표시에서만 걷어낸다. 실제로 머리글로 쓰는 값과 맞을 때만 지우므로
-  // '제2장의 규정에 따라…' 같은 본문 줄은 건드리지 않는다.
-  const hasTop = list.some((a) => a.chapterTop);
+  // 장·절 제목 줄은 본문에 그대로 남아 있다(build-index 가 그걸 읽어 chapterTop·chapterSub
+  // 을 만든다). 그대로 두면 머리글 바로 앞에 같은 글이 한 번 더 보인다. 표시에서만 걷어낸다.
+  // 실제로 머리글로 쓰는 값과 맞을 때만 지우므로 '제2장의 규정에 따라…' 는 건드리지 않는다.
+  //
+  // useNew: 장·절을 본문에서 뽑은 인덱스인가. 옛 인덱스로 뜬 서버는 breadcrumb 으로 돌아간다.
+  const useNew = list.some((a) => a.chapterTop || a.chapterSub);
+  const subOf = (a) => (useNew ? a.chapterSub ?? null : a.chapter ?? null);
   const heads = new Set(
-    list.flatMap((a) => [noSpace(a.chapterTop), noSpace(a.chapter)]).filter(Boolean),
+    list.flatMap((a) => [noSpace(a.chapterTop), noSpace(a.chapterSub), noSpace(a.chapter)]).filter(Boolean),
   );
   const stripHeads = (text) => {
     if (!heads.size) return text;
@@ -387,17 +387,13 @@ function renderDocHtml(d, list) {
     }
     if (a.section === '본칙' && a.chapterTop && a.chapterTop !== curTop) {
       curTop = a.chapterTop;
-      curStale = curChap;                                    // 목차와 같은 판정(아래 주석 참고)
-      curChap = null;
+      curChap = null;                                        // 장이 바뀌면 절은 1절부터 다시다
       parts.push(`<div class="chap top">${esc(a.chapterTop)}</div>`);
     }
-    // 장은 바로 위 줄이 맡는다. breadcrumb 은 절·관일 때만, 그리고 앞 장에서 물고 온
-    // 이월값이 아닐 때만 찍는다.
-    const subOk = hasTop ? JEOL_RE.test(a.chapter ?? '') && a.chapter !== curStale : true;
-    if (a.section === '본칙' && a.chapter && subOk && a.chapter !== curChap) {
-      curChap = a.chapter;                                   // 빈 값이면 앞 장을 그대로 둔다
-      curStale = null;
-      parts.push(`<div class="chap">${esc(a.chapter)}</div>`);
+    const sub = a.section === '본칙' ? subOf(a) : null;
+    if (sub && sub !== curChap) {
+      curChap = sub;
+      parts.push(`<div class="chap">${esc(sub)}</div>`);
     }
     const id = anchorOf(a.articleId);
     const link = a.link ?? d.originalUrl ?? null;
@@ -425,31 +421,25 @@ function renderDocHtml(d, list) {
   }
 
   // 목차. 한 줄씩 세우면 너무 길고, 다 이어 붙이면 글자 벽이 된다.
-  // 장·절로 묶고 여러 단으로 흘려서, 눈이 덩어리 단위로 훑게 한다.
-  // 장·절 정보는 74% 만 채워져 있다. 빈 조문은 앞 장을 이어받게 한다.
-  // 그러지 않으면 목차가 '(구분없음)' 으로 자꾸 끊겨 오히려 읽기 나빠진다.
-  // 장은 breadcrumb 에 안 실려서 chapterTop 으로 따로 받는다. 절 번호는 장마다 1부터
-  // 다시 매겨지는 것이 원문 그대로이므로, 절 위에 장을 세워야 어디쯤인지 알 수 있다.
+  // 장으로 묶고 그 아래 절로 나눠, 여러 단으로 흘려서 눈이 덩어리 단위로 훑게 한다.
+  // 절 번호가 장마다 1부터 다시 매겨지는 것은 원문 그대로다. 그래서 절 위에 장을
+  // 세워야 지금 어디쯤인지 알 수 있다.
+  //
+  // 장·절 모두 본문에서 뽑은 값(chapterTop·chapterSub)을 쓴다. breadcrumb 은
+  // 절을 군데군데 빠뜨리고(취업지원 업무처리규칙: 13개 중 3개), 장 경계를 넘어
+  // 앞 절을 물고 오기도 한다. 옛 인덱스로 뜬 서버만 breadcrumb 으로 돌아간다.
   const tocGroups = [];
   let g = null;
   let lastChap = '';
   let lastTop = '';
-  let staleChap = '';
   for (const a of list) {
-    if (a.section === '본칙') {
-      // 장이 바뀌면 앞 장의 절을 이어받지 않는다. breadcrumb 이 장 경계를 안 지켜서,
-      // 새 장 첫 조문까지 앞 장 마지막 절을 그대로 물고 오는 문서가 있다
-      // (기간제 근로자 관리규칙 제40조: 제3장 보칙인데 breadcrumb 은 제7절 상벌).
-      if (a.chapterTop && a.chapterTop !== lastTop) { lastTop = a.chapterTop; staleChap = lastChap; lastChap = ''; }
-      if (a.chapter && a.chapter !== staleChap) { lastChap = a.chapter; staleChap = ''; }
+    if (a.section === '본칙' && !useNew) {
+      if (a.chapterTop && a.chapterTop !== lastTop) { lastTop = a.chapterTop; lastChap = ''; }
+      if (a.chapter) lastChap = a.chapter;
     }
-    const top = a.section === '본칙' ? lastTop : '';
-    // chapterTop 이 장을 맡으므로, breadcrumb 은 절·관일 때만 머리글로 쓴다.
-    // breadcrumb 에는 장이 그대로 들어오기도 하고(중복), 앞 장을 잘못 물고 오기도 한다
-    // (보수규정 제30조: 실제는 제4장 성과급인데 breadcrumb 은 제3장 기본급여).
-    // 장을 못 뽑은 문서는 예전대로 breadcrumb 을 그대로 쓴다.
+    const top = a.section !== '본칙' ? '' : useNew ? a.chapterTop ?? '' : lastTop;
     const key =
-      a.section === '본칙' ? (hasTop ? (JEOL_RE.test(lastChap) ? lastChap : '') : lastChap) : a.section;
+      a.section !== '본칙' ? a.section : useNew ? a.chapterSub ?? '' : lastChap;
     if (!g || g.key !== key || g.top !== top) { g = { key, top, rows: [] }; tocGroups.push(g); }
     g.rows.push(a);
   }
