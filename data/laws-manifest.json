@@ -1,39 +1,13 @@
 {
-  "collectedAt": "2026-08-04T01:13:57.104Z",
+  "collectedAt": "2026-08-04T02:03:30.233Z",
   "requested": 44,
-  "collected": 39,
+  "collected": 44,
   "parsedAsBlob": [],
   "paramUsed": {
-    "MST": 27,
+    "MST": 32,
     "ID": 12
   },
   "emptyBody": [],
-  "totalArticles": 1205,
-  "failed": [
-    {
-      "name": "장애인고용촉진 및 직업재활법",
-      "target": "law",
-      "reason": "fetch failed [UND_ERR_CONNECT_TIMEOUT]"
-    },
-    {
-      "name": "장애인고용촉진 및 직업재활법 시행령",
-      "target": "law",
-      "reason": "fetch failed [UND_ERR_CONNECT_TIMEOUT]"
-    },
-    {
-      "name": "장애인고용촉진 및 직업재활법 시행규칙",
-      "target": "law",
-      "reason": "fetch failed [UND_ERR_CONNECT_TIMEOUT]"
-    },
-    {
-      "name": "장애인복지법",
-      "target": "law",
-      "reason": "fetch failed [UND_ERR_CONNECT_TIMEOUT]"
-    },
-    {
-      "name": "장애인복지법 시행령",
-      "target": "law",
-      "reason": "fetch failed [UND_ERR_CONNECT_TIMEOUT]"
-    }
-  ]
+  "totalArticles": 1696,
+  "failed": []
 }
