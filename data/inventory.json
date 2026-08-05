@@ -1,6 +1,60 @@
 [
   {
     "boardId": "innerlaw",
+    "postedDate": "2026-08-04",
+    "files": [
+      {
+        "key": "8BEFE6E5BA9AF0F732F0",
+        "name": "복무규정(2026년도 7월 개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=8BEFE6E5BA9AF0F732F0"
+      }
+    ],
+    "docName": "복무규정",
+    "lawNo": 267,
+    "effectiveDate": "2026-07-31",
+    "dateKind": "개정",
+    "raw": "복무규정(규정 제267호, 개정: 2026. 7. 31.)",
+    "docKey": "복무규정",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2026-08-04",
+    "files": [
+      {
+        "key": "5D1C2D827EC1F3CA9CD9",
+        "name": "인사규정(2026년도 7월 개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=5D1C2D827EC1F3CA9CD9"
+      }
+    ],
+    "docName": "인사규정",
+    "lawNo": 266,
+    "effectiveDate": "2026-07-31",
+    "dateKind": "개정",
+    "raw": "인사규정(규정 제266호, 개정: 2026. 7. 31.)",
+    "docKey": "인사규정",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2026-08-04",
+    "files": [
+      {
+        "key": "E683C4B65FCE1E47E498",
+        "name": "장애인고용 우수사업주 선정 및 우대조치에 관한 업무처리규칙(2026년도 7월 개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=E683C4B65FCE1E47E498"
+      }
+    ],
+    "docName": "장애인고용 우수사업주 선정 및 우대조치에 관한 업무처리규칙",
+    "lawNo": 883,
+    "effectiveDate": "2026-07-30",
+    "dateKind": "개정",
+    "raw": "장애인고용 우수사업주 선정 및 우대조치에 관한 업무처리규칙(규칙 제883호, 개정: 2026. 7. 30.)",
+    "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
     "postedDate": "2026-07-14",
     "files": [
       {
@@ -501,7 +555,7 @@
     "dateKind": "개정",
     "raw": "인사규정(규정 제262호, 개정: 2025. 12. 29.)",
     "docKey": "인사규정",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -681,7 +735,7 @@
     "dateKind": "개정",
     "raw": "장애인고용 우수사업주 선정 및 우대조치에 관한 업무처리규칙(규칙 제849호, 개정: 2025. 10. 16.)",
     "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -933,7 +987,7 @@
     "dateKind": "개정",
     "raw": "복무규정(규정 제255호, 개정: 2025. 7. 3.)",
     "docKey": "복무규정",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -3549,59 +3603,5 @@
     "raw": "장애인 직업능력개발훈련 지원 업무처리규칙(제714호, 개정: 2021. 12. 30.)",
     "docKey": "장애인직업능력개발훈련지원업무처리규칙",
     "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-01-21",
-    "files": [
-      {
-        "key": "8EA2F29D797E3052ABD3",
-        "name": "2021_715_인사규정시행규칙(211230).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=8EA2F29D797E3052ABD3"
-      }
-    ],
-    "docName": "인사규정 시행규칙",
-    "lawNo": 715,
-    "effectiveDate": "2021-12-30",
-    "dateKind": "개정",
-    "raw": "인사규정 시행규칙(제715호, 개정: 2021. 12. 30.)",
-    "docKey": "인사규정시행규칙",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-01-21",
-    "files": [
-      {
-        "key": "615C067B5EA4B22C16DD",
-        "name": "2021_716_보수규정시행규칙(211229).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=615C067B5EA4B22C16DD"
-      }
-    ],
-    "docName": "보수규정 시행규칙",
-    "lawNo": 716,
-    "effectiveDate": "2021-12-30",
-    "dateKind": "개정",
-    "raw": "보수규정 시행규칙(제716호, 개정: 2021. 12. 30.)",
-    "docKey": "보수규정시행규칙",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-01-21",
-    "files": [
-      {
-        "key": "9323435EDDC4A8996C3E",
-        "name": "2021_717_장애물_없는_생활환경_인증_등에_관한_업무처리규칙(211230).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=9323435EDDC4A8996C3E"
-      }
-    ],
-    "docName": "장애물 없는 생활환경 인증 등에 관한 업무처리규칙",
-    "lawNo": 717,
-    "effectiveDate": "2021-12-30",
-    "dateKind": "개정",
-    "raw": "장애물 없는 생활환경 인증 등에 관한 업무처리규칙(제717호, 개정: 2021. 12. 30.)",
-    "docKey": "장애물없는생활환경인증등에관한업무처리규칙",
-    "status": "현행"
   }
 ]

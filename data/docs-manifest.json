@@ -1,16 +1,37 @@
 {
-  "collectedAt": "2026-08-04T21:12:42.802Z",
+  "collectedAt": "2026-08-05T21:09:00.039Z",
   "converterVersion": 6,
-  "targets": 72,
-  "converted": 72,
-  "reusedFromCache": 72,
-  "totalArticles": 3051,
-  "totalSupplementArticles": 673,
-  "needsOriginal": 1709,
+  "targets": 71,
+  "converted": 71,
+  "reusedFromCache": 68,
+  "totalArticles": 3024,
+  "totalSupplementArticles": 675,
+  "needsOriginal": 1695,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
+    "8BEFE6E5BA9AF0F732F0": {
+      "docKey": "복무규정",
+      "sha256": "909e2c5bd5dbef42243f88853bdb2e8955bd6f45199c5c2ab6290189f5828384",
+      "ver": 6,
+      "articles": 60,
+      "supplements": 19
+    },
+    "5D1C2D827EC1F3CA9CD9": {
+      "docKey": "인사규정",
+      "sha256": "40a870b0e6970f450bd76f645332f256dd5ab680861ee8511c18313bd7627b94",
+      "ver": 6,
+      "articles": 62,
+      "supplements": 19
+    },
+    "E683C4B65FCE1E47E498": {
+      "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
+      "sha256": "7818aa591f3073d526d953309d305ffd236a26cf1ed94565ed949fe16317b4cd",
+      "ver": 6,
+      "articles": 14,
+      "supplements": 18
+    },
     "75A2F72214D608B3A92E": {
       "docKey": "특정업무직운영지원직직원관리규칙",
       "sha256": "a5a9c22c98ba74bc24699d351cf3024d916ce376ff5b487fce778e4e63a50000",
@@ -151,13 +172,6 @@
       "articles": 40,
       "supplements": 0
     },
-    "845050E6EB87D1BEE587": {
-      "docKey": "인사규정",
-      "sha256": "3334f88815f608364484c20c910c79d21aae8aae29f611065adc94d531d60a41",
-      "ver": 6,
-      "articles": 62,
-      "supplements": 19
-    },
     "287A89CBF5E86FEA017F": {
       "docKey": "직제규정",
       "sha256": "9e3ca6fcfc3ccdc693d4fe8d9647e3247d0fb45cf7a7bb5f4f4f9c3dbec02f3d",
@@ -207,13 +221,6 @@
       "articles": 13,
       "supplements": 0
     },
-    "5B89EF08A3B2F837F338": {
-      "docKey": "장애인고용우수사업주선정우대조치에관한업무처리규칙",
-      "sha256": "6365359d21dd4171edfbfffa82c086689ca6cdd1e30eb2177bc013a235f9d200",
-      "ver": 6,
-      "articles": 14,
-      "supplements": 16
-    },
     "4E4EB0F5CC2356223464": {
       "docKey": "내부통제운영규칙",
       "sha256": "864d20ac77627cbd1230fbc392eec27aa7afbb2346c48f4e5a4e30c462e675df",
@@ -255,13 +262,6 @@
       "ver": 6,
       "articles": 11,
       "supplements": 0
-    },
-    "826401A794EF2742290E": {
-      "docKey": "복무규정",
-      "sha256": "cd0d867e26a81fe45a32f7257efb2684b545ab2ba5ba4a551bdeb31dcda2b84a",
-      "ver": 6,
-      "articles": 60,
-      "supplements": 19
     },
     "F2FED015F58F9876D1B8": {
       "docKey": "상임임원복무등에관한규정",
@@ -507,13 +507,6 @@
       "ver": 6,
       "articles": 7,
       "supplements": 1
-    },
-    "9323435EDDC4A8996C3E": {
-      "docKey": "장애물없는생활환경인증등에관한업무처리규칙",
-      "sha256": "d3281708f1da2d67c012497a23820a6786866549b8b6cf2618f25b7c742912f4",
-      "ver": 6,
-      "articles": 27,
-      "supplements": 0
     }
   }
 }
