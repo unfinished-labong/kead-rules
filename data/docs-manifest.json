@@ -1,13 +1,30 @@
 {
-  "collectedAt": "2026-09-29T00:12:16.252Z",
+  "collectedAt": "2026-09-29T23:29:27.569Z",
   "converterVersion": 6,
-  "targets": 71,
-  "converted": 71,
-  "reusedFromCache": 71,
-  "totalArticles": 3024,
-  "totalSupplementArticles": 675,
-  "needsOriginal": 1695,
-  "failed": [],
+  "targets": 73,
+  "converted": 69,
+  "reusedFromCache": 69,
+  "totalArticles": 2809,
+  "totalSupplementArticles": 571,
+  "needsOriginal": 1597,
+  "failed": [
+    {
+      "doc": "장애인 표준사업장에 대한 지원업무 처리규칙",
+      "reason": "첨부 없음"
+    },
+    {
+      "doc": "안전보건관리규정",
+      "reason": "첨부 없음"
+    },
+    {
+      "doc": "인사규정 시행규칙",
+      "reason": "첨부 없음"
+    },
+    {
+      "doc": "노동이사제 운영규칙",
+      "reason": "첨부 없음"
+    }
+  ],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
@@ -80,13 +97,6 @@
       "ver": 6,
       "articles": 59,
       "supplements": 78
-    },
-    "2E3B95B6344CCBA0B60E": {
-      "docKey": "인사규정시행규칙",
-      "sha256": "744ad389e4070438f9ea35ee7be10c6d7e030aec38b3b4e0790f011761ed9293",
-      "ver": 6,
-      "articles": 160,
-      "supplements": 30
     },
     "30FEB5DF6EEA71C9E5A1": {
       "docKey": "자산관리규정시행규칙",
@@ -199,13 +209,6 @@
       "ver": 6,
       "articles": 61,
       "supplements": 5
-    },
-    "11D022BB49E012E182BA": {
-      "docKey": "장애인표준사업장에대한지원업무처리규칙",
-      "sha256": "6e7c3457dc9b8bd9ab666281266e4534cee747290dd538245a0ffc2a271d3eb6",
-      "ver": 6,
-      "articles": 55,
-      "supplements": 74
     },
     "AAC8050DA6761086DEEC": {
       "docKey": "회계감사인선임위원회운영규칙",
