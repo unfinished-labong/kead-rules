@@ -1,6 +1,18 @@
 [
   {
     "boardId": "innerlaw",
+    "postedDate": "2026-10-08",
+    "files": [],
+    "docName": "직제규정",
+    "lawNo": 270,
+    "effectiveDate": "2026-09-29",
+    "dateKind": "개정",
+    "raw": "직제규정(규정 제270호, 개정: 2026. 9. 29.)",
+    "docKey": "직제규정",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
     "postedDate": "2026-09-29",
     "files": [],
     "docName": "장애인 표준사업장에 대한 지원업무 처리규칙",
@@ -621,7 +633,7 @@
     "dateKind": "시행",
     "raw": "직제규정(규정 제261호, 시행: 2026. 1. 1.)",
     "docKey": "직제규정",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -3561,23 +3573,5 @@
     "raw": "장애인 기능경기대회 업무처리규칙(제723호, 시행: 2022. 2. 21.)",
     "docKey": "장애인기능경기대회업무처리규칙",
     "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-02-03",
-    "files": [
-      {
-        "key": "03578E0C884A006C59CB",
-        "name": "2022_722_기간제_및_특정업무직_근로자_관리규칙(220125).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=03578E0C884A006C59CB"
-      }
-    ],
-    "docName": "기간제 및 특정업무직 근로자 관리규칙",
-    "lawNo": 722,
-    "effectiveDate": "2022-01-25",
-    "dateKind": "개정",
-    "raw": "기간제 및 특정업무직 근로자 관리규칙(제722호, 개정: 2022. 1. 25.)",
-    "docKey": "기간제특정업무직근로자관리규칙",
-    "status": "폐지"
   }
 ]

@@ -1,13 +1,17 @@
 {
-  "collectedAt": "2026-10-08T00:02:53.746Z",
+  "collectedAt": "2026-10-09T00:10:46.081Z",
   "converterVersion": 6,
   "targets": 73,
-  "converted": 69,
-  "reusedFromCache": 69,
-  "totalArticles": 2809,
-  "totalSupplementArticles": 571,
-  "needsOriginal": 1597,
+  "converted": 68,
+  "reusedFromCache": 68,
+  "totalArticles": 2789,
+  "totalSupplementArticles": 562,
+  "needsOriginal": 1583,
   "failed": [
+    {
+      "doc": "직제규정",
+      "reason": "첨부 없음"
+    },
     {
       "doc": "장애인 표준사업장에 대한 지원업무 처리규칙",
       "reason": "첨부 없음"
@@ -181,13 +185,6 @@
       "ver": 6,
       "articles": 40,
       "supplements": 0
-    },
-    "287A89CBF5E86FEA017F": {
-      "docKey": "직제규정",
-      "sha256": "9e3ca6fcfc3ccdc693d4fe8d9647e3247d0fb45cf7a7bb5f4f4f9c3dbec02f3d",
-      "ver": 6,
-      "articles": 20,
-      "supplements": 9
     },
     "AF18561587D1105D58BC": {
       "docKey": "장애인직업생활상담원양성연수규칙",
