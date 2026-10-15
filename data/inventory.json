@@ -1,8 +1,32 @@
 [
   {
     "boardId": "innerlaw",
+    "postedDate": "2026-10-15",
+    "files": [
+      {
+        "key": "8D3D6057FB3BAFD65D4C",
+        "name": "직제규정 시행규칙(261014개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=8D3D6057FB3BAFD65D4C"
+      }
+    ],
+    "docName": "직제규정 시행규칙",
+    "lawNo": 887,
+    "effectiveDate": "2026-10-14",
+    "dateKind": "개정",
+    "raw": "직제규정 시행규칙(규칙 제887호, 개정: 2026. 10. 14.)",
+    "docKey": "직제규정시행규칙",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
     "postedDate": "2026-10-08",
-    "files": [],
+    "files": [
+      {
+        "key": "51258FE4F30D7CA11ED6",
+        "name": "직제규정(260929 개정).hwp",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=51258FE4F30D7CA11ED6"
+      }
+    ],
     "docName": "직제규정",
     "lawNo": 270,
     "effectiveDate": "2026-09-29",
@@ -14,7 +38,13 @@
   {
     "boardId": "innerlaw",
     "postedDate": "2026-09-29",
-    "files": [],
+    "files": [
+      {
+        "key": "97764CC306BE0FAD7435",
+        "name": "장애인 표준사업장에 대한 지원업무 처리규칙(260914개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=97764CC306BE0FAD7435"
+      }
+    ],
     "docName": "장애인 표준사업장에 대한 지원업무 처리규칙",
     "lawNo": 886,
     "effectiveDate": "2026-09-14",
@@ -26,7 +56,13 @@
   {
     "boardId": "innerlaw",
     "postedDate": "2026-09-29",
-    "files": [],
+    "files": [
+      {
+        "key": "7BA6C50262F37D190E85",
+        "name": "안전보건관리규정(260909개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=7BA6C50262F37D190E85"
+      }
+    ],
     "docName": "안전보건관리규정",
     "lawNo": 269,
     "effectiveDate": "2026-09-09",
@@ -50,7 +86,13 @@
   {
     "boardId": "innerlaw",
     "postedDate": "2026-09-29",
-    "files": [],
+    "files": [
+      {
+        "key": "DFFA52A2441A091BA2B4",
+        "name": "노동이사제 운영규칙(260818제정).hwp",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=DFFA52A2441A091BA2B4"
+      }
+    ],
     "docName": "노동이사제 운영규칙",
     "lawNo": 884,
     "effectiveDate": "2026-08-18",
@@ -165,7 +207,7 @@
     "dateKind": "시행",
     "raw": "직제규정 시행규칙(규칙 제880호, 시행: 2026. 7. 15.)",
     "docKey": "직제규정시행규칙",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -3554,24 +3596,6 @@
     "dateKind": "개정",
     "raw": "장애인 직업능력개발훈련 지원 업무처리규칙(제724호, 개정: 2022. 3. 2.)",
     "docKey": "장애인직업능력개발훈련지원업무처리규칙",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-02-21",
-    "files": [
-      {
-        "key": "1230657CFBF132BEDEB1",
-        "name": "2022_723_장애인_기능경기대회_업무처리규칙(220221).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=1230657CFBF132BEDEB1"
-      }
-    ],
-    "docName": "장애인 기능경기대회 업무처리규칙",
-    "lawNo": 723,
-    "effectiveDate": "2022-02-21",
-    "dateKind": "시행",
-    "raw": "장애인 기능경기대회 업무처리규칙(제723호, 시행: 2022. 2. 21.)",
-    "docKey": "장애인기능경기대회업무처리규칙",
     "status": "연혁"
   }
 ]

@@ -1,0 +1,1372 @@
+{
+  "docKey": "직제규정시행규칙",
+  "docName": "직제규정 시행규칙",
+  "status": "현행",
+  "lawNo": 887,
+  "effectiveDate": "2026-10-14",
+  "dateKind": "개정",
+  "sourceTitle": "직제규정 시행규칙(규칙 제887호, 개정: 2026. 10. 14.)",
+  "fileName": "직제규정 시행규칙(261014개정).hwpx",
+  "fileFormat": "hwpx",
+  "fileKey": "8D3D6057FB3BAFD65D4C",
+  "fileUrl": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=8D3D6057FB3BAFD65D4C",
+  "sha256": "b21c4004deefa484381550c1a6bd7e5649a3cc7f08a36c2eafc06174b5c3e15c",
+  "articleCount": 10,
+  "supplementCount": 40,
+  "needsOriginalCount": 12,
+  "articles": [
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "직제규정 시행규칙(안)",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "제정 1991. 2. 27. 규칙 제 2호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1992. 1. 25. 규칙 제 16호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1993. 2. 4. 규칙 제 30호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1993. 8. 20. 규칙 제 35호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1994. 1. 20. 규칙 제 45호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1994. 8. 29. 규칙 제 56호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1994. 9. 30. 규칙 제 58호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1995. 2. 4. 규칙 제 61호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1995. 10. 23. 규칙 제 70호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1996. 3. 22. 규칙 제 79호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1996. 12. 13. 규칙 제 86호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1997. 2. 19. 규칙 제 88호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1997. 9. 26. 규칙 제 93호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1997. 12. 30. 규칙 제 96호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1998. 12. 31. 규칙 제109호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 1999. 9. 30. 규칙 제122호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2000. 2. 16. 규칙 제128호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2001. 5. 28. 규칙 제142호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2002. 1. 3. 규칙 제154호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2002. 8. 29. 규칙 제161호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2003. 1. 14. 규칙 제165호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2006. 1. 24. 규칙 제196호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2006. 7. 12. 규칙 제209호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2007. 4. 26. 규칙 제219호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "전부개정 2009. 4. 20. 규칙 제276호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2009. 11. 3. 규칙 제293호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2009. 12. 31. 규칙 제300호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2011. 1. 10. 규칙 제331호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2012. 3. 6. 규칙 제375호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2012. 8. 27. 규칙 제394호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2012. 12. 31. 규칙 제405호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2013. 2. 25. 규칙 제407호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2013. 9. 27. 규칙 제427호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2014. 3. 28. 규칙 제439호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2015. 1. 23. 규칙 제456호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2015. 3. 31. 규칙 제464호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2015. 12. 29. 규칙 제479호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2016. 8. 29. 규칙 제499호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2016. 12. 28. 규칙 제510호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2017. 1. 31. 규칙 제519호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2017. 9. 6. 규칙 제538호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2017. 9. 26. 규칙 제539호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2018. 1. 10. 규칙 제553호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2018. 9. 19. 규칙 제583호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2019. 1. 3. 규칙 제589호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2019. 7. 1. 규칙 제610호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2019. 10. 1. 규칙 제620호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2020. 1. 23. 규칙 제642호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2020. 9. 18. 규칙 제660호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2021. 1. 28. 규칙 제680호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2021. 7. 20. 규칙 제692호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2021. 12. 31. 규칙 제719호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2022. 7. 26. 규칙 제732호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2023. 1. 18. 규칙 제747호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2023. 12. 28. 규칙 제773호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2025. 3. 5. 규칙 제831호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2026. 1. 14. 규칙 제869호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2026. 7. 7. 규칙 제880호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "머리말",
+      "breadcrumb": [],
+      "text": "개정 2026. 10. 14. 규칙 제887호",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "제1조",
+      "title": "목적",
+      "breadcrumb": [],
+      "page": 1,
+      "text": "제1조(목적) 이 규칙은 한국장애인고용공단 직제규정(이하 규정이라 한다)으로부터 위임된 사항과 그 시행에 관하여 필요한 세부사항을 규정함을 목적으로 한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "2",
+      "articleId": "제2조",
+      "title": "적용범위",
+      "breadcrumb": [],
+      "page": 1,
+      "text": "제2조(적용범위) 규정 시행에 관하여 다른 규정에 특별히 정한 것을 제외하고는 이 규칙이 정하는 바에 따른다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "3",
+      "articleId": "제3조",
+      "title": "조직",
+      "breadcrumb": [],
+      "page": 1,
+      "text": "제3조(조직) ① 규정 제8조제2항에 따라 본부 각 실․국은 다음 각 호의 부서를 둔다.<개정 2009.12.30., 2011.1.10., 2012.3.6., 2015.1.23., 2015.3.31., 2015.12.29., 2017.9.26., 2018.1.10., 2019.1.3., 2020.1.23., 2020.9.18., 2021.12.31., 2023.1.18., 2026.1.14., 2026.7.7., 2026.10.14.>\n1. 전략기획실에는 혁신기획부, 조직예산부, AI전략기획부, 디지털정보부를 둔다.\n2. 안전경영실에는 안전보건부, 운영지원부, 인재개발부를 둔다.\n3. 능력개발국에는 능력개발운영부, 능력개발지원부를 둔다.\n4. 장애인서비스국에는 취업지원부, 직업능력평가부를 둔다.\n5. 기업서비스국에는 기업지원부, 고용환경부, 고용컨설팅부를 둔다.\n<u>6.</u> 일자리안정국에는 근로지원부, 보조공학부, 인식개선부를 둔다.\n<u>7.</u> 감사실에는 감사부를 둔다.\n② 규정 제9조제2항에 따라 고용개발원에는 정책연구실, 고용개발실, 운영관리부를 두며, 정책연구실에는 정책연구부와 조사통계부를 두고, 고용개발실에는 교육연수부와 실용연구부를 둔다.<개정 2011.1.10., 2012.3.6., 2012.8.27., 2012.12.31., 2015.12.29., 2016.08.29., 2019.10.1., 2021.1.28., 2021.12.31., 2023.1.18.>\n③ 규정 제10조제2항에 따라 직업능력개발원에는 능력개발처와 행정지원실을 두고, 훈련센터를 둘 수 있다. 단, 일산직업능력개발원에는 능력개발처와 시․청각훈련처, 행정지원실, 훈련센터를 둔다.<개정 2009.12.30., 2011.1.10., 2012.3.6., 2012.12.31., 2014.3.28., 2015.12.29., 2019.1.3., 2023.1.18., 2023.12.28., 2026.1.14.>\n④ <삭제 2012. 8. 27.>\n⑤ <삭제 2012. 8. 27.>\n⑥ 규정 제11조제2항에 따라 지역본부에는 취업지원부와 기업지원부, 훈련센터, 행정운영팀을 둔다.<신설 2019.1.3.> <개정 2021.1.28., 2026.1.14.>\n⑦ 규정 제12조제2항에 따라 지사에는 취업지원부와 기업지원부, 훈련센터를 둔다.<개정 2019.1.3., 2021.1.28.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "3의2",
+      "articleId": "제3조의2",
+      "title": "전담팀의 설치",
+      "breadcrumb": [
+        "⑦ 규정 제12조제2항에 따라 지사에는 취업지원부와 기업지원부, 훈련센터를 둔다.<개정 2019.1.3., 2021.1.28.>"
+      ],
+      "page": 2,
+      "text": "제3조의2(전담팀의 설치) ① 본부 각 실․ 국장 및 소속기관장은 전문적 업무를 효율적으로 수행하기 위해 이사장의 승인을 거쳐, 해당 실․ 국장 및 기관장 또는 부서장을 보좌하기 위한 전담팀을 설치ㆍ운영할 수 있다.<개정 2019.10.1., 2023.1.18.>\n② 제1항에 따라 전담팀을 설치ㆍ운영하는 경우 전담팀의 장은 직군별 3급(상당) 이상 또는 교사직으로 보할 수 있다. 단, 조직의 효율적인 운영을 위하여 부득이한 경우 하위직급으로 보할 수 있다.\n③ 이사장은 전담팀의 장에 대해서 인사규정 시행규칙 별표 4에 따른 직무 등급을 부여할 수 있다.\n④ 제1항에 따른 전담팀의 설치ㆍ운영절차는 한시조직 관리규칙을 준용한다. 다만, 한시조직 설치기간에 관한 사항은 준용하지 아니한다.<개정 2019.1.3.>\n⑤ 제1항에 따른 전담팀 운영기관과 소속 전담팀은 별표 5와 같다.<신설, 2019.1.3.>\n[본조 신설 2015.12.29.]",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "4",
+      "articleId": "제4조",
+      "title": "정원",
+      "breadcrumb": [
+        "⑤ 제1항에 따른 전담팀 운영기관과 소속 전담팀은 별표 5와 같다.<신설, 2019.1.3.>"
+      ],
+      "page": 3,
+      "text": "제4조(정원) ① 규정 제6조제4항에 따른 공단 본부, 소속기관의 직군별, 직급별 정원은 별표 1과 같으며 본부 실․ 국장 및 소속기관장은 본부 실․ 국, 기관별 정원의 범위내에서 부서별로 업무를 고려하여 자율적으로 인원을 조정하여 운영할 수 있다.<개정 2011.1.10., 2012.3.6., 2019.10.1., 2023.1.18.>\n② 이사장은 제1항의 규정에도 불구하고 효율적인 업무추진을 위해 필요한 경우 본부 각 실․국, 소속기관 정원의 10% 범위내에서 탄력적으로 정원을 조정하여 배치할 수 있다.<개정 2023.1.18.>",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "5",
+      "articleId": "제5조",
+      "title": null,
+      "breadcrumb": [],
+      "page": 3,
+      "text": "제5조 삭제 <2009.12.30., 2019.10.1.>",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "6",
+      "articleId": "제6조",
+      "title": "업무분장",
+      "breadcrumb": [
+        "제5조 삭제 <2009.12.30., 2019.10.1.>"
+      ],
+      "page": 3,
+      "text": "제6조(업무분장) ① 규정 제18조에 따른 부서별 업무분장은 별표 2와 같다.<개정 2009.12.30., 2021.1.28., 2021.7.20.>\n② 제1항의 업무분장에 관하여 소관이 불분명할 때에는 다음 각호의 기준에 의하여 소관을 결정한다.<개정 2019.10.1., 2023.1.18.>\n1. 공단 본부 각 실․ 국 또는 소속기관에 국한된 사항에 대하여는 해당 실․ 국장 또는 소속기관의 장이 소관을 결정한다.\n2. 공단 본부 각 실․ 국간에 관련되는 사항에 대하여는 기획관리이사가 관련이사와 협의하여 결정한다.\n③ 부서별 소관업무의 소속직원에 대한 업무분장은 해당 부서장이 지정하여 분장한다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "6의2",
+      "articleId": "제6조의2",
+      "title": "한시적 업무분장",
+      "breadcrumb": [
+        "제5조 삭제 <2009.12.30., 2019.10.1.>",
+        "③ 부서별 소관업무의 소속직원에 대한 업무분장은 해당 부서장이 지정하여 분장한다."
+      ],
+      "page": 3,
+      "text": "제6조의2(한시적 업무분장) 규정 제18조 별표5에 정함이 없는 한시적 업무사항은 이사장이 업무의 내용과 소관기관 및 부서, 적용기간을 따로 정할 수 있다.<개정 2021.1.28., 2021.7.20.>\n[본조신설 2019. 7. 1.]",
+      "needsOriginal": true
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "7",
+      "articleId": "제7조",
+      "title": "직무대리",
+      "breadcrumb": [
+        "제5조 삭제 <2009.12.30., 2019.10.1.>",
+        "③ 부서별 소관업무의 소속직원에 대한 업무분장은 해당 부서장이 지정하여 분장한다."
+      ],
+      "page": 3,
+      "text": "제7조(직무대리) 규정 제17조제1항제3호에 따라 본부 각 실․ 국장은 제3조제1항 각 호, 고용개발원장은 제3조제2항, 직업능력개발원장은 제3조제3항, 지역본부장은 제3조제6항, 지사장은 제3조제7항에 규정된 순서에 따른 하부조직의 장이 직무를 대리한다.<개정 2021.1.28., 2021.7.20.>\n[본조신설 2020. 1. 23.]\n[제6조의3에서 이동 <2021.1.28.>]",
+      "needsOriginal": false
+    },
+    {
+      "section": "본칙",
+      "supplement": null,
+      "articleNo": "8",
+      "articleId": "제8조",
+      "title": "소속기관의 소재지 및 관할구역",
+      "breadcrumb": [
+        "제5조 삭제 <2009.12.30., 2019.10.1.>",
+        "③ 부서별 소관업무의 소속직원에 대한 업무분장은 해당 부서장이 지정하여 분장한다."
+      ],
+      "page": 3,
+      "text": "제8조(소속기관의 소재지 및 관할구역) 규정 제6조제3항에 따른 소속기관의 소재지 및 관할구역은 별표 3과 같고, 규정 제11조제3항에 따른 지역본부장의 관할기관은 별표 4와 같다.<개정 2012.3.6., 2012. 8. 27., 2019.1.3., 2021.1.28.>\n[제7조에서 이동 <2021.1.28.>]",
+      "needsOriginal": true
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "부칙 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 4,
+      "text": "제1조(시행일) 이 규칙은 2009. 4. 20부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "2",
+      "articleId": "부칙 제2조",
+      "title": "경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2009. 4. 20부터 시행한다."
+      ],
+      "page": 4,
+      "text": "제2조(경과조치) 이 규칙 시행 이전에 시행된 사항은 이 규칙에 의하여 시행한 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "부칙 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 4,
+      "text": "제1조(시행일) 이 규칙은 2009. 11. 3. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "부칙 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 4,
+      "text": "제1조(시행일) 이 규칙은 2010. 1. 1. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "부칙 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 4,
+      "text": "제1조(시행일) 이 규칙은 2011. 1. 10. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2012. 3. 6. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "부칙 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 4,
+      "text": "제1조(시행일) 이 규칙은 2012. 8. 27. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "2",
+      "articleId": "부칙 제2조",
+      "title": "경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2012. 8. 27. 부터 시행한다."
+      ],
+      "page": 4,
+      "text": "제2조(경과조치) 이 규칙 시행 이전에 시행된 사항은 이 규칙에 의하여 시행한 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2013. 1. 1. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2013. 3. 1. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2013. 9. 27. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "부칙 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 5,
+      "text": "제1조(시행일) 이 규칙은 2014. 3. 28. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "2",
+      "articleId": "부칙 제2조",
+      "title": "행정지원직의 일반직 전환에 따른 경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2014. 3. 28. 부터 시행한다."
+      ],
+      "page": 5,
+      "text": "제2조(행정지원직의 일반직 전환에 따른 경과조치) 본부 및 소속기관의 행정지원직의 일반직 6급 전환에도 불구하고 미 전환된 인력에 대해서는 자연 감소 시까지 본부 및 소속기관의 일반직 6급 정원 범위 내에서 행정지원직 정원이 따로 있는 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2015년 1월 23일부터 시행한다. 다만, 제3조제1항제1호의 개정 규정과 별표 2의 개정 규정 중 기획관리실의 업무분장에 관한 사항은 2015년 2월 1일부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "부칙 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 5,
+      "text": "제1조(시행일) 이 규칙은 2015. 3. 31. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "2",
+      "articleId": "부칙 제2조",
+      "title": "경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2015. 3. 31. 부터 시행한다."
+      ],
+      "page": 5,
+      "text": "제2조(경과조치) 이 규칙 시행 이전에 시행된 사항은 이 규칙에 의하여 시행한 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "부칙 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 5,
+      "text": "제1조(시행일) 이 규칙은 2016. 1. 1. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "2",
+      "articleId": "부칙 제2조",
+      "title": "전담팀에 대한 경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2016. 1. 1. 부터 시행한다."
+      ],
+      "page": 5,
+      "text": "제2조(전담팀에 대한 경과조치) 종전 규칙에 의해 설치된 본부 기획관리실 정보지원부의 정보보안팀, 고용개발원 정책연구실의 연구지원팀․정책연구팀․직업영역개발팀, 직업능력개발원 능력개발처의 특화훈련팀․맞춤인력팀과 직업지원처의 직업상담팀․운영지원팀은 이 규칙 시행에 따라 설치된 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "1",
+      "articleId": "부칙 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 5,
+      "text": "제1조(시행일) 이 규칙은 2016.09.01. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": "2",
+      "articleId": "부칙 제2조",
+      "title": "고용개발원에 대한 경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2016.09.01. 부터 시행한다."
+      ],
+      "page": 5,
+      "text": "제2조(고용개발원에 대한 경과조치) 이 규칙 개정에 따라 기존 고용개발원 정책연구실 연구지원팀은 고용개발원장 직속의 운영관리팀으로 변경하고, 조사통계부 및 직업영역개발팀은 조사통계팀과 직업영역개발부 신설에 따라 폐지된 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2017. 1. 1. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2017. 2. 1. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2017. 9. 6. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제553호, 2018. 1.10.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2018. 2. 5. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제583호, 2018. 9. 19.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2018. 9. 19. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제589호, 2019. 1. 3.",
+      "articleNo": "1",
+      "articleId": "부칙(제589호, 2019. 1. 3.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 6,
+      "text": "제1조(시행일) 이 규칙은 2019. 1. 3.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제589호, 2019. 1. 3.",
+      "articleNo": "2",
+      "articleId": "부칙(제589호, 2019. 1. 3.) 제2조",
+      "title": "조직신설 및 업무조정에 따른 경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2019. 1. 3.부터 시행한다."
+      ],
+      "page": 6,
+      "text": "제2조(조직신설 및 업무조정에 따른 경과조치) 부칙 제1조에 따른 시행일에도 불구하고 신설기구의 업무분장은 최초 인사 완료시까지 종전의 규칙을 적용한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제610호, 2019. 7. 1",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2019. 7. 1. 부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제620호, 2019.10. 1.",
+      "articleNo": "1",
+      "articleId": "부칙(제620호, 2019.10. 1.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 6,
+      "text": "제1조(시행일) 이 규칙은 2019.10. 1.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제620호, 2019.10. 1.",
+      "articleNo": "2",
+      "articleId": "부칙(제620호, 2019.10. 1.) 제2조",
+      "title": "경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2019.10. 1.부터 시행한다."
+      ],
+      "page": 6,
+      "text": "제2조(경과조치) 부칙 제1조에 따른 시행일에도 불구하고 신설훈련센터(경기맞춤훈련센터, 부산․울산․강원․충북․경북․경남발달장애인훈련센터)의 업무분장 및 관할구역은 해당 훈련센터의 업무개시일 이후부터 적용하고 개시일 이전까지는 종전의 규칙에 따른다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제642호, 2020. 1. 23.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2020. 2. 1.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제660호, 2020. 9. 18.",
+      "articleNo": "1",
+      "articleId": "부칙(제660호, 2020. 9. 18.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 7,
+      "text": "제1조(시행일) 이 규칙은 2020. 9. 18.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제660호, 2020. 9. 18.",
+      "articleNo": "2",
+      "articleId": "부칙(제660호, 2020. 9. 18.) 제2조",
+      "title": "경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2020. 9. 18.부터 시행한다."
+      ],
+      "page": 7,
+      "text": "제2조(경과조치) 부칙 제1조에 따른 시행일에도 불구하고 신설 발달훈련센터(서울남부․세종․경기북부․충남․전남․제주)의 업무분장 및 관할구역은 해당 훈련센터의 업무개시일 이후부터 적용하고 개시일 이전까지는 종전의 규칙에 따른다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제680호, 2021. 1. 28.",
+      "articleNo": null,
+      "articleId": null,
+      "title": "부칙 본문",
+      "breadcrumb": [],
+      "text": "이 규칙은 2021. 2. 1.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제692호, 2021. 7. 20.",
+      "articleNo": "1",
+      "articleId": "부칙(제692호, 2021. 7. 20.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 7,
+      "text": "제1조(시행일) 이 규칙은 2021. 7. 20.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제692호, 2021. 7. 20.",
+      "articleNo": "2",
+      "articleId": "부칙(제692호, 2021. 7. 20.) 제2조",
+      "title": "경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2021. 7. 20.부터 시행한다."
+      ],
+      "page": 7,
+      "text": "제2조(경과조치) 부칙 제1조에 따른 시행일에도 불구하고 신설조직의 업무분장은 업무개시일 이후부터 적용하고 개시일 이전까지는 종전의 규칙을 따른다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제719호, 2021. 12. 31.",
+      "articleNo": "1",
+      "articleId": "부칙(제719호, 2021. 12. 31.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 7,
+      "text": "제1조(시행일) 이 규칙은 2022. 1. 1.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제719호, 2021. 12. 31.",
+      "articleNo": "2",
+      "articleId": "부칙(제719호, 2021. 12. 31.) 제2조",
+      "title": "업무조정 및 지사신설 등에 따른 경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2022. 1. 1.부터 시행한다."
+      ],
+      "page": 7,
+      "text": "제2조(업무조정 및 지사신설 등에 따른 경과조치) ① 부칙 제1조에 따른 시행일에도 불구하고 별표 2 중 본부 부서 간 업무조정 및 별표 3 중 소속기관 등급은 최초 인사 완료시까지 종전의 규칙을 따른다.\n② 신설지사인 서울북부지사, 경기서부지사의 업무분장 및 관할구역은 해당 지사의 업무개시일 이후부터 적용하고 개시일 이전까지는 종전의 규칙을 따른다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "부칙",
+      "supplement": "제719호, 2021. 12. 31.",
+      "articleNo": "3",
+      "articleId": "부칙(제719호, 2021. 12. 31.) 제3조",
+      "title": "다른 내규와의 관계",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2022. 1. 1.부터 시행한다.",
+        "② 신설지사인 서울북부지사, 경기서부지사의 업무분장 및 관할구역은 해당 지사의 업무개시일 이후부터 적용하고 개시일 이전까지는 종전의 규칙을 따른다."
+      ],
+      "page": 7,
+      "text": "제3조(다른 내규와의 관계) 이 규칙 시행 당시 다른 내규에서 종전의 규칙을 인용한 경우에는 이 규칙의 해당 조항을 인용한 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제732호, 2022. 7. 26.",
+      "articleNo": "1",
+      "articleId": "부칙(제732호, 2022. 7. 26.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 7,
+      "text": "제1조(시행일) 이 규칙은 2022. 7. 26.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제747호, 2023. 1. 18.",
+      "articleNo": "1",
+      "articleId": "부칙(제747호, 2023. 1. 18.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 8,
+      "text": "제1조(시행일) 이 규칙은 2023. 1. 18.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제747호, 2023. 1. 18.",
+      "articleNo": "2",
+      "articleId": "부칙(제747호, 2023. 1. 18.) 제2조",
+      "title": "업무조정 및 명칭변경 등에 따른 경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2023. 1. 18.부터 시행한다."
+      ],
+      "page": 8,
+      "text": "제2조(업무조정 및 명칭변경 등에 따른 경과조치) 부칙 제1조에 따른 시행일에도 불구하고 별표 2 중 본부 및 고용개발원 간 업무조정, 기업서비스국 소관 부서 간 업무조정, 고용개발원 소관 부서 간 업무조정 및 별표 3 중 소속기관 명칭변경, 등급은 최초 인사 완료시까지 종전의 규칙을 따른다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "부칙",
+      "supplement": "제747호, 2023. 1. 18.",
+      "articleNo": "3",
+      "articleId": "부칙(제747호, 2023. 1. 18.) 제3조",
+      "title": "다른 내규와의 관계",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2023. 1. 18.부터 시행한다."
+      ],
+      "page": 8,
+      "text": "제3조(다른 내규와의 관계) 이 규칙 시행 당시 다른 내규에서 종전의 규칙을 인용한 경우에는 이 규칙의 해당 조항을 인용한 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제773호, 2023. 12. 28.",
+      "articleNo": "1",
+      "articleId": "부칙(제773호, 2023. 12. 28.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 8,
+      "text": "제1조(시행일) 이 규칙은 2024. 1. 1.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제773호, 2023. 12. 28.",
+      "articleNo": "2",
+      "articleId": "부칙(제773호, 2023. 12. 28.) 제2조",
+      "title": "소속기관 신설 등에 따른 경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024. 1. 1.부터 시행한다."
+      ],
+      "page": 8,
+      "text": "제2조(소속기관 신설 등에 따른 경과조치) ① 부칙 제1조에 따른 시행일에도 불구하고 별표 3 중 직업능력개발원 관할구역은 경기남부직업능력개발원의 업무 개시일 이후부터 적용하며, 그 이전까지는 종전 규칙을 따른다.\n② 부칙 제1조에 따른 시행일에도 불구하고 별표 3 중 지사 관할구역은 경남서부지사의 업무개시일 이후부터 적용하며, 그 이전까지는 종전 규칙을 따른다. 종전 규칙 적용시 인천디지털훈련센터, 천안아산디지털훈련센터는 각각 인천맞춤훈련센터, 천안아산맞춤훈련센터의 예를 따르며, 경남동부지사의 경우 경남지사의 예를 따른다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "부칙",
+      "supplement": "제773호, 2023. 12. 28.",
+      "articleNo": "3",
+      "articleId": "부칙(제773호, 2023. 12. 28.) 제3조",
+      "title": "다른 내규와의 관계",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2024. 1. 1.부터 시행한다.",
+        "② 부칙 제1조에 따른 시행일에도 불구하고 별표 3 중 지사 관할구역은 경남서부지사의 업무개시일 이후부터 적용하며, 그 이전까지는 종전 규칙을 따른다. 종전 규칙 적용시 인천디지털훈련센터, 천안아산디지털훈련센터는 각각 인천맞춤훈련센터, 천안아산맞춤훈련센터의 예를 따르며, 경남동부지사의 경우 경남지사의 예를 따른다."
+      ],
+      "page": 8,
+      "text": "제3조(다른 내규와의 관계) 이 규칙 시행 당시 다른 내규에서 종전의 규칙을 인용한 경우에는 이 규칙의 해당 조항을 인용한 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제831호, 2025. 3. 5.",
+      "articleNo": "1",
+      "articleId": "부칙(제831호, 2025. 3. 5.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 8,
+      "text": "제1조(시행일) 이 규칙은 2025. 3. 10.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제869호, 2026. 1. 14.",
+      "articleNo": "1",
+      "articleId": "부칙(제869호, 2026. 1. 14.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 8,
+      "text": "제1조(시행일) 이 규칙은 2026. 1. 14.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제869호, 2026. 1. 14.",
+      "articleNo": "2",
+      "articleId": "부칙(제869호, 2026. 1. 14.) 제2조",
+      "title": "지역본부 행정운영팀 신설에 따른 경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2026. 1. 14.부터 시행한다."
+      ],
+      "page": 8,
+      "text": "제2조(지역본부 행정운영팀 신설에 따른 경과조치) ① 부칙 제1조에 따른 시행일에도 불구하고 별표 2 내 행정운영팀 업무 중 ‘인사’ 업무는 \\`26년 최초 정기인사 발령일 부터, 그 외 업무는 \\`26. 3. 1. 부터 적용하며, 그 이전까지는 종전 규칙을 따른다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "부칙",
+      "supplement": "제869호, 2026. 1. 14.",
+      "articleNo": "3",
+      "articleId": "부칙(제869호, 2026. 1. 14.) 제3조",
+      "title": "다른 내규와의 관계",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2026. 1. 14.부터 시행한다."
+      ],
+      "page": 8,
+      "text": "제3조(다른 내규와의 관계) 이 규칙 시행 당시 다른 내규에서 종전의 규칙을 인용한 경우에는 이 규칙의 해당 조항을 인용한 것으로 본다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제880호, 2026. 7. 7.",
+      "articleNo": "1",
+      "articleId": "부칙(제880호, 2026. 7. 7.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [],
+      "page": 9,
+      "text": "제1조(시행일) 이 규칙은 2026. 7. 15.부터 시행한다.",
+      "needsOriginal": false
+    },
+    {
+      "section": "부칙",
+      "supplement": "제887호, 2026. 10. 14.",
+      "articleNo": "1",
+      "articleId": "부칙(제887호, 2026. 10. 14.) 제1조",
+      "title": "시행일",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2026. 7. 15.부터 시행한다."
+      ],
+      "page": 9,
+      "text": "제1조(시행일) 이 규칙은 2026. 10. 14.부터 시행한다. 다만, 제3조, 별표1, 별표2, 별표3 및 별표5의 개정규정은 이 규칙에 따른 인사발령을 한 날부터 시행한다.",
+      "needsOriginal": true
+    },
+    {
+      "section": "부칙",
+      "supplement": "제887호, 2026. 10. 14.",
+      "articleNo": "2",
+      "articleId": "부칙(제887호, 2026. 10. 14.) 제2조",
+      "title": "경과조치",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2026. 7. 15.부터 시행한다."
+      ],
+      "page": 9,
+      "text": "제2조(경과조치) 제1조 단서에 따른 시행일 전까지는 종전의 직제, 부서의 명칭, 조직, 직위, 급지 및 정원을 따른다.\n[별표 1] <개정 2009.12.30., 2011.1.10., 2012.3.6., 2012.12.31., 2013.2.25., 2014.3.28. 2015.1.23., 2015.12.29., 2016.12.28., 2017.1.31., 2017.9.6., 2018.1.10., 2018.9.19., 2019.1.3., 2019.10.1., 2020.1.23., 2020.9.18., 2021.1.28., 2021.7.20., 2021.12.31., 2022.7.26., 2023.1.18., 2023.12.28., 2025.3.5., 2026.1.14., 2026.7.7., 2026.10.14.> 정 원 표 (총 괄) (제4조제1항 관련)\n(단위: 명)\n<table>\n<tr><th colspan=\"2\" rowspan=\"2\">구분</th><th rowspan=\"2\">총계</th><th rowspan=\"2\">임원</th><th colspan=\"5\">별정직</th><th colspan=\"6\">일반직, 연구직</th><th rowspan=\"2\">교<br>사<br>직</th><th colspan=\"4\">직업평가직</th></tr>\n<tr><td>소계</td><td>고용<br>개발<br>원장</td><td>1급</td><td>3급</td><td>4급～<br>5급</td><td>소계</td><td>1급<br>상당</td><td>2급<br>상당</td><td>3급<br>상당</td><td>4급～<br>5급<br>상당</td><td>6급<br>상당</td><td>소계</td><td>2급</td><td>3급</td><td>4급～<br>5급</td></tr>\n<tr><td colspan=\"2\">총계</td><td>1,105</td><td>3</td><td>74</td><td>1</td><td>6</td><td>2</td><td>65</td><td>710</td><td>25</td><td>84</td><td>134</td><td>417</td><td>50</td><td>206</td><td>112</td><td>1</td><td>16</td><td>95</td></tr>\n<tr><td colspan=\"2\">본부계</td><td>154</td><td>3</td><td>1</td><td>-</td><td>-</td><td>1</td><td>-</td><td>136</td><td>6</td><td>17</td><td>28</td><td>80</td><td>5</td><td>6</td><td>8</td><td>1</td><td>2</td><td>5</td></tr>\n<tr><td colspan=\"2\">임원</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">비서실</td><td>4</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>4</td><td>-</td><td>-</td><td>1</td><td>1</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">전략기획실</td><td>26</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>26</td><td>1</td><td>4</td><td>7</td><td>14</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>혁신기획부</td><td>7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>7</td><td>1</td><td>1</td><td>2</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>조직예산부</td><td>7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>7</td><td>-</td><td>1</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>AI전략기획부</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>3</td><td>-</td><td>1</td><td>-</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>디지털정보부</td><td>9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>9</td><td>-</td><td>1</td><td>2</td><td>6</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">안전경영실</td><td>21</td><td>-</td><td>1</td><td>-</td><td>-</td><td>1</td><td>-</td><td>20</td><td>1</td><td>3</td><td>4</td><td>11</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>안전보건부</td><td>6</td><td>-</td><td>1</td><td>-</td><td>-</td><td>1</td><td>-</td><td>5</td><td>1</td><td>1</td><td>1</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>운영지원부</td><td>7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>7</td><td>-</td><td>1</td><td>1</td><td>4</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>인재개발부</td><td>8</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>8</td><td>-</td><td>1</td><td>2</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">능력개발국</td><td>14</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>8</td><td>-</td><td>1</td><td>2</td><td>4</td><td>1</td><td>6</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>능력개발운영부</td><td>8</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>-</td><td>-</td><td>1</td><td>1</td><td>-</td><td>6</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>능력개발지원부</td><td>6</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>6</td><td>-</td><td>1</td><td>1</td><td>3</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">소통협력실</td><td>7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>7</td><td>-</td><td>1</td><td>1</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">장애인서비스국</td><td>17</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>9</td><td>1</td><td>1</td><td>2</td><td>5</td><td>-</td><td>-</td><td>8</td><td>1</td><td>2</td><td>5</td></tr>\n<tr><td></td><td>취업지원부</td><td>9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>9</td><td>1</td><td>1</td><td>2</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>직업능력평가부</td><td>8</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>8</td><td>1</td><td>2</td><td>5</td></tr>\n<tr><td colspan=\"2\">기업서비스국</td><td>32</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>32</td><td>1</td><td>3</td><td>6</td><td>21</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>기업지원부</td><td>7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>7</td><td>1</td><td>1</td><td>1</td><td>4</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>고용환경부</td><td>14</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>14</td><td>-</td><td>1</td><td>3</td><td>9</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>고용컨설팅부</td><td>11</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>11</td><td>-</td><td>1</td><td>2</td><td>8</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">일자리안정국</td><td>21</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>21</td><td>1</td><td>3</td><td>3</td><td>14</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>근로지원부</td><td>8</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>8</td><td>1</td><td>1</td><td>1</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>보조공학부</td><td>7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>7</td><td>-</td><td>1</td><td>1</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td></td><td>인식개선부</td><td>6</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>6</td><td>-</td><td>1</td><td>1</td><td>4</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">감사실</td><td>9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>9</td><td>1</td><td>1</td><td>2</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">고용개발원</td><td>33</td><td>-</td><td>2</td><td>1</td><td>-</td><td>-</td><td>1</td><td>30</td><td>1</td><td>3</td><td>6</td><td>20</td><td>-</td><td>-</td><td>1</td><td>-</td><td>-</td><td>1</td></tr>\n<tr><td colspan=\"2\">능력개발원계</td><td>228</td><td>-</td><td>53</td><td>-</td><td>6</td><td>1</td><td>46</td><td>38</td><td>-</td><td>-</td><td>12</td><td>10</td><td>16</td><td>131</td><td>6</td><td>-</td><td>-</td><td>6</td></tr>\n<tr><td colspan=\"2\">경기남부직업<br>능력개발원</td><td>33</td><td>-</td><td>8</td><td>-</td><td>1</td><td>1</td><td>6</td><td>6</td><td>-</td><td>-</td><td>2</td><td>3</td><td>1</td><td>19</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>\n<tr><td colspan=\"2\">일산직업<br>능력개발원</td><td>47</td><td>-</td><td>10</td><td>-</td><td>1</td><td>-</td><td>9</td><td>8</td><td>-</td><td>-</td><td>2</td><td>3</td><td>3</td><td>27</td><td>2</td><td>-</td><td>-</td><td>2</td></tr>\n<tr><td colspan=\"2\">부산직업<br>능력개발원</td><td>41</td><td>-</td><td>9</td><td>-</td><td>1</td><td>-</td><td>8</td><td>6</td><td>-</td><td>-</td><td>2</td><td>1</td><td>3</td><td>25</td><td>1</td><td>-</td><td>-</td><td>1</td></tr>\n<tr><td colspan=\"2\">대구직업<br>능력개발원</td><td>37</td><td>-</td><td>8</td><td>-</td><td>1</td><td>-</td><td>7</td><td>6</td><td>-</td><td>-</td><td>2</td><td>1</td><td>3</td><td>22</td><td>1</td><td>-</td><td>-</td><td>1</td></tr>\n<tr><td colspan=\"2\">대전직업<br>능력개발원</td><td>35</td><td>-</td><td>9</td><td>-</td><td>1</td><td>-</td><td>8</td><td>6</td><td>-</td><td>-</td><td>2</td><td>1</td><td>3</td><td>19</td><td>1</td><td>-</td><td>-</td><td>1</td></tr>\n<tr><td colspan=\"2\">전남직업<br>능력개발원</td><td>35</td><td>-</td><td>9</td><td>-</td><td>1</td><td>-</td><td>8</td><td>6</td><td>-</td><td>-</td><td>2</td><td>1</td><td>3</td><td>19</td><td>1</td><td>-</td><td>-</td><td>1</td></tr>\n<tr><td colspan=\"2\">지역본부계</td><td>221(59)</td><td>-</td><td>11</td><td>-</td><td>-</td><td>-</td><td>11</td><td>156</td><td>6</td><td>19</td><td>27</td><td>94</td><td>10</td><td>24</td><td>30</td><td>-</td><td>6</td><td>24</td></tr>\n<tr><td colspan=\"2\">서울지역본부</td><td>35(6)</td><td>-</td><td>1</td><td>-</td><td>-</td><td>-</td><td>1</td><td>27</td><td>1</td><td>3</td><td>5</td><td>16</td><td>2</td><td>3</td><td>4</td><td>-</td><td>1</td><td>3</td></tr>\n<tr><td colspan=\"2\">부산지역본부</td><td>40(10)</td><td>-</td><td>2</td><td>-</td><td>-</td><td>-</td><td>2</td><td>27</td><td>1</td><td>3</td><td>5</td><td>17</td><td>1</td><td>5</td><td>6</td><td>-</td><td>1</td><td>5</td></tr>\n<tr><td colspan=\"2\">대구지역본부</td><td>35(8)</td><td>-</td><td>2</td><td>-</td><td>-</td><td>-</td><td>2</td><td>24</td><td>1</td><td>3</td><td>5</td><td>13</td><td>2</td><td>3</td><td>6</td><td>-</td><td>1</td><td>5</td></tr>\n<tr><td colspan=\"2\">광주지역본부</td><td>37(14)</td><td>-</td><td>2</td><td>-</td><td>-</td><td>-</td><td>2</td><td>26</td><td>1</td><td>4</td><td>3</td><td>16</td><td>2</td><td>5</td><td>4</td><td>-</td><td>1</td><td>3</td></tr>\n<tr><td colspan=\"2\">대전지역본부</td><td>38(13)</td><td>-</td><td>2</td><td>-</td><td>-</td><td>-</td><td>2</td><td>26</td><td>1</td><td>3</td><td>4</td><td>17</td><td>1</td><td>5</td><td>5</td><td>-</td><td>1</td><td>4</td></tr>\n<tr><td colspan=\"2\">경기지역본부</td><td>36(8)</td><td>-</td><td>2</td><td>-</td><td>-</td><td>-</td><td>2</td><td>26</td><td>1</td><td>3</td><td>5</td><td>15</td><td>2</td><td>3</td><td>5</td><td>-</td><td>1</td><td>4</td></tr>\n<tr><td colspan=\"2\">지사계</td><td>460(123)</td><td>-</td><td>7</td><td>-</td><td>-</td><td>-</td><td>7</td><td>341</td><td>12</td><td>44</td><td>58</td><td>208</td><td>19</td><td>45</td><td>67</td><td>-</td><td>8</td><td>59</td></tr>\n<tr><td colspan=\"2\">서울남부지사</td><td>40(14)</td><td>-</td><td>1</td><td>-</td><td>-</td><td>-</td><td>1</td><td>28</td><td>1</td><td>4</td><td>4</td><td>17</td><td>2</td><td>6</td><td>5</td><td>-</td><td>1</td><td>4</td></tr>\n<tr><td colspan=\"2\">서울동부지사</td><td>25</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>21</td><td>1</td><td>2</td><td>4</td><td>13</td><td>1</td><td>-</td><td>4</td><td>-</td><td>1</td><td>3</td></tr>\n<tr><td colspan=\"2\">서울북부지사</td><td>29(8)</td><td>-</td><td>1</td><td>-</td><td>-</td><td>-</td><td>1</td><td>21</td><td>1</td><td>3</td><td>2</td><td>14</td><td>1</td><td>3</td><td>4</td><td>-</td><td>-</td><td>4</td></tr>\n<tr><td colspan=\"2\">인천지사</td><td>34(12)</td><td>-</td><td>1</td><td>-</td><td>-</td><td>-</td><td>1</td><td>24</td><td>1</td><td>4</td><td>5</td><td>13</td><td>1</td><td>5</td><td>4</td><td>-</td><td>-</td><td>4</td></tr>\n<tr><td colspan=\"2\">울산지사</td><td>27(7)</td><td>-</td><td>1</td><td>-</td><td>-</td><td>-</td><td>1</td><td>20</td><td>-</td><td>3</td><td>3</td><td>13</td><td>1</td><td>2</td><td>4</td><td>-</td><td>-</td><td>4</td></tr>\n<tr><td colspan=\"2\">경기북부지사</td><td>28(6)</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>20</td><td>1</td><td>2</t",
+      "needsOriginal": true,
+      "truncated": true
+    },
+    {
+      "section": "별표",
+      "supplement": null,
+      "articleNo": null,
+      "articleId": null,
+      "annexTitle": "[별표 4] <신설 2019.1.3., 2021.1.28., 2026.10.14.>",
+      "title": "[별표 4] <신설 2019.1.3., 2021.1.28., 2026.10.14.>",
+      "breadcrumb": [
+        "제1조(시행일) 이 규칙은 2026. 7. 15.부터 시행한다.",
+        "□ 보조공학센터"
+      ],
+      "page": 35,
+      "text": "[별표 4] <신설 2019.1.3., 2021.1.28., 2026.10.14.>\n지역본부 관할기관\n| 지역본부 | 관할기관 |\n| --- | --- |\n| 서울지역본부 | 서울특별시,  <u>강원특별자치도</u>에 소재한 지사 |\n| 부산지역본부 | 울산광역시, 경상남도에 소재한 지사 |\n| 대구지역본부 | 경상북도에 소재한 지사 |\n| 대전지역본부 | 충청북도, 충청남도에 소재한 지사 |\n| 광주지역본부 | <u>전남광주통합특별시</u>, <u>전북특별자치도</u>, 제주특별자치도에 소재한 지사 |\n| 경기지역본부 | 인천광역시, 경기도에 소재한 지사 |\n[별표 5] <신설 2019.1.3., 2019.10.3., 2020.9.18., 2021.1.28., 2021.7.20., 2021.12.31.., 2022.7.26., 2023.1.18., 2023.12.28., 2026.1.14., 2026.7.7., 2026.10.14.>\n전담팀 운영기관 및 전담팀\n<table>\n<tr><th colspan=\"3\">운영기관</th><th>소속 전담팀</th></tr>\n<tr><td rowspan=\"6\">본 부</td><td rowspan=\"2\">전략기획실</td><td>혁신기획부</td><td>ESG경영팀</td></tr>\n<tr><td>디지털정보부</td><td>정보보안팀</td></tr>\n<tr><td rowspan=\"2\">기업서비스국</td><td>고용환경부</td><td>BF인증팀</td></tr>\n<tr><td>고용컨설팅부</td><td>직무개발팀</td></tr>\n<tr><td>일자리안정국</td><td>인식개선부</td><td>휠체어배드민턴팀</td></tr>\n<tr><td>감사실</td><td>감사부</td><td>청렴감사팀</td></tr>\n<tr><td rowspan=\"2\">소속기관</td><td>직업능력개발원</td><td>능력개발처</td><td>특화훈련팀, 융복합훈련팀<br>직업상담팀</td></tr>\n<tr><td>지역본부 및 지사</td><td>취업지원부</td><td>판정평가팀</td></tr>\n</table>",
+      "needsOriginal": true
+    }
+  ]
+}
