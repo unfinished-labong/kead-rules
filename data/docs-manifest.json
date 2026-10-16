@@ -1,18 +1,13 @@
 {
-  "collectedAt": "2026-10-15T22:57:03.660Z",
+  "collectedAt": "2026-10-16T22:31:29.794Z",
   "converterVersion": 6,
   "targets": 73,
-  "converted": 72,
-  "reusedFromCache": 67,
-  "totalArticles": 2930,
-  "totalSupplementArticles": 659,
-  "needsOriginal": 1642,
-  "failed": [
-    {
-      "doc": "인사규정 시행규칙",
-      "reason": "첨부 없음"
-    }
-  ],
+  "converted": 73,
+  "reusedFromCache": 72,
+  "totalArticles": 3090,
+  "totalSupplementArticles": 690,
+  "needsOriginal": 1706,
+  "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
@@ -43,6 +38,13 @@
       "ver": 6,
       "articles": 56,
       "supplements": 6
+    },
+    "A83226053BE5CFF6329B": {
+      "docKey": "인사규정시행규칙",
+      "sha256": "d2c63faf5df945ac555155899d93df4b799628774bfeda379bc12a8ddcef0a5e",
+      "ver": 6,
+      "articles": 160,
+      "supplements": 31
     },
     "DFFA52A2441A091BA2B4": {
       "docKey": "노동이사제운영규칙",

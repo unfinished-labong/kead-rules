@@ -74,7 +74,13 @@
   {
     "boardId": "innerlaw",
     "postedDate": "2026-09-29",
-    "files": [],
+    "files": [
+      {
+        "key": "A83226053BE5CFF6329B",
+        "name": "인사규정 시행규칙(260907 개정).hwp",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=A83226053BE5CFF6329B"
+      }
+    ],
     "docName": "인사규정 시행규칙",
     "lawNo": 885,
     "effectiveDate": "2026-09-07",
