@@ -1,19 +1,13 @@
 {
-  "collectedAt": "2026-10-20T22:57:44.742Z",
+  "collectedAt": "2026-10-23T22:54:15.858Z",
   "requested": 44,
-  "collected": 43,
+  "collected": 44,
   "parsedAsBlob": [],
   "paramUsed": {
     "MST": 32,
-    "ID": 11
+    "ID": 12
   },
   "emptyBody": [],
-  "totalArticles": 1648,
-  "failed": [
-    {
-      "name": "장애인 직업능력개발훈련 지원규정",
-      "target": "admrul",
-      "reason": "HTTP 500 [Error]"
-    }
-  ]
+  "totalArticles": 1698,
+  "failed": []
 }

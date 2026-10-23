@@ -3141,17 +3141,17 @@
     "postedDate": "2023-01-02",
     "files": [
       {
-        "key": "B38B659C4263C0E368DE",
-        "name": "2022_규정233_보수규정(221228).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=B38B659C4263C0E368DE"
+        "key": "7A728D15B51B8D922920",
+        "name": "2022_746_보수규정시행규칙(221229).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=7A728D15B51B8D922920"
       }
     ],
-    "docName": "보수규정",
-    "lawNo": 233,
-    "effectiveDate": "2022-12-28",
+    "docName": "보수규정 시행규칙",
+    "lawNo": 746,
+    "effectiveDate": "2023-01-01",
     "dateKind": "시행",
-    "raw": "보수규정(규정 제233호, 시행: 2022. 12. 28.)",
-    "docKey": "보수규정",
+    "raw": "보수규정 시행규칙(규칙 제746호, 시행: 2023. 1. 1.)",
+    "docKey": "보수규정시행규칙",
     "status": "연혁"
   },
   {
@@ -3177,17 +3177,17 @@
     "postedDate": "2023-01-02",
     "files": [
       {
-        "key": "7A728D15B51B8D922920",
-        "name": "2022_746_보수규정시행규칙(221229).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=7A728D15B51B8D922920"
+        "key": "B38B659C4263C0E368DE",
+        "name": "2022_규정233_보수규정(221228).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=B38B659C4263C0E368DE"
       }
     ],
-    "docName": "보수규정 시행규칙",
-    "lawNo": 746,
-    "effectiveDate": "2023-01-01",
+    "docName": "보수규정",
+    "lawNo": 233,
+    "effectiveDate": "2022-12-28",
     "dateKind": "시행",
-    "raw": "보수규정 시행규칙(규칙 제746호, 시행: 2023. 1. 1.)",
-    "docKey": "보수규정시행규칙",
+    "raw": "보수규정(규정 제233호, 시행: 2022. 12. 28.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -3519,24 +3519,6 @@
     "postedDate": "2022-05-04",
     "files": [
       {
-        "key": "4DCD63BAAFEBD9C2D97D",
-        "name": "2022_규정230_안전사고에_관한_임원_문책규정(220504).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=4DCD63BAAFEBD9C2D97D"
-      }
-    ],
-    "docName": "안전사고에 관한 임원 문책규정",
-    "lawNo": 230,
-    "effectiveDate": "2022-05-04",
-    "dateKind": "개정",
-    "raw": "안전사고에 관한 임원 문책규정(규정 제230호, 개정: 2022. 5. 4.)",
-    "docKey": "안전사고에관한임원문책규정",
-    "status": "현행"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-05-04",
-    "files": [
-      {
         "key": "6E2FA14CED6694343309",
         "name": "2022_규정231_인사규정(220504).hwpx",
         "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=6E2FA14CED6694343309"
@@ -3549,6 +3531,24 @@
     "raw": "인사규정(규정 제231호, 개정: 2022. 5. 4.)",
     "docKey": "인사규정",
     "status": "연혁"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2022-05-04",
+    "files": [
+      {
+        "key": "4DCD63BAAFEBD9C2D97D",
+        "name": "2022_규정230_안전사고에_관한_임원_문책규정(220504).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=4DCD63BAAFEBD9C2D97D"
+      }
+    ],
+    "docName": "안전사고에 관한 임원 문책규정",
+    "lawNo": 230,
+    "effectiveDate": "2022-05-04",
+    "dateKind": "개정",
+    "raw": "안전사고에 관한 임원 문책규정(규정 제230호, 개정: 2022. 5. 4.)",
+    "docKey": "안전사고에관한임원문책규정",
+    "status": "현행"
   },
   {
     "boardId": "innerlaw",
