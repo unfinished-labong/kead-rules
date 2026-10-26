@@ -1,29 +1,13 @@
 {
-  "collectedAt": "2026-10-25T22:21:37.053Z",
+  "collectedAt": "2026-10-26T23:35:56.798Z",
   "requested": 44,
-  "collected": 41,
+  "collected": 44,
   "parsedAsBlob": [],
   "paramUsed": {
-    "MST": 29,
+    "MST": 32,
     "ID": 12
   },
   "emptyBody": [],
-  "totalArticles": 1629,
-  "failed": [
-    {
-      "name": "장애인연금법",
-      "target": "law",
-      "reason": "fetch failed [EAI_AGAIN]"
-    },
-    {
-      "name": "장애인연금법 시행령",
-      "target": "law",
-      "reason": "fetch failed [EAI_AGAIN]"
-    },
-    {
-      "name": "장애인연금법 시행규칙",
-      "target": "law",
-      "reason": "fetch failed [EAI_AGAIN]"
-    }
-  ]
+  "totalArticles": 1698,
+  "failed": []
 }
