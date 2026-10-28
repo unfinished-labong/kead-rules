@@ -1,6 +1,24 @@
 [
   {
     "boardId": "innerlaw",
+    "postedDate": "2026-10-27",
+    "files": [
+      {
+        "key": "45F35ABD87A62C5F160E",
+        "name": "중증장애인 근로자 출·퇴근비용 지원 업무처리규칙 (20261020 개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=45F35ABD87A62C5F160E"
+      }
+    ],
+    "docName": "중증장애인 근로자 출·퇴근비용 지원 업무처리규칙",
+    "lawNo": 888,
+    "effectiveDate": "2026-10-20",
+    "dateKind": "개정",
+    "raw": "중증장애인 근로자 출·퇴근비용 지원 업무처리규칙(규칙 제888호, 개정: 2026.10.20.)",
+    "docKey": "중증장애인근로자출퇴근비용지원업무처리규칙",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
     "postedDate": "2026-10-15",
     "files": [
       {
@@ -3584,24 +3602,6 @@
     "dateKind": "개정",
     "raw": "장애인 표준사업장에 대한 지원업무 처리규칙(제725호, 개정: 2022. 3. 24.)",
     "docKey": "장애인표준사업장에대한지원업무처리규칙",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-03-02",
-    "files": [
-      {
-        "key": "B7A58A1FC21A0409E958",
-        "name": "2022_724_장애인_직업능력개발훈련_지원_업무처리규칙(220302).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=B7A58A1FC21A0409E958"
-      }
-    ],
-    "docName": "장애인 직업능력개발훈련 지원 업무처리규칙",
-    "lawNo": 724,
-    "effectiveDate": "2022-03-02",
-    "dateKind": "개정",
-    "raw": "장애인 직업능력개발훈련 지원 업무처리규칙(제724호, 개정: 2022. 3. 2.)",
-    "docKey": "장애인직업능력개발훈련지원업무처리규칙",
     "status": "연혁"
   }
 ]

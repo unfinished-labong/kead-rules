@@ -1,16 +1,23 @@
 {
-  "collectedAt": "2026-10-27T23:29:33.337Z",
+  "collectedAt": "2026-10-28T23:54:26.109Z",
   "converterVersion": 6,
-  "targets": 73,
-  "converted": 73,
+  "targets": 74,
+  "converted": 74,
   "reusedFromCache": 73,
-  "totalArticles": 3090,
-  "totalSupplementArticles": 690,
-  "needsOriginal": 1706,
+  "totalArticles": 3115,
+  "totalSupplementArticles": 696,
+  "needsOriginal": 1716,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
+    "45F35ABD87A62C5F160E": {
+      "docKey": "중증장애인근로자출퇴근비용지원업무처리규칙",
+      "sha256": "ca458dfa05190a0e5bab7071024cad249f172c6ff6655fc26131d073e1b4c001",
+      "ver": 6,
+      "articles": 25,
+      "supplements": 6
+    },
     "8D3D6057FB3BAFD65D4C": {
       "docKey": "직제규정시행규칙",
       "sha256": "b21c4004deefa484381550c1a6bd7e5649a3cc7f08a36c2eafc06174b5c3e15c",
