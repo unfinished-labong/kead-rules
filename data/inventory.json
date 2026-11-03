@@ -3159,17 +3159,17 @@
     "postedDate": "2023-01-02",
     "files": [
       {
-        "key": "7A728D15B51B8D922920",
-        "name": "2022_746_보수규정시행규칙(221229).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=7A728D15B51B8D922920"
+        "key": "B38B659C4263C0E368DE",
+        "name": "2022_규정233_보수규정(221228).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=B38B659C4263C0E368DE"
       }
     ],
-    "docName": "보수규정 시행규칙",
-    "lawNo": 746,
-    "effectiveDate": "2023-01-01",
+    "docName": "보수규정",
+    "lawNo": 233,
+    "effectiveDate": "2022-12-28",
     "dateKind": "시행",
-    "raw": "보수규정 시행규칙(규칙 제746호, 시행: 2023. 1. 1.)",
-    "docKey": "보수규정시행규칙",
+    "raw": "보수규정(규정 제233호, 시행: 2022. 12. 28.)",
+    "docKey": "보수규정",
     "status": "연혁"
   },
   {
@@ -3195,35 +3195,17 @@
     "postedDate": "2023-01-02",
     "files": [
       {
-        "key": "B38B659C4263C0E368DE",
-        "name": "2022_규정233_보수규정(221228).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=B38B659C4263C0E368DE"
+        "key": "7A728D15B51B8D922920",
+        "name": "2022_746_보수규정시행규칙(221229).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=7A728D15B51B8D922920"
       }
     ],
-    "docName": "보수규정",
-    "lawNo": 233,
-    "effectiveDate": "2022-12-28",
+    "docName": "보수규정 시행규칙",
+    "lawNo": 746,
+    "effectiveDate": "2023-01-01",
     "dateKind": "시행",
-    "raw": "보수규정(규정 제233호, 시행: 2022. 12. 28.)",
-    "docKey": "보수규정",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-12-21",
-    "files": [
-      {
-        "key": "1917FFCF79CCB78802DD",
-        "name": "2022_745_보조공학기기 지원 업무처리규칙(221221).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=1917FFCF79CCB78802DD"
-      }
-    ],
-    "docName": "보조공학기기 지원 업무처리규칙",
-    "lawNo": 745,
-    "effectiveDate": "2022-12-21",
-    "dateKind": "제정",
-    "raw": "보조공학기기 지원 업무처리규칙(제745호, 제정: 2022. 12. 21.)",
-    "docKey": "보조공학기기지원업무처리규칙",
+    "raw": "보수규정 시행규칙(규칙 제746호, 시행: 2023. 1. 1.)",
+    "docKey": "보수규정시행규칙",
     "status": "연혁"
   },
   {
@@ -3242,6 +3224,24 @@
     "dateKind": "제정",
     "raw": "근로지원인 지원 업무처리규칙(제744호, 제정: 2022. 12. 19.)",
     "docKey": "근로지원인지원업무처리규칙",
+    "status": "연혁"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2022-12-21",
+    "files": [
+      {
+        "key": "1917FFCF79CCB78802DD",
+        "name": "2022_745_보조공학기기 지원 업무처리규칙(221221).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=1917FFCF79CCB78802DD"
+      }
+    ],
+    "docName": "보조공학기기 지원 업무처리규칙",
+    "lawNo": 745,
+    "effectiveDate": "2022-12-21",
+    "dateKind": "제정",
+    "raw": "보조공학기기 지원 업무처리규칙(제745호, 제정: 2022. 12. 21.)",
+    "docKey": "보조공학기기지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -3321,6 +3321,24 @@
     "postedDate": "2022-10-27",
     "files": [
       {
+        "key": "00280D4645A4D1F1D402",
+        "name": "2022_735_공익신고 처리 및 신고자 보호 등에 관한 운영규칙(221011).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=00280D4645A4D1F1D402"
+      }
+    ],
+    "docName": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙",
+    "lawNo": 735,
+    "effectiveDate": "2022-10-11",
+    "dateKind": "개정",
+    "raw": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙(제735호, 개정: 2022. 10. 11.)",
+    "docKey": "공익신고처리신고자보호등에관한운영규칙",
+    "status": "연혁"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2022-10-27",
+    "files": [
+      {
         "key": "BE43229B5D783C59CFE9",
         "name": "2022_738_보조공학기기 지원 업무처리규칙(221027).hwpx",
         "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=BE43229B5D783C59CFE9"
@@ -3368,24 +3386,6 @@
     "dateKind": "개정",
     "raw": "부패행위 신고 접수처리 및 신고자 보호 등에 관한 운영규칙(제736호, 개정: 2022. 10. 11.)",
     "docKey": "부패행위신고접수처리신고자보호등에관한운영규칙",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-10-27",
-    "files": [
-      {
-        "key": "00280D4645A4D1F1D402",
-        "name": "2022_735_공익신고 처리 및 신고자 보호 등에 관한 운영규칙(221011).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=00280D4645A4D1F1D402"
-      }
-    ],
-    "docName": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙",
-    "lawNo": 735,
-    "effectiveDate": "2022-10-11",
-    "dateKind": "개정",
-    "raw": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙(제735호, 개정: 2022. 10. 11.)",
-    "docKey": "공익신고처리신고자보호등에관한운영규칙",
     "status": "연혁"
   },
   {
