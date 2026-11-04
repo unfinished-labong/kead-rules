@@ -1,16 +1,30 @@
 {
-  "collectedAt": "2026-11-03T02:01:30.462Z",
+  "collectedAt": "2026-11-04T00:23:37.286Z",
   "converterVersion": 6,
   "targets": 74,
   "converted": 74,
-  "reusedFromCache": 74,
+  "reusedFromCache": 72,
   "totalArticles": 3115,
-  "totalSupplementArticles": 696,
-  "needsOriginal": 1716,
+  "totalSupplementArticles": 698,
+  "needsOriginal": 1715,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
+    "949A018DBF3AB429C2D2": {
+      "docKey": "특정업무직운영지원직직원관리규칙",
+      "sha256": "6c6fa98da5b5c71a1b56c502fa268631692a17599e4f93f31b13eafacc33f4a1",
+      "ver": 6,
+      "articles": 39,
+      "supplements": 8
+    },
+    "A3974B14A89D35E1F5B4": {
+      "docKey": "특정업무직사업지원직직원관리규칙",
+      "sha256": "991f18bb34d17cc09c8d462a5bdc764e18581dcc0e577f1995c62d5fb4899a4f",
+      "ver": 6,
+      "articles": 39,
+      "supplements": 8
+    },
     "45F35ABD87A62C5F160E": {
       "docKey": "중증장애인근로자출퇴근비용지원업무처리규칙",
       "sha256": "ca458dfa05190a0e5bab7071024cad249f172c6ff6655fc26131d073e1b4c001",
@@ -80,20 +94,6 @@
       "ver": 6,
       "articles": 14,
       "supplements": 18
-    },
-    "75A2F72214D608B3A92E": {
-      "docKey": "특정업무직운영지원직직원관리규칙",
-      "sha256": "a5a9c22c98ba74bc24699d351cf3024d916ce376ff5b487fce778e4e63a50000",
-      "ver": 6,
-      "articles": 39,
-      "supplements": 7
-    },
-    "010F2FE05F2D5AA7B60A": {
-      "docKey": "특정업무직사업지원직직원관리규칙",
-      "sha256": "9772fb29060761d29e669f20067962c239dc81a359ea9c357567a540e570247c",
-      "ver": 6,
-      "articles": 39,
-      "supplements": 7
     },
     "11B49897367ABC769DAA": {
       "docKey": "회계규정시행규칙",
