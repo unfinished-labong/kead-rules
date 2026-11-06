@@ -1,16 +1,23 @@
 {
-  "collectedAt": "2026-11-06T00:45:57.681Z",
+  "collectedAt": "2026-11-06T23:58:10.986Z",
   "converterVersion": 6,
   "targets": 74,
   "converted": 74,
-  "reusedFromCache": 74,
-  "totalArticles": 3115,
-  "totalSupplementArticles": 698,
-  "needsOriginal": 1715,
+  "reusedFromCache": 73,
+  "totalArticles": 3117,
+  "totalSupplementArticles": 699,
+  "needsOriginal": 1716,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
+    "E1AA0B03CDB543DB73D9": {
+      "docKey": "안전보건관리규정시행규칙",
+      "sha256": "1e6cb4cc278f3698c55785c74ab063cf89a101a89da4064adc23ef4d2d25e46f",
+      "ver": 6,
+      "articles": 76,
+      "supplements": 6
+    },
     "949A018DBF3AB429C2D2": {
       "docKey": "특정업무직운영지원직직원관리규칙",
       "sha256": "6c6fa98da5b5c71a1b56c502fa268631692a17599e4f93f31b13eafacc33f4a1",
@@ -262,13 +269,6 @@
       "ver": 6,
       "articles": 39,
       "supplements": 2
-    },
-    "BB2E83BA397A19DBB7F7": {
-      "docKey": "안전보건관리규정시행규칙",
-      "sha256": "22a1a35a536c73ea34d546f23e5e718ec34aa2f77180d30808a8261dc679906e",
-      "ver": 6,
-      "articles": 74,
-      "supplements": 5
     },
     "FAF3728763D46962B694": {
       "docKey": "직장내장애인인식개선교육업무처리규칙",
