@@ -3585,23 +3585,5 @@
     "raw": "안전사고에 관한 임원 문책규정(규정 제230호, 개정: 2022. 5. 4.)",
     "docKey": "안전사고에관한임원문책규정",
     "status": "현행"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-05-04",
-    "files": [
-      {
-        "key": "6E2FA14CED6694343309",
-        "name": "2022_규정231_인사규정(220504).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=6E2FA14CED6694343309"
-      }
-    ],
-    "docName": "인사규정",
-    "lawNo": 231,
-    "effectiveDate": "2022-05-04",
-    "dateKind": "개정",
-    "raw": "인사규정(규정 제231호, 개정: 2022. 5. 4.)",
-    "docKey": "인사규정",
-    "status": "연혁"
   }
 ]
