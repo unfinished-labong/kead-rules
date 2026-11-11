@@ -1,12 +1,12 @@
 {
-  "collectedAt": "2026-11-10T02:33:51.965Z",
+  "collectedAt": "2026-11-11T00:26:31.325Z",
   "converterVersion": 6,
-  "targets": 74,
-  "converted": 74,
-  "reusedFromCache": 74,
-  "totalArticles": 3117,
-  "totalSupplementArticles": 699,
-  "needsOriginal": 1716,
+  "targets": 73,
+  "converted": 73,
+  "reusedFromCache": 73,
+  "totalArticles": 3110,
+  "totalSupplementArticles": 698,
+  "needsOriginal": 1714,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
@@ -521,13 +521,6 @@
       "ver": 6,
       "articles": 54,
       "supplements": 2
-    },
-    "4DCD63BAAFEBD9C2D97D": {
-      "docKey": "안전사고에관한임원문책규정",
-      "sha256": "453584cb846284c1aa5faecc1d69a2cc6e257552ca1bc95590fe9cc2038192cf",
-      "ver": 6,
-      "articles": 7,
-      "supplements": 1
     }
   }
 }
