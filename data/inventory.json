@@ -1,6 +1,24 @@
 [
   {
     "boardId": "innerlaw",
+    "postedDate": "2026-11-11",
+    "files": [
+      {
+        "key": "8272936540A787C32CF1",
+        "name": "261109_규칙892_개정전문_기간제 근로자 관리규칙.hwp",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=8272936540A787C32CF1"
+      }
+    ],
+    "docName": "기간제 근로자 관리규칙",
+    "lawNo": 892,
+    "effectiveDate": "2026-11-09",
+    "dateKind": "개정",
+    "raw": "기간제 근로자 관리규칙(규칙 제892호, 개정: 2026. 11. 09.)",
+    "docKey": "기간제근로자관리규칙",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
     "postedDate": "2026-11-03",
     "files": [
       {
@@ -519,7 +537,7 @@
     "dateKind": "개정",
     "raw": "기간제 근로자 관리규칙(규칙 제868호, 개정: 2026. 1. 14.)",
     "docKey": "기간제근로자관리규칙",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -3584,24 +3602,6 @@
     "dateKind": "개정",
     "raw": "보조공학기기 지원 업무처리규칙(제727호, 개정: 2022. 5. 11.)",
     "docKey": "보조공학기기지원업무처리규칙",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-05-04",
-    "files": [
-      {
-        "key": "6E2FA14CED6694343309",
-        "name": "2022_규정231_인사규정(220504).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=6E2FA14CED6694343309"
-      }
-    ],
-    "docName": "인사규정",
-    "lawNo": 231,
-    "effectiveDate": "2022-05-04",
-    "dateKind": "개정",
-    "raw": "인사규정(규정 제231호, 개정: 2022. 5. 4.)",
-    "docKey": "인사규정",
     "status": "연혁"
   }
 ]

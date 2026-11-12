@@ -1,16 +1,23 @@
 {
-  "collectedAt": "2026-11-11T00:26:31.325Z",
+  "collectedAt": "2026-11-12T01:49:28.569Z",
   "converterVersion": 6,
   "targets": 73,
   "converted": 73,
-  "reusedFromCache": 73,
-  "totalArticles": 3110,
-  "totalSupplementArticles": 698,
-  "needsOriginal": 1714,
+  "reusedFromCache": 72,
+  "totalArticles": 3111,
+  "totalSupplementArticles": 699,
+  "needsOriginal": 1716,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
+    "8272936540A787C32CF1": {
+      "docKey": "기간제근로자관리규칙",
+      "sha256": "680b1cc0cc8aab8110e5bdb3dd1e0bd695ce74837269987b0f764c44cdd95ff6",
+      "ver": 6,
+      "articles": 42,
+      "supplements": 4
+    },
     "E1AA0B03CDB543DB73D9": {
       "docKey": "안전보건관리규정시행규칙",
       "sha256": "1e6cb4cc278f3698c55785c74ab063cf89a101a89da4064adc23ef4d2d25e46f",
@@ -164,13 +171,6 @@
       "ver": 6,
       "articles": 13,
       "supplements": 34
-    },
-    "B85730677B7A807CE545": {
-      "docKey": "기간제근로자관리규칙",
-      "sha256": "fe01c5aa13e4a557ef48449881b430792914f8b0ba91d5bd3f10a8ba92ec5922",
-      "ver": 6,
-      "articles": 41,
-      "supplements": 3
     },
     "21FE875CFD5B9C268798": {
       "docKey": "장애인취업지원업무처리규칙",
