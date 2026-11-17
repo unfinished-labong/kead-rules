@@ -1,6 +1,60 @@
 [
   {
     "boardId": "innerlaw",
+    "postedDate": "2026-11-16",
+    "files": [
+      {
+        "key": "5AA45E261797374E4BD6",
+        "name": "근로지원인 지원 업무처리규칙 (2026년도 11월 13일 개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=5AA45E261797374E4BD6"
+      }
+    ],
+    "docName": "근로지원인 지원 업무처리규칙",
+    "lawNo": 893,
+    "effectiveDate": "2026-11-13",
+    "dateKind": "개정",
+    "raw": "근로지원인 지원 업무처리규칙(규칙 제893호, 개정일자: 2026.11.13.)",
+    "docKey": "근로지원인지원업무처리규칙",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2026-11-16",
+    "files": [
+      {
+        "key": "01E7A27F45F2A163C601",
+        "name": "임금피크제 운영규정(2026년도 10월 30일 개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=01E7A27F45F2A163C601"
+      }
+    ],
+    "docName": "임금피크제 운영규정",
+    "lawNo": 272,
+    "effectiveDate": "2026-10-30",
+    "dateKind": "개정",
+    "raw": "임금피크제 운영규정(규정 제272호, 개정일: 2026.10.30.)",
+    "docKey": "임금피크제운영규정",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2026-11-16",
+    "files": [
+      {
+        "key": "0B509BE5CD0964B27C35",
+        "name": "인사규정(2026년도 10월 30일 개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=0B509BE5CD0964B27C35"
+      }
+    ],
+    "docName": "인사규정",
+    "lawNo": 271,
+    "effectiveDate": "2026-10-30",
+    "dateKind": "개정",
+    "raw": "인사규정(규정 제271호, 개정일: 2026.10.30.)",
+    "docKey": "인사규정",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
     "postedDate": "2026-11-11",
     "files": [
       {
@@ -231,7 +285,7 @@
     "dateKind": "개정",
     "raw": "인사규정(규정 제266호, 개정: 2026. 7. 31.)",
     "docKey": "인사규정",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -861,7 +915,7 @@
     "dateKind": "개정",
     "raw": "근로지원인 지원 업무처리규칙(규칙 제853호, 개정: 2025. 12. 12.)",
     "docKey": "근로지원인지원업무처리규칙",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -1167,7 +1221,7 @@
     "dateKind": "개정",
     "raw": "임금피크제 운영규정(규정 제256호, 개정: 2025. 7. 3.)",
     "docKey": "임금피크제운영규정",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -3285,24 +3339,6 @@
     "postedDate": "2022-12-21",
     "files": [
       {
-        "key": "41A7EAD206D4413937A0",
-        "name": "2022_744_근로지원인 지원 업무처리규칙(221219).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=41A7EAD206D4413937A0"
-      }
-    ],
-    "docName": "근로지원인 지원 업무처리규칙",
-    "lawNo": 744,
-    "effectiveDate": "2022-12-19",
-    "dateKind": "제정",
-    "raw": "근로지원인 지원 업무처리규칙(제744호, 제정: 2022. 12. 19.)",
-    "docKey": "근로지원인지원업무처리규칙",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-12-21",
-    "files": [
-      {
         "key": "1917FFCF79CCB78802DD",
         "name": "2022_745_보조공학기기 지원 업무처리규칙(221221).hwpx",
         "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=1917FFCF79CCB78802DD"
@@ -3314,6 +3350,24 @@
     "dateKind": "제정",
     "raw": "보조공학기기 지원 업무처리규칙(제745호, 제정: 2022. 12. 21.)",
     "docKey": "보조공학기기지원업무처리규칙",
+    "status": "연혁"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2022-12-21",
+    "files": [
+      {
+        "key": "41A7EAD206D4413937A0",
+        "name": "2022_744_근로지원인 지원 업무처리규칙(221219).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=41A7EAD206D4413937A0"
+      }
+    ],
+    "docName": "근로지원인 지원 업무처리규칙",
+    "lawNo": 744,
+    "effectiveDate": "2022-12-19",
+    "dateKind": "제정",
+    "raw": "근로지원인 지원 업무처리규칙(제744호, 제정: 2022. 12. 19.)",
+    "docKey": "근로지원인지원업무처리규칙",
     "status": "연혁"
   },
   {
@@ -3393,24 +3447,6 @@
     "postedDate": "2022-10-27",
     "files": [
       {
-        "key": "00280D4645A4D1F1D402",
-        "name": "2022_735_공익신고 처리 및 신고자 보호 등에 관한 운영규칙(221011).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=00280D4645A4D1F1D402"
-      }
-    ],
-    "docName": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙",
-    "lawNo": 735,
-    "effectiveDate": "2022-10-11",
-    "dateKind": "개정",
-    "raw": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙(제735호, 개정: 2022. 10. 11.)",
-    "docKey": "공익신고처리신고자보호등에관한운영규칙",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-10-27",
-    "files": [
-      {
         "key": "BE43229B5D783C59CFE9",
         "name": "2022_738_보조공학기기 지원 업무처리규칙(221027).hwpx",
         "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=BE43229B5D783C59CFE9"
@@ -3458,6 +3494,24 @@
     "dateKind": "개정",
     "raw": "부패행위 신고 접수처리 및 신고자 보호 등에 관한 운영규칙(제736호, 개정: 2022. 10. 11.)",
     "docKey": "부패행위신고접수처리신고자보호등에관한운영규칙",
+    "status": "연혁"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2022-10-27",
+    "files": [
+      {
+        "key": "00280D4645A4D1F1D402",
+        "name": "2022_735_공익신고 처리 및 신고자 보호 등에 관한 운영규칙(221011).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=00280D4645A4D1F1D402"
+      }
+    ],
+    "docName": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙",
+    "lawNo": 735,
+    "effectiveDate": "2022-10-11",
+    "dateKind": "개정",
+    "raw": "공익신고 처리 및 신고자 보호 등에 관한 운영규칙(제735호, 개정: 2022. 10. 11.)",
+    "docKey": "공익신고처리신고자보호등에관한운영규칙",
     "status": "연혁"
   },
   {
@@ -3548,60 +3602,6 @@
     "dateKind": "시행",
     "raw": "직제규정(규정 제232호, 개정: 2022. 6. 23., 시행: 2022. 7. 1.)",
     "docKey": "직제규정",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-05-25",
-    "files": [
-      {
-        "key": "E26E13C08F094A932D2B",
-        "name": "2022_730_소송업무처리규칙(220525).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=E26E13C08F094A932D2B"
-      }
-    ],
-    "docName": "소송업무처리규칙",
-    "lawNo": 730,
-    "effectiveDate": "2022-05-25",
-    "dateKind": "개정",
-    "raw": "소송업무처리규칙(제730호, 개정: 2022. 5. 25.)",
-    "docKey": "소송업무처리규칙",
-    "status": "현행"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-05-19",
-    "files": [
-      {
-        "key": "CD55EA00AA4C7D1D3BA0",
-        "name": "2022_729_한국장애인고용공단_공직자의_이해충돌_방지제도_운영지침(220518).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=CD55EA00AA4C7D1D3BA0"
-      }
-    ],
-    "docName": "한국장애인고용공단 공직자의 이해충돌 방지제도 운영지침",
-    "lawNo": 729,
-    "effectiveDate": "2022-05-18",
-    "dateKind": "제정",
-    "raw": "한국장애인고용공단 공직자의 이해충돌 방지제도 운영지침(제729호, 제정: 2022. 5. 18.)",
-    "docKey": "한국장애인고용공단공직자의이해충돌방지제도운영지침",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-05-11",
-    "files": [
-      {
-        "key": "48A526E9A77856934B63",
-        "name": "2022_727_보조공학기기_지원_업무처리규칙(20220511).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=48A526E9A77856934B63"
-      }
-    ],
-    "docName": "보조공학기기 지원 업무처리규칙",
-    "lawNo": 727,
-    "effectiveDate": "2022-05-11",
-    "dateKind": "개정",
-    "raw": "보조공학기기 지원 업무처리규칙(제727호, 개정: 2022. 5. 11.)",
-    "docKey": "보조공학기기지원업무처리규칙",
     "status": "연혁"
   }
 ]

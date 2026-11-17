@@ -1,16 +1,37 @@
 {
-  "collectedAt": "2026-11-15T23:46:10.710Z",
+  "collectedAt": "2026-11-17T02:47:45.926Z",
   "converterVersion": 6,
-  "targets": 73,
-  "converted": 73,
-  "reusedFromCache": 73,
-  "totalArticles": 3111,
+  "targets": 72,
+  "converted": 72,
+  "reusedFromCache": 69,
+  "totalArticles": 3057,
   "totalSupplementArticles": 699,
-  "needsOriginal": 1716,
+  "needsOriginal": 1698,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
+    "5AA45E261797374E4BD6": {
+      "docKey": "근로지원인지원업무처리규칙",
+      "sha256": "4b7695d828b737b8bf04976b9be7467333284d22b373b613a299d3479eeb4148",
+      "ver": 6,
+      "articles": 61,
+      "supplements": 7
+    },
+    "01E7A27F45F2A163C601": {
+      "docKey": "임금피크제운영규정",
+      "sha256": "7e6b3ccc16e737811ac7f25df042887494bc32713377fece40c307374b4a838e",
+      "ver": 6,
+      "articles": 11,
+      "supplements": 0
+    },
+    "0B509BE5CD0964B27C35": {
+      "docKey": "인사규정",
+      "sha256": "1cd5f3f9c5350f610db5f08a1482ea5cc23d44836176ffbd2e899e985f746976",
+      "ver": 6,
+      "articles": 62,
+      "supplements": 19
+    },
     "8272936540A787C32CF1": {
       "docKey": "기간제근로자관리규칙",
       "sha256": "680b1cc0cc8aab8110e5bdb3dd1e0bd695ce74837269987b0f764c44cdd95ff6",
@@ -93,13 +114,6 @@
       "sha256": "909e2c5bd5dbef42243f88853bdb2e8955bd6f45199c5c2ab6290189f5828384",
       "ver": 6,
       "articles": 60,
-      "supplements": 19
-    },
-    "5D1C2D827EC1F3CA9CD9": {
-      "docKey": "인사규정",
-      "sha256": "40a870b0e6970f450bd76f645332f256dd5ab680861ee8511c18313bd7627b94",
-      "ver": 6,
-      "articles": 62,
       "supplements": 19
     },
     "E683C4B65FCE1E47E498": {
@@ -228,13 +242,6 @@
       "articles": 15,
       "supplements": 2
     },
-    "F72704B04A5A14EFB351": {
-      "docKey": "근로지원인지원업무처리규칙",
-      "sha256": "0e94c5d8d0423318114004598f7d3cc224b1f214f3e6790c58f9d17ab8f8c9b1",
-      "ver": 6,
-      "articles": 61,
-      "supplements": 5
-    },
     "AAC8050DA6761086DEEC": {
       "docKey": "회계감사인선임위원회운영규칙",
       "sha256": "d716e3fe1f2f9c4f8eafc21edb4bb08978960ced7fb5a5ad2201bb3137ba079c",
@@ -276,13 +283,6 @@
       "ver": 6,
       "articles": 45,
       "supplements": 3
-    },
-    "58D26C1F0842F2731321": {
-      "docKey": "임금피크제운영규정",
-      "sha256": "0c2469cfed7ae7a5c262e292df5d3fd974279f05186c9c88521e413f1939906a",
-      "ver": 6,
-      "articles": 11,
-      "supplements": 0
     },
     "F2FED015F58F9876D1B8": {
       "docKey": "상임임원복무등에관한규정",
@@ -514,13 +514,6 @@
       "ver": 6,
       "articles": 7,
       "supplements": 0
-    },
-    "E26E13C08F094A932D2B": {
-      "docKey": "소송업무처리규칙",
-      "sha256": "234724a316a9babe6f259a3e2ddaa974b03990ee942437e88b47c07fad8d6a7c",
-      "ver": 6,
-      "articles": 54,
-      "supplements": 2
     }
   }
 }
