@@ -1,16 +1,30 @@
 {
-  "collectedAt": "2026-11-23T00:36:57.172Z",
+  "collectedAt": "2026-11-24T04:37:00.787Z",
   "converterVersion": 6,
   "targets": 72,
   "converted": 72,
-  "reusedFromCache": 72,
+  "reusedFromCache": 70,
   "totalArticles": 3057,
-  "totalSupplementArticles": 699,
+  "totalSupplementArticles": 700,
   "needsOriginal": 1698,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
+    "B2C25115794C7769045B": {
+      "docKey": "내부통제운영규칙",
+      "sha256": "e7e836badf6d3eecc58be8949148af8948cd4edf5ffbd19e86f08085afa0a5ad",
+      "ver": 6,
+      "articles": 27,
+      "supplements": 0
+    },
+    "AA0E3DF8BAC26B6F292D": {
+      "docKey": "기록물관리규칙",
+      "sha256": "5549ec6caa637dc6668415c063edfb912db9ee87c9c93befefe38325d1fd4420",
+      "ver": 6,
+      "articles": 44,
+      "supplements": 2
+    },
     "5AA45E261797374E4BD6": {
       "docKey": "근로지원인지원업무처리규칙",
       "sha256": "4b7695d828b737b8bf04976b9be7467333284d22b373b613a299d3479eeb4148",
@@ -255,20 +269,6 @@
       "ver": 6,
       "articles": 13,
       "supplements": 0
-    },
-    "4E4EB0F5CC2356223464": {
-      "docKey": "내부통제운영규칙",
-      "sha256": "864d20ac77627cbd1230fbc392eec27aa7afbb2346c48f4e5a4e30c462e675df",
-      "ver": 6,
-      "articles": 27,
-      "supplements": 0
-    },
-    "0B28F02CE3751792BB06": {
-      "docKey": "기록물관리규칙",
-      "sha256": "0a6de007a1cc57fd7ade72f8d5703cc48375c8e9c65f97410a380480c3d85548",
-      "ver": 6,
-      "articles": 44,
-      "supplements": 1
     },
     "3BEFC934E036B57F2309": {
       "docKey": "사무관리규칙",

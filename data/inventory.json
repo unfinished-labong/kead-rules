@@ -1,6 +1,42 @@
 [
   {
     "boardId": "innerlaw",
+    "postedDate": "2026-11-19",
+    "files": [
+      {
+        "key": "B2C25115794C7769045B",
+        "name": "내부통제 운영규칙 (20261116 개정).hwp",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=B2C25115794C7769045B"
+      }
+    ],
+    "docName": "내부통제 운영규칙",
+    "lawNo": 896,
+    "effectiveDate": "2026-11-16",
+    "dateKind": "개정",
+    "raw": "내부통제 운영규칙(규칙 제896호, 개정: 2026.11.16.)",
+    "docKey": "내부통제운영규칙",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2026-11-19",
+    "files": [
+      {
+        "key": "AA0E3DF8BAC26B6F292D",
+        "name": "기록물관리규칙 (20261116 개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=AA0E3DF8BAC26B6F292D"
+      }
+    ],
+    "docName": "기록물관리규칙",
+    "lawNo": 894,
+    "effectiveDate": "2026-11-16",
+    "dateKind": "개정",
+    "raw": "기록물관리규칙(규칙 제 894호, 개정: 2026.11.16.)",
+    "docKey": "기록물관리규칙",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
     "postedDate": "2026-11-16",
     "files": [
       {
@@ -1023,7 +1059,7 @@
     "dateKind": "제정",
     "raw": "내부통제 운영규칙(규칙 제848호, 제정: 2025. 10. 1.)",
     "docKey": "내부통제운영규칙",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -1113,7 +1149,7 @@
     "dateKind": "제정",
     "raw": "기록물관리규칙(규칙 제844호, 제정: 2025. 7. 22.)",
     "docKey": "기록물관리규칙",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -3566,42 +3602,6 @@
     "dateKind": "개정",
     "raw": "직제규정 시행규칙(제732호, 개정: 2022. 7. 26.)",
     "docKey": "직제규정시행규칙",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-07-01",
-    "files": [
-      {
-        "key": "AC2370A28747834A9730",
-        "name": "2022_731_기간제 및 특정업무직 근로자 관리규칙(220701).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=AC2370A28747834A9730"
-      }
-    ],
-    "docName": "기간제 및 특정업무직 근로자 관리규칙",
-    "lawNo": 731,
-    "effectiveDate": "2022-07-01",
-    "dateKind": "개정",
-    "raw": "기간제 및 특정업무직 근로자 관리규칙(제731호, 개정: 2022. 7. 1.)",
-    "docKey": "기간제특정업무직근로자관리규칙",
-    "status": "폐지"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-06-23",
-    "files": [
-      {
-        "key": "79304F7755DCDCC07945",
-        "name": "2022_규정232_직제규정(220629).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=79304F7755DCDCC07945"
-      }
-    ],
-    "docName": "직제규정",
-    "lawNo": 232,
-    "effectiveDate": "2022-06-23",
-    "dateKind": "시행",
-    "raw": "직제규정(규정 제232호, 개정: 2022. 6. 23., 시행: 2022. 7. 1.)",
-    "docKey": "직제규정",
     "status": "연혁"
   }
 ]
