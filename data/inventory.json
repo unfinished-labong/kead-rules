@@ -1,6 +1,42 @@
 [
   {
     "boardId": "innerlaw",
+    "postedDate": "2026-11-25",
+    "files": [
+      {
+        "key": "285EDE002F30ABACB52D",
+        "name": "인사규정 시행규칙 (20261120 개정).hwpx",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=285EDE002F30ABACB52D"
+      }
+    ],
+    "docName": "인사규정 시행규칙",
+    "lawNo": 898,
+    "effectiveDate": "2026-11-20",
+    "dateKind": "개정",
+    "raw": "인사규정 시행규칙(규칙 제898호, 개정: 2026.11.20.)",
+    "docKey": "인사규정시행규칙",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
+    "postedDate": "2026-11-25",
+    "files": [
+      {
+        "key": "5992DB248DA3952332A0",
+        "name": "당직및비상근무규칙 (20261120 개정).hwp",
+        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=5992DB248DA3952332A0"
+      }
+    ],
+    "docName": "당직 및 비상근무규칙",
+    "lawNo": 897,
+    "effectiveDate": "2026-11-20",
+    "dateKind": "개정",
+    "raw": "당직 및 비상근무규칙(규칙 제897호, 개정: 2026.11.20.)",
+    "docKey": "당직비상근무규칙",
+    "status": "현행"
+  },
+  {
+    "boardId": "innerlaw",
     "postedDate": "2026-11-19",
     "files": [
       {
@@ -267,7 +303,7 @@
     "dateKind": "개정",
     "raw": "인사규정 시행규칙(규칙 제885호, 개정: 2026. 9. 7.)",
     "docKey": "인사규정시행규칙",
-    "status": "현행"
+    "status": "연혁"
   },
   {
     "boardId": "innerlaw",
@@ -3567,41 +3603,5 @@
     "raw": "신분증규칙(제734호, 개정: 2022. 9. 28.)",
     "docKey": "신분증규칙",
     "status": "현행"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-09-05",
-    "files": [
-      {
-        "key": "6E8018CCA56F8AE3428C",
-        "name": "2022_733_개정전문_한국장애인고용공단 임직원 행동강령(220905).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=6E8018CCA56F8AE3428C"
-      }
-    ],
-    "docName": "한국장애인고용공단 임직원 행동강령",
-    "lawNo": 733,
-    "effectiveDate": "2022-09-05",
-    "dateKind": "개정",
-    "raw": "한국장애인고용공단 임직원 행동강령(제733호, 개정: 2022. 9. 5.)",
-    "docKey": "한국장애인고용공단임직원행동강령",
-    "status": "연혁"
-  },
-  {
-    "boardId": "innerlaw",
-    "postedDate": "2022-07-26",
-    "files": [
-      {
-        "key": "EC426BCD36D1DBFB48B0",
-        "name": "2022_732_개정전문_직제규정 시행규칙(220726).hwpx",
-        "url": "https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=EC426BCD36D1DBFB48B0"
-      }
-    ],
-    "docName": "직제규정 시행규칙",
-    "lawNo": 732,
-    "effectiveDate": "2022-07-26",
-    "dateKind": "개정",
-    "raw": "직제규정 시행규칙(제732호, 개정: 2022. 7. 26.)",
-    "docKey": "직제규정시행규칙",
-    "status": "연혁"
   }
 ]

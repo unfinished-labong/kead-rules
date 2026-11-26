@@ -1,13 +1,19 @@
 {
-  "collectedAt": "2026-11-25T03:23:22.944Z",
+  "collectedAt": "2026-11-26T02:43:08.998Z",
   "requested": 44,
-  "collected": 44,
+  "collected": 43,
   "parsedAsBlob": [],
   "paramUsed": {
-    "MST": 32,
+    "MST": 31,
     "ID": 12
   },
   "emptyBody": [],
-  "totalArticles": 1698,
-  "failed": []
+  "totalArticles": 1584,
+  "failed": [
+    {
+      "name": "장애인고용촉진 및 직업재활법",
+      "target": "law",
+      "reason": "fetch failed [EAI_AGAIN]"
+    }
+  ]
 }

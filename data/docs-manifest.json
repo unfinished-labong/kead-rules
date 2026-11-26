@@ -1,16 +1,30 @@
 {
-  "collectedAt": "2026-11-25T03:23:23.393Z",
+  "collectedAt": "2026-11-26T02:43:16.594Z",
   "converterVersion": 6,
-  "targets": 72,
-  "converted": 72,
-  "reusedFromCache": 72,
-  "totalArticles": 3057,
-  "totalSupplementArticles": 700,
-  "needsOriginal": 1698,
+  "targets": 73,
+  "converted": 73,
+  "reusedFromCache": 71,
+  "totalArticles": 3084,
+  "totalSupplementArticles": 713,
+  "needsOriginal": 1791,
   "failed": [],
   "lowYield": [],
   "mergeCandidates": [],
   "byKey": {
+    "285EDE002F30ABACB52D": {
+      "docKey": "인사규정시행규칙",
+      "sha256": "67ebd10aaece0149b5da51eda8d7c9b10259243105d7b67460b07054d584e8a4",
+      "ver": 6,
+      "articles": 160,
+      "supplements": 32
+    },
+    "5992DB248DA3952332A0": {
+      "docKey": "당직비상근무규칙",
+      "sha256": "a9cc48b827bc673acc59eb2ea1d3790d487906ad48d1740d186b14082a4ee914",
+      "ver": 6,
+      "articles": 27,
+      "supplements": 12
+    },
     "B2C25115794C7769045B": {
       "docKey": "내부통제운영규칙",
       "sha256": "e7e836badf6d3eecc58be8949148af8948cd4edf5ffbd19e86f08085afa0a5ad",
@@ -108,13 +122,6 @@
       "ver": 6,
       "articles": 56,
       "supplements": 6
-    },
-    "A83226053BE5CFF6329B": {
-      "docKey": "인사규정시행규칙",
-      "sha256": "d2c63faf5df945ac555155899d93df4b799628774bfeda379bc12a8ddcef0a5e",
-      "ver": 6,
-      "articles": 160,
-      "supplements": 31
     },
     "DFFA52A2441A091BA2B4": {
       "docKey": "노동이사제운영규칙",
